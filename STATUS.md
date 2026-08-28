@@ -23,10 +23,17 @@ SEO基盤: OGP・JSON-LD（BlogPosting）・robots.txt・sitemap・canonical 実
 - [ ] デプロイ（ユーザーのアカウント作業待ち）
 - [ ] ASP登録（ユーザー作業待ち）→ `src/data/affiliates.json` の affiliateUrl に貼るだけ
 
-## ユーザーにお願いしたい作業（ブロッカー）
+## 公開情報（2026-08-28 デプロイ完了）
 
-1. **GitHubリポジトリ作成 & push** → Cloudflare Pages（無料）で「Gitに接続」するだけで自動デプロイが組めます。ローカルコミットは済んでいるので、リモートURLをもらえればpushはClaudeがやります
-2. **公開後にA8.netへ登録**（審査は緩い）→ U-NEXT / DMM TV等の提携申請 → 発行されたリンクを教えてもらえれば全記事に反映します
+- 本番URL: https://animeblog.kyoukarabokuha.workers.dev/
+- GitHub: https://github.com/sudakottamon/animeblog （main へ push で自動デプロイ）
+- 認証: gh CLI = sudakottamon。リモートURLにユーザー名を明示して認証固定済み
+- 以降、各ティックの末尾で commit + push する（自動反映）
+
+## ユーザーにお願いしたい作業（残り）
+
+1. **A8.netへ登録**（無料・審査緩め）→ U-NEXT / DMM TV / ABEMA等の広告主に提携申請 → 発行リンクをClaudeに渡す（affiliates.jsonに反映して全記事に適用）
+2. Google Search Console 登録（sitemap送信でインデックス促進）
 3. 記事20〜30本たまったら もしもアフィリエイト / Amazonアソシエイト / AdSense 申請
 
 ## 次のティックでやること
