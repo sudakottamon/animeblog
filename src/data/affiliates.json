@@ -56,6 +56,15 @@
       "url": "https://www.amazon.co.jp/primevideo",
       "affiliateUrl": null
     },
+    "disney": {
+      "name": "Disney+（ディズニープラス）",
+      "price": "月額1,250円（スタンダード）／1,670円（プレミアム）",
+      "freeTrial": "なし",
+      "point": null,
+      "strength": "ディズニー・マーベルに加え、話題アニメの独占・同時配信が増加中",
+      "url": "https://www.disneyplus.com/ja-jp",
+      "affiliateUrl": null
+    },
     "netflix": {
       "name": "Netflix",
       "price": "月額890円〜（広告つき）",
