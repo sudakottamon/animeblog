@@ -4,6 +4,12 @@ import { getCollection } from 'astro:content';
 
 const articles = (await getCollection('articles', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const groups = [
+  { key: 'watch', label: '作品別：どこで見れる？' },
+  { key: 'ranking', label: 'おすすめランキング' },
+  { key: 'guide', label: 'ガイド・コラム' },
+] as const;
 ---
 <Base
   title="アニメの配信情報・VOD比較"
@@ -14,13 +20,21 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft))
 
   <p><a class="btn-affiliate" href="/vod/">アニメ見放題VOD徹底比較を見る</a></p>
 
-  <h2 id="latest">新着記事</h2>
-  <ul class="card-list">
-    {articles.map((a) => (
-      <li>
-        <a href={`/${a.id}/`}>{a.data.title}</a>
-        <p class="desc">{a.data.description}</p>
-      </li>
-    ))}
-  </ul>
+  <span id="latest"></span>
+  {groups.map((g) => {
+    const list = articles.filter((a) => a.data.category === g.key);
+    return list.length > 0 && (
+      <>
+        <h2>{g.label}</h2>
+        <ul class="card-list">
+          {list.map((a) => (
+            <li>
+              <a href={`/${a.id}/`}>{a.data.title}</a>
+              <p class="desc">{a.data.description}</p>
+            </li>
+          ))}
+        </ul>
+      </>
+    );
+  })}
 </Base>
