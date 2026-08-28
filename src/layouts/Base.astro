@@ -5,8 +5,10 @@ interface Props {
   title: string;
   description: string;
   showPr?: boolean;
+  ogType?: 'website' | 'article';
+  jsonLd?: Record<string, unknown>;
 }
-const { title, description, showPr = true } = Astro.props;
+const { title, description, showPr = true, ogType = 'website', jsonLd } = Astro.props;
 const siteName = 'アニメ配信ナビ';
 ---
 <html lang="ja">
@@ -17,6 +19,14 @@ const siteName = 'アニメ配信ナビ';
     <meta name="description" content={description} />
     <link rel="canonical" href={Astro.url} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body>
     <header class="site-header">
