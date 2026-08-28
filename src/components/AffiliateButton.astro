@@ -10,7 +10,11 @@ const s = (data.services as Record<string, any>)[service];
 if (!s) throw new Error(`unknown service id: ${service}`);
 const href = s.affiliateUrl ?? s.url;
 const rel = s.affiliateUrl ? 'sponsored nofollow noopener' : 'noopener';
-const text = label ?? `${s.name} 公式サイトはこちら`;
+const text = label ?? `${s.name} 公式サイトを見る`;
+const hasTrial = s.freeTrial && s.freeTrial !== 'なし';
 ---
-<a class="btn-affiliate" href={href} rel={rel} target="_blank">{text}</a>
-<p class="btn-caption">{s.freeTrial ? `${s.freeTrial}／` : ''}{s.price}</p>
+<div class="cta">
+  {hasTrial && <p class="btn-micro">＼ {s.freeTrial} ／</p>}
+  <a class="btn-affiliate" href={href} rel={rel} target="_blank">{text}</a>
+  <p class="btn-caption">{s.price}</p>
+</div>
