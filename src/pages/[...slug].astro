@@ -16,6 +16,18 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content } = await render(article);
 const d = article.data;
+
+const all = await getCollection('articles', ({ data }) => !data.draft);
+const related = all
+  .filter((a) => a.id !== article.id)
+  .sort((a, b) => {
+    const score = (x: typeof a) =>
+      (x.data.category === d.category ? 2 : 0) +
+      x.data.services.filter((s) => d.services.includes(s)).length * 0.1 +
+      x.data.pubDate.valueOf() / 1e15;
+    return score(b) - score(a);
+  })
+  .slice(0, 4);
 const fmt = (date: Date) =>
   `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
 
@@ -64,6 +76,25 @@ const jsonLd = {
     </div>
 
     <p><a href="/vod/">→ アニメに強いVODの比較まとめはこちら</a></p>
+
+    {related.length > 0 && (
+      <>
+        <h2>あわせて読む</h2>
+        <ul class="post-list">
+          {related.map((a) => (
+            <li>
+              <a class="post-card" href={`/${a.id}/`}>
+                <Thumb category={a.data.category} />
+                <div class="post-body">
+                  <span class="post-title">{a.data.title}</span>
+                  <span class="post-desc">{a.data.description}</span>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
   </article>
 
   <script>
