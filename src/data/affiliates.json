@@ -1,0 +1,70 @@
+{
+  "_readme": "アフィリエイトリンク集中管理ファイル。ASP登録後、affiliateUrl にアフィリエイトリンクを貼るだけで全記事に反映される。affiliateUrl が null の間は公式URLに直リンク（rel=sponsoredなし）。",
+  "lastVerified": "2026-08-28",
+  "services": {
+    "unext": {
+      "name": "U-NEXT",
+      "price": "月額2,189円（税込）",
+      "freeTrial": "31日間無料",
+      "point": "毎月1,200ポイント付与（継続時）",
+      "strength": "アニメ見放題作品数が国内最大級。最新作レンタルもポイントで実質無料",
+      "url": "https://video.unext.jp/",
+      "affiliateUrl": null
+    },
+    "danime": {
+      "name": "dアニメストア",
+      "price": "月額550円（税込）",
+      "freeTrial": "初月無料（初回のみ）",
+      "point": null,
+      "strength": "アニメ特化で約6,000作品。コスパ最強。声優・2.5次元コンテンツも充実",
+      "url": "https://animestore.docomo.ne.jp/",
+      "affiliateUrl": null
+    },
+    "dmmtv": {
+      "name": "DMM TV",
+      "price": "月額550円（税込）",
+      "freeTrial": "30日間無料＋550pt付与",
+      "point": "DMMポイント550pt（無料期間中）",
+      "strength": "新作アニメの網羅率が高くdアニメと同価格。エンタメ全般も見られる",
+      "url": "https://tv.dmm.com/",
+      "affiliateUrl": null
+    },
+    "hulu": {
+      "name": "Hulu",
+      "price": "月額1,026円（税込）",
+      "freeTrial": "なし",
+      "point": null,
+      "strength": "日テレ系アニメ・海外ドラマに強い。リアルタイム配信あり",
+      "url": "https://www.hulu.jp/",
+      "affiliateUrl": null
+    },
+    "abema": {
+      "name": "ABEMAプレミアム",
+      "price": "月額1,080円（税込）",
+      "freeTrial": "あり（時期により変動）",
+      "point": null,
+      "strength": "地上波同時・先行配信が強み。無料プランでも一部視聴可",
+      "url": "https://abema.tv/",
+      "affiliateUrl": null
+    },
+    "prime": {
+      "name": "Amazonプライム・ビデオ",
+      "price": "月額600円／年額5,900円（税込）",
+      "freeTrial": "30日間無料",
+      "point": null,
+      "strength": "プライム特典込みで最安級。話題作の独占配信も",
+      "url": "https://www.amazon.co.jp/primevideo",
+      "affiliateUrl": null
+    },
+    "netflix": {
+      "name": "Netflix",
+      "price": "月額890円〜（広告つき）",
+      "freeTrial": "なし",
+      "point": null,
+      "strength": "オリジナルアニメと独占配信。アフィリエイトプログラムなし",
+      "url": "https://www.netflix.com/jp/",
+      "affiliateUrl": null,
+      "noAffiliateProgram": true
+    }
+  }
+}

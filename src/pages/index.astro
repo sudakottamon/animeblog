@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articles', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<Base
+  title="アニメの配信情報・VOD比較"
+  description="「このアニメはどこで見れる？」に最速で答える配信情報サイト。動画配信サービスの比較・おすすめアニメランキングも。"
+>
+  <h1>アニメ配信ナビ</h1>
+  <p>「このアニメはどこで見れる？」に最速で答える配信情報サイトです。作品ごとの配信サービスまとめと、アニメ視聴に強いVODの比較をお届けします。</p>
+
+  <p><a class="btn-affiliate" href="/vod/">アニメ見放題VOD徹底比較を見る</a></p>
+
+  <h2 id="latest">新着記事</h2>
+  <ul class="card-list">
+    {articles.map((a) => (
+      <li>
+        <a href={`/${a.id}/`}>{a.data.title}</a>
+        <p class="desc">{a.data.description}</p>
+      </li>
+    ))}
+  </ul>
+</Base>

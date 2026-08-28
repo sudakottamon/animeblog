@@ -1,0 +1,29 @@
+---
+import data from '../data/affiliates.json';
+
+interface Props {
+  only?: string[];
+}
+const { only } = Astro.props;
+const entries = Object.entries(data.services as Record<string, any>).filter(
+  ([id]) => !only || only.includes(id)
+);
+---
+<div class="table-wrap">
+  <table class="vod-table">
+    <thead>
+      <tr><th>サービス</th><th>月額</th><th>無料期間</th><th>特徴</th></tr>
+    </thead>
+    <tbody>
+      {entries.map(([id, s]) => (
+        <tr>
+          <td><a href={s.affiliateUrl ?? s.url} rel={s.affiliateUrl ? 'sponsored nofollow noopener' : 'noopener'} target="_blank">{s.name}</a></td>
+          <td>{s.price}</td>
+          <td>{s.freeTrial ?? 'なし'}</td>
+          <td>{s.strength}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+<p class="meta">※{data.lastVerified}時点の情報。最新の料金・配信状況は各公式サイトでご確認ください。</p>

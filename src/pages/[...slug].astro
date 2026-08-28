@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import AffiliateButton from '../components/AffiliateButton.astro';
+import VodTable from '../components/VodTable.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) => !data.draft);
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+const d = article.data;
+const fmt = (date: Date) =>
+  `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
+---
+<Base title={d.title} description={d.description}>
+  <article>
+    <h1>{d.title}</h1>
+    <p class="meta">
+      公開: {fmt(d.pubDate)}
+      {d.updatedDate && ` ／ 更新: ${fmt(d.updatedDate)}`}
+    </p>
+    <Content />
+
+    {d.services.length > 0 && (
+      <>
+        <h2>この作品が見られる配信サービス</h2>
+        <VodTable only={d.services} />
+        {d.services.map((s) => <AffiliateButton service={s} />)}
+      </>
+    )}
+
+    <div class="notice">
+      配信状況・料金は記事作成時点の情報です。配信は予告なく終了する場合があるため、
+      最新の状況は各サービスの公式サイトでご確認ください。
+    </div>
+
+    <p><a href="/vod/">→ アニメ見放題VOD徹底比較はこちら</a></p>
+  </article>
+</Base>

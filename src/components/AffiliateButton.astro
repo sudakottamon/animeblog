@@ -1,0 +1,16 @@
+---
+import data from '../data/affiliates.json';
+
+interface Props {
+  service: string;
+  label?: string;
+}
+const { service, label } = Astro.props;
+const s = (data.services as Record<string, any>)[service];
+if (!s) throw new Error(`unknown service id: ${service}`);
+const href = s.affiliateUrl ?? s.url;
+const rel = s.affiliateUrl ? 'sponsored nofollow noopener' : 'noopener';
+const text = label ?? `${s.name} 公式サイトはこちら`;
+---
+<a class="btn-affiliate" href={href} rel={rel} target="_blank">{text}</a>
+<p class="btn-caption">{s.freeTrial ? `${s.freeTrial}／` : ''}{s.price}</p>
