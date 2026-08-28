@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Sidebar from '../components/Sidebar.astro';
 
 interface Props {
   title: string;
@@ -7,8 +8,9 @@ interface Props {
   showPr?: boolean;
   ogType?: 'website' | 'article';
   jsonLd?: Record<string, unknown>;
+  noSidebar?: boolean;
 }
-const { title, description, showPr = true, ogType = 'website', jsonLd } = Astro.props;
+const { title, description, showPr = true, ogType = 'website', jsonLd, noSidebar = false } = Astro.props;
 const siteName = 'アニメ配信ナビ';
 ---
 <html lang="ja">
@@ -34,17 +36,18 @@ const siteName = 'アニメ配信ナビ';
         <a class="site-title" href="/">アニメ<span>配信</span>ナビ</a>
         <nav class="site-nav">
           <a href="/vod/">VOD比較</a>
-          <a href="/#latest">新着記事</a>
-          <a href="/about/">運営者情報</a>
+          <a href="/#cat-ranking">ランキング</a>
+          <a href="/about/">運営者</a>
         </nav>
       </div>
     </header>
     {showPr && <div class="pr-note">本ページはプロモーション（アフィリエイト広告）が含まれています</div>}
-    <main>
-      <div class="container">
+    <div class={noSidebar ? 'layout layout-single' : 'layout'}>
+      <main class="main-col">
         <slot />
-      </div>
-    </main>
+      </main>
+      {!noSidebar && <Sidebar />}
+    </div>
     <footer class="site-footer">
       <div>
         <a href="/about/">運営者情報</a>

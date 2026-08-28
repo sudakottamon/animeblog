@@ -1,0 +1,25 @@
+---
+interface Props {
+  category: string;
+  title?: string;
+  hero?: boolean;
+}
+const { category, title, hero = false } = Astro.props;
+const metaMap: Record<string, { label: string; bg: string }> = {
+  watch: { label: 'どこで見れる？', bg: '#33608a' },
+  ranking: { label: 'ランキング', bg: '#b2554c' },
+  guide: { label: 'ガイド', bg: '#4f7d52' },
+  vod: { label: 'VOD比較', bg: '#c77b2c' },
+};
+const m = metaMap[category] ?? { label: 'コラム', bg: '#666' };
+---
+{hero ? (
+  <div class="thumb-hero" style={`background:${m.bg}`}>
+    <span class="thumb-hero-label">{m.label}</span>
+    {title && <span class="thumb-hero-title">{title}</span>}
+  </div>
+) : (
+  <div class="thumb" style={`background:${m.bg}`}>
+    <span class="thumb-label">{m.label}</span>
+  </div>
+)}

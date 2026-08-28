@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import Thumb from './Thumb.astro';
+
+const articles = (await getCollection('articles', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// 人気記事（手動キュレーション。アクセス解析導入後は実データに置き換える）
+const pickIds = [
+  'watch/kimetsu-mugenjou',
+  'watch/chainsaw-man-reze',
+  'watch/kusuriya',
+  'watch/sousou-no-frieren',
+  'ranking/isekai-anime',
+];
+const picks = pickIds
+  .map((id) => articles.find((a) => a.id === id))
+  .filter(Boolean) as typeof articles;
+---
+<aside class="sidebar">
+  <section class="side-box">
+    <h2 class="side-title">よく読まれている記事</h2>
+    <ul class="side-list">
+      {picks.map((a, i) => (
+        <li>
+          <a href={`/${a.id}/`}>
+            <span class="side-rank">{i + 1}</span>
+            <span class="side-text">{a.data.title}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="side-box">
+    <h2 class="side-title">カテゴリ</h2>
+    <ul class="side-cats">
+      <li><a href="/vod/">VOD比較（まとめ）</a></li>
+      <li><a href="/#cat-watch">作品別：どこで見れる？</a></li>
+      <li><a href="/#cat-ranking">おすすめランキング</a></li>
+      <li><a href="/#cat-guide">ガイド・コラム</a></li>
+    </ul>
+  </section>
+
+  <section class="side-box">
+    <h2 class="side-title">このサイトについて</h2>
+    <p class="side-about">
+      「このアニメどこで見れる？」を調べるたびに広告だらけのページを開かされるのが嫌で作ったサイトです。
+      配信状況は公開時点で確認したものを載せ、変わったら直します。
+      <a href="/about/">運営者情報</a>
+    </p>
+  </section>
+</aside>

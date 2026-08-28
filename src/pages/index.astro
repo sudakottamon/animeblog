@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Thumb from '../components/Thumb.astro';
 import { getCollection } from 'astro:content';
 
 const articles = (await getCollection('articles', ({ data }) => !data.draft))
@@ -10,6 +11,8 @@ const groups = [
   { key: 'ranking', label: 'おすすめランキング' },
   { key: 'guide', label: 'ガイド・コラム' },
 ] as const;
+
+const fmt = (d: Date) => `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`;
 ---
 <Base
   title="アニメの配信情報・VOD比較"
@@ -18,24 +21,28 @@ const groups = [
   <div class="hero">
     <h1>そのアニメ、どこで見れる？</h1>
     <p class="lede">作品ごとの配信サービスを最速で逆引き。サブスク選びで失敗しないための比較とランキングも。</p>
-    <div class="cta"><a class="btn-affiliate" href="/vod/">アニメに強いVODを比較する</a></div>
   </div>
 
-  <span id="latest"></span>
   {groups.map((g) => {
     const list = articles.filter((a) => a.data.category === g.key);
     return list.length > 0 && (
-      <>
+      <section id={`cat-${g.key}`}>
         <h2>{g.label}</h2>
-        <ul class="card-list">
+        <ul class="post-list">
           {list.map((a) => (
             <li>
-              <a href={`/${a.id}/`}>{a.data.title}</a>
-              <p class="desc">{a.data.description}</p>
+              <a class="post-card" href={`/${a.id}/`}>
+                <Thumb category={a.data.category} />
+                <div class="post-body">
+                  <span class="post-title">{a.data.title}</span>
+                  <span class="post-desc">{a.data.description}</span>
+                  <span class="post-date">{fmt(a.data.updatedDate ?? a.data.pubDate)}</span>
+                </div>
+              </a>
             </li>
           ))}
         </ul>
-      </>
+      </section>
     );
   })}
 </Base>

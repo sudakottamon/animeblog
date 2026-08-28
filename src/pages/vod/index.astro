@@ -5,47 +5,84 @@ import VodTable from '../../components/VodTable.astro';
 ---
 <Base
   title="アニメ見放題VOD比較【2026年版】迷ったらこの3つでいい"
-  description="アニメ目的のVOD選びは実質3択。dアニメストア・DMM TV・U-NEXTの使い分けと、あなたがどれを選ぶべきかを断定します。主要サービスの料金・無料期間の比較表つき。"
+  description="アニメ目的のVOD選びは実質3択。dアニメストア・DMM TV・U-NEXTを星評価つきで比較し、あなたがどれを選ぶべきかを断定します。主要7サービスの比較表つき。"
 >
   <article>
-    <h1>アニメ見放題VOD比較【2026年版】</h1>
+    <h1>アニメ見放題VOD比較【2026年版】迷ったらこの3つでいい</h1>
+    <p class="meta">2026年8月28日 更新</p>
     <p>
-      動画配信サービスは国内に10以上ありますが、<strong>アニメ目的なら検討すべきは実質3つ</strong>。
-      月額550円の「dアニメストア」「DMM TV」、そして全部入りの「U-NEXT」です。
+      動画配信サービスは国内に10以上ありますが、<strong>アニメ目的で検討すべきは実質3つ</strong>です。
       先に答えを書いておくと——
     </p>
     <ul>
       <li><strong>アニメしか見ない</strong> → dアニメストア</li>
-      <li><strong>アニメ中心＋たまにドラマや映画</strong> → DMM TV</li>
+      <li><strong>アニメ中心＋ドラマや映画もたまに</strong> → DMM TV</li>
       <li><strong>劇場版・原作漫画までまとめて課金したい</strong> → U-NEXT</li>
     </ul>
-    <p>以下、この結論の根拠と、残りのサービスをどう考えるかです。</p>
 
-    <h2>主要サービス比較表</h2>
+    <h2>アニメに強いVODランキング</h2>
+
+    <div class="rankbox rank-1">
+      <span class="rank-badge">1位</span>
+      <h3>dアニメストア</h3>
+      <p class="stars">★★★★★<span class="score">総合 4.7</span></p>
+      <table class="spec-table">
+        <tbody>
+          <tr><th>月額</th><td>550円（税込）</td></tr>
+          <tr><th>無料期間</th><td>初月無料（初回のみ）</td></tr>
+          <tr><th>作品数</th><td>アニメ約6,000作品（特化型で国内最大級）</td></tr>
+          <tr><th>向いている人</th><td>旧作も新作も、アニメだけを安く大量に見たい人</td></tr>
+        </tbody>
+      </table>
+      <p>
+        アニメ特化の老舗。90年代の旧作からアニソンライブ、声優番組まで拾えるアーカイブは
+        他のサービスでは代替できません。「アニメ用のサブスクを1つだけ」なら、結局ここに戻ってきます。
+      </p>
+      <AffiliateButton service="danime" />
+    </div>
+
+    <div class="rankbox">
+      <span class="rank-badge">2位</span>
+      <h3>DMM TV</h3>
+      <p class="stars">★★★★☆<span class="score">総合 4.5</span></p>
+      <table class="spec-table">
+        <tbody>
+          <tr><th>月額</th><td>550円（税込）</td></tr>
+          <tr><th>無料期間</th><td>14日間＋550ポイント付与</td></tr>
+          <tr><th>作品数</th><td>アニメ約6,000作品＋ドラマ・バラエティ・2.5次元</td></tr>
+          <tr><th>向いている人</th><td>今期の新作を追いつつ、アニメ以外もたまに見る人</td></tr>
+        </tbody>
+      </table>
+      <p>
+        後発ながら新作アニメの網羅率が高く、dアニメと同じ550円でエンタメ全般まで見られるのが強み。
+        dアニメが「過去」に強いなら、DMM TVは「現在」に強いサービスです。
+        14日間の無料体験で今期作品のカバー率を確かめてから決められます。
+      </p>
+      <AffiliateButton service="dmmtv" />
+    </div>
+
+    <div class="rankbox">
+      <span class="rank-badge">3位</span>
+      <h3>U-NEXT</h3>
+      <p class="stars">★★★★☆<span class="score">総合 4.3</span></p>
+      <table class="spec-table">
+        <tbody>
+          <tr><th>月額</th><td>2,189円（税込）</td></tr>
+          <tr><th>無料期間</th><td>31日間無料</td></tr>
+          <tr><th>作品数</th><td>アニメ見放題は国内最大級＋映画・ドラマ・書籍</td></tr>
+          <tr><th>向いている人</th><td>劇場版レンタルや原作漫画まで毎月ポイントで回収したい人</td></tr>
+        </tbody>
+      </table>
+      <p>
+        月額は550円勢の4倍。それでも正解になるのは<strong>毎月の1,200ポイントを使い切れる人</strong>です。
+        劇場版アニメのレンタルや原作漫画の購入にあてれば実質負担は1,000円弱まで下がり、
+        「アニメ・劇場版・原作」が1サービスで完結します。ポイントを余らせるタイプなら550円勢へ。
+      </p>
+      <AffiliateButton service="unext" />
+    </div>
+
+    <h2>主要7サービス比較表</h2>
     <VodTable />
-
-    <h2>月額550円の2強をどう選ぶか</h2>
-    <p>
-      dアニメストアとDMM TVは同じ550円ですが性格が違います。
-      <strong>dアニメストアは「過去」に強い</strong>。約6,000作品のアーカイブは他の追随を許さず、
-      90年代・00年代の旧作やアニソンライブ映像まで拾えます。
-      <strong>DMM TVは「現在」に強い</strong>。今期新作の網羅率が高く、
-      同じ550円でドラマ・バラエティ・2.5次元舞台まで見られる。
-      旧作マラソン派はdアニメ、今期追走派はDMM TV。両方試して片方を残すのが確実です
-      （dアニメは初月無料、DMM TVは14日無料＋550pt）。
-    </p>
-    <AffiliateButton service="danime" />
-    <AffiliateButton service="dmmtv" />
-
-    <h2>U-NEXTが正解になる人</h2>
-    <p>
-      月額2,189円は550円勢の4倍。それでもU-NEXTが正解になるのは、
-      <strong>毎月の1,200ポイントを使い切れる人</strong>です。
-      劇場版アニメのレンタル（多くが500〜550pt）や原作漫画の購入にあてれば、
-      実質負担は1,000円弱まで下がり、「アニメ・劇場版・原作」が1サービスで完結します。
-      逆にポイントを余らせるタイプなら割高なだけなので、550円勢にしましょう。
-    </p>
-    <AffiliateButton service="unext" />
 
     <h2>その他のサービスの立ち位置</h2>
     <p>
@@ -65,7 +102,7 @@ import VodTable from '../../components/VodTable.astro';
     </p>
 
     <div class="notice">
-      料金・特典は2026年8月時点。申し込み前に各公式サイトで最新の条件をご確認ください。
+      料金・特典・星評価は2026年8月時点の当サイト調べ。申し込み前に各公式サイトで最新の条件をご確認ください。
     </div>
   </article>
 </Base>
