@@ -8,7 +8,13 @@
     "directory": "./dist",
     "binding": "ASSETS"
   },
-  "observability": { "enabled": true }
-  // D1バインディング（DB）は `npx wrangler d1 create tsuyosa-gikai` 実行後に追加する。
-  // 追加前はAPIが503を返し、投票・コメント欄は「準備中」表示になる。
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tsuyosa-gikai",
+      "database_id": "83850745-dc28-46e7-a1fc-310aee69aeca",
+      "migrations_dir": "migrations"
+    }
+  ]
 }
