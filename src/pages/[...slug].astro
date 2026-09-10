@@ -63,7 +63,7 @@ const jsonLd = {
 
       {d.services.length > 0 && (
         <>
-          <h2>この記事に出てきた配信サービス</h2>
+          <h2>{d.category === 'saikyo' ? '証拠を自分の目で確かめる（原作・アニメ）' : 'この記事に出てきた配信サービス'}</h2>
           <VodTable only={d.services} />
           {d.services.map((s) => <AffiliateButton service={s} />)}
         </>

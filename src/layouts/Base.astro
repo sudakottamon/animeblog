@@ -11,7 +11,7 @@ interface Props {
   noSidebar?: boolean;
 }
 const { title, description, showPr = true, ogType = 'website', jsonLd, noSidebar = false } = Astro.props;
-const siteName = 'アニメ配信ナビ';
+const siteName = '強さ議会';
 ---
 <html lang="ja">
   <head>
@@ -36,10 +36,11 @@ const siteName = 'アニメ配信ナビ';
   <body>
     <header class="site-header">
       <div class="inner">
-        <a class="site-title" href="/">アニメ<span>配信</span>ナビ</a>
+        <a class="site-title" href="/">強さ<span>議会</span></a>
         <nav class="site-nav">
+          <a href="/#cat-saikyo">最強議決</a>
+          <a href="/rules/">議事規則</a>
           <a href="/vod/">VOD比較</a>
-          <a href="/#cat-ranking">ランキング</a>
           <a href="/about/">運営者</a>
         </nav>
       </div>
@@ -53,12 +54,13 @@ const siteName = 'アニメ配信ナビ';
     </div>
     <footer class="site-footer">
       <div>
+        <a href="/rules/">議事規則</a>
         <a href="/about/">運営者情報</a>
         <a href="/privacy/">プライバシーポリシー</a>
         <a href="/vod/">VOD比較</a>
       </div>
-      <p>配信状況・料金は記事作成時点の情報です。最新情報は各公式サイトをご確認ください。</p>
-      <p>© 2026 アニメ配信ナビ</p>
+      <p>強さの査定は作中描写に基づく当サイトの見解です。配信状況・料金は記事作成時点の情報です。</p>
+      <p>© 2026 強さ議会</p>
     </footer>
   </body>
 </html>

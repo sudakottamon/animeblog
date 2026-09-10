@@ -7,10 +7,10 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft))
 
 // 人気記事（手動キュレーション。アクセス解析導入後は実データに置き換える）
 const pickIds = [
+  'saikyo/jujutsu-kaisen',
+  'saikyo/kimetsu',
   'watch/kimetsu-mugenjou',
   'watch/chainsaw-man-reze',
-  'watch/kusuriya',
-  'watch/sousou-no-frieren',
   'ranking/isekai-anime',
 ];
 const picks = pickIds
@@ -35,18 +35,20 @@ const picks = pickIds
   <section class="side-box">
     <h2 class="side-title">カテゴリ</h2>
     <ul class="side-cats">
-      <li><a href="/vod/">VOD比較（まとめ）</a></li>
+      <li><a href="/#cat-saikyo">作品別・最強議決</a></li>
+      <li><a href="/rules/">議事規則（査定基準）</a></li>
       <li><a href="/#cat-watch">作品別：どこで見れる？</a></li>
       <li><a href="/#cat-ranking">おすすめランキング</a></li>
       <li><a href="/#cat-guide">ガイド・コラム</a></li>
+      <li><a href="/vod/">VOD比較（まとめ）</a></li>
     </ul>
   </section>
 
   <section class="side-box">
     <h2 class="side-title">このサイトについて</h2>
     <p class="side-about">
-      「このアニメどこで見れる？」を調べるたびに広告だらけのページを開かされるのが嫌で作ったサイトです。
-      配信状況は公開時点で確認したものを載せ、変わったら直します。
+      「結局誰が最強なの？」を、人気投票でも公式設定でもなく<strong>作中描写だけ</strong>で議決するサイトです。
+      物差しは<a href="/rules/">議事規則</a>で全文公開。納得いかない判決への控訴は、各自の心の中で。
       <a href="/about/">運営者情報</a>
     </p>
   </section>

@@ -6,7 +6,7 @@ interface Props {
 }
 const { only } = Astro.props;
 const entries = Object.entries(data.services as Record<string, any>).filter(
-  ([id]) => !only || only.includes(id)
+  ([id, s]) => (!only || only.includes(id)) && (only ? true : s.type !== 'ebook')
 );
 ---
 <div class="table-wrap">

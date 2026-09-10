@@ -6,6 +6,7 @@ interface Props {
 }
 const { category, title, hero = false } = Astro.props;
 const metaMap: Record<string, { label: string; bg: string }> = {
+  saikyo: { label: '最強議決', bg: '#7a1f2b' },
   watch: { label: 'どこで見れる', bg: '#2c4a5a' },
   ranking: { label: 'ランキング', bg: '#a03728' },
   guide: { label: '読みもの', bg: '#4c5b3c' },

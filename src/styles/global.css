@@ -227,6 +227,53 @@ article p { margin: 1.3em 0; }
 
 blockquote { margin: 1.6em 0; padding: .2em 1.2em; border-left: 3px solid var(--accent); color: var(--ink-soft); font-family: var(--serif); }
 
+/* ---- ネタバレ折りたたみ ---- */
+article details:not(.toc details) {
+  border: 2px solid var(--accent);
+  background: var(--paper-card);
+  padding: 4px 20px;
+  margin: 26px 0;
+}
+article details > summary {
+  font-family: var(--serif);
+  font-weight: 800;
+  color: var(--accent-dark);
+  cursor: pointer;
+  padding: 12px 0;
+  letter-spacing: .04em;
+}
+article details[open] > summary {
+  border-bottom: 1px dotted var(--rule);
+  margin-bottom: 10px;
+}
+
+/* ---- 議決テーブル（記事内のmarkdownテーブル）---- */
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .85rem;
+  background: var(--paper-card);
+  margin: 18px 0;
+}
+article table th, article table td {
+  border: 1px solid var(--rule);
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+article table thead th {
+  background: var(--ink);
+  color: var(--paper);
+  white-space: nowrap;
+  letter-spacing: .06em;
+}
+article table td:first-child {
+  font-family: var(--serif);
+  font-weight: 800;
+  white-space: nowrap;
+}
+article tbody tr:first-child td:first-child { color: var(--accent); }
+
 /* ---- sidebar ---- */
 .sidebar { min-width: 0; }
 .side-box { border-top: 3px solid var(--rule-dark); margin-bottom: 34px; }

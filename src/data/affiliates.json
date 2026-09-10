@@ -65,6 +65,36 @@
       "url": "https://www.disneyplus.com/ja-jp",
       "affiliateUrl": null
     },
+    "cmoa": {
+      "type": "ebook",
+      "name": "コミックシーモア",
+      "price": "会員登録無料",
+      "freeTrial": "無料試し読みが豊富",
+      "point": null,
+      "strength": "国内最大級の電子書籍ストア。新規登録特典クーポンあり",
+      "url": "https://www.cmoa.jp/",
+      "affiliateUrl": null
+    },
+    "ebookjapan": {
+      "type": "ebook",
+      "name": "ebookjapan",
+      "price": "会員登録無料",
+      "freeTrial": "初回クーポンあり",
+      "point": "PayPayポイント還元",
+      "strength": "漫画特化の老舗。セールとPayPay還元が強い",
+      "url": "https://ebookjapan.yahoo.co.jp/",
+      "affiliateUrl": null
+    },
+    "dmmbooks": {
+      "type": "ebook",
+      "name": "DMMブックス",
+      "price": "会員登録無料",
+      "freeTrial": "セール・還元の頻度が高い",
+      "point": "DMMポイント還元",
+      "strength": "大型セールの常連。DMM TVとアカウント共通",
+      "url": "https://book.dmm.com/",
+      "affiliateUrl": null
+    },
     "netflix": {
       "name": "Netflix",
       "price": "月額890円〜（広告つき）",

@@ -8,7 +8,7 @@ const articles = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    category: z.enum(['vod', 'watch', 'ranking', 'guide']),
+    category: z.enum(['saikyo', 'vod', 'watch', 'ranking', 'guide']),
     services: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),

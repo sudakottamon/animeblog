@@ -7,6 +7,7 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const groups = [
+  { key: 'saikyo', label: '作品別・最強議決' },
   { key: 'watch', label: '作品別：どこで見れる？' },
   { key: 'ranking', label: 'おすすめランキング' },
   { key: 'guide', label: 'ガイド・コラム' },
@@ -15,12 +16,12 @@ const groups = [
 const fmt = (d: Date) => `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`;
 ---
 <Base
-  title="アニメの配信情報・VOD比較"
-  description="「このアニメはどこで見れる？」に最速で答える配信情報サイト。動画配信サービスの比較・おすすめアニメランキングも。"
+  title="アニメ最強キャラランキング【作中描写で議決】"
+  description="作品ごとの最強キャラランキングを、作中描写だけを証拠に議決するサイト。アニメ基準と原作基準の両方で査定し、判決理由まで全部書きます。"
 >
   <div class="hero">
-    <h1>そのアニメ、どこで見れる？</h1>
-    <p class="lede">作品ごとの配信サービスを最速で逆引き。サブスク選びで失敗しないための比較とランキングも。</p>
+    <h1>作中描写だけで、最強を議決する。</h1>
+    <p class="lede">「結局誰が最強なのか」を、公式資料でも人気でもなく作中の描写を証拠に査定する裁判所です。アニメ勢用と原作勢用、両方の基準で議決します。判定の物差しは<a href="/rules/">議事規則</a>で公開中。</p>
   </div>
 
   {groups.map((g) => {
