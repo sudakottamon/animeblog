@@ -2,6 +2,15 @@
 
 最終更新: 2026-09-10
 
+## 参加型化（2026-09-10、ユーザー決定）「みんなでわいわい」
+- デザインv5: ポップ路線（Dela Gothic One見出し・クリーム地＋ネイビー罫＋赤/黄/青、ステッカー風オフセット影、吹き出しコメント）
+- 投票（Poll.astro）＋コメント（Comments.astro、匿名可・👍同意・ハニーポット・10分5件レート制限）を実装
+- バックエンド: @astrojs/cloudflare adapter + D1。API: /api/vote/ (GET/POST), /api/comments/ (GET/POST/PUT like/DELETE admin)
+- wrangler.jsonc（name=animeblog, main=dist/_worker.js）を追加。**D1バインディングは未設定** → APIは503、UIは「準備中」表示
+- 残作業（ユーザー: `npx wrangler login`）→ Claude: `wrangler d1 create tsuyosa-gikai` → wrangler.jsoncにd1_databases追加 → `d1 migrations apply DB --remote` → IP_SALT/ADMIN_TOKENをsecretで設定 → push
+- ローカル検証: `npx wrangler dev --config wrangler.local.jsonc --port 8787`（ローカルD1、全API合格 2026-09-10）
+- モデレーション: DELETE /api/comments/?id=N with Authorization: Bearer <ADMIN_TOKEN>（hidden=1にする）
+
 ## ピボット（2026-09-10、ユーザー決定）
 「各作品の最強キャラランキング」特化サイトに全面転換。サイト名「強さ議会」。
 - 新カテゴリ saikyo（最強議決）: アニメ基準＋原作基準の2部構成。原作パートは<details>でネタバレ隔離

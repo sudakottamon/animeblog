@@ -3,6 +3,8 @@ import Base from '../layouts/Base.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
 import VodTable from '../components/VodTable.astro';
 import Thumb from '../components/Thumb.astro';
+import Poll from '../components/Poll.astro';
+import Comments from '../components/Comments.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -61,6 +63,8 @@ const jsonLd = {
     <div id="article-body">
       <Content />
 
+      {d.poll && <Poll slug={article.id} question={d.poll.question} options={d.poll.options} />}
+
       {d.services.length > 0 && (
         <>
           <h2>{d.category === 'saikyo' ? '証拠を自分の目で確かめる（原作・アニメ）' : 'この記事に出てきた配信サービス'}</h2>
@@ -75,7 +79,7 @@ const jsonLd = {
       最新の状況は各サービスの公式サイトでご確認ください。
     </div>
 
-    <p><a href="/vod/">→ アニメに強いVODの比較まとめはこちら</a></p>
+    <Comments slug={article.id} />
 
     {related.length > 0 && (
       <>

@@ -5,6 +5,9 @@ pubDate: 2026-09-10
 updatedDate: 2026-09-10
 category: saikyo
 services: [cmoa, danime, unext]
+poll:
+  question: "鬼滅の刃、縁壱を除いた最強は誰？"
+  options: ["鬼舞辻無惨", "黒死牟", "悲鳴嶼行冥", "童磨", "猗窩座", "冨岡義勇", "竈門炭治郎（最終）", "その他（コメントで）"]
 ---
 
 鬼滅の最強議論には、始める前に決めておかないと必ず荒れる論点があります。

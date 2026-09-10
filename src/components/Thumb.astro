@@ -6,11 +6,11 @@ interface Props {
 }
 const { category, title, hero = false } = Astro.props;
 const metaMap: Record<string, { label: string; bg: string }> = {
-  saikyo: { label: '最強議決', bg: '#7a1f2b' },
-  watch: { label: 'どこで見れる', bg: '#2c4a5a' },
-  ranking: { label: 'ランキング', bg: '#a03728' },
-  guide: { label: '読みもの', bg: '#4c5b3c' },
-  vod: { label: 'VOD比較', bg: '#8a6a2e' },
+  saikyo: { label: '最強議決', bg: '#ff5a5f' },
+  watch: { label: 'どこで見れる', bg: '#2b7de9' },
+  ranking: { label: 'ランキング', bg: '#f5a623' },
+  guide: { label: '読みもの', bg: '#1fa79a' },
+  vod: { label: 'VOD比較', bg: '#8e5cd9' },
 };
 const m = metaMap[category] ?? { label: 'コラム', bg: '#666' };
 ---

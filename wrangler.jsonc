@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "animeblog",
+  "main": "./dist/_worker.js/index.js",
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "observability": { "enabled": true }
+  // D1バインディング（DB）は `npx wrangler d1 create tsuyosa-gikai` 実行後に追加する。
+  // 追加前はAPIが503を返し、投票・コメント欄は「準備中」表示になる。
+}

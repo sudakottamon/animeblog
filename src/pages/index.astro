@@ -20,8 +20,13 @@ const fmt = (d: Date) => `${d.getFullYear()}.${String(d.getMonth() + 1).padStart
   description="作品ごとの最強キャラランキングを、作中描写だけを証拠に議決するサイト。アニメ基準と原作基準の両方で査定し、判決理由まで全部書きます。"
 >
   <div class="hero">
-    <h1>作中描写だけで、最強を議決する。</h1>
-    <p class="lede">「結局誰が最強なのか」を、公式資料でも人気でもなく作中の描写を証拠に査定する裁判所です。アニメ勢用と原作勢用、両方の基準で議決します。判定の物差しは<a href="/rules/">議事規則</a>で公開中。</p>
+    <span class="hero-kicker">アニメ最強議論の議場</span>
+    <h1>結局、誰が最強？<br />みんなで議決しよう。</h1>
+    <p class="lede">作中描写を証拠に書記局が判決を出し、みんなが投票とコメントで控訴する。それがこのサイトの遊び方です。物差しは<a href="/rules/">議事規則</a>で全文公開中。</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="#cat-saikyo">議決を見る</a>
+      <a class="btn-ghost" href="/rules/">物差しを確認する</a>
+    </div>
   </div>
 
   {groups.map((g) => {

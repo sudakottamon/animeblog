@@ -10,6 +10,9 @@ const articles = defineCollection({
     updatedDate: z.coerce.date().optional(),
     category: z.enum(['saikyo', 'vod', 'watch', 'ranking', 'guide']),
     services: z.array(z.string()).default([]),
+    poll: z
+      .object({ question: z.string(), options: z.array(z.string()).min(2).max(12) })
+      .optional(),
     draft: z.boolean().default(false),
   }),
 });
