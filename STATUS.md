@@ -6,8 +6,9 @@
 - デザインv5: ポップ路線（Dela Gothic One見出し・クリーム地＋ネイビー罫＋赤/黄/青、ステッカー風オフセット影、吹き出しコメント）
 - 投票（Poll.astro）＋コメント（Comments.astro、匿名可・👍同意・ハニーポット・10分5件レート制限）を実装
 - バックエンド: @astrojs/cloudflare adapter + D1。API: /api/vote/ (GET/POST), /api/comments/ (GET/POST/PUT like/DELETE admin)
-- wrangler.jsonc（name=animeblog, main=dist/_worker.js）を追加。**D1バインディングは未設定** → APIは503、UIは「準備中」表示
-- 残作業（ユーザー: `npx wrangler login`）→ Claude: `wrangler d1 create tsuyosa-gikai` → wrangler.jsoncにd1_databases追加 → `d1 migrations apply DB --remote` → IP_SALT/ADMIN_TOKENをsecretで設定 → push
+- 本番稼働中（2026-09-10 17:00）: D1 `tsuyosa-gikai`（id 83850745-…）をDBにバインド、マイグレーション適用済み、IP_SALT/ADMIN_TOKENはWorker secret（値は .dev.vars にローカル保管・gitignore）
+- 過去のビルド失敗原因: dist/_worker.js をアセット公開しようとして拒否 → public/.assetsignore で解決
+- Cloudflare認証: wrangler login 済み（kyoukarabokuha@gmail.com）。`npx wrangler deploy` で直接デプロイ可能
 - ローカル検証: `npx wrangler dev --config wrangler.local.jsonc --port 8787`（ローカルD1、全API合格 2026-09-10）
 - モデレーション: DELETE /api/comments/?id=N with Authorization: Bearer <ADMIN_TOKEN>（hidden=1にする）
 
