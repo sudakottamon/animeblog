@@ -1,0 +1,252 @@
+work: BASTARD!! -暗黒の破壊神-
+title: BASTARD!! -暗黒の破壊神- 最強キャラランキング
+description: BASTARD!! -暗黒の破壊神-の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: Netflix版アニメ 第1期（闇の反逆軍団編・全24話）＋第2期（地獄の鎮魂歌編・全15話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本既刊27巻まで（2010年から連載中断）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: dark-schneider
+    name: ダーク・シュナイダー
+    affiliation: 古の大魔法使い
+    cv: 谷山紀章
+    editor:
+      anime:
+        score: 97
+        note: 封印から解かれ、敵対した四天王のガラとアビゲイルを退けた。復活後は魔戦将軍も一蹴した。
+        evidence:
+          - "闇の反逆軍団編: ガラとの戦いで追い込まれたが、持ち直して勝った"
+          - "闇の反逆軍団編: アビゲイルとの決戦を制した"
+          - "地獄の鎮魂歌編: 侍の隠れ家を襲った魔戦将軍マカパインを退けた"
+      manga:
+        score: 98
+        note: 破壊神アンスラサクスを倒し、魔神コンロンを喰らい、魔神化したウリエルにも勝った。
+        evidence:
+          - "罪と罰編: アンスラサクスを倒したが、自身も殺されて封印された"
+          - "背徳の掟編: 魔神コンロンを倒して喰らった"
+          - "背徳の掟編: 魔神化したウリエルに勝った"
+  - id: kall-su
+    name: カル＝ス
+    affiliation: 四天王 氷の至高王
+    cv: 小野賢章
+    editor:
+      anime:
+        score: 92
+        note: 氷の至高王として魔戦将軍を率い、ダーク・シュナイダーと宿命の対決に臨んだ。
+        evidence:
+          - "地獄の鎮魂歌編: 氷の至高王として十二魔戦将軍を率いた"
+          - "地獄の鎮魂歌編: ダーク・シュナイダーと宿命の対決を戦った"
+      manga:
+        score: 90
+        note: ダーク・シュナイダーに帰順した。のちに破壊神に操られ、ダーク・シュナイダーに救われた。
+        evidence:
+          - "地獄の鎮魂歌編: ダーク・シュナイダーに帰順した"
+          - "地獄の鎮魂歌編: 返り討ちでダイ＝アモンを退けた"
+          - "地獄の鎮魂歌編: 魔戦将軍シェラ・イー・リーを呪文で氷柱に閉じ込めた"
+  - id: arshes-nei
+    name: アーシェス・ネイ
+    affiliation: 四天王 雷帝
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 90
+        note: 呪いで操られてダーク・シュナイダーと戦い、一度は死なせた。のちに味方に戻った。
+        evidence:
+          - "闇の反逆軍団編: ダーク・シュナイダーとの戦いで、彼を一度死なせた"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: abigail
+    name: アビゲイル
+    affiliation: 四天王 冥界の預言者
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 88
+        note: メタ＝リカーナに攻め込み、破壊神の封印を解きかけた。ダーク・シュナイダーとヨーコに敗れた。
+        evidence:
+          - "闇の反逆軍団編: 封印を破って破壊神を一部目覚めさせ、サイクロプスを呼び出した"
+          - "闇の反逆軍団編: ダーク・シュナイダーに敗れ、ヨーコの最後の抵抗で倒れた"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: gara
+    name: ガラ
+    affiliation: 四天王 ニンジャマスター
+    cv: 安元洋貴
+    editor:
+      anime:
+        score: 87
+        note: ダーク・シュナイダーをあと一歩まで追い込んだが、逆転負けして味方に加わった。
+        evidence:
+          - "闇の反逆軍団編: ダーク・シュナイダーを追い込んだが敗れ、仲間になった"
+      manga:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: dai-amon
+    name: ダイ＝アモン
+    affiliation: 鬼道三人衆 吸血鬼の真祖
+    cv: 子安武人
+    editor:
+      anime:
+        score: 76
+        note: 鬼道三人衆の一人。ダーク・シュナイダーに敗れ、服従の呪いをかけられた。
+        evidence:
+          - "闇の反逆軍団編: ダーク・シュナイダーに敗れ、服従の呪いをかけられた"
+      manga:
+        score: 74
+        note: カル＝スに挑んで返り討ちにされた。
+        evidence:
+          - "地獄の鎮魂歌編: カル＝スに返り討ちにされた"
+  - id: macapine
+    name: マカパイン
+    affiliation: 魔戦将軍 妖縛士
+    cv: 福山潤
+    editor:
+      anime:
+        score: 74
+        note: 侍の残党の隠れ家を襲撃したが、ダーク・シュナイダーに敗れて吹き飛ばされた。
+        evidence:
+          - "地獄の鎮魂歌編: 侍の隠れ家を襲い、ダーク・シュナイダーに吹き飛ばされた"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: yoko
+    name: ティア・ノート・ヨーコ
+    affiliation: 高僧（ハイ・プリースト）
+    cv: 楠木ともり
+    editor:
+      anime:
+        score: 70
+        note: 四天王アビゲイルに最後の抵抗を見せて倒した。2年後は侍の反乱軍に加わった。
+        evidence:
+          - "闇の反逆軍団編: 最後の抵抗でアビゲイルを倒した"
+      manga:
+        score: 70
+        note: 天使軍との戦いでは熾天使ミカエルに倒された。
+        evidence:
+          - "罪と罰編: ミカエルに倒された"
+  - id: sheila
+    name: シェラ・イー・リー
+    affiliation: 魔戦将軍 吟遊詩人
+    cv: 瀬戸麻沙美
+    appears: manga
+    editor:
+      manga:
+        score: 66
+        note: 魔戦将軍の一人。カル＝スの呪文で氷柱に閉じ込められた。
+        evidence:
+          - "地獄の鎮魂歌編: カル＝スの呪文で氷柱に閉じ込められた"
+  - id: kai-harn
+    name: カイ・ハーン
+    affiliation: 鬼道三人衆 女戦士
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 62
+        note: 鬼道三人衆の一人。ダーク・シュナイダーに挑んだが、シーン・ハリに阻まれて敗れた。
+        evidence:
+          - "闇の反逆軍団編: ダーク・シュナイダーとの戦いをシーン・ハリに阻まれ敗れた"
+      manga:
+        score: 60
+        note: シーン・ハリとともにダイ＝アモンに挑んだが敗れた。
+        evidence:
+          - "地獄の鎮魂歌編: ダイ＝アモンに敗れて血を吸われた"
+  - id: sean-hari
+    name: シーン・ハリ
+    affiliation: 鬼道三人衆 呪符使い
+    cv: 小澤亜李
+    editor:
+      anime:
+        score: 55
+        note: 鬼道三人衆の一人。ダーク・シュナイダーとの戦いを放棄して離反した。
+        evidence:
+          - "闇の反逆軍団編: ダーク・シュナイダーとの戦いを放棄して離反した"
+      manga:
+        score: 55
+        note: 原作でも評価は変わらない。
+  - id: satan
+    name: サタン
+    affiliation: 悪魔王
+    appears: manga
+    editor:
+      manga:
+        score: 95
+        note: 地獄の頂点に立つ悪魔王。大破壊の際に熾天使ガブリエルを破って堕天させた。
+        evidence:
+          - "回想（大破壊）: ガブリエルを破り、堕天させて地獄に幽閉した"
+          - "地獄: ダーク・シュナイダーに仲間になるよう迫った"
+  - id: anthrasax
+    name: アンスラサクス
+    affiliation: 破壊神
+    cv: 小山茉美
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 大破壊の際に竜戦士に倒された破壊神。完全復活後、ダーク・シュナイダーに倒された。
+        evidence:
+          - "罪と罰編: ダーク・シュナイダーに倒された"
+  - id: uriel
+    name: ウリエル
+    affiliation: 四大熾天使
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: アウゴエイデスで竜戦士を破壊した熾天使。のちに堕天して魔神化したが、ダーク・シュナイダーに敗れた。
+        evidence:
+          - "罪と罰編: アウゴエイデスで竜戦士を破壊した"
+          - "背徳の掟編: 魔神化してダーク・シュナイダーと戦い敗れた"
+  - id: konron
+    name: コンロン
+    affiliation: 魔神
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 天使軍を追い込み、大天使長ミカエルを寄せつけなかった魔神。ダーク・シュナイダーに敗れて喰われた。
+        evidence:
+          - "背徳の掟編: ミカエルに手も足も出させなかった"
+          - "背徳の掟編: ダーク・シュナイダーに敗れて喰われた"
+  - id: michael
+    name: ミカエル
+    affiliation: 四大熾天使 大天使長
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 天使軍を率いる大天使長。魔戦将軍やラーズ、ヨーコを圧倒したが、魔神コンロンには歯が立たなかった。
+        evidence:
+          - "罪と罰編: 魔戦将軍、ラーズ、ヨーコを圧倒した"
+          - "背徳の掟編: コンロンに手も足も出なかった"
+  - id: rars
+    name: ラーズ・ウル
+    affiliation: 竜王子 五英雄
+    cv: 松岡禎丞
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 魔操兵戦争でダーク・シュナイダーと相打ちになった竜王子。天使軍との戦いで一度落命した。
+        evidence:
+          - "魔操兵戦争: ダーク・シュナイダーと相打ちになった"
+          - "罪と罰編: 天使軍に敗れて落命し、救世主の奇跡で蘇った"
+  - id: zion
+    name: ジオン・ゾル・ヴァンデンヴァーグ
+    affiliation: 魔戦将軍 魔剣士
+    cv: 遊佐浩二
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 魔戦将軍の一人。天使軍との戦いで弟と和解し、散った。
+        evidence:
+          - "罪と罰編: 天使軍と戦い、ランとともに散った"

@@ -60,12 +60,12 @@
 - [x] `spy-family` SPY×FAMILY
 
 ## バッチ 08
-- [ ] `bobobo` ボボボーボ・ボーボボ
-- [ ] `otokojuku` 魁!!男塾
-- [ ] `bastard` BASTARD!! -暗黒の破壊神-
-- [ ] `city-hunter` シティーハンター
-- [ ] `ranma` らんま1/2（2024年版アニメの放送範囲を確認）
-- [ ] `gegege` ゲゲゲの鬼太郎（2018年版（第6期）アニメ基準）
+- [x] `bobobo` ボボボーボ・ボーボボ
+- [x] `otokojuku` 魁!!男塾
+- [x] `bastard` BASTARD!! -暗黒の破壊神-
+- [x] `city-hunter` シティーハンター
+- [x] `ranma` らんま1/2（2024年版アニメの放送範囲を確認）
+- [x] `gegege` ゲゲゲの鬼太郎（2018年版（第6期）アニメ基準）
 
 ## バッチ 09
 - [ ] `tokyo-ghoul` 東京喰種トーキョーグール（:reを含む）

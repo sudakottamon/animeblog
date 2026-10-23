@@ -1,0 +1,179 @@
+work: ゲゲゲの鬼太郎
+title: ゲゲゲの鬼太郎 最強キャラランキング
+description: ゲゲゲの鬼太郎（2018年版・第6期アニメ）の最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢（第6期）
+    range: TVアニメ第6期（2018〜2020年、全97話）の完結まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kitaro
+    name: 鬼太郎
+    affiliation: 幽霊族の生き残り
+    cv: 沢城みゆき
+    editor:
+      anime:
+        score: 95
+        note: 西洋妖怪軍団の首領、名無し、大逆の四将と、各章の大敵と正面から戦い続けた。
+        evidence:
+          - "第37話: 西洋妖怪軍団との決戦でバックベアードを倒した"
+          - "第49話: まなとともに名無しとの最終決戦に挑み、決着をつけた"
+          - "第75話: 大逆の四将の最後の一人、玉藻前を地獄で追い詰めた"
+  - id: tamamo
+    name: 玉藻前（九尾の狐）
+    affiliation: 大逆の四将
+    cv: 田中敦子
+    editor:
+      anime:
+        score: 93
+        note: 大逆の四将の最後の一人。罠で鬼太郎の仲間を次々に消息不明にし、追い詰められても決着をつけずに姿を消した。
+        evidence:
+          - "第74話: 罠を仕掛け、子泣きじじいやぬりかべ、砂かけばばあが消息を絶った"
+          - "第75話: 地獄で鬼太郎に追い詰められたが、決着をつけずに姿を消した"
+  - id: backbeard
+    name: バックベアード
+    affiliation: 西洋妖怪軍団の首領
+    cv: 田中秀幸
+    editor:
+      anime:
+        score: 91
+        note: 西洋妖怪軍団を率いて日本に攻め込んだが、鬼太郎たちに敗れた。のちに復活した。
+        evidence:
+          - "第37話: 西洋妖怪軍団を率いた決戦で鬼太郎に倒された"
+          - "最終章: 復活した西洋妖怪軍団をぬらりひょんに利用された"
+  - id: nanashi
+    name: 名無し
+    affiliation: 名無し編の黒幕
+    cv: 銀河万丈
+    editor:
+      anime:
+        score: 90
+        note: 放送開始から第49話まで敵として暗躍した黒幕。まなを狙った理由が明かされ、最終決戦で決着がついた。
+        evidence:
+          - "第49話: 鬼太郎とまなとの最終決戦で決着がついた"
+  - id: ibukimaru
+    name: 鬼童伊吹丸
+    affiliation: 大逆の四将
+    cv: 古谷徹
+    editor:
+      anime:
+        score: 88
+        note: 地獄から脱獄した大逆の四将の一人。まなを連れ去り、捜索に動いた鬼太郎を襲った。
+        evidence:
+          - "第69話: まなを連れ去り、鬼太郎に攻撃を仕掛けた"
+  - id: reiji
+    name: 石動零
+    affiliation: 大逆の四将を追う青年
+    cv: 神谷浩史
+    editor:
+      anime:
+        score: 86
+        note: 大逆の四将を追い、鬼太郎たちと三つ巴になった。さらなる力を求めて鬼太郎を取り込もうとした。
+        evidence:
+          - "第75話: 力を得るために鬼太郎を取り込もうとした"
+  - id: nurarihyon
+    name: ぬらりひょん
+    affiliation: 最終章の黒幕
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 84
+        note: 最終章で人間と妖怪の戦争をたくらんだ首謀者。復活した西洋妖怪軍団も利用したが、最終話で滅びた。
+        evidence:
+          - "第76話: 野望を掲げて動き出した"
+          - "第97話: 首謀者の一人として滅びた"
+  - id: nue
+    name: 鵺
+    affiliation: 大逆の四将
+    cv: 辻親八
+    editor:
+      anime:
+        score: 80
+        note: 大逆の四将の一人。黒い雲を呼んで鳴き声で人々を病に倒れさせ、東京にまで被害を広げた。
+        evidence:
+          - "第50話: 東北の町に黒雲を呼び、鳴き声を聞いた人々を病に倒れさせた"
+          - "第51話: 黒雲が東京にも現れ、ねずみ男も病にかかった"
+  - id: kurobozu
+    name: 黒坊主
+    affiliation: 大逆の四将
+    cv: 千葉繁
+    editor:
+      anime:
+        score: 78
+        note: 大逆の四将の一人。罠を仕掛けて鬼太郎たちを陥れようとした。
+        evidence:
+          - "第62話: 罠を仕掛けて鬼太郎たちと戦った"
+  - id: elite
+    name: 吸血鬼エリート
+    affiliation: 西洋妖怪
+    editor:
+      anime:
+        score: 72
+        note: 有望な少年を部下にして世界を裏から操ろうとした吸血鬼。鬼太郎まで配下にしようとした。
+        evidence:
+          - "第56話: 少年を部下にし、鬼太郎も部下に引き入れようとした"
+  - id: nekomusume
+    name: ねこ娘
+    affiliation: 鬼太郎の仲間
+    cv: 庄司宇芽香
+    editor:
+      anime:
+        score: 68
+        note: 鬼太郎とともに前線に立つ仲間。名無しとの決戦では、まなとともに戦いの大きなきっかけとなる出来事に巻き込まれた。
+        evidence:
+          - "名無し最終決戦編: まなとともに名無しの企てに巻き込まれた"
+  - id: konaki
+    name: 子泣きじじい
+    affiliation: 鬼太郎の仲間
+    cv: 島田敏
+    editor:
+      anime:
+        score: 64
+        note: 鬼太郎の仲間。玉藻前の罠にかかり、ぬりかべとともに消息を絶った。
+        evidence:
+          - "第74話: ぬりかべとともに戻らなくなった"
+  - id: nurikabe
+    name: ぬりかべ
+    affiliation: 鬼太郎の仲間
+    cv: 島田敏
+    editor:
+      anime:
+        score: 64
+        note: 鬼太郎の仲間で、壁となって守りを担う。玉藻前の罠にかかり、子泣きじじいとともに消息を絶った。
+        evidence:
+          - "第63話: 笹林で女性に襲われ、けがで動けなくなった"
+          - "第74話: 子泣きじじいとともに戻らなくなった"
+  - id: sunakake
+    name: 砂かけばばあ
+    affiliation: 鬼太郎の仲間
+    cv: 田中真弓
+    editor:
+      anime:
+        score: 62
+        note: 鬼太郎の仲間。消えた子泣きじじいとぬりかべを捜しに行き、自らも消息を絶った。
+        evidence:
+          - "第74話: 子泣きじじいとぬりかべを捜しに行き、消息を絶った"
+  - id: shunobon
+    name: 朱の盆
+    affiliation: ぬらりひょんの側近
+    cv: チョー
+    editor:
+      anime:
+        score: 50
+        note: ぬらりひょんの側近。主に参謀として動き、目立った戦闘の描写はない。
+        evidence:
+          - "最終章: ぬらりひょんの側近として計画に加わった"
+  - id: nezumi-otoko
+    name: ねずみ男
+    affiliation: 半妖怪
+    cv: 古川登志夫
+    editor:
+      anime:
+        score: 35
+        note: 戦闘は得意ではなく、金のために敵側につくことも多い。
+        evidence:
+          - "第41話: 付喪神たちと組み、人間への復讐を企てた"
+          - "第56話: 謝礼を受けて吸血鬼エリートに協力した"

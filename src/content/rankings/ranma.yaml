@@ -1,0 +1,220 @@
+work: らんま1/2
+title: らんま1/2 最強キャラランキング
+description: らんま1/2の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢（2024年版）
+    range: 2024年版TVアニメ第2期（第24話）まで。2026年10月から放送中の第3期は含めない
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全38巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: happosai
+    name: 八宝斎
+    affiliation: 元祖無差別格闘流 玄馬と早雲の師匠
+    cv: 井上和彦
+    editor:
+      anime:
+        score: 95
+        note: 玄馬と早雲の師匠。弟子二人に洞窟へ封じられていたが、封印から戻ってきた。
+        evidence:
+          - "第18話: 玄馬と早雲の封印から戻り、乱馬たちの前に現れた"
+      manga:
+        score: 95
+        note: 原作でも評価は変わらない。
+  - id: ranma
+    name: 早乙女乱馬
+    affiliation: 無差別格闘早乙女流二代目
+    cv: 山口勝平（女：林原めぐみ）
+    editor:
+      anime:
+        score: 92
+        note: 水をかぶると女になる体質を抱えながら、挑んでくる格闘家を次々に退けた。修行で火中天津甘栗拳を身につけた。
+        evidence:
+          - "第15話: コロンの修行を経て火中天津甘栗拳を身につけた"
+          - "格闘スケート対決: 三千院帝の連続攻撃を突き返して失神させた"
+      manga:
+        score: 96
+        note: 最終章で鳳凰山の王サフランとの死闘に勝った。
+        evidence:
+          - "最終章: 死闘の末にサフランたちを撃破した"
+  - id: cologne
+    name: コロン
+    affiliation: 女傑族の長老
+    cv: 真山亜子
+    editor:
+      anime:
+        score: 90
+        note: 八宝斎に匹敵するとされる女傑族の長老。乱馬に必殺技を授けた。
+        evidence:
+          - "第15話: 乱馬に火中天津甘栗拳を授けた"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: ryoga
+    name: 響良牙
+    affiliation: 我流の武闘家
+    cv: 山寺宏一
+    editor:
+      anime:
+        score: 86
+        note: 極度の方向音痴の武闘家。乱馬を追って現れ、因縁の勝負を挑み続けている。
+        evidence:
+          - "第4話: 乱馬を追って現れ、勝負を挑んだ"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: shampoo
+    name: シャンプー
+    affiliation: 女傑族
+    cv: 佐久間レイ
+    editor:
+      anime:
+        score: 80
+        note: 女傑族の戦士。掟に従ってらんまに死の接吻を与え、命を狙った。
+        evidence:
+          - "第10話: 女傑族の掟に従い、らんまに死の接吻を与えた"
+          - "第12話: 乱馬との戦いに臨んだ"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: mousse
+    name: ムース
+    affiliation: 女傑族 暗器の使い手
+    cv: 関俊彦
+    editor:
+      anime:
+        score: 78
+        note: 袖から無数の暗器を繰り出す。シャンプーを追って来日し、乱馬に挑んだ。
+        evidence:
+          - "第14話: シャンプーを追って来日し、乱馬に挑んだ"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: genma
+    name: 早乙女玄馬
+    affiliation: 無差別格闘早乙女流開祖
+    cv: チョー
+    editor:
+      anime:
+        score: 75
+        note: 乱馬の父で師匠。早雲とともに師匠の八宝斎を封印していた。
+        evidence:
+          - "第18話: 早雲とともに八宝斎を洞窟に封じていたことが明かされた"
+      manga:
+        score: 75
+        note: 原作でも評価は変わらない。
+  - id: ukyo
+    name: 久遠寺右京
+    affiliation: 久遠寺流 お好み焼き屋
+    cv: 名塚佳織
+    editor:
+      anime:
+        score: 72
+        note: 乱馬の幼なじみ。お好み焼きのヘラを武器に戦う。
+        evidence:
+          - "第20話: 乱馬の前に現れ、お好み焼きのヘラで戦った"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: soun
+    name: 天道早雲
+    affiliation: 無差別格闘天道流開祖
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 70
+        note: あかねの父。玄馬とともに師匠の八宝斎を封印していた。
+        evidence:
+          - "第18話: 玄馬とともに八宝斎を洞窟に封じていたことが明かされた"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: kodachi
+    name: 九能小太刀
+    affiliation: 聖ヘベレケ女学院 格闘新体操
+    cv: 佐倉綾音
+    editor:
+      anime:
+        score: 66
+        note: 格闘新体操の使い手で闇討ちも辞さない。新体操の試合で乱馬と戦った。
+        evidence:
+          - "第6〜7話: 格闘新体操で乱馬と戦った"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: kuno
+    name: 九能帯刀
+    affiliation: 風林館高校剣道部主将
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 64
+        note: 剣道部主将。木刀で乱馬に挑み続けている。
+        evidence:
+          - "第1期: 木刀で乱馬に挑み続けた"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: mikado
+    name: 三千院帝
+    affiliation: 聖コルホーズ学園 格闘スケートペア
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 62
+        note: 格闘スケートの使い手。乱馬に技を突き返されて失神した。
+        evidence:
+          - "格闘スケート対決: 死霊の盆踊りを乱馬に突き返されて失神した"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: akane
+    name: 天道あかね
+    affiliation: 無差別格闘天道流
+    cv: 日髙のり子
+    editor:
+      anime:
+        score: 58
+        note: 無差別格闘天道流の使い手。格闘スケートでは乱馬と組んでペアで戦った。
+        evidence:
+          - "格闘スケート対決: 乱馬と組み、三千院帝ペアの連携技をしのいだ"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: saffron
+    name: サフラン
+    affiliation: 鳳凰山の王
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: 鳳凰山の鳥人たちの王。真の王となる儀式を邪魔されて不完全な状態で目覚め、乱馬に撃破された。
+        evidence:
+          - "最終章: 乱馬たちに邪魔され、不完全な状態で覚醒した"
+          - "最終章: 死闘の末に乱馬に撃破された"
+  - id: herb
+    name: ハーブ
+    affiliation: 麝香王朝 次期王位継承者
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 麝香王朝の末裔で、気を使った攻撃を得意とする。
+        evidence:
+          - "麝香王朝編: 気を使った攻撃で乱馬と戦った"
+  - id: pantyhose-taro
+    name: パンスト太郎
+    affiliation: 八宝斎を追って来日した青年
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 八宝斎を追って来日した。変身後の怪物の姿で戦う。
+        evidence:
+          - "パンスト太郎の登場回: 八宝斎を追って中国から来日した"
+          - "ルージュとの戦い: 打ち負かされた"

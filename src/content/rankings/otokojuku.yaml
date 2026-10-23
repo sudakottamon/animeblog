@@ -1,0 +1,249 @@
+work: 魁!!男塾
+title: 魁!!男塾 最強キャラランキング
+description: 魁!!男塾の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（1988年）全34話＋劇場版まで（学園生活編・驚邏大四凶殺編と、後半をダイジェストで描いた大威震八連制覇編）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全34巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: momotaro
+    name: 剣桃太郎
+    affiliation: 男塾一号生 筆頭
+    cv: 堀秀行
+    editor:
+      anime:
+        score: 95
+        note: 驚邏大四凶殺で伊達臣人との大将戦を戦い、大威震八連制覇では大豪院邪鬼に最後の一撃を入れた。
+        evidence:
+          - "第21話: 驚邏大四凶殺の大将戦で伊達臣人と戦い、男塾が勝利した"
+          - "第33話: 力尽きかけながら大豪院邪鬼に最後の一撃を入れた"
+          - "劇場版: B.J.ブルースに勝ち、男塾を優勝させた"
+      manga:
+        score: 96
+        note: 天挑五輪大武會で各チームの大将格を破り、主催者の藤堂兵衛まで斬った。
+        evidence:
+          - "天挑五輪大武會編: 狼髏館の館主・宗嶺厳に勝った"
+          - "天挑五輪大武會編: 冥凰島十六士の総大将・藤堂豪毅に勝った"
+          - "天挑五輪大武會編: 藤堂兵衛を両断した"
+  - id: jaki
+    name: 大豪院邪鬼
+    affiliation: 男塾三号生 筆頭
+    editor:
+      anime:
+        score: 94
+        note: 三号生の頂点として大威震八連制覇の最後に立ちはだかった。剣桃太郎の最後の一撃で一号生の勝利が決まった。
+        evidence:
+          - "第31話: 大威震八連制覇の第四戦で姿を現した"
+          - "第33話: 剣桃太郎の一撃を受け、大威震八連制覇は一号生の勝利に終わった"
+      manga:
+        score: 95
+        note: 天挑五輪大武會で淤凜葡繻十六闘神の聖紆麈と三日三晩戦って勝った。
+        evidence:
+          - "天挑五輪大武會編: 聖紆麈と三日三晩の死闘の末に勝った"
+  - id: date
+    name: 伊達臣人
+    affiliation: 関東豪学連 総長
+    editor:
+      anime:
+        score: 90
+        note: 関東豪学連を率いて男塾と驚邏大四凶殺を戦い、大将戦で剣桃太郎とぶつかった。
+        evidence:
+          - "第21話: 驚邏大四凶殺の大将戦で剣桃太郎と戦った"
+          - "第22話: 驚邏大四凶殺は男塾の勝利で終わった"
+      manga:
+        score: 91
+        note: 天挑五輪大武會で男塾側として戦い、狼髏館の鎮獰太子らに勝った。
+        evidence:
+          - "天挑五輪大武會編: 狼髏館の鎮獰太子に勝った"
+          - "天挑五輪大武會編: 竜宝に勝った"
+  - id: edajima
+    name: 江田島平八
+    affiliation: 男塾 塾長
+    cv: 郷里大輔
+    editor:
+      anime:
+        score: 86
+        note: 男塾の塾長。アニメでは自ら戦う場面が少なく、実力は断片的にしか描かれていない。
+        evidence:
+          - "第5話: 塾長自ら戦いの場に立った"
+      manga:
+        score: 97
+        note: 七牙冥界闘では誘拐されて宇宙に飛ばされたが、自力で脱出して黒幕の藤堂兵衛を捕らえた。
+        evidence:
+          - "七牙冥界闘編: 宇宙から自力で脱出し、藤堂兵衛を捕らえた"
+  - id: akaishi
+    name: 赤石剛次
+    affiliation: 男塾二号生 筆頭
+    cv: 森功至
+    editor:
+      anime:
+        score: 84
+        note: 二号生の筆頭で剣の使い手。巌流島で剣桃太郎と決闘した。
+        evidence:
+          - "第11話: 巌流島で剣桃太郎と決闘した"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: manjimaru
+    name: 卍丸
+    affiliation: 男塾三号生 死天王
+    editor:
+      anime:
+        score: 82
+        note: 死天王の一人。大威震八連制覇の初戦で蝙翔鬼と組み、Jと雷電の組と戦った。
+        evidence:
+          - "第26話: 蝙翔鬼と組んでJ・雷電組と戦った"
+      manga:
+        score: 84
+        note: 天挑五輪大武會では男塾側として梁山泊十六傑の體傑らを倒した。
+        evidence:
+          - "天挑五輪大武會編: 梁山泊十六傑の體傑を龔髪斧大旋曲で倒した"
+          - "天挑五輪大武會編: 淤凜葡繻十六闘神の贅魅爾を同士討ちさせて倒した"
+  - id: hien
+    name: 飛燕
+    affiliation: 関東豪学連 三面拳
+    editor:
+      anime:
+        score: 80
+        note: 関東豪学連の三面拳の一人として驚邏大四凶殺に出た。大威震八連制覇でも一号生側で戦った。
+        evidence:
+          - "第19話: 驚邏大四凶殺で一号生と対決した"
+          - "第30話: ヨーヨーを使う相手と戦った"
+      manga:
+        score: 83
+        note: 天挑五輪大武會で狼髏館の首天童子に勝った。
+        evidence:
+          - "天挑五輪大武會編: 狼髏館の首天童子に勝った"
+  - id: j
+    name: J
+    affiliation: 男塾一号生
+    cv: 銀河万丈
+    editor:
+      anime:
+        score: 80
+        note: マッハパンチを使うボクサー。劇場版ではサー・ロイヤル三世と相打ちになった。
+        evidence:
+          - "第18話: 驚邏大四凶殺の硫黄泉の死闘で倒れた"
+          - "第26話: 雷電と組んで大威震八連制覇の初戦に出た"
+          - "劇場版: サー・ロイヤル三世と相打ちになった"
+      manga:
+        score: 82
+        note: 天挑五輪大武會で衒蜥流十六衆に勝った。
+        evidence:
+          - "天挑五輪大武會編: 衒蜥流十六衆に勝った"
+  - id: gekko
+    name: 月光
+    affiliation: 関東豪学連 三面拳
+    editor:
+      anime:
+        score: 78
+        note: 関東豪学連の三面拳の一人。驚邏大四凶殺で一号生と戦った。
+        evidence:
+          - "驚邏大四凶殺編: 関東豪学連の三面拳として一号生と戦った"
+      manga:
+        score: 80
+        note: 天挑五輪大武會で梁山泊十六傑の蒼傑に勝った。
+        evidence:
+          - "天挑五輪大武會編: 梁山泊十六傑の蒼傑に勝った"
+  - id: raiden
+    name: 雷電
+    affiliation: 関東豪学連 三面拳
+    editor:
+      anime:
+        score: 76
+        note: 関東豪学連の三面拳の一人。大威震八連制覇でJと組んで死天王と戦い、倒れた。
+        evidence:
+          - "第26話: Jと組んで大威震八連制覇の初戦に出た"
+          - "第27話: 大威震八連制覇で倒れた"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: toramaru
+    name: 虎丸龍次
+    affiliation: 男塾一号生
+    cv: 屋良有作
+    editor:
+      anime:
+        score: 72
+        note: 驚邏大四凶殺の氷の戦いで倒れた。劇場版ではビック・モーガンに勝った。
+        evidence:
+          - "第20話: 驚邏大四凶殺の氷上の戦いで倒れた"
+          - "劇場版: ビック・モーガンに勝った"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: togashi
+    name: 富樫源次
+    affiliation: 男塾一号生
+    cv: 山口健
+    editor:
+      anime:
+        score: 66
+        note: 兄の仇の大豪院邪鬼に挑む覚悟を見せた。劇場版ではブロンコ・サンダースに敗れた。
+        evidence:
+          - "第24話: 兄を殺したのが大豪院邪鬼だと明かした"
+          - "劇場版: ブロンコ・サンダースに敗れた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: gokuu
+    name: 藤堂豪毅
+    affiliation: 冥凰島十六士 総大将
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 天挑五輪大武會の決勝で冥凰島十六士を率いた総大将。剣桃太郎に敗れた。
+        evidence:
+          - "天挑五輪大武會編: 冥凰島十六士の総大将として剣桃太郎と戦い敗れた"
+  - id: eikei
+    name: 影慶
+    affiliation: 男塾三号生 死天王
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 死天王の一人で毒を使う。天挑五輪大武會で巌娜亜羅十六僧の囀笑法師を倒した。
+        evidence:
+          - "天挑五輪大武會編: 巌娜亜羅十六僧の囀笑法師を毒脚で倒した"
+          - "天挑五輪大武會編: 巌娜亜羅十六僧の颱眩法師と相打ちの形で決着した"
+  - id: sorei
+    name: 宗嶺厳
+    affiliation: 狼髏館 第十五代館主
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 天挑五輪大武會で狼髏館を率いた。独眼鉄を倒したが、剣桃太郎に敗れた。
+        evidence:
+          - "天挑五輪大武會編: 独眼鉄を倒した"
+          - "天挑五輪大武會編: 剣桃太郎に敗れ、切腹を命じられたが助命された"
+  - id: rasetsu
+    name: 羅刹
+    affiliation: 男塾三号生 死天王
+    appears: manga
+    editor:
+      manga:
+        score: 83
+        note: 死天王の一人。天挑五輪大武會で梁山泊十六傑と巌娜亜羅十六僧の相手に勝った。
+        evidence:
+          - "天挑五輪大武會編: 梁山泊十六傑の山艶を土錐龍で倒した"
+          - "天挑五輪大武會編: 巌娜亜羅十六僧の牛宝を倒した"
+  - id: todo-hyoe
+    name: 藤堂兵衛
+    affiliation: 天挑五輪大武會 主催者
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 天挑五輪大武會の主催者で、江田島平八の宿敵。剣桃太郎に両断され、七牙冥界闘では江田島に捕らえられた。
+        evidence:
+          - "天挑五輪大武會編: 剣桃太郎に両断された"
+          - "七牙冥界闘編: 江田島平八に捕らえられた"

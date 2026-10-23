@@ -1,0 +1,246 @@
+work: ボボボーボ・ボーボボ
+title: ボボボーボ・ボーボボ 最強キャラランキング
+description: ボボボーボ・ボーボボの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全76話まで（原作第1部の闇皇帝編の途中、ハイドレートの登場まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（第1部全21巻＋『真説ボボボーボ・ボーボボ』全7巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: bobobo
+    name: ボボボーボ・ボーボボ
+    affiliation: 7代目鼻毛真拳伝承者
+    cv: 子安武人
+    editor:
+      anime:
+        score: 97
+        note: 鼻毛真拳でマルハーゲ四天王やサイバー都市の帝王を次々に倒した。融合でも勝ち星を重ねている。
+        evidence:
+          - "第43話: ハレクラニを倒した"
+          - "サイバー都市編: 熱炎漢浪漫でギガを倒した"
+          - "第48話: 田楽マンと融合した田ボとしてJを倒した"
+      manga:
+        score: 98
+        note: 闇皇帝ハイドレートを鼻毛真拳の極意で破った。
+        evidence:
+          - "闇皇帝編: 鼻毛三大極意の一つ毛深一天でハイドレートを破った"
+  - id: giga
+    name: ギガ
+    affiliation: サイバー都市の帝王
+    cv: 関智一
+    editor:
+      anime:
+        score: 90
+        note: オブジェ真拳でヘッポコ丸をオブジェに変えた。サイバー都市でボーボボとの決戦に敗れた。
+        evidence:
+          - "第46話: ヘッポコ丸を捕らえてオブジェに変えた"
+          - "サイバー都市編: ボーボボの熱炎漢浪漫に敗れた"
+      manga:
+        score: 88
+        note: 『真説』では柊に敗れて捕らえられた。
+        evidence:
+          - "真説: 柊に敗れて捕らえられた"
+  - id: tsurulina-3
+    name: ツル・ツルリーナ3世
+    affiliation: 旧マルハーゲ帝国 皇帝
+    editor:
+      anime:
+        score: 89
+        note: 100年の封印から目覚めた旧皇帝。ボーボボたちとの決戦に敗れた。
+        evidence:
+          - "第70話: ボーボボたちとの決戦に敗れた"
+      manga:
+        score: 91
+        note: 『真説』でネオマルハーゲ帝国を築いて再び立ちはだかったが、最終決戦で撃破された。
+        evidence:
+          - "真説 第70話: ボーボボたちとの最終決戦で撃破された"
+  - id: donpatch
+    name: 首領パッチ
+    affiliation: ハジケ組 親分
+    cv: 小野坂昌也
+    editor:
+      anime:
+        score: 86
+        note: 真拳を使わずにハジケで戦う。ボーボボとの融合で旧帝国の強敵を倒した。
+        evidence:
+          - "第59話: ボーボボとの融合戦士として敵の一団を倒した"
+          - "第62話: 相手を混乱させて勝った"
+          - "第64話: ボーボボ、天の助との融合戦士としてランバダを倒した"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: lambada
+    name: ランバダ
+    affiliation: 旧マルハーゲ帝国
+    editor:
+      anime:
+        score: 85
+        note: 旧帝国の幹部としてボーボボたちを追い込んだが、融合戦士に敗れた。
+        evidence:
+          - "第62話: ライスを追い詰めた"
+          - "第64話: ボーボボたちの融合戦士に敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: softon
+    name: ソフトン
+    affiliation: バビロン真拳の使い手
+    cv: 緑川光
+    editor:
+      anime:
+        score: 84
+        note: 毛狩り隊Cブロック基地でボーボボと戦って敗れ、その後は仲間として戦った。
+        evidence:
+          - "毛狩り隊編: Cブロック基地でボーボボと戦い敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: halekulani
+    name: ハレクラニ
+    affiliation: マルハーゲ四天王
+    editor:
+      anime:
+        score: 83
+        note: マルハーゲ四天王の一人。ボーボボに敗れた。
+        evidence:
+          - "第43話: ボーボボに敗れた"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: over
+    name: OVER（魚雷ガール）
+    affiliation: マルハーゲ四天王
+    editor:
+      anime:
+        score: 82
+        note: 四天王としてボーボボたちと戦った。魚雷ガールとしては寒いボケをした者を誰彼かまわず攻撃する。
+        evidence:
+          - "第35話: ボーボボの鼻毛真拳に止められた"
+          - "第59話: 魚雷ガールとして元隊長とその部下を片付けた"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: j
+    name: J
+    affiliation: 電脳六闘騎士
+    cv: 小杉十郎太
+    editor:
+      anime:
+        score: 81
+        note: 黒太陽真拳を使う電脳六闘騎士の最強格。田ボに敗れた。
+        evidence:
+          - "第48話: ボーボボと田楽マンが融合した田ボに敗れた"
+      manga:
+        score: 81
+        note: 原作でも評価は変わらない。
+  - id: hatenkou
+    name: 破天荒
+    affiliation: カギ真拳の使い手
+    cv: 岸尾だいすけ
+    editor:
+      anime:
+        score: 80
+        note: 首領パッチの子分でカギ真拳を使う。王・龍牙を永遠錠で破った。
+        evidence:
+          - "王・龍牙戦: 永遠錠で王・龍牙を破った"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: tokoroten
+    name: ところ天の助
+    affiliation: 元毛狩り隊Aブロック隊長
+    cv: 園部啓一
+    editor:
+      anime:
+        score: 74
+        note: プルプル真拳の使い手。電脳六闘騎士の詩人を倒した。
+        evidence:
+          - "サイバー都市編: 詩人を倒した"
+          - "第67話: ボーボボとの融合戦士として敵の将を倒した"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: shijin
+    name: 詩人
+    affiliation: 電脳六闘騎士 総長
+    cv: 下野紘
+    editor:
+      anime:
+        score: 72
+        note: 言葉を操る電脳六闘騎士の総長。天の助に敗れた。
+        evidence:
+          - "サイバー都市編: 天の助に敗れた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: gunkan
+    name: 軍艦
+    affiliation: 毛狩り隊
+    editor:
+      anime:
+        score: 70
+        note: ボーボボと因縁を持つ毛狩り隊の実力者。対決の末に撃破された。
+        evidence:
+          - "第21話: ボーボボとの因縁の対決に臨んだ"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: heppokomaru
+    name: ヘッポコ丸
+    affiliation: オナラ真拳の使い手
+    cv: 進藤尚美
+    editor:
+      anime:
+        score: 65
+        note: オナラ真拳で戦う仲間。サイバー都市ではギガに捕らえられた。
+        evidence:
+          - "第46話: ギガに捕らえられ、オブジェに変えられた"
+      manga:
+        score: 67
+        note: 『真説』では邪王ヘッポコ丸となってボーボボたちと戦ったが、真説・ボボパッチに正気に戻された。
+        evidence:
+          - "真説: 邪王ヘッポコ丸として戦い、真説・ボボパッチに正気に戻された"
+  - id: dengakuman
+    name: 田楽マン
+    affiliation: ボーボボの仲間
+    cv: 金田朋子
+    editor:
+      anime:
+        score: 58
+        note: 単独の戦闘力は低い。ボーボボとの融合でJを倒した。
+        evidence:
+          - "第48話: ボーボボと融合した田ボとしてJを倒した"
+          - "第60話: 泡の手下に敗れた"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: beauty
+    name: ビュティ
+    affiliation: ボーボボの仲間
+    cv: 野中藍
+    editor:
+      anime:
+        score: 20
+        note: 主要な戦闘には加わらないツッコミ役。毛狩り隊にさらわれる場面が多い。
+        evidence:
+          - "第2話: 毛狩り隊にさらわれ、ヘッポコ丸に助けられた"
+      manga:
+        score: 20
+        note: 原作でも評価は変わらない。
+  - id: hydrate
+    name: ハイドレート
+    affiliation: 裏マルハーゲ帝国 皇帝（闇皇帝）
+    cv: 千葉繁
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: 闇皇帝として裏マルハーゲ帝国を率いた第1部最後の大敵。ボーボボの毛深一天に敗れた。
+        evidence:
+          - "闇皇帝編: ボーボボの毛深一天に敗れた"
