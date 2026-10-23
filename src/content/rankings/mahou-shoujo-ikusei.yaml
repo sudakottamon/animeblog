@@ -2,11 +2,11 @@ work: 魔法少女育成計画
 title: 魔法少女育成計画 最強キャラランキング
 description: 魔法少女育成計画（まほいく）のN市の魔法少女16人から最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
 published: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-24
 bases:
   - id: anime
     label: アニメ勢
-    range: TVアニメ第1期（2016年、全12話）まで。2026年10月放送開始の『restart』と原作小説の続編は対象外
+    range: TVアニメ第1期（2016年、全12話）まで。2026年10月から放送中の『restart』と原作小説の続編は対象外
 services: [cmoa, ebookjapan, dmmbooks]
 related: []
 candidates:
@@ -92,6 +92,7 @@ candidates:
   - id: la-pucelle
     name: ラ・ピュセル
     affiliation: N市の魔法少女
+    cv: 佐倉綾音
     editor:
       anime:
         score: 72
