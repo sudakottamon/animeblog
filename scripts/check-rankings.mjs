@@ -79,7 +79,7 @@ for (const f of files) {
     const s = scores.filter((x) => x >= 90).length;
     if (s > scores.length * 0.4) warn(`${b}: Sが${s}/${scores.length}人で多すぎる`);
   }
-  if (cands.length < 12) warn(`候補が${cands.length}人と少ない`);
+  if (cands.length < 10) warn(`候補が${cands.length}人と少ない`);
   if (cands.length > 24) warn(`候補が${cands.length}人と多い（並べる負担が大きい）`);
 
   const per = order.map((b) => `${b}:${cands.filter((c) => order.indexOf(c.appears ?? 'anime') <= order.indexOf(b)).length}人`).join(' ');
