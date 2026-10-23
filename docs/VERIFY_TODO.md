@@ -76,3 +76,5 @@
 | tensei-shitara-ken | 第2期（2026年10月〜）放送中、原作勢が薄い | 要フォロー・要補強 |
 | maou-gakuin / shikkakumon | 原作勢がほぼ全員「評価は変わらない」（原作後半の勝敗未確認） | 要補強 |
 | log-horizon | 書籍第10巻がアニメ化されたか（1勢扱いの前提） | 未確認 |
+| gundam系 / gurren-lagann | 基準は「パイロットの腕＋搭乗機」。話数がほぼ未記載（Wikipediaに載っていない） | 要補強 |
+| gundam-ibo / kill-la-kill | 登場人物ページ取得不可で根拠が作品ページのあらすじのみ | 要補強 |

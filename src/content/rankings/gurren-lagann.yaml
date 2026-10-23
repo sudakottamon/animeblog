@@ -1,0 +1,157 @@
+work: 天元突破グレンラガン
+title: 天元突破グレンラガン 最強キャラランキング
+description: 天元突破グレンラガンの最強キャラをティア表で決めます。ガンメンなど搭乗機を合わせた戦闘力で比べます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全27話＋劇場版『紅蓮篇』『螺巌篇』まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: simon
+    name: シモン
+    affiliation: 大グレン団
+    cv: 柿原徹也
+    editor:
+      anime:
+        score: 99
+        note: 基準は搭乗機を合わせた戦闘力。螺旋王ロージェノムを倒し、最後はアンチ=スパイラルにも勝った。
+        evidence:
+          - "テッペリン攻略戦: 死闘の末にロージェノムを倒した"
+          - "第2部: ヴィラルに勝った"
+          - "最終決戦: ラガンインパクトでアンチ=スパイラルを倒した"
+  - id: anti-spiral
+    name: アンチ=スパイラル
+    affiliation: 螺旋族と敵対する種族
+    cv: 上川隆也
+    editor:
+      anime:
+        score: 95
+        note: 螺旋の力を封じてきた種族の代表。隔絶宇宙で大グレン団を迎え撃ったが、シモンに敗れて消滅した。
+        evidence:
+          - "最終決戦: シモンのラガンインパクトを受けて敗れ、消滅した"
+  - id: lordgenome
+    name: ロージェノム
+    affiliation: 螺旋王
+    cv: 池田成志
+    editor:
+      anime:
+        score: 92
+        note: 獣人を率いて人間を地下に押し込めていた螺旋王。王都テッペリンでシモンとの死闘に敗れた。
+        evidence:
+          - "テッペリン攻略戦: シモンとの死闘に敗れ、王都テッペリンが陥落した"
+  - id: kamina
+    name: カミナ
+    affiliation: 大グレン団 リーダー
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 85
+        note: 大グレン団の初代リーダー。ダイガンザンを奪い取ったが、チミルフとヴィラルの猛攻を受けた傷で死亡した。
+        evidence:
+          - "ダイガンザン強奪作戦: ヴィラルを倒した"
+          - "ダイガンザン強奪作戦: チミルフに一撃を入れて倒したが、自らも重傷を負って死亡した"
+  - id: kittan
+    name: キタン
+    affiliation: 大グレン団
+    cv: 谷山紀章
+    editor:
+      anime:
+        score: 84
+        note: 黒の兄妹の長兄。最終決戦でキングキタンのギガドリルブレイクを放ち、敵と刺し違えた。
+        evidence:
+          - "最終決戦: 超螺旋弾でデススパイラルマシーンの防御を破った"
+          - "最終決戦: キングキタン・ギガドリルブレイクで刺し違えて戦死した"
+  - id: viral
+    name: ヴィラル
+    affiliation: 獣人 螺旋四天王チミルフ配下
+    cv: 檜山修之
+    editor:
+      anime:
+        score: 80
+        note: シモンたちと何度も戦った獣人。カミナとシモンにそれぞれ敗れた。
+        evidence:
+          - "ダイガンザン強奪作戦: カミナに倒された"
+          - "第2部: シモンに敗れた"
+  - id: thymilph
+    name: チミルフ
+    affiliation: 螺旋四天王
+    cv: 梁田清之
+    editor:
+      anime:
+        score: 78
+        note: 要塞型ガンメンのダイガンザンを率いた螺旋四天王。カミナとほぼ相打ちになって戦死した。
+        evidence:
+          - "ダイガンザン強奪作戦: カミナの一撃を受け、相打ちに近い形で戦死した"
+  - id: yoko
+    name: ヨーコ
+    affiliation: 大グレン団
+    cv: 井上麻里奈
+    editor:
+      anime:
+        score: 76
+        note: 大型ライフルを使う狙撃手。劇場版ではアディーネと生身でやり合い、痛み分けに近い形になった。
+        evidence:
+          - "劇場版: アディーネと肉弾戦になり、痛み分けに近い形になった"
+  - id: adiane
+    name: アディーネ
+    affiliation: 螺旋四天王
+    cv: 根谷美智子
+    editor:
+      anime:
+        score: 75
+        note: 螺旋四天王の一人。水上を進むダイグレンを襲ったが、零距離からの集中砲撃を受けて戦死した。
+        evidence:
+          - "TV版 第1部: ダイグレンを急襲したが、零距離からの集中砲撃で戦死した"
+  - id: cytomander
+    name: シトマンドラ
+    affiliation: 螺旋四天王
+    cv: 陶山章央
+    editor:
+      anime:
+        score: 72
+        note: 螺旋四天王の一人。テッペリンの防衛戦でダイグレンに串刺しにされた。
+        evidence:
+          - "テッペリン防衛戦: ダイグレンに串刺しにされて戦死した"
+  - id: guame
+    name: グアーム
+    affiliation: 螺旋四天王
+    cv: 川久保潔
+    editor:
+      anime:
+        score: 70
+        note: 螺旋四天王の一人。グレンラガンのドリル攻撃で艦ごと貫かれて戦死した。
+        evidence:
+          - "第1部: グレンラガンのドリル攻撃で艦ごと串刺しにされて戦死した"
+  - id: dayakka
+    name: ダヤッカ
+    affiliation: 大グレン団
+    cv: 中村大樹
+    editor:
+      anime:
+        score: 64
+        note: 大グレン団の古参。最終決戦で最初の反撃を叩き込んだ。
+        evidence:
+          - "最終決戦: 最初の反撃を叩き込んだ"
+  - id: gimmy
+    name: ギミー
+    affiliation: 大グレン団
+    cv: 本田貴子
+    editor:
+      anime:
+        score: 60
+        note: ダリーと組んでスペース・グラパールで戦ったが、敵の戦力に押されて退いた。
+        evidence:
+          - "最終決戦: スペース・グラパールで戦ったが、押されて待避した"
+  - id: darry
+    name: ダリー
+    affiliation: 大グレン団
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 58
+        note: ギミーと組んでスペース・グラパールで戦ったが、敵の戦力に押されて退いた。
+        evidence:
+          - "最終決戦: スペース・グラパールで戦ったが、押されて待避した"

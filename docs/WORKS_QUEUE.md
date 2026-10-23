@@ -188,12 +188,12 @@
 - [ ] `gundam-seed` 機動戦士ガンダムSEED（SEED DESTINY・劇場版FREEDOMを含む）
 
 ## バッチ 24
-- [ ] `gundam-00` 機動戦士ガンダム00
-- [ ] `gundam-wing` 新機動戦記ガンダムW
-- [ ] `gundam-ibo` 機動戦士ガンダム 鉄血のオルフェンズ
-- [ ] `g-gundam` 機動武闘伝Gガンダム
-- [ ] `gurren-lagann` 天元突破グレンラガン
-- [ ] `kill-la-kill` キルラキル
+- [x] `gundam-00` 機動戦士ガンダム00
+- [x] `gundam-wing` 新機動戦記ガンダムW
+- [x] `gundam-ibo` 機動戦士ガンダム 鉄血のオルフェンズ
+- [x] `g-gundam` 機動武闘伝Gガンダム
+- [x] `gurren-lagann` 天元突破グレンラガン
+- [x] `kill-la-kill` キルラキル
 
 ## バッチ 25
 - [ ] `madoka` 魔法少女まどか☆マギカ
