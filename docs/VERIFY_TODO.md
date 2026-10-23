@@ -57,3 +57,6 @@
 | drifters | 豊久と土方の一騎討ちの決着（資料で食い違い）、8巻の有無 | 未確認 |
 | ninja-slayer / terra-formars / spriggan / darwins-game | 裏取りできた範囲が狭い（ファンwiki・個人ブログ依拠、話数不明、スプリガンはアニメ勢6人） | 要補強 |
 | shigurui | 屈木頑之助の描写が少ない（外す案） | 要検討 |
+| detective-conan | 戦闘根拠が主に劇場版・ciatr依拠。若狭・メアリー・ラムなど原作先行分が未反映 | 要補強 |
+| lupin | 根拠が劇場版・OVAのみ、TVシリーズの場面なし | 要補強 |
+| ghost-in-the-shell | 1995年版とS.A.C.のみ。ARISE・SAC_2045等を含めるか | 要検討 |

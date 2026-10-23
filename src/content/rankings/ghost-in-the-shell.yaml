@@ -1,0 +1,121 @@
+work: 攻殻機動隊
+title: 攻殻機動隊 最強キャラランキング
+description: 攻殻機動隊の最強キャラを、劇場版（1995年）とS.A.C. TVシリーズの描写からティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: 劇場版『GHOST IN THE SHELL／攻殻機動隊』（1995年）とS.A.C. TVシリーズ（1st GIG・2nd GIG 各26話）。ARISE・SAC_2045などは対象外
+services: [ cmoa, ebookjapan, dmmbooks ]
+related: []
+candidates:
+  - id: motoko
+    name: 草薙素子
+    affiliation: 公安9課 隊長（少佐）
+    cv: 田中敦子
+    editor:
+      anime:
+        score: 95
+        note: 全身義体の9課隊長。白兵戦と電脳戦の両方で9課の先頭に立つ。サイトーとの狙撃戦にも勝っている。
+        evidence:
+          - "1st GIG 第22話: 義体交換中に襲ってきたNSSの刺客を制圧した"
+          - "2nd GIG 第14話（サイトーの回想）: メキシコでの交戦でサイトーに勝った"
+          - "劇場版（1995年）: 単独で多脚戦車に挑み、義体をほぼ破壊された"
+  - id: kuze
+    name: クゼ・ヒデオ
+    affiliation: 個別の11人 元自衛官
+    cv: 小山力也
+    editor:
+      anime:
+        score: 90
+        note: PKF仕様の完全義体を持つ元自衛官。白兵戦でバトーに勝ち、電脳に侵入した少佐にも反撃した。
+        evidence:
+          - "2nd GIG 第21話: バトーの右脚と左腕を壊し、プルトニウムを持って逃走した"
+          - "2nd GIG 第19話: 電脳に侵入した少佐に逆流で損傷を与えた"
+  - id: batou
+    name: バトー
+    affiliation: 公安9課
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 88
+        note: 9課随一の武闘派。海坊主の強化スーツを次々に倒したが、白兵戦ではクゼに敗れた。
+        evidence:
+          - "1st GIG 第10話: 下水道での銃撃戦の末に連続殺人犯アモレッティを逮捕した"
+          - "1st GIG 第25話: 海坊主の強化スーツを次々に倒したが、最後の1体に追い詰められた"
+          - "2nd GIG 第21話: クゼとの白兵戦で右脚と左腕を壊された"
+  - id: saito
+    name: サイトー
+    affiliation: 公安9課 狙撃手
+    cv: 大川透
+    editor:
+      anime:
+        score: 82
+        note: 衛星とリンクする義眼「鷹の眼」を持つ狙撃手。少佐との狙撃戦には敗れた。
+        evidence:
+          - "2nd GIG 第4話: 死亡したパイロットの電脳を狙撃で破壊した"
+          - "2nd GIG 第14話（回想）: 少佐との交戦に敗れ、左目を撃ち抜かれた"
+  - id: tachikoma
+    name: タチコマ
+    affiliation: 公安9課 思考戦車
+    cv: 玉川紗己子
+    editor:
+      anime:
+        score: 76
+        note: 9課の思考戦車。追い詰められたバトーを救い、陸自の強化スーツも少佐と組んで破壊した。
+        evidence:
+          - "1st GIG 第25話: バトーを追い詰めた強化スーツを、身を挺して破壊した"
+          - "2nd GIG 第21話: 少佐と組んで陸自の強化スーツを破壊した"
+  - id: laughing-man
+    name: 笑い男
+    affiliation: 超特A級ハッカー
+    cv: 山寺宏一
+    editor:
+      anime:
+        score: 75
+        note: 直接の格闘は描かれないが、他人の電脳を次々に乗っ取る。
+        evidence:
+          - "1st GIG 第4話: 警察幹部の電脳を乗っ取った"
+          - "1st GIG 第22話: 少佐を狙ったNSSの刺客を電脳ハックした"
+  - id: paz
+    name: パズ
+    affiliation: 公安9課
+    cv: 小野塚貴志
+    editor:
+      anime:
+        score: 74
+        note: ナイフを使う格闘術が得意。自分に成りすました相手とナイフで渡り合った。
+        evidence:
+          - "2nd GIG 第13話: 自分の姿をした相手とナイフで戦った"
+          - "1st GIG 第24話: 海坊主の襲撃で捕らえられた"
+  - id: borma
+    name: ボーマ
+    affiliation: 公安9課
+    cv: 山口太郎
+    editor:
+      anime:
+        score: 68
+        note: 爆発物の専門家で、重火器を担当する。海坊主の襲撃では捕らえられた。
+        evidence:
+          - "1st GIG 第24話: 海坊主の襲撃で捕らえられた"
+  - id: amoretti
+    name: マルコ・アモレッティ
+    affiliation: 連続殺人犯
+    cv: 郷里大輔
+    editor:
+      anime:
+        score: 60
+        note: 義体の連続殺人犯。下水道でバトーと撃ち合い、逮捕された。
+        evidence:
+          - "1st GIG 第10話: バトーとの銃撃戦の末に逮捕された"
+  - id: ishikawa
+    name: イシカワ
+    affiliation: 公安9課 情報担当
+    cv: 仲野裕
+    editor:
+      anime:
+        score: 50
+        note: 情報収集と電脳戦の担当で、戦闘の描写は少ない。
+        evidence:
+          - "1st GIG 終盤: 海坊主の部隊に捕らえられた"

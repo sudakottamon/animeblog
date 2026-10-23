@@ -1,0 +1,134 @@
+work: ルパン三世
+title: ルパン三世 最強キャラランキング
+description: ルパン三世の最強キャラを、アニメの描写からティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVシリーズ・劇場版・OVA（2025年『LUPIN THE IIIRD THE MOVIE 不死身の血族』まで）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: lupin
+    name: ルパン三世
+    affiliation: 大泥棒
+    editor:
+      anime:
+        score: 93
+        note: 不死身を名乗る支配者ムオムを倒した。正面からの勝負より機転で勝つ型。
+        evidence:
+          - "『不死身の血族』: ムオムを倒した"
+          - "『カリオストロの城』: ジョドーの機関銃で重傷を負った"
+  - id: goemon
+    name: 石川五ェ門
+    affiliation: 剣客
+    editor:
+      anime:
+        score: 91
+        note: 一度ホークに完敗したが、修行の後の再戦で片腕を斬り落として退けた。斬鉄剣はカゲの鎧も断つ。
+        evidence:
+          - "『血煙の石川五ェ門』: 初戦でホークに完敗した"
+          - "『血煙の石川五ェ門』: 再戦でホークの片腕を斬り落とし、退かせた"
+          - "『カリオストロの城』: 斬鉄剣でカゲの鎧を斬った"
+  - id: hawk
+    name: ホーク
+    affiliation: 殺し屋（バミューダの亡霊）
+    editor:
+      anime:
+        score: 89
+        note: 斧を使う大男の殺し屋。五ェ門を一方的に倒したが、再戦で片腕を斬られて退いた。
+        evidence:
+          - "『血煙の石川五ェ門』: 五ェ門を一方的に倒した"
+          - "『血煙の石川五ェ門』: 再戦で五ェ門に片腕を斬られ、退いた"
+  - id: jigen
+    name: 次元大介
+    affiliation: ガンマン
+    editor:
+      anime:
+        score: 88
+        note: 早撃ちの一騎討ちでヤエル奥崎に敗れたが、死を偽装して生き延び、背後からヤエルを撃った。
+        evidence:
+          - "『次元大介の墓標』: 一騎討ちでヤエル奥崎に敗れた"
+          - "『次元大介の墓標』: ルパンを狙撃したヤエルを背後から撃った"
+          - "『カリオストロの城』: 対戦車ライフルでカゲの大群と戦った"
+  - id: yael
+    name: ヤエル奥崎
+    affiliation: 殺し屋
+    cv: 広瀬彰勇
+    editor:
+      anime:
+        score: 85
+        note: 一流の狙撃手で、早撃ちでも次元を破った。ルパンを狙撃した直後に次元に撃たれた。
+        evidence:
+          - "『次元大介の墓標』: 早撃ちの一騎討ちで次元を破った"
+          - "『次元大介の墓標』: ルパンを狙撃したが外し、次元に背後から撃たれた"
+  - id: muom
+    name: ムオム
+    affiliation: 地図にない島の支配者
+    cv: 片岡愛之助
+    editor:
+      anime:
+        score: 80
+        note: 毒の霧と刺客を使ってルパン一味と戦ったが、ルパンに倒された。
+        evidence:
+          - "『不死身の血族』: 毒の霧と刺客でルパン一味と戦い、ルパンに倒された"
+  - id: binkam
+    name: ビンカム
+    affiliation: 殺し屋
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 78
+        note: 鋭い爪を持ち、砂埃を吸った相手を催眠状態にして操る。乾いた環境でしか力を使えない。
+        evidence:
+          - "『峰不二子の嘘』: 5億ドルを餌におびき出され、不二子に決着をつけられた"
+  - id: mamo
+    name: マモー
+    affiliation: 『ルパンVS複製人間』の黒幕
+    editor:
+      anime:
+        score: 72
+        note: 直接の格闘は描かれないが、島を丸ごと破壊する力を見せた。
+        evidence:
+          - "『不死身の血族』: ムオムの島を破壊した"
+  - id: jodo
+    name: ジョドー
+    affiliation: カリオストロ伯爵の執事 カゲの長官
+    cv: 永井一郎
+    editor:
+      anime:
+        score: 66
+        note: 防弾の鎧を着た特殊部隊カゲを率いる。機関銃でルパンに重傷を負わせた。
+        evidence:
+          - "『カリオストロの城』: 機関銃でルパンに重傷を負わせた"
+  - id: fujiko
+    name: 峰不二子
+    affiliation: 女盗賊
+    editor:
+      anime:
+        score: 64
+        note: 正面からの戦いより策で動く。ビンカムをおびき出して決着をつけた。
+        evidence:
+          - "『峰不二子の嘘』: 5億ドルを餌にビンカムをおびき出し、決着をつけた"
+          - "『カリオストロの城』: 手榴弾で脱出路を開こうとした"
+  - id: zenigata
+    name: 銭形警部
+    affiliation: ICPO
+    editor:
+      anime:
+        score: 62
+        note: 十手を使った格闘と指揮で機動隊を率いる。
+        evidence:
+          - "『カリオストロの城』: 機動隊を率いて城に突入し、衛士隊と乱戦になった"
+          - "『血煙の石川五ェ門』: 終盤に五ェ門と戦った"
+  - id: cagliostro
+    name: カリオストロ伯爵
+    affiliation: カリオストロ公国の摂政
+    cv: 石田太郎
+    editor:
+      anime:
+        score: 55
+        note: 自ら戦う描写は少ない。時計塔でクラリスを突き落とし、時計の針に挟まれて死んだ。
+        evidence:
+          - "『カリオストロの城』: 時計塔でクラリスを湖へ突き落とし、時計の針に挟まれて死んだ"

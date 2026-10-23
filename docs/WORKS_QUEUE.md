@@ -108,12 +108,12 @@
 - [x] `darwins-game` ダーウィンズゲーム
 
 ## バッチ 14
-- [ ] `black-bullet` ブラック・ブレット
-- [ ] `shuumatsu-no-valkyrie` 終末のワルキューレ
-- [ ] `tenjou-tenge` 天上天下
-- [ ] `ghost-in-the-shell` 攻殻機動隊（シリーズ横断。どの系列を対象にするか range で明示）
-- [ ] `detective-conan` 名探偵コナン（格闘・銃撃などの戦闘力で判定）
-- [ ] `lupin` ルパン三世
+- [x] `black-bullet` ブラック・ブレット
+- [x] `shuumatsu-no-valkyrie` 終末のワルキューレ
+- [x] `tenjou-tenge` 天上天下
+- [x] `ghost-in-the-shell` 攻殻機動隊（シリーズ横断。どの系列を対象にするか range で明示）
+- [x] `detective-conan` 名探偵コナン（格闘・銃撃などの戦闘力で判定）
+- [x] `lupin` ルパン三世
 
 ## バッチ 15
 - [ ] `baki` 刃牙シリーズ（グラップラー刃牙〜刃牙道・バキ道）

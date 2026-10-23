@@ -1,0 +1,190 @@
+work: 名探偵コナン
+title: 名探偵コナン 最強キャラランキング
+description: 名探偵コナンの最強キャラを、格闘・銃撃などの戦闘力でアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメの放送済み範囲（2026年10月時点）＋劇場版（第29作『ハイウェイの堕天使』まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本最新109巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kyogoku
+    name: 京極真
+    affiliation: 杯戸高校 空手部
+    cv: 檜山修之
+    editor:
+      anime:
+        score: 95
+        note: 格闘・銃撃などの戦闘力で判定する。園子を背負ったままジャマルッディンと戦い、怪盗キッドも肉弾戦で苦しめた。
+        evidence:
+          - "劇場版『紺青の拳』: 園子を背負った状態でジャマルッディンと戦った"
+          - "劇場版『紺青の拳』: 怪盗キッドとの肉弾戦で優位に立った"
+      manga:
+        score: 95
+        note: 原作でも評価は変わらない。
+  - id: akai
+    name: 赤井秀一
+    affiliation: FBI捜査官
+    cv: 池田秀一
+    editor:
+      anime:
+        score: 93
+        note: FBIの狙撃手で、截拳道の使い手。観覧車の上の肉弾戦で安室にやや優位に立った。
+        evidence:
+          - "劇場版『純黒の悪夢』: 観覧車の上で安室と殴り合い、やや優位に立った"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: amuro
+    name: 安室透（降谷零）
+    affiliation: 公安警察 黒の組織潜入捜査官
+    editor:
+      anime:
+        score: 90
+        note: 赤井と殴り合い、キュラソーとも渡り合った。プラーミャとは劣勢の場面もあった。
+        evidence:
+          - "劇場版『純黒の悪夢』: 赤井と殴り合い、キュラソーとも渡り合った"
+          - "劇場版『ハロウィンの花嫁』: 肩に銃弾を受けたままのプラーミャと交戦した"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: plamya
+    name: プラーミャ
+    affiliation: 爆弾犯
+    editor:
+      anime:
+        score: 86
+        note: 劇場版のみの人物。肩に銃弾が残ったまま安室と互角以上に戦った。
+        evidence:
+          - "劇場版『ハロウィンの花嫁』: 安室と互角以上に戦った"
+      manga:
+        score: 86
+        note: 劇場版のみの人物で、評価は変わらない。
+  - id: irish
+    name: アイリッシュ
+    affiliation: 黒の組織
+    editor:
+      anime:
+        score: 84
+        note: 劇場版のみの人物。蘭との格闘戦に勝ち、コナンの装備を次々に撃ち抜いた。
+        evidence:
+          - "劇場版『漆黒の追跡者』: 蘭と一進一退の格闘戦の末に勝った"
+          - "劇場版『漆黒の追跡者』: コナンの装備を次々に撃ち抜いた"
+      manga:
+        score: 84
+        note: 劇場版のみの人物で、評価は変わらない。
+  - id: ran
+    name: 毛利蘭
+    affiliation: 帝丹高校 空手部
+    editor:
+      anime:
+        score: 83
+        note: 空手の使い手。アイリッシュとは一進一退の格闘戦を演じたが、敗れた。
+        evidence:
+          - "劇場版『漆黒の追跡者』: アイリッシュと一進一退の格闘戦の末に敗れた"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: curacao
+    name: キュラソー
+    affiliation: 黒の組織
+    editor:
+      anime:
+        score: 82
+        note: 劇場版のみの人物。安室と格闘で渡り合ったが、やや劣勢だった。
+        evidence:
+          - "劇場版『純黒の悪夢』: 安室と格闘で渡り合った"
+      manga:
+        score: 82
+        note: 劇場版のみの人物で、評価は変わらない。
+  - id: jamaluddin
+    name: ヘッズリ・ジャマルッディン
+    affiliation: 劇場版『紺青の拳』の敵
+    editor:
+      anime:
+        score: 80
+        note: 劇場版のみの人物。園子を背負った京極と戦い、手傷を負わせた。
+        evidence:
+          - "劇場版『紺青の拳』: 園子を背負った京極にダメージを与えた"
+      manga:
+        score: 80
+        note: 劇場版のみの人物で、評価は変わらない。
+  - id: sera
+    name: 世良真純
+    affiliation: 帝丹高校 女子高生探偵
+    cv: 日髙のり子
+    editor:
+      anime:
+        score: 80
+        note: 截拳道の使い手。初登場時に蘭とやり合い、互角だった。
+        evidence:
+          - "世良の初登場回: 蘭とやり合い、互角だった"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: pinga
+    name: ピンガ
+    affiliation: 黒の組織
+    editor:
+      anime:
+        score: 76
+        note: 劇場版のみの人物。変装と格闘でコナンたちを追い詰めた。
+        evidence:
+          - "劇場版『黒鉄の魚影』: 変装と格闘でコナンたちを追い詰めた"
+      manga:
+        score: 76
+        note: 劇場版のみの人物で、評価は変わらない。
+  - id: kid
+    name: 怪盗キッド
+    affiliation: 怪盗
+    editor:
+      anime:
+        score: 74
+        note: 正面からの肉弾戦は得意ではなく、京極には苦戦した。逃げ切る戦い方を得意とする。
+        evidence:
+          - "劇場版『紺青の拳』: 京極との肉弾戦で苦戦した"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: heiji
+    name: 服部平次
+    affiliation: 改方学園 剣道部
+    editor:
+      anime:
+        score: 72
+        note: 剣道の腕が立つ西の高校生探偵。剣道大会では沖田総司に敗れた。
+        evidence:
+          - "剣道大会のエピソード: 沖田総司の五段突きを受けて敗れた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: gin
+    name: ジン
+    affiliation: 黒の組織
+    cv: 堀之紀
+    editor:
+      anime:
+        score: 70
+        note: 組織の幹部。格闘の描写は少なく、銃撃が中心。
+        evidence:
+          - "劇場版『純黒の悪夢』: 上空からの銃撃に加わった"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: conan
+    name: 江戸川コナン
+    affiliation: 帝丹小学校 1年B組
+    editor:
+      anime:
+        score: 62
+        note: 子どもの体で、キック力増強シューズなどの道具で戦う。アイリッシュには装備を撃ち抜かれて追い詰められた。
+        evidence:
+          - "劇場版『漆黒の追跡者』: アイリッシュに装備を次々に撃ち抜かれた"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。

@@ -1,0 +1,240 @@
+work: ブラック・ブレット
+title: ブラック・ブレット 最強キャラランキング
+description: ブラック・ブレットの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全13話（第三次関東会戦まで）
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説 既刊7巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: rentaro
+    name: 里見蓮太郎
+    affiliation: 天童民間警備会社 プロモーター
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 92
+        note: 超バラニウムの義肢と義眼を持つ。一度敗れた影胤に再戦で勝ち、ティナとの死闘も制した。
+        evidence:
+          - "影胤事件: 再戦で影胤に勝ち、延珠とステージVのスコーピオンを撃破した"
+          - "聖天子暗殺事件: ティナとの死闘に勝った"
+          - "第三次関東会戦: アルデバランを撃破した"
+      novel:
+        score: 95
+        note: 接戦の末に一度敗れた悠河に狙撃勝負で勝ち、朝霞も退けた。影胤と組んでプレヤデスを撃破した。
+        evidence:
+          - "原作小説（第5巻以降）: 悠河との狙撃勝負に勝った"
+          - "原作小説（第5巻以降）: 壬生朝霞と交戦して勝った"
+          - "原作小説（第5巻以降）: 影胤と連携してプレヤデスを撃破した"
+  - id: kagetane
+    name: 蛭子影胤
+    affiliation: 元IP序列134位 プロモーター
+    cv: 小山力也
+    editor:
+      anime:
+        score: 88
+        note: 元IP序列134位。一度は蓮太郎を退け、小比奈と組んで伊熊将監を倒したが、再戦で蓮太郎に敗れた。
+        evidence:
+          - "影胤事件: 小比奈と組んで伊熊将監を倒した"
+          - "影胤事件: 再戦で蓮太郎に敗れた"
+      novel:
+        score: 90
+        note: 蓮太郎と連携してプレヤデスを撃破した。
+        evidence:
+          - "原作小説（第5巻以降）: 蓮太郎と連携してプレヤデスを撃破した"
+  - id: enju
+    name: 藍原延珠
+    affiliation: 天童民間警備会社 イニシエーター（モデル・ラビット）
+    cv: 日高里菜
+    editor:
+      anime:
+        score: 85
+        note: ウサギの因子を持ち、脚力を生かした蹴りで強固なガストレアも砕く。小比奈の斬撃を弾いた。
+        evidence:
+          - "影胤事件: 蓮太郎とステージVのスコーピオンを撃破した"
+          - "影胤事件: 小比奈の斬撃を弾いた"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: tina
+    name: ティナ・スプラウト
+    affiliation: 元IP序列98位 イニシエーター
+    cv: 黒沢ともよ
+    editor:
+      anime:
+        score: 84
+        note: 元は上位序列の狙撃手。聖天子の暗殺を狙い、蓮太郎との死闘に敗れて投降した。
+        evidence:
+          - "第6話: IP序列97位と説明された"
+          - "聖天子暗殺事件: 蓮太郎との死闘に敗れて投降した"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: aldebaran
+    name: アルデバラン
+    affiliation: ガストレア
+    editor:
+      anime:
+        score: 83
+        note: ガストレアの大群を統率して東京エリアに攻め込んだ。三波にわたる襲撃の末、蓮太郎らに撃破された。
+        evidence:
+          - "第三次関東会戦: ガストレアの大群を率いて三波にわたり襲撃した"
+          - "第三次関東会戦: 蓮太郎らの抗戦の末に撃破された"
+      novel:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: kohina
+    name: 蛭子小比奈
+    affiliation: 影胤のイニシエーター
+    cv: 悠木碧
+    editor:
+      anime:
+        score: 82
+        note: 接近戦では無敵と評される二刀の使い手。影胤と組んで伊熊将監を倒したが、延珠に斬撃を弾かれた。
+        evidence:
+          - "影胤事件: 影胤と組んで伊熊将監を倒した"
+          - "影胤事件: 延珠に斬撃を弾かれた"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: shoma
+    name: 薙沢彰磨
+    affiliation: IP序列970位 プロモーター
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 76
+        note: IP序列970位。第三次関東会戦で蓮太郎と共に戦い、不発のEP爆弾を起爆するためアルデバランへ特攻した。
+        evidence:
+          - "第三次関東会戦: 不発のEP爆弾を起爆するためアルデバランへ特攻した"
+      novel:
+        score: 84
+        note: 蓮太郎を一度破った悠河に勝った。
+        evidence:
+          - "原作小説（第5巻以降）: 巳継悠河に勝った"
+  - id: gado
+    name: 我堂長政
+    affiliation: IP序列275位 プロモーター
+    cv: 玄田哲章
+    editor:
+      anime:
+        score: 74
+        note: IP序列275位で、第三次関東会戦では民警部隊の指揮を執った。
+        evidence:
+          - "第三次関東会戦: 民警部隊の指揮を執って前線に立った"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: tamaki
+    name: 片桐玉樹
+    affiliation: IP序列1850位 プロモーター
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 64
+        note: IP序列1850位のボクサー。即席ペアの蓮太郎とティナに決闘を挑み、実力を測った。
+        evidence:
+          - "第三次関東会戦前: 即席ペアの蓮太郎とティナに決闘を挑んだ"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: shogen
+    name: 伊熊将監
+    affiliation: IP序列1584位 プロモーター
+    cv: 手塚ヒロミチ
+    editor:
+      anime:
+        score: 62
+        note: 大剣を使うIP序列1584位のプロモーター。影胤と小比奈に敗れて死んだ。
+        evidence:
+          - "影胤事件: 影胤と小比奈に敗れ、自らの大剣で背中を貫かれて死んだ"
+      novel:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: yuzuki
+    name: 片桐弓月
+    affiliation: 玉樹のイニシエーター
+    cv: 大久保瑠美
+    editor:
+      anime:
+        score: 56
+        note: 玉樹と組むイニシエーター。単独で目立った戦果は描かれていない。
+        evidence:
+          - "第三次関東会戦: 玉樹と組んで参戦した"
+      novel:
+        score: 56
+        note: 原作でも評価は変わらない。
+  - id: kayo
+    name: 千寿夏世
+    affiliation: 伊熊将監のイニシエーター
+    cv: 潘めぐみ
+    editor:
+      anime:
+        score: 45
+        note: 知能を生かすタイプで、戦闘力は高くない。ガストレアの攻撃で侵食率が限界に達した。
+        evidence:
+          - "影胤事件: 侵食率が限界に達し、人として死ぬことを望んで蓮太郎に撃たれた"
+      novel:
+        score: 45
+        note: 原作でも評価は変わらない。
+  - id: kisara
+    name: 天童木更
+    affiliation: 天童民間警備会社 社長
+    cv: 堀江由衣
+    appears: novel
+    editor:
+      novel:
+        score: 88
+        note: 天童式抜刀術の使い手。天童和光との決闘で両足を斬り飛ばし、奥義の遅延効果で死に至らせた。
+        evidence:
+          - "原作小説: 天童和光との決闘に勝った"
+  - id: yuga
+    name: 巳継悠河
+    affiliation: 五翔会
+    appears: novel
+    editor:
+      novel:
+        score: 86
+        note: 接戦の末に蓮太郎を一度破った。その後の狙撃勝負で蓮太郎に敗れて死んだ。彰磨にも敗れている。
+        evidence:
+          - "原作小説（第5巻以降）: 接戦の末に蓮太郎を一度破った"
+          - "原作小説（第5巻以降）: 蓮太郎との狙撃勝負に敗れて死んだ"
+          - "原作小説（第5巻以降）: 薙沢彰磨に敗れた"
+  - id: asaka
+    name: 壬生朝霞
+    affiliation: 我堂長政のイニシエーター
+    cv: 水瀬いのり
+    appears: novel
+    editor:
+      novel:
+        score: 74
+        note: 蓮太郎の確保に出向いて交戦し、敗れた。
+        evidence:
+          - "原作小説（第5巻以降）: 蓮太郎と交戦して敗れた"
+  - id: hotaru
+    name: 紅露火垂
+    affiliation: イニシエーター
+    appears: novel
+    editor:
+      novel:
+        score: 70
+        note: 蘇生能力を持つイニシエーター。久留米リカを射殺し、悠河の狙撃から蓮太郎を庇って致命傷を負った。
+        evidence:
+          - "原作小説（第5巻以降）: 久留米リカを射殺した"
+          - "原作小説（第5巻以降）: 悠河の狙撃から蓮太郎を庇った"
+  - id: kazumitsu
+    name: 天童和光
+    affiliation: 天童家
+    appears: novel
+    editor:
+      novel:
+        score: 60
+        note: 木更との決闘で両足を斬り飛ばされ、奥義の遅延効果で死んだ。
+        evidence:
+          - "原作小説: 木更との決闘に敗れた"

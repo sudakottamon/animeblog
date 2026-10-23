@@ -1,0 +1,291 @@
+work: 終末のワルキューレ
+title: 終末のワルキューレ 最強キャラランキング
+description: 終末のワルキューレの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第3期（第9回戦 レオニダスvsアポロンまで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本最新28巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: zeus
+    name: ゼウス
+    affiliation: 神側 全知全能の神
+    cv: 高木渉
+    editor:
+      anime:
+        score: 96
+        note: 神々の頂点。神の技を見切るアダムとの殴り合いを制した。
+        evidence:
+          - "第2回戦: アダムに勝った"
+      manga:
+        score: 96
+        note: 原作でも評価は変わらない。
+  - id: buddha
+    name: 釈迦
+    affiliation: 人類側 仏教の開祖
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 93
+        note: 神側から人類側に寝返って出場した。零福から変貌した波旬を倒した。
+        evidence:
+          - "第6回戦: 波旬（零福）に勝った"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: shiva
+    name: シヴァ
+    affiliation: 神側 破壊神
+    cv: 鈴木達央
+    editor:
+      anime:
+        score: 93
+        note: 四本腕の破壊神。雷電為右衛門との殴り合いに勝った。
+        evidence:
+          - "第5回戦: 雷電為右衛門に勝った"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: qin
+    name: 始皇帝
+    affiliation: 人類側 秦の初代皇帝
+    cv: 石川界人
+    editor:
+      anime:
+        score: 92
+        note: 冥界の王ハデスとの王同士の戦いに勝った。
+        evidence:
+          - "第7回戦: ハデスに勝った"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: thor
+    name: トール
+    affiliation: 神側 雷神
+    cv: 緑川光
+    editor:
+      anime:
+        score: 91
+        note: ラグナロクの開幕戦で呂布奉先に勝ち、神側に初白星をもたらした。
+        evidence:
+          - "第1回戦: 呂布奉先に勝った"
+      manga:
+        score: 91
+        note: 原作でも評価は変わらない。
+  - id: beelzebub
+    name: ベルゼブブ
+    affiliation: 神側 蠅の王
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 91
+        note: ニコラ・テスラとの戦いに勝った。
+        evidence:
+          - "第8回戦: ニコラ・テスラに勝った"
+      manga:
+        score: 91
+        note: 原作でも評価は変わらない。
+  - id: hades
+    name: ハデス
+    affiliation: 神側 冥界の王
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 89
+        note: ゼウスらの長兄。始皇帝と互いに王として戦い、敗れた。
+        evidence:
+          - "第7回戦: 始皇帝に敗れた"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: adam
+    name: アダム
+    affiliation: 人類側 人類の始祖
+    cv: 斉藤壮馬
+    editor:
+      anime:
+        score: 89
+        note: 見た神の技を模倣する「神虚視」でゼウスと渡り合ったが、敗れた。
+        evidence:
+          - "第2回戦: ゼウスに敗れた"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: apollo
+    name: アポロン
+    affiliation: 神側 太陽神
+    cv: 鈴村健一
+    editor:
+      anime:
+        score: 89
+        note: 不可視の光の矢を使う太陽神。レオニダス王に勝った。
+        evidence:
+          - "第9回戦: レオニダス王に勝った"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: kojiro
+    name: 佐々木小次郎
+    affiliation: 人類側 剣豪
+    cv: 山路和弘
+    editor:
+      anime:
+        score: 88
+        note: 史上最強の敗者と呼ばれる剣豪。海神ポセイドンを破り、人類側に初勝利をもたらした。
+        evidence:
+          - "第3回戦: ポセイドンに勝った"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: lubu
+    name: 呂布奉先
+    affiliation: 人類側 三国志の武将
+    cv: 関智一
+    editor:
+      anime:
+        score: 86
+        note: 人類側の先鋒。トールと打ち合ったが敗れた。
+        evidence:
+          - "第1回戦: トールに敗れた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: raiden
+    name: 雷電為右衛門
+    affiliation: 人類側 力士
+    cv: 木村昴
+    editor:
+      anime:
+        score: 86
+        note: 抑えていた筋力を解放してシヴァと殴り合ったが、敗れた。
+        evidence:
+          - "第5回戦: シヴァに敗れた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: hajun
+    name: 波旬（零福）
+    affiliation: 神側 第6回戦の神
+    editor:
+      anime:
+        score: 85
+        note: 零福として出場し、波旬に変貌して釈迦と戦ったが敗れた。
+        evidence:
+          - "第6回戦: 釈迦に敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: tesla
+    name: ニコラ・テスラ
+    affiliation: 人類側 科学者
+    cv: 古川慎
+    editor:
+      anime:
+        score: 85
+        note: 科学の力でベルゼブブと戦ったが、敗れた。
+        evidence:
+          - "第8回戦: ベルゼブブに敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: poseidon
+    name: ポセイドン
+    affiliation: 神側 海神
+    cv: 櫻井孝宏
+    editor:
+      anime:
+        score: 84
+        note: 三叉槍の使い手。佐々木小次郎に敗れた。
+        evidence:
+          - "第3回戦: 佐々木小次郎に敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: leonidas
+    name: レオニダス
+    affiliation: 人類側 スパルタ王
+    cv: 白熊寛嗣
+    editor:
+      anime:
+        score: 83
+        note: 盾を武器にアポロンを地面に叩き伏せる場面もあったが、敗れた。
+        evidence:
+          - "第3期 第14話: アポロンを地面に叩き伏せた"
+          - "第9回戦: アポロンに敗れた"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: jack
+    name: ジャック・ザ・リッパー
+    affiliation: 人類側 殺人鬼
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 80
+        note: 正面からの力では劣るが、策を重ねてヘラクレスに勝った。
+        evidence:
+          - "第4回戦: ヘラクレスに勝った"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: heracles
+    name: ヘラクレス
+    affiliation: 神側 英雄神
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 79
+        note: 十二の功業を力に変えて戦ったが、ジャック・ザ・リッパーに敗れた。
+        evidence:
+          - "第4回戦: ジャック・ザ・リッパーに敗れた"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: okita
+    name: 沖田総司
+    affiliation: 人類側 新選組
+    cv: 代永翼
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 剣術勝負でスサノヲノミコトに勝った。
+        evidence:
+          - "第10回戦: スサノヲノミコトに勝った"
+  - id: susanoo
+    name: スサノヲノミコト
+    affiliation: 神側 日本神話の荒ぶる神
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 剣の神として沖田総司と斬り合ったが、敗れた。
+        evidence:
+          - "第10回戦: 沖田総司に敗れた"
+  - id: simo
+    name: シモ・ヘイヘ
+    affiliation: 人類側 狙撃手
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 狙撃手としてロキとの知略戦に勝った。
+        evidence:
+          - "第11回戦: ロキに勝った"
+  - id: loki
+    name: ロキ
+    affiliation: 神側 北欧神話の神
+    cv: 松岡禎丞
+    appears: manga
+    editor:
+      manga:
+        score: 83
+        note: シモ・ヘイヘと戦ったが、敗れた。
+        evidence:
+          - "第11回戦: シモ・ヘイヘに敗れた"

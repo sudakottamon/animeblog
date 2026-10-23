@@ -1,0 +1,265 @@
+work: 天上天下
+title: 天上天下 最強キャラランキング
+description: 天上天下の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全24話＋OVA『天上天下 ULTIMATE FIGHT』（全2話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全22巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: mitsuomi
+    name: 高柳光臣
+    affiliation: 統道学園 執行部会長
+    cv: 森川智之
+    editor:
+      anime:
+        score: 92
+        note: ボブと宗一郎を退け、過去編では柔剣部員5人を約3分で倒し、慎も圧倒した。
+        evidence:
+          - "第8話: ボブを倒した"
+          - "第22話（過去編）: 柔剣部員5人を一人で約3分で倒した"
+          - "第23話（過去編）: 慎を圧倒した"
+      manga:
+        score: 90
+        note: 高柳ビルでの戦いで、心臓への一撃を受けて雅孝に敗れた。
+        evidence:
+          - "原作終盤（高柳ビル）: 雅孝に敗れた"
+  - id: shin
+    name: 棗慎
+    affiliation: 元柔剣部 真夜の兄
+    cv: 池田秀一
+    editor:
+      anime:
+        score: 90
+        note: 過去編の人物。文七を倒し、虎瀉殷の両手を引きちぎり光臣を吹き飛ばした。最後は光臣に圧倒され自ら命を絶った。
+        evidence:
+          - "第13話（過去編）: 文七を倒した"
+          - "第21話（過去編）: 虎瀉殷の両手を引きちぎり、光臣を吹き飛ばした"
+          - "第23話（過去編）: 光臣に圧倒され、自ら命を絶った"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: bunshichi
+    name: 俵文七
+    affiliation: 統道学園 執行部顧問
+    cv: 矢尾一樹
+    editor:
+      anime:
+        score: 86
+        note: 武術の心得はないが豪腕と打たれ強さを持つ。慎に一度敗れたが、力の落ちた慎には勝った。
+        evidence:
+          - "第9話: 光臣と宗一郎の戦いを止めた"
+          - "第13話（過去編）: 慎に敗れた"
+          - "第14話（過去編）: 力の落ちた慎に勝った"
+      manga:
+        score: 88
+        note: 光臣に扮した猩を破ったが、本物の光臣に背後から襲われて重傷を負った。
+        evidence:
+          - "原作: 光臣に扮した猩と戦って勝った"
+          - "原作: 本物の光臣に背後から襲われ重傷を負った"
+  - id: maya
+    name: 棗真夜
+    affiliation: 柔剣部 部長
+    cv: 久川綾
+    editor:
+      anime:
+        score: 80
+        note: 柔剣部の部長。宗一郎とボブを倒した執行部の刺客を退けたが、過去編では光臣に敗れている。
+        evidence:
+          - "第3話: 宗一郎とボブを倒した執行部の刺客を退けた"
+          - "第6話: 五十鈴絵美の刃の型に押された"
+          - "第10話（過去編）: 光臣に敗れた"
+      manga:
+        score: 85
+        note: 零毀を発動して炬鉄人に勝った。虎瀉殷には敗れている。
+        evidence:
+          - "原作: 零毀を発動して炬鉄人に勝った"
+          - "原作: 虎瀉殷に敗れた"
+  - id: masataka
+    name: 高柳雅孝
+    affiliation: 柔剣部
+    cv: 関智一
+    editor:
+      anime:
+        score: 78
+        note: 宗一郎を倒し、執行部の部員を次々に退けた。
+        evidence:
+          - "第2話: 宗一郎を倒した"
+          - "第6〜7話: 執行部の部員を次々に倒した"
+      manga:
+        score: 95
+        note: 高柳ビルで光臣に勝ち、終盤の選抜戦では宗一郎にも勝った。
+        evidence:
+          - "原作終盤（高柳ビル）: 心臓への一撃で光臣に勝った"
+          - "原作終盤（執行部会長選抜戦）: 宗一郎に勝った"
+          - "原作: 文七と共に虎瀉殷を倒した"
+  - id: aya
+    name: 棗亜夜
+    affiliation: 柔剣部 真夜の妹
+    cv: 茅原実里
+    editor:
+      anime:
+        score: 76
+        note: 田上士郎に重傷を負わされたが、覚醒した後は田上を殺しかけた。
+        evidence:
+          - "第6話: 田上士郎に重傷を負わされた"
+          - "第8話: 覚醒して田上士郎を殺しかけた"
+          - "OVA前編: 剣で宗一郎をあしらった"
+      manga:
+        score: 80
+        note: ボウリング場の決戦で田上士郎に勝った。
+        evidence:
+          - "原作: ボウリング場の決戦で田上士郎に勝った"
+  - id: emi
+    name: 五十鈴絵美
+    affiliation: 統道学園 執行部副会長
+    editor:
+      anime:
+        score: 75
+        note: 暗器の使い手。刃の型で真夜を押し込んだ。
+        evidence:
+          - "第6話: 刃の型で真夜を押し込んだ"
+      manga:
+        score: 76
+        note: 真夜や圓円を相手に善戦した。
+        evidence:
+          - "原作: 真夜や圓円を相手に善戦した"
+  - id: soichiro
+    name: 凪宗一郎
+    affiliation: 柔剣部
+    cv: 保志総一朗
+    editor:
+      anime:
+        score: 72
+        note: 相良浩治には勝ったが、雅孝と光臣には敗れた。OVAでは異変した状態で光臣を殴り飛ばした。
+        evidence:
+          - "第7話: 相良浩治を倒した"
+          - "第24話: 光臣に組み伏せられ、真夜が止めに入った"
+          - "OVA後編: 異変した状態で光臣を壁まで殴り飛ばしたが、倒れた"
+      manga:
+        score: 82
+        note: 颯又左の義手を砕いて退けた。終盤の選抜戦では雅孝に敗れた。
+        evidence:
+          - "原作: 颯又左との戦いで義手を砕いた"
+          - "原作終盤（執行部会長選抜戦）: 雅孝に敗れた"
+  - id: fu-chien
+    name: 虎瀉殷
+    affiliation: 光臣の武道指南役
+    cv: 宮崎一成
+    editor:
+      anime:
+        score: 72
+        note: 過去編の人物。絵美や真夜を捕らえたが、慎に両手を引きちぎられて殺された。
+        evidence:
+          - "第20話（過去編）: 絵美と真夜らを捕らえた"
+          - "第21〜22話（過去編）: 慎に両手を引きちぎられ、殺された"
+      manga:
+        score: 75
+        note: 真夜を倒した。後に操られた状態で雅孝と文七に倒された。
+        evidence:
+          - "原作: 真夜を倒した"
+          - "原作: 操られた状態で雅孝と文七に倒された"
+  - id: tagami
+    name: 田上士郎
+    affiliation: 執行部3番隊隊長（学園内序列9位）
+    cv: 花輪英司
+    editor:
+      anime:
+        score: 66
+        note: 学園内序列9位。亜夜に重傷を負わせたが、覚醒した亜夜に殺されかけた。
+        evidence:
+          - "第6話: 亜夜に重傷を負わせた"
+          - "第8話: 覚醒した亜夜に殺されかけた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: bob
+    name: ボブ牧原
+    affiliation: 柔剣部 宗一郎の相棒
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 60
+        note: 執行部の刺客と光臣に敗れた。宗一郎と2人がかりで金北流川を倒した。
+        evidence:
+          - "第3話: 執行部の刺客に敗れた"
+          - "第8話: 光臣に敗れた"
+          - "第16話: 宗一郎と2人で金北流川を倒した"
+      manga:
+        score: 72
+        note: 本編の5年後に圓円と戦い、勝った。
+        evidence:
+          - "原作（本編の5年後）: 圓円に勝った"
+  - id: sagara
+    name: 相良浩治
+    affiliation: 執行部 執行人
+    cv: 三宅健太
+    editor:
+      anime:
+        score: 52
+        note: 巨漢のレスラー。宗一郎に圧倒されて敗れた。
+        evidence:
+          - "第6〜7話: 宗一郎に敗れた"
+      manga:
+        score: 52
+        note: 原作でも評価は変わらない。
+  - id: kanakita
+    name: 金北流川
+    affiliation: 第壱剣道部 主将
+    editor:
+      anime:
+        score: 50
+        note: 宗一郎とボブの2人がかりに敗れた。
+        evidence:
+          - "第16話: 宗一郎とボブに敗れた"
+      manga:
+        score: 50
+        note: 原作でも評価は変わらない。
+  - id: shoujou
+    name: 猩 徳庵 蜜色
+    affiliation: 猩家当主
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 対象をコピーする能力者。無刀取りで柳生厳勝を破ったが、光臣に扮して文七と戦い敗れた。
+        evidence:
+          - "原作: 無刀取りで柳生厳勝を破った"
+          - "原作: 光臣に扮して文七と戦い敗れた"
+  - id: madoka
+    name: 圓円
+    affiliation: 圓家当主
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 剣術の達人。ボブと五十鈴絵美を瀕死に追い込んだが倒された。本編の5年後にはボブに敗れた。
+        evidence:
+          - "原作: ボブと五十鈴絵美を瀕死に追い込んだ"
+          - "原作（本編の5年後）: ボブに敗れた"
+  - id: yagyu
+    name: 柳生厳勝
+    affiliation: 剣客
+    appears: manga
+    editor:
+      manga:
+        score: 78
+        note: 剣の実力と洞察力が極めて高い剣客。猩の無刀取りに敗れた。
+        evidence:
+          - "原作: 猩の無刀取りに敗れた"
+  - id: matasa
+    name: 颯又左
+    affiliation: 颯家当主
+    appears: manga
+    editor:
+      manga:
+        score: 74
+        note: 八楰槍の使い手。宗一郎との戦いで義手を砕かれた。
+        evidence:
+          - "原作: 宗一郎との戦いで義手を砕かれた"
