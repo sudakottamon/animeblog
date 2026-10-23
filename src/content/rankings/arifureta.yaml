@@ -1,0 +1,250 @@
+work: ありふれた職業で世界最強
+title: ありふれた職業で世界最強 最強キャラランキング
+description: ありふれた職業で世界最強の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第3期（全16話、氷雪洞窟の攻略）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説の本編完結と後日談（第14巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: hajime
+    name: 南雲ハジメ
+    affiliation: 錬成師
+    cv: 深町寿成
+    editor:
+      anime:
+        score: 96
+        note: 迷宮の主から6万の魔物の軍勢、神の使徒ノイントまで退けた。氷雪洞窟では暴走した光輝も倒した。
+        evidence:
+          - "第1期 第10話: ガトリングとロケットで6万の魔物の軍勢を壊滅させた"
+          - "第2期 第10話: 神の使徒ノイントを倒した"
+          - "第3期 第15話: 虚像と一体化した光輝を倒した"
+      novel:
+        score: 98
+        note: 最終決戦で神を名乗る敵にとどめを刺し、神山の周辺を更地にした。
+        evidence:
+          - "原作 最終決戦: ユエの魂を切り離す弾丸を撃ち込み、とどめの一発を放った"
+          - "原作 最終決戦: メテオインパクトなどで神山の周辺を更地にした"
+  - id: ehit
+    name: エヒト
+    affiliation: 神
+    appears: novel
+    editor:
+      novel:
+        score: 94
+        note: 最終決戦の敵。ユエの体を乗っ取ってハジメたちと戦ったが、魂を切り離されて討たれた。
+        evidence:
+          - "原作 最終決戦: ユエの体を乗っ取ったが、ハジメの弾丸で魂を切り離され、とどめを撃たれた"
+  - id: yue
+    name: ユエ
+    affiliation: 吸血鬼族
+    cv: 桑原由気
+    editor:
+      anime:
+        score: 90
+        note: 広範囲の魔法でフリードの軍勢や魔物の群れを退けた。シアとは力尽きるまで互角に戦った。
+        evidence:
+          - "第2期 第9話: シアとともにフリードの軍勢を退けた"
+          - "第3期 第8話: 全方位の魔法で虫型の魔物を一掃した"
+          - "第3期 第14話: シアと力尽きるまで戦った"
+      novel:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: noint
+    name: ノイント
+    affiliation: 神の使徒
+    cv: 佐藤利奈
+    editor:
+      anime:
+        score: 88
+        note: 騎士団長メルドを殺し、ハジメたちを襲った神の使徒。ハジメとの戦いに敗れた。
+        evidence:
+          - "第2期 第8話: メルドを殺し、ハジメたちを襲った"
+          - "第2期 第10話: ハジメに敗れた"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: tio
+    name: ティオ・クラルス
+    affiliation: 竜人族
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 86
+        note: 黒竜の姿でハジメとシアに倒されたが、仲間になってからは愛子と組んで神殿ごと吹き飛ばした。
+        evidence:
+          - "第1期 第9話: 黒竜の姿でハジメとシアに倒された"
+          - "第2期 第10話: 愛子と放った攻撃で神殿を吹き飛ばした"
+      novel:
+        score: 89
+        note: 竜神化の力を引き出し、龍神顕現を会得した。
+        evidence:
+          - "原作: 激闘の末に竜神化の力を引き出し、「龍神顕現」を会得した"
+  - id: shia
+    name: シア・ハウリア
+    affiliation: 兎人族
+    cv: 髙橋ミナミ
+    editor:
+      anime:
+        score: 85
+        note: ユエとの決闘に勝って旅に加わり、黒竜も倒した。ユエとは力尽きるまで互角に戦った。
+        evidence:
+          - "第1期 第6話: ユエとの決闘に勝ち、旅に加わった"
+          - "第1期 第9話: ハジメとともに黒竜を倒した"
+          - "第3期 第14話: ユエと力尽きるまで戦った"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: freed
+    name: フリード・バグアー
+    affiliation: 魔人族の将
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 82
+        note: 火山でハジメたちを待ち伏せして閉じ込めた。王都侵攻ではユエとシアに軍勢を退けられ、逃走した。
+        evidence:
+          - "第2期 第3話: ハジメたちを待ち伏せし、火山を封じて閉じ込めた"
+          - "第2期 第9話: 王都侵攻でユエとシアに軍勢を退けられ、逃走した"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: miledi
+    name: ミレディ・ライセン
+    affiliation: 解放者
+    cv: ゆかな
+    editor:
+      anime:
+        score: 80
+        note: 大迷宮の主として巨大ゴーレムで挑んだが、ハジメたちに核を砕かれた。
+        evidence:
+          - "第1期 第7話: 巨大ゴーレムで挑み、ハジメたちに核を砕かれた"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: shizuku
+    name: 八重樫雫
+    affiliation: 勇者パーティー
+    cv: 花守ゆみり
+    editor:
+      anime:
+        score: 74
+        note: 氷雪洞窟で光輝が壊せなかった核を破壊し、自分の虚像にも勝った。
+        evidence:
+          - "第3期 第10話: 光輝が壊せなかった氷の亀の核を破壊した"
+          - "第3期 第13話: 自分の虚像を倒した"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: kaori
+    name: 白崎香織
+    affiliation: 治癒師
+    cv: 大西沙織
+    editor:
+      anime:
+        score: 70
+        note: 本来は回復役。死後に魂をノイントの体へ移され、使徒の体で戦うことになった。
+        evidence:
+          - "第2期 第5話: ハジメとともにメルジーネの遺跡で幻影と戦った"
+          - "第2期 第12話: 魂をノイントの修復された体に移された"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: kouki
+    name: 天之河光輝
+    affiliation: 勇者
+    cv: 柿原徹也
+    editor:
+      anime:
+        score: 70
+        note: 勇者として召喚されたが、魔人族の魔物に敗れて負傷した。氷雪洞窟では虚像と一体化してハジメに挑み、倒された。
+        evidence:
+          - "第1期 第12話: 魔人族カトレアの魔物に追い詰められ、負傷した"
+          - "第3期 第15話: 虚像と一体化してハジメに挑み、倒された"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: kam
+    name: カム
+    affiliation: ハウリア族の族長
+    editor:
+      anime:
+        score: 66
+        note: ハジメに鍛えられたハウリア族を率い、帝国の宮殿に攻め込んで皇帝を下した。
+        evidence:
+          - "第3期 第4話: ハウリア族を率いて帝国の宮殿を襲撃し、皇帝を倒した"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: gahard
+    name: ガハルド
+    affiliation: ヘルシャー帝国 皇帝
+    editor:
+      anime:
+        score: 64
+        note: 武力を重んじる帝国の皇帝だが、宮殿に攻め込んだハウリア族に敗れた。
+        evidence:
+          - "第3期 第4話: 宮殿を襲撃したハウリア族に敗れた"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: eri
+    name: 中村恵里
+    affiliation: 勇者パーティー
+    cv: 西明日香
+    editor:
+      anime:
+        score: 64
+        note: クラスメイトを裏切って屍の軍勢を作ったが、軍勢をハジメに倒され逃走した。
+        evidence:
+          - "第2期 第10話: クラスメイトを裏切った"
+          - "第2期 第11話: 屍の軍勢をハジメに倒され、逃走した"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: cattleya
+    name: カトレア
+    affiliation: 魔人族
+    editor:
+      anime:
+        score: 60
+        note: 魔物を使って勇者一行を追い詰めたが、駆けつけたハジメに殺された。
+        evidence:
+          - "第1期 第12話: 魔物で勇者一行を追い詰め、光輝を負傷させた"
+          - "第1期 第13話: ハジメに殺された"
+      novel:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: shimizu
+    name: 清水幸利
+    affiliation: クラスメイト
+    cv: 石田彰
+    editor:
+      anime:
+        score: 48
+        note: 魔物の軍勢をけしかけたが、軍勢ごとハジメに壊滅させられ処刑された。
+        evidence:
+          - "第1期 第10話: 魔物の軍勢をハジメに壊滅させられ、処刑された"
+      novel:
+        score: 48
+        note: 原作でも評価は変わらない。
+  - id: hiyama
+    name: 檜山大介
+    affiliation: クラスメイト
+    cv: 白石稔
+    editor:
+      anime:
+        score: 42
+        note: メルドを背後から刺したが、ハジメに敗れて魔物の餌にされた。
+        evidence:
+          - "第2期 第7話: メルドを背後から刺した"
+          - "第2期 第11話: ハジメに敗れ、魔物の餌にされた"
+      novel:
+        score: 42
+        note: 原作でも評価は変わらない。

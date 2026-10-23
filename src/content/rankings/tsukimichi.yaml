@@ -1,0 +1,241 @@
+work: 月が導く異世界道中
+title: 月が導く異世界道中 最強キャラランキング
+description: 月が導く異世界道中の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第二幕（全25話）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説の既刊（本編第20巻まで刊行を確認）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: makoto
+    name: 深澄真
+    affiliation: クズノハ商会 代表
+    cv: 花江夏樹
+    editor:
+      anime:
+        score: 97
+        note: 上位竜と災厄の黒蜘蛛を従え、魔族軍を退けた。ステラ砦ではソフィアを弓で破り、砦ごと壊した。
+        evidence:
+          - "第一幕 第2話: 澪を一度消し飛ばし、従者の契約を結んだ"
+          - "第一幕 第12話: 魔族の軍勢を退け、ソフィアの剣を砕いた"
+          - "第二幕 第24話: 弓でソフィアを破り、ステラ砦を破壊した"
+      novel:
+        score: 97
+        note: 原作でも評価は変わらない。
+  - id: mio
+    name: 澪
+    affiliation: 真の従者／災厄の黒蜘蛛
+    cv: 鬼頭明里
+    editor:
+      anime:
+        score: 91
+        note: 真に消し飛ばされても再生した黒蜘蛛。怪物化したイルムガンドを仕留め、敵の将も喰らった。
+        evidence:
+          - "第一幕 第2話: 真に消し飛ばされた後に再生し、契約を結んだ"
+          - "第二幕 第18話: 怪物化したイルムガンドを仕留めた"
+          - "第二幕 第25話: 敵の将を喰らった"
+      novel:
+        score: 91
+        note: 原作でも評価は変わらない。
+  - id: tomoe
+    name: 巴
+    affiliation: 真の従者／上位竜 蜃
+    cv: 佐倉綾音
+    editor:
+      anime:
+        score: 90
+        note: 真に敗れて従者になった上位竜。幻術で勇者の一行を退け、澪とステラ砦にも攻め込んだ。
+        evidence:
+          - "第一幕 第1話: 真に敗れ、従者の契約を結んだ"
+          - "第二幕 第6話: 幻術で智樹の一行を退けた"
+          - "第二幕 第20話: 澪とともにステラ砦に攻め込んだ"
+      novel:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: sofia
+    name: ソフィア＝ブルガ
+    affiliation: 竜殺し
+    cv: 沢城みゆき
+    editor:
+      anime:
+        score: 87
+        note: ランサーと組んで真を圧倒した場面もあったが、ステラ砦の再戦では攻撃を当てられず、真の弓に敗れた。
+        evidence:
+          - "第二幕 第3話: ランサーと組んで真を圧倒した"
+          - "第二幕 第22話: 真のヒーロースーツを引きはがした"
+          - "第二幕 第24話: 真の弓に敗れた"
+      novel:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: shiki
+    name: 識
+    affiliation: 真の従者／リッチ
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 86
+        note: 元はリッチで、真に捕らえられて従者になった。ステラ砦では上位竜のランサーを倒した。
+        evidence:
+          - "第一幕 第10話: リッチとして真に捕らえられた"
+          - "第二幕 第24話: ランサーとの一騎打ちに勝った"
+      novel:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: io
+    name: イオ
+    affiliation: 魔族 魔将
+    cv: 楠大典
+    editor:
+      anime:
+        score: 85
+        note: 女神の加護を打ち消す術を使う魔将。響を追い詰め、真とも正面から戦った。
+        evidence:
+          - "第二幕 第3話: 女神の加護を打ち消した"
+          - "第二幕 第21話: 響を追い詰めたが、真に阻まれた"
+          - "第二幕 第22話: 真と戦った"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: lancer
+    name: ランサー
+    affiliation: 上位竜 御剣
+    cv: 斉藤壮馬
+    editor:
+      anime:
+        score: 83
+        note: ソフィアと組んで真を圧倒した上位竜。識との一騎打ちに敗れた。
+        evidence:
+          - "第二幕 第3話: ソフィアと組んで真を圧倒した"
+          - "第二幕 第24話: 識との一騎打ちに敗れた"
+      novel:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: luto
+    name: ルト
+    affiliation: 上位竜 万色
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 78
+        note: 上位竜の一体だが、戦う場面はほとんどない。ライムを軽くあしらい、ソフィアから竜の魂を抜き取った。
+        evidence:
+          - "第二幕 第9話: ライムの武器を奪い、正体を明かした"
+          - "第二幕 第25話: ソフィアから竜の魂を抜き取った"
+      novel:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: hibiki
+    name: 音無響
+    affiliation: リミア王国の勇者
+    cv: 加隈亜衣
+    editor:
+      anime:
+        score: 74
+        note: 魔族を上回る魔力を持つ勇者だが、イオに追い詰められて真に救われた。
+        evidence:
+          - "第二幕 第21話: イオに追い詰められ、駆けつけた真に救われた"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: tomoki
+    name: 岩橋智樹
+    affiliation: グリトニア帝国の勇者
+    cv: 新井良平
+    editor:
+      anime:
+        score: 66
+        note: 魅了の魔眼を持つ勇者だが、巴の幻術で一行ごと退けられた。
+        evidence:
+          - "第二幕 第6話: 巴の幻術で一行ごと退けられた"
+      novel:
+        score: 64
+        note: 真と戦い、完膚なきまでに叩きのめされた。
+        evidence:
+          - "原作: 真に完膚なきまでに叩きのめされた"
+  - id: rona
+    name: ロナ
+    affiliation: 魔族 魔将
+    cv: 藤井ゆきよ
+    editor:
+      anime:
+        score: 62
+        note: 戦闘より諜報と工作を得意とする魔将。学園に潜入していたが、真に正体を見破られた。
+        evidence:
+          - "第二幕 第8話: カレンとして学園に潜入していたが、真に正体を見破られた"
+      novel:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: navarre
+    name: ナバール
+    affiliation: リミア王国
+    cv: 小清水亜美
+    editor:
+      anime:
+        score: 60
+        note: ステラ砦の戦いで命を落とした。
+        evidence:
+          - "第二幕 第3話: ステラ砦の戦いで戦死した"
+      novel:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: lime
+    name: ライム・ラテ
+    affiliation: 冒険者
+    cv: 八代拓
+    editor:
+      anime:
+        score: 58
+        note: 率いた冒険者を巴と澪に退けられ、後にクズノハ商会の側で戦った。
+        evidence:
+          - "第一幕 第7話: 冒険者200人を巴と澪に倒された"
+          - "第二幕 第19話: 真たちとともに変異体を倒した"
+      novel:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: shifu
+    name: シフ＝レンブラント
+    affiliation: ロッツガルド学園の学生
+    cv: 花守ゆみり
+    editor:
+      anime:
+        score: 57
+        note: 真の授業を受ける学生。学園祭の大会でジンに勝った。
+        evidence:
+          - "第二幕 第15話: 学園祭の大会でジンに勝った"
+      novel:
+        score: 57
+        note: 原作でも評価は変わらない。
+  - id: jin
+    name: ジン＝ロアン
+    affiliation: ロッツガルド学園の学生
+    cv: 新祐樹
+    editor:
+      anime:
+        score: 55
+        note: 仲間とデミドラゴンを倒したが、学園祭の大会ではシフに敗れた。
+        evidence:
+          - "第二幕 第12話: 仲間とともにデミドラゴンを倒した"
+          - "第二幕 第15話: 学園祭の大会でシフに敗れた"
+      novel:
+        score: 55
+        note: 原作でも評価は変わらない。
+  - id: ilumgand
+    name: イルムガンド＝ホープレイズ
+    affiliation: ロッツガルド学園の学生
+    cv: 伊東健人
+    editor:
+      anime:
+        score: 52
+        note: 魔族製のお守りで力を得たが、チーム戦に敗れ、怪物化した末に倒された。
+        evidence:
+          - "第二幕 第16話: 魔族製のお守りで強化したチームで敗れた"
+          - "第二幕 第18話: 怪物化した末に澪に仕留められた"
+      novel:
+        score: 52
+        note: 原作でも評価は変わらない。

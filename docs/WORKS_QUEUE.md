@@ -148,12 +148,12 @@
 - [x] `solo-leveling` 俺だけレベルアップな件
 
 ## バッチ 19
-- [ ] `tower-of-god` 神之塔 -Tower of God-
-- [ ] `no-game-no-life` ノーゲーム・ノーライフ
-- [ ] `youjo-senki` 幼女戦記
-- [ ] `shangri-la-frontier` シャングリラ・フロンティア
-- [ ] `arifureta` ありふれた職業で世界最強
-- [ ] `tsukimichi` 月が導く異世界道中
+- [x] `tower-of-god` 神之塔 -Tower of God-
+- [x] `no-game-no-life` ノーゲーム・ノーライフ
+- [x] `youjo-senki` 幼女戦記
+- [x] `shangri-la-frontier` シャングリラ・フロンティア
+- [x] `arifureta` ありふれた職業で世界最強
+- [x] `tsukimichi` 月が導く異世界道中
 
 ## バッチ 20
 - [ ] `kumo-desu-ga` 蜘蛛ですが、なにか？

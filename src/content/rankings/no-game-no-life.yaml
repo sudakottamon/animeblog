@@ -1,0 +1,209 @@
+work: ノーゲーム・ノーライフ
+title: ノーゲーム・ノーライフ 最強キャラランキング
+description: ノーゲーム・ノーライフの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。十の盟約下のゲームでの勝負強さと、大戦期の戦闘力を合わせて比べます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（全12話）＋劇場版「ノーゲーム・ノーライフ ゼロ」まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説の最新刊（本編13巻、2026年4月刊）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: artosh
+    name: アルトシュ
+    affiliation: 神霊種／戦神
+    cv: 竹内良太
+    editor:
+      anime:
+        score: 93
+        note: 大戦期に最強の座にあった戦神。機凱種が全兵力を注いでようやく討った。
+        evidence:
+          - "劇場版『ゼロ』: 大戦末期、機凱種の全兵力による攻撃で討たれた"
+      novel:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: sora
+    name: 空
+    affiliation: 『　』（ゲーマー兄妹）／エルキア国王
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 91
+        note: 基準はゲームでの勝負強さと大戦期の戦闘力。白と組んで唯一神テトや天翼種ジブリールにゲームで勝った。
+        evidence:
+          - "TVアニメ 第1話: 白とともにネットチェスでテトに勝ち、ディスボードへ召喚された"
+          - "TVアニメ: エルキア国王選定戦で、フィールの魔法を使ったクラミーに勝った"
+          - "TVアニメ: 白とともに具象化しりとりでジブリールに勝った"
+      novel:
+        score: 92
+        note: 機凱種の指揮体アインツィヒにもチェスで勝ち、勝ち筋を広げ続けている。
+        evidence:
+          - "原作: アインツィヒとのチェスを引き分けに持ち込み、最終局で勝った"
+  - id: shiro
+    name: 白
+    affiliation: 『　』（ゲーマー兄妹）
+    cv: 茅野愛衣
+    editor:
+      anime:
+        score: 90
+        note: 空と組んだ『　』として、テトやジブリール、東部連合にゲームで勝った。
+        evidence:
+          - "TVアニメ 第1話: 空とともにネットチェスでテトに勝った"
+          - "TVアニメ: 空とともに東部連合とのゲームでいづなに勝った"
+      novel:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: jibril
+    name: ジブリール
+    affiliation: 天翼種
+    cv: 田村ゆかり
+    editor:
+      anime:
+        score: 87
+        note: 大戦期は天撃で機凱種シュヴィを消し去った。現代では具象化しりとりで『　』に敗れた。
+        evidence:
+          - "劇場版『ゼロ』: 全典開で抵抗したシュヴィを天撃で消滅させた"
+          - "TVアニメ: 具象化しりとりで『　』に敗れ、空の配下になった"
+      novel:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: tet
+    name: テト
+    affiliation: 唯一神
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 84
+        note: 星杯を手にして唯一神になったが、本人が戦う場面はない。チェスでは『　』に敗れている。
+        evidence:
+          - "TVアニメ 第1話: ネットチェスで『　』に敗れ、二人をディスボードへ召喚した"
+          - "劇場版『ゼロ』: 大戦の終わりに顕現した星杯を手にし、唯一神となった"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: schwi
+    name: シュヴィ・ドーラ
+    affiliation: 機凱種
+    cv: 茅野愛衣
+    editor:
+      anime:
+        score: 80
+        note: 性能の低い解析体ながら、武装を全解放してジブリールに挑んだ。最後は天撃を受けて消滅した。
+        evidence:
+          - "劇場版『ゼロ』: 全典開で武装を解放し、ジブリールに抵抗した"
+          - "劇場版『ゼロ』: 天撃を受けて消滅したが、機凱種全体への同期は完了させた"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: riku
+    name: リク・ドーラ
+    affiliation: 人類種／大戦期の指導者
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 72
+        note: 本人に戦闘力はないが、策で大戦を終わらせる道を開いた。
+        evidence:
+          - "劇場版『ゼロ』: 星杯を顕現させる計画を進め、大戦の終結につなげた"
+      novel:
+        score: 86
+        note: リアル人生ゲームで『　』と引き分けた。テトはリクとシュヴィを今の『　』より強いと評した。
+        evidence:
+          - "原作: リアル人生ゲームで『　』と引き分けに持ち込んだ"
+  - id: izuna
+    name: 初瀬いづな
+    affiliation: 獣人種／東部連合
+    cv: 沢城みゆき
+    editor:
+      anime:
+        score: 72
+        note: 獣人種の身体能力に血壊を重ねて戦ったが、東部連合とのゲームで『　』に敗れた。
+        evidence:
+          - "TVアニメ: 東部連合とのゲームで血壊を使ったが、『　』に敗れた"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: feel
+    name: フィール・ニルヴァレン
+    affiliation: 森精種
+    cv: 能登麻美子
+    editor:
+      anime:
+        score: 64
+        note: 魔法でクラミーを国王選定戦に勝たせようとしたが、空に見抜かれて敗れた。
+        evidence:
+          - "TVアニメ: 国王選定戦のチェスに魔法で介入したが、空に敗れた"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: kurami
+    name: クラミー・ツェル
+    affiliation: 人類種
+    cv: 井口裕香
+    editor:
+      anime:
+        score: 58
+        note: フィールの魔法を後ろ盾に国王選定戦を勝ち上がったが、空に敗れた。
+        evidence:
+          - "TVアニメ: エルキア国王選定戦で空に敗れた"
+      novel:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: steph
+    name: ステファニー・ドーラ
+    affiliation: エルキア王家
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 38
+        note: ゲームの腕は低く、空との勝負に敗れた。
+        evidence:
+          - "TVアニメ: 空とのじゃんけん勝負に敗れた"
+      novel:
+        score: 38
+        note: 原作でも評価は変わらない。
+  - id: einzig
+    name: アインツィヒ
+    affiliation: 機凱種／全連結指揮体
+    appears: novel
+    editor:
+      novel:
+        score: 82
+        note: 機凱種を束ねる指揮体。チェスで空と引き分けたが、最終局で『　』の全力に敗れた。
+        evidence:
+          - "原作: 空とのチェスを引き分けに持ち込んだ"
+          - "原作: 早打ちチェスの最終局で『　』に敗れた"
+  - id: veig
+    name: ヴェイグ・ドラウヴニル
+    affiliation: 地精種／全権代理者
+    appears: novel
+    editor:
+      novel:
+        score: 70
+        note: 空にロボットバトルを挑んだ地精種の全権代理者。ゲームの後に空と和解した。
+        evidence:
+          - "原作: 空にロボットバトルで勝負を挑み、ゲームの後に和解した"
+  - id: plum
+    name: プラム・ストーカー
+    affiliation: 吸血種
+    appears: novel
+    editor:
+      novel:
+        score: 52
+        note: 空たちを策にはめようとしたが、人類種を侮って失敗した。
+        evidence:
+          - "原作: 空たちを誘導しようとしたが、人類種を侮ったために失敗した"
+  - id: raira
+    name: ライラ
+    affiliation: 海棲種の女王
+    appears: novel
+    editor:
+      novel:
+        score: 48
+        note: 海棲種の女王。空との対戦を経て、空に心酔するようになった。
+        evidence:
+          - "原作: 空と対戦した後、空に心酔するようになった"

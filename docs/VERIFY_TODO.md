@@ -69,3 +69,7 @@
 | konosuba / kage-no-jitsuryokusha | 原作勢の大半が「評価は変わらない」（書籍版終盤が未反映）、一部場面が記憶ベース | 要補強 |
 | goblin-slayer | 原作（小説）勢を作っていない | 要追加 |
 | tate-no-yuusha | 書籍版22巻で完結したか | 未確認 |
+| youjo-senki | 第2期（2026年7月〜）の放送範囲が未反映 | 要フォロー |
+| tsukimichi | 第三幕の放送開始有無 | 未確認 |
+| tower-of-god | 原作勢に新キャラ0（ザハード等の日本語名・描写が未確認） | 要補強 |
+| shangri-la-frontier | Web小説版（original）の勢を作るか | 要検討 |
