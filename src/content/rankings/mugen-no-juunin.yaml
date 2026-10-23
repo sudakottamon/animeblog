@@ -1,0 +1,163 @@
+work: 無限の住人
+title: 無限の住人 最強キャラランキング
+description: 無限の住人の最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ『無限の住人-IMMORTAL-』（全24話）・原作（単行本全30巻）とも完結まで。続編『幕末ノ章』は含めない
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: makie
+    name: 乙橘槇絵
+    affiliation: 逸刀流
+    cv: 桑島法子
+    editor:
+      anime:
+        score: 95
+        note: 万次を一方的に打ち負かし、最終決戦でも鉄砲隊を斬り伏せた。作中の剣の腕は一番上に置く。
+        evidence:
+          - "第3話: 万次と立ち合い、打ち負かした"
+          - "第24話: 最終決戦で鉄砲を持つ兵たちを斬り伏せた"
+  - id: anotsu
+    name: 天津影久
+    affiliation: 逸刀流 統主
+    cv: 佐々木望
+    editor:
+      anime:
+        score: 91
+        note: 道場破りで他流の剣士を次々に斬り、最終決戦で吐鉤群を討った。万次との決闘には敗れた。
+        evidence:
+          - "第12話: 道場破りで他流の剣士たちを斬った"
+          - "第24話: 吐鉤群を討ち取った"
+          - "第24話: 万次との決闘に敗れた"
+  - id: manji
+    name: 万次
+    affiliation: 浅野凜の用心棒（不死身の剣士）
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 88
+        note: 不死身の体で逸刀流の剣士を次々に倒し、最後は天津影久との決闘に勝った。剣の技量そのものは槇絵に及ばない。
+        evidence:
+          - "第5話: 毒の刀を使う閑馬永空と斬り合い、倒した"
+          - "第20話: 凶戴斗とともに尸良を倒した"
+          - "第24話: 天津影久との決闘に勝った"
+  - id: habaki
+    name: 吐鉤群
+    affiliation: 公儀の役人（六鬼団を率いる）
+    cv: 中田譲治
+    editor:
+      anime:
+        score: 82
+        note: 毒を使って逸刀流の幹部を一度に始末し、万次を捕らえた。最終決戦で天津影久に討たれた。
+        evidence:
+          - "第13話: 逸刀流の幹部9人を毒で始末し、万次を捕らえた"
+          - "第24話: 天津影久に討たれた"
+  - id: magatsu
+    name: 凶戴斗
+    affiliation: 逸刀流
+    cv: 鈴木達央
+    editor:
+      anime:
+        score: 80
+        note: 尸良の手を斬り落とし、のちに万次とともに尸良を倒した。
+        evidence:
+          - "第11話: 尸良の手を斬り落とした"
+          - "第20話: 万次とともに尸良を倒した"
+  - id: shira
+    name: 尸良
+    affiliation: 無骸流
+    cv: 奈良徹
+    editor:
+      anime:
+        score: 78
+        note: 万次の手首を斬り落とすなど、何度も万次たちを苦しめた。最後は万次と凶の二人がかりで倒された。
+        evidence:
+          - "第8話: 逸刀流の剣士2人を斬った"
+          - "第11話: 万次の手を斬り落とした"
+          - "第20話: 万次と凶戴斗に倒された"
+  - id: giichi
+    name: 偽一
+    affiliation: 無骸流
+    cv: 白熊寛嗣
+    editor:
+      anime:
+        score: 77
+        note: 無骸流の中で腕の立つ剣士。終盤で阿葉山宗介を討った。
+        evidence:
+          - "第10話: 敵の剣士を倒した"
+          - "第22話: 阿葉山宗介を討った"
+  - id: abayama
+    name: 阿葉山宗介
+    affiliation: 逸刀流
+    cv: ふくまつ進紗
+    editor:
+      anime:
+        score: 74
+        note: 逸刀流の古参の剣士。終盤の陣の戦いで偽一に討たれた。
+        evidence:
+          - "第22話: 偽一に討たれた"
+  - id: kanma
+    name: 閑馬永空
+    affiliation: 逸刀流
+    cv: 咲野俊介
+    editor:
+      anime:
+        score: 74
+        note: 不死身の万次に毒の刀で深手を負わせたが、斬り合いの末に敗れた。
+        evidence:
+          - "第5話: 毒を塗った刀で万次を追い詰めたが、敗れた"
+  - id: doa
+    name: 瞳阿
+    affiliation: 凜の協力者
+    editor:
+      anime:
+        score: 70
+        note: 吐鉤群の手勢をほぼ一人で倒し、凜とともに施設へ乗り込んだ。
+        evidence:
+          - "第15話: 吐鉤群の手勢の大半を倒した"
+          - "第16話: 凜とともに施設へ潜入し、見張りを斬った"
+  - id: hyakurin
+    name: 百琳
+    affiliation: 無骸流
+    cv: 林真里花
+    editor:
+      anime:
+        score: 64
+        note: 毒や飛び道具を使う。捕らわれて拷問を受けた後、見張りを斬って逃れた。
+        evidence:
+          - "第7話: 毒で相手を倒した"
+          - "第10話: 捕らわれた先で見張りを斬った"
+  - id: araya
+    name: 川上新夜
+    affiliation: 逸刀流
+    cv: 小原雅人
+    editor:
+      anime:
+        score: 62
+        note: 凜の家族の事件に関わった剣士。万次に斬られた。
+        evidence:
+          - "第6話: 万次に倒された"
+  - id: sabato
+    name: 黒衣鯖人
+    affiliation: 逸刀流
+    cv: 花輪英司
+    editor:
+      anime:
+        score: 60
+        note: 万次が最初に倒した逸刀流の剣士。
+        evidence:
+          - "第1話: 万次に斬られた"
+  - id: rin
+    name: 浅野凜
+    affiliation: 無天一流 浅野道場の娘
+    cv: 佐倉綾音
+    editor:
+      anime:
+        score: 50
+        note: 投げ刃で戦うが、腕は剣士たちに及ばない。天津影久に挑んだ際は見逃された。
+        evidence:
+          - "第4話: 天津影久に投げた刃は一本が肩に当たっただけで、見逃された"

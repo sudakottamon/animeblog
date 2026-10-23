@@ -1,0 +1,175 @@
+work: シグルイ
+title: シグルイ 最強キャラランキング
+description: シグルイの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（全12話・伊良子清玄が岩本虎眼を討つまで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全15巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: irako
+    name: 伊良子清玄
+    affiliation: 虎眼流 門弟（のち出奔）
+    cv: 佐々木望
+    editor:
+      anime:
+        score: 90
+        note: 道場破りで藤木を破り、盲目となった後に師の虎眼を斬り合いの末に討った。
+        evidence:
+          - "第1話: 道場破りに来て藤木源之助を破った"
+          - "第12話: 岩本虎眼と斬り合い、討ち取った"
+      manga:
+        score: 92
+        note: 仇討ちで藤木の左腕を斬り落とし、牛股も斬り倒した。駿河城の御前試合で藤木に敗れた。
+        evidence:
+          - "伊良子の仇討ち: 藤木源之助の左腕を斬り落とし、牛股権左衛門を斬り倒した"
+          - "御前試合: 藤木源之助に胴を両断されて敗れた"
+  - id: kogan
+    name: 岩本虎眼
+    affiliation: 虎眼流 当主
+    editor:
+      anime:
+        score: 89
+        note: 老いて正気を失いがちだが、南蛮剣の使い手を素手で叩き伏せた。最後は伊良子に討たれた。
+        evidence:
+          - "第10話: 南蛮剣の使い手の刃を脇で挟み止め、素手で叩き伏せた"
+          - "第12話: 伊良子清玄との斬り合いの末に討たれた"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: fujiki
+    name: 藤木源之助
+    affiliation: 虎眼流 高弟
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 87
+        note: 背後から襲ってきた伊良子を打ち倒し、裏切った興津や狙撃手も斬った。道場破りの伊良子には一度敗れている。
+        evidence:
+          - "第6話: 背後から襲ってきた伊良子清玄を打ち倒した"
+          - "第9話: 裏切った興津三十郎を討った"
+          - "第11話: 銃弾を刀で防ぎ、狙撃手を斬った"
+      manga:
+        score: 95
+        note: 片腕を失った後も戦い続け、駿河城の御前試合で伊良子清玄を破った。
+        evidence:
+          - "原作: 素手で丹波蝙也斎に重傷を負わせた"
+          - "御前試合: 刀を投げて無明逆流れを外させ、脇差で伊良子の胴を両断した"
+  - id: ushimata
+    name: 牛股権左衛門
+    affiliation: 虎眼流 師範代
+    cv: 屋良有作
+    editor:
+      anime:
+        score: 85
+        note: 道場破りに来た伊良子を退けた虎眼流の師範代。毒爪で傷を負いながら襲撃者を斬った。
+        evidence:
+          - "第2話: 道場破りの伊良子清玄と立ち合い、退けた"
+          - "第11話: 襲撃者を斬ったが、毒爪で傷を負った"
+      manga:
+        score: 83
+        note: 伊良子の仇討ちで斬り倒された。
+        evidence:
+          - "伊良子の仇討ち: 伊良子清玄に斬り倒された"
+  - id: tanba
+    name: 丹波蝙也斎
+    affiliation: 剣客
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 藤木源之助と戦い、素手の藤木に重傷を負わされた。
+        evidence:
+          - "原作: 素手の藤木源之助に重傷を負わされ、昏倒した"
+  - id: kutsugi
+    name: 屈木頑之助
+    affiliation: 剣士
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 舟木道場の試験を妨害された後、千加の婚約者たちを闇討ちした。
+        evidence:
+          - "原作: 千加の婚約者たちを闇討ちした"
+  - id: okitsu
+    name: 興津三十郎
+    affiliation: 虎眼流 門弟
+    cv: 小山力也
+    editor:
+      anime:
+        score: 70
+        note: 虎眼流の門弟。裏切りが露見し、藤木に右手を斬られて討たれた。
+        evidence:
+          - "第9話: 藤木源之助に右手を斬り落とされ、討たれた"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: yamazaki
+    name: 山崎九郎右衛門
+    affiliation: 虎眼流 門弟
+    cv: 島田敏
+    editor:
+      anime:
+        score: 66
+        note: 浪人2人を斬ったが、直後に討たれた。
+        evidence:
+          - "第8話: 浪人2人を斬った後、討たれた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: funaki
+    name: 舟木兵馬・数馬
+    affiliation: 舟木道場
+    editor:
+      anime:
+        score: 64
+        note: 舟木道場の兄弟。虎眼の命を受けた伊良子と藤木に討たれた。
+        evidence:
+          - "第3話: 伊良子清玄と藤木源之助に討たれた"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: munakata
+    name: 宗像進八郎
+    affiliation: 虎眼流 門弟
+    editor:
+      anime:
+        score: 60
+        note: 門弟を斬ったが、その後正体の見えない剣士に討たれた。
+        evidence:
+          - "第8話: 濡れ衣を着せられた門弟を斬った後、討たれた"
+      manga:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: maruko
+    name: 丸子彦兵衛
+    affiliation: 虎眼流 門弟
+    cv: 稲葉実
+    editor:
+      anime:
+        score: 58
+        note: 伊良子の居場所を探る中で、湯屋で胴を両断された。
+        evidence:
+          - "第9話: 湯屋で胴を両断された"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: mie
+    name: 岩本三重
+    affiliation: 虎眼の娘
+    cv: 桑島法子
+    editor:
+      anime:
+        score: 45
+        note: 刀を持ち出したが、藤木に取り押さえられた。戦う場面はほとんどない。
+        evidence:
+          - "第9話: 刀を持ち出したが、藤木源之助に取り押さえられた"
+      manga:
+        score: 45
+        note: 原作でも評価は変わらない。

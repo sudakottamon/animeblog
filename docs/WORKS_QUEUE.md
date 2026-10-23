@@ -100,12 +100,12 @@
 - [x] `samurai-champloo` サムライチャンプルー（アニメオリジナル）
 
 ## バッチ 13
-- [ ] `mugen-no-juunin` 無限の住人
-- [ ] `shigurui` シグルイ
-- [ ] `ninja-slayer` ニンジャスレイヤー
-- [ ] `terra-formars` テラフォーマーズ
-- [ ] `spriggan` スプリガン
-- [ ] `darwins-game` ダーウィンズゲーム
+- [x] `mugen-no-juunin` 無限の住人
+- [x] `shigurui` シグルイ
+- [x] `ninja-slayer` ニンジャスレイヤー
+- [x] `terra-formars` テラフォーマーズ
+- [x] `spriggan` スプリガン
+- [x] `darwins-game` ダーウィンズゲーム
 
 ## バッチ 14
 - [ ] `black-bullet` ブラック・ブレット

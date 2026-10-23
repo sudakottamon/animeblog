@@ -55,3 +55,5 @@
 | devilman | crybaby の各話対応が取れず根拠が「作中」表記 | 要補強 |
 | inuyashiki | 戦えるのが2人のみで、一般人をDに入れて12人にしている | 要検討（作品として不向きかも） |
 | drifters | 豊久と土方の一騎討ちの決着（資料で食い違い）、8巻の有無 | 未確認 |
+| ninja-slayer / terra-formars / spriggan / darwins-game | 裏取りできた範囲が狭い（ファンwiki・個人ブログ依拠、話数不明、スプリガンはアニメ勢6人） | 要補強 |
+| shigurui | 屈木頑之助の描写が少ない（外す案） | 要検討 |

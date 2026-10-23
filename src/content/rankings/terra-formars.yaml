@@ -1,0 +1,182 @@
+work: テラフォーマーズ
+title: テラフォーマーズ 最強キャラランキング
+description: テラフォーマーズの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期『テラフォーマーズ リベンジ』（原作12巻・第108話相当）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本既刊24巻（2026年8月時点・地球編連載中）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: joseph
+    name: ジョセフ・G・ニュートン
+    affiliation: アネックス1号 第6班 班長
+    cv: 石田彰
+    editor:
+      anime:
+        score: 88
+        note: 敵を倒して、捕らわれた燈とミッシェルを救い出した。
+        evidence:
+          - "第2期: 敵を倒し、捕らわれた燈とミッシェルを解放した"
+      manga:
+        score: 94
+        note: 小吉・アシモフ・劉の三人がかりでようやく倒された。倒された後も再生して生き延びた。
+        evidence:
+          - "アネックス1号編: 小吉との一騎打ちで心臓を刺し、致命傷を負わせた"
+          - "アネックス1号編: 小吉らに敗れたが、再生能力で生き延びた"
+  - id: shokichi
+    name: 小町小吉
+    affiliation: アネックス1号 艦長（第1班 班長）
+    cv: 木内秀信
+    editor:
+      anime:
+        score: 87
+        note: オオスズメバチの手術ベースを持つ艦長。シャコとゾウムシの能力を持つテラフォーマーを相手に戦った。
+        evidence:
+          - "第1期: シャコとゾウムシの能力を持つテラフォーマーと戦った"
+      manga:
+        score: 92
+        note: ジョセフとの一騎打ちで致命傷を負いながら、薬の過剰摂取で最後の一撃を入れた。
+        evidence:
+          - "アネックス1号編: 心臓を刺されながら、変態薬の過剰摂取で体を保ってジョセフに最後の一撃を入れた"
+  - id: asimov
+    name: シルヴェスター・アシモフ
+    affiliation: アネックス1号 第3班 班長
+    cv: 石塚運昇
+    editor:
+      anime:
+        score: 84
+        note: タスマニアンキングクラブの手術ベースを持つロシア班の班長。中国勢と戦った。
+        evidence:
+          - "第2期: ロシア班を率いて中国勢と戦った"
+      manga:
+        score: 88
+        note: ジョセフとの戦いに加わり、劉とともに残ったテラフォーマーと戦い続けて死亡した。
+        evidence:
+          - "アネックス1号編: 劉とともに残ったテラフォーマーと戦い、死亡した"
+  - id: liu
+    name: 劉翊武
+    affiliation: アネックス1号 第4班 班長
+    cv: 小村哲生
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 自分の心臓を小吉に移してジョセフ撃破に結びつけ、命を落とした。
+        evidence:
+          - "アネックス1号編: 自分の心臓を小吉に移し、ジョセフ撃破を支えて死亡した"
+  - id: michelle
+    name: ミッシェル・K・デイヴス
+    affiliation: アネックス1号 第2班 班長
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 83
+        note: 燈とともにテラフォーマーを何度も倒した第2班の班長。
+        evidence:
+          - "第1期: 燈とともにバッタとゲンゴロウの能力を持つテラフォーマーを倒した"
+          - "第2期: 燈とともにテラフォーマー2体に勝った"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: donatello
+    name: ドナテロ・K・デイヴス
+    affiliation: バグズ2号 艦長
+    cv: 小山力也
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: パラポネラの手術ベースでテラフォーマーの頭を片手で潰した。仲間を逃がすため一人で群れを食い止めた。
+        evidence:
+          - "バグズ2号編: 一人でテラフォーマーの群れを食い止め、仲間を逃がした"
+  - id: adolf
+    name: アドルフ・ラインハルト
+    affiliation: アネックス1号 第5班 班長
+    cv: 遊佐浩二
+    editor:
+      anime:
+        score: 81
+        note: 電気ウナギの手術ベースで群れを相手に一人で戦ったが、ドイツ班の壊滅とともに爆発で死亡した。
+        evidence:
+          - "第1期: 電撃を込めたナイフでテラフォーマーの群れを倒した"
+          - "第1期: ドイツ班が壊滅する中、爆発で死亡した"
+      manga:
+        score: 81
+        note: 原作でも評価は変わらない。
+  - id: akari
+    name: 膝丸燈
+    affiliation: アネックス1号 第2班
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 79
+        note: ミッシェルとともにテラフォーマーを倒し続けた。
+        evidence:
+          - "第1期: ミッシェルとともにバッタとゲンゴロウの能力を持つテラフォーマーを倒した"
+          - "第2期: ミッシェルとともにテラフォーマー2体に勝った"
+      manga:
+        score: 84
+        note: 仲間と組んで強敵を倒した。
+        evidence:
+          - "アネックス1号編: 八恵子、エヴァとともに強敵を倒した"
+  - id: eva
+    name: エヴァ・フロスト
+    affiliation: アネックス1号 第5班
+    cv: 佐倉綾音
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: プラナリアの手術ベースで爆発から再生し、アドルフの細胞を取り込んで電撃の力を得た。
+        evidence:
+          - "アネックス1号編: アドルフの細胞を取り込み、電撃の能力を得た"
+          - "アネックス1号編: 燈、八恵子とともに強敵を倒した"
+  - id: keiji
+    name: 鬼塚慶次
+    affiliation: アネックス1号 第1班
+    cv: 小野大輔
+    editor:
+      anime:
+        score: 78
+        note: モンハナシャコの手術ベースを持つ元ボクサー。中国班の敵と戦った。
+        evidence:
+          - "第2期: 中国班の敵と交戦した"
+      manga:
+        score: 83
+        note: シャコの能力を持つテラフォーマーとの打ち合いに勝った。
+        evidence:
+          - "アネックス1号編: シャコの能力を持つテラフォーマーに勝った"
+  - id: marcos
+    name: マルコス・エリングラッド・ガルシア
+    affiliation: アネックス1号 第1班
+    cv: 石川界人
+    editor:
+      anime:
+        score: 72
+        note: アシダカグモの手術ベースでテラフォーマーと戦った。
+        evidence:
+          - "第1期: 不時着後の襲撃でクモの能力を使ってテラフォーマーと戦った"
+      manga:
+        score: 76
+        note: 中国班のクローン3体を倒した。
+        evidence:
+          - "アネックス1号編: 中国班のクローン3体を倒した"
+  - id: hong
+    name: 紅
+    affiliation: アネックス1号 第4班
+    cv: ささきのぞみ
+    editor:
+      anime:
+        score: 62
+        note: 中国班の最年少の隊員。鬼塚慶次たちの前に敵として現れた。
+        evidence:
+          - "第2期: 鬼塚慶次たちと敵として交戦した"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
