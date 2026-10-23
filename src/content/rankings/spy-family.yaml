@@ -1,0 +1,205 @@
+work: SPY×FAMILY
+title: SPY×FAMILY 最強キャラランキング
+description: SPY×FAMILYの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ Season 3（全13話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の連載最新話まで（2026年10月時点・単行本既刊17巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: yor
+    name: ヨル・フォージャー
+    affiliation: 殺し屋「いばら姫」（ガーデン）
+    cv: 早見沙織
+    editor:
+      anime:
+        score: 96
+        note: 豪華客船で送り込まれた殺し屋を次々に倒し、剣の達人も退けた。テニスではフィオナにも楽に勝っている。
+        evidence:
+          - "Season 2 第7話: 客船で襲ってきた殺し屋との戦いに勝った"
+          - "Season 2 第9話: 刀を使う殺し屋をスティレットで倒した"
+          - "Season 1 第23話: テニスの勝負でフィオナに楽に勝った"
+      manga:
+        score: 97
+        note: 密猟者狩りの任務で、同じガーデンの殺し屋ヘムロックに刃を向けられ、これを制した。
+        evidence:
+          - "単行本16巻: マシュー、ヘムロックと密猟者の一団を始末した"
+          - "単行本16巻: 家族を脅したヘムロックを力でねじ伏せた"
+  - id: loid
+    name: ロイド・フォージャー（黄昏）
+    affiliation: WISE 諜報員
+    cv: 江口拓也
+    editor:
+      anime:
+        score: 92
+        note: 地下水道でユーリを気絶させた。消耗した状態ではウィーラーに押し負けている。
+        evidence:
+          - "Season 1 第15話: 爆弾犬をごみ箱に閉じ込め、爆弾を川へ投げ捨てた"
+          - "Season 3 第12話: 地下水道でユーリを気絶させた"
+          - "Season 3 第12話: 負傷した状態でウィーラーに倒された"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: fiona
+    name: フィオナ・フロスト（夜帷）
+    affiliation: WISE 諜報員
+    cv: 佐倉綾音
+    editor:
+      anime:
+        score: 86
+        note: ロイドを倒したウィーラーを殴り倒した。テニスではヨルに完敗している。
+        evidence:
+          - "Season 3 第12話: 拳でウィーラーの腕を折り、自分の腕も折れた"
+          - "Season 3 第13話: ウィーラーを気絶させた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: wheeler
+    name: ウィーラー
+    affiliation: WISE 内部の裏切り者
+    editor:
+      anime:
+        score: 84
+        note: 捕まった後に逃げ出し、負傷していたロイドを倒した。最後はフィオナに倒された。
+        evidence:
+          - "Season 3 第12話: 拘束を抜け出し、負傷したロイドを倒した"
+          - "Season 3 第13話: フィオナに倒され気絶した"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: yuri
+    name: ユーリ・ブライア
+    affiliation: 国家保安局（SSS）
+    cv: 小野賢章
+    editor:
+      anime:
+        score: 82
+        note: 保安局の部隊でバスジャック犯を制圧した。地下水道ではロイドに気絶させられた。
+        evidence:
+          - "Season 3 第8話: 二台目のバスの犯人たちを部隊で制圧した"
+          - "Season 3 第12話: 地下水道でロイドに倒された"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: matthew
+    name: マシュー・マクマホン
+    affiliation: 市役所職員（ガーデン）
+    editor:
+      anime:
+        score: 81
+        note: 客船で殺し屋を二人始末した。刀を使う殺し屋には倒されている。
+        evidence:
+          - "Season 2 第6話: 標的を狙う殺し屋を二人始末した"
+          - "Season 2 第8話: 刀を使う殺し屋に倒された"
+      manga:
+        score: 82
+        note: ヨル、ヘムロックと組んで密猟者の一団を討った。
+        evidence:
+          - "単行本16巻: 森で密猟者の最初の一団を始末した"
+  - id: hemlock
+    name: ヘムロック
+    affiliation: 殺し屋（ガーデン）
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 密猟者狩りの任務に加わったガーデンの殺し屋。任務中にヨルへ刃を向け、制された。
+        evidence:
+          - "単行本16巻: ヨル、マシューと密猟者を始末した"
+          - "単行本16巻: ヨルに刃を向けたが、ねじ伏せられた"
+  - id: sylvia
+    name: シルヴィア・シャーウッド（管理官）
+    affiliation: WISE 管理官
+    cv: 甲斐田裕子
+    editor:
+      anime:
+        score: 70
+        note: 現場の指揮役。チームを率いて元兵士の襲撃を止めた。
+        evidence:
+          - "Season 3 第4話: 保安局とともに、元兵士による要人の暗殺を阻んだ"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: martha
+    name: マーサ
+    affiliation: ブラックベル家の執事
+    editor:
+      anime:
+        score: 66
+        note: バスジャック事件で、アーニャを人質に取った犯人をスタンガンで止めた。
+        evidence:
+          - "Season 3 第8話: アーニャを人質にした犯人をスタンガンで倒した"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: bond
+    name: ボンド・フォージャー
+    affiliation: フォージャー家の飼い犬
+    cv: 松田健一郎
+    editor:
+      anime:
+        score: 63
+        note: 未来を予知できる。予知でロイドの爆死を知らせ、火事の現場では子犬の救出に導いた。
+        evidence:
+          - "Season 1 第14話: 予知でロイドが爆弾で死ぬ未来をアーニャに見せた"
+          - "Season 2 第12話: 燃えるアパートへロイドを導き、子犬を救った"
+      manga:
+        score: 63
+        note: 原作でも評価は変わらない。
+  - id: henderson
+    name: ヘンリー・ヘンダーソン
+    affiliation: イーデン校 寮長
+    editor:
+      anime:
+        score: 60
+        note: 面接でフォージャー家を侮辱した教師を殴り倒した。
+        evidence:
+          - "Season 1 第4話: 面接でフォージャー家を侮辱した教師を殴った"
+      manga:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: franky
+    name: フランキー・フランクリン
+    affiliation: 情報屋
+    cv: 吉野裕行
+    editor:
+      anime:
+        score: 55
+        note: 情報屋で、荒事はほかの人物に頼ることが多い。フィオナとともに保安局の追っ手をかわした。
+        evidence:
+          - "Season 3 第1話: フィオナとともに保安局の追っ手を退けた"
+      manga:
+        score: 55
+        note: 原作でも評価は変わらない。
+  - id: keith
+    name: キース・ケプラー
+    affiliation: 学生テロ組織
+    editor:
+      anime:
+        score: 52
+        note: 爆弾犬を使ったテロを計画したが、ロイドに阻まれ、ヨルの蹴りで車ごと止められた。
+        evidence:
+          - "Season 1 第15話: ヨルの蹴りで、乗っていた車ごと事故を起こした"
+      manga:
+        score: 52
+        note: 原作でも評価は変わらない。
+  - id: anya
+    name: アーニャ・フォージャー
+    affiliation: イーデン校 生徒
+    cv: 種﨑敦美
+    editor:
+      anime:
+        score: 45
+        note: 心を読む力で危機を避けるが、戦う力は子供並み。客船ではヨルへの暗殺を防いだ。
+        evidence:
+          - "Season 1 第6話: ダミアンを殴り、トニトをもらった"
+          - "Season 2 第1話: 給仕に化けた殺し屋のヨル暗殺を防いだ"
+      manga:
+        score: 45
+        note: 原作でも評価は変わらない。

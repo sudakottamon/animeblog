@@ -1,0 +1,180 @@
+work: 暗殺教室
+title: 暗殺教室 最強キャラランキング
+description: 暗殺教室の最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ・原作とも完結まで（TVアニメ全2期・単行本全21巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: korosensei
+    name: 殺せんせー
+    affiliation: 椚ヶ丘中学校3年E組 担任
+    cv: 福山潤
+    editor:
+      anime:
+        score: 98
+        note: E組の暗殺を一年間しのぎ、最後は触手を得た柳沢と二代目死神を同時に相手にして倒した。前身は初代「死神」。
+        evidence:
+          - "第1期 第8話: 狙撃手レッドアイの弾をすべて防いだ"
+          - "第2期 第16話: 初代「死神」として研究施設を脱出した過去が明かされた"
+          - "第2期 第23話: 柳沢をレーザーの壁へ吹き飛ばし、二代目死神も倒した"
+  - id: shinigami-2
+    name: 二代目死神
+    affiliation: 殺し屋
+    cv: 島﨑信長
+    editor:
+      anime:
+        score: 92
+        note: 生徒を一人ずつ無力化し、烏間とも渡り合った。触手を得てからは殺せんせーと正面から戦った。
+        evidence:
+          - "第2期 第7話: E組の生徒を次々に倒し、クラップスタナーで渚を止めた"
+          - "第2期 第8話: 烏間と格闘戦をし、最後は烏間に倒された"
+          - "第2期 第23話: 触手の力で殺せんせーと戦い、とどめを刺された"
+  - id: yanagisawa
+    name: 柳沢誇太郎（シロ）
+    affiliation: 研究者
+    editor:
+      anime:
+        score: 88
+        note: イトナを使って殺せんせーを追い込み、終盤は自ら触手を打ち込んで殺せんせーに挑んだ。
+        evidence:
+          - "第2期 第2話: 繊維の檻で殺せんせーを閉じ込め、イトナと戦わせた"
+          - "第2期 第23話: 触手で強化した体で殺せんせーと戦い、レーザーの壁へ飛ばされて死んだ"
+  - id: karasuma
+    name: 烏間惟臣
+    affiliation: 防衛省 E組の体育教師
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 85
+        note: 麻痺ガスを受けた状態でスモッグを倒し、二代目死神にも格闘戦でとどめを入れた。
+        evidence:
+          - "第1期 第19話: 麻痺ガスを浴びながらスモッグを倒した"
+          - "第2期 第8話: 撃たれた後に殺せんせーの助けを受け、二代目死神を倒した"
+  - id: kayano
+    name: 茅野カエデ
+    affiliation: 3年E組
+    cv: 洲崎綾
+    editor:
+      anime:
+        score: 80
+        note: 隠していた触手で殺せんせーに単独で挑み、すすきの原で正面から戦った。
+        evidence:
+          - "第2期 第14話: 炎をまとった触手で殺せんせーを襲った"
+          - "第2期 第15話: 渚の行動で隙ができ、殺せんせーに触手を抜かれた"
+  - id: itona
+    name: 堀部イトナ
+    affiliation: 3年E組（転校生）
+    cv: 緒方恵美
+    editor:
+      anime:
+        score: 77
+        note: 触手で殺せんせーと勝負したが、二度とも退けられた。
+        evidence:
+          - "第1期 第11話: 殺せんせーとの勝負で、リングの外へ押し出されて負けた"
+          - "第2期 第3話: 力を上げて再び挑んだが、殺せんせーに倒された"
+  - id: nagisa
+    name: 潮田渚
+    affiliation: 3年E組
+    cv: 渕上舞
+    editor:
+      anime:
+        score: 78
+        note: 鷹岡に二度勝ち、カルマとの一騎打ちも制した。最後に殺せんせーへとどめを刺した。
+        evidence:
+          - "第1期 第22話: 猫騙しとスタンガンで鷹岡を気絶させた"
+          - "第2期 第18話: カルマとの格闘を三角絞めで制した"
+          - "第2期 第24話: 殺せんせーにとどめを刺した"
+  - id: karma
+    name: 赤羽業
+    affiliation: 3年E組
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 74
+        note: 殺し屋グリップに勝った。渚との一騎打ちには敗れている。
+        evidence:
+          - "第1期 第20話: グリップの麻痺ガスを逆に使って勝った"
+          - "第2期 第18話: 渚に三角絞めで負けた"
+  - id: lovro
+    name: ロヴロ・ブロフスキ
+    affiliation: 殺し屋の斡旋人
+    cv: 松山鷹志
+    editor:
+      anime:
+        score: 72
+        note: 殺し屋を育てて送り込む元殺し屋。烏間への奇襲は失敗した。
+        evidence:
+          - "第1期 第10話: 烏間を狙ったが失敗した"
+  - id: grip
+    name: グリップ
+    affiliation: 殺し屋
+    editor:
+      anime:
+        score: 68
+        note: 握力で相手を仕留める殺し屋。ホテルでカルマに敗れた。
+        evidence:
+          - "第1期 第20話: カルマに自分の麻痺ガスを使われて負けた"
+  - id: smog
+    name: スモッグ
+    affiliation: 殺し屋
+    editor:
+      anime:
+        score: 66
+        note: 毒ガスを使う殺し屋。烏間にガスを浴びせたが、そのまま倒された。
+        evidence:
+          - "第1期 第19話: 烏間を麻痺ガスで弱らせたが、反撃で気絶した"
+  - id: irina
+    name: イリーナ・イェラビッチ
+    affiliation: 殺し屋 E組の英語教師
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 62
+        note: 色仕掛けと交渉術が専門で、正面からの戦闘は得意ではない。烏間とのナイフ勝負には勝った。
+        evidence:
+          - "第1期 第4話: 部下を使った殺せんせーの暗殺に失敗した"
+          - "第1期 第10話: ゴムナイフの勝負で烏間に勝った"
+          - "第2期 第7話: 二代目死神の側について生徒を罠にかけた"
+  - id: takaoka
+    name: 鷹岡明
+    affiliation: 元防衛省
+    cv: 三宅健太
+    editor:
+      anime:
+        score: 60
+        note: 体格と軍隊式の格闘術はあるが、渚に二度敗れた。
+        evidence:
+          - "第1期 第13話: 渚とのナイフ勝負に負け、烏間にも叩き伏せられた"
+          - "第1期 第22話: ヘリポートでの再戦でも渚に負けた"
+  - id: ritsu
+    name: 律
+    affiliation: 3年E組（自律思考固定砲台）
+    editor:
+      anime:
+        score: 58
+        note: 教室に置かれた固定砲台。転校初日に殺せんせーの指先を撃ち飛ばした。
+        evidence:
+          - "第1期 第9話: 射撃で殺せんせーの指先を吹き飛ばした"
+  - id: red-eye
+    name: レッドアイ
+    affiliation: 殺し屋（狙撃手）
+    editor:
+      anime:
+        score: 55
+        note: 腕の立つ狙撃手として送り込まれたが、殺せんせーに一発も通らなかった。
+        evidence:
+          - "第1期 第8話: 修学旅行中に狙撃したが、すべて防がれて手を引いた"
+  - id: terasaka
+    name: 寺坂竜馬
+    affiliation: 3年E組
+    editor:
+      anime:
+        score: 50
+        note: E組の体格自慢。ホテルでは護衛の男二人を倒した。
+        evidence:
+          - "第1期 第20話: ホテルの護衛二人を気絶させた"

@@ -1,0 +1,280 @@
+work: 逃げ上手の若君
+title: 逃げ上手の若君 最強キャラランキング
+description: 逃げ上手の若君の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（第1期と通算24話・中先代の乱の挙兵まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全27巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: takauji
+    name: 足利尊氏
+    affiliation: 足利家 当主
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 97
+        note: 逃若党が総がかりで仕掛けた暗殺を一人で押し返した。逃若党は楠木正成の介入でようやく逃げ延びた。
+        evidence:
+          - "第22話: 側近から引き離された状態で逃若党の襲撃をはね返した"
+      manga:
+        score: 98
+        note: 時行の軍を破り、北畠顕家にも重傷を負わせた。時行の渾身の一撃を受けても倒れなかった。
+        evidence:
+          - "単行本13〜14巻: 時行の軍を破った"
+          - "単行本19〜20巻: 北畠顕家に重傷を負わせ、顕家軍を敗北に追い込んだ"
+          - "単行本25〜27巻: 時行の一撃を受けても倒れず、時行はのちに罠にかかって捕らえられた"
+  - id: kusunoki
+    name: 楠木正成
+    affiliation: 後醍醐天皇方の武将
+    cv: 鈴村健一
+    editor:
+      anime:
+        score: 88
+        note: 尊氏に押し返された逃若党の前に割って入り、逃げ道を作った。
+        evidence:
+          - "第22話: 尊氏との間に入り、逃若党を逃がした"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: sadamune
+    name: 小笠原貞宗
+    affiliation: 信濃守護
+    cv: 青山穣
+    editor:
+      anime:
+        score: 84
+        note: 弓の名手。犬追物で時行の頭を射抜き、その後も時行たちを何度も追い詰めた。諏訪の挙兵では瘴奸とともに本隊を破った。
+        evidence:
+          - "第4話: 犬追物で時行の頭に矢を当てた"
+          - "第5話: 再戦で時行に首を射られて負けた"
+          - "第17話: 瘴奸と伏兵を仕掛け、諏訪の軍を破った"
+      manga:
+        score: 85
+        note: 信濃での最後の戦いで時行に敗れた。
+        evidence:
+          - "単行本21〜22巻: 時行の会心の一撃で撃破された"
+  - id: tokiyuki
+    name: 北条時行
+    affiliation: 北条家の遺児
+    cv: 結川あさき
+    editor:
+      anime:
+        score: 80
+        note: 逃げの技術で戦う。五大院宗繁を討ち、弓の勝負で貞宗に勝ち、瘴奸にも深手を負わせた。
+        evidence:
+          - "第2話: 五大院宗繁を討った"
+          - "第5話: 弓の再戦で貞宗の首を射た"
+          - "第8話: 一騎打ちで瘴奸に深手を負わせた"
+      manga:
+        score: 92
+        note: 瘴奸、斯波家長、貞宗を破り、尊氏にも一撃を入れた。決着の場面で尊氏を倒しきれず捕らえられた。
+        evidence:
+          - "単行本15〜16巻: 斯波家長に一騎打ちで勝った"
+          - "単行本21〜22巻: 小笠原貞宗を撃破した"
+          - "単行本25〜27巻: 尊氏に渾身の一撃を入れたが、倒せなかった"
+  - id: akiie
+    name: 北畠顕家
+    affiliation: 後醍醐天皇方の武将
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 軍を率いて鎌倉を取り返し、土岐頼遠を破った。尊氏との戦いで重傷を負い、軍は敗れた。
+        evidence:
+          - "単行本17〜18巻: 顕家軍が土岐頼遠に勝った"
+          - "単行本19〜20巻: 高師直を追い詰めたが、尊氏に重傷を負わされた"
+  - id: moronao
+    name: 高師直
+    affiliation: 足利家 執事
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 奇襲で顕家軍に大きな打撃を与えた。のちに高一族は時行に敗れた。
+        evidence:
+          - "単行本17〜18巻: 襲撃で顕家軍に大打撃を与えた"
+          - "単行本23〜24巻: 高一族が時行に敗れ、大半が滅んだ"
+  - id: shokan
+    name: 瘴奸
+    affiliation: 野盗 のち小笠原家
+    editor:
+      anime:
+        score: 82
+        note: 野盗の頭。時行に深手を負わされても出血で倒れるまで戦い続けた。のちに貞宗の下で諏訪の軍を破った。
+        evidence:
+          - "第9話: 深手を負いながら戦い続け、出血で倒れた"
+          - "第17話: 貞宗と伏兵を仕掛け、諏訪の軍を破った"
+      manga:
+        score: 80
+        note: 中先代の乱で時行と再戦し、討ち取られた。
+        evidence:
+          - "単行本7〜8巻: 時行の奇策で分断され、討ち取られた"
+  - id: fubuki
+    name: 吹雪
+    affiliation: 逃若党
+    cv: 戸谷菊之介
+    editor:
+      anime:
+        score: 80
+        note: 弧次郎と亜也子の二人を相手に戦った剣士。清原の帽子を斬り落として退かせた。
+        evidence:
+          - "第7話: 弧次郎・亜也子の二人と戦った"
+          - "第12話: 清原の帽子を斬り落とし、撤退させた"
+      manga:
+        score: 84
+        note: 時行と対決し、手首を斬られて敗れた。
+        evidence:
+          - "単行本23〜24巻: 時行に手首を斬られて敗れた"
+  - id: yorishige
+    name: 諏訪頼重
+    affiliation: 諏訪大社 大祝
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 79
+        note: 時行を匿う諏訪の神官。仮面姿で割って入り、貞宗を退かせた。
+        evidence:
+          - "第16話: 信濃仮面として現れ、貞宗を撤退させた"
+          - "第19話: 屋敷に火を放ち、時行たちを京へ逃がした"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: toki-yoritoo
+    name: 土岐頼遠
+    affiliation: 足利方の武将
+    appears: manga
+    editor:
+      manga:
+        score: 83
+        note: 顕家軍に敗れた。のちに信濃での時行と貞宗の戦いに加わった。
+        evidence:
+          - "単行本17〜18巻: 顕家軍に敗れた"
+          - "単行本21〜22巻: 三千騎を率いて信濃の戦いに加わった"
+  - id: kojiro
+    name: 弧次郎
+    affiliation: 逃若党
+    cv: 日野まり
+    editor:
+      anime:
+        score: 76
+        note: 逃若党の剣の担い手。清原軍の将を討ち取った。
+        evidence:
+          - "第12話: 清原軍を率いていた将を討った"
+      manga:
+        score: 77
+        note: 時行と組んで渋川義季を討った。
+        evidence:
+          - "単行本9〜10巻: 時行とともに渋川義季を倒した"
+  - id: ayako
+    name: 亜也子
+    affiliation: 逃若党
+    cv: 鈴代紗弓
+    editor:
+      anime:
+        score: 74
+        note: 怪力の武者。待ち伏せの戦いで相手を一方的に倒した。
+        evidence:
+          - "第14話: 諏訪へ戻る道中の待ち伏せで、相手を楽に倒した"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: shiba-ienaga
+    name: 斯波家長
+    affiliation: 足利方の武将
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: 時行との一騎打ちに敗れ、顕家軍に鎌倉を取り返された。
+        evidence:
+          - "単行本15〜16巻: 時行との一騎打ちに敗れた"
+  - id: sukefusa
+    name: 市河助房
+    affiliation: 小笠原方の武将
+    editor:
+      anime:
+        score: 72
+        note: 綸旨を奪った時行たちを追い、時行に一撃を当てた。重信の陣も壊滅させた。
+        evidence:
+          - "第6話: 玄蕃を狙った一撃が、かばった時行に当たった"
+          - "第15話: 重信の陣を壊滅させた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: hoshina
+    name: 保科弥三郎
+    affiliation: 信濃の武将
+    editor:
+      anime:
+        score: 70
+        note: 逃若党と組んで清原軍と戦い、挙兵では神輿の担ぎ手を削った。
+        evidence:
+          - "第11話: 逃若党の助けを受けて清原軍と戦った"
+          - "第17話: 吹雪らとともに清原の神輿の担ぎ手を削った"
+      manga:
+        score: 70
+        note: 時行と連携して清原を破った。
+        evidence:
+          - "単行本7〜8巻: 時行と連携して清原信濃守を撃破した"
+  - id: tadayoshi
+    name: 足利直義
+    affiliation: 尊氏の弟 鎌倉の守り
+    cv: 古川慎
+    editor:
+      anime:
+        score: 65
+        note: 鎌倉を守る尊氏の弟。廂番を率いて北条残党の襲撃を退けた。
+        evidence:
+          - "第13話: 廂番とともに鎌倉近くで北条残党と戦った"
+      manga:
+        score: 65
+        note: 中先代の乱で時行の軍に敗れ、鎌倉を奪われた。
+        evidence:
+          - "単行本11〜12巻: 三浦時明の寝返りもあって時行軍に敗れ、鎌倉を明け渡した"
+  - id: genba
+    name: 風間玄蕃
+    affiliation: 逃若党（忍び）
+    cv: 悠木碧
+    editor:
+      anime:
+        score: 62
+        note: 変装と盗みが得意な忍びで、戦いは囮役が中心。追っ手を引きつけて仲間を逃がした。
+        evidence:
+          - "第6話: 時行と綸旨を盗み出し、追っ手を引きつけた"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: kiyohara
+    name: 清原信濃守
+    affiliation: 信濃の国司
+    editor:
+      anime:
+        score: 58
+        note: 兵を率いる国司だが、戦場では吹雪に帽子を斬られて退いた。
+        evidence:
+          - "第12話: 吹雪に帽子を斬り落とされて撤退した"
+          - "第17話: 神輿の担ぎ手を削られたが、逃げ延びた"
+      manga:
+        score: 56
+        note: 時行と保科の連携に敗れた。
+        evidence:
+          - "単行本7〜8巻: 時行と保科の連携で撃破された"
+  - id: godaiin
+    name: 五大院宗繁
+    affiliation: 北条家の元家臣
+    editor:
+      anime:
+        score: 50
+        note: 北条家を裏切った武士。時行との斬り合いで討たれた。
+        evidence:
+          - "第2話: 弧次郎・亜也子の援護を受けた時行に討たれた"
+      manga:
+        score: 50
+        note: 原作でも評価は変わらない。

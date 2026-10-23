@@ -52,12 +52,12 @@
 - [ ] `nue-no-onmyouji` 鵺の陰陽師（アニメ化の状況を確認）
 
 ## バッチ 07
-- [ ] `gachiakuta` ガチアクタ
-- [ ] `tougen-anki` 桃源暗鬼
-- [ ] `kemono-jihen` 怪物事変
-- [ ] `nigejouzu` 逃げ上手の若君
-- [ ] `assassination-classroom` 暗殺教室
-- [ ] `spy-family` SPY×FAMILY
+- [x] `gachiakuta` ガチアクタ
+- [x] `tougen-anki` 桃源暗鬼
+- [x] `kemono-jihen` 怪物事変
+- [x] `nigejouzu` 逃げ上手の若君
+- [x] `assassination-classroom` 暗殺教室
+- [x] `spy-family` SPY×FAMILY
 
 ## バッチ 08
 - [ ] `bobobo` ボボボーボ・ボーボボ

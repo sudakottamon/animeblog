@@ -1,0 +1,206 @@
+work: 怪物事変
+title: 怪物事変 最強キャラランキング
+description: 怪物事変の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（全12話・零結石をめぐる結との戦いまで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の連載最新話まで（2026年10月時点・単行本既刊25巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: inugami
+    name: 隠神鼓八千
+    affiliation: 隠神探偵事務所 所長
+    cv: 諏訪部順一
+    editor:
+      anime:
+        score: 92
+        note: 事件の真犯人だった怪物を倒し、事務所に乗り込んだ紺も取り押さえた。
+        evidence:
+          - "第1話: 夏羽とともに家畜殺しの真犯人の鹿の怪物を倒した"
+          - "第3話: 事務所で紺を取り押さえた"
+      manga:
+        score: 93
+        note: 夏羽とともに陽・炉薔薇と戦い、奇策で勝って栄結石を得た。
+        evidence:
+          - "単行本11巻: 陽・炉薔薇に勝ち、栄結石を手に入れた"
+  - id: tasaburo
+    name: 太三郎
+    affiliation: 屋島の狸の長老
+    appears: manga
+    editor:
+      manga:
+        score: 91
+        note: 試練の相手として夏羽を何度も退けた。屋島では自爆覚悟の攻撃で赤城・花楓を倒した。
+        evidence:
+          - "単行本7巻: 修行に来た夏羽を何度も負かした"
+          - "単行本13〜16巻: 屋島で自爆覚悟の攻撃を放ち、赤城・花楓を倒した"
+  - id: kabane
+    name: 日下夏羽
+    affiliation: 隠神探偵事務所
+    cv: 藤原夏海
+    editor:
+      anime:
+        score: 80
+        note: 痛みに強い屍鬼の体で戦う。怪物の力に目覚めて蚊婆の姉妹を倒し、結の凍結にも反撃した。
+        evidence:
+          - "第6話: 怪物の力に目覚め、仲間を圧倒した蚊婆の姉妹を倒した"
+          - "第12話: 野火丸の策で結の凍結を破り、反撃に出た"
+      manga:
+        score: 88
+        note: 太三郎の試練を越えて幻結石を奪い、京狐の里では里長の米を討ち破った。
+        evidence:
+          - "単行本7巻: 太三郎の試練の末、幻結石を奪った"
+          - "単行本11巻: 隠神とともに陽・炉薔薇に勝った"
+          - "単行本17〜20巻: 京狐の里の里長・米を討ち破った"
+  - id: nobimaru
+    name: 野火丸
+    affiliation: 飯生の部下
+    cv: 下野紘
+    editor:
+      anime:
+        score: 86
+        note: 飯生に仕える狐。蚊婆の始末に現れ、結との戦いでは凍結を破る策を夏羽に授けた。
+        evidence:
+          - "第6話: 現場に現れ、蚊婆を始末した"
+          - "第12話: 結の凍結に苦戦し、攻略の策で夏羽を助けた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: kome
+    name: 米
+    affiliation: 京狐の里 里長
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 信者の命を力に変えて戦う京狐の里の長。夏羽たちに討ち破られた。
+        evidence:
+          - "単行本17〜20巻: 頼電たちと組んだ夏羽に討ち破られた"
+  - id: yui
+    name: 結
+    affiliation: 晶の兄（雪男子）
+    cv: 石川界人
+    editor:
+      anime:
+        score: 85
+        note: 零結石の力で夏羽たちを一瞬で止め、野火丸も凍結で苦しめた。
+        evidence:
+          - "第11話: 零結石の力で夏羽たちを一瞬で足止めした"
+          - "第12話: 凍結の力で野火丸を追い込んだ"
+      manga:
+        score: 82
+        note: 晶に敗れ、胸の零結石を抜き取られた。命を削って力を出していたことが明かされた。
+        evidence:
+          - "単行本5〜6巻: 晶に倒され、零結石を抜き取られた"
+  - id: kaido
+    name: 壊堂
+    affiliation: 飯生内閣 保安大臣
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 怪獣の姿になって暴れた大臣。その光にミハイが巻き込まれて命を落とした。
+        evidence:
+          - "単行本24巻: 怪獣化して電波塔を壊し、ミハイを巻き込んで死なせた"
+  - id: akira
+    name: 晶
+    affiliation: 隠神探偵事務所
+    cv: 村瀬歩
+    editor:
+      anime:
+        score: 75
+        note: 雪男子の冷気で戦う。渋谷川で蛙の怪物と戦い、トンネルを凍らせた。
+        evidence:
+          - "第4話: 蛙の怪物との戦いでトンネルごと凍らせた"
+      manga:
+        score: 81
+        note: 兄の結を倒し、零結石を抜き取った。
+        evidence:
+          - "単行本5〜6巻: 結を倒し、胸から零結石を抜き取った"
+  - id: kaede
+    name: 花楓
+    affiliation: 飯生の部下
+    appears: manga
+    editor:
+      manga:
+        score: 77
+        note: 火炎で村を焼き払う狐。八ツ首村で夏羽と織に退けられ、屋島では太三郎に倒された。
+        evidence:
+          - "単行本8巻: 八ツ首村で夏羽・織に退けられた"
+          - "単行本13〜16巻: 屋島で太三郎に倒された"
+  - id: akagi
+    name: 赤城
+    affiliation: 飯生の部下
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: 幻覚を使う狐。花楓とともに八ツ首村と屋島で敗れた。
+        evidence:
+          - "単行本8巻: 八ツ首村で夏羽・織に退けられた"
+          - "単行本13〜16巻: 屋島で太三郎に倒された"
+  - id: shiki
+    name: 蓼丸織
+    affiliation: 隠神探偵事務所
+    cv: 花江夏樹
+    editor:
+      anime:
+        score: 70
+        note: 糸を操って戦う。毒で動けなくなっても自分の手を折って動き、蚊婆の妹を糸で捕らえた。
+        evidence:
+          - "第6話: 自分の手を折って毒の麻痺を破り、蚊婆の妹を糸で捕らえた"
+          - "第8話: 夏羽と二人で怪物の群れと戦った"
+      manga:
+        score: 74
+        note: 八ツ首村で夏羽とともに花楓・赤城を退けた。
+        evidence:
+          - "単行本8巻: 夏羽とともに花楓・赤城を退け、流結石を得た"
+  - id: you
+    name: 陽
+    affiliation: 飯生の部下
+    appears: manga
+    editor:
+      manga:
+        score: 73
+        note: 炉薔薇と組んで隠神・夏羽と戦い、敗れて命を落とした。
+        evidence:
+          - "単行本11巻: 隠神・夏羽に敗れ、戦死した"
+  - id: kon
+    name: 紺
+    affiliation: 飯生の部下
+    cv: 花守ゆみり
+    editor:
+      anime:
+        score: 68
+        note: 化け狐。夏羽に化けて動いたが、夏羽に気絶させられ、事務所では隠神に取り押さえられた。
+        evidence:
+          - "第3話: 夏羽に気絶させられ、隠神にも取り押さえられた"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: rosebara
+    name: 炉薔薇
+    affiliation: 飯生の部下
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 陽と組んで隠神・夏羽と戦い、敗れた。
+        evidence:
+          - "単行本11巻: 陽とともに隠神・夏羽に敗れた"
+  - id: umetaro
+    name: 梅太郎
+    affiliation: 狐側
+    appears: manga
+    editor:
+      manga:
+        score: 62
+        note: 正面から戦うより策で動く。晶と結をだまして天結石を奪った。
+        evidence:
+          - "単行本9巻: 晶と結をだまし、天結石を奪った"
