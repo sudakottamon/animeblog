@@ -1,0 +1,192 @@
+work: ウマ娘 プリティーダービー
+title: ウマ娘 プリティーダービー 最強キャラランキング
+description: ウマ娘 プリティーダービーの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ Season 1〜Season 3まで（『ROAD TO THE TOP』、劇場版、『シンデレラグレイ』は含まない）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kitasan-black
+    name: キタサンブラック
+    affiliation: チームスピカ
+    cv: 矢野妃菜喜
+    editor:
+      anime:
+        score: 95
+        note: 基準はアニメで描かれたレースでの強さ。Season 3でG1を重ね、天皇賞（春）連覇と引退レースの有馬記念を勝った。
+        evidence:
+          - "Season 3 第2話: 菊花賞を勝った"
+          - "Season 3 第9話: 天皇賞（春）でサトノダイヤモンドらを抑えて勝った"
+          - "Season 3 第13話: 引退レースの有馬記念を勝った"
+  - id: special-week
+    name: スペシャルウィーク
+    affiliation: チームスピカ
+    cv: 和氣あず未
+    editor:
+      anime:
+        score: 92
+        note: Season 1の主人公。敗戦を重ねながら、天皇賞（秋）とジャパンカップで海外の強豪も破った。
+        evidence:
+          - "Season 1 第5話: 日本ダービーでエルコンドルパサーと同着で勝った"
+          - "Season 1 第10話: 天皇賞（秋）でセイウンスカイらに勝った"
+          - "Season 1 第13話: ジャパンカップでブロワイエを破った"
+  - id: tokai-teio
+    name: トウカイテイオー
+    affiliation: チームスピカ
+    cv: Machico
+    editor:
+      anime:
+        score: 91
+        note: Season 2の主人公。日本ダービーを勝ち、故障を経て有馬記念で復活の勝利を挙げた。
+        evidence:
+          - "Season 2 第1話: 日本ダービーを勝った"
+          - "Season 2 第5話: 天皇賞（春）でメジロマックイーンに敗れた"
+          - "Season 2 第13話: 有馬記念でビワハヤヒデらを破って勝った"
+  - id: mejiro-mcqueen
+    name: メジロマックイーン
+    affiliation: チームスピカ
+    cv: 大西沙織
+    editor:
+      anime:
+        score: 90
+        note: ステイヤー。天皇賞（春）でテイオーに勝ったが、翌年はライスシャワーに敗れた。
+        evidence:
+          - "Season 2 第5話: 天皇賞（春）でトウカイテイオーに勝った"
+          - "Season 2 第8話: 天皇賞（春）でライスシャワーに敗れた"
+          - "Season 2 第9話: 宝塚記念を勝った"
+  - id: satono-diamond
+    name: サトノダイヤモンド
+    affiliation: チームスピカ
+    cv: 立花日菜
+    editor:
+      anime:
+        score: 89
+        note: キタサンブラックの好敵手。菊花賞と有馬記念を勝ち、有馬ではキタサンブラックに先着した。
+        evidence:
+          - "Season 3 第6話: 菊花賞を勝った"
+          - "Season 3 第7話: 有馬記念でキタサンブラックを破った"
+          - "Season 3 第9話: 天皇賞（春）でキタサンブラックに敗れた"
+  - id: rice-shower
+    name: ライスシャワー
+    affiliation: トレセン学園
+    cv: 石見舞菜香
+    editor:
+      anime:
+        score: 88
+        note: 菊花賞でミホノブルボンの三冠を阻み、天皇賞（春）でメジロマックイーンの3連覇を阻んだ。
+        evidence:
+          - "Season 2 第6話: 菊花賞でミホノブルボンに勝った"
+          - "Season 2 第8話: 天皇賞（春）でメジロマックイーンに勝った"
+  - id: duramente
+    name: ドゥラメンテ
+    affiliation: トレセン学園
+    cv: 秋奈
+    editor:
+      anime:
+        score: 88
+        note: キタサンブラックと同期のクラシック二冠。皐月賞と日本ダービーでキタサンブラックを破った。
+        evidence:
+          - "Season 3 第1話: 皐月賞と日本ダービーを勝ち、キタサンブラックを破った"
+  - id: silence-suzuka
+    name: サイレンススズカ
+    affiliation: チームスピカ
+    cv: 高野麻里佳
+    editor:
+      anime:
+        score: 87
+        note: 逃げで先頭を譲らない快速。毎日王冠でエルコンドルパサーとグラスワンダーを破ったが、天皇賞（秋）で故障した。
+        evidence:
+          - "Season 1 第6話: 毎日王冠でエルコンドルパサーとグラスワンダーに勝った"
+          - "Season 1 第7話: 天皇賞（秋）のレース中に故障した"
+  - id: el-condor-pasa
+    name: エルコンドルパサー
+    affiliation: チームリギル
+    cv: 髙橋ミナミ
+    editor:
+      anime:
+        score: 87
+        note: ジャパンカップでスペシャルウィークに勝ち、凱旋門賞ではブロワイエに次ぐ結果を残した。
+        evidence:
+          - "Season 1 第5話: 日本ダービーでスペシャルウィークと同着だった"
+          - "Season 1 第8話: ジャパンカップでスペシャルウィークに勝った"
+          - "Season 1 第9話: 凱旋門賞でブロワイエに敗れた"
+  - id: broye
+    name: ブロワイエ
+    affiliation: フランスのウマ娘
+    cv: 池澤春菜
+    editor:
+      anime:
+        score: 85
+        note: 凱旋門賞でエルコンドルパサーを破った欧州の強豪。来日したジャパンカップではスペシャルウィークに敗れた。
+        evidence:
+          - "Season 1 第9話: 凱旋門賞でエルコンドルパサーに勝った"
+          - "Season 1 第13話: ジャパンカップでスペシャルウィークに敗れた"
+  - id: grass-wonder
+    name: グラスワンダー
+    affiliation: チームリギル
+    cv: 前田玲奈
+    editor:
+      anime:
+        score: 85
+        note: 宝塚記念でスペシャルウィークを破った。毎日王冠ではサイレンススズカに敗れた。
+        evidence:
+          - "Season 1 第6話: 毎日王冠でサイレンススズカに敗れた"
+          - "Season 1 第9話: 宝塚記念でスペシャルウィークに勝った"
+  - id: seiun-sky
+    name: セイウンスカイ
+    affiliation: トレセン学園
+    cv: 鬼頭明里
+    editor:
+      anime:
+        score: 84
+        note: 皐月賞と菊花賞でスペシャルウィークに勝った。天皇賞（秋）では逆に敗れた。
+        evidence:
+          - "Season 1 第3話: 皐月賞でスペシャルウィークに勝った"
+          - "Season 1 第7話: 菊花賞でスペシャルウィークに勝った"
+          - "Season 1 第10話: 天皇賞（秋）でスペシャルウィークに敗れた"
+  - id: mihono-bourbon
+    name: ミホノブルボン
+    affiliation: トレセン学園
+    cv: 長谷川育美
+    editor:
+      anime:
+        score: 80
+        note: 皐月賞を勝ったが、菊花賞でライスシャワーに敗れた。
+        evidence:
+          - "Season 2 第4話: 皐月賞を勝った"
+          - "Season 2 第6話: 菊花賞でライスシャワーに敗れた"
+  - id: satono-crown
+    name: サトノクラウン
+    affiliation: トレセン学園
+    cv: 鈴代紗弓
+    editor:
+      anime:
+        score: 80
+        note: 宝塚記念でキタサンブラックに勝った。天皇賞（秋）と有馬記念ではキタサンブラックに敗れた。
+        evidence:
+          - "Season 3 第10話: 宝塚記念でキタサンブラックらに勝った"
+          - "Season 3 第11話: 天皇賞（秋）でキタサンブラックに敗れた"
+  - id: cheval-grand
+    name: シュヴァルグラン
+    affiliation: トレセン学園
+    editor:
+      anime:
+        score: 78
+        note: ジャパンカップでキタサンブラックに勝った。天皇賞（春）や有馬記念では敗れた。
+        evidence:
+          - "Season 3 第12話: ジャパンカップでキタサンブラックに勝った"
+          - "Season 3 第13話: 有馬記念でキタサンブラックに敗れた"
+  - id: king-halo
+    name: キングヘイロー
+    affiliation: トレセン学園
+    cv: 佐伯伊織
+    editor:
+      anime:
+        score: 66
+        note: スペシャルウィークの同期。天皇賞（秋）ではスペシャルウィークらに敗れた。
+        evidence:
+          - "Season 1 第10話: 天皇賞（秋）でスペシャルウィークに敗れた"

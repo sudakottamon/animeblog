@@ -1,0 +1,193 @@
+work: 魔法少女リリカルなのは
+title: 魔法少女リリカルなのは 最強キャラランキング
+description: 魔法少女リリカルなのはの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『魔法少女リリカルなのは』（全13話）、『A's』（全13話）、『StrikerS』（全26話）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: nanoha
+    name: 高町なのは
+    affiliation: 時空管理局 機動六課 スターズ分隊長
+    cv: 田村ゆかり
+    editor:
+      anime:
+        score: 96
+        note: 砲撃型の魔導師。フェイトとの決闘、闇の書の防衛プログラム、聖王ヴィヴィオとの戦いと、各期の大一番を砲撃で決めた。
+        evidence:
+          - "無印 終盤: フェイトとの最後の決闘をスターライトブレイカーで制した"
+          - "A's 終盤: フェイトやはやてたちと闇の書の防衛プログラムを倒した"
+          - "StrikerS 終盤: 聖王のゆりかごで聖王化したヴィヴィオを砲撃で止めた"
+  - id: fate
+    name: フェイト・テスタロッサ
+    affiliation: 時空管理局 機動六課 ライトニング分隊長
+    cv: 水樹奈々
+    editor:
+      anime:
+        score: 92
+        note: 高速戦闘の魔導師。無印ではなのはに敗れたが、StrikerSでは事件の首謀者スカリエッティを捕らえた。
+        evidence:
+          - "無印 終盤: なのはとの決闘でスターライトブレイカーを受けて敗れた"
+          - "A's: 守護騎士シグナムと何度も斬り結んだ"
+          - "StrikerS 終盤: スカリエッティのアジトに乗り込み、本人を倒して捕らえた"
+  - id: reinforce
+    name: リインフォース
+    affiliation: 闇の書の管制人格
+    cv: 小林沙苗
+    editor:
+      anime:
+        score: 89
+        note: 闇の書の意志として、なのはとフェイトの二人を同時に相手にした。蒐集した魔法を使いこなす。
+        evidence:
+          - "A's 終盤: 闇の書の意志として、なのはとフェイトを同時に相手にした"
+          - "A's 終盤: 主のはやてに名を与えられ、防衛プログラムと切り離された"
+  - id: hayate
+    name: 八神はやて
+    affiliation: 時空管理局 機動六課 部隊長
+    cv: 植田佳奈
+    editor:
+      anime:
+        score: 87
+        note: 闇の書の主で、広域攻撃を得意とする。A'sの最終戦では防衛プログラムの撃破に加わった。
+        evidence:
+          - "A's 終盤: 闇の書の主として覚醒し、なのはたちと防衛プログラムを倒した"
+          - "StrikerS: 機動六課の部隊長として最終決戦を指揮した"
+  - id: signum
+    name: シグナム
+    affiliation: ヴォルケンリッター 烈火の将
+    cv: 清水香里
+    editor:
+      anime:
+        score: 86
+        note: 守護騎士の将。剣と弓を使い、フェイトとは互いに決着のつかない斬り合いを重ねた。
+        evidence:
+          - "A's: 闇の書の蒐集のためフェイトと何度も戦った"
+          - "StrikerS 終盤: アギトとユニゾンして戦った"
+  - id: vivio
+    name: 高町ヴィヴィオ
+    affiliation: 聖王のクローン
+    cv: 水橋かおり
+    editor:
+      anime:
+        score: 84
+        note: 聖王のゆりかごで聖王の力を引き出され、なのはと戦った。最後はなのはの砲撃で止められた。
+        evidence:
+          - "StrikerS 終盤: 聖王化してなのはと戦い、砲撃で止められた"
+  - id: vita
+    name: ヴィータ
+    affiliation: ヴォルケンリッター 鉄槌の騎士
+    cv: 真田アサミ
+    editor:
+      anime:
+        score: 83
+        note: ハンマー型デバイスの騎士。初戦でなのはを倒し、StrikerSでは聖王のゆりかごの駆動炉を破壊した。
+        evidence:
+          - "A's 序盤: なのはを襲撃し、レイジングハートを破損させて打ち負かした"
+          - "StrikerS 終盤: 聖王のゆりかごの駆動炉を破壊した"
+  - id: precia
+    name: プレシア・テスタロッサ
+    affiliation: 大魔導師
+    cv: 五十嵐麗
+    editor:
+      anime:
+        score: 82
+        note: 無印の黒幕。時の庭園から次元を越えた攻撃を放ったが、最後は虚数空間へ落ちていった。
+        evidence:
+          - "無印: フェイトに鞭で罰を与え、次元を越えて雷撃を放った"
+          - "無印 終盤: 時の庭園の崩壊とともに虚数空間へ落ちた"
+  - id: chrono
+    name: クロノ・ハラオウン
+    affiliation: 時空管理局 執務官
+    editor:
+      anime:
+        score: 81
+        note: 管理局の執務官。初登場でなのはとフェイトの戦いを止め、A'sではデュランダルで防衛プログラムを凍結させた。
+        evidence:
+          - "無印: 初登場でなのはとフェイトの戦闘に割って入って止めた"
+          - "A's 終盤: デュランダルで闇の書の防衛プログラムを凍結させた"
+  - id: subaru
+    name: スバル・ナカジマ
+    affiliation: 機動六課 スターズ分隊
+    cv: 斎藤千和
+    editor:
+      anime:
+        score: 78
+        note: 格闘型の魔導師。最終決戦で操られた姉ギンガと戦い、取り戻した。
+        evidence:
+          - "StrikerS 終盤: 操られたギンガと戦って勝ち、連れ戻した"
+  - id: teana
+    name: ティアナ・ランスター
+    affiliation: 機動六課 スターズ分隊
+    cv: 中原麻衣
+    editor:
+      anime:
+        score: 77
+        note: 幻術と射撃の魔導師。模擬戦でなのはに撃墜されたが、最終決戦では一人で戦闘機人3人を倒した。
+        evidence:
+          - "StrikerS: 模擬戦で無茶な戦法を取り、なのはに撃墜された"
+          - "StrikerS 終盤: 幻術を使い、戦闘機人3人を一人で倒した"
+  - id: caro
+    name: キャロ・ル・ルシエ
+    affiliation: 機動六課 ライトニング分隊
+    cv: 高橋美佳子
+    editor:
+      anime:
+        score: 74
+        note: 竜召喚士。最終決戦で真竜ヴォルテールを呼び出し、ルーテシアの召喚獣を抑えた。
+        evidence:
+          - "StrikerS 終盤: ヴォルテールを召喚し、ルーテシアの召喚獣と戦った"
+  - id: erio
+    name: エリオ・モンディアル
+    affiliation: 機動六課 ライトニング分隊
+    cv: 井上麻里奈
+    editor:
+      anime:
+        score: 72
+        note: 槍型デバイスの騎士見習い。キャロと組んでルーテシアを止めた。
+        evidence:
+          - "StrikerS 終盤: キャロと共にルーテシアと戦い、止めた"
+  - id: ginga
+    name: ギンガ・ナカジマ
+    affiliation: 陸士108部隊
+    cv: 木川絵理子
+    editor:
+      anime:
+        score: 72
+        note: スバルの姉で格闘型の魔導師。戦闘機人たちに敗れて捕らえられ、操られてスバルと戦った。
+        evidence:
+          - "StrikerS: 戦闘機人たちに敗れ、連れ去られた"
+          - "StrikerS 終盤: 操られてスバルと戦い、敗れた"
+  - id: zafira
+    name: ザフィーラ
+    affiliation: ヴォルケンリッター 盾の守護獣
+    cv: 一条和矢
+    editor:
+      anime:
+        score: 67
+        note: 守護獣。防御と拘束を受け持ち、前に出て敵を倒す場面は少ない。
+        evidence:
+          - "A's: 守護騎士として蒐集に加わり、仲間を守った"
+  - id: shamal
+    name: シャマル
+    affiliation: ヴォルケンリッター 湖の騎士
+    cv: 柚木涼香
+    editor:
+      anime:
+        score: 65
+        note: 補助と回復を担う騎士。旅の鏡で離れた位置からなのはのリンカーコアを抜き取った。
+        evidence:
+          - "A's 序盤: 旅の鏡でなのはのリンカーコアから魔力を蒐集した"
+  - id: scaglietti
+    name: ジェイル・スカリエッティ
+    affiliation: 広域次元犯罪者
+    cv: 成田剣
+    editor:
+      anime:
+        score: 58
+        note: 戦闘機人を生み出した科学者。本人の戦闘はフェイトに敗れた場面だけ。
+        evidence:
+          - "StrikerS 終盤: アジトでフェイトに敗れ、捕らえられた"

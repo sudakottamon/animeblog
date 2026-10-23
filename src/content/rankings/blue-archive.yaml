@@ -1,0 +1,169 @@
+work: ブルーアーカイブ The Animation
+title: ブルーアーカイブ The Animation 最強キャラランキング
+description: ブルーアーカイブ The Animationの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『ブルーアーカイブ The Animation』全12話（2024年放送）まで。ゲーム版のストーリーは含まない
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: hoshino
+    name: 小鳥遊ホシノ
+    affiliation: アビドス高等学校 対策委員会 委員長
+    cv: 花守ゆみり
+    editor:
+      anime:
+        score: 86
+        note: 対策委員会の最上級生で、盾を構えて前線を支える。カイザーPMCの基地を前に撤退を判断するなど、戦況を読む力も描かれた。
+        evidence:
+          - "第1話: 対策委員会の一員としてヘルメット団を撃退した"
+          - "第9話: カイザーPMC理事と対峙し、撤退を指示した"
+          - "第10話: 便利屋68と共にカイザーPMCの襲撃を退けた"
+  - id: shiroko
+    name: 砂狼シロコ
+    affiliation: アビドス高等学校 対策委員会
+    cv: 小倉唯
+    editor:
+      anime:
+        score: 82
+        note: 機動力のあるアタッカー。便利屋68の社長アルを足止めし、最終話ではホシノを救い出した。
+        evidence:
+          - "第3話: 待ち伏せでアルを足止めし、便利屋68の攻撃を遅らせた"
+          - "第4話: 不良に絡まれたヒフミを助けた"
+          - "第12話: 基地の自爆で橋から落ちかけたホシノを救った"
+  - id: hina
+    name: 空崎ヒナ
+    affiliation: ゲヘナ学園 風紀委員長
+    cv: 広橋涼
+    editor:
+      anime:
+        score: 78
+        note: ゲヘナの風紀委員長。アニメでは本人の戦闘場面が少なく、評価は描写の範囲にとどめる。
+        evidence:
+          - "第6話: 対策委員会との衝突を止めるようアコに命じた"
+          - "第12話: 風紀委員会としてカイザーPMC基地への攻撃に加わった"
+  - id: aru
+    name: 陸八魔アル
+    affiliation: 便利屋68 社長
+    cv: 近藤玲奈
+    editor:
+      anime:
+        score: 72
+        note: 便利屋68の社長。傭兵を連れてアビドスを襲ったが退き、のちに対策委員会と共闘した。
+        evidence:
+          - "第3話: 傭兵を連れてアビドスを襲ったが、シロコに足止めされて撤退した"
+          - "第10話: 対策委員会と共にカイザーPMCの襲撃を退けた"
+  - id: nonomi
+    name: 十六夜ノノミ
+    affiliation: アビドス高等学校 対策委員会
+    cv: 三浦千幸
+    editor:
+      anime:
+        score: 70
+        note: 機関銃で制圧射撃を担う。対策委員会の戦闘すべてに加わった。
+        evidence:
+          - "第1話: 対策委員会の一員としてヘルメット団を撃退した"
+          - "第12話: カイザーPMC基地への突入に加わった"
+  - id: kayoko
+    name: 鬼方カヨコ
+    affiliation: 便利屋68 課長
+    editor:
+      anime:
+        score: 68
+        note: 便利屋68の実働を支えるメンバー。アビドスとの交戦と共闘の両方に加わった。
+        evidence:
+          - "第3話: 便利屋68としてアビドスを襲撃した"
+          - "第10話: 対策委員会と共にカイザーPMCの襲撃を退けた"
+  - id: mutsuki
+    name: 浅黄ムツキ
+    affiliation: 便利屋68 室長
+    cv: 大久保瑠美
+    editor:
+      anime:
+        score: 67
+        note: 爆発物を扱う便利屋68のメンバー。アビドスとの交戦と共闘の両方に加わった。
+        evidence:
+          - "第3話: 便利屋68としてアビドスを襲撃した"
+          - "第10話: 対策委員会と共にカイザーPMCの襲撃を退けた"
+  - id: iori
+    name: 銀鏡イオリ
+    affiliation: ゲヘナ学園 風紀委員会
+    cv: 佐倉綾音
+    editor:
+      anime:
+        score: 66
+        note: 風紀委員会の実働部隊を率いたが、対策委員会と便利屋68を相手に押し切れなかった。
+        evidence:
+          - "第6話: チナツと共に部隊を率いて対策委員会と便利屋68を攻めたが、退けられた"
+  - id: haruka
+    name: 伊草ハルカ
+    affiliation: 便利屋68 平社員
+    editor:
+      anime:
+        score: 65
+        note: 便利屋68のメンバー。アビドスとの交戦と共闘の両方に加わった。
+        evidence:
+          - "第3話: 便利屋68としてアビドスを襲撃した"
+          - "第10話: 対策委員会と共にカイザーPMCの襲撃を退けた"
+  - id: serika
+    name: 黒見セリカ
+    affiliation: アビドス高等学校 対策委員会
+    cv: 大橋彩香
+    editor:
+      anime:
+        score: 62
+        note: 対策委員会の一員。ヘルメット団にさらわれ、仲間に救出された。
+        evidence:
+          - "第2話: ヘルメット団にさらわれ、対策委員会に救出された"
+  - id: kaiser
+    name: カイザーPMC理事
+    affiliation: カイザーPMC
+    editor:
+      anime:
+        score: 60
+        note: 私兵を率いてアビドスを狙ったが、最後は各学園の連合に部隊を打ち破られた。
+        evidence:
+          - "第9話: 基地に来た対策委員会を退かせた"
+          - "第12話: 対策委員会と各学園の生徒たちに部隊を打ち破られた"
+  - id: hifumi
+    name: 阿慈谷ヒフミ
+    affiliation: トリニティ総合学園
+    cv: 本渡楓
+    editor:
+      anime:
+        score: 58
+        note: 不良に絡まれてシロコに助けられたが、最終話ではカイザーPMC基地への攻撃に加わった。
+        evidence:
+          - "第4話: 不良に絡まれ、シロコに助けられた"
+          - "第12話: カイザーPMC基地への攻撃に加わった"
+  - id: ako
+    name: 天雨アコ
+    affiliation: ゲヘナ学園 風紀委員会 行政官
+    editor:
+      anime:
+        score: 55
+        note: 風紀委員会を動かしてアビドスを攻めたが、部隊を退けられ、ヒナに止められた。
+        evidence:
+          - "第6話: 指揮した部隊が退けられ、ヒナに撤退を命じられた"
+  - id: chinatsu
+    name: 火宮チナツ
+    affiliation: ゲヘナ学園 風紀委員会
+    editor:
+      anime:
+        score: 50
+        note: 風紀委員会の一員としてイオリと出撃したが、押し切れなかった。
+        evidence:
+          - "第6話: イオリと共に対策委員会と便利屋68を攻めたが、退けられた"
+  - id: ayane
+    name: 奥空アヤネ
+    affiliation: アビドス高等学校 対策委員会
+    cv: 原田彩楓
+    editor:
+      anime:
+        score: 42
+        note: 対策委員会の後方支援を担当する。前線で戦う描写はほとんどない。
+        evidence:
+          - "第1話: 対策委員会の後方でオペレーターを務めた"

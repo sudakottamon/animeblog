@@ -1,0 +1,159 @@
+work: ガールズ&パンツァー
+title: ガールズ&パンツァー 最強キャラランキング
+description: ガールズ&パンツァーの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全12話＋OVA＋劇場版＋『最終章』第3話まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: miho
+    name: 西住みほ
+    affiliation: 大洗女子学園 隊長
+    cv: 渕上舞
+    editor:
+      anime:
+        score: 96
+        note: 基準は戦車道の指揮とチームとしての強さ。寄せ集めの大洗を率いて全国大会を制し、劇場版では大学選抜にも勝った。
+        evidence:
+          - "TVアニメ 全国大会決勝: 一騎打ちで黒森峰の隊長車を撃破し、優勝した"
+          - "劇場版: まほと連携し、島田愛里寿のセンチュリオンを撃破した"
+          - "最終章 第3話: 冬季無限軌道杯で知波単学園に勝った"
+  - id: maho
+    name: 西住まほ
+    affiliation: 黒森峰女学園 隊長
+    cv: 田中理恵
+    editor:
+      anime:
+        score: 92
+        note: 西住流の後継者。全国大会決勝でみほに敗れたが、劇場版ではみほと組んで愛里寿を倒した。
+        evidence:
+          - "TVアニメ 全国大会決勝: 最後の一騎打ちでみほに敗れた"
+          - "劇場版: みほと連携し、愛里寿のセンチュリオンを倒した"
+  - id: arisu
+    name: 島田愛里寿
+    affiliation: 大学選抜チーム 隊長
+    cv: 竹達彩奈
+    editor:
+      anime:
+        score: 91
+        note: 島田流の後継者。大学選抜を率いて大洗連合を追い詰め、最後は西住姉妹の連携に敗れた。
+        evidence:
+          - "劇場版: 市街地戦で大洗連合の戦車を次々に撃破した"
+          - "劇場版: 西住姉妹の連携に敗れた"
+  - id: mika
+    name: ミカ
+    affiliation: 継続高校 隊長
+    cv: 能登麻美子
+    editor:
+      anime:
+        score: 86
+        note: 大学選抜戦に途中から加わり、BT-42で格上の戦車を相手に戦果を挙げた。
+        evidence:
+          - "劇場版: 大学選抜戦に参戦し、BT-42で相手の戦車を複数撃破した"
+  - id: darjeeling
+    name: ダージリン
+    affiliation: 聖グロリアーナ女学院 隊長
+    cv: 喜多村英梨
+    editor:
+      anime:
+        score: 85
+        note: 浸透強襲戦術の聖グロを率いる。練習試合で大洗に勝った。
+        evidence:
+          - "TVアニメ 練習試合: 大洗女子学園に勝った"
+          - "劇場版: 大学選抜戦に大洗側で参戦した"
+  - id: hana
+    name: 五十鈴華
+    affiliation: 大洗女子学園 あんこうチーム砲手
+    cv: 尾崎真実
+    editor:
+      anime:
+        score: 82
+        note: あんこうチームの砲手。決勝の一騎打ちと大学選抜戦の最後の一撃を決めた。
+        evidence:
+          - "TVアニメ 全国大会決勝: 黒森峰の隊長車を撃ち抜いた"
+          - "劇場版: 愛里寿のセンチュリオンを撃ち抜いた"
+  - id: katyusha
+    name: カチューシャ
+    affiliation: プラウダ高校 隊長
+    cv: 金元寿子
+    editor:
+      anime:
+        score: 80
+        note: 前年の全国大会優勝校の隊長。準決勝で大洗を包囲して追い込んだが、フラッグ車を撃破されて敗れた。
+        evidence:
+          - "TVアニメ 全国大会準決勝: 大洗を包囲して降伏を迫ったが、フラッグ車を撃破されて敗れた"
+  - id: kay
+    name: ケイ
+    affiliation: サンダース大学付属高校 隊長
+    cv: 川澄綾子
+    editor:
+      anime:
+        score: 79
+        note: 物量のサンダースを率いる。通信傍受を知ると使う車両数を大洗に合わせ、そのうえで敗れた。
+        evidence:
+          - "TVアニメ 全国大会1回戦: 使う車両数を大洗に合わせて戦い、敗れた"
+  - id: nonna
+    name: ノンナ
+    affiliation: プラウダ高校 副隊長
+    cv: 上坂すみれ
+    editor:
+      anime:
+        score: 78
+        note: プラウダの副隊長で砲手。IS-2の長距離砲撃で大洗の戦車を撃破した。
+        evidence:
+          - "TVアニメ 全国大会準決勝: IS-2の砲撃で大洗の戦車を撃破した"
+  - id: erika
+    name: 逸見エリカ
+    affiliation: 黒森峰女学園 副隊長（のちに隊長）
+    cv: 生天目仁美
+    editor:
+      anime:
+        score: 74
+        note: まほの下で副隊長を務めた。全国大会決勝では大洗に敗れ、最終章では黒森峰の隊長を務める。
+        evidence:
+          - "TVアニメ 全国大会決勝: 黒森峰の副隊長として出場し、大洗に敗れた"
+  - id: mako
+    name: 冷泉麻子
+    affiliation: 大洗女子学園 あんこうチーム操縦手
+    cv: 井口裕香
+    editor:
+      anime:
+        score: 74
+        note: あんこうチームの操縦手。マニュアルを一読して操縦を覚え、決勝の一騎打ちでも操縦を担った。
+        evidence:
+          - "TVアニメ 全国大会決勝: 黒森峰の隊長車との一騎打ちで操縦を担った"
+  - id: nishi
+    name: 西絹代
+    affiliation: 知波単学園 隊長
+    cv: 瀬戸麻沙美
+    editor:
+      anime:
+        score: 66
+        note: 突撃が伝統の知波単を率いる。最終章では大洗を相手に戦い、敗れた。
+        evidence:
+          - "劇場版: 大学選抜戦に大洗側で参戦した"
+          - "最終章 第3話: 冬季無限軌道杯で大洗に敗れた"
+  - id: anchovy
+    name: アンチョビ
+    affiliation: アンツィオ高校 隊長
+    cv: 吉岡麻耶
+    editor:
+      anime:
+        score: 64
+        note: ノリと勢いのアンツィオを率いる。全国大会2回戦で大洗に敗れた。
+        evidence:
+          - "OVA: 全国大会2回戦で大洗に敗れた"
+  - id: marie
+    name: マリー
+    affiliation: BC自由学園 隊長
+    cv: 原由実
+    editor:
+      anime:
+        score: 60
+        note: 対立する二派閥を抱えるBC自由学園の隊長。冬季無限軌道杯1回戦で大洗に敗れた。
+        evidence:
+          - "最終章 第1話〜第2話: 冬季無限軌道杯1回戦で大洗に敗れた"
