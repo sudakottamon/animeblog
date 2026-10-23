@@ -1,0 +1,156 @@
+work: ゴブリンスレイヤー
+title: ゴブリンスレイヤー 最強キャラランキング
+description: ゴブリンスレイヤーの最強キャラをアニメ勢の範囲でティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（ゴブリンスレイヤーII）と劇場版「GOBLIN'S CROWN」まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: goblin-slayer
+    name: ゴブリンスレイヤー
+    affiliation: 銀等級冒険者
+    cv: 梅原裕一郎
+    editor:
+      anime:
+        score: 90
+        note: オーガ、小鬼英雄、小鬼王、小鬼聖騎士と格上を罠と策で倒してきた。正面からの力比べでは苦戦する場面も多い。
+        evidence:
+          - "第1期 第4〜5話: 遺跡でオーガに捕まりながらも、水流の罠で両断した"
+          - "第1期 第12話: 女神官の聖壁で動きを封じた小鬼王を一騎打ちで刺した"
+          - "劇場版『GOBLIN'S CROWN』: 小鬼聖騎士の首を斬って倒した"
+  - id: hero
+    name: 勇者
+    affiliation: 白金等級
+    cv: 島袋美由利
+    editor:
+      anime:
+        score: 85
+        note: 魔神王を倒した勇者。アニメでは戦いそのものの描写が少ないため、点数は控えめにした。
+        evidence:
+          - "第1期 第10話: 勇者が魔神王を倒したという知らせが辺境の街に届いた"
+  - id: lizard-priest
+    name: 蜥蜴僧侶
+    affiliation: ゴブリンスレイヤーの一党
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 74
+        note: 前衛もこなす僧侶。水の街の地下では祭壇の鏡を外し、ゴブリンの群れを一掃する策を支えた。
+        evidence:
+          - "第1期 第9話: 地下水路で祭壇の鏡を外し、群れを一網打尽にする作戦に加わった"
+  - id: heavy-warrior
+    name: 重戦士
+    affiliation: 銀等級冒険者
+    cv: 濱野大輝
+    editor:
+      anime:
+        score: 74
+        note: 辺境の街を代表する銀等級の戦士。牧場防衛戦で女騎士とともに小鬼英雄を倒した。
+        evidence:
+          - "第1期 第12話: 女騎士とともに小鬼英雄を倒した"
+  - id: spearman
+    name: 槍使い
+    affiliation: 銀等級冒険者
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 74
+        note: 辺境最強を名乗る銀等級。牧場防衛戦で小鬼英雄との一騎打ちに勝った。
+        evidence:
+          - "第1期 第12話: 小鬼英雄と一騎打ちを行い、勝った"
+  - id: ogre
+    name: オーガ
+    affiliation: 魔神の配下
+    editor:
+      anime:
+        score: 72
+        note: 遺跡で一党を圧倒し、ゴブリンスレイヤーを戦鎚で捕らえた。最後は水流の罠で倒された。
+        evidence:
+          - "第1期 第4話: 一党を圧倒し、ゴブリンスレイヤーを戦鎚で捕らえた"
+          - "第1期 第4〜5話: 水流の罠で両断された"
+  - id: goblin-champion
+    name: 小鬼英雄
+    affiliation: ゴブリンチャンピオン
+    cv: 山根雅史
+    editor:
+      anime:
+        score: 70
+        note: 水の街の地下墳墓でゴブリンスレイヤーを瀕死に追い込んだ。最後は天井ごと崩されて群れとともに倒れた。
+        evidence:
+          - "第1期 第7〜8話: ゴブリンスレイヤーを瀕死に追い込んだ"
+          - "第1期 第9話: 地下水路で天井を崩され、群れとともに倒された"
+  - id: lady-knight
+    name: 女騎士
+    affiliation: 重戦士の一党
+    cv: 藤井ゆきよ
+    editor:
+      anime:
+        score: 70
+        note: 重戦士の一党の前衛。牧場防衛戦で重戦士とともに小鬼英雄を倒した。
+        evidence:
+          - "第1期 第12話: 重戦士とともに小鬼英雄を倒した"
+  - id: high-elf-archer
+    name: 妖精弓手
+    affiliation: ゴブリンスレイヤーの一党
+    cv: 東山奈央
+    editor:
+      anime:
+        score: 68
+        note: 弓の名手。遺跡、牧場防衛戦、エルフの森行きなど一党の戦いのほとんどに加わった。
+        evidence:
+          - "第1期 第12話: 小鬼王の軍勢との戦いに加わった"
+          - "第2期 第6話: 川を上る途中、崖上から襲ってきたゴブリンを退けた"
+  - id: dwarf-shaman
+    name: 鉱人道士
+    affiliation: ゴブリンスレイヤーの一党
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 66
+        note: 精霊術の使い手。地下水路では天井を崩してゴブリンの群れを片付けた。
+        evidence:
+          - "第1期 第9話: 地下水路で天井を崩し、ゴブリンの群れを一掃した"
+  - id: goblin-paladin
+    name: 小鬼聖騎士
+    affiliation: ゴブリンパラディン
+    cv: 森川智之
+    editor:
+      anime:
+        score: 66
+        note: 雪山の砦で群れを率い、令嬢剣士を捕らえたゴブリン。ゴブリンスレイヤーとの対決で首を斬られた。
+        evidence:
+          - "劇場版『GOBLIN'S CROWN』: 群れを率いて一党と戦い、ゴブリンスレイヤーに首を斬られた"
+  - id: goblin-lord
+    name: 小鬼王
+    affiliation: ゴブリンロード
+    cv: 井上和彦
+    editor:
+      anime:
+        score: 62
+        note: ゴブリンの大軍勢を率いて牧場を襲ったが、冒険者たちに迎え撃たれた。最後はゴブリンスレイヤーとの一騎打ちで倒れた。
+        evidence:
+          - "第1期 第12話: 女神官の聖壁に動きを封じられ、ゴブリンスレイヤーに刺された"
+  - id: noble-fencer
+    name: 令嬢剣士
+    affiliation: 冒険者
+    cv: 上坂すみれ
+    editor:
+      anime:
+        score: 60
+        note: 小鬼聖騎士に一度は捕らえられた。最後は稲妻の呪文で雪崩を起こし、群れを葬った。
+        evidence:
+          - "劇場版『GOBLIN'S CROWN』: 稲妻の呪文で雪崩を起こし、ゴブリンの群れを埋めた"
+  - id: priestess
+    name: 女神官
+    affiliation: ゴブリンスレイヤーの一党
+    cv: 小倉唯
+    editor:
+      anime:
+        score: 56
+        note: 攻撃手段は少ない神官。牧場防衛戦では聖壁で小鬼王の動きを封じ、勝負を決める隙を作った。
+        evidence:
+          - "第1期 第12話: 聖壁で小鬼王の動きを封じた"

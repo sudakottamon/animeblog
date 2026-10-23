@@ -1,0 +1,227 @@
+work: この素晴らしい世界に祝福を！
+title: この素晴らしい世界に祝福を！ 最強キャラランキング
+description: この素晴らしい世界に祝福を！（このすば）の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第3期（書籍版6〜7巻）と劇場版『紅伝説』まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 書籍版本編全17巻まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: wiz
+    name: ウィズ
+    affiliation: 魔道具店店主（リッチー・魔王軍幹部）
+    cv: 堀江由衣
+    editor:
+      anime:
+        score: 91
+        note: リッチーで、元は凄腕の魔法使い。デストロイヤーとハンスとの戦いで決め手の一つになった。
+        evidence:
+          - "第1期 第10話: めぐみんと並んで爆裂魔法を撃ち、デストロイヤーの脚を壊した"
+          - "第2期 第9〜10話: ハンスを凍らせて弱らせた"
+      novel:
+        score: 91
+        note: 原作でも評価は変わらない。
+  - id: vanir
+    name: バニル
+    affiliation: 魔王軍幹部（地獄の公爵）
+    cv: 西田雅一
+    editor:
+      anime:
+        score: 90
+        note: ダクネスの体を乗っ取って一行を手玉に取った。仮面を壊されても残機が減るだけで復活した。
+        evidence:
+          - "第2期（キールのダンジョン）: ダクネスに憑依し、めぐみんの爆裂魔法で仮面を壊された"
+          - "第2期: 残機を一つ失っただけで復活し、ウィズの店で働き始めた"
+      novel:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: aqua
+    name: アクア
+    affiliation: 女神（アークプリースト）
+    cv: 雨宮天
+    editor:
+      anime:
+        score: 88
+        note: 浄化魔法でベルディアを倒し、デストロイヤーの障壁を破った。アンデッドと悪魔には特に強い。
+        evidence:
+          - "第1期 第6話: 浄化魔法でベルディアを倒した"
+          - "第1期 第10話: デストロイヤーの魔法障壁を破った"
+          - "第2期 第9〜10話: ハンスを浄化魔法で弱らせた"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: megumin
+    name: めぐみん
+    affiliation: アークウィザード（紅魔族）
+    cv: 高橋李依
+    editor:
+      anime:
+        score: 87
+        note: 一日一発の爆裂魔法で、デストロイヤー、ハンス、ウォルバクなどの大物に止めを刺してきた。
+        evidence:
+          - "第1期 第10話: ウィズと並んで爆裂魔法を撃ち、デストロイヤーの脚を壊した"
+          - "第2期 第9〜10話: 弱ったハンスを爆裂魔法で粉砕した"
+          - "劇場版『紅伝説』: 爆裂魔法でウォルバクを消し去った"
+      novel:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: destroyer
+    name: 機動要塞デストロイヤー
+    affiliation: 暴走する古代兵器
+    editor:
+      anime:
+        score: 84
+        note: 街を踏み潰して進む巨大要塞。障壁を破られ、爆裂魔法二発で脚を壊されて止まった。
+        evidence:
+          - "第1期 第10話: アクアに障壁を破られ、ウィズとめぐみんの爆裂魔法で破壊された"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: wolbach
+    name: ウォルバク
+    affiliation: 魔王軍幹部（怠惰の女神）
+    cv: 甲斐田裕子
+    editor:
+      anime:
+        score: 82
+        note: 爆裂魔法を使う魔王軍幹部。紅魔の里で再会しためぐみんの爆裂魔法を受けて消えた。
+        evidence:
+          - "劇場版『紅伝説』: めぐみんの爆裂魔法を受けて消滅した"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: sylvia
+    name: シルビア
+    affiliation: 魔王軍幹部
+    cv: 渡辺明乃
+    editor:
+      anime:
+        score: 82
+        note: 紅魔の里を襲った魔王軍幹部。カズマたちとの戦いの末に倒された。
+        evidence:
+          - "劇場版『紅伝説』: 紅魔の里を襲い、カズマたちに倒された"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: hans
+    name: ハンス
+    affiliation: 魔王軍幹部（デッドリーポイズンスライム）
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 80
+        note: 毒のスライムの正体を現してアルカンレティアの源泉を狙った。三人がかりで倒された。
+        evidence:
+          - "第2期 第9〜10話: アクアの浄化、ウィズの氷結、めぐみんの爆裂魔法を受けて倒された"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: beldia
+    name: ベルディア
+    affiliation: 魔王軍幹部（デュラハン）
+    cv: 安元洋貴
+    editor:
+      anime:
+        score: 77
+        note: アクセルの街を襲ったデュラハン。カズマたちとの戦いの末、アクアの浄化魔法で倒された。
+        evidence:
+          - "第1期 第6話: カズマに頭を奪われ、アクアの浄化魔法で倒された"
+      novel:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: winter-shogun
+    name: 冬将軍
+    affiliation: 冬の精霊
+    editor:
+      anime:
+        score: 76
+        note: 雪精狩りに来たカズマの首を一太刀で落とした。
+        evidence:
+          - "第1期 第7話: カズマの首をはねた"
+      novel:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: yunyun
+    name: ゆんゆん
+    affiliation: アークウィザード（紅魔族）
+    cv: 豊崎愛生
+    editor:
+      anime:
+        score: 74
+        note: 爆裂魔法以外の上級魔法を使いこなす紅魔族。めぐみんとともに紅魔の里を守った。
+        evidence:
+          - "劇場版『紅伝説』: 紅魔の里でシルビアとの戦いに加わった"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: kazuma
+    name: 佐藤和真
+    affiliation: 冒険者
+    cv: 福島潤
+    editor:
+      anime:
+        score: 70
+        note: 能力は低いが、スティールなどの小技で格上を出し抜いてきた。ミツルギには勝負で勝った。
+        evidence:
+          - "第1期 第5話: スティールでミツルギの剣を奪い、勝った"
+          - "第1期 第6話: ベルディアの頭を奪い、アクアの浄化につなげた"
+          - "第1期 第10話: デストロイヤー戦の後始末でウィズに魔力を渡した"
+      novel:
+        score: 74
+        note: 魔王軍幹部のセレナを逆に手玉に取り、レベルを1まで下げて突き出した。
+        evidence:
+          - "書籍版（セレナ編）: セレナのレベルを1まで下げ、警察に突き出した"
+  - id: iris
+    name: アイリス
+    affiliation: ベルゼルグ王国 第一王女
+    cv: 高尾奏音
+    appears: novel
+    editor:
+      novel:
+        score: 76
+        note: 王家に伝わる聖剣の使い手。ラグクラフトを一撃で返り討ちにした。
+        evidence:
+          - "書籍版: 聖剣の一撃でラグクラフトを返り討ちにした"
+  - id: serena
+    name: セレナ
+    affiliation: 魔王軍幹部
+    appears: novel
+    editor:
+      novel:
+        score: 66
+        note: カズマを傀儡にしようとしたが、逆に弄ばれてレベルを1まで下げられた。
+        evidence:
+          - "書籍版（セレナ編）: カズマにレベルを1まで下げられ、警察に突き出された"
+  - id: mitsurugi
+    name: 御剣響夜
+    affiliation: 魔剣グラムの使い手
+    cv: 江口拓也
+    editor:
+      anime:
+        score: 64
+        note: 魔剣を持つ転生者だが、カズマとの勝負にスティールで剣を奪われて負けた。
+        evidence:
+          - "第1期 第5話: カズマとの勝負に敗れ、魔剣を奪われた"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: darkness
+    name: ダクネス
+    affiliation: クルセイダー
+    cv: 茅野愛衣
+    editor:
+      anime:
+        score: 60
+        note: 防御は高いが攻撃がほとんど当たらないクルセイダー。体を張って一行の盾になった。
+        evidence:
+          - "第1期 第6話: ベルディアの攻撃を受け止め続けた"
+          - "第2期（キールのダンジョン）: バニルに憑依されたまま、めぐみんの爆裂魔法を受けた"
+      novel:
+        score: 60
+        note: 原作でも評価は変わらない。

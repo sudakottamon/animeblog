@@ -140,12 +140,12 @@
 - [x] `re-zero` Re:ゼロから始める異世界生活
 
 ## バッチ 18
-- [ ] `konosuba` この素晴らしい世界に祝福を！
-- [ ] `tate-no-yuusha` 盾の勇者の成り上がり
-- [ ] `goblin-slayer` ゴブリンスレイヤー
-- [ ] `danmachi` ダンジョンに出会いを求めるのは間違っているだろうか
-- [ ] `kage-no-jitsuryokusha` 陰の実力者になりたくて！
-- [ ] `solo-leveling` 俺だけレベルアップな件
+- [x] `konosuba` この素晴らしい世界に祝福を！
+- [x] `tate-no-yuusha` 盾の勇者の成り上がり
+- [x] `goblin-slayer` ゴブリンスレイヤー
+- [x] `danmachi` ダンジョンに出会いを求めるのは間違っているだろうか
+- [x] `kage-no-jitsuryokusha` 陰の実力者になりたくて！
+- [x] `solo-leveling` 俺だけレベルアップな件
 
 ## バッチ 19
 - [ ] `tower-of-god` 神之塔 -Tower of God-

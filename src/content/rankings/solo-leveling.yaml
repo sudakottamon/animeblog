@@ -1,0 +1,235 @@
+work: 俺だけレベルアップな件
+title: 俺だけレベルアップな件 最強キャラランキング
+description: 俺だけレベルアップな件の最強キャラをアニメ勢・漫画（ウェブトゥーン）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期「-Arise from the Shadow-」（第25話・架南島レイド）まで
+  - id: manga
+    label: 漫画（ウェブトゥーン）・原作勢
+    range: ウェブトゥーン本編完結（全179話）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: shun
+    name: 水篠旬
+    affiliation: S級ハンター
+    cv: 坂泰斗
+    editor:
+      anime:
+        score: 97
+        note: 転職クエストでイグリットを倒し、悪魔の城では悪魔王バランを、架南島では蟻の王を倒した。
+        evidence:
+          - "第12話「Arise」: 転職クエストで追い込まれながらも赤い騎士イグリットを倒した"
+          - "第20話: 悪魔の城の最上階で悪魔王バランと戦い、勝った"
+          - "第24〜25話: 架南島で羽アリの群れと蟻の王を倒し、影の兵士にした"
+      manga:
+        score: 99
+        note: トーマス・アンドレに勝ち、君主を次々に倒した。竜帝アンタレスとは支配者の軍団が来るまで戦い抜いた。
+        evidence:
+          - "ウェブトゥーン後半: 太初の君主レギアの首を落とし、疫病の君主ケレシャも反撃で倒した"
+          - "ウェブトゥーン終盤: アンタレスの共闘の誘いを断って戦い続け、支配者の軍団を呼び込んだ"
+          - "ウェブトゥーン最終盤: 時間を戻した後、次元の隙間で君主たちをひとりで始末した"
+  - id: antares
+    name: アンタレス
+    affiliation: 破滅の君主（竜帝）
+    appears: manga
+    editor:
+      manga:
+        score: 96
+        note: 君主たちの頂点に立つ竜。旬の影の軍勢を一瞬で消し去る力を見せたが、支配者の軍団に貫かれて敗れた。
+        evidence:
+          - "ウェブトゥーン終盤: 旬の影の軍勢を一瞬で消滅させた"
+          - "ウェブトゥーン終盤: 旬との戦いの最中に現れた支配者の軍団に貫かれて敗れた"
+  - id: rakan
+    name: ラカン
+    affiliation: 牙の君主
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 人類最強とされるトーマス・アンドレに力の差を見せつけた。クリストファー・リードの殺害にも加わった。
+        evidence:
+          - "ウェブトゥーン後半: トーマス・アンドレと戦い、圧倒した"
+          - "ウェブトゥーン後半: 悪鬼の王タルナーク、疫病の君主と組んでクリストファー・リードを殺害した"
+  - id: ant-king
+    name: 蟻の王
+    affiliation: 架南島の羽アリ
+    editor:
+      anime:
+        score: 90
+        note: 架南島のレイドでS級ハンターたちを追い詰めた。旬に敗れて影の兵士になった。
+        evidence:
+          - "第23話: 架南島の第4次レイドに現れ、S級ハンターたちを狩る側に回った"
+          - "第24〜25話: 駆けつけた旬と戦って敗れ、影の兵士として抽出された"
+      manga:
+        score: 90
+        note: 漫画でも評価は変わらない。
+  - id: sillad
+    name: シラード
+    affiliation: 酷寒の君主
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: ハンター協会会長の後藤清臣を襲撃して殺害した。
+        evidence:
+          - "ウェブトゥーン後半: 後藤清臣を襲い、殺害した"
+  - id: baran
+    name: 悪魔王バラン
+    affiliation: 悪魔の城の主
+    editor:
+      anime:
+        score: 88
+        note: 白い龍に乗り、旬の奇襲を防いで広範囲攻撃で押し込んだ。最後は旬に逆転されて倒れた。
+        evidence:
+          - "第20話: 悪魔の城の最上階で旬を迎え撃ち、奇襲を防いだ"
+          - "第20話: エシルの援護で生じた隙を突かれ、旬に倒された"
+      manga:
+        score: 88
+        note: 漫画でも評価は変わらない。
+  - id: legia
+    name: レギア
+    affiliation: 太初の君主
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: S級ゲートの奥に潜んでいた巨人の君主。旬に首を落とされて倒れた。
+        evidence:
+          - "ウェブトゥーン後半: S級ゲートの隠しボスとして現れ、旬に首を落とされた"
+  - id: querehsha
+    name: ケレシャ
+    affiliation: 疫病の君主
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 他の君主と組んでクリストファー・リードを殺害した。旬の反撃を受け、君主で最初に倒された。
+        evidence:
+          - "ウェブトゥーン後半: ラカン、タルナークと組んでクリストファー・リードを殺害した"
+          - "ウェブトゥーン後半: 旬の反撃を受けて倒された"
+  - id: tarnak
+    name: タルナーク
+    affiliation: 悪鬼の王
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 君主たちと組んでクリストファー・リードを殺害した。旬の影の軍勢に敗れて死んだ。
+        evidence:
+          - "ウェブトゥーン後半: ラカン、疫病の君主と組んでクリストファー・リードを殺害した"
+          - "ウェブトゥーン後半: 旬の影の軍勢に敗れて死亡した"
+  - id: thomas
+    name: トーマス・アンドレ
+    affiliation: 国家権力級ハンター（序列1位）
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 人類最強と呼ばれるハンター。旬と戦って敗れ、牙の君主ラカンにも力の差を見せつけられた。
+        evidence:
+          - "ウェブトゥーン後半: 旬と戦って敗れ、その後は旬と友好的な関係になった"
+          - "ウェブトゥーン後半: ラカンと戦い、圧倒された"
+  - id: igris
+    name: イグリット
+    affiliation: 影の兵士（赤い騎士）
+    editor:
+      anime:
+        score: 82
+        note: 転職クエストで旬を追い込んだ赤い騎士。敗れた後は影の兵士として悪魔の城の攻略に加わった。
+        evidence:
+          - "第11〜12話: 転職クエストで旬を追い込んだが、最後は倒された"
+          - "第20話: 影の兵士として悪魔の城を進み、成長を見せた"
+      manga:
+        score: 82
+        note: 漫画でも評価は変わらない。
+  - id: christopher
+    name: クリストファー・リード
+    affiliation: 国家権力級ハンター（序列3位）
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 国家権力級のハンター。君主3体に組まれて殺害された。
+        evidence:
+          - "ウェブトゥーン後半: ラカン、タルナーク、疫病の君主に襲われ、殺害された"
+  - id: shizuku
+    name: 向坂雫
+    affiliation: ハンターズギルド S級ハンター
+    cv: 上田麗奈
+    editor:
+      anime:
+        score: 80
+        note: 架南島の第4次レイドに参加したS級ハンター。羽アリとの戦いで重傷を負った。
+        evidence:
+          - "第23話: 架南島の第4次レイドで羽アリと戦った"
+          - "第24話: 戦いで重傷を負い、ポーションでも回復できなかった"
+      manga:
+        score: 80
+        note: 漫画でも評価は変わらない。
+  - id: mogami
+    name: 最上真
+    affiliation: ハンターズギルド S級ハンター
+    cv: 平川大輔
+    editor:
+      anime:
+        score: 80
+        note: 架南島の第4次レイドで前線に立ったS級ハンター。旬の魔力が測定器で測れないことに早くから注目していた。
+        evidence:
+          - "第16話: 旬の再審査で、測定器で測れない魔力に注目した"
+          - "第22話: 架南島の第4次レイドで前線に立って戦った"
+      manga:
+        score: 80
+        note: 漫画でも評価は変わらない。
+  - id: goto
+    name: 後藤清臣
+    affiliation: ハンター協会 会長
+    cv: 銀河万丈
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 「七つの光の断片」の一人。酷寒の君主シラードに襲撃されて殺害された。
+        evidence:
+          - "ウェブトゥーン後半: シラードの襲撃を受け、殺害された"
+  - id: kargalgan
+    name: カルガルガン
+    affiliation: ハイオークの大呪術師
+    editor:
+      anime:
+        score: 70
+        note: 結界を張ってハンターズの第二攻撃隊を追い詰めた。旬の影の軍勢に倒された。
+        evidence:
+          - "第17話: ハイオークの一団とともにハンターズの第二攻撃隊を襲い、ゲートに結界を張った"
+          - "第18話: 助けに入った旬と影の兵士の軍勢に倒された"
+      manga:
+        score: 70
+        note: 漫画でも評価は変わらない。
+  - id: baruka
+    name: バルカ
+    affiliation: レッドゲートのボス（アイスエルフ）
+    editor:
+      anime:
+        score: 66
+        note: レッドゲートで攻撃隊を追い詰めたアイスエルフのボス。旬との戦いに敗れた。
+        evidence:
+          - "第14話: 攻撃隊のメンバーを差し出せば旬には手を出さないと持ちかけた"
+          - "第14話: 旬と戦って倒された"
+      manga:
+        score: 66
+        note: 漫画でも評価は変わらない。
+  - id: esil
+    name: エシル・ラディール
+    affiliation: 悪魔の城の女悪魔
+    editor:
+      anime:
+        score: 60
+        note: 悪魔の城の攻略に同行した女悪魔。バラン戦では援護に回った。
+        evidence:
+          - "第20話: 旬とともに悪魔の城を攻略し、バラン戦で援護した"
+      manga:
+        score: 60
+        note: 漫画でも評価は変わらない。

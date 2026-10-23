@@ -1,0 +1,262 @@
+work: 陰の実力者になりたくて！
+title: 陰の実力者になりたくて！ 最強キャラランキング
+description: 陰の実力者になりたくて！の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（無法都市編・オリアナ王国編）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 書籍版の最新刊（7巻）まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: shadow
+    name: シド・カゲノー（シャドウ）
+    affiliation: シャドウガーデン 盟主
+    cv: 山下誠一郎
+    editor:
+      anime:
+        score: 98
+        note: 聖域でオリヴィエと魔人化したネルソンを倒し、血の女王とモードレッドも退けた。本気の勝負で負けた場面はない。
+        evidence:
+          - "第14話: オリヴィエを倒し、ネルソンを聖域の核ごとアトミックで消し去った"
+          - "第2期 第3話: 血の女王エリザベートと戦い、回復のアトミックで眠らせた"
+          - "第2期 第12話: ラグナロクを倒し、魔人化したモードレッドをアトミックで消し去った"
+      novel:
+        score: 98
+        note: 書籍版でも負けなし。変装したまま地下闘技場で十三の夜剣を全滅させた。
+        evidence:
+          - "書籍版6巻: ジャック・ザ・リッパーに変装し、十三の夜剣を全員倒した"
+  - id: beatrix
+    name: ベアトリクス
+    affiliation: 武神
+    cv: 小松未可子
+    editor:
+      anime:
+        score: 86
+        note: 武神祭の騒ぎでシャドウと一騎打ちを始め、アイリスとともに街中を追って戦った。
+        evidence:
+          - "第19話: シャドウと一騎打ちを始めた"
+          - "第20話: アイリスとともに街中でシャドウと戦い続けた"
+      novel:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: elisabeth
+    name: エリザベート
+    affiliation: 血の女王（吸血鬼の始祖）
+    cv: 早見沙織
+    editor:
+      anime:
+        score: 86
+        note: 目覚めた直後にシャドウガーデンとユキメを相手に戦った吸血鬼の始祖。シャドウに眠らされた。
+        evidence:
+          - "第2期 第3話: シャドウガーデンとユキメを相手に戦い、シャドウに眠らされた"
+      novel:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: olivier
+    name: オリヴィエ
+    affiliation: 聖域の英雄
+    editor:
+      anime:
+        score: 85
+        note: 聖域でシャドウと斬り合い、シャドウに剣を通した。最後は倒された。
+        evidence:
+          - "第13話: シャドウと戦い、刺した"
+          - "第14話: シャドウに倒された"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: alpha
+    name: アルファ
+    affiliation: シャドウガーデン 七陰第一席
+    cv: 瀬戸麻沙美
+    editor:
+      anime:
+        score: 84
+        note: 魔人化した少女を一撃で倒した七陰の筆頭。正体を知らずに挑んだ相手には敗れた。
+        evidence:
+          - "第5話: 魔人化した少女を一撃で倒した"
+          - "第2期 第6話: ジョン・スミスの暗殺を試みて敗れた"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: mordred
+    name: モードレッド
+    affiliation: オリアナ王国の騎士
+    cv: 子安武人
+    editor:
+      anime:
+        score: 83
+        note: ペルヴとレイナを斬った。ベータとイプシロンに敗れ、魔人化した後はシャドウに消し去られた。
+        evidence:
+          - "第2期 第11話: ペルヴとレイナを斬った"
+          - "第2期 第12話: ベータとイプシロンに敗れ、魔人化した後にシャドウのアトミックで消された"
+      novel:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: delta
+    name: デルタ
+    affiliation: シャドウガーデン 七陰第四席
+    cv: ファイルーズあい
+    editor:
+      anime:
+        score: 83
+        note: 聖域でネルソンの分身を数百体倒した。兄のザブラも討った。
+        evidence:
+          - "第13話: ネルソンが生み出した分身を数百体倒した"
+          - "第2期 第4話: 兄で四つ葉の一人のザブラを倒した"
+      novel:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: beta
+    name: ベータ
+    affiliation: シャドウガーデン 七陰第二席
+    cv: 水瀬いのり
+    editor:
+      anime:
+        score: 80
+        note: イプシロンと組み、オリアナ王国でモードレッドに勝った。
+        evidence:
+          - "第2期 第12話: イプシロンとともにモードレッドを倒した"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: epsilon
+    name: イプシロン
+    affiliation: シャドウガーデン 七陰第五席
+    cv: 金元寿子
+    editor:
+      anime:
+        score: 80
+        note: 聖域で教団の男を倒し、オリアナ王国ではベータとともにモードレッドに勝った。
+        evidence:
+          - "第10話: 聖域で教団の男の一人を倒した"
+          - "第2期 第12話: ベータとともにモードレッドを倒した"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: nelson
+    name: ネルソン
+    affiliation: ディアボロス教団 大司教代理
+    cv: 麦人
+    editor:
+      anime:
+        score: 77
+        note: 魔人化して自分の分身を大量に生み出し、シャドウガーデンと戦った。最後はシャドウに消し去られた。
+        evidence:
+          - "第12話: 魔人化し、分身を生み出してシャドウガーデンと戦った"
+          - "第14話: シャドウに聖域の核ごと消し去られた"
+      novel:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: iris
+    name: アイリス・ミドガル
+    affiliation: ミドガル王国 第一王女・紅の騎士団
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 77
+        note: 王国最強の騎士とされるが、武神祭でジミナに一手で敗れた。ベアトリクスとともにシャドウを追って戦った。
+        evidence:
+          - "第19話: 武神祭でジミナに武器を弾かれ、一手で敗れた"
+          - "第20話: ベアトリクスとともに街中でシャドウと戦った"
+      novel:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: yukime
+    name: ユキメ
+    affiliation: 無法都市の妖狐
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 77
+        note: 血の女王との戦いに加わり、月丹にも勝った。命は取らずに見逃した隙を刺された。
+        evidence:
+          - "第2期 第3話: 目覚めた血の女王と戦った"
+          - "第2期 第7話: 月丹に勝ったが見逃し、その後に刺された"
+      novel:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: gettan
+    name: 月丹
+    affiliation: 無法都市の剣士
+    editor:
+      anime:
+        score: 72
+        note: ユキメに敗れた後、隙を突いて彼女を刺した。最後はシドに倒された。
+        evidence:
+          - "第2期 第7話: ユキメに敗れて見逃された後に彼女を刺し、シドに倒された"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: rose
+    name: ローズ・オリアナ
+    affiliation: オリアナ王国 王女
+    cv: 白石晴香
+    editor:
+      anime:
+        score: 72
+        note: 武神祭の騒ぎの中で教団の兵士を倒し、アレクシアにも勝った。
+        evidence:
+          - "第17話: 教団の兵士を倒し、アレクシアとの勝負に勝った"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: jaggernaut
+    name: ジャガノート
+    affiliation: 無法都市の三勢力「暴君」
+    cv: 小山剛志
+    editor:
+      anime:
+        score: 70
+        note: 無法都市を治める勢力の一つを率いた。シャドウに塔から落とされた。
+        evidence:
+          - "第2期 第1話: ユキメと争おうとしたところをシャドウに止められた"
+          - "第2期 第2話: シャドウに塔から落とされた"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: gamma
+    name: ガンマ
+    affiliation: シャドウガーデン 七陰第三席
+    cv: 三森すずこ
+    editor:
+      anime:
+        score: 68
+        note: ミツゴシ商会を率いる参謀役。四つ葉の一人を倒した。
+        evidence:
+          - "第2期 第5話: 四つ葉の一人を倒した"
+      novel:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: zenon
+    name: ゼノン・グリフィ
+    affiliation: 王都の剣術指南役
+    editor:
+      anime:
+        score: 66
+        note: 決闘でアレクシアを追い詰めた。魔人化した後もシャドウに倒された。
+        evidence:
+          - "第4話: アレクシアとの決闘で優位に立った"
+          - "第5話: 魔人化したがシャドウに倒された"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: alexia
+    name: アレクシア・ミドガル
+    affiliation: ミドガル王国 第二王女
+    cv: 花澤香菜
+    editor:
+      anime:
+        score: 62
+        note: 王女で剣の使い手。ゼノンとの決闘では劣勢になり、ローズとの勝負にも負けた。
+        evidence:
+          - "第4話: ゼノンとの決闘で劣勢に立たされた"
+          - "第17話: ローズとの勝負に敗れた"
+      novel:
+        score: 62
+        note: 原作でも評価は変わらない。
