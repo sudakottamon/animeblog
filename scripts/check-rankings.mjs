@@ -32,7 +32,7 @@ for (const f of files) {
     const from = order.indexOf(c.appears ?? 'anime');
     if (from < 0) warn(`${c.name}: appears=${c.appears} が bases にない`);
     // 所属はどのタブにも出るので、後の展開（「のち〇〇」など）を書くとネタバレになる
-    if (order.length > 1 && /のち|後に|やがて/.test(c.affiliation ?? '')) warn(`${c.name}: 所属に後の展開が書かれている「${c.affiliation}」（ネタバレの恐れ）`);
+    if (from >= 0 && from < order.length - 1 && /のち|後に|やがて/.test(c.affiliation ?? '')) warn(`${c.name}: 所属に後の展開が書かれている「${c.affiliation}」（ネタバレの恐れ）`);
     order.forEach((b, i) => {
       const j = c.editor?.[b];
       if (i >= from && !j) warn(`${c.name}: ${b} の判定がない`);
