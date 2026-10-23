@@ -19,13 +19,19 @@ export const GET: APIRoute = async (ctx) => {
   if (!r || !basis || !hasBasis(r, basis)) return json({ error: 'bad_request' }, 400);
   const me = await ipHash(ctx, e);
 
-  const [count, dist, mine] = await e.DB.batch([
+  const [count, dist, pos, mine] = await e.DB.batch([
     e.DB.prepare('SELECT COUNT(*) AS n FROM tier_posts WHERE ranking = ? AND basis = ? AND hidden = 0').bind(slug, basis),
     e.DB.prepare(
       `SELECT p.candidate, p.tier, COUNT(*) AS n
        FROM tier_placements p JOIN tier_posts t ON t.id = p.post_id
        WHERE p.ranking = ? AND p.basis = ? AND t.hidden = 0
        GROUP BY p.candidate, p.tier`
+    ).bind(slug, basis),
+    e.DB.prepare(
+      `SELECT p.candidate, SUM(p.pos) AS sum, COUNT(p.pos) AS n
+       FROM tier_placements p JOIN tier_posts t ON t.id = p.post_id
+       WHERE p.ranking = ? AND p.basis = ? AND t.hidden = 0 AND p.pos IS NOT NULL
+       GROUP BY p.candidate`
     ).bind(slug, basis),
     e.DB.prepare('SELECT id, tiers, name, body, spoiler FROM tier_posts WHERE ranking = ? AND basis = ? AND ip_hash = ?').bind(slug, basis, me),
   ]);
@@ -39,6 +45,8 @@ export const GET: APIRoute = async (ctx) => {
   return json({
     posts: (count.results[0] as { n: number })?.n ?? 0,
     distribution,
+    // positions[candidate] = 投稿内の通し順位の合計と件数（平均順位の計算用）
+    positions: Object.fromEntries((pos.results as { candidate: string; sum: number; n: number }[]).map((r) => [r.candidate, { sum: r.sum, n: r.n }])),
     mine: m ? { id: m.id, tiers: JSON.parse(m.tiers), name: m.name, body: m.body, spoiler: m.spoiler } : null,
   });
 };
@@ -58,7 +66,8 @@ export const POST: APIRoute = async (ctx) => {
   const raw = (b.tiers ?? {}) as Record<string, unknown>;
   const expected = new Set(candidatesFor(r, basis).map((c) => c.id));
   const tiers: Record<string, string[]> = {};
-  const placed: { candidate: string; value: number }[] = [];
+  // 並び順に意味がある: S段の左端が1位、D段の右端が最下位
+  const placed: { candidate: string; value: number; pos: number }[] = [];
   const seen = new Set<string>();
   for (const t of TIERS) {
     const list = Array.isArray(raw[t.id]) ? (raw[t.id] as unknown[]) : [];
@@ -69,7 +78,7 @@ export const POST: APIRoute = async (ctx) => {
       }
       seen.add(id);
       tiers[t.id].push(id);
-      placed.push({ candidate: id, value: t.value });
+      placed.push({ candidate: id, value: t.value, pos: placed.length + 1 });
     }
   }
   if (seen.size !== expected.size) {
@@ -105,7 +114,7 @@ export const POST: APIRoute = async (ctx) => {
   await e.DB.batch([
     e.DB.prepare('DELETE FROM tier_placements WHERE post_id = ?').bind(post.id),
     ...placed.map((p) =>
-      e.DB.prepare('INSERT INTO tier_placements (post_id, ranking, basis, candidate, tier) VALUES (?, ?, ?, ?, ?)').bind(post.id, slug, basis, p.candidate, p.value)
+      e.DB.prepare('INSERT INTO tier_placements (post_id, ranking, basis, candidate, tier, pos) VALUES (?, ?, ?, ?, ?, ?)').bind(post.id, slug, basis, p.candidate, p.value, p.pos)
     ),
   ]);
 

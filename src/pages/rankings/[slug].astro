@@ -88,18 +88,19 @@ const jsonLd = {
               <div class="tl-row" data-tier={t.id}>
                 <div class="tl-label" style={`background:${t.color}`}>{t.id}</div>
                 <div class="tl-cells">
-                  {list.filter((x) => x.tier === t.id).map(({ c }) => <span class="tl-chip">{c.name}</span>)}
+                  {list.filter((x) => x.tier === t.id).map(({ c }) => <span class="tl-chip"><i>{list.findIndex((y) => y.c.id === c.id) + 1}</i>{c.name}</span>)}
                 </div>
               </div>
             ))}
           </div>
+          <p class="tl-legend">上の段ほど強く、同じ段の中では<b>左にいるほど強い</b>順です。数字は全体の順位です。</p>
           <button type="button" class="btn btn-main btn-wide" data-make>自分のティア表を作って投稿する</button>
         </div>
 
         <!-- 作成用ティア表 -->
         <div class="box tl-maker" data-maker hidden>
           <h2 class="sec-title" style="margin-top:0">あなたのティア表（{b.label}）</h2>
-          <p class="maker-help">キャラをタップして選び、置きたい段をタップしてください。パソコンではドラッグでも動かせます。</p>
+          <p class="maker-help">キャラをタップして選び、置きたい段をタップしてください。<b>同じ段の中では左にいるほど強い</b>扱いです。選んだまま段の中のキャラをタップすると、そのキャラの左に入ります。パソコンではドラッグでも動かせます。</p>
           <div class="tl-board is-edit" data-edit>
             {TIERS.map((t) => (
               <div class="tl-row" data-tier={t.id} data-drop>
@@ -108,10 +109,16 @@ const jsonLd = {
               </div>
             ))}
           </div>
+          <div class="tl-selbar" data-selbar hidden>
+            <span>選択中：<b data-selname></b></span>
+            <button type="button" class="btn" data-move="-1">◀ 左へ</button>
+            <button type="button" class="btn" data-move="1">右へ ▶</button>
+            <button type="button" class="btn" data-unplace>外す</button>
+          </div>
           <div class="tl-pool" data-pool data-drop>
             <p class="tl-pool-head">まだ置いていないキャラ <b data-left>{list.length}</b>人</p>
             <div class="tl-cells">
-              {list.map(({ c }) => <button type="button" class="tl-chip is-move" data-id={c.id} draggable="true" title={c.affiliation}>{c.name}</button>)}
+              {list.map(({ c }) => <button type="button" class="tl-chip is-move" data-id={c.id} draggable="true" title={c.affiliation}><i></i>{c.name}</button>)}
             </div>
           </div>
           <form class="tl-form" data-form>
@@ -199,7 +206,7 @@ const jsonLd = {
     type Cand = { id: string; name: string; editorScore: number; editorTier: string };
     type Tier = { id: string; value: number; color: string };
     type Post = { id: number; tiers: Record<string, string[]>; name: string; body: string; spoiler: number; created_at: number; updated_at: number; good: number; bad: number; my_vote: number | null };
-    type Agg = { posts: number; distribution: Record<string, number[]>; mine: null | { id: number; tiers: Record<string, string[]>; name: string; body: string; spoiler: number } };
+    type Agg = { posts: number; distribution: Record<string, number[]>; positions: Record<string, { sum: number; n: number }>; mine: null | { id: number; tiers: Record<string, string[]>; name: string; body: string; spoiler: number } };
 
     const DATA = JSON.parse(document.getElementById('rk-data')!.textContent!) as { cands: Record<string, Cand[]>; tiers: Tier[]; labels: Record<string, string> };
     const TIERS = DATA.tiers;
@@ -237,13 +244,15 @@ const jsonLd = {
       const sum = dist.reduce((a, c, i) => a + c * (i + 1), 0);
       const need = Math.ceil(agg.posts / 2);
       const pad = Math.max(0, need - n);
-      return { dist, n, avg: n ? sum / n : 0, smooth: n + pad ? (sum + pad * PRIOR_V) / (n + pad) : PRIOR_V };
+      const p = agg.positions?.[id];
+      return { dist, n, avg: n ? sum / n : 0, smooth: n + pad ? (sum + pad * PRIOR_V) / (n + pad) : PRIOR_V, avgPos: p?.n ? p.sum / p.n : Infinity };
     }
 
     function renderBoard(board: HTMLElement, placement: Record<string, string[]>, names: Map<string, string>) {
+      let n = 0;
       board.querySelectorAll<HTMLElement>('.tl-row').forEach((row) => {
         const cells = row.querySelector('.tl-cells')!;
-        cells.innerHTML = (placement[row.dataset.tier!] ?? []).map((id) => `<span class="tl-chip">${esc(names.get(id) ?? id)}</span>`).join('');
+        cells.innerHTML = (placement[row.dataset.tier!] ?? []).map((id) => `<span class="tl-chip"><i>${++n}</i>${esc(names.get(id) ?? id)}</span>`).join('');
       });
     }
 
@@ -259,9 +268,13 @@ const jsonLd = {
       const placement: Record<string, string[]> = { S: [], A: [], B: [], C: [], D: [] };
       let order: Cand[];
       if (view === 'crowd' && agg && agg.posts > 0) {
-        order = [...cands].sort((a, b) => stats(agg, b.id).smooth - stats(agg, a.id).smooth || b.editorScore - a.editorScore);
-        order.forEach((c) => placement[crowdTier(stats(agg, c.id).smooth)].push(c.id));
-        help.textContent = `投稿された${agg.posts}件のティア表の平均です（S=5〜D=1点で平均し、段を決めています）。`;
+        // 段は平均（S=5〜D=1）で決め、段の中は平均順位の順に並べる
+        const tierIdx = (id: string) => TIERS.findIndex((t) => t.id === id);
+        const keyed = cands.map((c) => ({ c, s: stats(agg, c.id) }));
+        keyed.sort((a, b) => tierIdx(crowdTier(a.s.smooth)) - tierIdx(crowdTier(b.s.smooth)) || a.s.avgPos - b.s.avgPos || b.s.smooth - a.s.smooth || b.c.editorScore - a.c.editorScore);
+        order = keyed.map((x) => x.c);
+        keyed.forEach((x) => placement[crowdTier(x.s.smooth)].push(x.c.id));
+        help.textContent = `投稿された${agg.posts}件のティア表の集計です。段はS=5〜D=1点の平均で決め、同じ段の中は平均順位の順に並べています。`;
       } else {
         order = [...cands].sort((a, b) => b.editorScore - a.editorScore);
         order.forEach((c) => placement[c.editorTier].push(c.id));
@@ -291,7 +304,8 @@ const jsonLd = {
         const distEl = el.querySelector<HTMLElement>('[data-dist]')!;
         if (!s.n) { dd.innerHTML = '<span class="none">投稿待ち</span>'; distEl.hidden = true; return; }
         const t = crowdTier(s.smooth);
-        dd.innerHTML = `<span class="tier-badge" style="background:${tierColor(t)}">${t}</span>${s.avg.toFixed(2)}<small>（${s.n}人）</small>`;
+        const posTxt = Number.isFinite(s.avgPos) ? ` ／ 平均${s.avgPos.toFixed(1)}位` : '';
+        dd.innerHTML = `<span class="tier-badge" style="background:${tierColor(t)}">${t}</span>${s.avg.toFixed(2)}<small>（${s.n}人${posTxt}）</small>`;
         distEl.hidden = false;
         distEl.innerHTML =
           '<div class="dist-bar">' +
@@ -313,7 +327,7 @@ const jsonLd = {
       li.className = 'post';
       const rows = TIERS.map((t) => {
         const ids = p.tiers[t.id] ?? [];
-        return `<div class="mini-row"><span class="mini-label" style="background:${t.color}">${t.id}</span><span class="mini-cells">${ids.map((id) => esc(names.get(id) ?? id)).join('、') || '<span class="none">—</span>'}</span></div>`;
+        return `<div class="mini-row"><span class="mini-label" style="background:${t.color}">${t.id}</span><span class="mini-cells">${ids.map((id) => esc(names.get(id) ?? id)).join(' ＞ ') || '<span class="none">—</span>'}</span></div>`;
       }).join('');
       li.innerHTML = `
         <div class="cmt-meta"><b>${esc(p.name)}</b><span>${ago(p.updated_at)}</span></div>
@@ -400,17 +414,24 @@ const jsonLd = {
       const submit = form.querySelector<HTMLButtonElement>('[data-submit]')!;
       const msg = form.querySelector<HTMLElement>('.rf-msg')!;
       const chips = new Map([...poolCells.querySelectorAll<HTMLButtonElement>('.tl-chip')].map((c) => [c.dataset.id!, c]));
-      const total = chips.size;
+      const selbar = panel.querySelector<HTMLElement>('[data-selbar]')!;
       let selected: HTMLButtonElement | null = null;
+      const inRow = (c: Element | null) => !!c && c.parentElement !== poolCells;
+      const nameOf = (c: HTMLElement) => c.lastChild?.textContent ?? '';
 
       const select = (c: HTMLButtonElement | null) => {
         selected?.classList.remove('is-selected');
         selected = c === selected ? null : c;
         selected?.classList.add('is-selected');
         edit.classList.toggle('has-selection', !!selected);
-        pool.classList.toggle('has-selection', !!selected && selected.parentElement !== poolCells);
+        pool.classList.toggle('has-selection', !!selected && inRow(selected));
+        selbar.hidden = !(selected && inRow(selected));
+        if (selected) selbar.querySelector('[data-selname]')!.textContent = nameOf(selected);
       };
       const refresh = () => {
+        let rank = 0;
+        edit.querySelectorAll<HTMLElement>('.tl-row .tl-chip').forEach((c) => (c.querySelector('i')!.textContent = String(++rank)));
+        poolCells.querySelectorAll<HTMLElement>('.tl-chip i').forEach((i) => (i.textContent = ''));
         const n = poolCells.querySelectorAll('.tl-chip').length;
         left.textContent = String(n);
         pool.classList.toggle('is-empty', n === 0);
@@ -422,9 +443,47 @@ const jsonLd = {
         select(null);
         refresh();
       };
+      // 段の中のキャラの左に差し込む
+      const insertBefore = (chip: HTMLButtonElement, ref: HTMLElement) => {
+        if (chip === ref) return;
+        ref.before(chip);
+        select(null);
+        refresh();
+      };
       chips.forEach((chip) => {
-        chip.addEventListener('click', (ev) => { ev.stopPropagation(); select(chip); });
+        chip.addEventListener('click', (ev) => {
+          ev.stopPropagation();
+          if (selected && selected !== chip && inRow(chip)) insertBefore(selected, chip);
+          else select(chip);
+        });
         chip.addEventListener('dragstart', (ev) => { ev.dataTransfer!.setData('text/plain', chip.dataset.id!); ev.dataTransfer!.effectAllowed = 'move'; });
+        chip.addEventListener('dragover', (ev) => {
+          if (!inRow(chip)) return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          chip.classList.add('is-target');
+        });
+        chip.addEventListener('dragleave', () => chip.classList.remove('is-target'));
+        chip.addEventListener('drop', (ev) => {
+          if (!inRow(chip)) return;
+          ev.preventDefault();
+          ev.stopPropagation();
+          chip.classList.remove('is-target');
+          panel.querySelectorAll('.is-over').forEach((z) => z.classList.remove('is-over'));
+          const dragged = chips.get(ev.dataTransfer!.getData('text/plain'));
+          if (dragged) insertBefore(dragged, chip);
+        });
+      });
+      selbar.querySelectorAll<HTMLButtonElement>('[data-move]').forEach((b) =>
+        b.addEventListener('click', () => {
+          if (!selected) return;
+          const sib = Number(b.dataset.move) < 0 ? selected.previousElementSibling : selected.nextElementSibling;
+          if (sib) Number(b.dataset.move) < 0 ? sib.before(selected) : sib.after(selected);
+          refresh();
+        })
+      );
+      selbar.querySelector<HTMLButtonElement>('[data-unplace]')!.addEventListener('click', () => {
+        if (selected) place(selected, pool);
       });
       panel.querySelectorAll<HTMLElement>('.tl-maker [data-drop]').forEach((zone) => {
         zone.addEventListener('click', () => { if (selected) place(selected, zone); });
@@ -463,7 +522,7 @@ const jsonLd = {
         try {
           const d = await send('/api/tier/', 'POST', { r: R, b: basis, tiers, name, body: fd.get('body'), spoiler: fd.get('spoiler') === 'on', website: fd.get('website') });
           msg.hidden = false;
-          const lines = TIERS.map((t) => (tiers[t.id].length ? `${t.id}: ${tiers[t.id].map((id) => DATA.cands[basis].find((c) => c.id === id)!.name).join('、')}` : '')).filter(Boolean);
+          const lines = TIERS.map((t) => (tiers[t.id].length ? `${t.id}: ${tiers[t.id].map((id) => DATA.cands[basis].find((c) => c.id === id)!.name).join('＞')}` : '')).filter(Boolean);
           const text = `【${WORK} 最強ティア表（${DATA.labels[basis]}）】\n${lines.slice(0, 3).join('\n')}\n#アニメ最強ランキング`;
           const url = `${location.origin}${location.pathname}${basis === Object.keys(DATA.cands)[0] ? '' : '#' + basis}`;
           msg.innerHTML = `投稿しました。<a href="https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}" target="_blank" rel="noopener">Xでシェアする</a>`;

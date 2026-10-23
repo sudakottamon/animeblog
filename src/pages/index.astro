@@ -47,7 +47,7 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft))
           .map((p) => {
             const nm = (id) => esc(names[p.ranking]?.[id] ?? id);
             const who = `${esc(p.name)} ／ ${esc(titles[p.ranking] ?? '')}（${esc(basisLabels[p.ranking]?.[p.basis] ?? '')}）`;
-            const s = p.spoiler ? '（ネタバレを含む投稿）' : `S: ${(p.tiers.S ?? []).map(nm).join('、') || '—'}`;
+            const s = p.spoiler ? '（ネタバレを含む投稿）' : `S: ${(p.tiers.S ?? []).map(nm).join(' ＞ ') || '—'}`;
             const body = p.spoiler || !p.body ? '' : `<div class="what">${esc(p.body)}</div>`;
             return `<li><a href="/rankings/${p.ranking}/#${p.basis}" style="color:inherit"><div class="who">${who}</div><div class="what"><b>${s}</b></div>${body}</a></li>`;
           })

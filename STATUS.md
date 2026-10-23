@@ -8,6 +8,7 @@
 - 勢で分ける: アニメ勢／漫画勢／原作勢。漫画原作の作品は「漫画・原作勢」1タブ。タブごとに候補・運営判定・採点・コメントが別
 - **ティア表方式（2026-10-23 ユーザー決定）**: 候補を全員 S〜D に並べきらないと投稿できない。1人1ランキング1勢1件・上書き可。表示は「みんなのティア表」（S=5〜D=1の平均、4.5/3.5/2.5/1.5で段分け）と「運営のティア表」（editor score 90/80/70/60で段分け）の切替。投稿5件未満は運営を初期表示。架空の投稿は入れない
 - 投稿一覧（ミニティア表＋コメント、👍👎、通報5件で自動非表示）、投稿後にXシェアリンク
+- 段の中の並び順に意味がある（左ほど強い）。tier_placements.pos に通し順位（S左端=1）を保存（0004）。みんなのティア表は段=平均点、段内=平均順位。作成画面は番号表示・選択中に段内のキャラをタップでその左に差し込み・◀▶ボタン・外す
 - データ: src/content/rankings/*.yaml（bases / candidates[].appears / editor[basis]{score,note}）
 - API: /api/tier/ (GET集計+自分の投稿 / POST投稿・全員配置を検証) /api/posts/ (GET一覧・PUT👍👎・DELETE管理) /api/report/ (POST通報) /api/summary/ (トップ用)
 - DB: migrations/0003_tierlists.sql（tier_posts / tier_placements / tier_post_votes / tier_post_reports）本番適用済み。0002の点数制テーブルは未使用（残置）

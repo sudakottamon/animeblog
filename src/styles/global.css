@@ -268,3 +268,14 @@ main { padding: 10px 0 0; }
   .tl-label { width: 38px; font-size: 18px; }
   .tl-chip { font-size: 12px; padding: 3px 7px; }
 }
+
+/* 段の中の並び順 */
+.tl-chip i { font-style: normal; display: inline-block; min-width: 17px; height: 17px; line-height: 17px; border-radius: 9px; background: #eef1f4; color: var(--ink-2); font-size: 10.5px; font-weight: 800; text-align: center; margin-right: 5px; vertical-align: 1px; padding: 0 3px; }
+.tl-chip i:empty { display: none; }
+.tl-chip.is-selected i { background: rgba(255,255,255,.25); color: #fff; }
+.tl-chip.is-target { box-shadow: -4px 0 0 var(--brand); }
+.tl-legend { font-size: 12px; color: var(--ink-2); margin: 6px 0 0; }
+.tl-legend b, .maker-help b { color: var(--ink); }
+.tl-selbar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 8px 0 0; padding: 8px 10px; background: #fff7f5; border: 1px solid #ffd2c9; border-radius: 6px; font-size: 12.5px; }
+.tl-selbar span { margin-right: auto; }
+.tl-selbar .btn { padding: 4px 10px; font-size: 12.5px; }
