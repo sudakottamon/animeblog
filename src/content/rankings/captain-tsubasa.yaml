@@ -1,0 +1,205 @@
+work: キャプテン翼
+title: キャプテン翼 最強キャラランキング
+description: キャプテン翼の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（2018年版）第1期＋『シーズン2 ジュニアユース編』（全39話、ジュニアユース大会決勝まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の無印から『ライジングサン THE FINAL』（2024年、未完のまま連載終了）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: tsubasa
+    name: 大空翼
+    affiliation: 南葛 / 日本代表 主将
+    cv: 三瓶由布子
+    editor:
+      anime:
+        score: 95
+        note: 基準はサッカー選手としての実力。ジュニアユース大会決勝で西ドイツから決勝点を決め、日本を優勝させた。
+        evidence:
+          - "ジュニアユース大会決勝: 決勝点を決め、西ドイツに3-2で勝った"
+          - "ジュニアユース大会準決勝: PK戦の末にフランスに勝った"
+      manga:
+        score: 96
+        note: ワールドユース決勝でブラジルから延長の決勝点を決め、日本を初優勝させた。
+        evidence:
+          - "ワールドユース決勝: 延長で決勝点を決め、ブラジルに勝った"
+  - id: schneider
+    name: カール・ハインツ・シュナイダー
+    affiliation: 西ドイツ代表
+    cv: 福山潤
+    editor:
+      anime:
+        score: 93
+        note: ジュニアユース大会のグループリーグ全試合でハットトリック。決勝でも日本から2得点したが敗れた。
+        evidence:
+          - "ジュニアユース大会: グループリーグ3試合すべてでハットトリックを決めた"
+          - "ジュニアユース大会決勝: 日本から2得点したが、2-3で敗れた"
+      manga:
+        score: 92
+        note: ワールドユースではスウェーデンに3-5で敗れたが、準々決勝でアルゼンチンに勝った。
+        evidence:
+          - "ワールドユース: ドイツがスウェーデンに3-5で敗れた"
+          - "ワールドユース準々決勝: ドイツがアルゼンチンに勝った"
+  - id: hyuga
+    name: 日向小次郎
+    affiliation: 東邦学園 / 日本代表
+    cv: 佐藤拓也
+    editor:
+      anime:
+        score: 88
+        note: 翼と並ぶ日本のストライカー。中学最後の全国大会決勝では南葛と引き分けて両校優勝となった。
+        evidence:
+          - "中学生編 全国大会決勝: 南葛と引き分け、両校優勝になった"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: wakabayashi
+    name: 若林源三
+    affiliation: 日本代表 GK
+    cv: 鈴村健一
+    editor:
+      anime:
+        score: 88
+        note: 日本の正GK。ジュニアユース大会決勝で日本のゴールを守り、優勝した。
+        evidence:
+          - "ジュニアユース大会決勝: 若島津の負傷を受けてゴールを守り、西ドイツに勝った"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: santana
+    name: カルロス・サンターナ
+    affiliation: ブラジル代表
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: ワールドユースでブラジルの全試合でハットトリックを決め、得点王になった。決勝では日本に敗れた。
+        evidence:
+          - "ワールドユース: 決勝を含む全試合でハットトリックを決め、得点王になった"
+          - "ワールドユース決勝: 延長の末に日本に敗れた"
+  - id: levin
+    name: ステファン・レヴィン
+    affiliation: スウェーデン代表
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: ワールドユースでスウェーデンをドイツに勝たせた。準々決勝で延長の末に日本に敗れた。
+        evidence:
+          - "ワールドユース: スウェーデンがドイツに5-3で勝った"
+          - "ワールドユース準々決勝: 延長の末に日本に敗れた"
+  - id: misaki
+    name: 岬太郎
+    affiliation: 南葛 / 日本代表
+    cv: 福原綾香
+    editor:
+      anime:
+        score: 84
+        note: 翼とのゴールデンコンビで日本の攻撃を組み立てた。ジュニアユース大会で優勝した。
+        evidence:
+          - "ジュニアユース大会: 翼と組んで攻撃の中心を担い、優勝した"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: pierre
+    name: エル・シド・ピエール
+    affiliation: フランス代表 主将
+    cv: 河西健吾
+    editor:
+      anime:
+        score: 83
+        note: フランスの主将。イングランドとマレーシアに勝ったが、準決勝でPK戦の末に日本に敗れた。
+        evidence:
+          - "ジュニアユース大会: フランスがイングランドとマレーシアに勝った"
+          - "ジュニアユース大会準決勝: PK戦の末に日本に敗れた"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: misugi
+    name: 三杉淳
+    affiliation: 武蔵中 / 日本代表
+    cv: 斉藤壮馬
+    editor:
+      anime:
+        score: 82
+        note: 心臓病で出場時間に制限がある司令塔。小学生編では南葛に敗れた。
+        evidence:
+          - "小学生編 全国大会: 武蔵FCを率いて南葛と戦い、敗れた"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: napoleon
+    name: ルイ・ナポレオン
+    affiliation: フランス代表
+    cv: 小野友樹
+    editor:
+      anime:
+        score: 81
+        note: フランスのエースストライカー。グループリーグで2試合連続のハットトリックを決めた。
+        evidence:
+          - "ジュニアユース大会: イングランド戦とマレーシア戦でハットトリックを決めた"
+          - "ジュニアユース大会準決勝: PK戦で失敗し、日本に敗れた"
+      manga:
+        score: 81
+        note: 原作でも評価は変わらない。
+  - id: wakashimazu
+    name: 若島津健
+    affiliation: 東邦学園 / 日本代表 GK
+    cv: 梅原裕一郎
+    editor:
+      anime:
+        score: 80
+        note: 空手を取り入れたGK。中学最後の全国大会決勝で南葛と引き分けた。
+        evidence:
+          - "中学生編 全国大会決勝: 東邦のGKとして南葛と引き分けた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: jito
+    name: 次藤洋
+    affiliation: 比良戸中 / 日本代表
+    cv: 平川大輔
+    editor:
+      anime:
+        score: 74
+        note: 体格を生かした守備の選手。ジュニアユース大会の日本代表に選ばれた。
+        evidence:
+          - "ジュニアユース大会: 日本代表のDFとして優勝した"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: matsuyama
+    name: 松山光
+    affiliation: ふらの中 / 日本代表
+    cv: 羽多野渉
+    editor:
+      anime:
+        score: 74
+        note: 運動量と守備力のあるMF。ジュニアユース大会の日本代表に選ばれた。
+        evidence:
+          - "ジュニアユース大会: 日本代表のMFとして優勝した"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: diaz
+    name: フアン・ディアス
+    affiliation: アルゼンチン代表
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 82
+        note: アルゼンチンの司令塔で、個人技で攻撃を組み立てる。ジュニアユース大会で日本と対戦した。
+        evidence:
+          - "ジュニアユース大会: アルゼンチン代表として日本と対戦した"
+      manga:
+        score: 80
+        note: ワールドユースではアルゼンチンがオランダとドイツに敗れ、勝ち上がれなかった。
+        evidence:
+          - "ワールドユース: グループリーグでオランダに敗れた"
+          - "ワールドユース準々決勝: ドイツに敗れた"

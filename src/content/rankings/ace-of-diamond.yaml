@@ -1,0 +1,179 @@
+work: ダイヤのA
+title: ダイヤのA 最強キャラランキング
+description: ダイヤのAの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期・第2期・『actII』と『actII -Second Season-』の放送済み分まで（2026年10月時点）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（第1部 全47巻・『actII』全34巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: narumiya
+    name: 成宮鳴
+    affiliation: 稲城実業 エース
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 92
+        note: 基準は野球選手としての実力。都内屈指の左腕で、1年夏の西東京大会決勝で青道に投げ勝った。
+        evidence:
+          - "1年夏 西東京大会決勝: 稲実のエースとして青道に5-4で勝った"
+      manga:
+        score: 92
+        note: 2年夏の西東京大会決勝では青道に1-2で敗れた。投手としての評価は据え置く。
+        evidence:
+          - "2年夏 西東京大会決勝: 稲実が青道に1-2で敗れた"
+  - id: miyuki
+    name: 御幸一也
+    affiliation: 青道高校 捕手
+    cv: 櫻井孝宏
+    editor:
+      anime:
+        score: 87
+        note: 青道の正捕手で強打者。新チームでは主将として秋季東京都大会を制した。
+        evidence:
+          - "秋季東京都大会決勝: 主将として薬師に5-4で勝った"
+          - "1年夏 西東京大会決勝: 稲実に4-5でサヨナラ負けした"
+      manga:
+        score: 89
+        note: 2年夏の西東京大会決勝で稲実に勝ち、甲子園出場を決めた。
+        evidence:
+          - "2年夏 西東京大会決勝: 稲実に2-1で勝った"
+  - id: yuki
+    name: 結城哲也
+    affiliation: 青道高校 主将
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 86
+        note: 3年生の主将で4番打者。1年夏の西東京大会で青道を決勝まで導いた。
+        evidence:
+          - "1年夏 西東京大会: 主将・4番として決勝まで勝ち上がった"
+          - "1年夏 西東京大会決勝: 稲実に4-5でサヨナラ負けした"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: todoroki
+    name: 轟雷市
+    affiliation: 薬師高校
+    cv: 小野賢章
+    editor:
+      anime:
+        score: 86
+        note: 薬師の主砲。秋季東京都大会で市大三高を破って決勝まで進んだ。
+        evidence:
+          - "秋季東京都大会準決勝: 薬師が市大三高に勝った"
+          - "秋季東京都大会決勝: 薬師が青道に4-5で敗れた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: sawamura
+    name: 沢村栄純
+    affiliation: 青道高校 投手
+    cv: 逢坂良太
+    editor:
+      anime:
+        score: 79
+        note: 動く速球が武器の左腕。秋季東京都大会では投手陣の一角として優勝に関わった。
+        evidence:
+          - "秋季東京都大会: 青道の投手陣の一人として優勝した"
+      manga:
+        score: 90
+        note: 2年夏に背番号1を背負い、青道の甲子園出場に貢献した。
+        evidence:
+          - "actII 2年夏 西東京大会: エースナンバーを背負った"
+          - "2年夏 西東京大会決勝: 稲実に2-1で勝った"
+  - id: furuya
+    name: 降谷暁
+    affiliation: 青道高校 投手
+    cv: 島﨑信長
+    editor:
+      anime:
+        score: 84
+        note: 剛速球の右腕。1年生で背番号1を背負い、秋季東京都大会を制した。
+        evidence:
+          - "秋季東京都大会: エースとして優勝した"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: hongou
+    name: 本郷正宗
+    affiliation: 巨摩大藤巻 エース
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 選抜の準々決勝で青道を完封した。
+        evidence:
+          - "選抜 準々決勝: 巨摩大藤巻のエースとして青道に2-0で勝った"
+  - id: sanada
+    name: 真田俊平
+    affiliation: 薬師高校 エース
+    cv: 神谷浩史
+    editor:
+      anime:
+        score: 82
+        note: 薬師のエース。秋季東京都大会で市大三高を破り、決勝で青道に1点差で敗れた。
+        evidence:
+          - "秋季東京都大会準決勝: 薬師が市大三高に勝った"
+          - "秋季東京都大会決勝: 薬師が青道に4-5で敗れた"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: harada
+    name: 原田雅功
+    affiliation: 稲城実業 主将・捕手
+    cv: 前野智昭
+    editor:
+      anime:
+        score: 79
+        note: 稲実の主将で正捕手。1年夏の西東京大会決勝で青道に勝った。
+        evidence:
+          - "1年夏 西東京大会決勝: 稲実が青道に5-4で勝った"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: ryosuke
+    name: 小湊亮介
+    affiliation: 青道高校 二塁手
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 77
+        note: 守備と小技に優れた二塁手。1年夏の西東京大会で青道を決勝まで支えた。
+        evidence:
+          - "1年夏 西東京大会: 青道の二塁手として決勝まで勝ち上がった"
+      manga:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: isashiki
+    name: 伊佐敷純
+    affiliation: 青道高校 中堅手
+    cv: 小野友樹
+    editor:
+      anime:
+        score: 76
+        note: 青道の外野の中心。1年夏の西東京大会で青道を決勝まで支えた。
+        evidence:
+          - "1年夏 西東京大会: 青道の中堅手として決勝まで勝ち上がった"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: tanba
+    name: 丹波光一郎
+    affiliation: 青道高校 投手
+    cv: 森田成一
+    editor:
+      anime:
+        score: 70
+        note: 3年生の投手。1年夏の西東京大会で青道の投手陣を支えた。
+        evidence:
+          - "1年夏 西東京大会: 3年生投手として登板し、決勝まで勝ち上がった"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。

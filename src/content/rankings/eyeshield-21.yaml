@@ -1,0 +1,237 @@
+work: アイシールド21
+title: アイシールド21 最強キャラランキング
+description: アイシールド21の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全145話（原作の関東大会準決勝・王城戦まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全37巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: shin
+    name: 進清十郎
+    affiliation: 王城ホワイトナイツ
+    cv: 郷本直也
+    editor:
+      anime:
+        score: 92
+        note: 基準はアメフト選手としての実力。王城の守備の要で、春季大会では泥門に勝った。関東大会準決勝の再戦で敗れた。
+        evidence:
+          - "春季大会: 王城が泥門に大差で勝った"
+          - "関東大会準決勝: 王城が泥門に敗れた"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: sena
+    name: 小早川瀬那
+    affiliation: 泥門デビルバッツ
+    cv: 入野自由
+    editor:
+      anime:
+        score: 89
+        note: 泥門のランニングバック。関東大会で神龍寺と王城を続けて破った。
+        evidence:
+          - "関東大会初戦: 神龍寺ナーガに勝った"
+          - "関東大会準決勝: 進のいる王城に勝った"
+      manga:
+        score: 94
+        note: 関東大会を制し、クリスマスボウルで帝黒に勝った。本物のアイシールド21と認められた。
+        evidence:
+          - "関東大会決勝: 白秋ダイノソーズに勝った"
+          - "クリスマスボウル: 帝黒アレキサンダーズに勝った"
+  - id: agon
+    name: 金剛阿含
+    affiliation: 神龍寺ナーガ
+    cv: 桐本拓哉
+    editor:
+      anime:
+        score: 86
+        note: 神龍寺の中心選手。関東大会初戦で泥門に敗れた。
+        evidence:
+          - "関東大会初戦: 神龍寺ナーガが泥門に敗れた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: hiruma
+    name: 蛭魔妖一
+    affiliation: 泥門デビルバッツ
+    cv: 田村淳
+    editor:
+      anime:
+        score: 80
+        note: 泥門のクォーターバックで司令塔。関東大会で神龍寺と王城を破った。
+        evidence:
+          - "関東大会初戦: 神龍寺ナーガに勝った"
+          - "関東大会準決勝: 王城ホワイトナイツに勝った"
+      manga:
+        score: 82
+        note: 関東大会決勝とクリスマスボウルを勝ち抜き、泥門を日本一にした。
+        evidence:
+          - "クリスマスボウル: 帝黒アレキサンダーズに勝った"
+  - id: kurita
+    name: 栗田良寛
+    affiliation: 泥門デビルバッツ
+    cv: 永野広一
+    editor:
+      anime:
+        score: 78
+        note: 泥門のラインの中心。関東大会で神龍寺と王城を破った。
+        evidence:
+          - "関東大会準決勝: 王城ホワイトナイツに勝った"
+      manga:
+        score: 80
+        note: クリスマスボウルまで泥門のラインを支え、帝黒に勝った。
+        evidence:
+          - "クリスマスボウル: 帝黒アレキサンダーズに勝った"
+  - id: unsui
+    name: 金剛雲水
+    affiliation: 神龍寺ナーガ
+    cv: 前田剛
+    editor:
+      anime:
+        score: 74
+        note: 阿含の双子の兄で神龍寺のクォーターバック。関東大会初戦で泥門に敗れた。
+        evidence:
+          - "関東大会初戦: 神龍寺ナーガが泥門に敗れた"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: monta
+    name: 雷門太郎
+    affiliation: 泥門デビルバッツ
+    cv: 山口勝平
+    editor:
+      anime:
+        score: 74
+        note: 捕球を武器にする泥門のレシーバー。関東大会で神龍寺と王城を破った。
+        evidence:
+          - "関東大会準決勝: 王城ホワイトナイツに勝った"
+      manga:
+        score: 76
+        note: クリスマスボウルまで泥門の主力レシーバーとして勝ち抜いた。
+        evidence:
+          - "クリスマスボウル: 帝黒アレキサンダーズに勝った"
+  - id: takami
+    name: 高見伊知郎
+    affiliation: 王城ホワイトナイツ
+    cv: 浜田賢二
+    editor:
+      anime:
+        score: 71
+        note: 王城のクォーターバック。春季大会で泥門に勝ち、関東大会準決勝で敗れた。
+        evidence:
+          - "春季大会: 王城が泥門に大差で勝った"
+          - "関東大会準決勝: 王城が泥門に敗れた"
+      manga:
+        score: 71
+        note: 原作でも評価は変わらない。
+  - id: sakuraba
+    name: 桜庭春人
+    affiliation: 王城ホワイトナイツ
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 70
+        note: 王城のレシーバー。春季大会で泥門に勝ち、関東大会準決勝で敗れた。
+        evidence:
+          - "春季大会: 王城が泥門に大差で勝った"
+          - "関東大会準決勝: 王城が泥門に敗れた"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: kid
+    name: キッド
+    affiliation: 西部ワイルドガンマンズ
+    cv: 内田夕夜
+    editor:
+      anime:
+        score: 81
+        note: 西部のクォーターバック。秋季東京大会準決勝で泥門に競り勝った。
+        evidence:
+          - "秋季東京大会準決勝: 西部が泥門に勝った"
+      manga:
+        score: 81
+        note: 原作でも評価は変わらない。
+  - id: riku
+    name: 甲斐谷陸
+    affiliation: 西部ワイルドガンマンズ
+    cv: 増田裕生
+    editor:
+      anime:
+        score: 77
+        note: 西部のランニングバック。チームは泥門に勝ったが、セナとの走り合いでは上回られた。
+        evidence:
+          - "秋季東京大会準決勝: 西部が泥門に勝った"
+      manga:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: ikkyu
+    name: 一休
+    affiliation: 神龍寺ナーガ
+    cv: 豊永利行
+    editor:
+      anime:
+        score: 73
+        note: 神龍寺のコーナーバック。関東大会初戦で泥門に敗れた。
+        evidence:
+          - "関東大会初戦: 神龍寺ナーガが泥門に敗れた"
+      manga:
+        score: 73
+        note: 原作でも評価は変わらない。
+  - id: yamato
+    name: 大和猛
+    affiliation: 帝黒アレキサンダーズ
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 帝黒のエースで、本来のアイシールド21。クリスマスボウルで敗れ、セナを本物と認めた。
+        evidence:
+          - "クリスマスボウル: 帝黒のエースとしてセナと戦い、泥門に敗れた"
+  - id: don
+    name: Mr.ドン
+    affiliation: アメリカ代表 主将
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: ワールドカップのアメリカ代表主将。日本戦は同点のまま延長に入った。
+        evidence:
+          - "ワールドカップ 日本戦: アメリカの主将として出場し、試合は延長に入った"
+  - id: gao
+    name: 峨王力哉
+    affiliation: 白秋ダイノソーズ
+    cv: 小山剛志
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 対戦相手のクォーターバックを次々に負傷させた白秋のライン。関東大会決勝で泥門に敗れた。
+        evidence:
+          - "関東大会決勝: 白秋の主力として泥門と戦い、敗れた"
+  - id: taka
+    name: 本庄鷹
+    affiliation: 帝黒アレキサンダーズ
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 帝黒のレシーバー。クリスマスボウルで泥門に敗れた。
+        evidence:
+          - "クリスマスボウル: 帝黒のレシーバーとして出場し、泥門に敗れた"
+  - id: marco
+    name: 円子令司
+    affiliation: 白秋ダイノソーズ 主将
+    cv: 杉田智和
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 白秋の主将で司令塔。関東大会決勝で泥門に敗れた。
+        evidence:
+          - "関東大会決勝: 白秋が泥門に敗れた"

@@ -212,12 +212,12 @@
 - [x] `haikyu` ハイキュー!!（選手としての実力で判定）
 
 ## バッチ 27
-- [ ] `blue-lock` ブルーロック（選手としての実力で判定）
-- [ ] `prince-of-tennis` テニスの王子様（新テニスの王子様を含む）
-- [ ] `eyeshield-21` アイシールド21
-- [ ] `captain-tsubasa` キャプテン翼
-- [ ] `ace-of-diamond` ダイヤのA
-- [ ] `major` MAJOR
+- [x] `blue-lock` ブルーロック（選手としての実力で判定）
+- [x] `prince-of-tennis` テニスの王子様（新テニスの王子様を含む）
+- [x] `eyeshield-21` アイシールド21
+- [x] `captain-tsubasa` キャプテン翼
+- [x] `ace-of-diamond` ダイヤのA
+- [x] `major` MAJOR
 
 ## バッチ 28
 - [x] `inazuma-eleven` イナズマイレブン

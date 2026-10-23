@@ -1,0 +1,181 @@
+work: MAJOR
+title: MAJOR 最強キャラランキング
+description: MAJOR（メジャー）の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全6シリーズ（全154話）＋劇場版＋OVA『ワールドシリーズ編』まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全78巻）まで（続編『MAJOR 2nd』は含まない）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: gibson-jr
+    name: ジョー・ギブソンJr.
+    affiliation: アメリカ代表
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 94
+        note: 基準は野球選手としての実力。W杯決勝で吾郎からサヨナラ本塁打を打ち、アメリカを優勝させた。
+        evidence:
+          - "W杯決勝: 吾郎からサヨナラ本塁打を打った"
+      manga:
+        score: 94
+        note: 原作でも評価は変わらない。
+  - id: goro
+    name: 茂野吾郎
+    affiliation: 主人公（投手）
+    cv: 森久保祥太郎（少年期：くまいもとこ）
+    editor:
+      anime:
+        score: 93
+        note: 剛速球の投手で打撃もいい。W杯決勝やワールドシリーズでは打たれた場面もある。
+        evidence:
+          - "リトル編 戸塚西戦: 逆転サヨナラ2ランを打った"
+          - "海堂編: 二軍の一員として一軍との試合に勝った"
+          - "W杯決勝: ギブソンJr.にサヨナラ本塁打を打たれた"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: toshiya
+    name: 佐藤寿也
+    affiliation: 海堂高校→メジャー 捕手
+    cv: 森田成一（少年期：大浦冬華）
+    editor:
+      anime:
+        score: 90
+        note: 吾郎の幼なじみの捕手で強打者。ワールドシリーズ第7戦で吾郎から満塁本塁打を打った。
+        evidence:
+          - "海堂編 歓迎試合: 一軍との試合でサヨナラ本塁打を打った"
+          - "ワールドシリーズ第7戦: 吾郎から満塁本塁打を打った"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: mayumura
+    name: 眉村健
+    affiliation: 海堂高校→メジャー 投手
+    cv: 保村真
+    editor:
+      anime:
+        score: 90
+        note: 海堂のエース。3年夏の聖秀戦で吾郎から三振を奪い、海堂を勝たせた。
+        evidence:
+          - "聖秀戦（3年夏）: 吾郎から三振を奪い、安打も打った"
+          - "海堂編 歓迎試合: 寿也のサヨナラ本塁打で一軍が敗れた"
+      manga:
+        score: 90
+        note: 甲子園でノーヒットノーランを達成し、海堂の春夏連覇に貢献した。
+        evidence:
+          - "甲子園: ノーヒットノーランを達成し、海堂は春夏連覇した"
+  - id: sanchez
+    name: サンチェス
+    affiliation: アメリカ代表 投手
+    cv: 小山剛志
+    editor:
+      anime:
+        score: 85
+        note: サイ・ヤング賞を2度取った投手。W杯の日本戦で先発して好投した。
+        evidence:
+          - "W杯 日本戦: 先発して好投した"
+          - "W杯 韓国戦: 9回を締めた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: gibson
+    name: ジョー・ギブソン
+    affiliation: メジャーリーガー 投手
+    cv: 落合弘治
+    editor:
+      anime:
+        score: 82
+        note: 来日したメジャーの剛腕。本田茂治との初対戦では本塁打を打たれた。試合の描写は多くない。
+        evidence:
+          - "幼年期: 本田茂治との初対戦で本塁打を打たれた"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: taiga
+    name: 清水大河
+    affiliation: 聖秀学院
+    cv: 朴璐美
+    editor:
+      anime:
+        score: 78
+        note: 聖秀の主力打者で守備もいい。海堂戦で4安打を打った。
+        evidence:
+          - "聖秀対海堂: 9回の勝ち越し二塁打を含む4安打を打った"
+          - "聖秀対久里山: 香取の完全試合を止めるヒットを打った"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: yakushiji
+    name: 薬師寺
+    affiliation: 海堂高校
+    cv: 桐井大介
+    editor:
+      anime:
+        score: 77
+        note: 海堂の主力打者。聖秀戦では9回裏の好機で痛烈な打球を放ったが、大河に止められた。
+        evidence:
+          - "聖秀対海堂: 9回裏1死満塁で痛烈な打球を放ったが、大河の守備でアウトになった"
+      manga:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: shigeharu
+    name: 本田茂治
+    affiliation: 横浜マリンスターズ
+    cv: 子安武人
+    editor:
+      anime:
+        score: 76
+        note: 吾郎の実父で、投手から打者に転向したプロ選手。ギブソンとの初対戦で本塁打を打った。
+        evidence:
+          - "幼年期: ギブソンとの初対戦で本塁打を打った"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: akutsu
+    name: 阿久津
+    affiliation: 海堂高校 投手
+    cv: 谷山紀章
+    editor:
+      anime:
+        score: 70
+        note: 海堂の投手。聖秀戦では大河に勝ち越し二塁打を打たれた。
+        evidence:
+          - "海堂編 歓迎試合: 寿也に本塁打を打たれた"
+          - "聖秀対海堂: 大河に勝ち越し二塁打を打たれた"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: tashiro
+    name: 田代
+    affiliation: 聖秀学院
+    cv: 森訓久
+    editor:
+      anime:
+        score: 69
+        note: 聖秀の打者。勝負どころで長打を打った。
+        evidence:
+          - "聖秀対陽花学園: 逆転満塁本塁打を打った"
+          - "聖秀対海堂: 2点適時打を打った"
+      manga:
+        score: 69
+        note: 原作でも評価は変わらない。
+  - id: ichihara
+    name: 市原
+    affiliation: 海堂高校 投手
+    cv: 森伸
+    editor:
+      anime:
+        score: 66
+        note: 海堂の投手。聖秀戦では4回2/3で3失点した。
+        evidence:
+          - "聖秀対海堂: 4回2/3を投げて7安打3失点だった"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
