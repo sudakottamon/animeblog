@@ -9,9 +9,10 @@
 - 順位は2軸を切替表示: 「運営の判定順」と「みんなの採点順」（参加者10人未満は運営順を初期表示）。架空の票は入れない
 - データ: src/content/rankings/*.yaml（bases / candidates[].appears / editor[basis]{score,note}）
 - API: /api/ranking/ (GET集計) /api/score/ (POST採点+任意コメント) /api/cc/ (GETコメント・PUT👍👎・DELETE管理) /api/report/ (POST通報、5件で自動非表示) /api/summary/ (トップ用)
-- DB: migrations/0002_scores.sql（scores / cand_comments / comment_votes / reports）。**本番未適用**
+- DB: migrations/0002_scores.sql（scores / cand_comments / comment_votes / reports）。本番適用済み 2026-10-23
 - 旧 /saikyo/* は public/_redirects で /rankings/* に301
-- デプロイ: Cloudflareログイン切れ（2026-10-23）→ ユーザーが `npx wrangler login` 後に: `npx wrangler d1 migrations apply DB --remote` → `npm run build` → `npx wrangler deploy`（routes で anime.chottotools.com を割当）
+- 本番公開済み 2026-10-23: https://anime.chottotools.com/ （`npm run build` → `npx wrangler deploy`）。workers.dev は無効化（旧URLは使わない）
+- ユーザーのPowerShellはnpx.ps1がブロックされる → 案内するときは `npx.cmd wrangler ...` と書く
 - 次のランキング候補: 転スラ（小説原作＝3タブの見本）、ワンピース、ヒロアカ、フリーレン、HUNTER×HUNTER、ドラゴンボール
 
 ---
