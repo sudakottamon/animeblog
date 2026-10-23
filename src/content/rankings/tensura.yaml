@@ -1,0 +1,140 @@
+work: 転生したらスライムだった件
+title: 転生したらスライムだった件 最強キャラランキング
+description: 転生したらスライムだった件の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第4期第2クール（第96話「勇者覚醒」）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 書籍版完結（全23巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: rimuru
+    name: リムル＝テンペスト
+    affiliation: 魔国連邦 盟主
+    cv: 岡咲美保
+    editor:
+      anime: { score: 97, note: 魔王への進化でファルムス軍2万を神之怒で殲滅し、魔王達の宴でクレイマンを倒した。 }
+      novel: { score: 100, note: 神智核シエルの覚醒で竜種へ進化し、ヴェルグリンドとミカエルを倒した。最終決戦ではルヴェルジェを消滅させた。 }
+  - id: veldanava
+    name: ヴェルダナーヴァ
+    affiliation: 星王竜
+    appears: novel
+    editor:
+      novel: { score: 97, note: 世界を創造した竜。最終巻で復活してリムルと交戦し、イヴァラージェに取り込まれた。 }
+  - id: guy
+    name: ギィ・クリムゾン
+    affiliation: 魔王
+    editor:
+      anime: { score: 93, note: 最古の魔王として魔王達の宴を取り仕切った。アニメでは本気の戦闘を見せていない。 }
+      novel: { score: 96, note: ミリムの憤怒之王を制御してみせた。最終巻では復活したヴェルダナーヴァに圧倒された。 }
+  - id: milim
+    name: ミリム・ナーヴァ
+    affiliation: 魔王
+    cv: 日高里菜
+    editor:
+      anime: { score: 94, note: 暴風大妖渦カリュブディスを一撃で倒した。魔王カリオンとの一騎打ちにも勝っている。 }
+      novel: { score: 95, note: 天魔大戦で本気を出して敵を圧倒したが、暴走したところをフェルドウェイに支配された。 }
+  - id: veldora
+    name: ヴェルドラ＝テンペスト
+    affiliation: 竜種（暴風竜）
+    cv: 前野智昭
+    editor:
+      anime: { score: 95, note: 竜種の一体。かつて勇者に無限牢獄へ封じられたが、解放後は魔王たちも警戒する存在になった。 }
+      novel: { score: 92, note: 帝国編で精神支配を受けて連れ去られたが、リムルに救い出された。天魔大戦ではダグリュールとの激闘に決着をつけた。 }
+  - id: velzard
+    name: ヴェルザード
+    affiliation: 竜種（白氷竜）
+    appears: novel
+    editor:
+      novel: { score: 90, note: 帝都でヴェルグリンドと共にリムル陣営の前に立ちはだかった。天魔大戦では戦場を氷漬けにして戦況を変えた。 }
+  - id: chloe
+    name: クロエ・オベール
+    affiliation: 勇者クロノア
+    cv: 田所あずさ
+    editor:
+      anime: { score: 90, note: 勇者クロノアとして暴風竜ヴェルドラに挑み、無限牢獄に封じた本人だと明かされた。 }
+      novel: { score: 89, note: 時を遡ってきた勇者。天魔大戦ではフェルドウェイに支配される局面もあった。 }
+  - id: feldway
+    name: フェルドウェイ
+    affiliation: 妖魔王
+    appears: novel
+    editor:
+      novel: { score: 88, note: 王権発動でミリムを支配し、リムルを一時消失させた。最後はマサユキに倒された。 }
+  - id: velgrynd
+    name: ヴェルグリンド
+    affiliation: 竜種（灼熱竜）
+    appears: novel
+    editor:
+      novel: { score: 87, note: 支配下に置いたヴェルドラをリムルにぶつけたが、進化したリムルに倒された。 }
+  - id: diablo
+    name: ディアブロ
+    affiliation: 魔国連邦 幹部
+    cv: 櫻井孝宏
+    editor:
+      anime: { score: 88, note: ファルムス戦でリムルに召喚された悪魔。悪魔界から旧知の悪魔3人を連れてきた。 }
+      novel: { score: 86, note: 原初の悪魔の一柱。帝国との戦争では黒色軍団を率いて戦った。 }
+  - id: zegion
+    name: ゼギオン
+    affiliation: 迷宮十傑
+    appears: novel
+    editor:
+      novel: { score: 85, note: 迷宮で天使の軍勢を退け、ゼラヌスを倒してヴェガを時空の彼方へ閉じ込めた。 }
+  - id: luminas
+    name: ルミナス・バレンタイン
+    affiliation: 魔王
+    cv: Lynn
+    editor:
+      anime: { score: 87, note: 神聖法皇国ルベリオスを裏から治める吸血鬼の魔王。グランベルとの戦いの中心に立った。 }
+      novel: { score: 78, note: グランベルを倒した。天魔大戦ではダグリュールに最大の攻撃が通じなかった。 }
+  - id: dagruel
+    name: ダグリュール
+    affiliation: 魔王
+    editor:
+      anime: { score: 84, note: 巨人族の魔王。魔王達の宴に出席したが、アニメでは戦う場面がない。 }
+      novel: { score: 82, note: 天魔大戦でルミナスの首都を襲い、ヴェルドラと激闘を繰り広げた。 }
+  - id: leon
+    name: レオン・クロムウェル
+    affiliation: 魔王
+    cv: 福山潤
+    editor:
+      anime: { score: 85, note: 勇者クロノアを探し続けてきた魔王。ルベリオスの戦いに自ら乗り込んだ。 }
+      novel: { score: 76, note: 天使の奇襲を受けて支配されたが、リムルに解放された。 }
+  - id: granbell
+    name: グランベル・ロッゾ
+    affiliation: ロッゾ一族の長
+    editor:
+      anime: { score: 82, note: 元勇者でロッゾ一族の長。ルベリオスでリムルたちを苦戦させた。 }
+      novel: { score: 70, note: 原作で評価を変える材料はない。 }
+  - id: hinata
+    name: ヒナタ・サカグチ
+    affiliation: 聖騎士団長
+    cv: 沼倉愛美
+    editor:
+      anime: { score: 81, note: 初戦でリムルを一方的に追い詰めた。魔王となったリムルとの再戦でも引かなかった。 }
+      novel: { score: 72, note: 天魔大戦ではイヴァラージェに対抗する同盟軍に加わった。 }
+  - id: benimaru
+    name: ベニマル
+    affiliation: 魔国連邦 侍大将
+    cv: 古川慎
+    editor:
+      anime: { score: 78, note: オーク軍を黒炎獄で焼き払い、クレイマン軍との戦争では総大将を務めた。 }
+      novel: { score: 80, note: 天魔大戦では地下迷宮に侵入したディーノ一派を追った。 }
+  - id: carrion
+    name: カリオン
+    affiliation: 獣王
+    cv: 内匠靖明
+    editor:
+      anime: { score: 68, note: ミリムとの一騎打ちに敗れ、魔王の座を降りた。 }
+      novel: { score: 62, note: 原作で評価を上げる材料は少ない。 }
+  - id: clayman
+    name: クレイマン
+    affiliation: 魔王
+    cv: 子安武人
+    editor:
+      anime: { score: 58, note: 魔王達の宴でリムルに敗れて消滅した。 }
+      novel: { score: 50, note: 退場後に評価が動くことはない。 }

@@ -1,0 +1,132 @@
+work: 僕のヒーローアカデミア
+title: 僕のヒーローアカデミア 最強キャラランキング
+description: 僕のヒーローアカデミアの最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ『FINAL SEASON』最終話と特別編『More』まで（原作完結・単行本全42巻と同じ範囲）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: shigaraki
+    name: 死柄木弔
+    affiliation: 敵連合
+    cv: 内山昂輝
+    editor:
+      anime: { score: 97, note: 超常解放戦線で崩壊を街ごと広げた。最終決戦の前にはスター・アンド・ストライプも倒している。 }
+  - id: midoriya
+    name: 緑谷出久
+    affiliation: 雄英高校 1年A組
+    cv: 山下大輝
+    editor:
+      anime: { score: 96, note: 最終決戦で死柄木と一騎打ちを演じ、ワン・フォー・オールを使い切って決着をつけた。 }
+  - id: all-for-one
+    name: オール・フォー・ワン
+    affiliation: 敵連合の黒幕
+    cv: 大塚明夫
+    editor:
+      anime: { score: 94, note: 神野でオールマイトに敗れた。最終決戦ではエンデヴァーやホークスを相手取り、最後は爆豪に止められた。 }
+  - id: all-might
+    name: オールマイト
+    affiliation: 元No.1ヒーロー
+    cv: 三宅健太
+    editor:
+      anime: { score: 92, note: 神野で残り火の力を振り絞り、オール・フォー・ワンを倒した。最終決戦では個性なしでアーマーを着て戦った。 }
+  - id: star-and-stripe
+    name: スター・アンド・ストライプ
+    affiliation: アメリカのNo.1ヒーロー
+    cv: 朴璐美
+    editor:
+      anime: { score: 89, note: 新秩序の力で死柄木と単独で渡り合った。最後は敗れ、個性を奪われた。 }
+  - id: bakugo
+    name: 爆豪勝己
+    affiliation: 雄英高校 1年A組
+    cv: 岡本信彦
+    editor:
+      anime: { score: 88, note: 最終決戦で一度は死柄木に心臓を止められた。復帰後はオール・フォー・ワンとオールマイトの戦いに決着をつけた。 }
+  - id: endeavor
+    name: エンデヴァー
+    affiliation: No.1ヒーロー
+    cv: 稲田徹
+    editor:
+      anime: { score: 87, note: 九州でホークスと組んでハイエンド脳無を倒した。最終決戦でもオール・フォー・ワンを相手に前線に立った。 }
+  - id: todoroki
+    name: 轟焦凍
+    affiliation: 雄英高校 1年A組
+    cv: 梶裕貴
+    editor:
+      anime: { score: 85, note: 最終決戦で兄の荼毘と戦い、炎を抑え込んで止めた。 }
+  - id: gigantomachia
+    name: ギガントマキア
+    affiliation: オール・フォー・ワンの従者
+    cv: 間宮康弘
+    editor:
+      anime: { score: 84, note: 超常解放戦線でヒーローの包囲を力ずくで突破した。止めるには麻酔を大量に流し込む必要があった。 }
+  - id: dabi
+    name: 荼毘
+    affiliation: 敵連合
+    cv: 下野紘
+    editor:
+      anime: { score: 83, note: 超常解放戦線でホークスに重傷を負わせた。最終決戦では体が燃え尽きる寸前まで火力を上げた。 }
+  - id: hawks
+    name: ホークス
+    affiliation: No.2ヒーロー
+    cv: 中村悠一
+    editor:
+      anime: { score: 80, note: 九州でエンデヴァーとハイエンド脳無を倒した。潜入先ではトゥワイスを止めたが、荼毘に焼かれた。 }
+  - id: togata
+    name: 通形ミリオ
+    affiliation: 雄英高校 3年（ルミリオン）
+    cv: 新垣樽助
+    editor:
+      anime: { score: 79, note: 個性を消す弾を受けるまで、治崎の一味を一人で押さえ込んだ。 }
+  - id: mirko
+    name: ミルコ
+    affiliation: No.5ヒーロー
+    cv: 木下紗華
+    editor:
+      anime: { score: 78, note: 病院襲撃で脳無の群れを素手で次々に倒した。手足を失っても前に出続けた。 }
+  - id: overhaul
+    name: 治崎廻（オーバーホール）
+    affiliation: 死穢八斎會 若頭
+    cv: 津田健次郎
+    editor:
+      anime: { score: 74, note: 分解と修復で周囲を作り変えながら戦った。最後は壊理の力を借りたデクに敗れた。 }
+  - id: toga
+    name: トガヒミコ
+    affiliation: 敵連合
+    cv: 福圓美里
+    editor:
+      anime: { score: 72, note: 最終決戦では変身した相手の個性まで使い、トゥワイスの分身を大量に生み出した。麗日と最後まで戦った。 }
+  - id: aizawa
+    name: 相澤消太
+    affiliation: 雄英高校 教師（イレイザーヘッド）
+    cv: 諏訪部順一
+    editor:
+      anime: { score: 70, note: 抹消で相手の個性を止められる。超常解放戦線では重傷を負いながら死柄木の個性を封じ続けた。 }
+  - id: best-jeanist
+    name: ベストジーニスト
+    affiliation: No.3ヒーロー
+    cv: 緑川光
+    editor:
+      anime: { score: 68, note: 繊維を操って大勢を一度に拘束できる。神野ではオール・フォー・ワンに一撃で倒された。 }
+  - id: kirishima
+    name: 切島鋭児郎
+    affiliation: 雄英高校 1年A組
+    cv: 増田俊樹
+    editor:
+      anime: { score: 64, note: 八斎會戦でファットガムと組み、乱波の拳を受け止め続けた。 }
+  - id: uraraka
+    name: 麗日お茶子
+    affiliation: 雄英高校 1年A組
+    cv: 佐倉綾音
+    editor:
+      anime: { score: 63, note: 触れた相手を浮かせて戦う。最終決戦ではトガヒミコと最後まで向き合った。 }
+  - id: stain
+    name: ステイン
+    affiliation: ヒーロー殺し
+    cv: 井上剛
+    editor:
+      anime: { score: 58, note: インゲニウムを再起不能にした。デク・轟・飯田の3人がかりで倒された。 }

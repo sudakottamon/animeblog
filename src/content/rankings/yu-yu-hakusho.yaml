@@ -1,0 +1,120 @@
+work: 幽☆遊☆白書
+title: 幽☆遊☆白書 最強キャラランキング
+description: 幽☆遊☆白書の最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ（全112話）・原作（単行本全19巻）とも完結まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: raizen
+    name: 雷禅
+    affiliation: 魔界三大妖怪
+    cv: 菅生隆之
+    editor:
+      anime: { score: 97, note: 作中で戦う場面はない。全盛期は「闘神」と呼ばれ、喧嘩仲間だった煙鬼たちも敵わなかったと語られる。 }
+  - id: enki
+    name: 煙鬼
+    affiliation: 雷禅の旧友
+    cv: 飯塚昭三
+    editor:
+      anime: { score: 93, note: 魔界統一トーナメントで黄泉と軀をともに破り、優勝した。 }
+  - id: mukuro
+    name: 軀
+    affiliation: 魔界三大妖怪
+    cv: 高山みなみ
+    editor:
+      anime: { score: 92, note: 魔界統一トーナメントで飛影を下したが、煙鬼に敗れた。 }
+  - id: yomi
+    name: 黄泉
+    affiliation: 魔界三大妖怪
+    cv: 江原正士
+    editor:
+      anime: { score: 92, note: 魔界統一トーナメントで幽助との長い打ち合いを制した。その消耗が残ったまま煙鬼に敗れた。 }
+  - id: yusuke
+    name: 浦飯幽助
+    affiliation: 霊界探偵／雷禅の子孫
+    cv: 佐々木望
+    editor:
+      anime: { score: 90, note: 暗黒武術会で100%の戸愚呂弟を倒した。魔族として覚醒した後、魔界統一トーナメントで黄泉に敗れた。 }
+  - id: sensui
+    name: 仙水忍
+    affiliation: 元霊界探偵
+    cv: 納谷六朗
+    editor:
+      anime: { score: 89, note: 聖光気をまとって幽助を一度殺した。魔族として蘇った幽助との再戦で、雷禅の意思に体を動かされた幽助の一撃に倒れた。 }
+  - id: toguro-younger
+    name: 戸愚呂（弟）
+    affiliation: 戸愚呂チーム
+    cv: 玄田哲章
+    editor:
+      anime: { score: 86, note: 暗黒武術会の決勝で100%の力を出して幽助と戦い、全力の霊丸を受けて敗れた。 }
+  - id: hiei
+    name: 飛影
+    affiliation: 浦飯チーム
+    cv: 檜山修之
+    editor:
+      anime: { score: 84, note: 暗黒武術会の決勝で武威を黒龍波で倒した。魔界では時雨と相討ちになり、魔界統一トーナメントで軀に敗れた。 }
+  - id: kurama
+    name: 蔵馬
+    affiliation: 浦飯チーム
+    cv: 緒方恵美
+    editor:
+      anime: { score: 83, note: 暗黒武術会の決勝では鴉に追い詰められ、10カウントを取られた。のちに再び現れた戸愚呂兄を邪念樹に閉じ込めた。 }
+  - id: karasu
+    name: 鴉
+    affiliation: 戸愚呂チーム
+    cv: 堀川亮
+    editor:
+      anime: { score: 78, note: 暗黒武術会の決勝で、妖気で作る見えない爆弾で蔵馬を追い詰め、10カウントを奪った。 }
+  - id: bui
+    name: 武威
+    affiliation: 戸愚呂チーム
+    cv: 金尾哲夫
+    editor:
+      anime: { score: 77, note: 暗黒武術会の決勝で飛影と戦い、黒龍波に敗れた。 }
+  - id: shigure
+    name: 時雨
+    affiliation: 軀の配下
+    cv: 谷口節
+    editor:
+      anime: { score: 76, note: 飛影に邪眼を移植した剣士。軀の下で飛影と戦い、相討ちになった。 }
+  - id: kuwabara
+    name: 桑原和真
+    affiliation: 浦飯チーム
+    cv: 千葉繁
+    editor:
+      anime: { score: 74, note: 暗黒武術会の決勝で戸愚呂兄を霊剣で倒した。仙水編では次元刀で空間そのものを斬れるようになった。 }
+  - id: genkai
+    name: 幻海
+    affiliation: 霊光波動拳の継承者
+    cv: 京田尚子
+    editor:
+      anime: { score: 72, note: 霊光波動拳を幽助に継がせた師。暗黒武術会のさなか、かつての仲間だった戸愚呂弟に敗れて命を落とした。 }
+  - id: chu
+    name: 酎
+    affiliation: 六遊怪チーム
+    cv: 若本規夫
+    editor:
+      anime: { score: 66, note: 暗黒武術会で幽助と酔拳の殴り合いを演じ、敗れた。 }
+  - id: jin
+    name: 陣
+    affiliation: 魔性使いチーム
+    cv: 山口勝平
+    editor:
+      anime: { score: 65, note: 暗黒武術会で風をまとう修羅旋風拳を使い、幽助に敗れた。 }
+  - id: toguro-elder
+    name: 戸愚呂（兄）
+    affiliation: 戸愚呂チーム
+    cv: 鈴木勝美
+    editor:
+      anime: { score: 62, note: 体を自在に変形させて戦う。暗黒武術会の決勝で桑原に敗れ、のちに蔵馬の邪念樹に囚われた。 }
+  - id: suzaku
+    name: 朱雀
+    affiliation: 四聖獣
+    cv: 飛田展男
+    editor:
+      anime: { score: 55, note: 四聖獣の長。分身と雷で幽助を苦しめたが敗れた。 }

@@ -1,0 +1,160 @@
+work: ONE PIECE
+title: ONE PIECE 最強キャラランキング
+description: ONE PIECEの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『エルバフ編』の放送済み範囲まで（2026年10月時点）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作最新刊（115巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: roger
+    name: ゴール・D・ロジャー
+    affiliation: 海賊王
+    editor:
+      anime: { score: 96, note: ワノ国編の回想で白ひげと互角に打ち合った。ガープと組んでロックスを倒したと語られる。 }
+      manga: { score: 96, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: shanks
+    name: シャンクス
+    affiliation: 四皇
+    cv: 池田秀一
+    editor:
+      anime: { score: 95, note: 頂上戦争を割って入って終わらせた。エルバフ近海では神避の一撃でキッドを倒した。 }
+      manga: { score: 95, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: luffy
+    name: モンキー・D・ルフィ
+    affiliation: 麦わらの一味 船長
+    cv: 田中真弓
+    editor:
+      anime: { score: 94, note: 鬼ヶ島でギア5に目覚め、カイドウに勝った。エッグヘッドでは黄猿と戦った。 }
+      manga: { score: 94, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: whitebeard
+    name: エドワード・ニューゲート
+    affiliation: 白ひげ海賊団 船長
+    editor:
+      anime: { score: 93, note: 頂上戦争で海軍本部を相手に暴れ続けた。黒ひげ一味の総攻撃を受け、立ったまま絶命した。 }
+      manga: { score: 93, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: kaido
+    name: カイドウ
+    affiliation: 四皇
+    cv: 玄田哲章
+    editor:
+      anime: { score: 92, note: 鬼ヶ島で最悪の世代をまとめて相手にした。最後はギア5のルフィに敗れた。 }
+      manga: { score: 92, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: blackbeard
+    name: マーシャル・D・ティーチ
+    affiliation: 四皇
+    cv: 大塚明夫
+    editor:
+      anime: { score: 90, note: 白ひげからグラグラの実の能力を奪い、ヤミヤミの実と両方を使う。ローとの戦いに勝った。 }
+      manga: { score: 90, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: big-mom
+    name: シャーロット・リンリン
+    affiliation: 四皇
+    cv: 小山茉美
+    editor:
+      anime: { score: 89, note: 打たれ強さで何度も戦況を覆した。鬼ヶ島でローとキッドの二人がかりに敗れた。 }
+      manga: { score: 89, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: garp
+    name: モンキー・D・ガープ
+    affiliation: 海軍中将
+    editor:
+      anime: { score: 89, note: ロジャーと組んでロックスを倒したと語られる。ハチノスで青雉と戦い、敗れた。 }
+      manga: { score: 89, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: akainu
+    name: サカズキ（赤犬）
+    affiliation: 海軍元帥
+    cv: 立木文彦
+    editor:
+      anime: { score: 88, note: 頂上戦争でエースを討ち、白ひげにも深手を負わせた。パンクハザードの決闘で青雉に勝った。 }
+      manga: { score: 88, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: mihawk
+    name: ジュラキュール・ミホーク
+    affiliation: 世界一の大剣豪
+    editor:
+      anime: { score: 88, note: 頂上戦争で白ひげ海賊団の隊長たちと斬り合った。シャンクスとはかつて決闘を繰り返したと語られる。 }
+      manga: { score: 88, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: kizaru
+    name: ボルサリーノ（黄猿）
+    affiliation: 海軍大将
+    editor:
+      anime: { score: 87, note: シャボンディ諸島で超新星たちを退けた。エッグヘッドではギア5のルフィと戦った。 }
+      manga: { score: 87, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: zoro
+    name: ロロノア・ゾロ
+    affiliation: 麦わらの一味 戦闘員
+    cv: 中井和哉
+    editor:
+      anime: { score: 86, note: 鬼ヶ島で百獣海賊団の大看板キングに勝った。 }
+      manga: { score: 86, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: aokiji
+    name: クザン（青雉）
+    affiliation: 元海軍大将
+    cv: 子安武人
+    editor:
+      anime: { score: 86, note: パンクハザードで赤犬と十日間戦い、敗れた。ハチノスではガープに勝った。 }
+      manga: { score: 86, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: marco
+    name: マルコ
+    affiliation: 元白ひげ海賊団 1番隊隊長
+    editor:
+      anime: { score: 83, note: 頂上戦争で黄猿を蹴り飛ばした。鬼ヶ島ではキングとクイーンを一人で足止めした。 }
+      manga: { score: 83, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: katakuri
+    name: シャーロット・カタクリ
+    affiliation: ビッグ・マム海賊団 スイート3将星
+    editor:
+      anime: { score: 82, note: 未来が見える見聞色を使う。ホールケーキアイランドでルフィとの一騎打ちに敗れた。 }
+      manga: { score: 82, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: law
+    name: トラファルガー・ロー
+    affiliation: ハートの海賊団 船長
+    cv: 神谷浩史
+    editor:
+      anime: { score: 80, note: 鬼ヶ島でキッドと組んでビッグ・マムを倒した。のちに黒ひげとの戦いに敗れた。 }
+      manga: { score: 80, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: sanji
+    name: サンジ
+    affiliation: 麦わらの一味 コック
+    cv: 平田広明
+    editor:
+      anime: { score: 79, note: 鬼ヶ島で大看板クイーンに勝った。 }
+      manga: { score: 79, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: kid
+    name: ユースタス・キッド
+    affiliation: キッド海賊団 船長
+    editor:
+      anime: { score: 77, note: 鬼ヶ島でローと組んでビッグ・マムを倒した。エルバフ近海でシャンクスに一撃で敗れた。 }
+      manga: { score: 77, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: doflamingo
+    name: ドンキホーテ・ドフラミンゴ
+    affiliation: 元王下七武海
+    cv: 田中秀幸
+    editor:
+      anime: { score: 74, note: 覚醒した糸の能力でドレスローザ全体を覆った。ギア4のルフィに敗れた。 }
+      manga: { score: 74, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: lucci
+    name: ロブ・ルッチ
+    affiliation: CP0
+    cv: 関智一
+    editor:
+      anime: { score: 70, note: エニエス・ロビーでギア2のルフィに敗れた。エッグヘッドでも麦わらの一味に止められた。 }
+      manga: { score: 70, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: crocodile
+    name: クロコダイル
+    affiliation: 元王下七武海
+    cv: 大友龍三郎
+    editor:
+      anime: { score: 64, note: アラバスタでルフィに敗れた。頂上戦争ではルフィを助けて海軍と戦った。 }
+      manga: { score: 64, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: enel
+    name: エネル
+    affiliation: 空島の神
+    editor:
+      anime: { score: 58, note: 雷の力で空島を支配した。ゴム人間のルフィには雷が効かず敗れた。 }
+      manga: { score: 58, note: 原作の最新刊まででも評価は据え置く。 }

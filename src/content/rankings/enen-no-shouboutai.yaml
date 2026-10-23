@@ -1,0 +1,120 @@
+work: 炎炎ノ消防隊
+title: 炎炎ノ消防隊 最強キャラランキング
+description: 炎炎ノ消防隊の最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ参ノ章（全25話）・原作（単行本全34巻）とも完結まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: shinra
+    name: 森羅日下部
+    affiliation: 第8特殊消防隊
+    cv: 梶原岳人
+    editor:
+      anime: { score: 97, note: 最終決戦でハウメアと対峙し、森羅万象マンとして地球を再生させ死者を蘇らせた。 }
+  - id: benimaru
+    name: 新門紅丸
+    affiliation: 第7特殊消防隊 大隊長
+    cv: 宮野真守
+    editor:
+      anime: { score: 94, note: 紅月で鬼の焔ビトを消し、日輪で火鉢のドッペルゲンガーを倒した。 }
+  - id: arthur
+    name: アーサー・ボイル
+    affiliation: 第8特殊消防隊
+    cv: 小林裕介
+    editor:
+      anime: { score: 93, note: ドラゴンに一度は完敗したが、3度目の戦いで捨て身の一撃を通して両断した。 }
+  - id: dragon
+    name: ドラゴン
+    affiliation: 伝導者一派
+    cv: 相沢まさき
+    editor:
+      anime: { score: 91, note: アーサーとの初戦は圧勝し、エクスカリバーを破壊した。3度目の戦いでアーサーに両断された。 }
+  - id: sho
+    name: 象日下部
+    affiliation: 灰焔騎士団 団長
+    cv: 坂本真綾
+    editor:
+      anime: { score: 90, note: アドラバーストを持つ灰焔騎士団の団長。シンラとの戦いで一時的に記憶を取り戻し、最終決戦ではシンラと並んでハウメアに挑んだ。 }
+  - id: haumea
+    name: ハウメア
+    affiliation: 伝導者一派
+    cv: 釘宮理恵
+    editor:
+      anime: { score: 89, note: アドラ空間ではシンラとショウの攻撃を受けつけず、インカとスミレを殺した。 }
+  - id: burns
+    name: レオナルド・バーンズ
+    affiliation: 第1特殊消防隊 大隊長
+    cv: 楠大典
+    editor:
+      anime: { score: 86, note: シンラとの戦いに敗れ、その成長を認めた。後にドッペルゲンガーに胸を貫かれて死亡した。 }
+  - id: kurono
+    name: 優一郎黒野
+    affiliation: 灰島重工
+    cv: 櫻井孝宏
+    editor:
+      anime: { score: 85, note: ナタクを巡って第8と戦った。終盤では自身のドッペルゲンガーと対峙した。 }
+  - id: joker
+    name: ジョーカー
+    affiliation: 謎の情報屋
+    cv: 津田健次郎
+    editor:
+      anime: { score: 84, note: 煙や砂から炎を生み出し、炎のカードを飛ばして戦う。裏からシンラに情報を渡し続けた。終盤では自身のドッペルゲンガーと対峙した。 }
+  - id: charon
+    name: カロン
+    affiliation: ハウメアの守リ人
+    cv: 安元洋貴
+    editor:
+      anime: { score: 82, note: 受けた攻撃の運動エネルギーを吸収し、熱に変えて放出する。天照の攻防戦でオグンを圧倒した。 }
+  - id: hibana
+    name: プリンセス火華
+    affiliation: 第5特殊消防隊 大隊長
+    cv: Lynn
+    editor:
+      anime: { score: 74, note: 周囲の温度を操って相手に熱失神を起こさせる。シンラは初戦で敗れた。 }
+  - id: karim
+    name: カリム・フラム
+    affiliation: 第1特殊消防隊 中隊長
+    cv: 興津和幸
+    editor:
+      anime: { score: 72, note: 炎の熱を音に変え、氷を生み出して戦う。 }
+  - id: hinawa
+    name: 武久火縄
+    affiliation: 第8特殊消防隊 中隊長
+    cv: 鈴村健一
+    editor:
+      anime: { score: 71, note: 撃ち出した弾丸の速度を操る。カロンにライフルの弾を耐えられた。 }
+  - id: obi
+    name: 秋樽桜備
+    affiliation: 第8特殊消防隊 大隊長
+    cv: 中井和哉
+    editor:
+      anime: { score: 68, note: 能力を持たず、鍛えた肉体と装備だけで焔ビトと戦う。 }
+  - id: rekka
+    name: 烈火星宮
+    affiliation: 第1特殊消防隊 中隊長
+    cv: 関智一
+    editor:
+      anime: { score: 66, note: 子供を焔ビトにする実験に手を染め、シンラとの戦いに敗れた。 }
+  - id: maki
+    name: 茉希尾瀬
+    affiliation: 第8特殊消防隊
+    cv: 上條沙恵子
+    editor:
+      anime: { score: 64, note: 炎を操る第二世代能力者で、軍出身の格闘術も備える。 }
+  - id: inca
+    name: 因果春日谷
+    affiliation: 伝導者一派
+    cv: 島袋美由利
+    editor:
+      anime: { score: 60, note: シンラに助けられたが、説得を振り切って伝導者一派に加わった。 }
+  - id: tamaki
+    name: 環古達
+    affiliation: 第8特殊消防隊
+    cv: 悠木碧
+    editor:
+      anime: { score: 58, note: 地下でアサルトに押されたが、体質とアイリスの不意打ちに助けられて勝った。 }

@@ -1,0 +1,105 @@
+work: モブサイコ100
+title: モブサイコ100 最強キャラランキング
+description: モブサイコ100の最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ第3期・原作（全101話、単行本全16巻）とも完結まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: mob
+    name: 影山茂夫（モブ）
+    affiliation: 塩中学校
+    cv: 伊藤節生
+    editor:
+      anime: { score: 99, note: 100%の状態で鈴木統一郎を下し、暴走したエネルギーも吸収した。精神世界では???%の状態で最上啓示に勝った。 }
+  - id: mogami
+    name: 最上啓示
+    affiliation: 悪霊（元霊能力者）
+    cv: 石田彰
+    editor:
+      anime: { score: 95, note: モブを精神世界に引きずり込んで追い込んだが、???%の状態のモブに敗れた。5超の峯岸を一方的に殺しかけた。 }
+  - id: toichiro
+    name: 鈴木統一郎
+    affiliation: 爪のボス
+    cv: 井上和彦
+    editor:
+      anime: { score: 93, note: 100%のモブに敗れ、暴走したエネルギーをモブに吸収された。 }
+  - id: serizawa
+    name: 芹沢克也
+    affiliation: 爪の幹部→霊とか相談所
+    cv: 星野貴紀
+    editor:
+      anime: { score: 87, note: ヨシフの煙を力ずくで砕いて勝ち、百鬼はモブと共に消し去った。統一郎が霊幻を殺そうとした場面では止めに入った。 }
+  - id: shimazaki
+    name: 島崎亮
+    affiliation: 爪の5超
+    cv: 杉山紀彰
+    editor:
+      anime: { score: 84, note: 瞬間移動で相手を翻弄する。怒ったモブの前からは逃げ出した。 }
+  - id: sho
+    name: 鈴木将
+    affiliation: 鈴木統一郎の息子
+    cv: 國立幸
+    editor:
+      anime: { score: 82, note: 第7支部で律を叩きのめし、調味文化タワーでは羽鳥を一瞬で倒した。モブには力が通じなかった。 }
+  - id: dimple
+    name: エクボ
+    affiliation: 上級悪霊
+    cv: 大塚明夫
+    editor:
+      anime: { score: 80, note: 人間に憑依して潜在能力を引き出す。神樹編ではモブと衝突した後に和解し、暴走した神樹からモブを助けて力尽きた。 }
+  - id: minegishi
+    name: 峯岸稔樹
+    affiliation: 爪の5超
+    cv: 小林裕介
+    editor:
+      anime: { score: 78, note: 植物を成長させて操り、モブと互角に渡り合った。封印が解けた最上に植物の制御を奪われた。 }
+  - id: teru
+    name: 花沢輝気（テル）
+    affiliation: 黒酢中学校
+    cv: 松岡禎丞
+    editor:
+      anime: { score: 76, note: モブとの対決では校舎ごと吹き飛ばされて敗れた。後にモブと組んで寺蛇を倒した。 }
+  - id: ritsu
+    name: 影山律
+    affiliation: モブの弟
+    cv: 入野自由
+    editor:
+      anime: { score: 74, note: 第7支部で鈴木将に敗れた。終盤では100%に達し、暴走したモブを止めようとした。 }
+  - id: koyama
+    name: 誇山恵
+    affiliation: 爪
+    cv: 三木眞一郎
+    editor:
+      anime: { score: 72, note: モブに圧倒されて退き、再戦でも一瞬で倒された。 }
+  - id: terada
+    name: 寺蛇梵児
+    affiliation: 爪
+    cv: 立木文彦
+    editor:
+      anime: { score: 68, note: モブとテルの二人がかりに敗れた。 }
+  - id: joseph
+    name: ヨシフ
+    affiliation: 超能力者
+    editor:
+      anime: { score: 65, note: 煙を鋼鉄並みに固めて相手を閉じ込めるが、芹沢に力ずくで砕かれて敗れた。 }
+  - id: ishiguro
+    name: 遺志黒獏膳
+    affiliation: 爪
+    editor:
+      anime: { score: 62, note: 重力の塊で周りの物を引き寄せる。霊幻の言葉に心を折られ、鈴木将に制裁された。 }
+  - id: hatori
+    name: 羽鳥希
+    affiliation: 超能力者
+    editor:
+      anime: { score: 57, note: 電子機器や電波を操る。調味文化タワーで鈴木将に背後を取られ、一瞬で倒された。 }
+  - id: reigen
+    name: 霊幻新隆
+    affiliation: 霊とか相談所
+    cv: 櫻井孝宏
+    editor:
+      anime: { score: 52, note: 超能力を持たない。第7支部編ではモブから一時的に全ての超能力を引き渡された。 }

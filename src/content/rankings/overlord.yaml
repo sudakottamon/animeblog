@@ -1,0 +1,145 @@
+work: オーバーロード
+title: オーバーロード 最強キャラランキング
+description: オーバーロードの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第4期と劇場版「聖王国編」まで（書籍版14巻相当まで）
+  - id: novel
+    label: 原作（小説）勢
+    range: 書籍版の最新刊（16巻「半森妖精の神人［下］」）まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: ainz
+    name: アインズ・ウール・ゴウン
+    affiliation: ナザリック地下大墳墓 支配者
+    cv: 日野聡
+    editor:
+      anime: { score: 98, note: 精神支配されたシャルティアに準備と読み合いで勝った。カッツェ平野では超位魔法で王国軍を壊滅させた。 }
+      novel: { score: 98, note: 16巻ではエルフ王に手の内を出し切らせ、力の差を見せた。 }
+  - id: shalltear
+    name: シャルティア・ブラッドフォールン
+    affiliation: 第一～第三階層守護者
+    cv: 上坂すみれ
+    editor:
+      anime: { score: 94, note: ブレインの剣を指先で止めた。精神支配を受けてアインズと戦い、敗れた。 }
+      novel: { score: 94, note: 原作で評価を変える材料はない。 }
+  - id: albedo
+    name: アルベド
+    affiliation: 守護者統括
+    cv: 原由実
+    editor:
+      anime: { score: 90, note: 防御に特化した守護者統括。アニメでは本気の戦闘はほとんど描かれていない。 }
+      novel: { score: 90, note: 原作で評価を変える材料はない。 }
+  - id: mare
+    name: マーレ・ベロ・フィオーレ
+    affiliation: 第六階層守護者
+    cv: 内山夕実
+    editor:
+      anime: { score: 87, note: 地形ごと動かす広範囲の魔法を使う階層守護者。アニメでは本気を出す相手がいない。 }
+      novel: { score: 90, note: 絶死絶命との一騎打ちで、切り札への対策を用意したうえで勝った。 }
+  - id: cocytus
+    name: コキュートス
+    affiliation: 第五階層守護者
+    cv: 三宅健太
+    editor:
+      anime: { score: 88, note: リザードマンの集落を攻め、ザリュースたちを一人で退けた。 }
+      novel: { score: 88, note: 原作で評価を変える材料はない。 }
+  - id: aura
+    name: アウラ・ベラ・フィオーラ
+    affiliation: 第六階層守護者
+    cv: 加藤英美里
+    editor:
+      anime: { score: 86, note: 魔獣を使役する階層守護者。アニメでは本気を出す相手がいない。 }
+      novel: { score: 86, note: 原作で評価を変える材料はない。 }
+  - id: antilene
+    name: 番外席次「絶死絶命」
+    affiliation: 漆黒聖典
+    appears: novel
+    editor:
+      novel: { score: 85, note: スレイン法国の切り札。マーレとの戦いで切り札を封じられ、押し切られた。 }
+  - id: demiurge
+    name: デミウルゴス
+    affiliation: 第七階層守護者
+    cv: 加藤将之
+    editor:
+      anime: { score: 84, note: ヤルダバオトを名乗って王都を襲い、イビルアイを退けた。聖王国でも同じ姿で暗躍した。 }
+      novel: { score: 84, note: 原作で評価を変える材料はない。 }
+  - id: pandoras-actor
+    name: パンドラズ・アクター
+    affiliation: 宝物殿領域守護者
+    cv: 宮野真守
+    editor:
+      anime: { score: 83, note: 至高の41人の姿と能力を写し取れる。モモンの代役も務めた。 }
+      novel: { score: 83, note: 原作で評価を変える材料はない。 }
+  - id: sebas
+    name: セバス・チャン
+    affiliation: 執事
+    cv: 千葉繁
+    editor:
+      anime: { score: 82, note: 王都で六腕のゼロを一撃で倒した。 }
+      novel: { score: 82, note: 原作で評価を変える材料はない。 }
+  - id: decem
+    name: デケム・ホウガン
+    affiliation: エルフ王
+    appears: novel
+    editor:
+      novel: { score: 80, note: 第十位階魔法を使うエルフの王。アインズに手の内を出し切らされたうえで敗れた。 }
+  - id: evileye
+    name: イビルアイ
+    affiliation: 蒼の薔薇
+    cv: 花守ゆみり
+    editor:
+      anime: { score: 72, note: 王都でエントマを追い詰めたが、ヤルダバオトには及ばなかった。 }
+      novel: { score: 72, note: 原作で評価を変える材料はない。 }
+  - id: gazef
+    name: ガゼフ・ストロノーフ
+    affiliation: リ・エスティーゼ王国 戦士長
+    cv: 白熊寛嗣
+    editor:
+      anime: { score: 70, note: 王国最強の戦士。カッツェ平野でアインズに一騎打ちを挑み、敗れた。 }
+      novel: { score: 70, note: 退場後に評価が動くことはない。 }
+  - id: go-gin
+    name: 武王
+    affiliation: バハルス帝国 闘技場
+    editor:
+      anime: { score: 68, note: 帝国闘技場の頂点に立つ戦士。アインズとの試合で全力を出して敗れた。 }
+      novel: { score: 68, note: 原作で評価を変える材料はない。 }
+  - id: brain
+    name: ブレイン・アングラウス
+    affiliation: 剣士
+    cv: 遊佐浩二
+    editor:
+      anime: { score: 65, note: シャルティアに剣技がまったく通じず、一度は心を折られた。 }
+      novel: { score: 65, note: 原作で評価を変える材料はない。 }
+  - id: fluder
+    name: フールーダ・パラダイン
+    affiliation: バハルス帝国 主席宮廷魔法使い
+    cv: 土師孝也
+    editor:
+      anime: { score: 63, note: 第六位階魔法を使う帝国の大魔法詠唱者。アインズの力を見て弟子入りを願い出た。 }
+      novel: { score: 63, note: 原作で評価を変える材料はない。 }
+  - id: remedios
+    name: レメディオス・カストディオ
+    affiliation: ローブル聖王国 聖騎士団長
+    cv: 生天目仁美
+    editor:
+      anime: { score: 60, note: 聖王国の聖騎士団長。ヤルダバオトの侵攻から聖王国を守り切れなかった。 }
+      novel: { score: 60, note: 原作で評価を変える材料はない。 }
+  - id: neia
+    name: ネイア・バラハ
+    affiliation: 聖騎士見習い
+    cv: 青山吉能
+    editor:
+      anime: { score: 52, note: 弓の扱いにたけた従者。聖王国の戦いでアインズに同行し、魔導王の信奉者になった。 }
+      novel: { score: 52, note: 原作で評価を変える材料はない。 }
+  - id: climb
+    name: クライム
+    affiliation: ラナー王女の兵士
+    cv: 逢坂良太
+    editor:
+      anime: { score: 40, note: ラナー王女に仕える兵士。努力で腕を上げてきたが、上位陣との差は大きい。 }
+      novel: { score: 40, note: 原作で評価を変える材料はない。 }

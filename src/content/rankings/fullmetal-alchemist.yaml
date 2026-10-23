@@ -1,0 +1,120 @@
+work: 鋼の錬金術師
+title: 鋼の錬金術師 最強キャラランキング
+description: 鋼の錬金術師の最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ『鋼の錬金術師 FULLMETAL ALCHEMIST』（全64話）・原作（単行本全27巻）とも完結まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: father
+    name: お父様
+    affiliation: ホムンクルスの創造主
+    cv: 家弓家正
+    editor:
+      anime: { score: 98, note: 約束の日に国土錬成陣で「神」を取り込んだ。全員がかりで賢者の石を削り切られ、最後はエドに倒された。 }
+  - id: hohenheim
+    name: ヴァン・ホーエンハイム
+    affiliation: エルリック兄弟の父
+    cv: 石塚運昇
+    editor:
+      anime: { score: 93, note: 体内に約53万人分の賢者の石を持つ。国中に仕込んだ逆転の錬成陣で、お父様に奪われた国民の魂を取り戻させた。 }
+  - id: bradley
+    name: キング・ブラッドレイ
+    affiliation: アメストリス大総統／ホムンクルス（憤怒）
+    cv: 柴田秀勝
+    editor:
+      anime: { score: 91, note: 最強の眼でグリードを倒し、約束の日には戦車部隊を剣だけで切り伏せた。最後はスカーとの戦いで倒れた。 }
+  - id: pride
+    name: プライド
+    affiliation: ホムンクルス（傲慢）
+    cv: 三瓶由布子
+    editor:
+      anime: { score: 87, note: 影を伸ばして周囲を一瞬で切り刻み、他人の体を乗っ取ることもできる。最後はエドに体内へ乗り込まれて敗れた。 }
+  - id: mustang
+    name: ロイ・マスタング
+    affiliation: 国家錬金術師「焔の錬金術師」
+    cv: 三木眞一郎
+    editor:
+      anime: { score: 86, note: 焔の錬金術でラストを再生が尽きるまで焼き、エンヴィーも同じように追い詰めた。 }
+  - id: greed
+    name: グリード
+    affiliation: ホムンクルス（強欲）
+    cv: 中村悠一
+    editor:
+      anime: { score: 84, note: 体の炭素を硬化させる「最強の盾」。最後はお父様の体を脆い炭素に変え、決着の糸口を作った。 }
+  - id: scar
+    name: スカー
+    affiliation: イシュヴァール人の復讐者
+    cv: 三宅健太
+    editor:
+      anime: { score: 84, note: 破壊の錬金術で国家錬金術師を次々に倒した。約束の日にはブラッドレイとの死闘を制した。 }
+  - id: edward
+    name: エドワード・エルリック
+    affiliation: 国家錬金術師「鋼の錬金術師」
+    cv: 朴璐美
+    editor:
+      anime: { score: 83, note: 右腕を取り戻してお父様に最後の一撃を入れ、自分の真理の扉と引き換えにアルの体を取り戻した。 }
+  - id: sloth
+    name: スロウス
+    affiliation: ホムンクルス（怠惰）
+    cv: 立木文彦
+    editor:
+      anime: { score: 78, note: ホムンクルス最速の突進を持つ。約束の日にアームストロング姉弟やイズミたちを相手に長く粘り、最後はアレックスに倒された。 }
+  - id: izumi
+    name: イズミ・カーティス
+    affiliation: エルリック兄弟の師匠
+    cv: 津田匠子
+    editor:
+      anime: { score: 77, note: 錬成陣なしの錬金術と格闘で兄弟を鍛えた。約束の日にはアームストロング姉弟とともにスロウスを倒した。 }
+  - id: lust
+    name: ラスト
+    affiliation: ホムンクルス（色欲）
+    cv: 井上喜久子
+    editor:
+      anime: { score: 76, note: 伸びる爪は「最強の矛」と呼ばれ、ハボックに重傷を負わせた。マスタングの焔で再生が尽きるまで焼かれた。 }
+  - id: armstrong
+    name: アレックス・ルイ・アームストロング
+    affiliation: 国家錬金術師「豪腕の錬金術師」
+    cv: 内海賢二
+    editor:
+      anime: { score: 75, note: 錬金術と格闘を合わせた肉弾戦が武器。約束の日にスロウスにとどめを刺した。 }
+  - id: kimblee
+    name: ゾルフ・J・キンブリー
+    affiliation: 国家錬金術師「紅蓮の錬金術師」
+    cv: 吉野裕行
+    editor:
+      anime: { score: 74, note: 触れた物を爆弾に変える錬金術を、賢者の石で連発する。イシュヴァール殲滅戦で多くの命を奪った。 }
+  - id: alphonse
+    name: アルフォンス・エルリック
+    affiliation: エドの弟
+    cv: 釘宮理恵
+    editor:
+      anime: { score: 72, note: 鎧の体で戦い続け、約束の日には自分の魂と引き換えにエドの右腕を取り戻させた。 }
+  - id: olivier
+    name: オリヴィエ・ミラ・アームストロング
+    affiliation: ブリッグズ要塞司令官
+    cv: 沢海陽子
+    editor:
+      anime: { score: 70, note: ブリッグズ兵を率いる剣の使い手。約束の日にはスロウス戦に加わった。 }
+  - id: envy
+    name: エンヴィー
+    affiliation: ホムンクルス（嫉妬）
+    cv: 高山みなみ
+    editor:
+      anime: { score: 68, note: 変身と巨大な本来の姿で戦う。マスタングに焔で焼かれ続けて追い詰められた。 }
+  - id: hawkeye
+    name: リザ・ホークアイ
+    affiliation: マスタングの副官
+    cv: 折笠富美子
+    editor:
+      anime: { score: 60, note: 銃の名手で、錬金術は使わない。約束の日には視力を失ったマスタングの目となって攻撃を導いた。 }
+  - id: gluttony
+    name: グラトニー
+    affiliation: ホムンクルス（暴食）
+    cv: 白鳥哲
+    editor:
+      anime: { score: 58, note: 腹の中の疑似・真理の扉でエドとリンたちをまとめて飲み込んだ。最後はプライドに取り込まれた。 }

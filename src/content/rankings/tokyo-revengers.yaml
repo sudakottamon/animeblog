@@ -1,0 +1,126 @@
+work: 東京卍リベンジャーズ
+title: 東京卍リベンジャーズ 最強キャラランキング
+description: 東京卍リベンジャーズの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第3期『天竺編』まで（2026年10月から放送中の『三天戦争編』は含まない）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全31巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: sano
+    name: 佐野万次郎（マイキー）
+    affiliation: 東京卍會 総長
+    cv: 林勇
+    editor:
+      anime: { score: 96, note: 愛美愛主の長内、血のハロウィンの半間、聖夜決戦の柴大寿をいずれも一撃で沈めた。関東事変ではイザナとの総長戦を制した。 }
+      manga: { score: 98, note: 三天戦争では黒い衝動に飲まれ、鶴蝶を瞬殺し寺野南を殴り殺した。最終決戦でも半間と三途を一瞬で倒した。 }
+  - id: kurokawa
+    name: 黒川イザナ
+    affiliation: 天竺 総長
+    cv: 島﨑信長
+    editor:
+      anime: { score: 92, note: 「世代最強」と呼ばれる。ぺーやんを一蹴りで倒し、マイキーとの総長戦でも一度は動きを見切った。 }
+      manga: { score: 91, note: 関東事変で退場。原作で評価を変える材料はない。 }
+  - id: ryuguji
+    name: 龍宮寺堅（ドラケン）
+    affiliation: 東京卍會 副総長
+    editor:
+      anime: { score: 88, note: 血のハロウィンで半間と渡り合い、聖夜決戦では外にいた兵隊100人を一人で片づけた。 }
+      manga: { score: 86, note: 三天戦争の時期に寺野南と喧嘩になり、一方的に痛めつけられながらも寺野を宙に浮かせるほど食い下がった。 }
+  - id: baji
+    name: 場地圭介
+    affiliation: 東京卍會 壱番隊隊長
+    cv: 水中雅章
+    editor:
+      anime: { score: 84, note: 血のハロウィンで50人を一人で倒し、稀咲に迫ったところで一虎に刺された。 }
+      manga: { score: 84, note: 退場後に評価が動くことはない。 }
+  - id: kakucho
+    name: 鶴蝶
+    affiliation: 天竺 四天王
+    cv: 山下誠一郎
+    editor:
+      anime: { score: 83, note: 「喧嘩屋」の異名を持ち、関東事変では武道を一方的に痛めつけた。 }
+      manga: { score: 81, note: 三天戦争では黒い衝動のマイキーに瞬殺された。寺野南にも屈服させられている。 }
+  - id: shiba-taiju
+    name: 柴大寿
+    affiliation: 黒龍 十代目総長
+    cv: 杉田智和
+    editor:
+      anime: { score: 82, note: 聖夜決戦で三ツ谷や武道たちを相手に暴れた。最後はマイキーの一蹴りで沈んだ。 }
+      manga: { score: 82, note: 最終決戦では相手の技を両手で受け止め、頭を地面に叩きつけて勝った。 }
+  - id: hanma
+    name: 半間修二
+    affiliation: 芭流覇羅 副総長
+    cv: 江口拓也
+    editor:
+      anime: { score: 80, note: 「歌舞伎町の死神」と呼ばれ、ドラケンと渡り合える。マイキーの蹴りを一度受け止めたが、血のハロウィンでは一撃で倒された。 }
+      manga: { score: 80, note: 最終決戦では東卍の幹部格を一人で一掃した。黒い衝動のマイキーには一撃で倒された。 }
+  - id: mitsuya
+    name: 三ツ谷隆
+    affiliation: 東京卍會 弐番隊隊長
+    cv: 松岡禎丞
+    editor:
+      anime: { score: 75, note: 聖夜決戦で大寿と張り合ったが、乾の不意打ちでほぼ戦えなくなった。 }
+      manga: { score: 77, note: 最終決戦では灰谷兄弟の策にはまりかけたが、罠を張って奇襲し勝った。 }
+  - id: hanemiya
+    name: 羽宮一虎
+    affiliation: 芭流覇羅（東卍の創設メンバー）
+    cv: 土岐隼一
+    editor:
+      anime: { score: 72, note: 血のハロウィンでマイキーを追い詰めたが、一蹴りで気絶させられた。 }
+      manga: { score: 72, note: 原作で評価を変える材料はない。 }
+  - id: haitani-ran
+    name: 灰谷蘭
+    affiliation: 天竺 幹部
+    cv: 浪川大輔
+    editor:
+      anime: { score: 70, note: 警棒などの武器を使う。関東事変の前に三ツ谷を不意打ちして倒した。 }
+      manga: { score: 70, note: 最終決戦では三ツ谷と八戒に敗れた。 }
+  - id: hayashi
+    name: 林良平（ぺーやん）
+    affiliation: 東京卍會
+    cv: 野津山幸宏
+    editor:
+      anime: { score: 62, note: 関東事変の魁戦で斑目獅音を一発で倒した。直後にイザナの一蹴りで沈んだ。 }
+      manga: { score: 62, note: 原作で評価を変える材料はない。 }
+  - id: hanagaki
+    name: 花垣武道
+    affiliation: 東京卍會 壱番隊隊長
+    cv: 新祐樹
+    editor:
+      anime: { score: 55, note: 喧嘩は弱いが、聖夜決戦で大寿に膝をつかせた。鶴蝶に痛めつけられても倒れなかった。 }
+      manga: { score: 68, note: 最終決戦では黒い衝動のマイキーを相手に善戦した。 }
+  - id: kisaki
+    name: 稀咲鉄太
+    affiliation: 東京卍會・天竺の参謀
+    cv: 森久保祥太郎
+    editor:
+      anime: { score: 35, note: 喧嘩は弱く、東卍や天竺を裏で動かす策略が武器。 }
+      manga: { score: 35, note: 退場後に評価が動くことはない。 }
+  - id: terano
+    name: 寺野南（サウス）
+    affiliation: 六破羅単代 総代
+    cv: 安元洋貴
+    appears: manga
+    editor:
+      manga: { score: 90, note: ドラケンを一方的に痛めつけ、鶴蝶も屈服させた。三天戦争で黒い衝動のマイキーに殴り殺された。 }
+  - id: kawaragi
+    name: 瓦城千咒
+    affiliation: 梵のトップ
+    cv: 伊瀬茉莉也
+    appears: manga
+    editor:
+      manga: { score: 86, note: 寺野南と一進一退の激闘を演じ、体格で勝る寺野を一蹴りでダウンさせた。黒い衝動のマイキーを見て戦意を失った。 }
+  - id: sanzu
+    name: 三途春千夜
+    affiliation: 関東卍會
+    cv: 岡本信彦
+    appears: manga
+    editor:
+      manga: { score: 77, note: 刀を使って戦う。最終決戦では鶴蝶に深手を負わせたが、黒い衝動のマイキーには一瞬で倒された。 }

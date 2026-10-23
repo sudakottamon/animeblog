@@ -1,0 +1,116 @@
+work: 怪獣8号
+title: 怪獣8号 最強キャラランキング
+description: 怪獣8号の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（最終話「第2波」）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全16巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kaiju-no-9
+    name: 怪獣9号
+    affiliation: 識別怪獣
+    cv: 吉野裕行
+    editor:
+      anime: { score: 93, note: 四ノ宮功を倒して取り込み、カフカと鳴海の二人がかりからも逃げ切った。 }
+      manga: { score: 92, note: ミナを取り込みかけたが、カフカとミナに核を砕かれた。 }
+  - id: hibino
+    name: 日比野カフカ
+    affiliation: 防衛隊 第3部隊
+    cv: 福西勝也
+    editor:
+      anime: { score: 91, note: 立川基地で怪獣の群れが合体した爆弾を空へ殴り飛ばした。暴走した時には四ノ宮功も押し返した。 }
+      manga: { score: 97, note: 怪獣8号との完全な同化を選び、9号の中から現れた明暦の大怪獣に最後の一撃を入れた。 }
+  - id: narumi
+    name: 鳴海弦
+    affiliation: 防衛隊 第1部隊 隊長
+    cv: 内山昂輝
+    editor:
+      anime: { score: 90, note: ナンバーズ1で怪獣9号の変異体を倒し、カフカと組んで9号本体にも挑んだ。 }
+      manga: { score: 91, note: 四ノ宮功の記憶を持つ怪獣11号を倒し、明暦の大怪獣とも交戦した。 }
+  - id: shinomiya-isao
+    name: 四ノ宮功
+    affiliation: 防衛隊 長官
+    cv: 玄田哲章
+    editor:
+      anime: { score: 88, note: ナンバーズ2で怪獣9号をあと一歩まで追い込んだが、最後は取り込まれた。 }
+      manga: { score: 86, note: 退場後に評価が動くことはない。 }
+  - id: ashiro
+    name: 亜白ミナ
+    affiliation: 防衛隊 第3部隊 隊長
+    cv: 瀬戸麻沙美
+    editor:
+      anime: { score: 87, note: 怪獣10号の核を砲撃で半壊させた。第2期最終話でもカフカの小隊を狙う巨大怪獣を撃ち抜いた。 }
+      manga: { score: 89, note: カフカと組んで9号の核を露出させ、明暦の大怪獣にも大きな傷を与えた。 }
+  - id: hoshina
+    name: 保科宗四郎
+    affiliation: 防衛隊 第3部隊 副隊長
+    cv: 河西健吾
+    editor:
+      anime: { score: 84, note: 立川基地で怪獣10号の全身を切り裂いた。第2期では10号の兵器を使って飛行場を取り返した。 }
+      manga: { score: 88, note: ナンバーズ10の力を100%まで引き出し、重傷を負いながら怪獣12号を討った。 }
+  - id: kaiju-no-10
+    name: 怪獣10号
+    affiliation: 識別怪獣（のちに保科の兵器）
+    cv: 三宅健太
+    editor:
+      anime: { score: 80, note: 立川基地を襲撃し、保科と斬り合った。巨大化して保科を追い詰めたが、ミナの砲撃で止まった。 }
+      manga: { score: 80, note: 原作でも保科の兵器として戦い続けた。 }
+  - id: shinomiya-kikoru
+    name: 四ノ宮キコル
+    affiliation: 防衛隊
+    cv: ファイルーズあい
+    editor:
+      anime: { score: 76, note: 蟻型怪獣の群れを一人で片づけた。第2期終盤には母の専用武器ナンバーズ4を使い始めた。 }
+      manga: { score: 86, note: 精神攻撃をはねのけて怪獣15号を倒した。明暦の大怪獣戦にも加わった。 }
+  - id: ichikawa
+    name: 市川レノ
+    affiliation: 防衛隊 第3部隊
+    cv: 加藤渉
+    editor:
+      anime: { score: 70, note: ナンバーズ6に適合し、本体の核を撃ち抜いた。ただし負荷に飲まれて凍りつく場面もあった。 }
+      manga: { score: 75, note: 9号に取り込まれかけたミナの救出で、同期とともに援護に回った。 }
+  - id: furuhashi
+    name: 古橋伊春
+    affiliation: 防衛隊 第3部隊
+    cv: 新祐樹
+    editor:
+      anime: { score: 60, note: 氷に閉じこもったレノのもとへ突入し、抱えて連れ戻した。 }
+      manga: { score: 62, note: ミナ救出ではレノたちと援護に回った。 }
+  - id: shinonome
+    name: 東雲りん
+    affiliation: 防衛隊
+    cv: 花澤香菜
+    editor:
+      anime: { score: 52, note: 第2期最終話で怪獣13号に追い詰められ、カフカに救われた。 }
+      manga: { score: 52, note: 原作で評価を変える材料はない。 }
+  - id: meireki
+    name: 明暦の大怪獣
+    affiliation: 大怪獣
+    appears: manga
+    editor:
+      manga: { score: 96, note: 砕かれた9号の核の中から現れ、カフカの生体反応を一度消した。最後は完全体のカフカに討たれた。 }
+  - id: kaiju-no-12
+    name: 怪獣12号
+    affiliation: 識別怪獣
+    appears: manga
+    editor:
+      manga: { score: 81, note: 保科に重傷を負わせた。最後はナンバーズ10の力を引き出した保科に討たれた。 }
+  - id: kaiju-no-11
+    name: 怪獣11号
+    affiliation: 識別怪獣
+    appears: manga
+    editor:
+      manga: { score: 78, note: 四ノ宮功の記憶を持つ個体。鳴海に倒された。 }
+  - id: kaiju-no-15
+    name: 怪獣15号
+    affiliation: 識別怪獣
+    appears: manga
+    editor:
+      manga: { score: 74, note: キコルに精神攻撃を仕掛けて一時は押したが、はねのけられて倒された。 }

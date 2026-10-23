@@ -1,0 +1,134 @@
+work: ダンダダン
+title: ダンダダン 最強キャラランキング
+description: ダンダダンの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（第24話「激突！宇宙怪獣対巨大ロボ！」）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の単行本既刊25巻（2026年9月時点）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: jashi
+    name: 邪視
+    affiliation: ジジに取り憑いた山の怪
+    cv: 田村睦心
+    editor:
+      anime: { score: 90, note: 眼の力はモンゴリアンデスワームの念波に引けを取らない。修行を積んだオカルンとも決着がつかなかった。 }
+      manga: { score: 88, note: ジジと入れ替わってオカルンを襲う場面が続き、侵略者との戦いの最中にも割り込んできた。 }
+  - id: seiko
+    name: 綾瀬星子
+    affiliation: 霊媒師
+    cv: 水樹奈々
+    editor:
+      anime: { score: 85, note: 結界術でターボババアを撃退した。自分の町の外では力を発揮できない制約がある。 }
+      manga: { score: 85, note: カシマレイコは星子でも倒せておらず、手に負えない怪異がいることが示された。 }
+  - id: okarun
+    name: オカルン（高倉健）
+    affiliation: 高校1年
+    cv: 花江夏樹
+    editor:
+      anime: { score: 82, note: ターボババアの力で高速戦闘をこなす。修行の成果で邪視化したジジと対等に戦ったが、倒しきれなかった。 }
+      manga: { score: 88, note: 深淵の者には瀕死に追い込まれたが、メルヘンカルタ戦では同時攻撃に加わって勝利をつかんだ。 }
+  - id: momo
+    name: 綾瀬桃
+    affiliation: 高校1年
+    cv: 若山詩音
+    editor:
+      anime: { score: 83, note: 念動力でモンゴリアンデスワームを地上に引きずり出し、太陽光に当てて退治した。 }
+      manga: { score: 86, note: 深淵の者との戦いでモエモエ気功砲を会得した。 }
+  - id: turbo-granny
+    name: ターボババア
+    affiliation: 招き猫に封じられた妖怪
+    cv: 田中真弓
+    editor:
+      anime: { score: 81, note: オカルンの体の一部を奪って呪い、地縛霊を使ってモモたちを追い詰めた。最後は星子の結界術で撃退された。 }
+      manga: { score: 79, note: 力の大半はオカルンの中にあり、本人は招き猫の姿で助言役に回っている。 }
+  - id: death-worm
+    name: モンゴリアンデスワーム（大蛇様）
+    affiliation: 鬼頭家が育てた怪物
+    editor:
+      anime: { score: 80, note: 念波で人を自殺に追い込む。地底生物のため太陽光に弱く、モモに地上へ出されて退治された。 }
+      manga: { score: 77, note: 原作で評価を変える材料はない。 }
+  - id: acrobatic-silky
+    name: アクロバティックさらさら
+    affiliation: 妖怪
+    cv: 井上喜久子
+    editor:
+      anime: { score: 76, note: アイラを自分の娘と思い込んで狙い、瀕死に追い込んだ。 }
+      manga: { score: 72, note: 原作で評価を変える材料はない。 }
+  - id: serpo
+    name: セルポ星人
+    affiliation: 宇宙人
+    cv: 中井和哉
+    editor:
+      anime: { score: 74, note: 第1話でモモを誘拐した。六根と呼ばれる念能力を使う。 }
+      manga: { score: 78, note: メルヘンカルタ戦ではオカルンたちとの同時攻撃に加わった。 }
+  - id: aira
+    name: 白鳥愛羅（アイラ）
+    affiliation: 高校1年
+    cv: 佐倉綾音
+    editor:
+      anime: { score: 72, note: アクロバティックさらさらの能力を引き継ぎ、髪を操って戦う。宇宙怪獣戦では巨大ロボの戦いに加わった。 }
+      manga: { score: 79, note: 深淵の者との戦いでピルエット・おドリルを使い、敵のアーマーを砕いた。 }
+  - id: dover-demon
+    name: ドーバーデーモン
+    affiliation: セルポ星人に雇われたシャコ星人
+    cv: 関智一
+    editor:
+      anime: { score: 70, note: 変身するとパンチ力が24倍になる。ただし変身は24秒しか持たない。 }
+      manga: { score: 70, note: 原作ではオカルンたちの助っ人に回る。評価を変える材料はない。 }
+  - id: kinta
+    name: 坂田金太
+    affiliation: 高校1年
+    cv: 藤原大智
+    editor:
+      anime: { score: 62, note: 本人の身体能力は低いが、ナノスキンで組んだ巨大ロボを操縦して宇宙怪獣と戦った。 }
+      manga: { score: 63, note: 原作で評価を変える材料はない。 }
+  - id: kito-naki
+    name: 鬼頭ナキ
+    affiliation: 鬼頭家
+    cv: 磯辺万沙子
+    editor:
+      anime: { score: 56, note: モンゴリアンデスワームを200年育てた地底人。本人の戦闘力を示す場面は少ない。 }
+      manga: { score: 55, note: 原作で評価を変える材料はない。 }
+  - id: saint-germain
+    name: サンジェルマン伯爵
+    affiliation: 謎の人物
+    appears: manga
+    editor:
+      manga: { score: 94, note: メルヘンカルタ戦に加わって形勢を逆転させた。怪異の力を奪う能力を持つ。 }
+  - id: kur
+    name: 深淵の者（クル）
+    affiliation: 侵略者
+    appears: manga
+    editor:
+      manga: { score: 90, note: オカルンを瀕死まで追い込んだ。モモとアイラは新技を出してようやくアーマーを砕いた。 }
+  - id: kashima-reiko
+    name: カシマレイコ
+    affiliation: 怪異
+    appears: manga
+    editor:
+      manga: { score: 87, note: 相手を鏡に閉じ込める。星子でも倒せていない。 }
+  - id: marchen-karuta
+    name: メルヘンカルタ
+    affiliation: 怪異
+    appears: manga
+    editor:
+      manga: { score: 86, note: オカルンたちを箱に閉じ込め、洗脳したズマで翻弄した。最後はズマ・オカルン・サンジェルマン伯爵・セルポ星人の同時攻撃に敗れた。 }
+  - id: zuma
+    name: ズマ（頭間雲児）
+    affiliation: 唐傘の怪異の力を持つ少年
+    appears: manga
+    editor:
+      manga: { score: 82, note: メルヘンカルタに洗脳されてモモたちを翻弄した。洗脳が解けた後は同時攻撃に加わって勝利した。 }
+  - id: vamola
+    name: バモラ
+    affiliation: 宇宙から来た少女
+    appears: manga
+    editor:
+      manga: { score: 80, note: 怪獣スーツで巨大化・透明化・コピーを使い分ける。外宇宙の侵略者との戦いではスーツを奪われて窮地に立った。 }

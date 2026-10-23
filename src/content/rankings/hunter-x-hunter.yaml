@@ -1,0 +1,156 @@
+work: HUNTER×HUNTER
+title: HUNTER×HUNTER 最強キャラランキング
+description: HUNTER×HUNTERの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（2011年版）全148話・会長選挙編まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作最新刊（39巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: meruem
+    name: メルエム
+    affiliation: キメラアントの王
+    cv: 内山昂輝
+    editor:
+      anime: { score: 99, note: ネテロの百式観音を受けきって会長を下した。貧者の薔薇の毒で命を落とした。 }
+      manga: { score: 99, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: netero
+    name: アイザック=ネテロ
+    affiliation: ハンター協会 会長
+    editor:
+      anime: { score: 93, note: 百式観音の零の掌でもメルエムを倒しきれなかった。最後は体内の貧者の薔薇で王を道連れにした。 }
+      manga: { score: 93, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: pitou
+    name: ネフェルピトー
+    affiliation: 王直属護衛軍
+    cv: 藤村歩
+    editor:
+      anime: { score: 90, note: カイトの腕を一撃で落として倒した。最後は大人の姿になったゴンに倒された。 }
+      manga: { score: 90, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: gon
+    name: ゴン=フリークス
+    affiliation: ハンター
+    cv: 潘めぐみ
+    editor:
+      anime: { score: 89, note: 制約で大人の姿になり、ネフェルピトーを一方的に倒した。その反動で生死の境をさまよった。 }
+      manga: { score: 87, note: 原作の最新刊まで、大人の姿以降の戦闘描写はない。 }
+  - id: zeno
+    name: ゼノ=ゾルディック
+    affiliation: ゾルディック家
+    editor:
+      anime: { score: 89, note: シルバと組んでクロロと戦った。ネテロを龍に乗せて王の宮殿まで運んだ。 }
+      manga: { score: 89, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: silva
+    name: シルバ=ゾルディック
+    affiliation: ゾルディック家 当主
+    editor:
+      anime: { score: 88, note: ゼノと組んでクロロと戦い、決着がつく前に手を引いた。 }
+      manga: { score: 88, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: chrollo
+    name: クロロ=ルシルフル
+    affiliation: 幻影旅団 団長
+    cv: 宮野真守
+    editor:
+      anime: { score: 86, note: ヨークシンでゼノとシルバの二人を相手に生き延びた。その後クラピカの鎖で念を封じられた。 }
+      manga: { score: 90, note: 天空闘技場でヒソカと戦い、盗んだ能力を組み合わせて勝った。 }
+  - id: youpi
+    name: モントゥトゥユピー
+    affiliation: 王直属護衛軍
+    cv: 立木文彦
+    editor:
+      anime: { score: 86, note: 宮殿突入ではモラウ、ナックル、シュートらを一人で相手にした。 }
+      manga: { score: 86, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: hisoka
+    name: ヒソカ
+    affiliation: 奇術師
+    cv: 浪川大輔
+    editor:
+      anime: { score: 85, note: 天空闘技場でカストロに勝った。ゴンとの試合でも余裕を残していた。 }
+      manga: { score: 85, note: クロロに敗れて一度死んだが、死後に強まった念で蘇った。その後シャルナークとコルトピを殺した。 }
+  - id: ging
+    name: ジン=フリークス
+    affiliation: 十二支ん
+    editor:
+      anime: { score: 85, note: 本格的な戦闘は描かれていない。会長選挙編でも実力の底を見せなかった。 }
+      manga: { score: 85, note: 原作の最新刊まででも戦闘描写はなく、評価は据え置く。 }
+  - id: illumi
+    name: イルミ=ゾルディック
+    affiliation: ゾルディック家
+    editor:
+      anime: { score: 83, note: 針で他人を操る暗殺者。直接の戦闘描写は少ない。 }
+      manga: { score: 83, note: 原作では幻影旅団に加わったが、新しい戦闘描写は少ない。 }
+  - id: killua
+    name: キルア=ゾルディック
+    affiliation: ハンター
+    cv: 伊瀬茉莉也
+    editor:
+      anime: { score: 83, note: キメラアント編で神速（カンムル）を身につけ、ユピーとも渡り合った。 }
+      manga: { score: 83, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: pouf
+    name: シャウアプフ
+    affiliation: 王直属護衛軍
+    cv: 羽多野渉
+    editor:
+      anime: { score: 82, note: 鱗粉と分裂した体で王を守った。直接の戦闘描写は少ない。 }
+      manga: { score: 82, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: kurapika
+    name: クラピカ
+    affiliation: 十二支ん
+    cv: 沢城みゆき
+    editor:
+      anime: { score: 80, note: 緋の眼の絶対時間でウボォーギンを倒した。クロロを捕らえて念を封じた。 }
+      manga: { score: 80, note: 王位継承戦で、絶対時間は使うほど寿命を削ると明かされた。 }
+  - id: bisky
+    name: ビスケット=クルーガー
+    affiliation: ハンター
+    editor:
+      anime: { score: 77, note: グリードアイランドでゴンとキルアを鍛えた。本来の姿での近接戦は作中でも上位。 }
+      manga: { score: 77, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: feitan
+    name: フェイタン
+    affiliation: 幻影旅団
+    cv: 山口勝平
+    editor:
+      anime: { score: 75, note: 許されざる者（ペインパッカー）でキメラアントのザザンを倒した。 }
+      manga: { score: 75, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: morel
+    name: モラウ
+    affiliation: ハンター
+    cv: 楠大典
+    editor:
+      anime: { score: 74, note: 煙の兵隊を操る。宮殿突入でチートゥを倒した。 }
+      manga: { score: 74, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: uvogin
+    name: ウボォーギン
+    affiliation: 幻影旅団
+    cv: 大塚明夫
+    editor:
+      anime: { score: 72, note: バズーカの直撃にも耐える肉体を持つ。クラピカの鎖に敗れた。 }
+      manga: { score: 72, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: kite
+    name: カイト
+    affiliation: ハンター
+    cv: 池田秀一
+    editor:
+      anime: { score: 70, note: キメラアント編でネフェルピトーに腕を落とされ、敗れた。 }
+      manga: { score: 70, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: knuckle
+    name: ナックル=バイン
+    affiliation: ハンター
+    cv: 高木渉
+    editor:
+      anime: { score: 66, note: 天上不知唯我独損でユピーにポットクリンをつけた。正面からの殴り合いでは届かない。 }
+      manga: { score: 66, note: 原作の最新刊まででも評価は据え置く。 }
+  - id: leorio
+    name: レオリオ
+    affiliation: 十二支ん
+    cv: 藤原啓治
+    editor:
+      anime: { score: 52, note: 会長選挙編で離れた位置からジンを殴り飛ばした。戦闘向きの描写はまだ少ない。 }
+      manga: { score: 52, note: 原作の最新刊まででも評価は据え置く。 }

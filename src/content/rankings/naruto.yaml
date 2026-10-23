@@ -1,0 +1,133 @@
+work: NARUTO -ナルト-
+title: NARUTO -ナルト- 最強キャラランキング
+description: NARUTO -ナルト-の最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ『疾風伝』最終話・原作完結（全72巻）まで（BORUTOは含まない）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kaguya
+    name: 大筒木カグヤ
+    affiliation: チャクラの祖
+    cv: 小山茉美
+    editor:
+      anime: { score: 97, note: 空間を渡り歩き、第七班を総がかりにさせた。ナルトとサスケの二人でようやく封印できた。 }
+  - id: madara
+    name: うちはマダラ
+    affiliation: うちは一族
+    cv: 内田直哉
+    editor:
+      anime: { score: 96, note: 穢土転生の身で五影を一人で退けた。十尾の人柱力となって六道の力を得た。 }
+  - id: naruto
+    name: うずまきナルト
+    affiliation: 木ノ葉隠れ
+    cv: 竹内順子
+    editor:
+      anime: { score: 96, note: 六道仙術を得て、カグヤ封印の要になった。サスケとの最後の戦いは相打ちに終わった。 }
+  - id: sasuke
+    name: うちはサスケ
+    affiliation: 木ノ葉隠れ
+    cv: 杉山紀彰
+    editor:
+      anime: { score: 95, note: 輪廻眼を開眼し、カグヤ封印の片翼を担った。終末の谷でナルトと互角に戦った。 }
+  - id: hashirama
+    name: 千手柱間
+    affiliation: 初代火影
+    cv: 菅生隆之
+    editor:
+      anime: { score: 92, note: 忍の神と呼ばれた。終末の谷で九尾を従えたマダラに勝った。 }
+  - id: obito
+    name: うちはオビト
+    affiliation: 暁
+    editor:
+      anime: { score: 90, note: 十尾の人柱力となり、忍連合軍をまとめて相手にした。尾獣を引き抜かれて敗れた。 }
+  - id: guy
+    name: マイト・ガイ
+    affiliation: 木ノ葉隠れ 上忍
+    cv: 江原正士
+    editor:
+      anime: { score: 88, note: 八門遁甲の死門を開き、夜ガイで六道の力を得たマダラを瀕死に追い込んだ。 }
+  - id: nagato
+    name: 長門（ペイン）
+    affiliation: 暁 リーダー
+    editor:
+      anime: { score: 86, note: 自来也を倒し、神羅天征で木ノ葉の里を壊滅させた。仙人モードのナルトに敗れた。 }
+  - id: itachi
+    name: うちはイタチ
+    affiliation: 暁
+    cv: 石川英郎
+    editor:
+      anime: { score: 85, note: 須佐能乎と十拳剣を持つ。穢土転生の身でサスケと組み、イザナミでカブトを止めた。 }
+  - id: kakashi
+    name: はたけカカシ
+    affiliation: 六代目火影
+    cv: 井上和彦
+    editor:
+      anime: { score: 84, note: 万華鏡写輪眼の神威を使う。カグヤ戦では一時的に完成体の須佐能乎を出した。 }
+  - id: minato
+    name: 波風ミナト
+    affiliation: 四代目火影
+    cv: 森川智之
+    editor:
+      anime: { score: 84, note: 飛雷神の術で九尾襲来の夜に面の男を退け、九尾を封印した。 }
+  - id: tobirama
+    name: 千手扉間
+    affiliation: 二代目火影
+    cv: 堀内賢雄
+    editor:
+      anime: { score: 80, note: 穢土転生と飛雷神の術を編み出した。第四次忍界大戦にも穢土転生で加わった。 }
+  - id: killer-bee
+    name: キラービー
+    affiliation: 雲隠れ 八尾の人柱力
+    editor:
+      anime: { score: 79, note: 八尾を完全に制御する人柱力。鷹のサスケたちとの戦いを生き延びた。 }
+  - id: gaara
+    name: 我愛羅
+    affiliation: 五代目風影
+    cv: 石田彰
+    editor:
+      anime: { score: 78, note: 第四次忍界大戦で忍連合の部隊を率い、穢土転生の歴代影を相手にした。 }
+  - id: jiraiya
+    name: 自来也
+    affiliation: 伝説の三忍
+    cv: 大塚芳忠
+    editor:
+      anime: { score: 76, note: 仙人モードでペイン六道と戦い、正体の手がかりを残して敗れた。 }
+  - id: hiruzen
+    name: 猿飛ヒルゼン
+    affiliation: 三代目火影
+    cv: 柴田秀勝
+    editor:
+      anime: { score: 74, note: 中忍試験の襲撃で大蛇丸と戦い、屍鬼封尽と引き換えに両腕の術を封じた。 }
+  - id: orochimaru
+    name: 大蛇丸
+    affiliation: 伝説の三忍
+    cv: くじら
+    editor:
+      anime: { score: 73, note: 三代目火影との戦いで両腕の術を封じられた。大戦では歴代火影を穢土転生で呼び戻した。 }
+  - id: tsunade
+    name: 綱手
+    affiliation: 五代目火影
+    cv: 勝生真沙子
+    editor:
+      anime: { score: 70, note: 創造再生で傷を治しながら戦う。五影の一人としてマダラと戦った。 }
+  - id: kisame
+    name: 干柿鬼鮫
+    affiliation: 暁
+    cv: 檀臣幸
+    editor:
+      anime: { score: 68, note: 鮫肌で相手のチャクラを吸う。ガイとの戦いに敗れて捕らえられた。 }
+  - id: deidara
+    name: デイダラ
+    affiliation: 暁
+    editor:
+      anime: { score: 62, note: 起爆粘土で我愛羅をさらった。サスケとの戦いの末に自爆した。 }
+  - id: sasori
+    name: サソリ
+    affiliation: 暁
+    editor:
+      anime: { score: 57, note: 人傀儡の使い手。チヨとサクラの二人に敗れた。 }

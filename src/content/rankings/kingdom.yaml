@@ -1,0 +1,146 @@
+work: キングダム
+title: キングダム 最強キャラランキング
+description: キングダムの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第6シリーズ（鄴攻め・朱海平原の序盤）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の単行本既刊80巻（2026年8月時点）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: ouki
+    name: 王騎
+    affiliation: 秦 六大将軍
+    cv: 小山力也
+    editor:
+      anime: { score: 96, note: 武力と軍の指揮の両方で判定。馬陽で龐煖と一騎討ちを演じ、魏加の矢で生じた隙を突かれて討たれた。 }
+      manga: { score: 95, note: 馬陽で退場。武力と指揮の総合で、後の大将軍たちが比べられる基準であり続ける。 }
+  - id: riboku
+    name: 李牧
+    affiliation: 趙 三大天
+    cv: 森川智之
+    editor:
+      anime: { score: 94, note: 知略を中心に判定。馬陽で王騎を討つ策を組み、合従軍を発案した。朱海平原では自ら別働隊を率いて麻鉱の軍を崩した。 }
+      manga: { score: 97, note: 知略を中心に判定。番吾の戦いで王翦軍を敗走させ、肥下では桓騎を討ち取った。 }
+  - id: hoken
+    name: 龐煖
+    affiliation: 趙 三大天
+    cv: 高塚正也
+    editor:
+      anime: { score: 93, note: 個の武力で判定。馬陽で王騎を討ち、合従軍戦では麃公との一騎討ちに勝った。 }
+      manga: { score: 89, note: 個の武力は最上位だが、朱海平原の最終局面で信との一騎討ちに敗れた。知略で戦を動かす人物ではない。 }
+  - id: renpa
+    name: 廉頗
+    affiliation: 元趙 三大天
+    cv: 楠見尚己
+    editor:
+      anime: { score: 90, note: 武力と指揮の総合で判定。六大将軍と同じ時代を戦った趙三大天の一人で、山陽では魏軍を率いて秦軍と戦った。 }
+      manga: { score: 88, note: 山陽以降は戦場の中心に立つ場面が少なく、評価を上げる材料がない。 }
+  - id: oosen
+    name: 王翦
+    affiliation: 秦 将軍
+    cv: 堀内賢雄
+    editor:
+      anime: { score: 88, note: 知略を中心に判定。鄴攻めの総大将として列尾を捨て、周辺の城を次々に落とす策で趙を揺さぶった。 }
+      manga: { score: 91, note: 知略を中心に判定。朱海平原で李牧と競り合って鄴を落としたが、番吾では李牧と司馬尚に敗れて撤退した。 }
+  - id: moubu
+    name: 蒙武
+    affiliation: 秦 大将軍
+    cv: 楠大典
+    editor:
+      anime: { score: 89, note: 個の武力で判定。合従軍戦で楚の大将軍・汗明を一騎討ちで討った。 }
+      manga: { score: 89, note: 六大将軍の第一将に任じられた。什虎では満羽と一騎討ちを演じた。 }
+  - id: tou
+    name: 騰
+    affiliation: 秦 将軍
+    cv: 加藤亮夫
+    editor:
+      anime: { score: 86, note: 武力と指揮の総合で判定。王騎の副官を長く務め、合従軍戦では楚の臨武君を討った。 }
+      manga: { score: 88, note: 韓攻略の総大将として南陽と新鄭を開城させ、韓を滅亡に導いた。 }
+  - id: kanki
+    name: 桓騎
+    affiliation: 秦 将軍
+    cv: 伊藤健太郎
+    editor:
+      anime: { score: 86, note: 知略を中心に判定。函谷関では魏軍になりすまして韓軍本陣に潜り込み、黒羊丘では紀彗に撤退を選ばせた。 }
+      manga: { score: 85, note: 平陽では扈輒の本陣を急襲して討った。肥下で李牧軍に包囲され、戦死した。 }
+  - id: hyoukou
+    name: 麃公
+    affiliation: 秦 将軍
+    cv: 斎藤志郎
+    editor:
+      anime: { score: 85, note: 武力と本能型の指揮で判定。蛇甘平原で軍を率いて勝ち、合従軍戦では龐煖との一騎討ちに敗れて戦死した。 }
+      manga: { score: 84, note: 退場後に評価が動くことはない。 }
+  - id: kanmei
+    name: 汗明
+    affiliation: 楚 大将軍
+    cv: 田中美央
+    editor:
+      anime: { score: 84, note: 個の武力で判定。合従軍戦で蒙武と一騎討ちを演じ、討たれた。 }
+      manga: { score: 78, note: 原作で評価を変える材料はない。 }
+  - id: youtanwa
+    name: 楊端和
+    affiliation: 山の民の王
+    cv: 園崎未恵
+    editor:
+      anime: { score: 83, note: 武力と指揮の総合で判定。蕞の籠城戦に援軍として駆けつけ、鄴攻めでは列尾城を落とした。 }
+      manga: { score: 85, note: 鄴攻めの撩陽で趙軍と犬戎の軍を相手に戦い抜き、のちに六大将軍の第四将に任じられた。 }
+  - id: rinko
+    name: 輪虎
+    affiliation: 廉頗四天王
+    cv: 櫻井孝宏
+    editor:
+      anime: { score: 79, note: 個の武力で判定。山陽の戦いで秦軍を苦しめたが、最後は信との一騎討ちに敗れた。 }
+      manga: { score: 77, note: 原作で評価を変える材料はない。 }
+  - id: shin
+    name: 信
+    affiliation: 飛信隊
+    cv: 森田成一
+    editor:
+      anime: { score: 77, note: 個の武力を中心に判定。山陽で輪虎を一騎討ちで討ち、黒羊丘では慶舎を討った。 }
+      manga: { score: 90, note: 朱海平原の最終局面で龐煖を一騎討ちで討ち、将軍に昇格した。 }
+  - id: ouhon
+    name: 王賁
+    affiliation: 玉鳳隊
+    cv: 細谷佳正
+    editor:
+      anime: { score: 74, note: 武力と指揮の総合で判定。著雍で魏火龍の紫伯との再戦に勝った。朱海平原では趙峩龍軍の猛攻に耐えた。 }
+      manga: { score: 84, note: 朱海平原で尭雲を討った。 }
+  - id: kyokai
+    name: 羌瘣
+    affiliation: 飛信隊
+    cv: 日笠陽子
+    editor:
+      anime: { score: 73, note: 個の武力で判定。巫舞による剣技で、仇の幽連を破った。 }
+      manga: { score: 84, note: 将軍に昇進し、韓の東砂平原では韓将の沛曇を討ち取った。 }
+  - id: moten
+    name: 蒙恬
+    affiliation: 楽華隊
+    cv: 野島裕史
+    editor:
+      anime: { score: 69, note: 知略と指揮を中心に判定。朱海平原で麻鉱を失った秦軍左翼の指揮を引き継ぎ、崩れかけた戦線を立て直した。 }
+      manga: { score: 80, note: 知略と指揮の評価は原作でも変わらず、一軍を率いる立場になった。 }
+  - id: eisei
+    name: 嬴政
+    affiliation: 秦王
+    cv: 福山潤
+    editor:
+      anime: { score: 52, note: 個の武力は将軍級に及ばない。蕞の籠城戦では自ら前線に立ち、民兵を鼓舞して持ちこたえた。 }
+      manga: { score: 52, note: 原作でも本人が戦う場面は限られる。 }
+  - id: shibasho
+    name: 司馬尚
+    affiliation: 趙 青歌の将
+    appears: manga
+    editor:
+      manga: { score: 90, note: 武力と指揮の総合で判定。番吾の戦いで青歌軍を率いて王翦軍の本陣まで攻め込み、王翦を撤退させた。 }
+  - id: kochou
+    name: 扈輒
+    affiliation: 趙 将軍
+    appears: manga
+    editor:
+      manga: { score: 66, note: 指揮を中心に判定。平陽で桓騎軍に本陣を急襲され、討死した。 }

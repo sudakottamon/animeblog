@@ -1,0 +1,107 @@
+work: 七つの大罪
+title: 七つの大罪 最強キャラランキング
+description: 七つの大罪の最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ『憤怒の審判』最終話・原作（単行本全41巻）とも完結まで。劇場版と続編『黙示録の四騎士』は含めない
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: demon-king
+    name: 魔神王
+    affiliation: 魔神族の王
+    editor:
+      anime: { score: 98, note: 最終決戦でメリオダス、ゼルドリスの体を順に依り代にし、最後はブリタニアの大地を依り代にした巨体を大罪たちの合技でようやく倒された。 }
+  - id: meliodas
+    name: メリオダス
+    affiliation: 七つの大罪 団長（憤怒の罪）
+    cv: 梶裕貴
+    editor:
+      anime: { score: 95, note: 魔神化した状態ではエスカノールを軽くあしらった。最終決戦では大罪の仲間との合技で魔神王を倒した。 }
+  - id: escanor
+    name: エスカノール
+    affiliation: 七つの大罪（傲慢の罪）
+    cv: 杉田智和
+    editor:
+      anime: { score: 94, note: 正午の「天上天下唯我独尊」でゼルドリスとエスタロッサを二人まとめて吹き飛ばした。 }
+  - id: mael
+    name: マエル
+    affiliation: 四大天使（十戒エスタロッサ）
+    cv: 東地宏樹
+    editor:
+      anime: { score: 91, note: エスタロッサとしてメリオダスを一度殺した。記憶を取り戻した後は、エスカノールとマーリンを圧倒した原初の魔神を吹き飛ばした。 }
+  - id: zeldris
+    name: ゼルドリス
+    affiliation: 十戒 統率者
+    cv: 梶裕貴
+    editor:
+      anime: { score: 88, note: 十戒の統率者として魔神王の代理を務めた。正午のエスカノールには傷をほとんど与えられず敗れた。 }
+  - id: ban
+    name: バン
+    affiliation: 七つの大罪（強欲の罪）
+    cv: 鈴木達央
+    editor:
+      anime: { score: 87, note: 煉獄から現世に戻った後は十戒を圧倒した。最終決戦では魔神王に乗っ取られたメリオダスを一撃で止めた。 }
+  - id: chandler
+    name: チャンドラー
+    affiliation: 最上位魔神
+    cv: 藤真秀
+    editor:
+      anime: { score: 86, note: マーリンの魔術を消す全体強制解除を使う。キューザックと合わさった原初の魔神ではエスカノールとマーリンを同時に圧倒した。 }
+  - id: merlin
+    name: マーリン
+    affiliation: 七つの大罪（暴食の罪）
+    cv: 坂本真綾
+    editor:
+      anime: { score: 85, note: 魔力「無限」で魔法を切れ目なく持続させる。チャンドラーとの魔法の撃ち合いでは、後から魔法を重ねて押し返した。 }
+  - id: arthur
+    name: アーサー・ペンドラゴン
+    affiliation: キャメロット王
+    cv: 國立幸
+    editor:
+      anime: { score: 84, note: 終盤に混沌の力に目覚め、大罪たちが倒しきれなかった不死身のキャスを取り込んで消し去った。 }
+  - id: ludociel
+    name: リュドシエル
+    affiliation: 四大天使の長
+    cv: 石田彰
+    editor:
+      anime: { score: 82, note: マーガレットの体を借りて現代に戻り、ゼルドリスと剣で渡り合った。 }
+  - id: king
+    name: キング
+    affiliation: 七つの大罪（怠惰の罪）／妖精王
+    cv: 福山潤
+    editor:
+      anime: { score: 81, note: 妖精王の羽を得て覚醒し、霊槍シャスティフォルを使いこなすようになった。 }
+  - id: diane
+    name: ディアンヌ
+    affiliation: 七つの大罪（嫉妬の罪）
+    cv: 悠木碧
+    editor:
+      anime: { score: 76, note: 大地の魔力「創造」で地形ごと武器にする巨人族の戦士。最終決戦でも魔神王に攻撃を仕掛けた。 }
+  - id: gowther
+    name: ゴウセル
+    affiliation: 七つの大罪（色欲の罪）
+    cv: 髙木裕平
+    editor:
+      anime: { score: 74, note: 侵入の魔力で相手の心に入り込む。魔神王戦では魔力切断で相手の魔力を断ち、戦況を変えた。 }
+  - id: galan
+    name: ガラン
+    affiliation: 十戒「真実」
+    cv: 岩崎ひろし
+    editor:
+      anime: { score: 68, note: 正午のエスカノールを前に逃げたことを偽り、自分の戒禁「真実」に触れて石化した。 }
+  - id: hendrickson
+    name: ヘンドリクセン
+    affiliation: リオネス王国 聖騎士長
+    cv: 内田夕夜
+    editor:
+      anime: { score: 66, note: 灰色の魔神の血を取り込み、王都決戦で七つの大罪と戦った。 }
+  - id: elizabeth
+    name: エリザベス・リオネス
+    affiliation: リオネス王国 王女／女神族
+    cv: 雨宮天
+    editor:
+      anime: { score: 56, note: 女神族の記憶と力を取り戻した。戦闘より治癒と浄化で仲間を支えた。 }

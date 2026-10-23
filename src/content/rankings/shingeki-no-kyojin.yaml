@@ -1,0 +1,120 @@
+work: 進撃の巨人
+title: 進撃の巨人 最強キャラランキング
+description: 進撃の巨人の最強キャラをアニメ・漫画勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ（The Final Season 完結編 後編）・原作（単行本全34巻）とも完結まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: eren
+    name: エレン・イェーガー
+    affiliation: 調査兵団／進撃の巨人・始祖の巨人
+    cv: 梶裕貴
+    editor:
+      anime: { score: 97, note: 始祖の力で地鳴らしを発動し、壁の巨人の群れで世界の大半を踏み潰した。 }
+  - id: levi
+    name: リヴァイ
+    affiliation: 調査兵団 兵士長
+    cv: 神谷浩史
+    editor:
+      anime: { score: 93, note: シガンシナ区と巨大樹の森で獣の巨人を二度切り刻み、最終決戦でジークの首を落とした。 }
+  - id: zeke
+    name: ジーク・イェーガー
+    affiliation: マーレの戦士／獣の巨人
+    cv: 子安武人
+    editor:
+      anime: { score: 90, note: シガンシナ区で獣の巨人の投石により、エルヴィン率いる特攻部隊をほぼ全滅させた。 }
+  - id: mikasa
+    name: ミカサ・アッカーマン
+    affiliation: 調査兵団
+    cv: 石川由依
+    editor:
+      anime: { score: 88, note: アッカーマンの力で104期の中でも別格の戦闘力を持つ。最終決戦でエレンの首を落とし、地鳴らしを止めた。 }
+  - id: armin
+    name: アルミン・アルレルト
+    affiliation: 調査兵団／超大型巨人
+    cv: 井上麻里奈
+    editor:
+      anime: { score: 85, note: 超大型巨人を継承し、マーレのレベリオ軍港を変身の爆発で吹き飛ばした。 }
+  - id: bertolt
+    name: ベルトルト・フーバー
+    affiliation: マーレの戦士／超大型巨人
+    cv: 橋詰知久
+    editor:
+      anime: { score: 84, note: シガンシナ区決戦で変身の爆風と熱で調査兵団を追い込んだが、アルミンの捨て身の策に敗れた。 }
+  - id: reiner
+    name: ライナー・ブラウン
+    affiliation: マーレの戦士／鎧の巨人
+    cv: 細谷佳正
+    editor:
+      anime: { score: 82, note: 鎧の巨人でウォール・マリアの門を破った。硬質化の装甲は雷槍が出るまで調査兵団の手に余った。 }
+  - id: kenny
+    name: ケニー・アッカーマン
+    affiliation: 中央第一憲兵 対人制圧部隊 隊長
+    cv: 山路和弘
+    editor:
+      anime: { score: 80, note: 対人制圧部隊を率いてリヴァイ班を襲い、リヴァイと互角に撃ち合った。 }
+  - id: annie
+    name: アニ・レオンハート
+    affiliation: マーレの戦士／女型の巨人
+    cv: 嶋村侑
+    editor:
+      anime: { score: 79, note: 女型の巨人で巨大樹の森のリヴァイ班を全滅させた。 }
+  - id: lara
+    name: ラーラ・タイバー
+    affiliation: タイバー家／戦鎚の巨人
+    cv: 能登麻美子
+    editor:
+      anime: { score: 77, note: レベリオ襲撃戦で地面から槍や檻を生み出してエレンを追い詰めたが、結晶に籠もった本体ごと食われた。 }
+  - id: porco
+    name: ポルコ・ガリアード
+    affiliation: マーレの戦士／顎の巨人
+    cv: 増田俊樹
+    editor:
+      anime: { score: 74, note: 顎の巨人は速さと咬合力に優れる。レベリオ襲撃戦ではその顎をエレンに利用され、戦鎚の巨人の結晶を砕かされた。 }
+  - id: grisha
+    name: グリシャ・イェーガー
+    affiliation: エルディア復権派／進撃の巨人
+    cv: 土田大
+    editor:
+      anime: { score: 72, note: 始祖の巨人を持つフリーダ・レイスを倒し、その力を奪った。 }
+  - id: pieck
+    name: ピーク・フィンガー
+    affiliation: マーレの戦士／車力の巨人
+    cv: 沼倉愛美
+    editor:
+      anime: { score: 68, note: 車力の巨人は持久力に優れ、長期間の巨人化に耐える。砲台を背負ってマーレ軍の前線を支えた。 }
+  - id: ymir
+    name: ユミル
+    affiliation: 調査兵団／顎の巨人
+    cv: 藤田咲
+    editor:
+      anime: { score: 65, note: ウトガルド城で顎の巨人に変身し、ヒストリアたちを守りながら巨人の群れと戦った。 }
+  - id: hange
+    name: ハンジ・ゾエ
+    affiliation: 調査兵団 第14代団長
+    cv: 朴璐美
+    editor:
+      anime: { score: 63, note: 地鳴らしの最中、飛行艇の発進まで時間を稼ぐため単身で壁の巨人の群れに挑んだ。 }
+  - id: erwin
+    name: エルヴィン・スミス
+    affiliation: 調査兵団 第13代団長
+    cv: 小野大輔
+    editor:
+      anime: { score: 61, note: 本人の武力より指揮で戦う。シガンシナ区では自ら特攻の先頭に立ち、リヴァイが獣の巨人に近づく道を作った。 }
+  - id: jean
+    name: ジャン・キルシュタイン
+    affiliation: 調査兵団
+    cv: 谷山紀章
+    editor:
+      anime: { score: 60, note: トロスト区の攻防から最終決戦まで、立体機動で前線に立ち続けた。 }
+  - id: gabi
+    name: ガビ・ブラウン
+    affiliation: マーレの戦士候補生
+    cv: 佐倉綾音
+    editor:
+      anime: { score: 55, note: 巨人の力は持たないが、対巨人ライフルでエレンの首を撃ち抜いた。 }

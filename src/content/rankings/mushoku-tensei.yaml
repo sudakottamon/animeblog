@@ -1,0 +1,130 @@
+work: 無職転生 ～異世界行ったら本気だす～
+title: 無職転生 ～異世界行ったら本気だす～ 最強キャラランキング
+description: 無職転生 ～異世界行ったら本気だす～の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第3期第1クール（第14話「覚悟」）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 書籍版本編完結（全26巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: orsted
+    name: オルステッド
+    affiliation: 七大列強「龍神」
+    cv: 津田健次郎
+    editor:
+      anime: { score: 97, note: 赤竜の下顎でルイジェルドとルーデウスを寄せつけず、ルーデウスを瀕死に追い込んだ。 }
+      novel: { score: 99, note: 魔導鎧のルーデウスと狂剣王エリスを退け、その後ルーデウスを配下に迎えた。 }
+  - id: badigadi
+    name: バーディガーディ
+    affiliation: 不死魔王
+    cv: 楠大典
+    editor:
+      anime: { score: 85, note: 不死魔族の魔王。アニメでは底を見せる戦いをしていない。 }
+      novel: { score: 93, note: 闘神鎧をまとって最終決戦に立ちはだかり、鬼神マルタを倒した。 }
+  - id: alexander
+    name: アレクサンダー・カールマン・ライバック
+    affiliation: 七大列強「北神」
+    appears: novel
+    editor:
+      novel: { score: 90, note: 王竜剣カジャクトの重力操作で戦う北神。最終決戦でルーデウスたちの前に立ちはだかった。 }
+  - id: perugius
+    name: ペルギウス・ドーラ
+    affiliation: 甲龍王
+    cv: 小山力也
+    editor:
+      anime: { score: 88, note: 空中城塞ケイオスブレイカーの主。アニメでは本人が戦う場面がない。 }
+      novel: { score: 88, note: 原作でも本人が戦う場面はほとんどない。肩書きと召喚魔術で評価している。 }
+  - id: gal-farion
+    name: ガル・ファリオン
+    affiliation: 剣神
+    cv: 稲田徹
+    editor:
+      anime: { score: 86, note: 剣神流の頂点に立つ剣神。剣の聖地でエリスを鍛えた。 }
+      novel: { score: 89, note: ルーデウスの魔導鎧を普通の剣で斬った。最終決戦ではエリスに斬られた。 }
+  - id: rudeus
+    name: ルーデウス・グレイラット
+    affiliation: 魔術師
+    cv: 内山夕実
+    editor:
+      anime: { score: 80, note: 無詠唱魔術を使う。ベガリットの迷宮ではヒュドラ戦の主力を務めたが、片腕を失った。 }
+      novel: { score: 89, note: 魔導鎧でオルステッドに挑んで敗れ、その配下になった。最終決戦ではギースを倒した。 }
+  - id: eris
+    name: エリス・グレイラット
+    affiliation: 剣士
+    cv: 加隈亜衣
+    editor:
+      anime: { score: 78, note: 剣の聖地で剣神ガル・ファリオンのもとで修行を積んだ。 }
+      novel: { score: 88, note: 狂剣王としてオルステッドに挑んだ。最終決戦ではルイジェルドと組んで剣神ガル・ファリオンを斬った。 }
+  - id: atofe
+    name: アトーフェラトーフェ・ライバック
+    affiliation: 不死魔王
+    appears: novel
+    editor:
+      novel: { score: 86, note: 鬼神マルタと殴り合いで渡り合う魔王。ルーデウスたちとの決闘に敗れ、味方に加わった。 }
+  - id: ruijerd
+    name: ルイジェルド・スペルディア
+    affiliation: スペルド族の戦士
+    cv: 浪川大輔
+    editor:
+      anime: { score: 82, note: 魔大陸の旅で魔物や追っ手を退け続けた。オルステッドには歯が立たなかった。 }
+      novel: { score: 83, note: 最終決戦で剣神の攻撃を受け止め、エリスの勝ちにつなげた。 }
+  - id: marta
+    name: 鬼神マルタ
+    affiliation: 七大列強「鬼神」
+    appears: novel
+    editor:
+      novel: { score: 80, note: ザノバとドーガを倒したが、闘神鎧のバーディガーディに敗れた。 }
+  - id: auber
+    name: オーベール・コルベット
+    affiliation: 北帝
+    appears: novel
+    editor:
+      novel: { score: 80, note: ルーデウス、エリス、ギレーヌの3人を1人で相手取った。最後はギレーヌの光の太刀に斬られた。 }
+  - id: ghislaine
+    name: ギレーヌ・デドルディア
+    affiliation: 剣王
+    cv: 豊口めぐみ
+    editor:
+      anime: { score: 76, note: 剣王の称号を持つ剣士。フィットア領で幼いエリスとルーデウスに剣を教えた。 }
+      novel: { score: 77, note: 最終決戦で光の太刀を使い、北帝オーベールを斬った。 }
+  - id: paul
+    name: パウロ・グレイラット
+    affiliation: 剣士
+    cv: 森川智之
+    editor:
+      anime: { score: 72, note: 剣術三大流派を修めた剣士。ベガリットの迷宮でヒュドラと戦い、ルーデウスをかばって死んだ。 }
+      novel: { score: 72, note: 退場後に評価が動くことはない。 }
+  - id: roxy
+    name: ロキシー・ミグルディア
+    affiliation: 水王級魔術師
+    cv: 小原好美
+    editor:
+      anime: { score: 70, note: 水王級の魔術師。ベガリットの迷宮をパウロたちと攻略した。 }
+      novel: { score: 71, note: 原作で評価を変える材料は少ない。 }
+  - id: sylphiette
+    name: シルフィエット
+    affiliation: 魔術師
+    cv: 茅野愛衣
+    editor:
+      anime: { score: 66, note: 無詠唱魔術を使い、アリエル王女の護衛を務めた。 }
+      novel: { score: 67, note: 原作で評価を変える材料は少ない。 }
+  - id: zanoba
+    name: ザノバ・シーローン
+    affiliation: シーローン王国 王子
+    cv: 鶴岡聡
+    editor:
+      anime: { score: 58, note: 怪力の神子。腕力は人並み外れているが、戦いの技術は持たない。 }
+      novel: { score: 58, note: 最終決戦で鬼神マルタに敗れた。 }
+  - id: geese
+    name: ギース・ヌーカディア
+    affiliation: パウロの元仲間
+    cv: 上田燿司
+    editor:
+      anime: { score: 45, note: 迷宮探索では斥候や雑用でパウロたちを支えた。本人は戦いが得意ではない。 }
+      novel: { score: 52, note: ヒトガミの使徒として最終決戦を仕組んだが、ルーデウスに敗れた。 }

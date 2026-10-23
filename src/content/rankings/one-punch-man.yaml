@@ -1,0 +1,183 @@
+work: ワンパンマン
+title: ワンパンマン 最強キャラランキング
+description: ワンパンマンの最強キャラをアニメ勢・漫画勢（村田版）・原作勢（ONE版）に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第3期第1クール（第36話「究極の生命体」）まで
+  - id: manga
+    label: 漫画勢（村田版）
+    range: 村田版の連載最新話（アマイマスク編）まで（2026年10月時点）
+  - id: original
+    label: 原作勢（ONE版）
+    range: ONE版Web連載の最新157撃目（2026年3月更新）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: saitama
+    name: サイタマ
+    affiliation: B級ヒーロー
+    cv: 古川慎
+    editor:
+      anime: { score: 100, note: ボロスとムカデ長老をマジ殴りで倒した。深海王も一撃だった。 }
+      manga: { score: 100, note: 怪人王オロチを一撃で倒した。宇宙的恐怖モードのガロウも最後は一撃で沈めた。 }
+      original: { score: 100, note: ONE版でも怪人化したガロウに勝った。 }
+  - id: garou
+    name: ガロウ
+    affiliation: ヒーロー狩り
+    cv: 緑川光
+    editor:
+      anime: { score: 84, note: ヒーローを狩り続け、タンクトップマスターや金属バットと戦った。アニメ2期の終盤ではバングに圧倒された。 }
+      manga: { score: 96, note: 怪人化してS級ヒーローを次々に退け、神の力を借りた宇宙的恐怖モードに至った。最後はサイタマの一撃で敗れた。 }
+      original: { score: 92, note: ONE版では宇宙的恐怖モードには至らず、怪人化した状態でサイタマに敗れた。 }
+  - id: blast
+    name: ブラスト
+    affiliation: S級1位
+    appears: manga
+    editor:
+      manga: { score: 94, note: 時空を操る能力者で、20年にわたって神と戦ってきたと明かされた。 }
+      original: { score: 94, note: ONE版で評価を変える材料はない。 }
+  - id: boros
+    name: ボロス
+    affiliation: 暗黒盗賊団ダークマター 頭目
+    cv: 森川智之
+    editor:
+      anime: { score: 93, note: 崩星咆哮砲まで撃ったが、サイタマのマジ殴りに敗れた。 }
+      manga: { score: 93, note: 漫画で評価を変える材料はない。 }
+      original: { score: 93, note: ONE版で評価を変える材料はない。 }
+  - id: tatsumaki
+    name: 戦慄のタツマキ
+    affiliation: S級2位
+    cv: 悠木碧
+    editor:
+      anime: { score: 92, note: ボロスの配下ゲリュガンシュプを倒した。アニメ3期ではギョロギョロとの超能力戦に入った。 }
+      manga: { score: 93, note: ギョロギョロを退け、サイタマに倒されたオロチを串刺しにして消滅させた。 }
+      original: { score: 93, note: ONE版で評価を変える材料はない。 }
+  - id: orochi
+    name: 怪人王オロチ
+    affiliation: 怪人協会
+    cv: 斧アツシ
+    editor:
+      anime: { score: 88, note: 怪人協会の頂点に立つ怪人王。アニメ3期の最終話でサイタマの前に現れた。 }
+      manga: { score: 89, note: サイタマに一撃で倒され、その後タツマキに消滅させられた。 }
+      original: { score: 89, note: ONE版には登場しない。村田版の描写で評価している。 }
+  - id: bang
+    name: シルバーファング（バング）
+    affiliation: S級3位
+    cv: 山路和弘
+    editor:
+      anime: { score: 86, note: 流水岩砕拳の達人。アニメ2期の終盤で元弟子のガロウを圧倒した。 }
+      manga: { score: 87, note: 怪人協会編でボンブと共にガロウと戦い、その後ヒーローを引退した。 }
+      original: { score: 87, note: ONE版で評価を変える材料はない。 }
+  - id: elder-centipede
+    name: ムカデ長老
+    affiliation: 怪人協会
+    cv: 坂東尚樹
+    editor:
+      anime: { score: 85, note: ジェノスとバング兄弟の攻撃を外殻の再生で耐えたが、サイタマのマジ殴りで砕けた。 }
+      manga: { score: 84, note: 漫画で評価を変える材料はない。 }
+      original: { score: 84, note: ONE版には登場しない。村田版の描写で評価している。 }
+  - id: atomic-samurai
+    name: アトミック侍
+    affiliation: S級4位
+    cv: 津田健次郎
+    editor:
+      anime: { score: 82, note: メルザルガルドとの戦いで奥義を見せた。アニメ3期では黒い精子と対峙した。 }
+      manga: { score: 85, note: 黒い精子を追い詰め、黄金精子の右腕を斬り落とした。 }
+      original: { score: 85, note: ONE版で評価を変える材料はない。 }
+  - id: watchdog-man
+    name: 番犬マン
+    affiliation: S級ヒーロー
+    cv: うえだゆうじ
+    editor:
+      anime: { score: 80, note: Q市を一人で守るS級ヒーロー。アニメでは力の底を見せていない。 }
+      manga: { score: 84, note: 覚醒前のガロウを一蹴した。 }
+      original: { score: 84, note: ONE版で評価を変える材料はない。 }
+  - id: amai-mask
+    name: イケメン仮面アマイマスク
+    affiliation: A級1位
+    editor:
+      anime: { score: 74, note: A級1位のヒーロー。アニメ3期では救出作戦をめぐってS級ヒーローと対立した。 }
+      manga: { score: 84, note: 民衆の前で怪人と戦ううちに、怪人としての姿が露見した。 }
+      original: { score: 84, note: ONE版でも正体が怪人であることが明かされる。 }
+  - id: flashy-flash
+    name: 閃光のフラッシュ
+    affiliation: S級ヒーロー
+    cv: 鳥海浩輔
+    editor:
+      anime: { score: 80, note: 忍者の里出身の剣士。アニメ3期では同期のウインドとフレイムを迎え撃った。 }
+      manga: { score: 81, note: 閃光斬でウインドとフレイムを倒した。 }
+      original: { score: 81, note: ONE版で評価を変える材料はない。 }
+  - id: metal-bat
+    name: 金属バット
+    affiliation: S級ヒーロー
+    cv: 羽多野渉
+    editor:
+      anime: { score: 76, note: ガロウと打ち合い、勝負は妹の制止で止まった。 }
+      manga: { score: 82, note: ラフレシドンやムカデ後輩を倒したが、ガロウには苦戦した。 }
+      original: { score: 82, note: ONE版ではネオヒーローズの闇を探り、身体改造した警備担当と戦った。 }
+  - id: genos
+    name: ジェノス
+    affiliation: S級ヒーロー
+    cv: 石川界人
+    editor:
+      anime: { score: 75, note: 深海王には子どもをかばった隙を突かれて敗れた。ムカデ長老戦でも決定打を欠いた。 }
+      manga: { score: 80, note: 強化を重ねて怪人協会編に臨んだが、宇宙的恐怖モードのガロウに破壊された。 }
+      original: { score: 78, note: ONE版で評価を変える材料はない。 }
+  - id: homeless-emperor
+    name: ホームレス帝
+    affiliation: 怪人協会
+    editor:
+      anime: { score: 78, note: 光弾を操る怪人協会の幹部。アニメ3期ではゾンビマンと交戦した。 }
+      manga: { score: 80, note: 神から与えられた光弾の力で戦ったが、最後は神に力を没収されて力尽きた。 }
+      original: { score: 78, note: ONE版で評価を変える材料はない。 }
+  - id: deep-sea-king
+    name: 深海王
+    affiliation: 海人族
+    cv: 小山力也
+    editor:
+      anime: { score: 72, note: 雨の中でジェノスやぷりぷりプリズナーを退けたが、サイタマに一撃で倒された。 }
+      manga: { score: 70, note: 漫画で評価を変える材料はない。 }
+      original: { score: 70, note: ONE版で評価を変える材料はない。 }
+  - id: zombieman
+    name: ゾンビマン
+    affiliation: S級ヒーロー
+    cv: 櫻井孝宏
+    editor:
+      anime: { score: 70, note: 致命傷を負っても再生する不死身の体。アニメ3期ではバンパイアとの消耗戦に挑んだ。 }
+      manga: { score: 74, note: ホームレス帝との戦いで何度倒されても再生して食い下がった。 }
+      original: { score: 74, note: ONE版で評価を変える材料はない。 }
+  - id: child-emperor
+    name: 童帝
+    affiliation: S級ヒーロー
+    cv: 高山みなみ
+    editor:
+      anime: { score: 70, note: 発明品で戦う天才児。アニメ3期では竜となったフェニックス男と戦い、人質のワガンマを救い出した。 }
+      manga: { score: 72, note: 転生フェニックス男をくすぐり攻撃で弱らせて倒した。 }
+      original: { score: 72, note: ONE版で評価を変える材料はない。 }
+  - id: puri-puri-prisoner
+    name: ぷりぷりプリズナー
+    affiliation: S級ヒーロー
+    cv: 小野坂昌也
+    editor:
+      anime: { score: 66, note: 深海王に挑み、エンジェル☆スタイルでも敗れた。 }
+      manga: { score: 66, note: 怪人協会のアジト戦でバキューマを倒した。 }
+      original: { score: 66, note: ONE版で評価を変える材料はない。 }
+  - id: fubuki
+    name: 地獄のフブキ
+    affiliation: B級1位
+    cv: 早見沙織
+    editor:
+      anime: { score: 60, note: B級1位。サイタマに挑んだが、まったく相手にならなかった。 }
+      manga: { score: 62, note: 漫画で評価を変える材料はない。 }
+      original: { score: 62, note: ONE版で評価を変える材料はない。 }
+  - id: king
+    name: キング
+    affiliation: S級7位
+    cv: 安元洋貴
+    editor:
+      anime: { score: 25, note: 戦闘力はほぼない。噂と偶然の積み重ねで地上最強の男と呼ばれている。 }
+      manga: { score: 25, note: 漫画でも正体は変わらない。 }
+      original: { score: 25, note: ONE版でも正体は変わらない。 }

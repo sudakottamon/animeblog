@@ -19,7 +19,7 @@ const fmt = (x: Date) => `${x.getFullYear()}/${x.getMonth() + 1}/${x.getDate()}`
         <a href={`/rankings/${r.id}/`}>
           <h3>{r.data.work} 最強キャラ ティア表</h3>
           <p class="meta">
-            {r.data.bases.map((b) => b.label).join('・')}別 ／ 候補 {r.data.candidates.length}人 ／ 投稿 <span data-p>-</span>件 ／ 更新 {fmt(r.data.updated)}
+            {r.data.bases.length > 1 ? `${r.data.bases.map((b) => b.label).join('・')}別 ／ ` : ''}候補 {r.data.candidates.length}人 ／ 投稿 <span data-p>-</span>件 ／ 更新 {fmt(r.data.updated)}
           </p>
           <ol class="rk-top3">
             {top3.map((c, i) => <li><b>{i + 1}位</b>{c.name}</li>)}

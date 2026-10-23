@@ -1,0 +1,145 @@
+work: 葬送のフリーレン
+title: 葬送のフリーレン 最強キャラランキング
+description: 葬送のフリーレンの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（第38話「美しい光景」）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本の最新刊（15巻）まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: serie
+    name: ゼーリエ
+    affiliation: 大陸魔法協会 創始者
+    cv: 伊瀬茉莉也
+    editor:
+      anime: { score: 97, note: 神話の時代から生きる大魔法使い。一級魔法使い試験の最終試験官として、受験者の力量を一目で見抜いた。 }
+      manga: { score: 97, note: 黄金郷のマハトを軽くあしらった過去が明かされた。 }
+  - id: frieren
+    name: フリーレン
+    affiliation: 魔法使い
+    cv: 種﨑敦美
+    editor:
+      anime: { score: 93, note: 断頭台のアウラに服従の天秤を使わせ、魔力の差で逆に支配して自害させた。普段は魔力を制限して隠している。 }
+      manga: { score: 94, note: 女神の石碑で80年前に飛ばされ、残影のツァルトを討ち取った。黄金郷では魔力を解放してソリテールと渡り合った。 }
+  - id: macht
+    name: 黄金郷のマハト
+    affiliation: 七崩賢
+    appears: manga
+    editor:
+      manga: { score: 92, note: 一級・二級魔法使いの調査隊を一瞬で全滅させた。最後はデンケンに討たれた。 }
+  - id: himmel
+    name: ヒンメル
+    affiliation: 勇者
+    cv: 岡本信彦
+    editor:
+      anime: { score: 90, note: 魔王を倒した勇者パーティーのリーダー。回想の中で何度も剣の腕を見せている。 }
+      manga: { score: 92, note: 女神の石碑編で、夢に囚われながら体を動かし、七崩賢グラオザームを追い詰めた。 }
+  - id: south-hero
+    name: 南の勇者
+    affiliation: 勇者
+    cv: 井上和彦
+    editor:
+      anime: { score: 91, note: 人類最強と呼ばれた勇者。七崩賢のうち3人を討ち取り、全知のシュラハトと相打ちになったと語られる。 }
+      manga: { score: 91, note: 漫画で評価を変える材料はない。 }
+  - id: solitaire
+    name: ソリテール
+    affiliation: 大魔族
+    appears: manga
+    editor:
+      manga: { score: 90, note: 魔力を解放したフリーレンでも手に余った。最後はフェルンの超長距離のゾルトラークで倒れた。 }
+  - id: graozam
+    name: 奇跡のグラオザーム
+    affiliation: 七崩賢
+    appears: manga
+    editor:
+      manga: { score: 86, note: 楽園へと導く魔法で勇者一行を夢に閉じ込めたが、ヒンメルに追い詰められた。 }
+  - id: eisen
+    name: アイゼン
+    affiliation: 戦士（勇者パーティー）
+    cv: 上田燿司
+    editor:
+      anime: { score: 85, note: 勇者パーティーの戦士で、シュタルクの師匠。頑丈さは作中で何度も語られる。 }
+      manga: { score: 86, note: 血塗られし軍神リヴァーレの足止めを務め、閃天撃で初めて傷を負わせた。 }
+  - id: fern
+    name: フェルン
+    affiliation: 魔法使い
+    cv: 市ノ瀬加那
+    editor:
+      anime: { score: 84, note: 一般攻撃魔法の速射でリュグナーを倒した。一級魔法使い試験にも合格した。 }
+      manga: { score: 87, note: ソリテールを超長距離からの高圧縮ゾルトラークで仕留めた。 }
+  - id: denken
+    name: デンケン
+    affiliation: 宮廷魔法使い
+    cv: 斉藤次郎
+    editor:
+      anime: { score: 76, note: 一級魔法使い試験を勝ち残った老練の宮廷魔法使い。一次試験ではフリーレンに歯が立たなかった。 }
+      manga: { score: 85, note: 黄金郷のマハトに呪い返しの魔法で挑み、最後は自らの手で仕留めた。 }
+  - id: sense
+    name: ゼンゼ
+    affiliation: 一級魔法使い
+    cv: 照井春佳
+    editor:
+      anime: { score: 82, note: 二次試験の試験官。髪を操る魔法の使い手で、迷宮の試験を取り仕切った。 }
+      manga: { score: 83, note: 帝国編でゼーリエの護衛を務めた。 }
+  - id: aura
+    name: 断頭台のアウラ
+    affiliation: 七崩賢
+    cv: 竹達彩奈
+    editor:
+      anime: { score: 82, note: 服従の天秤で不死の軍勢を率いた。フリーレンとの魔力の差で逆に支配され、自ら首を斬った。 }
+      manga: { score: 80, note: 漫画で評価を変える材料はない。 }
+  - id: stark
+    name: シュタルク
+    affiliation: 戦士
+    cv: 小林千晃
+    editor:
+      anime: { score: 80, note: 紅鏡竜を一人で倒した。ゲナウと組んで神技のレヴォルテを討った。 }
+      manga: { score: 82, note: 影なる戦士ラダールの夜襲で一度倒されたが、立ち直ってフェルンとの連携で勝った。 }
+  - id: revolte
+    name: 神技のレヴォルテ
+    affiliation: 大魔族
+    cv: 三木眞一郎
+    editor:
+      anime: { score: 79, note: 4本の腕で剣を振るう。ゲナウとシュタルクに重傷を負わせたが、最後は討たれた。 }
+      manga: { score: 78, note: 漫画で評価を変える材料はない。 }
+  - id: genau
+    name: ゲナウ
+    affiliation: 一級魔法使い
+    cv: 新垣樽助
+    editor:
+      anime: { score: 78, note: シュタルクと組み、重傷を負いながらレヴォルテを倒した。 }
+      manga: { score: 79, note: 漫画で評価を変える材料はない。 }
+  - id: ubel
+    name: ユーベル
+    affiliation: 一級魔法使い
+    cv: 長谷川育美
+    editor:
+      anime: { score: 77, note: 切れると思った物は何でも切る魔法の使い手。一級魔法使い試験に合格した。 }
+      manga: { score: 78, note: 帝国編ではラントと組んで帝都に潜入した。 }
+  - id: methode
+    name: メトーデ
+    affiliation: 一級魔法使い
+    cv: 上田麗奈
+    editor:
+      anime: { score: 74, note: 拘束魔法や回復魔法を使いこなす。レヴォルテ一味との戦いではヘモンの霧を晴らした。 }
+      manga: { score: 74, note: 漫画で評価を変える材料はない。 }
+  - id: qual
+    name: 腐敗の賢老クヴァール
+    affiliation: 魔族
+    cv: 安元洋貴
+    editor:
+      anime: { score: 65, note: 人を殺す魔法ゾルトラークを生み出した魔族。封印が解けた後、フェルンとフリーレンに討たれた。 }
+      manga: { score: 64, note: 漫画で評価を変える材料はない。 }
+  - id: lugner
+    name: リュグナー
+    affiliation: 魔族（アウラ配下）
+    cv: 諏訪部順一
+    editor:
+      anime: { score: 58, note: 血を操る魔法で戦ったが、フェルンの攻撃魔法の直撃を受けて討たれた。 }
+      manga: { score: 57, note: 漫画で評価を変える材料はない。 }
