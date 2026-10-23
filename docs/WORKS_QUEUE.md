@@ -156,12 +156,12 @@
 - [x] `tsukimichi` 月が導く異世界道中
 
 ## バッチ 20
-- [ ] `kumo-desu-ga` 蜘蛛ですが、なにか？
-- [ ] `tensei-shitara-ken` 転生したら剣でした
-- [ ] `maou-gakuin` 魔王学院の不適合者
-- [ ] `nanatsu-no-maken` 七つの魔剣が支配する
-- [ ] `log-horizon` ログ・ホライズン
-- [ ] `shikkakumon` 失格紋の最強賢者
+- [x] `kumo-desu-ga` 蜘蛛ですが、なにか？
+- [x] `tensei-shitara-ken` 転生したら剣でした
+- [x] `maou-gakuin` 魔王学院の不適合者
+- [x] `nanatsu-no-maken` 七つの魔剣が支配する
+- [x] `log-horizon` ログ・ホライズン
+- [x] `shikkakumon` 失格紋の最強賢者
 
 ## バッチ 21
 - [ ] `kenja-no-mago` 賢者の孫

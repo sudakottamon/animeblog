@@ -73,3 +73,6 @@
 | tsukimichi | 第三幕の放送開始有無 | 未確認 |
 | tower-of-god | 原作勢に新キャラ0（ザハード等の日本語名・描写が未確認） | 要補強 |
 | shangri-la-frontier | Web小説版（original）の勢を作るか | 要検討 |
+| tensei-shitara-ken | 第2期（2026年10月〜）放送中、原作勢が薄い | 要フォロー・要補強 |
+| maou-gakuin / shikkakumon | 原作勢がほぼ全員「評価は変わらない」（原作後半の勝敗未確認） | 要補強 |
+| log-horizon | 書籍第10巻がアニメ化されたか（1勢扱いの前提） | 未確認 |

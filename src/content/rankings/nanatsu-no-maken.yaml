@@ -1,0 +1,222 @@
+work: 七つの魔剣が支配する
+title: 七つの魔剣が支配する 最強キャラランキング
+description: 七つの魔剣が支配するの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期（全15話、原作3巻相当）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説の本編既刊（第15巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: oliver
+    name: オリバー＝ホーン
+    affiliation: キンバリー魔法学校 1年生
+    cv: 田丸篤志
+    editor:
+      anime:
+        score: 87
+        note: 迷宮で教師ダリウスを倒した。新入生の決闘でもロッシとオルブライトを退けた。
+        evidence:
+          - "第6話: 迷宮でダリウス＝グレンヴィルを倒した"
+          - "第8話: 腕を極めてロッシの杖を落とした"
+          - "第11話: オルブライトに勝った"
+      novel:
+        score: 95
+        note: 教師のエンリコとデメトリオを相次いで倒し、決闘リーグの決勝ではアンドリューズに勝った。
+        evidence:
+          - "原作5巻: 機神を操るエンリコを、仲間の捨て身の攻撃の後に討った"
+          - "原作6巻: デメトリオの魂の欠片の助けを得て、デメトリオを倒した"
+          - "原作10巻: 決闘リーグ決勝でアンドリューズに勝った"
+  - id: ophelia
+    name: オフィーリア＝サルヴァドーリ
+    affiliation: キンバリー魔法学校 上級生
+    cv: 茅野愛衣
+    editor:
+      anime:
+        score: 88
+        note: 呪文に呑まれて迷宮に異界を作り、合成獣で生徒たちをさらった。
+        evidence:
+          - "第3話: サイラスと迷宮で乱闘した"
+          - "第11話: 呪文に呑まれ、合成獣で生徒たちをさらった"
+          - "第15話: 踏み込んだカルロスとともに光の中に消えた"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: godfrey
+    name: アルヴィン＝ゴッドフレイ
+    affiliation: キンバリー魔法学校 上級生
+    cv: 日野聡
+    editor:
+      anime:
+        score: 88
+        note: 火球でオフィーリアとサイラスの乱闘を止め、オフィーリアの異界にも踏み込んだ。
+        evidence:
+          - "第3話: 火球でサイラスとオフィーリアの乱闘を止めた"
+          - "第15話: カルロスとともにオフィーリアの異界に踏み込んだ"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: cyrus
+    name: サイラス＝リヴァーモア
+    affiliation: キンバリー魔法学校 上級生
+    editor:
+      anime:
+        score: 85
+        note: 新入生を迷宮に閉じ込め、オフィーリアと互角に乱闘した。骨の大蛇を操る。
+        evidence:
+          - "第2話: オフィーリアとともに新入生を迷宮に閉じ込めた"
+          - "第3話: オフィーリアと乱闘し、ゴッドフレイに止められた"
+          - "第14話: 骨の大蛇でオリバーたちを追った"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: carlos
+    name: カルロス＝ウィットロウ
+    affiliation: キンバリー魔法学校 上級生
+    cv: 山本和臣
+    editor:
+      anime:
+        score: 84
+        note: ゴッドフレイとともにオフィーリアの異界に踏み込み、彼女とともに消えた。
+        evidence:
+          - "第15話: オフィーリアの異界に踏み込み、彼女とともに光の中に消えた"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: nanao
+    name: ナナオ＝ヒビヤ
+    affiliation: キンバリー魔法学校 1年生
+    editor:
+      anime:
+        score: 85
+        note: 入学早々トロールを止め、ミリガンとの戦いで新たな魔剣を編み出した。ガルーダの首も落とした。
+        evidence:
+          - "第4話: ガルーダを抑え込み、首を落とした"
+          - "第6話: 新たな魔剣を編み出し、ミリガンの手を斬り落とした"
+          - "第11話: 決闘でオルブライトを破った"
+      novel:
+        score: 90
+        note: 原作10巻ではオリバーの頼みを受け、敵対者を一人討った。
+        evidence:
+          - "原作10巻: オリバーの頼みで敵対者を討った"
+  - id: darius
+    name: ダリウス＝グレンヴィル
+    affiliation: キンバリー魔法学校 教師
+    cv: 東地宏樹
+    editor:
+      anime:
+        score: 84
+        note: キンバリーの教師だが、迷宮でオリバーに倒された。
+        evidence:
+          - "第6話: 迷宮でオリバーに倒された"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: enrico
+    name: エンリコ＝フォルギエーリ
+    affiliation: キンバリー魔法学校 魔法工学教師
+    cv: 大塚芳忠
+    appears: novel
+    editor:
+      novel:
+        score: 90
+        note: 機神を操る魔法工学の教師。生徒二人の捨て身の攻撃で弱ったところをオリバーに討たれた。
+        evidence:
+          - "原作5巻: 捨て身の攻撃で消耗した後、オリバーに討たれた"
+  - id: demetrio
+    name: デメトリオ
+    affiliation: キンバリー魔法学校 教師
+    appears: novel
+    editor:
+      novel:
+        score: 90
+        note: 自分の魂の欠片がオリバーに味方したことで敗れた。
+        evidence:
+          - "原作6巻: 魂の欠片の助けを得たオリバーに倒された"
+  - id: albright
+    name: ジョセフ＝オルブライト
+    affiliation: キンバリー魔法学校 1年生
+    cv: 古川慎
+    editor:
+      anime:
+        score: 74
+        note: 人狼化してオリバーの班と戦ったが、オリバーとナナオの両方に敗れた。
+        evidence:
+          - "第10話: 人工の月で人狼化し、オリバーと戦った"
+          - "第11話: オリバーとナナオに敗れた"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: andrews
+    name: リチャード＝アンドリューズ
+    affiliation: キンバリー魔法学校 1年生
+    cv: 千葉翔也
+    editor:
+      anime:
+        score: 72
+        note: コボルト狩りで現れたガルーダをオリバーとともに落とした。
+        evidence:
+          - "第4話: オリバーとともにガルーダを落とした"
+      novel:
+        score: 80
+        note: 決闘リーグで勝ち上がり、決勝でオリバーに敗れた。
+        evidence:
+          - "原作10巻: 決闘リーグ決勝でオリバーに敗れた"
+  - id: miligan
+    name: ヴェラ＝ミリガン
+    affiliation: キンバリー魔法学校 上級生
+    cv: 加隈亜衣
+    editor:
+      anime:
+        score: 72
+        note: バジリスクの魔眼を持つ。ナナオに手を斬り落とされた。
+        evidence:
+          - "第5話: バジリスクの魔眼を見せてナナオと戦った"
+          - "第6話: ナナオの新たな魔剣に手を斬り落とされた"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: rossi
+    name: トゥリオ＝ロッシ
+    affiliation: キンバリー魔法学校 1年生
+    cv: 神原大地
+    editor:
+      anime:
+        score: 66
+        note: オリバーに決闘を挑んだが、腕を極められて杖を落とした。
+        evidence:
+          - "第8話: オリバーに腕を極められて敗れた"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: guy
+    name: ガイ＝グリーンウッド
+    affiliation: キンバリー魔法学校 1年生
+    cv: 菅原慎介
+    editor:
+      anime:
+        score: 58
+        note: オリバーの仲間として迷宮の救出行に加わった。目立った単独の戦果はない。
+        evidence:
+          - "第13話: 仲間とともにカマキリの合成獣を倒した"
+      novel:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: katie
+    name: カティ＝アールト
+    affiliation: キンバリー魔法学校 1年生
+    cv: 大和田仁美
+    editor:
+      anime:
+        score: 52
+        note: 入学早々トロールに襲われ、ナナオに救われた。戦闘より魔法生物との対話を重んじる。
+        evidence:
+          - "第1話: 暴れるトロールからナナオに救われた"
+      novel:
+        score: 52
+        note: 原作でも評価は変わらない。

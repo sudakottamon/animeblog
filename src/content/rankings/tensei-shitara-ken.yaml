@@ -1,0 +1,174 @@
+work: 転生したら剣でした
+title: 転生したら剣でした 最強キャラランキング
+description: 転生したら剣でしたの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期（全12話）まで（第2期は2026年10月から放送中で、判定には含めない）
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説の既刊21巻まで（2026年9月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: amanda
+    name: アマンダ
+    affiliation: ランクA冒険者
+    cv: 小清水亜美
+    editor:
+      anime:
+        score: 92
+        note: 模擬戦でフランをほぼ完封し、迷宮ではフランが苦戦した蜘蛛の魔物を魔石ごと倒した。
+        evidence:
+          - "第9話: 模擬戦でフランに一撃を入れられたものの勝った"
+          - "第12話: フランが素手で粘った蜘蛛の魔物を魔石ごと倒した"
+      novel:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: fran
+    name: フラン
+    affiliation: 黒猫族の魔剣士
+    cv: 加隈亜衣
+    editor:
+      anime:
+        score: 86
+        note: 師匠を振るって試験官ドナドロンドを圧倒し、ゴブリンキングを一撃で倒した。アマンダには模擬戦で敗れた。
+        evidence:
+          - "第2話: 冒険者登録の試験でドナドロンドに勝った"
+          - "第5話: ゴブリンキングとクイーンを一撃で倒した"
+          - "第9話: アマンダとの模擬戦で一撃を入れたが敗れた"
+      novel:
+        score: 90
+        note: 竜牙騎士団の団長ヴァルーザとの一騎打ちを制し、シードランの提督ドワイトも斬り倒した。
+        evidence:
+          - "原作小説: ヴァルーザと剣を交え、勝った"
+          - "原作小説: ドワイトの胴体を斬って倒した"
+  - id: shishou
+    name: 師匠
+    affiliation: フランの剣（インテリジェンス・ウェポン）
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 85
+        note: 魔石を砕いて魔物のスキルを奪う剣。フランが手を斬られた後、単独でグレーターデーモンを貫いて倒した。
+        evidence:
+          - "第1話: フランの主人を倒して彼女を解放した"
+          - "第6話: グレーターデーモンを貫き、迷宮の主も倒した"
+          - "第7話: 戦わずにオーギュストのスキルを奪った"
+      novel:
+        score: 89
+        note: フランとともにヴァルーザやドワイトを倒した。剣として戦うので、評価はフランと並べる。
+        evidence:
+          - "原作小説: フランに振るわれてヴァルーザとの一騎打ちに勝った"
+  - id: varuza
+    name: ヴァルーザ
+    affiliation: 竜牙騎士団 団長
+    appears: novel
+    editor:
+      novel:
+        score: 82
+        note: 「黒牙」の異名を持つ閃剣士。フランと一騎打ちで剣を交え、満足して息絶えた。
+        evidence:
+          - "原作小説: フランとの一騎打ちに敗れて息絶えた"
+  - id: greater-demon
+    name: グレーターデーモン
+    affiliation: ゴブリンの迷宮の魔物
+    editor:
+      anime:
+        score: 80
+        note: フランの両手を斬り落とし、剣技のスキルを奪った。最後は師匠に貫かれた。
+        evidence:
+          - "第5話: フランの両手を斬り、剣のスキルを奪った"
+          - "第6話: 師匠に貫かれて倒された"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: jean
+    name: ジャン・ドゥービー
+    affiliation: ランクB冒険者・冥導師
+    cv: 内田雄馬
+    appears: novel
+    editor:
+      novel:
+        score: 76
+        note: ランクBながらAランク相当とされる死霊術師。フランと組んで浮遊島の迷宮に挑んだ。
+        evidence:
+          - "原作小説（浮遊島）: 死霊を従えてフランと迷宮を進んだ"
+  - id: dwight
+    name: ドワイト
+    affiliation: シードラン艦隊 提督
+    appears: novel
+    editor:
+      novel:
+        score: 70
+        note: シードランの艦隊を率いた提督。フランに胴体を斬られて死亡した。
+        evidence:
+          - "原作小説: フランに胴体を斬られて死亡した"
+  - id: donadrond
+    name: ドナドロンド
+    affiliation: 冒険者ギルド 試験官
+    cv: 稲田徹
+    editor:
+      anime:
+        score: 66
+        note: 冒険者登録の試験官。フランの剣と魔術の連続攻撃に押され、合格を言い渡した。
+        evidence:
+          - "第2話: 試験でフランに押し切られ、合格を言い渡した"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: gyuran
+    name: ギュラン
+    affiliation: 青猫族の暗殺者
+    cv: 白鳥哲
+    editor:
+      anime:
+        score: 64
+        note: オーギュストに雇われてフランを狙った暗殺者。返り討ちにされた。
+        evidence:
+          - "第8話: フランを襲ったが、斬られて倒された"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: urushi
+    name: ウルシ
+    affiliation: フランの従魔（狼）
+    cv: 後藤ヒロキ
+    editor:
+      anime:
+        score: 60
+        note: 第1期では召喚された直後で、本格的な戦闘は描かれていない。
+        evidence:
+          - "第11話: 召喚され、フランの従魔になった"
+      novel:
+        score: 64
+        note: 小説13巻でラグナラクウルに進化した。
+        evidence:
+          - "小説13巻: ラグナラクウルに進化した"
+  - id: krad
+    name: クラッド
+    affiliation: 冒険者
+    cv: 山口智広
+    editor:
+      anime:
+        score: 52
+        note: フランに模擬戦を挑み、すぐに倒された。
+        evidence:
+          - "第9話: フランとの模擬戦に敗れた"
+      novel:
+        score: 52
+        note: 原作でも評価は変わらない。
+  - id: goblin-king
+    name: ゴブリンキング
+    affiliation: ゴブリンの迷宮の魔物
+    editor:
+      anime:
+        score: 48
+        note: 迷宮の奥でゴブリンを率いていたが、フランの一撃で倒された。
+        evidence:
+          - "第5話: クイーンとともにフランの一撃で倒された"
+      novel:
+        score: 48
+        note: 原作でも評価は変わらない。

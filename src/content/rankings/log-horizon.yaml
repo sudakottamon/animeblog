@@ -1,0 +1,190 @@
+work: ログ・ホライズン
+title: ログ・ホライズン 最強キャラランキング
+description: ログ・ホライズンの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・原作勢
+    range: TVアニメ第3期「円卓崩壊」（全12話）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: krusty
+    name: クラスティ
+    affiliation: D.D.D ギルドマスター
+    cv: 櫻井孝宏
+    editor:
+      anime:
+        score: 90
+        note: ゴブリンの拠点への攻撃に加わった。中国サーバでは洗脳されたエリアスの攻撃をしのぎ、典災と戦った。
+        evidence:
+          - "第2期 第1話: アイザックらとともにゴブリンの拠点を攻めた"
+          - "第3期 第6話: 洗脳されたエリアスと戦い、辛くも逃れた"
+          - "第3期 第7話: カナミの一行に救われ、典災と戦った"
+  - id: elias
+    name: エリアス＝ハックブレード
+    affiliation: 古来種
+    cv: 平川大輔
+    editor:
+      anime:
+        score: 87
+        note: 洗脳された状態でクラスティを追い詰めた。一方で典災の能力で動きを封じられる場面もあった。
+        evidence:
+          - "第2期 第14話: 典災の力で動きを封じられた"
+          - "第3期 第6話: 洗脳されてクラスティと戦い、退けた"
+  - id: kanami
+    name: カナミ
+    affiliation: 元〈放蕩者の茶会〉リーダー
+    cv: 井上麻里奈
+    editor:
+      anime:
+        score: 86
+        note: 少人数の一行を率いて中国サーバを旅し、レイドボスを倒してクラスティを救った。
+        evidence:
+          - "第2期 第14話: 村へ向かう魔物の群れと戦った"
+          - "第3期 第7話: 一行でレイドボスを倒し、クラスティを救った"
+  - id: mizufa
+    name: ミズファ＝トゥルーデ
+    affiliation: Plant hwyaden
+    editor:
+      anime:
+        score: 85
+        note: 列車を単独で襲ったにゃん太を返り討ちにしかけた。
+        evidence:
+          - "第2期 第20話: にゃん太と戦い、瀕死に追い込んだ"
+  - id: isaac
+    name: アイザック
+    affiliation: 黒剣騎士団 ギルドマスター
+    cv: 日野聡
+    editor:
+      anime:
+        score: 84
+        note: ゴブリンの拠点攻撃に加わり、晩餐会ではイセルス王子を暗殺から守った。
+        evidence:
+          - "第2期 第1話: クラスティらとともにゴブリンの拠点を攻めた"
+          - "第2期 第23話: 晩餐会でイセルス王子を暗殺から守った"
+  - id: william
+    name: ウィリアム＝マサチューセッツ
+    affiliation: シルバーソード ギルドマスター
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 82
+        note: シロエと組んで奈落の参道のレイドに挑み、全滅後も仲間を立て直して初攻略に導いた。
+        evidence:
+          - "第2期 第3話: 24人のレイドで最初のボスを倒した"
+          - "第2期 第10話: 全滅した仲間を再挑戦へ立て直した"
+          - "第2期 第12話: 奈落の参道を初攻略した"
+  - id: akatsuki
+    name: アカツキ
+    affiliation: ログ・ホライズン
+    cv: 加藤英美里
+    editor:
+      anime:
+        score: 82
+        note: 一度は連続殺人犯に敗れたが、新たな技と打ち直した刀を得て再戦し、犯人の武器を破壊して倒した。
+        evidence:
+          - "第2期 第5話: 連続殺人犯に敗れた"
+          - "第2期 第8話: 口伝を会得し、犯人の武器を破壊して倒した"
+  - id: nyanta
+    name: にゃん太
+    affiliation: ログ・ホライズン
+    cv: 中田譲治
+    editor:
+      anime:
+        score: 80
+        note: Plant hwyadenの列車に単独で挑んだが、ミズファに瀕死に追い込まれた。
+        evidence:
+          - "第2期 第19話: Plant hwyadenの列車に単独で攻撃を仕掛けた"
+          - "第2期 第20話: ミズファと戦い、瀕死に追い込まれた"
+  - id: soujirou
+    name: ソウジロウ＝セタ
+    affiliation: 西風の旅団 ギルドマスター
+    cv: 下野紘
+    editor:
+      anime:
+        score: 80
+        note: アキバ屈指の剣士として知られるが、近衛の鎧を奪った連続殺人犯に倒された。
+        evidence:
+          - "第2期 第5話: 連続殺人犯に倒された"
+  - id: leonardo
+    name: レオナルド
+    affiliation: カナミの仲間
+    cv: 坂口周平
+    editor:
+      anime:
+        score: 78
+        note: カナミの一行として中国サーバを旅し、洗脳されたエリアスを解き放った。
+        evidence:
+          - "第2期 第14話: 典災の魔物を竜から引き離した"
+          - "第3期 第7話: 洗脳されたエリアスを解放した"
+  - id: naotsugu
+    name: 直継
+    affiliation: ログ・ホライズン
+    cv: 前野智昭
+    editor:
+      anime:
+        score: 77
+        note: 守護戦士として奈落の参道のレイドで前線を支えたが、強力なボスにシロエとともに倒された。
+        evidence:
+          - "第2期 第5話: レイドの途中でボスにシロエとともに倒された"
+  - id: shiroe
+    name: シロエ
+    affiliation: ログ・ホライズン ギルドマスター
+    cv: 寺島拓篤
+    editor:
+      anime:
+        score: 76
+        note: 本人の攻撃力は高くないが、全力管制戦闘で大規模戦闘を勝ちに導く。
+        evidence:
+          - "第2期 第12話: 指揮した24人のレイドで奈落の参道を初攻略した"
+          - "第2期 第25話: 全力管制戦闘で召喚の典災を倒した"
+  - id: kr
+    name: KR
+    affiliation: 召喚術師
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 74
+        note: カナミの一行として典災の魔物と竜を引き離す役目を担った。
+        evidence:
+          - "第2期 第14話: レオナルドとともに典災の魔物を竜から引き離した"
+  - id: demiquas
+    name: デミクァス
+    affiliation: ブリガンティア
+    editor:
+      anime:
+        score: 70
+        note: ススキノで暴れた武闘家。シルバーソードを襲ったが、手を引いた。
+        evidence:
+          - "第2期 第2話: シルバーソードを襲ったが手を引いた"
+  - id: roe2
+    name: ロエ2
+    affiliation: 謎の召喚術師
+    editor:
+      anime:
+        score: 70
+        note: 魔物に囲まれたミノリたちの一行を救ったが、日光で倒れた。
+        evidence:
+          - "第2期 第16話: 精霊系の魔物に襲われた一行を救った"
+  - id: minori
+    name: ミノリ
+    affiliation: ログ・ホライズン
+    cv: 田村奈央
+    editor:
+      anime:
+        score: 64
+        note: 新人パーティの神祇官。仲間と初の独り立ちの冒険に出た。
+        evidence:
+          - "第2期 第15話: 新人パーティとして初の冒険に出発した"
+  - id: touya
+    name: トウヤ
+    affiliation: ログ・ホライズン
+    cv: 山下大輝
+    editor:
+      anime:
+        score: 62
+        note: 新人パーティの前衛の武士。ミノリたちと冒険に出た。
+        evidence:
+          - "第2期 第15話: 新人パーティとして初の冒険に出発した"

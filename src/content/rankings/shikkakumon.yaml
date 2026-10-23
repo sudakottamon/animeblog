@@ -1,0 +1,173 @@
+work: 失格紋の最強賢者 ～世界最強の賢者が更に強くなるために転生しました～
+title: 失格紋の最強賢者 最強キャラランキング
+description: 失格紋の最強賢者の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期（全12話）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説の既刊（第21巻、2025年6月刊）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: mathias
+    name: マティアス
+    affiliation: 第二学園 生徒（賢者ガイアスの転生体）
+    cv: 玉城仁菜
+    editor:
+      anime:
+        score: 97
+        note: 学園の対抗戦で魔族デビリスを倒し、王都では一度ザリディアスに倒されながらも宝物庫の剣で立ち直って勝った。
+        evidence:
+          - "TVアニメ第1期（対抗戦）: 魔族デビリスを倒した"
+          - "TVアニメ第1期: アシュリルの魔法を封じ、エイリアスを自滅させた"
+          - "TVアニメ第1期（王都）: ザリディアスに一度倒された後、立ち直って倒した"
+      novel:
+        score: 97
+        note: 原作でも評価は変わらない。
+  - id: zadkirgias
+    name: ザドキルギアス
+    affiliation: 混沌の魔族
+    appears: novel
+    editor:
+      novel:
+        score: 90
+        note: 前世のガイアスが他の手を尽くした末に、自作の魔法「共振剣」でようやく倒した魔族。回想での評価。
+        evidence:
+          - "原作小説（ガイアスの時代の回想）: ガイアスに共振剣で倒された"
+  - id: zaridias
+    name: ザリディアス
+    affiliation: 魔族
+    cv: 子安武人
+    editor:
+      anime:
+        score: 88
+        note: 王都で一度マティアスを倒した。宝物庫の剣で立ち直ったマティアスに敗れた。
+        evidence:
+          - "TVアニメ第1期（王都）: マティアスを一度倒したが、最後は敗れた"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: iris
+    name: イリス
+    affiliation: 暗黒竜
+    cv: 井澤詩織
+    editor:
+      anime:
+        score: 82
+        note: 人の姿をとる暗黒竜。マティアスとともに前線で戦う。
+        evidence:
+          - "TVアニメ第1期: マティアスの仲間として前線で戦った"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: eirias
+    name: エイリアス
+    affiliation: 魔族
+    cv: 日野聡
+    editor:
+      anime:
+        score: 80
+        note: マティアスに実体化を強いられ、自滅した。
+        evidence:
+          - "TVアニメ第1期: マティアスに実体化させられて自滅した"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: erhalt
+    name: エルハルト
+    affiliation: 魔族
+    cv: 松風雅也
+    editor:
+      anime:
+        score: 76
+        note: アルマの毒矢で弱らされ、マティアスの毒魔法にかかった。
+        evidence:
+          - "TVアニメ第1期: アルマの毒矢で弱り、マティアスの毒魔法に捕らえられた"
+      novel:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: ashuril
+    name: アシュリル
+    affiliation: 魔族
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 74
+        note: マティアスに魔法を封じられ、自らの炎で焼け死んだ。
+        evidence:
+          - "TVアニメ第1期: 魔法を封じられて自滅した"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: gilas
+    name: ギルアス
+    affiliation: Sランク冒険者
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 72
+        note: Sランクの冒険者だが、マティアスとの決闘に敗れた。
+        evidence:
+          - "TVアニメ第1期: マティアスとの決闘に敗れた"
+      novel:
+        score: 74
+        note: フォルシアで魔族を倒したが、自らも深手を負った。
+        evidence:
+          - "原作小説（フォルシア）: 重傷を負いながら魔族を倒した"
+  - id: deshiril
+    name: デシリル
+    affiliation: 魔族
+    cv: 江口拓也
+    editor:
+      anime:
+        score: 72
+        note: アルマの拘束の矢でマティアスが来るまで足止めされた。
+        evidence:
+          - "TVアニメ第1期: アルマの矢に動きを封じられた"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: deviris
+    name: デビリス
+    affiliation: 魔族
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 66
+        note: 学園の対抗戦に紛れ込んだが、マティアスに倒された。
+        evidence:
+          - "TVアニメ第1期（対抗戦）: マティアスに倒された"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: alma
+    name: アルマ
+    affiliation: 第二学園 生徒（弓使い）
+    cv: 白石晴香
+    editor:
+      anime:
+        score: 64
+        note: 拘束の矢でデシリルを足止めし、毒矢でエルハルトを弱らせた。
+        evidence:
+          - "TVアニメ第1期: 拘束の矢でデシリルを足止めした"
+          - "TVアニメ第1期: 毒矢でエルハルトを弱らせた"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: lury
+    name: ルリイ
+    affiliation: 第二学園 生徒（付与魔法使い）
+    cv: 鈴代紗弓
+    editor:
+      anime:
+        score: 58
+        note: 剣と付与魔法でマティアスたちと戦いに加わるが、単独で勝った場面は少ない。
+        evidence:
+          - "TVアニメ第1期: マティアスやアルマとともに魔族との戦いに加わった"
+      novel:
+        score: 58
+        note: 原作でも評価は変わらない。

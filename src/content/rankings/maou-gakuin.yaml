@@ -1,0 +1,194 @@
+work: 魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
+title: 魔王学院の不適合者 最強キャラランキング
+description: 魔王学院の不適合者の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（第1期13話＋第2期24話）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説の既刊（第17巻、2025年8月刊）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: anos
+    name: アノス・ヴォルディゴード
+    affiliation: 暴虐の魔王
+    editor:
+      anime:
+        score: 99
+        note: 魔剣大会でレイを、勇者学院との対抗戦でゼシアたちを、選定審判でアヒデを下した。
+        evidence:
+          - "第1期: 魔剣大会の決勝でレイの胸を貫いて勝った"
+          - "TVアニメ: 理滅剣ヴェヌズドノアでアイヴィスを倒した"
+          - "第2期 第2クール: 選定審判でアヒデを破った"
+      novel:
+        score: 99
+        note: 原作でも評価は変わらない。
+  - id: ecuss
+    name: エクエス
+    affiliation: アノスの敵対者
+    appears: novel
+    editor:
+      novel:
+        score: 90
+        note: アノスとの決戦で《運命の歯車》を破壊され、後に創り替えられた。
+        evidence:
+          - "原作小説: アノスとの決戦で《運命の歯車》を破壊された"
+  - id: ray
+    name: レイ・グランズドリィ
+    affiliation: 魔王学院 生徒（勇者カノンの転生体）
+    cv: 寺島拓篤
+    editor:
+      anime:
+        score: 88
+        note: 魔剣大会で決勝まで勝ち上がり、アノスに胸を貫かれて敗れた。特別教練ではイドルに勝っている。
+        evidence:
+          - "第1期: 魔剣大会の決勝でアノスに敗れた"
+          - "TVアニメ: 特別教練でイドルに勝った"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: shin
+    name: シン・レグリア
+    affiliation: 魔王の右腕
+    editor:
+      anime:
+        score: 87
+        note: 二千年前にアノスの右腕だった剣士。アノスと対峙したが、諭されて矛を収めた。
+        evidence:
+          - "第2期 第1クール: アノスに諭されて降伏した"
+      novel:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: eldmed
+    name: エールドメード・ディティジョン
+    affiliation: 熾死王
+    cv: 小山力也
+    editor:
+      anime:
+        score: 85
+        note: アノスが完成させた秩序簒奪の魔法で天父神ノウスガリアの秩序を奪い、踏み潰した。
+        evidence:
+          - "第2期 第1クール: ノウスガリアの秩序を奪い、踏み潰した"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: nousgalia
+    name: ノウスガリア
+    affiliation: 天父神
+    cv: 内田夕夜
+    editor:
+      anime:
+        score: 80
+        note: 神族としてアノスたちの前に立ちはだかったが、秩序を熾死王に奪われて踏み潰された。
+        evidence:
+          - "第2期 第1クール: 熾死王に秩序を奪われ、踏み潰された"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: sasha
+    name: サーシャ・ネクロン
+    affiliation: 魔王学院 生徒（破滅の魔女）
+    cv: 夏吉ゆうこ
+    editor:
+      anime:
+        score: 79
+        note: 破滅の魔眼を持つ。班別対抗試験でアノスの班に敗れ、配下に入った。
+        evidence:
+          - "第1期: 班別対抗試験でアノスの班に敗れた"
+      novel:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: misha
+    name: ミーシャ・ネクロン
+    affiliation: 魔王学院 生徒
+    cv: 楠木ともり
+    editor:
+      anime:
+        score: 74
+        note: 創造の魔眼を持つアノスの最初の班員。単独での勝敗が分かる戦いは少ない。
+        evidence:
+          - "第1期: アノスの班員として班別対抗試験でサーシャの班に勝った"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: ivis
+    name: アイヴィス・ネクロン
+    affiliation: 七魔皇老
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 72
+        note: 七魔皇老の一人。アノスに理滅剣で倒された。
+        evidence:
+          - "TVアニメ: アノスの理滅剣ヴェヌズドノアで倒された"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: melheis
+    name: メルヘイス・ボラン
+    affiliation: 七魔皇老
+    cv: 大塚芳忠
+    editor:
+      anime:
+        score: 66
+        note: 隷属の魔剣で操られていたが、アノスに魔剣を滅ぼされて正気に戻った。
+        evidence:
+          - "TVアニメ: 隷属の魔剣を理滅剣で滅ぼされ、正気に戻った"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: zeshia
+    name: ゼシア・ビアンカ
+    affiliation: 勇者学院
+    cv: 久野美咲
+    editor:
+      anime:
+        score: 63
+        note: 勇者学院との対抗戦でアノスと戦ったが、傷一つ付けられずに敗れた。
+        evidence:
+          - "第1期 第10話: 対抗戦でレドリアーノとともにアノスに敗れた"
+      novel:
+        score: 63
+        note: 原作でも評価は変わらない。
+  - id: ahide
+    name: アヒデ
+    affiliation: 選定審判の参加者
+    editor:
+      anime:
+        score: 60
+        note: 選定審判の選定者としてアノスと争い、敗れた。
+        evidence:
+          - "第2期 第2クール: 選定審判でアノスに敗れた"
+      novel:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: gaios
+    name: ガイオス・アンゼム
+    affiliation: 魔王学院 生徒（皇族）
+    cv: 稲田徹
+    editor:
+      anime:
+        score: 54
+        note: 特別教練でアノスに挑み、敗れた。
+        evidence:
+          - "TVアニメ: 特別教練でアノスに敗れた"
+      novel:
+        score: 54
+        note: 原作でも評価は変わらない。
+  - id: idol
+    name: イドル・アンゼオ
+    affiliation: 魔王学院 生徒（皇族）
+    cv: 鳥海浩輔
+    editor:
+      anime:
+        score: 50
+        note: 特別教練でレイに敗れた。
+        evidence:
+          - "TVアニメ: 特別教練でレイに敗れた"
+      novel:
+        score: 50
+        note: 原作でも評価は変わらない。

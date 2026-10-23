@@ -1,0 +1,224 @@
+work: 蜘蛛ですが、なにか？
+title: 蜘蛛ですが、なにか？ 最強キャラランキング
+description: 蜘蛛ですが、なにか？の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（全24話）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作完結（全16巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: ariel
+    name: アリエル
+    affiliation: 魔王
+    cv: 上坂すみれ
+    editor:
+      anime:
+        score: 96
+        note: 不意打ちで蜘蛛の体を吹き飛ばし、再戦では深淵魔法で消し飛ばした。
+        evidence:
+          - "第16話: 私を待ち伏せし、体を吹き飛ばした"
+          - "第22話: 私と戦い、深淵魔法で消し飛ばした"
+      novel:
+        score: 96
+        note: エルフの里の決戦で、深淵魔法によってポティマスの魂を分解し消滅させた。
+        evidence:
+          - "原作小説（エルフの里の決戦）: 白織が脱出を阻んだポティマスを深淵魔法で消滅させた"
+  - id: kumoko
+    name: 私（蜘蛛子）
+    affiliation: エルロー大迷宮出身の蜘蛛の魔物
+    cv: 悠木碧
+    editor:
+      anime:
+        score: 94
+        note: 地龍アラバとマザーを倒し、エルフの里ではポティマスと戦った。魔王アリエルには二度敗れている。
+        evidence:
+          - "第12話: 消耗戦に持ち込んで地龍アラバを倒した"
+          - "第19話: 弱ったマザー（クイーンタラテクト）を倒した"
+          - "第24話: エルフの里でポティマスと戦い、その体が機械の複製だと暴いた"
+      novel:
+        score: 98
+        note: GMA爆弾を取り込んで神化し白織となった。第十軍団長「白」として勇者ユリウスを討ち、神のDの頭部を砕いた。
+        evidence:
+          - "原作小説: GMA爆弾を取り込んで神化した"
+          - "原作小説（人魔大戦）: 第十軍団長「白」として勇者ユリウスを討った"
+          - "原作小説: 神のDの頭部を砕いた"
+  - id: araba
+    name: アラバ（地龍）
+    affiliation: エルロー大迷宮の地龍
+    editor:
+      anime:
+        score: 87
+        note: 序盤の私を見逃すほど格上だった。最後は私との長い消耗戦の末に倒された。
+        evidence:
+          - "第3話: 遭遇した私を見逃した"
+          - "第12話: 私との長期戦で消耗し、討たれた"
+      novel:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: mother
+    name: マザー（クイーンタラテクト）
+    affiliation: 私の母体
+    editor:
+      anime:
+        score: 85
+        note: 操り人形のタラテクトを差し向けて私を追い詰めた。弱ったところを私に倒された。
+        evidence:
+          - "第15話: 差し向けた操り人形のタラテクトが私と戦った"
+          - "第19話: 弱ったところを私に倒された"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: wrath
+    name: ラース
+    affiliation: 魔王軍
+    cv: 逢坂良太
+    editor:
+      anime:
+        score: 83
+        note: エルフの里でソフィアとともにシュンたちを圧倒した。
+        evidence:
+          - "第23話: ソフィアとともにシュンの一行を圧倒した"
+      novel:
+        score: 87
+        note: 鬼人に進化し、ブイリムスを殺し、レイガーとの死闘を制した。白織との戦いは決着がつかなかった。
+        evidence:
+          - "原作小説: ブイリムスを殺害した"
+          - "原作小説: 死闘の末にレイガーを倒した"
+          - "原作小説: 白織との氷河での戦いは水入りになった"
+  - id: sophia
+    name: ソフィア
+    affiliation: 吸血鬼の転生者
+    cv: 竹達彩奈
+    editor:
+      anime:
+        score: 80
+        note: 洗脳したカティアとともにシュンたちを圧倒した。エルフの里でもラースと組んでシュンの一行を追い詰めた。
+        evidence:
+          - "第14話: 洗脳したカティアとともにシュンたちを圧倒した"
+          - "第23話: ラースとともにシュンの一行を圧倒した"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: merazophis
+    name: メラゾフィス
+    affiliation: ソフィアの従者
+    cv: 津田健次郎
+    appears: novel
+    editor:
+      novel:
+        score: 80
+        note: 人魔大戦でクニヒコとアサカの二人を相手に優勢に戦ったが、撤退している。
+        evidence:
+          - "原作小説（人魔大戦）: クニヒコとアサカと対決し、押し込んだうえで撤退した"
+  - id: potimas
+    name: ポティマス
+    affiliation: エルフの族長
+    cv: 森川智之
+    editor:
+      anime:
+        score: 78
+        note: エルフの里で私と戦ったが、戦った体は機械の複製だった。
+        evidence:
+          - "第24話: 私と戦い、機械の複製であることを暴かれた"
+      novel:
+        score: 74
+        note: 生身の本体は動けない状態だった。最期は白織に脱出を阻まれ、アリエルに消滅させられた。
+        evidence:
+          - "原作小説（エルフの里の決戦）: 白織に脱出を阻まれ、アリエルの深淵魔法で消滅した"
+  - id: julius
+    name: ユリウス
+    affiliation: 勇者
+    editor:
+      anime:
+        score: 76
+        note: 勇者として部隊を率い、上位のタラテクトと悪夢の残滓を討伐した。
+        evidence:
+          - "第6話: 部隊を率いてグレータータラテクトと悪夢の残滓を倒した"
+      novel:
+        score: 77
+        note: 人魔大戦で第七軍団長ブロウを一騎打ちで討った。その後、白に討たれた。
+        evidence:
+          - "原作小説（人魔大戦）: 第七軍団長ブロウを一騎打ちで討った"
+  - id: shun
+    name: シュン
+    affiliation: 勇者の弟（転生者）
+    cv: 堀江瞬
+    editor:
+      anime:
+        score: 76
+        note: エルフの里でユーゴーに勝ち、慈悲のスキルで致命傷を負ったアナを蘇生させた。
+        evidence:
+          - "第23話: エルフの里でユーゴーに勝った"
+          - "第24話: 致命傷を負ったアナを慈悲で蘇生させた"
+      novel:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: ronandt
+    name: ロナント
+    affiliation: 人族の宮廷魔導士
+    appears: novel
+    editor:
+      novel:
+        score: 74
+        note: 人族最強の魔法使いとされる。人魔大戦で第六軍団長ヒュウイを討ったが、私には撃退されている。
+        evidence:
+          - "原作小説（人魔大戦）: 第六軍団長ヒュウイを討った"
+          - "原作小説: 私に撃退された"
+  - id: fei
+    name: フェイ
+    affiliation: シュンの仲間（転生者・竜）
+    cv: 喜多村英梨
+    editor:
+      anime:
+        score: 72
+        note: 光竜に進化し、ソフィアたちに追い詰められたシュンの一行を救った。
+        evidence:
+          - "第14話: 光竜となってシュンたちを救出した"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: hugo
+    name: ユーゴー
+    affiliation: 帝国の王子（転生者）
+    cv: 石川界人
+    editor:
+      anime:
+        score: 70
+        note: 軍を率いてエルフの里を攻めたが、シュンとの戦いに敗れた。
+        evidence:
+          - "第21話: 軍を率いてエルフの里を攻めた"
+          - "第23話: シュンに敗れた"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: katia
+    name: カティア
+    affiliation: シュンの幼なじみ（転生者）
+    cv: 東山奈央
+    editor:
+      anime:
+        score: 64
+        note: ソフィアに洗脳されてシュンたちと戦わされた。
+        evidence:
+          - "第14話: 洗脳された状態でシュンたちに襲いかかった"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: filimos
+    name: フィリメス（岡ちゃん）
+    affiliation: 転生者たちの元担任・エルフ
+    editor:
+      anime:
+        score: 58
+        note: エルフの里でユーゴーと戦ったが、シュンの一行が来るまで持ちこたえるのがやっとだった。
+        evidence:
+          - "第21話: ユーゴーと戦い、シュンの一行に救われた"
+      novel:
+        score: 58
+        note: 原作でも評価は変わらない。
