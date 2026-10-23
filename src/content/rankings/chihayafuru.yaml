@@ -1,0 +1,256 @@
+work: ちはやふる
+title: ちはやふる 最強キャラランキング
+description: ちはやふるの最強かるた選手をアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期〜第3期（全74話。2年目の名人戦・クイーン戦と、太一のかるた部退部まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全50巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: suo
+    name: 周防久志
+    affiliation: 名人
+    cv: 東地宏樹
+    editor:
+      anime:
+        score: 96
+        note: 基準は競技かるたの実力（戦績）。名人戦で原田の挑戦を退け、千早にも大差で勝った。
+        evidence:
+          - "第3期 第16話: 千早に大差で勝った"
+          - "第3期 第20〜21話: 名人戦で原田秀雄を退けて防衛した"
+      manga:
+        score: 94
+        note: 名人戦で新と2勝2敗まで競り、第5試合で敗れて名人位を失った。
+        evidence:
+          - "名人戦: 第5試合で綿谷新に敗れた"
+  - id: shinobu
+    name: 若宮詩暢
+    affiliation: クイーン
+    cv: 中道美穂子
+    editor:
+      anime:
+        score: 94
+        note: 史上最年少のクイーン。山本由美と猪熊遥の挑戦を退けた。A級決勝では新に敗れている。
+        evidence:
+          - "第1期: クイーン戦で山本由美に勝って防衛した"
+          - "第3期 第21話: クイーン戦で猪熊遥に勝って防衛した"
+          - "第2期 第23〜25話: 全国大会のA級決勝で新に敗れた"
+      manga:
+        score: 92
+        note: クイーン戦で千早と2勝2敗まで競り、第5試合の運命戦で敗れた。
+        evidence:
+          - "3年目の全国大会: A級個人戦で千早に7枚差で勝った"
+          - "クイーン戦: 第5試合の運命戦で千早に敗れた"
+  - id: harada
+    name: 原田秀雄
+    affiliation: 府中白波会 会長
+    editor:
+      anime:
+        score: 90
+        note: 挑戦者決定戦で新に勝ち、名人戦では周防に2勝1敗まで迫った。最後は敗れた。
+        evidence:
+          - "第3期 第12〜14話: 名人戦挑戦者決定戦で綿谷新に勝った"
+          - "第3期 第19〜21話: 名人戦で周防に2勝1敗とリードしたが、防衛を許した"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: arata
+    name: 綿谷新
+    affiliation: 福井の高校生
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 89
+        note: 全国大会のA級決勝で詩暢に勝った。名人戦挑戦者決定戦では原田に敗れた。
+        evidence:
+          - "第2期 第23〜25話: 全国大会のA級決勝で若宮詩暢に勝った"
+          - "第3期 第12〜14話: 名人戦挑戦者決定戦で原田秀雄に敗れた"
+          - "第3期 第21〜22話: 高松宮杯で真島太一に勝った"
+      manga:
+        score: 96
+        note: 挑戦者決定戦で太一に勝ち、名人戦では周防を破って名人になった。
+        evidence:
+          - "名人戦挑戦者決定戦: 真島太一に2勝1敗で勝った"
+          - "名人戦: 第5試合で周防久志に勝ち、名人になった"
+  - id: chihaya
+    name: 綾瀬千早
+    affiliation: 瑞沢高校かるた部
+    cv: 瀬戸麻沙美
+    editor:
+      anime:
+        score: 83
+        note: 吉野会大会で優勝した。山本由美、詩暢、周防には敗れている。
+        evidence:
+          - "第3期 第6〜7話: 吉野会大会の決勝で真島太一に勝って優勝した"
+          - "第1期 第23話: クイーン戦予選で山本由美に4枚差で敗れた"
+          - "第3期 第16話: 周防久志に大差で敗れた"
+      manga:
+        score: 94
+        note: 挑戦者決定戦で結川桃に2連勝し、クイーン戦で詩暢を破ってクイーンになった。
+        evidence:
+          - "クイーン戦挑戦者決定戦: 結川桃に2勝0敗で勝った"
+          - "クイーン戦: 第5試合の運命戦で若宮詩暢に勝ち、クイーンになった"
+  - id: inokuma
+    name: 猪熊遥
+    affiliation: 元クイーン
+    cv: 坂本真綾
+    editor:
+      anime:
+        score: 85
+        note: 4連覇した元クイーン。挑戦者決定戦を勝ってクイーン戦に出たが、詩暢に敗れた。
+        evidence:
+          - "第3期 第12〜13話: クイーン戦挑戦者決定戦で逢坂恵夢に勝った"
+          - "第3期 第21話: クイーン戦で若宮詩暢に敗れた"
+          - "第3期 吉野会大会: 千早に敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: taichi
+    name: 真島太一
+    affiliation: 瑞沢高校かるた部 部長
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 76
+        note: B級で優勝してA級に上がった。吉野会大会と高松宮杯では千早と新に敗れた。
+        evidence:
+          - "第2期 第23〜24話: 全国大会のB級決勝で山城理音に勝った"
+          - "第3期 第6〜7話: 吉野会大会の決勝で千早に敗れた"
+          - "第3期 第21〜22話: 高松宮杯で綿谷新に敗れた"
+      manga:
+        score: 88
+        note: 名人戦挑戦者決定戦まで勝ち上がり、新に1勝2敗で敗れた。
+        evidence:
+          - "名人戦挑戦者決定戦: 綿谷新に1勝2敗で敗れた"
+  - id: yumi
+    name: 山本由美
+    affiliation: 元クイーン
+    cv: 甲斐田裕子
+    editor:
+      anime:
+        score: 81
+        note: クイーン戦予選で千早に勝って挑戦者になったが、詩暢に敗れた。
+        evidence:
+          - "第1期 第23話: クイーン戦予選で千早に4枚差で勝った"
+          - "第1期: クイーン戦で若宮詩暢に敗れた"
+      manga:
+        score: 81
+        note: 原作でも評価は変わらない。
+  - id: emu
+    name: 逢坂恵夢
+    affiliation: 西日本代表
+    cv: 松本さち
+    editor:
+      anime:
+        score: 79
+        note: 西日本代表としてクイーン戦挑戦者決定戦に出たが、猪熊に敗れた。
+        evidence:
+          - "第3期 第12〜13話: クイーン戦挑戦者決定戦で猪熊遥に敗れた"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: sudo
+    name: 須藤暁人
+    affiliation: 北央学園かるた部
+    cv: 大原崇
+    editor:
+      anime:
+        score: 74
+        note: 北央学園のA級選手。都予選の団体決勝で瑞沢と戦い、敗れた。
+        evidence:
+          - "第1期 第11話: 東京都予選の団体決勝で北央学園として瑞沢と戦い、敗れた"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: nishida
+    name: 西田優征
+    affiliation: 瑞沢高校かるた部
+    cv: 奈良徹
+    editor:
+      anime:
+        score: 70
+        note: B級決勝を運命戦で制した。全国大会の個人戦では新に敗れた。
+        evidence:
+          - "第1期 第19話: 大会のB級決勝で太一に運命戦で勝った"
+          - "第2期: 全国大会の個人戦2回戦で綿谷新に敗れた"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: rion
+    name: 山城理音
+    affiliation: 富士崎高校かるた部
+    editor:
+      anime:
+        score: 66
+        note: 全国大会のB級決勝まで勝ち上がり、太一に敗れた。
+        evidence:
+          - "第2期 第23〜24話: 全国大会のB級決勝で真島太一に敗れた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: tsukuba
+    name: 筑波秋博
+    affiliation: 瑞沢高校かるた部
+    cv: 入野自由
+    editor:
+      anime:
+        score: 50
+        note: 瑞沢の後輩。初出場の大会のD級個人戦で優勝した。
+        evidence:
+          - "第2期: 初出場の大会でD級個人戦に優勝した"
+      manga:
+        score: 50
+        note: 原作でも評価は変わらない。
+  - id: kanade
+    name: 大江奏
+    affiliation: 瑞沢高校かるた部
+    cv: 茅野愛衣
+    editor:
+      anime:
+        score: 48
+        note: かるた部に入って始めた初心者。D級の決勝で駒野に勝って優勝した。
+        evidence:
+          - "第1期 第19話: 大会のD級決勝で駒野勉に勝った"
+      manga:
+        score: 48
+        note: 原作でも評価は変わらない。
+  - id: tsutomu
+    name: 駒野勉
+    affiliation: 瑞沢高校かるた部
+    cv: 代永翼
+    editor:
+      anime:
+        score: 45
+        note: データ分析が得意な部員。都予選では1勝もできず、D級決勝では奏に敗れた。
+        evidence:
+          - "第1期 第10話: 東京都予選で1勝もできなかった"
+          - "第1期 第19話: 大会のD級決勝で大江奏に敗れた"
+      manga:
+        score: 45
+        note: 原作でも評価は変わらない。
+  - id: yuikawa
+    name: 結川桃
+    affiliation: クイーン戦挑戦者決定戦の出場者
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: クイーン戦の挑戦者決定戦まで勝ち上がったが、千早に2連敗した。
+        evidence:
+          - "クイーン戦挑戦者決定戦: 千早に0勝2敗で敗れた"
+  - id: tamaru
+    name: 田丸翠
+    affiliation: 瑞沢高校かるた部
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 中学でA級に上がった後輩。東日本予選の決勝まで進み、千早に敗れた。
+        evidence:
+          - "東日本予選 決勝: 千早に敗れた"

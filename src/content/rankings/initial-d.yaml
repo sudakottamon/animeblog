@@ -1,0 +1,221 @@
+work: 頭文字D
+title: 頭文字D 最強キャラランキング
+description: 頭文字Dの最強ドライバーをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ・原作とも完結まで（TVアニメ First Stage〜Final Stage、原作全48巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: takumi
+    name: 藤原拓海
+    affiliation: プロジェクトD ダウンヒル担当
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 97
+        note: 基準は峠のドライバーとしての腕（車の性能差はなるべく割り引く）。プロジェクトDの最終戦まで勝ち抜いた。
+        evidence:
+          - "秋名: 高橋啓介のFDに勝った"
+          - "東堂塾戦: プロドライバーの舘智幸に僅差で勝った"
+          - "神奈川最終戦: 同じAE86に乗る乾信司に勝った"
+  - id: bunta
+    name: 藤原文太
+    affiliation: 藤原とうふ店
+    cv: 石塚運昇
+    editor:
+      anime:
+        score: 95
+        note: 拓海に運転を教えた父親。バトルの場面は少ないが、慣れないインプレッサで拓海の86を抜き去った。
+        evidence:
+          - "インプレッサの試乗: 秋名で拓海の86に追いつき、抜き去った"
+          - "回想: 小柏健に一度も負けなかったと語られた"
+  - id: ryosuke
+    name: 高橋涼介
+    affiliation: 赤城レッドサンズ／プロジェクトD リーダー
+    cv: 子安武人
+    editor:
+      anime:
+        score: 94
+        note: 理論派の走り屋。須藤京一と北条凛という格上の相手にどちらも勝っている。
+        evidence:
+          - "いろは坂: エンペラーの須藤京一に勝った"
+          - "神奈川: 死神と呼ばれた北条凛に勝った"
+  - id: keisuke
+    name: 高橋啓介
+    affiliation: プロジェクトD ヒルクライム担当
+    cv: 関智一
+    editor:
+      anime:
+        score: 90
+        note: 拓海には敗れたが、その後はヒルクライム担当として最終戦まで負けなかった。
+        evidence:
+          - "秋名: 拓海に敗れた"
+          - "パープルシャドウ戦: 星野好造に勝った"
+          - "神奈川最終戦: 北条豪に勝った"
+  - id: inui-shinji
+    name: 乾信司
+    affiliation: サイドワインダー
+    cv: 阿部敦
+    editor:
+      anime:
+        score: 89
+        note: 拓海と同じAE86で最終戦に出た。拓海を最後まで追い詰めたが敗れた。
+        evidence:
+          - "神奈川最終戦: 拓海に敗れた"
+  - id: jojima
+    name: 城島俊也
+    affiliation: パープルシャドウ
+    cv: 江原正士
+    editor:
+      anime:
+        score: 87
+        note: ゴッドアームと呼ばれるベテラン。拓海と競り合ったが、疲労と暑さで車を止めて敗れた。
+        evidence:
+          - "パープルシャドウ戦: 拓海と戦い、体調を崩して停車し敗れた"
+  - id: tachi
+    name: 舘智幸
+    affiliation: 東堂塾OB（プロドライバー）
+    editor:
+      anime:
+        score: 86
+        note: 東堂塾の切り札として出てきたプロドライバー。拓海に僅差で敗れた。
+        evidence:
+          - "東堂塾戦: 拓海に僅差で敗れた"
+  - id: hojo-go
+    name: 北条豪
+    affiliation: サイドワインダー
+    cv: 木内秀信
+    editor:
+      anime:
+        score: 84
+        note: 最終戦でNSXに乗って啓介と戦った。オーバースピードでスピンして敗れた。
+        evidence:
+          - "神奈川最終戦: 啓介との勝負でスピンし、敗れた"
+  - id: hoshino
+    name: 星野好造
+    affiliation: パープルシャドウ
+    cv: 大友龍三郎
+    editor:
+      anime:
+        score: 84
+        note: ゴッドフットと呼ばれるベテラン。啓介と競ったが、タイヤを使い切って退いた。
+        evidence:
+          - "パープルシャドウ戦: 啓介と戦い、タイヤの摩耗で退いた"
+  - id: sudo-kyoichi
+    name: 須藤京一
+    affiliation: エンペラー リーダー
+    cv: 田中正彦
+    editor:
+      anime:
+        score: 84
+        note: 拓海に勝った数少ない相手。ただし涼介には敗れている。
+        evidence:
+          - "いろは坂: 涼介に敗れた"
+          - "赤城: 拓海のエンジンが壊れ、拓海に勝った"
+  - id: hojo-rin
+    name: 北条凛
+    affiliation: 神奈川の走り屋（死神GT-R）
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 82
+        note: 涼介と危険な走りで競り合った。ブレーキとタイヤが限界に達し、敗れた。
+        evidence:
+          - "神奈川: 涼介に敗れ、涼介と池田竜次の車に止められた"
+  - id: ogashiwa-kai
+    name: 小柏カイ
+    affiliation: いろは坂の走り屋
+    cv: 神奈延年
+    editor:
+      anime:
+        score: 81
+        note: 岩城清次に勝ったが、拓海には落ち葉でスピンして敗れた。
+        evidence:
+          - "岩城清次戦: 岩城に勝った"
+          - "いろは坂: 拓海に敗れた"
+  - id: ikeda
+    name: 池田竜次
+    affiliation: 神奈川の走り屋
+    cv: 中井和哉
+    editor:
+      anime:
+        score: 80
+        note: 神奈川で啓介と戦い、敗れた。
+        evidence:
+          - "神奈川: 啓介に敗れた"
+  - id: minagawa
+    name: 皆川英雄
+    affiliation: 神奈川の走り屋
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 79
+        note: スープラで啓介と戦った。リアタイヤを使い切り、自分から勝負を降りた。
+        evidence:
+          - "神奈川: 啓介と戦い、リアタイヤの摩耗で勝負を降りた"
+  - id: ninomiya
+    name: 二宮大輝
+    affiliation: 東堂塾
+    cv: 森川智之
+    editor:
+      anime:
+        score: 76
+        note: 東堂塾の現役エース。拓海に敗れた。
+        evidence:
+          - "東堂塾戦: 拓海に敗れた"
+  - id: akiyama-wataru
+    name: 秋山渉
+    affiliation: 埼玉の走り屋
+    cv: 松本保典
+    editor:
+      anime:
+        score: 76
+        note: ターボを積んだAE86で拓海に挑み、敗れた。
+        evidence:
+          - "正丸峠: 拓海に敗れた"
+  - id: sato-mako
+    name: 佐藤真子
+    affiliation: インパクトブルー
+    cv: 根谷美智子
+    editor:
+      anime:
+        score: 72
+        note: 碓氷峠の地元ドライバー。拓海に敗れた。
+        evidence:
+          - "碓氷峠: 拓海に敗れた"
+  - id: nakazato
+    name: 中里毅
+    affiliation: 妙義ナイトキッズ
+    cv: 檜山修之
+    editor:
+      anime:
+        score: 70
+        note: 拓海と岩城清次に敗れている。
+        evidence:
+          - "秋名: 拓海に敗れた"
+          - "エンペラーの群馬遠征: 岩城清次に敗れた"
+  - id: iwaki
+    name: 岩城清次
+    affiliation: エンペラー
+    cv: 川原和久
+    editor:
+      anime:
+        score: 68
+        note: 中里には勝ったが、拓海・啓介・小柏カイに敗れた。
+        evidence:
+          - "エンペラーの群馬遠征: 中里毅に勝った"
+          - "秋名: 拓海に敗れた"
+  - id: shoji-shingo
+    name: 庄司慎吾
+    affiliation: 妙義ナイトキッズ
+    cv: 藤原啓治
+    editor:
+      anime:
+        score: 64
+        note: 妙義で拓海に挑んだが、自分でクラッシュして敗れた。
+        evidence:
+          - "妙義: 拓海に挑み、自らクラッシュして敗れた"

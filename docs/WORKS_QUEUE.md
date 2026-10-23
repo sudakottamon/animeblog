@@ -220,12 +220,12 @@
 - [ ] `major` MAJOR
 
 ## バッチ 28
-- [ ] `inazuma-eleven` イナズマイレブン
-- [ ] `yowamushi-pedal` 弱虫ペダル
-- [ ] `ao-ashi` アオアシ
-- [ ] `initial-d` 頭文字D（ドライバーとしての腕で判定）
-- [ ] `hikaru-no-go` ヒカルの碁（棋力で判定）
-- [ ] `chihayafuru` ちはやふる（かるたの実力で判定）
+- [x] `inazuma-eleven` イナズマイレブン
+- [x] `yowamushi-pedal` 弱虫ペダル
+- [x] `ao-ashi` アオアシ
+- [x] `initial-d` 頭文字D（ドライバーとしての腕で判定）
+- [x] `hikaru-no-go` ヒカルの碁（棋力で判定）
+- [x] `chihayafuru` ちはやふる（かるたの実力で判定）
 
 ## バッチ 29
 - [x] `sangatsu-no-lion` 3月のライオン（棋力で判定）
