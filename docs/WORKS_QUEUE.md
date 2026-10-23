@@ -84,12 +84,12 @@
 - [ ] `ajin` 亜人
 
 ## バッチ 11
-- [ ] `berserk` ベルセルク
-- [ ] `claymore` CLAYMORE
-- [ ] `vinland-saga` ヴィンランド・サガ
-- [ ] `golden-kamuy` ゴールデンカムイ
-- [ ] `dorohedoro` ドロヘドロ
-- [ ] `vagabond` バガボンド（アニメ化されていない）
+- [x] `berserk` ベルセルク
+- [x] `claymore` CLAYMORE
+- [x] `vinland-saga` ヴィンランド・サガ
+- [x] `golden-kamuy` ゴールデンカムイ
+- [x] `dorohedoro` ドロヘドロ
+- [x] `vagabond` バガボンド（アニメ化されていない）
 
 ## バッチ 12
 - [ ] `gantz` GANTZ

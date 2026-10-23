@@ -1,0 +1,148 @@
+work: バガボンド
+title: バガボンド 最強キャラランキング
+description: バガボンドの最強キャラを原作の既刊までの描写でティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の単行本既刊37巻まで（2015年から休載中）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: ittosai
+    name: 伊藤一刀斎
+    affiliation: 一刀流の剣豪
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: 剣士としての立ち合いの強さで判定。武蔵を正面から下した。小次郎との立ち合いでは右手の一部を失っている。
+        evidence:
+          - "武蔵との立ち合い: 一太刀を受けた後、掌打で武蔵を気絶させた"
+          - "第二章: 小次郎との立ち合いで右手の半分を失った"
+  - id: musashi
+    name: 宮本武蔵
+    affiliation: 主人公
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 吉岡一門70名を一人で討ち、清十郎と伝七郎の兄弟にも勝った。一刀斎には敗れている。
+        evidence:
+          - "第三章: 吉岡一門70名を討った（右足を負傷）"
+          - "第三章: 再戦で吉岡清十郎を斬った"
+          - "伊藤一刀斎との立ち合い: 掌打で気絶させられて敗れた"
+  - id: kojiro
+    name: 佐々木小次郎
+    affiliation: 鐘巻自斎の養子
+    appears: manga
+    editor:
+      manga:
+        score: 91
+        note: 耳の聞こえない天才剣士。一刀斎と立ち合い、その右手の半分を斬り落とした。
+        evidence:
+          - "第二章: 伊藤一刀斎と立ち合い、右手の半分を斬り落とした"
+  - id: sekishusai
+    name: 柳生石舟斎
+    affiliation: 柳生家 当主
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 柳生新陰流の老剣士。作中で刀を交える場面はないが、会った武蔵に柳生の底知れなさを思い知らせた。
+        evidence:
+          - "第一章: 柳生の里を訪れた武蔵に、柳生の懐の深さを思い知らせた"
+  - id: inei
+    name: 宝蔵院胤栄
+    affiliation: 宝蔵院 先代
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 宝蔵院流槍術の先代。老いてなお武蔵を圧倒した。
+        evidence:
+          - "第一章: 宝蔵院で武蔵を圧倒した"
+  - id: seijuro
+    name: 吉岡清十郎
+    affiliation: 吉岡道場 当主
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 吉岡道場の当主。最初の立ち合いで武蔵の額を斬って退けたが、再戦で武蔵に斬られた。
+        evidence:
+          - "第一章: 武蔵の額を斬り、立ち合いに勝った"
+          - "第三章: 武蔵との再戦で斬られた"
+  - id: inshun
+    name: 宝蔵院胤舜
+    affiliation: 宝蔵院 二代目
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 宝蔵院流槍術の若き天才。武蔵との二度目の立ち合いは紙一重の勝負になった。
+        evidence:
+          - "第一章: 武蔵との二度目の立ち合いで、紙一重の勝負を演じた"
+  - id: hyogonosuke
+    name: 柳生兵庫助
+    affiliation: 柳生家
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 石舟斎の孫で柳生の後継と目される剣士。作中で本格的な立ち合いは描かれていない。
+        evidence:
+          - "武蔵との出会い: 武蔵と二度顔を合わせたが、立ち合いには至らなかった"
+  - id: denshichiro
+    name: 吉岡伝七郎
+    affiliation: 吉岡道場 当主の弟
+    appears: manga
+    editor:
+      manga:
+        score: 78
+        note: 清十郎の弟。最初の立ち合いは決着がつかず、蓮華王院での決闘で武蔵に敗れた。
+        evidence:
+          - "第一章: 武蔵との立ち合いは決着がつかなかった"
+          - "第三章: 蓮華王院での決闘で武蔵に敗れた"
+  - id: kohei
+    name: 辻風黄平（宍戸梅軒）
+    affiliation: 鎖鎌の使い手
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: 武蔵に二度敗れた。二度目は宍戸梅軒を名乗り、武蔵と激闘を演じた。
+        evidence:
+          - "第一章: 武蔵に敗れ、指を切り落とされて命乞いをした"
+          - "第一章: 宍戸梅軒として武蔵と戦い、激闘の末に敗れた"
+  - id: ueda
+    name: 植田良平
+    affiliation: 吉岡道場 門弟
+    appears: manga
+    editor:
+      manga:
+        score: 68
+        note: 吉岡一門の高弟。一の太刀を放ったが武蔵に届かず力尽きた。
+        evidence:
+          - "第三章: 武蔵に一の太刀を放ったが、力尽きた"
+  - id: tenma
+    name: 辻風典馬
+    affiliation: 野武士の頭
+    appears: manga
+    editor:
+      manga:
+        score: 62
+        note: 野武士を率いる黄平の兄。武蔵に木刀で撲殺された。
+        evidence:
+          - "第一章: 武蔵に木刀で撲殺された"
+  - id: matahachi
+    name: 本位田又八
+    affiliation: 武蔵の幼なじみ
+    appears: manga
+    editor:
+      manga:
+        score: 20
+        note: 武蔵とともに関ヶ原へ出た幼なじみ。剣の腕は低く、強さの議論には入らない。
+        evidence:
+          - "第一章: 武蔵とともに関ヶ原の戦いに加わった"

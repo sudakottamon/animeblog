@@ -1,0 +1,288 @@
+work: ゴールデンカムイ
+title: ゴールデンカムイ 最強キャラランキング
+description: ゴールデンカムイの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ最終章（第50〜62話、2026年1〜3月放送）まで。暴走列車編は含まない
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全31巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: sugimoto
+    name: 杉元佐一
+    affiliation: 元第一師団 歩兵
+    cv: 小林親弘
+    editor:
+      anime:
+        score: 92
+        note: 銃や刃物を使う白兵戦と、致命傷から立ち直る体の強さで判定。小樽で尾形を退け、網走で頭を撃たれても生き延びた。
+        evidence:
+          - "小樽編: 尾形の右腕を折って退けた"
+          - "網走編: 尾形に頭を撃たれたが、家永の手術で回復した"
+          - "札幌編: 連続殺人犯オストログとの戦いで、銃剣で腹を割いた"
+      manga:
+        score: 94
+        note: 五稜郭で二階堂を倒し、最後は鶴見と揉み合って函館湾に落ちたが生き延びた。
+        evidence:
+          - "五稜郭の戦い: 二階堂を倒した"
+          - "最終決戦: 列車内で鶴見と揉み合って函館湾に落ちたが、生き延びた"
+  - id: hijikata
+    name: 土方歳三
+    affiliation: 元新選組副長
+    cv: 中田譲治
+    editor:
+      anime:
+        score: 90
+        note: 老齢でも刀と銃の両方で一線に立つ。網走では典獄の犬童に勝って首を落とした。
+        evidence:
+          - "茨戸編: 渋川一味を殲滅した"
+          - "網走編: 典獄の犬童に勝ち、首を落とした"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。最後の列車内の戦闘で命を落とした。
+        evidence:
+          - "最終決戦: 列車内の戦闘で死亡した"
+  - id: ogata
+    name: 尾形百之助
+    affiliation: 元第七師団 上等兵
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 89
+        note: 作中随一の狙撃手。ヴァシリとの狙撃戦に勝ち、網走ではウイルクを撃った。
+        evidence:
+          - "網走編: ウイルクを狙撃した"
+          - "樺太編: ヴァシリとの狙撃戦に勝った"
+          - "札幌麦酒工場: 宇佐美を撃った"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。最後は列車内でアシㇼパと対峙した後、自ら命を絶った。
+        evidence:
+          - "最終決戦: 列車内でアシㇼパと対峙した後、自ら命を絶った"
+  - id: ushiyama
+    name: 牛山辰馬
+    affiliation: 柔道家（刺青の囚人）
+    cv: 乃村健次
+    editor:
+      anime:
+        score: 88
+        note: 素手の組み技では作中最上位。札幌では杉元と組み合い、オストログの頭部を砕いた。
+        evidence:
+          - "札幌編: 杉元と組み合った"
+          - "札幌編: 連続殺人犯オストログの頭部を砕いた"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。最後は列車内でアシㇼパを庇って戦死した。
+        evidence:
+          - "最終決戦: 列車内でアシㇼパを庇って戦死した"
+  - id: tsurumi
+    name: 鶴見篤四郎
+    affiliation: 第七師団 中尉
+    cv: 大塚芳忠
+    editor:
+      anime:
+        score: 84
+        note: 本人の腕に加え、心酔する部下を動かす力で上位に置く。第七師団を率いて金塊を追った。
+        evidence:
+          - "小樽編: 第七師団を率いて刺青人皮を追い、坂本慶一郎を銃撃した"
+      manga:
+        score: 86
+        note: 函館での決戦で菊田とソフィアを射殺し、最後は杉元と揉み合って機関車ごと函館湾に落ちた。
+        evidence:
+          - "函館での決戦: 菊田とソフィアを射殺した"
+          - "最終決戦: 杉元と揉み合い、機関車ごと函館湾に落ちた"
+  - id: tanigaki
+    name: 谷垣源次郎
+    affiliation: 元第七師団 一等卒／マタギ
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 80
+        note: マタギの射撃と体力で戦う。コタンで尾形を撃退し、樺太ではキロランケを倒した。
+        evidence:
+          - "コタンでの戦い: 尾形を撃退した"
+          - "樺太編: 流氷上でキロランケを倒した"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。五稜郭に救援に駆けつけた。
+        evidence:
+          - "五稜郭の戦い: 救援に駆けつけた"
+  - id: tsukishima
+    name: 月島基
+    affiliation: 第七師団 軍曹
+    cv: 竹本英史
+    editor:
+      anime:
+        score: 80
+        note: 鶴見の右腕。樺太でキロランケとの戦いに加わり、札幌では有古を撃って戦線から外した。
+        evidence:
+          - "樺太編: 流氷上でキロランケとの戦いに加わった"
+          - "札幌編: 有古を撃って戦線から外した"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: koito
+    name: 鯉登音之進
+    affiliation: 第七師団 少尉
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 79
+        note: 示現流の剣で戦う若い将校。樺太ではキロランケに止めを刺した。
+        evidence:
+          - "偽の犬童の一件: 犬童に化けた鈴川を射殺した"
+          - "樺太編: キロランケとの戦いで止めを刺した"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: kiroranke
+    name: キロランケ
+    affiliation: アイヌの元パルチザン
+    cv: てらそままさき
+    editor:
+      anime:
+        score: 78
+        note: 爆薬と格闘を使う元パルチザン。樺太の流氷上で谷垣・月島・鯉登の三人と戦い、致命傷を負った。
+        evidence:
+          - "樺太編: 流氷上で谷垣・月島・鯉登と戦い、致命傷を負った"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: vasily
+    name: ヴァシリ
+    affiliation: ロシアの狙撃兵
+    cv: 梅原裕一郎
+    editor:
+      anime:
+        score: 78
+        note: 尾形と張り合う狙撃手。樺太での狙撃戦に敗れ、顎を負傷した。
+        evidence:
+          - "樺太編: 尾形との狙撃戦に敗れ、顎を負傷した"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: nagakura
+    name: 永倉新八
+    affiliation: 元新選組 二番隊組長
+    cv: 菅生隆之
+    editor:
+      anime:
+        score: 77
+        note: 老齢の剣士。土方とともに茨戸の抗争に加わり、久寿田馬吉を斬った。
+        evidence:
+          - "茨戸編: 久寿田馬吉を斬った"
+      manga:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: usami
+    name: 宇佐美時重
+    affiliation: 第七師団 上等兵
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 76
+        note: 鶴見に心酔する兵士。札幌麦酒工場で戦ったが、尾形に撃たれて死亡した。
+        evidence:
+          - "札幌麦酒工場: 尾形に撃たれ、鶴見の腕の中で死亡した"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: iwaiki
+    name: 岩息舞治
+    affiliation: 刺青の囚人
+    cv: 三宅健太
+    editor:
+      anime:
+        score: 75
+        note: 素手の殴り合いを好む大男。樺太のスチェンカで杉元らと戦った後、和解した。
+        evidence:
+          - "樺太編: スチェンカで杉元らと戦った後、和解した"
+      manga:
+        score: 75
+        note: 原作でも評価は変わらない。
+  - id: fusataro
+    name: 海賊房太郎
+    affiliation: 刺青の囚人
+    cv: 関智一
+    editor:
+      anime:
+        score: 72
+        note: 一味を率いる刺青の囚人。杉元らと一度戦った後、協力関係になった。
+        evidence:
+          - "房太郎一味との戦い: 杉元らと戦った後、協力関係になった"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: ariko
+    name: 有古力松
+    affiliation: 第七師団 一等卒
+    cv: 水中雅章
+    editor:
+      anime:
+        score: 68
+        note: アイヌの血を引く第七師団の兵士。札幌で月島に撃たれ、戦線を離れた。
+        evidence:
+          - "札幌編: 月島に撃たれ、戦線を離れた"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: nikaido
+    name: 二階堂浩平
+    affiliation: 第七師団 一等卒
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 62
+        note: 杉元への執着で動く兵士。戦うたびに体の一部を失っている。
+        evidence:
+          - "網走編: 杉元の散弾で右手を失った"
+          - "夕張: 土方に右足を奪われた"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。最後は五稜郭で杉元と戦い、爆死した。
+        evidence:
+          - "五稜郭の戦い: 杉元と戦い、爆死した"
+  - id: asirpa
+    name: アシㇼパ
+    affiliation: アイヌの少女
+    cv: 白石晴香
+    editor:
+      anime:
+        score: 55
+        note: 弓と毒矢を使う狩人。戦闘員ではないが、狩りの腕で杉元を何度も助けている。
+        evidence:
+          - "小樽編: 弓と毒矢を使う狩猟の腕で、杉元を助けた"
+      manga:
+        score: 55
+        note: 原作でも評価は変わらない。
+  - id: kadokura
+    name: 門倉利運
+    affiliation: 網走監獄 看守部長
+    cv: 安原義人
+    editor:
+      anime:
+        score: 45
+        note: 腕っぷしは強くないが、運の良さで生き延びている。網走で監獄側を裏切り、土方の陣営に入った。
+        evidence:
+          - "網走編: 監獄側を裏切り、土方の陣営に入った"
+      manga:
+        score: 45
+        note: 原作でも評価は変わらない。
+  - id: shiraishi
+    name: 白石由竹
+    affiliation: 脱獄王（刺青の囚人）
+    cv: 伊藤健太郎
+    editor:
+      anime:
+        score: 40
+        note: 戦闘は得意ではなく、脱獄と潜入の技で役に立つ。
+        evidence:
+          - "網走編: 脱獄王の技を生かし、網走監獄への潜入に加わった"
+      manga:
+        score: 40
+        note: 原作でも評価は変わらない。

@@ -1,0 +1,277 @@
+work: CLAYMORE
+title: CLAYMORE 最強キャラランキング
+description: CLAYMOREの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（2007年、全26話、ピエタ侵攻＋アニメオリジナルの結末）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全27巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: priscilla
+    name: プリシラ
+    affiliation: 組織 No.2（元）／覚醒者
+    cv: 久川綾
+    editor:
+      anime:
+        score: 95
+        note: 戦いの中で覚醒し、No.1のテレサを討った。アニメ版の結末ではクレアに敗れた。
+        evidence:
+          - "テレサの過去編: 戦いの中で覚醒し、テレサを討った"
+          - "アニメ最終盤: 記憶を取り戻してクレアと戦い、敗れた"
+      manga:
+        score: 98
+        note: 組織のNo.1とNo.2を殺し、最終決戦ではカサンドラらを取り込んで強大化した。最後はラキとクレアの攻撃で消滅した。
+        evidence:
+          - "リフル討伐: 暴走したベスとアリシアを殺した"
+          - "最終決戦: カサンドラらを取り込んで強大化したが、ラキとクレアの攻撃で消滅した"
+  - id: teresa
+    name: テレサ
+    affiliation: 組織 No.1
+    cv: 朴璐美
+    editor:
+      anime:
+        score: 94
+        note: 微笑のテレサと呼ばれたNo.1。自分を処刑しに来た討伐隊を退けたが、覚醒したプリシラに討たれた。
+        evidence:
+          - "テレサの過去編: 処刑のために送られた討伐隊を退けた"
+          - "テレサの過去編: 覚醒したプリシラに討たれた"
+      manga:
+        score: 97
+        note: 最終決戦でクレアの覚醒体から現れ、覚醒者たちを解放してカサンドラを倒した。
+        evidence:
+          - "最終決戦: クレアの覚醒体から現れ、カサンドラを倒した"
+  - id: isley
+    name: イースレイ
+    affiliation: 北の深淵の者
+    cv: 遊佐浩二
+    editor:
+      anime:
+        score: 92
+        note: 北の深淵の者。覚醒者の軍勢を従え、ピエタへ攻め込ませた。
+        evidence:
+          - "北の戦乱: 覚醒者の軍勢を従え、ピエタへ攻め込ませた"
+          - "アニメ最終盤: 敗れたプリシラを連れ去った"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。深淵の者同士の戦いでルシエラを下している。
+        evidence:
+          - "深淵の者同士の戦い: ルシエラに勝った"
+  - id: clare
+    name: クレア
+    affiliation: 組織 No.47
+    cv: 桑島法子
+    editor:
+      anime:
+        score: 91
+        note: 序列は最下位だが、高速剣と半覚醒の力でリガルドを討った。アニメ版の結末ではプリシラに勝った。
+        evidence:
+          - "北の戦乱 ピエタ: 半覚醒の状態でリガルドを討った"
+          - "アニメ最終盤: プリシラとの戦いに勝ったが、ラキに止められてとどめを刺さなかった"
+      manga:
+        score: 93
+        note: 最終決戦で覚醒し、内なるテレサを呼び覚ました。最後は高速剣でプリシラに決着をつけた。
+        evidence:
+          - "最終決戦: 覚醒して内なるテレサを呼び覚ました"
+          - "最終決戦: ラキの刃に続いて高速剣を放ち、プリシラを消滅させた"
+  - id: riful
+    name: リフル
+    affiliation: 西の深淵の者
+    cv: 水樹奈々
+    editor:
+      anime:
+        score: 89
+        note: 西の深淵の者。幼い少女の姿だが、伴侶のダフとともに戦士を捕らえて実験に使った。
+        evidence:
+          - "魔女の顎: ダフとともにジーンを捕らえた"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: rigaldo
+    name: リガルド
+    affiliation: イースレイの配下
+    cv: 結城比呂
+    editor:
+      anime:
+        score: 85
+        note: 北の覚醒者の軍勢を率いた獅子王。ピエタを攻めたが、半覚醒したクレアに討たれた。
+        evidence:
+          - "北の戦乱 ピエタ: 覚醒者の軍勢を率いて攻め込み、半覚醒したクレアに討たれた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: irene
+    name: イレーネ
+    affiliation: 組織の戦士（元）
+    cv: 高山みなみ
+    editor:
+      anime:
+        score: 84
+        note: 高速剣の使い手。テレサ討伐隊に加わった後、組織を離れてクレアに高速剣と自分の右腕を与えた。
+        evidence:
+          - "テレサの過去編: テレサ討伐隊の一員として加わった"
+          - "クレアの修行: クレアに高速剣を伝え、自分の右腕を与えた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: dauf
+    name: ダフ
+    affiliation: リフルの配下
+    cv: 浜田賢二
+    editor:
+      anime:
+        score: 80
+        note: リフルの伴侶の大男の覚醒者。重い装甲の体でリフルとともに戦士を捕らえた。
+        evidence:
+          - "魔女の顎: リフルとともにジーンを捕らえた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: miria
+    name: ミリア
+    affiliation: 組織の戦士
+    cv: 井上喜久子
+    editor:
+      anime:
+        score: 80
+        note: 幻影と呼ばれる高速移動の使い手。男の覚醒者の討伐で隊を率い、アニメ版の結末で組織を離れた。
+        evidence:
+          - "ミリアの討伐隊: クレア、デネヴ、ヘレンを率いて男の覚醒者の群れを討った"
+          - "アニメ最終盤: 組織に見切りをつけて離れた"
+      manga:
+        score: 82
+        note: 北の戦乱の後も生き延び、最後は組織に乗り込んで戦士たちの反乱を起こさせた。
+        evidence:
+          - "北の戦乱: 擬死の作戦で7名を生き延びさせた"
+          - "組織との決戦: 組織に乗り込み、戦士たちの反乱を起こさせて組織を壊滅させた"
+  - id: ophelia
+    name: オフィーリア
+    affiliation: 組織の戦士
+    cv: 篠原恵美
+    editor:
+      anime:
+        score: 78
+        note: 波打つ剣を使う戦士。クレアとの戦いの中で覚醒し、最後はクレアに討たれた。
+        evidence:
+          - "オフィーリアとの戦い: 覚醒して大蛇の姿になり、クレアに討たれた"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: jean
+    name: ジーン
+    affiliation: 組織の戦士
+    cv: 三石琴乃
+    editor:
+      anime:
+        score: 75
+        note: 螺旋の剣を使う戦士。リフルに捕らえられたところをクレアに救われた。
+        evidence:
+          - "魔女の顎: リフルに捕らえられた後、クレアに救われた"
+      manga:
+        score: 75
+        note: 原作でも評価は変わらない。
+  - id: deneve
+    name: デネヴ
+    affiliation: 組織の戦士
+    cv: 武田華
+    editor:
+      anime:
+        score: 70
+        note: 防御と再生に長けた戦士。ミリアの隊で男の覚醒者の群れと戦った。
+        evidence:
+          - "ミリアの討伐隊: ミリア、クレア、ヘレンとともに男の覚醒者の群れを討った"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: helen
+    name: ヘレン
+    affiliation: 組織の戦士
+    cv: 長沢美樹
+    editor:
+      anime:
+        score: 68
+        note: 腕を伸ばして攻撃する戦士。ミリアの隊で男の覚醒者の群れと戦った。
+        evidence:
+          - "ミリアの討伐隊: ミリア、クレア、デネヴとともに男の覚醒者の群れを討った"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: rafaela
+    name: ラファエラ
+    affiliation: 組織 No.5
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 姉のルシエラを殺して融合し、リフルの手で覚醒させられた。最後はクレアやプリシラと取り込み合う状態になった。
+        evidence:
+          - "深淵の者の争い: ルシエラを殺し、その体と融合した"
+          - "最終決戦: クレアやプリシラと取り込み合う状態になった"
+  - id: cassandra
+    name: カサンドラ
+    affiliation: 元No.1／深淵の者
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 過去のNo.1が蘇って覚醒した深淵の者。ロクサーヌを喰らったが、最終決戦でテレサに敗れた。
+        evidence:
+          - "組織の反乱後: 蘇った後、争いの末にロクサーヌを喰らった"
+          - "最終決戦: テレサと戦って敗れた"
+  - id: alicia-beth
+    name: アリシアとベス
+    affiliation: 組織 No.1・No.2
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 北の戦乱で11体の覚醒者を討った双子。リフル討伐でベスが暴走し、プリシラに殺された。
+        evidence:
+          - "北の戦乱: 11体の覚醒者を討った"
+          - "リフル討伐: ベスが暴走し、プリシラとの戦いの末に二人とも殺された"
+  - id: luciela
+    name: ルシエラ
+    affiliation: 深淵の者
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 深淵の者の一人。イースレイとの戦いに敗れ、妹のラファエラに殺されて融合した。
+        evidence:
+          - "深淵の者同士の戦い: イースレイに敗れた"
+          - "深淵の者の争い: ラファエラに殺され、その体と融合した"
+  - id: hysteria
+    name: ヒステリア
+    affiliation: 元No.1／深淵の者
+    appears: manga
+    editor:
+      manga:
+        score: 83
+        note: 過去のNo.1が蘇って覚醒した深淵の者の一人。蘇った後の争いで致命傷を負った。
+        evidence:
+          - "組織の反乱後: 蘇った深淵の者同士の争いで致命傷を負った"
+  - id: roxanne
+    name: ロクサーヌ
+    affiliation: 元No.1／深淵の者
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 過去のNo.1が蘇って覚醒した深淵の者の一人。カサンドラとの争いに敗れて喰われた。
+        evidence:
+          - "組織の反乱後: カサンドラと争い、喰われた"
+  - id: galatea
+    name: ガラテア
+    affiliation: 組織の戦士（元）
+    appears: manga
+    editor:
+      manga:
+        score: 74
+        note: 妖気の感知と操作に長けた戦士。組織を離れてラボナで修道女として暮らし、覚醒者アガサと戦った。
+        evidence:
+          - "ラボナ: 修道女として暮らしながら、クレアらとともに覚醒者アガサと戦った"

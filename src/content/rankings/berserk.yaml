@@ -1,0 +1,263 @@
+work: ベルセルク
+title: ベルセルク 最強キャラランキング
+description: ベルセルクの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: 劇場版『ベルセルク 黄金時代篇』3部作＋TVアニメ（2016・2017年版、千年帝国の鷹篇・鷹都の章の冒頭）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の単行本既刊43巻まで（連載中）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: griffith
+    name: グリフィス（フェムト）
+    affiliation: 鷹の団 団長／ゴッドハンド
+    editor:
+      anime:
+        score: 97
+        note: 剣の腕でガッツを一度は下し、蝕で鷹の団を生贄にしてゴッドハンドに転生した。生誕祭の章で現世に戻った。
+        evidence:
+          - "黄金時代篇: 入団を賭けた決闘でガッツに勝った"
+          - "黄金時代篇 蝕: 鷹の団を生贄に捧げ、フェムトに転生した"
+          - "断罪篇 生誕祭の章: 現世に受肉して戻った"
+      manga:
+        score: 98
+        note: クシャーンの大帝との決戦で、髑髏の騎士の一撃を利用して相手を消滅させ、世界の在り方まで変えた。
+        evidence:
+          - "千年帝国の鷹篇の終盤: 魔神と化したガニシュカを、髑髏の騎士の一閃を利用して消滅させた"
+  - id: void
+    name: ボイド
+    affiliation: ゴッドハンド
+    editor:
+      anime:
+        score: 95
+        note: ゴッドハンドの長。蝕で転生の儀を執り行った。直接戦う場面は少ないが、使徒を生む側の存在として上位に置く。
+        evidence:
+          - "黄金時代篇 蝕: ゴッドハンドの長として、グリフィスの転生の儀を執り行った"
+      manga:
+        score: 95
+        note: 原作でも評価は変わらない。
+  - id: skull-knight
+    name: 髑髏の騎士
+    affiliation: 謎の騎士
+    editor:
+      anime:
+        score: 93
+        note: 蝕の場に単身で乗り込み、ガッツとキャスカを連れ出した。使徒の群れの中を突破できる数少ない存在。
+        evidence:
+          - "黄金時代篇 蝕: 蝕の場に乗り込み、ガッツとキャスカを救い出した"
+      manga:
+        score: 95
+        note: 千年帝国の鷹篇の終盤で放った一閃は、世界の在り方を変えるほどの結果を招いた。ゾッドとは宿敵として互角に戦っている。
+        evidence:
+          - "千年帝国の鷹篇の終盤: グリフィスに向けた一閃がガニシュカの消滅につながった"
+  - id: guts
+    name: ガッツ
+    affiliation: 黒い剣士
+    editor:
+      anime:
+        score: 91
+        note: 人の身で使徒と戦い続けている。百人斬りを果たし、使徒化したモズグスやグルンベルドとも渡り合った。
+        evidence:
+          - "黄金時代篇: キャスカを逃がすため、追っ手の傭兵百人を一人で斬った"
+          - "断罪篇 生誕祭の章: 使徒化したモズグスを倒した"
+          - "千年帝国の鷹篇: 狂戦士の甲冑をまとい、霊樹の館でグルンベルドと戦った"
+      manga:
+        score: 94
+        note: 使徒ロシーヌを討ち、ゴッドハンドのスランも退けた。妖精島の章では海神の討伐に加わった。
+        evidence:
+          - "断罪篇 ロスト・チルドレンの章: 使徒ロシーヌを討った"
+          - "断罪篇 ロスト・チルドレンの章: 大砲とドラゴンころしでスランを退かせた"
+          - "幻造世界篇 妖精島の章: イスマや海馬号の乗員らとともに海神を倒した"
+  - id: zodd
+    name: ゾッド
+    affiliation: 使徒／新生鷹の団
+    editor:
+      anime:
+        score: 89
+        note: 300年戦い続けてきた使徒。黄金時代篇でガッツと斬り合ったが、グリフィスのベヘリットを見て退いた。
+        evidence:
+          - "黄金時代篇: ガッツと斬り合った後、グリフィスのベヘリットを見て退いた"
+      manga:
+        score: 90
+        note: 髑髏の騎士と宿敵として互角に戦っている。新生鷹の団の主力として前線に立つ。
+        evidence:
+          - "髑髏の騎士との戦い: 宿敵として互角に渡り合った"
+  - id: grunbeld
+    name: グルンベルド
+    affiliation: 新生鷹の団
+    editor:
+      anime:
+        score: 84
+        note: 火竜の姿になる使徒。霊樹の館を襲撃し、狂戦士の甲冑をまとったガッツと戦った。
+        evidence:
+          - "千年帝国の鷹篇: 新生鷹の団として霊樹の館を襲撃し、ガッツと戦った"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: mozgus
+    name: モズグス
+    affiliation: 法王庁 異端審問官
+    editor:
+      anime:
+        score: 74
+        note: 異端審問官としてガッツと戦い、ベヘリットで使徒化したが倒された。
+        evidence:
+          - "断罪篇 生誕祭の章: 使徒化した後、ガッツに倒された"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: serpico
+    name: セルピコ
+    affiliation: ファルネーゼの従者
+    editor:
+      anime:
+        score: 72
+        note: 細身の剣でガッツと何度も渡り合った。千年帝国の鷹篇で風の精霊の力を宿した剣と外套を得た。
+        evidence:
+          - "断罪篇: ファルネーゼの従者としてガッツと剣を交えた"
+          - "千年帝国の鷹篇: 風の精霊の力を宿した剣と外套を得た"
+      manga:
+        score: 73
+        note: ヴリタニスでガッツやシールケとともにダイバを退けた。
+        evidence:
+          - "鷹都の章: ヴリタニスでガッツ、シールケとともにダイバを破った"
+  - id: schierke
+    name: シールケ
+    affiliation: 魔女
+    editor:
+      anime:
+        score: 70
+        note: 精霊魔術を使う魔女。ガッツの仲間として霊的な相手との戦いを支える。
+        evidence:
+          - "千年帝国の鷹篇: フローラの弟子の魔女として、精霊魔術でガッツ一行を助けた"
+      manga:
+        score: 73
+        note: ヴリタニスでガッツやセルピコとともにダイバを退けた。
+        evidence:
+          - "鷹都の章: ヴリタニスでガッツ、セルピコとともにダイバを破った"
+  - id: boscogn
+    name: ボスコーン
+    affiliation: チューダー帝国 紫犀聖騎士団 団長
+    editor:
+      anime:
+        score: 66
+        note: チューダー最強の騎士団を率いた人間の猛将。ドルドレイでガッツに討たれた。
+        evidence:
+          - "黄金時代篇 ドルドレイ攻略戦: 鷹の団と戦い、ガッツに討たれた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: casca
+    name: キャスカ
+    affiliation: 鷹の団 千人長
+    editor:
+      anime:
+        score: 62
+        note: 鷹の団で千人長を務めた剣士。人間の兵の中では上位だが、使徒には太刀打ちできない。
+        evidence:
+          - "黄金時代篇: 鷹の団の千人長として部隊を率いて戦った"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: judeau
+    name: ジュドー
+    affiliation: 鷹の団 千人長
+    editor:
+      anime:
+        score: 60
+        note: 投げナイフを得意とする器用な剣士。蝕ではキャスカを逃がそうとして倒れた。
+        evidence:
+          - "黄金時代篇 蝕: 使徒の群れからキャスカを逃がそうとして倒れた"
+      manga:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: pippin
+    name: ピピン
+    affiliation: 鷹の団 千人長
+    editor:
+      anime:
+        score: 55
+        note: 怪力の大男。蝕では使徒の群れに立ち向かって倒れた。
+        evidence:
+          - "黄金時代篇 蝕: 使徒の群れに立ち向かい、倒れた"
+      manga:
+        score: 55
+        note: 原作でも評価は変わらない。
+  - id: isidro
+    name: イシドロ
+    affiliation: ガッツ一行
+    editor:
+      anime:
+        score: 45
+        note: 剣士を目指す少年。投石と短剣で戦うが、まだ一人前ではない。
+        evidence:
+          - "千年帝国の鷹篇: ガッツ一行に加わり、投石と短剣で戦った"
+      manga:
+        score: 45
+        note: 原作でも評価は変わらない。
+  - id: ganishka
+    name: ガニシュカ
+    affiliation: クシャーン帝国 大帝
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 霧状の使徒形態は物理攻撃が効かない。最後は魔神に再転生してグリフィスと争った。
+        evidence:
+          - "鷹都の章: 霧状の使徒形態で現れ、物理攻撃を受け付けなかった"
+          - "千年帝国の鷹篇の終盤: 魔神に再転生したが、髑髏の騎士の一閃で消滅した"
+  - id: slan
+    name: スラン
+    affiliation: ゴッドハンド
+    appears: manga
+    editor:
+      manga:
+        score: 91
+        note: 仮の肉体でガッツを一方的に追い詰めた。大砲とドラゴンころしを受けて退いた。
+        evidence:
+          - "断罪篇 ロスト・チルドレンの章: ガッツを一方的に嬲ったが、大砲とドラゴンころしを受けて退いた"
+  - id: sea-god
+    name: 海神
+    affiliation: 妖精島近海の怪物
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 船ごと飲み込む巨体の怪物。複数の勢力の総力でようやく倒された。
+        evidence:
+          - "幻造世界篇 妖精島の章: ガッツ、イスマ、海馬号の乗員、人魚たちに倒された"
+  - id: wyald
+    name: ワイアルド
+    affiliation: 黒犬騎士団 団長
+    appears: manga
+    editor:
+      manga:
+        score: 78
+        note: 使徒の姿でガッツと戦ったが深手を負い、最後はゾッドに引き裂かれた。
+        evidence:
+          - "黄金時代篇: グリフィス救出後の追撃でガッツと戦い、ゾッドに引き裂かれた"
+  - id: rosine
+    name: ロシーヌ
+    affiliation: 使徒
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 霧の谷の村を支配した使徒。ガッツに討たれた。
+        evidence:
+          - "断罪篇 ロスト・チルドレンの章: 使徒としてガッツと戦い、討たれた"
+  - id: daiba
+    name: ダイバ
+    affiliation: クシャーン 妖術師長
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 水の元素霊を使う妖術師。妖獣兵団を率いたが、ヴリタニスで敗れた。
+        evidence:
+          - "鷹都の章: ヴリタニスでガッツ、シールケ、セルピコに敗れた"

@@ -1,0 +1,185 @@
+work: ドロヘドロ
+title: ドロヘドロ 最強キャラランキング
+description: ドロヘドロの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメSeason2（第13〜23話、2026年配信）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全23巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: en
+    name: 煙
+    affiliation: 煙ファミリー ボス
+    cv: 堀内賢雄
+    editor:
+      anime:
+        score: 88
+        note: 魔法使いの世界を仕切るファミリーのボス。対象をキノコに変える魔法を使い、ケムリの量が桁違いに多い。
+        evidence:
+          - "カイマン追跡: 心と能井らを差し向けてカイマンを追わせた"
+      manga:
+        score: 87
+        note: カイマンを魔法で一度は殺したが、十字目のボスの壊には圧倒された。
+        evidence:
+          - "カイマンとの戦い: カイマンの全身をキノコで貫いて殺した（後にカイマンは蘇生）"
+          - "壊との戦い: 壊に圧倒され、心と能井が敵討ちに動くことになった"
+  - id: noi
+    name: 能井
+    affiliation: 煙ファミリー 掃除屋
+    cv: 小林ゆう
+    editor:
+      anime:
+        score: 86
+        note: 修復の魔法と怪力の肉弾戦を併せ持つ掃除屋。自分も含めて傷を治せるため、長い戦いに強い。
+        evidence:
+          - "恵比寿の治療: 修復の魔法で恵比寿の傷を治した"
+          - "心の治療: 壊死した心の腕を修復した"
+      manga:
+        score: 86
+        note: 心とともに壊に挑んだが返り討ちにされた。6年前にも壊に圧倒されている。
+        evidence:
+          - "6年前の戦い: 心とともに壊に圧倒された"
+          - "壊との再戦: 煙の敵討ちに挑んだが、返り討ちにされた"
+  - id: shin
+    name: 心
+    affiliation: 煙ファミリー 掃除屋
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 84
+        note: 対象をバラバラにする魔法と金槌を使う掃除屋。素手でも強い。カイマンの首をはねた。
+        evidence:
+          - "カイマンとの戦い: カイマンの首をはねたが、カイマンは再生した"
+      manga:
+        score: 84
+        note: 能井とともに壊に挑んだが返り討ちにされた。6年前にも壊に圧倒されている。
+        evidence:
+          - "6年前の戦い: 能井とともに壊に圧倒された"
+          - "壊との再戦: 煙の敵討ちに挑んだが、返り討ちにされた"
+  - id: caiman
+    name: カイマン
+    affiliation: ホールの住人
+    cv: 高木渉
+    editor:
+      anime:
+        score: 82
+        note: 魔法が効かない体と再生する頭部を持ち、ナイフで戦う。ホールに来た魔法使いを返り討ちにしている。
+        evidence:
+          - "ホールでの魔法使い狩り: 魔法使いを返り討ちにした"
+          - "心との戦い: 首をはねられたが、頭部が再生した"
+      manga:
+        score: 90
+        note: 煙の魔法で一度は死んだが蘇生した。最後は最終盤の敵のホール君に勝った。
+        evidence:
+          - "煙との戦い: 全身をキノコに貫かれて死んだが、後に蘇生した"
+          - "最終盤: ホール君に勝った"
+  - id: nikaido
+    name: ニカイドウ
+    affiliation: 食堂の店主
+    cv: 近藤玲奈
+    editor:
+      anime:
+        score: 78
+        note: 拳法とナギナタで戦う。カイマンの相棒として魔法使いと渡り合っている。
+        evidence:
+          - "魔法使い狩り: カイマンの相棒として、拳法で魔法使いと戦った"
+      manga:
+        score: 90
+        note: 時を操る魔法使い。終盤に悪魔化して強くなったが、ホール君には敗れた。
+        evidence:
+          - "終盤: 悪魔化して力を増した"
+          - "最終盤: ホール君に敗れた"
+  - id: fujita
+    name: 藤田
+    affiliation: 煙ファミリー 下っ端
+    cv: 高梨謙吾
+    editor:
+      anime:
+        score: 40
+        note: ケムリを弾丸のように飛ばすが威力は低い。相棒の松村をカイマンに殺され、自分は逃げ延びた。
+        evidence:
+          - "冒頭: 相棒の松村をカイマンに殺され、逃げ延びた"
+      manga:
+        score: 40
+        note: 原作でも評価は変わらない。
+  - id: ebisu
+    name: 恵比寿
+    affiliation: 煙ファミリー
+    cv: 富田美憂
+    editor:
+      anime:
+        score: 35
+        note: 記憶と情緒が不安定な状態でファミリーに保護されている魔法使いの少女。戦いで役に立つ場面は少ない。
+        evidence:
+          - "冒頭: カイマンに襲われたところを藤田に助けられた"
+      manga:
+        score: 35
+        note: 原作でも評価は変わらない。
+  - id: chidaruma
+    name: チダルマ
+    affiliation: 悪魔
+    appears: manga
+    editor:
+      manga:
+        score: 98
+        note: 生まれながらの悪魔で、魔法使いを生み出した存在。作中で本気を出した描写がない。
+        evidence:
+          - "悪魔のアスの処分: アスを処刑し、魔法使いに戻した"
+  - id: hole-kun
+    name: ホール君
+    affiliation: 呪いの集合体
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 魔法使いに殺された人間の呪いが形になった存在。魔法使いを弱らせる雨を降らせ、ニカイドウを破ったが、カイマンに敗れた。
+        evidence:
+          - "最終盤: ニカイドウを破った"
+          - "最終盤: カイマンに敗れた"
+  - id: kai
+    name: 壊
+    affiliation: 十字目のボス
+    appears: manga
+    editor:
+      manga:
+        score: 91
+        note: ナイフの達人で、他者の魔法を奪える。煙、心、能井を圧倒した。
+        evidence:
+          - "6年前の戦い: 心と能井を圧倒した"
+          - "壊との再戦: 煙の敵討ちに来た心と能井を返り討ちにした"
+  - id: haru
+    name: ハル
+    affiliation: 悪魔
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 魔法使いから悪魔になった女性。並外れた力と頑丈さを持つ。
+        evidence:
+          - "ハルとの戦い: ニカイドウとカイマンの同時攻撃を受けても無傷で、カイマンの腕を握りつぶした"
+  - id: risu
+    name: 栗鼠
+    affiliation: 魔法使い
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 殺意に反応して相手を切り刻む呪いの力を持つ。心と能井を圧倒し、壊も追い詰めた。
+        evidence:
+          - "栗鼠の呪い: 心と能井を圧倒し、壊を追い詰めた"
+  - id: asu
+    name: 川尻（アス）
+    affiliation: 元悪魔
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 瞬間移動と千里眼の魔法を持つ。援護に向いた力で、正面の戦いは得意ではない。
+        evidence:
+          - "悪魔のアスの処分: チダルマに処刑され、魔法使いに戻された"
