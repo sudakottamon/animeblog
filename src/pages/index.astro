@@ -8,9 +8,6 @@ const titles = Object.fromEntries(rankings.map((r) => [r.id, r.data.work]));
 const names = Object.fromEntries(rankings.map((r) => [r.id, Object.fromEntries(r.data.candidates.map((c) => [c.id, c.name]))]));
 const basisLabels = Object.fromEntries(rankings.map((r) => [r.id, Object.fromEntries(r.data.bases.map((b) => [b.id, b.label]))]));
 
-const articles = (await getCollection('articles', ({ data }) => !data.draft))
-  .sort((a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf())
-  .slice(0, 6);
 ---
 <Base
   title="アニメ最強ランキング"
@@ -28,13 +25,6 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft))
     <ul class="feed" data-feed><li class="who">読み込み中…</li></ul>
   </div>
 
-  <h2 class="sec-title">読みもの</h2>
-  <div class="box" style="padding:4px 14px">
-    <ul class="links">
-      {articles.map((a) => <li><a href={`/${a.id}/`}>{a.data.title}</a></li>)}
-    </ul>
-  </div>
-  <p style="text-align:right;font-size:13px"><a href="/yomimono/">読みもの一覧 ›</a></p>
 
   <script define:vars={{ titles, names, basisLabels }}>
     const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);

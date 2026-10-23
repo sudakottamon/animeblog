@@ -30,7 +30,10 @@ const clientData = Object.fromEntries(
   ])
 );
 
-const related = d.related.map((id) => all.find((x) => x.id === id)).filter(Boolean) as Ranking[];
+const related = (d.related.length
+  ? (d.related.map((id) => all.find((x) => x.id === id)).filter(Boolean) as Ranking[])
+  : all.filter((x) => x.id !== r.id).sort((a, b) => b.data.updated.valueOf() - a.data.updated.valueOf() || a.id.localeCompare(b.id))
+).slice(0, 8);
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -42,7 +45,7 @@ const jsonLd = {
 ---
 <Base title={`${d.work} 最強ティア表【${d.bases.map((b) => b.label).join('・')}別】`} description={d.description} jsonLd={jsonLd}>
   <nav class="crumbs" aria-label="パンくず">
-    <span><a href="/">トップ</a></span><span><a href="/rankings/">ランキング一覧</a></span><span>{d.work}</span>
+    <span><a href="/">トップ</a></span><span><a href="/rankings/">作品一覧</a></span><span>{d.work}</span>
   </nav>
 
   <div class="box rk-head" data-ranking={r.id} data-work={d.work}>

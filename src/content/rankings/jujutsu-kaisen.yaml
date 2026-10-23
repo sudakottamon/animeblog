@@ -1,6 +1,6 @@
 work: 呪術廻戦
 title: 呪術廻戦 最強キャラランキング
-description: 呪術廻戦の最強キャラをアニメ勢・漫画勢に分けて採点。運営の判定とみんなの採点、2つの順位を切り替えて見られます。
+description: 呪術廻戦の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
 published: 2026-09-10
 updated: 2026-10-23
 bases:
@@ -11,7 +11,7 @@ bases:
     label: 漫画・原作勢
     range: 原作完結（単行本全30巻）まで
 services: [cmoa, ebookjapan, dmmbooks]
-related: [kimetsu]
+related: []
 candidates:
   - id: gojo
     name: 五条悟

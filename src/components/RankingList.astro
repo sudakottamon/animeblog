@@ -5,13 +5,17 @@ import { candidatesFor } from '../lib/rankings';
 const rankings = (await getCollection('rankings')).sort((a, b) => b.data.updated.valueOf() - a.data.updated.valueOf());
 const fmt = (x: Date) => `${x.getFullYear()}/${x.getMonth() + 1}/${x.getDate()}`;
 ---
+<div class="rk-search">
+  <input type="search" placeholder="作品名・キャラ名で探す（例: 呪術、五条）" aria-label="作品名・キャラ名で探す" data-rk-q />
+  <span data-rk-count>{rankings.length}作品</span>
+</div>
 <ul class="rk-list" data-rk-list>
   {rankings.map((r) => {
     const first = r.data.bases[0];
     const cands = candidatesFor(r, first.id);
     const top3 = [...cands].sort((a, b) => (b.editor[first.id]?.score ?? 0) - (a.editor[first.id]?.score ?? 0)).slice(0, 3);
     return (
-      <li class="rk-item" data-r={r.id}>
+      <li class="rk-item" data-r={r.id} data-q={`${r.data.work} ${r.id} ${r.data.candidates.map((c) => c.name).join(' ')}`.toLowerCase()}>
         <a href={`/rankings/${r.id}/`}>
           <h3>{r.data.work} 最強キャラ ティア表</h3>
           <p class="meta">
@@ -27,7 +31,26 @@ const fmt = (x: Date) => `${x.getFullYear()}/${x.getMonth() + 1}/${x.getDate()}`
   })}
 </ul>
 
+<p class="rk-empty" data-rk-empty hidden>該当する作品がありません。<a href="/about/">お問い合わせ</a>から追加のリクエストができます。</p>
+
 <script>
+  const q = document.querySelector<HTMLInputElement>('[data-rk-q]');
+  const items = [...document.querySelectorAll<HTMLElement>('[data-rk-list] [data-r]')];
+  const count = document.querySelector<HTMLElement>('[data-rk-count]')!;
+  const empty = document.querySelector<HTMLElement>('[data-rk-empty]')!;
+  const norm = (s: string) => s.toLowerCase().replace(/[\u30a1-\u30f6]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60)).replace(/\s+/g, '');
+  q?.addEventListener('input', () => {
+    const v = norm(q.value);
+    let n = 0;
+    items.forEach((li) => {
+      const hit = !v || norm(li.dataset.q!).includes(v);
+      li.hidden = !hit;
+      if (hit) n++;
+    });
+    count.textContent = `${n}作品`;
+    empty.hidden = n > 0;
+  });
+
   fetch('/api/summary/')
     .then((r) => (r.ok ? r.json() : Promise.reject()))
     .then((d: { rankings: Record<string, { posts: number }> }) => {

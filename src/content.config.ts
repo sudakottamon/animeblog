@@ -1,20 +1,8 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-const articles = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    pubDate: z.coerce.date(),
-    updatedDate: z.coerce.date().optional(),
-    category: z.enum(['vod', 'watch', 'ranking', 'guide']),
-    services: z.array(z.string()).default([]),
-    draft: z.boolean().default(false),
-  }),
-});
-
-export const BASES = ['anime', 'manga', 'novel'] as const;
+// anime: アニメ / manga: 漫画（小説原作ならコミカライズ） / novel: 原作小説 / original: 原作がWeb漫画など別にある場合（例: ワンパンマンのONE版）
+export const BASES = ['anime', 'manga', 'novel', 'original'] as const;
 const basisId = z.enum(BASES);
 
 const editorJudgment = z.object({
@@ -58,4 +46,4 @@ const rankings = defineCollection({
   }),
 });
 
-export const collections = { articles, rankings };
+export const collections = { rankings };
