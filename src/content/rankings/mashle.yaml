@@ -1,0 +1,271 @@
+work: マッシュル-MASHLE-
+title: マッシュル-MASHLE- 最強キャラランキング
+description: マッシュル-MASHLE-の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（神覚者候補選抜試験編）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全18巻・全162話）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: innocent-zero
+    name: イノセント・ゼロ
+    affiliation: 無邪気な淵源 首領
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 97
+        note: 試験会場ごと時間を止め、ウォールバーグが命を懸けた一撃も上回る魔法で逃れた。
+        evidence:
+          - "第2期 第9話: 試験会場に時間停止魔法をかけた"
+          - "第2期 第12話: 命を代償にしたウォールバーグの攻撃を、上回る魔法で逃れた"
+      manga:
+        score: 97
+        note: 最終決戦でマッシュを一度殺した。時間を戻してやり直しても勝てず、最後は負けを認めた。
+        evidence:
+          - "最終決戦: マッシュを一度殺し、悪魔形態・神形態へと変わった"
+          - "最終決戦: 時間を戻して何度もやり直したが、マッシュに負けを認めた"
+  - id: mash
+    name: マッシュ・バーンデッド
+    affiliation: イーストン魔法学校 アドラ寮
+    cv: 小林千晃
+    editor:
+      anime:
+        score: 95
+        note: 魔法を使えず筋力だけで戦う。七魔牙のアベル、試験のカルパッチョとマカロン、無邪気な淵源のセルを破った。
+        evidence:
+          - "第1期: 七魔牙のリーダー、アベルに勝った"
+          - "第2期 第7話: 神覚者候補選抜試験でカルパッチョに完勝した"
+          - "第2期 第11話: 杖の力を引き出したセルに勝った"
+      manga:
+        score: 98
+        note: 三魔対争でドゥウムに一度敗れたが再戦で勝ち、最終決戦でイノセント・ゼロにも勝った。
+        evidence:
+          - "三魔対争編: ドミナとレヴィを退けた"
+          - "三魔対争編: 全力のドゥウムに勝った"
+          - "最終決戦: イノセント・ゼロに負けを認めさせた"
+  - id: wahlberg
+    name: ウォールバーグ・バイガン
+    affiliation: イーストン魔法学校 校長
+    cv: 麦人
+    editor:
+      anime:
+        score: 92
+        note: 無邪気な淵源の幹部を相手に実力を見せた。首領との頂上対決では命を懸けた一撃をかわされた。
+        evidence:
+          - "第2期 第11話: ネクロス・マンスと戦い、実力を見せた"
+          - "第2期 第12話: 命を代償に杖の力を解放したが、イノセント・ゼロに逃れられた"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: rayne
+    name: レイン・エイムズ
+    affiliation: 神覚者
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 88
+        note: 現役の神覚者。マーガレット・マカロンと高いレベルの戦いを見せた。
+        evidence:
+          - "第2期 第3話: マーガレット・マカロンと高いレベルで戦った"
+      manga:
+        score: 88
+        note: 三魔対争ではデリザスタに劣勢となり、弟フィンとの共闘で立て直した。
+        evidence:
+          - "三魔対争編: デリザスタに劣勢となり、フィンの加勢で兄弟共闘した"
+          - "三魔対争編: マッシュ・フィンとともに5割の力のドゥウムに敗れた"
+  - id: macaron
+    name: マーガレット・マカロン
+    affiliation: 神覚者候補
+    cv: 子安武人
+    editor:
+      anime:
+        score: 85
+        note: 音の魔法を使う。神覚者レインと渡り合い、試験ではカルパッチョの仲間2人に圧勝した。
+        evidence:
+          - "第2期 第3話: 神覚者レインと渡り合った"
+          - "第2期 第7話: カルパッチョのチームの2人に圧勝した"
+          - "第2期 第8話: 最終試験の第1試合でマッシュに敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: cell
+    name: セル・ウォー
+    affiliation: 無邪気な淵源
+    cv: 花江夏樹
+    editor:
+      anime:
+        score: 82
+        note: 時間停止の中で動ける刺客。杖の力を引き出してマッシュと戦ったが敗れた。
+        evidence:
+          - "第2期 第9話: 時間が止まった試験会場でマッシュと戦った"
+          - "第2期 第11話: 杖の力を引き出したが、マッシュに敗れた"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: lance
+    name: ランス・クラウン
+    affiliation: イーストン魔法学校 アドラ寮
+    cv: 石川界人
+    editor:
+      anime:
+        score: 80
+        note: マッシュには負けを認めたが、試験ではドットと組んで六罪杖のシッター・ベイビーを破った。
+        evidence:
+          - "第1期: 級硬貨の争奪でマッシュに負けを認めた"
+          - "第2期 第10話: ドットとともに六罪杖シッター・ベイビーに勝った"
+      manga:
+        score: 84
+        note: 三魔対争ではドットとともにエピデムを破った。
+        evidence:
+          - "三魔対争編: ドットとともにエピデムに勝った"
+  - id: carpaccio
+    name: カルパッチョ・ローヤン
+    affiliation: 神覚者候補
+    editor:
+      anime:
+        score: 79
+        note: 選抜試験の有力候補。マッシュには完敗した。
+        evidence:
+          - "第2期 第5話: チーム戦でフィンと遭遇した"
+          - "第2期 第7話: マッシュに完敗した"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: abel
+    name: アベル・ウォーカー
+    affiliation: 七魔牙 リーダー
+    cv: 梅原裕一郎
+    editor:
+      anime:
+        score: 78
+        note: 七魔牙を率いてマッシュと戦い、敗れた。
+        evidence:
+          - "第1期: 七魔牙のリーダーとしてマッシュと戦い、敗れた"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: abyss
+    name: アビス・レイザー
+    affiliation: 七魔牙
+    cv: 七海ひろき
+    editor:
+      anime:
+        score: 74
+        note: 七魔牙の一人としてマッシュと戦い、敗れた。
+        evidence:
+          - "第1期: マッシュに敗れた"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: dot
+    name: ドット・バレット
+    affiliation: イーストン魔法学校 アドラ寮
+    cv: 江口拓也
+    editor:
+      anime:
+        score: 66
+        note: 単独の戦果は少ないが、ランスと組んで六罪杖を破った。
+        evidence:
+          - "第2期 第10話: ランスとともにシッター・ベイビーと戦い、勝った"
+      manga:
+        score: 72
+        note: 三魔対争ではランスとともにエピデムを破った。
+        evidence:
+          - "三魔対争編: ランスとともにエピデムに勝った"
+  - id: finn
+    name: フィン・エイムズ
+    affiliation: イーストン魔法学校 アドラ寮
+    cv: 川島零士
+    editor:
+      anime:
+        score: 55
+        note: 戦闘向きの魔法ではなく、仲間の支援が中心。
+        evidence:
+          - "第2期 第5話: チーム戦でカルパッチョと遭遇した"
+      manga:
+        score: 62
+        note: 三魔対争では兄レインに加勢し、デリザスタと戦った。
+        evidence:
+          - "三魔対争編: レインに加勢し、兄弟でデリザスタと戦った"
+  - id: domina
+    name: ドミナ
+    affiliation: 無邪気な淵源
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 三魔対争でマッシュの前に立ちはだかり、退けられた。
+        evidence:
+          - "三魔対争編: マッシュに退けられた"
+  - id: doom
+    name: ドゥウム
+    affiliation: イノセント・ゼロの長男
+    appears: manga
+    editor:
+      manga:
+        score: 95
+        note: 力を抑えたまま神覚者のオーターとライオを破った。全力を出したマッシュには敗れた。
+        evidence:
+          - "三魔対争編: 5割の力でマッシュ・フィン・レインに勝った"
+          - "三魔対争編: 6割の力でオーター、7割の力でライオに勝った"
+          - "三魔対争編: 全力のマッシュに敗れた"
+  - id: lio
+    name: ライオ・グランツ
+    affiliation: 神覚者
+    cv: 諏訪部順一
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 神覚者の筆頭格。7割の力を出したドゥウムに敗れた。
+        evidence:
+          - "三魔対争編: 7割の力のドゥウムに敗れた"
+  - id: orter
+    name: オーター・マドル
+    affiliation: 神覚者
+    cv: 小野友樹
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 三魔対争でドゥウムに挑み、6割の力の相手に敗れた。
+        evidence:
+          - "三魔対争編: 6割の力のドゥウムに敗れた"
+  - id: delizasta
+    name: デリザスタ
+    affiliation: 無邪気な淵源
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 神覚者のソフィナを破り、レインも劣勢に追い込んだ。
+        evidence:
+          - "三魔対争編: 神覚者ソフィナに勝った"
+          - "三魔対争編: レインを劣勢に追い込んだ"
+  - id: famine
+    name: ファーミン
+    affiliation: 無邪気な淵源
+    appears: manga
+    editor:
+      manga:
+        score: 83
+        note: 神覚者のアギトを破った。
+        evidence:
+          - "三魔対争編: アギトに勝った"
+  - id: epidem
+    name: エピデム
+    affiliation: 無邪気な淵源
+    appears: manga
+    editor:
+      manga:
+        score: 81
+        note: 神覚者のツララを破ったが、ランスとドットに敗れた。
+        evidence:
+          - "三魔対争編: ツララに勝った"
+          - "三魔対争編: ランスとドットに敗れた"

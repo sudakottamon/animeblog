@@ -1,0 +1,204 @@
+work: 夜桜さんちの大作戦
+title: 夜桜さんちの大作戦 最強キャラランキング
+description: 夜桜さんちの大作戦の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期 第41話まで（2026年10月時点で放送中）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全29巻・全258話）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kyoichiro
+    name: 夜桜凶一郎
+    affiliation: 夜桜家 長男
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 94
+        note: 皮下を倒した兄妹の総攻撃に加わった。つぼみの毒から太陽に救われた後、父の百と互角に戦った。
+        evidence:
+          - "第27話: 太陽を軸にした兄妹の総攻撃に加わり、皮下を倒した"
+          - "第39話: 初代当主つぼみの猛毒に侵されていた"
+          - "第41話: 太陽とともに百と戦い、互角に渡り合った"
+      manga:
+        score: 97
+        note: 単独で百と歴代当主を相手取り、全員を倒した。
+        evidence:
+          - "原作終盤: 一人で百と歴代当主に挑み、全員倒した"
+  - id: hyaku
+    name: 夜桜百
+    affiliation: 六美たちの父
+    cv: 山寺宏一
+    editor:
+      anime:
+        score: 93
+        note: 凶一郎と太陽の二人を相手に戦い、逃走した。
+        evidence:
+          - "第33話: 終盤に姿を現した"
+          - "第41話: 凶一郎・太陽と戦い、逃走した"
+      manga:
+        score: 91
+        note: 攻撃のほとんどが通じない体を持つが、太陽の開花「硬化」は通った。凶一郎に倒された。
+        evidence:
+          - "原作: 攻撃が通じず、太陽の開花「硬化」だけが通った"
+          - "原作終盤: 凶一郎に歴代当主とともに倒された"
+  - id: tsubomi
+    name: 夜桜つぼみ
+    affiliation: 夜桜家 初代当主
+    editor:
+      anime:
+        score: 90
+        note: 夢の中で太陽と対話した初代当主。凶一郎を猛毒で侵していた。
+        evidence:
+          - "第33話: 太陽の夢に現れた"
+          - "第39話: 凶一郎がつぼみの猛毒に侵されていた"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: futaba
+    name: 夜桜二刃
+    affiliation: 夜桜家 長女
+    cv: 鬼頭明里
+    editor:
+      anime:
+        score: 87
+        note: 二ノ前御前と互角の勝負をした。皮下を倒した総攻撃にも加わった。
+        evidence:
+          - "第1期: 二ノ前御前と互角に戦った"
+          - "第27話: 太陽を軸にした兄妹の総攻撃に加わり、皮下を倒した"
+      manga:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: ninomae
+    name: 二ノ前御前
+    editor:
+      anime:
+        score: 86
+        note: 夜桜家の長女である二刃と互角に戦った。
+        evidence:
+          - "第1期: 二刃と互角の勝負をした"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: kawashita
+    name: 皮下真
+    affiliation: タンポポ
+    cv: うえだゆうじ
+    editor:
+      anime:
+        score: 85
+        note: 夜桜兄妹の総攻撃が効かなかった。太陽を軸にした総攻撃でようやく倒された。
+        evidence:
+          - "第27話: 夜桜兄妹の総攻撃を受けても効かなかった"
+          - "第27話: 太陽を軸にした総攻撃に敗れ、拘束された"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: taiyo
+    name: 朝野太陽
+    affiliation: 夜桜家（六美の夫）
+    cv: 川島零士
+    editor:
+      anime:
+        score: 84
+        note: 山ちゃんとノウメンを破り、皮下を倒す総攻撃の軸になった。昇格試験では辛三を突破した。
+        evidence:
+          - "第1期: 六美の血で強化され、山ちゃんを倒した"
+          - "第27話: 総攻撃の軸となって皮下を倒した"
+          - "第31話: 銀級スパイ昇格試験の一次で辛三を突破した"
+      manga:
+        score: 88
+        note: 開花「硬化」が、攻撃の通じない百に唯一通った。
+        evidence:
+          - "原作: 開花「硬化」だけが百に通じた"
+  - id: shinzo
+    name: 夜桜辛三
+    affiliation: 夜桜家 次男
+    cv: 興津和幸
+    editor:
+      anime:
+        score: 76
+        note: 太陽と連携してノウメンを破った。昇格試験では太陽に突破された。
+        evidence:
+          - "第1期: 太陽と連携してノウメンに勝った"
+          - "第31話: 銀級スパイ昇格試験の一次で太陽に突破された"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: noumen
+    name: ノウメン
+    editor:
+      anime:
+        score: 74
+        note: 太陽と辛三の二人がかりで倒された。
+        evidence:
+          - "第1期: 太陽と辛三の連携に敗れた"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: kengo
+    name: 夜桜嫌五
+    affiliation: 夜桜家 三男
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 72
+        note: 皮下を倒した兄妹の総攻撃に加わった。
+        evidence:
+          - "第27話: 太陽を軸にした兄妹の総攻撃に加わり、皮下を倒した"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: shion
+    name: 夜桜四怨
+    affiliation: 夜桜家 次女
+    cv: 悠木碧
+    editor:
+      anime:
+        score: 65
+        note: 皮下を倒した兄妹の総攻撃に加わった。
+        evidence:
+          - "第27話: 太陽を軸にした兄妹の総攻撃に加わり、皮下を倒した"
+      manga:
+        score: 65
+        note: 原作でも評価は変わらない。
+  - id: yamachan
+    name: 山ちゃん
+    editor:
+      anime:
+        score: 64
+        note: 六美の血で強化された太陽に倒された。
+        evidence:
+          - "第1期: 強化された太陽に敗れた"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: nanao
+    name: 夜桜七悪
+    affiliation: 夜桜家 四男
+    cv: 内山夕実
+    editor:
+      anime:
+        score: 60
+        note: 皮下を倒した兄妹の総攻撃に加わった。
+        evidence:
+          - "第27話: 太陽を軸にした兄妹の総攻撃に加わり、皮下を倒した"
+      manga:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: dan
+    name: 旦
+    affiliation: 旦一派
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 一派を率いて夜桜家と争い、百を連れ去った。
+        evidence:
+          - "単行本27巻: 旦一派として夜桜家と戦った"
+          - "原作: 百を連れ去った"

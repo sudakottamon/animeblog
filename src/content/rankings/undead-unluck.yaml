@@ -1,0 +1,248 @@
+work: アンデッドアンラック
+title: アンデッドアンラック 最強キャラランキング
+description: アンデッドアンラックの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期（全24話・オータム捕獲）＋TVスペシャル『Winter編』まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全27巻・全239話）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: victor
+    name: ヴィクトル
+    affiliation: アンディのもう一つの人格
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 96
+        note: 額のカードを抜くと現れるアンディの別人格。アンディ以上の実力でユニオンを総出で苦戦させた。
+        evidence:
+          - "第9話: スポイル捕獲後も元に戻らず、総出で挑んだユニオンを苦戦させた"
+          - "第22話: 記憶の中で風子を何度も殺した"
+      manga:
+        score: 96
+        note: 原作でも評価は変わらない。
+  - id: andy
+    name: アンディ
+    affiliation: ユニオン（不死の否定者）
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 90
+        note: 不死を武器に戦う。風子と組んでジーナを破り、リップとも渡り合った。
+        evidence:
+          - "第1期 序盤: 風子と連携してジーナに勝った"
+          - "第14話: 否定者狩りの騒動の中でリップと戦った"
+          - "第24話: リップらとともにオータム捕獲までの時間を稼いだ"
+      manga:
+        score: 93
+        note: ユニオンを離れた後、終盤の戦争に戻って最前線に立った。
+        evidence:
+          - "単行本25〜26巻: 戦線に復帰した"
+  - id: autumn
+    name: オータム
+    affiliation: UMA
+    editor:
+      anime:
+        score: 88
+        note: アンディと風子を圧倒して撤退させた。単独の攻撃は通じず、古代遺物で捕獲された。
+        evidence:
+          - "第21話: アンディと風子を圧倒し、撤退させた"
+          - "第24話: 安野雲が描いた古代遺物で捕獲された"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: rip
+    name: リップ
+    affiliation: アンダー（不治の否定者）
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 86
+        note: 否定者狩りの騒動でアンディと戦った。オータム戦ではアンディと並んで前線に立った。
+        evidence:
+          - "第14話: 否定者狩りの騒動の中でアンディと戦った"
+          - "第24話: アンディらとともにオータム捕獲までの時間を稼いだ"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: burn
+    name: バーン
+    affiliation: UMA
+    editor:
+      anime:
+        score: 85
+        note: ユニオンの防壁を突破し、円卓をビリーごと持ち去った。
+        evidence:
+          - "第16話: ビリーと円卓を持ち去った"
+          - "第17話: 円卓奪還作戦でユニオンの防壁を突破した"
+      manga:
+        score: 86
+        note: 季節のUMAであるウィンターを討伐した。
+        evidence:
+          - "単行本9〜10巻: ウィンターを討伐した"
+  - id: billy
+    name: ビリー
+    affiliation: アンダー リーダー
+    cv: 小山力也
+    editor:
+      anime:
+        score: 84
+        note: ユニオンを裏切って銃を乱射し、バーンを使って円卓を奪った。
+        evidence:
+          - "第16話: ユニオンを裏切り、銃を乱射した"
+          - "第18話: 円卓をアンダー側に奪った"
+      manga:
+        score: 87
+        note: ユニオンの長ジュイスと戦い、双方が負傷した。
+        evidence:
+          - "単行本7〜8巻: ジュイスと戦い、双方が負傷した"
+  - id: fuuko
+    name: 出雲風子
+    affiliation: ユニオン（不運の否定者）
+    cv: 佳原萌枝
+    editor:
+      anime:
+        score: 82
+        note: 触れた相手に不運を起こす。隕石を呼び込んで追っ手を退け、記憶の中でヴィクトルと戦い続けた。
+        evidence:
+          - "第2話: 隕石落下の不運でユニオンの追っ手を退けた"
+          - "第22話: 記憶の中でヴィクトルに挑み続けた"
+      manga:
+        score: 91
+        note: ルインに一度は瀕死にされたが、終盤にハルカやトップとビーストを倒した。
+        evidence:
+          - "単行本11〜12巻: ルインに瀕死にされ、魂を奪われた"
+          - "単行本23〜24巻: ハルカ・トップとともにビーストを倒した"
+  - id: shen
+    name: シェン
+    affiliation: ユニオン（不真実の否定者）
+    cv: 花江夏樹
+    editor:
+      anime:
+        score: 79
+        note: 武術の使い手。フェーズ2のスポイルには打開策を見いだせなかった。
+        evidence:
+          - "第2話: ボイドとともにアンディたちの前に立ちふさがった"
+          - "第8話: フェーズ2のスポイルを攻撃したが、苦戦した"
+      manga:
+        score: 84
+        note: 一度死亡した後、キョンシーとして復活し、ムイとともにファンを破った。
+        evidence:
+          - "単行本7〜8巻: 死亡後、古代遺物でキョンシーとして復活した"
+          - "サマー討伐戦: ムイとともにファンを破った"
+  - id: gina
+    name: ジーナ
+    affiliation: 否定者
+    cv: 悠木碧
+    editor:
+      anime:
+        score: 74
+        note: 50年前にアンディを捕らえた否定者。見えない攻撃で追い込んだが、アンディと風子の連携に敗れた。
+        evidence:
+          - "第4話: 見えない攻撃でアンディを追い込んだ"
+          - "第1期 序盤: アンディと風子の連携に敗れた"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: tatiana
+    name: タチアナ
+    affiliation: ユニオン
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 70
+        note: 否定者狩りの襲撃で前線に立った。
+        evidence:
+          - "第13話: 否定者狩りと交戦した"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: void
+    name: ボイド
+    affiliation: ユニオン
+    cv: 乃村健次
+    editor:
+      anime:
+        score: 72
+        note: シェンとともにアンディたちを追ったが、アンディに敗れて死亡した。
+        evidence:
+          - "第2話: シェンとともにアンディたちの前に立ちふさがった"
+          - "第1期 序盤: アンディに敗れて死亡した"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: spoil
+    name: スポイル
+    affiliation: UMA
+    editor:
+      anime:
+        score: 68
+        note: ゾンビだらけの町ロンギングにいたUMA。フェーズ2でシェンを苦戦させたが、捕獲された。
+        evidence:
+          - "第8話: フェーズ2になり、シェンの攻撃をしのいだ"
+          - "第9話: 捕獲された"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: sun
+    name: サン
+    affiliation: 神
+    appears: manga
+    editor:
+      manga:
+        score: 99
+        note: ラグナロクで現れ、地球を破壊してループを終わらせた。終盤には残りの絶対理を取り込んだ。
+        evidence:
+          - "単行本15〜16巻: ラグナロクで現れ、地球を破壊した"
+          - "単行本25〜26巻: 残りの絶対理を取り込んだ"
+  - id: ruin
+    name: ルイン
+    appears: manga
+    editor:
+      manga:
+        score: 91
+        note: 風子を瀕死にして魂を奪った。終盤にはタチアナも狙った。
+        evidence:
+          - "単行本11〜12巻: 風子を瀕死にし、魂を奪った"
+          - "単行本25〜26巻: タチアナを狙った"
+  - id: juiz
+    name: ジュイス
+    affiliation: ユニオン リーダー
+    cv: 伊瀬茉莉也
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: ユニオンを率いる否定者。アンダーのビリーと戦い、双方が負傷した。
+        evidence:
+          - "単行本7〜8巻: ビリーと戦い、双方が負傷した"
+  - id: fon
+    name: ファン
+    affiliation: アンダー
+    cv: 森川智之
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: サマーとともにユニオンの前に立ちはだかった。キョンシーのシェンとムイに敗れた。
+        evidence:
+          - "単行本7〜8巻: サマーとともにユニオンの前に立ちはだかった"
+          - "サマー討伐戦: キョンシーのシェンとムイに敗れた"
+  - id: mui
+    name: ムイ
+    affiliation: ユニオン
+    cv: 石川由依
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: シェンの不真実を受け継ぎ、キョンシーのシェンとともにファンを破った。
+        evidence:
+          - "単行本7〜8巻: シェンの不真実を受け継いだ"
+          - "サマー討伐戦: キョンシーのシェンとともにファンを破った"

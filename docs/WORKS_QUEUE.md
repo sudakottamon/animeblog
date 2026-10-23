@@ -44,12 +44,12 @@
 - [x] `noragami` ノラガミ
 
 ## バッチ 06
-- [ ] `hells-paradise` 地獄楽
-- [ ] `mashle` マッシュル-MASHLE-
-- [ ] `undead-unluck` アンデッドアンラック
-- [ ] `kagurabachi` カグラバチ（アニメ化の状況を確認）
-- [ ] `mission-yozakura` 夜桜さんちの大作戦
-- [ ] `nue-no-onmyouji` 鵺の陰陽師（アニメ化の状況を確認）
+- [x] `hells-paradise` 地獄楽
+- [x] `mashle` マッシュル-MASHLE-
+- [x] `undead-unluck` アンデッドアンラック
+- [x] `kagurabachi` カグラバチ（アニメ化の状況を確認）
+- [x] `mission-yozakura` 夜桜さんちの大作戦
+- [x] `nue-no-onmyouji` 鵺の陰陽師（アニメ化の状況を確認）
 
 ## バッチ 07
 - [x] `gachiakuta` ガチアクタ

@@ -1,0 +1,185 @@
+work: カグラバチ
+title: カグラバチ 最強キャラランキング
+description: カグラバチの最強キャラを原作の最新話までの描写でティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の連載最新話まで（2026年10月時点・単行本既刊12巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kensei
+    name: 剣聖
+    appears: manga
+    editor:
+      manga:
+        score: 96
+        note: 神奈備本部の襲撃で復活し、その戦いで本部が壊滅した。
+        evidence:
+          - "神奈備本部襲撃編: 復活し、その戦いで神奈備本部が壊滅した"
+  - id: zamura
+    name: 座村清市
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 京都で毘灼の昼彦を退け、千鉱にも勝った。そのうえで護衛を裏切った。
+        evidence:
+          - "京都編: 昼彦を破り、撤退させた"
+          - "京都編: 千鉱に勝った"
+          - "京都編: 護衛を裏切った"
+  - id: yura
+    name: 幽
+    affiliation: 毘灼
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 毘灼を率いて神奈備本部を襲撃した。千鉱との交戦では腕を斬られている。
+        evidence:
+          - "神奈備本部襲撃編: 毘灼を率いて神奈備本部を襲撃した"
+  - id: mikaboshi
+    name: 箕加星
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 杁島会談で、柴を除く日本側の出席者を全員殺した。
+        evidence:
+          - "斉廷戦争編: 杁島会談で柴以外の日本側の人間を殺害した"
+  - id: kyora
+    name: 漣京羅
+    affiliation: 漣家
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 屋敷に侵入した千鉱と柴を二人まとめて撃退した。
+        evidence:
+          - "楽座市編: 屋敷に侵入した千鉱と柴を撃退した"
+          - "楽座市編: 奇襲してきた伯理を退け、命と引き換えに淵天を手放させた"
+  - id: chihiro
+    name: 六平千鉱
+    affiliation: 妖刀・淵天の使い手
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 双城を倒し、所有者の護衛では刺客を退けた。京都では座村に敗れている。
+        evidence:
+          - "VS双城編: 再戦で双城を倒し、刳雲を折った"
+          - "所有者暗殺編: 漆羽を護衛し、刺客を退けた"
+          - "京都編: 座村に敗れた"
+  - id: hiruhiko
+    name: 昼彦
+    affiliation: 毘灼
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 礼玄一刀流の師範を破った。京都では座村に敗れて撤退した。
+        evidence:
+          - "所有者暗殺編: 毘灼の一員として国獄温泉を襲撃した"
+          - "京都編: 座村に敗れ、トトとクグリに助けられて撤退した"
+          - "神奈備本部襲撃編: 礼玄一刀流師範の戦国与次郎に勝った"
+  - id: shiba
+    name: 柴登吾
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 千鉱と組んで妖術師の襲撃を退けた。杁島会談では一人だけ生きて帰された。
+        evidence:
+          - "VS双城編: 千鉱とともにヒナオの店で妖術師の襲撃を退けた"
+          - "斉廷戦争編: 杁島会談で一人だけ生きて帰された"
+  - id: azami
+    name: 薊奏士郎
+    affiliation: 神奈備
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 死柳兄弟を素手で殴り殺した。
+        evidence:
+          - "VS双城編: 死柳兄弟を殴り殺した"
+  - id: sojo
+    name: 双城厳一
+    affiliation: 妖刀・刳雲の使い手
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 刳雲で対刳雲特選部隊を退けた。千鉱との再戦に敗れて死亡した。
+        evidence:
+          - "VS双城編: 対刳雲特選部隊を退けた"
+          - "VS双城編: 千鉱との再戦に敗れ、刳雲を折られて死亡した"
+  - id: uruha
+    name: 漆羽洋児
+    affiliation: 妖刀の所有者
+    appears: manga
+    editor:
+      manga:
+        score: 78
+        note: 毘灼の襲撃部隊と戦った。のちに座村に殺された。
+        evidence:
+          - "所有者暗殺編: 昼彦らの襲撃部隊と戦った"
+  - id: hiyuki
+    name: 緋雪
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 楽座市編で千鉱と正面から戦った。
+        evidence:
+          - "楽座市編: 千鉱と戦った"
+  - id: sengoku
+    name: 戦国与次郎
+    affiliation: 礼玄一刀流 師範
+    appears: manga
+    editor:
+      manga:
+        score: 74
+        note: 一刀流の師範。神奈備本部の襲撃で昼彦に敗れた。
+        evidence:
+          - "神奈備本部襲撃編: 昼彦に敗れた"
+  - id: hakuri
+    name: 漣伯理
+    affiliation: 漣家
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 京羅への奇襲には失敗したが、地下で漣宗也を倒した。
+        evidence:
+          - "楽座市編: 京羅への奇襲に失敗した"
+          - "楽座市編: 地下で漣宗也に勝った"
+  - id: kudo
+    name: 区堂
+    appears: manga
+    editor:
+      manga:
+        score: 68
+        note: 石枚が起こした事件で伯理を庇い、殉職した。
+        evidence:
+          - "神奈備本部襲撃編: 石枚の起こした事件から伯理を庇って殉職した"
+  - id: soya
+    name: 漣宗也
+    affiliation: 漣家
+    appears: manga
+    editor:
+      manga:
+        score: 62
+        note: 地下で伯理に敗れ、戦闘不能になった。
+        evidence:
+          - "楽座市編: 伯理に敗れ、気絶した"
+  - id: enhosaku
+    name: 円法炸
+    appears: manga
+    editor:
+      manga:
+        score: 55
+        note: シャルを保護した千鉱と戦い、敗れて捕まった。
+        evidence:
+          - "VS双城編: 千鉱に敗れて捕まった"

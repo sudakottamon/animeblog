@@ -1,0 +1,276 @@
+work: 地獄楽
+title: 地獄楽 最強キャラランキング
+description: 地獄楽の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（全25話・追加上陸組の到着）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全13巻・全127話）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: gabimaru
+    name: 画眉丸
+    affiliation: 死罪人（石隠れ衆の元忍）
+    cv: 小林千晃
+    editor:
+      anime:
+        score: 93
+        note: 死罪人の中でも抜けた戦闘力を持つ。第2期では杠と組んで天仙の蘭を倒した。
+        evidence:
+          - "第1期: 襲ってきたいがみの慶雲を返り討ちにした"
+          - "第1期 第6話: 佐切とともに陸郎太と戦い、倒した"
+          - "第2期: 導引宮で杠とともに蘭を倒した"
+      manga:
+        score: 95
+        note: 石隠れ衆のシジャを倒し、最終決戦では佐切とともに蓮を下した。
+        evidence:
+          - "単行本12巻: 石隠れ衆のシジャを倒した"
+          - "単行本13巻: 最終決戦で佐切とともに蓮に勝った"
+  - id: chobe
+    name: 亜左弔兵衛
+    affiliation: 死罪人（賊の頭領）
+    cv: 木村良平
+    editor:
+      anime:
+        score: 87
+        note: 法流坊を返り討ちにし、道士との戦いで瀕死になりながら氣に目覚めた。
+        evidence:
+          - "第1期: 襲ってきた法流坊を返り討ちにした"
+          - "第1期 第11話: 道士との戦いで瀕死になり、氣に目覚めた"
+      manga:
+        score: 91
+        note: 島の植物を根から枯らすほどの力を発揮した。
+        evidence:
+          - "単行本12巻: 自らの力で島の植物を根から枯らした"
+  - id: sagiri
+    name: 佐切
+    affiliation: 山田浅ェ門
+    cv: 花守ゆみり
+    editor:
+      anime:
+        score: 82
+        note: 画眉丸とともに陸郎太を倒し、天仙の牡丹を倒す戦いにも加わった。
+        evidence:
+          - "第1期 第6話: 画眉丸と技を重ねて陸郎太と戦った"
+          - "第1期 第13話: 士遠らとともに牡丹を倒した"
+      manga:
+        score: 90
+        note: 最終決戦で画眉丸を救い、ともに蓮を倒した。
+        evidence:
+          - "単行本13巻: 画眉丸とともに蓮に勝った"
+  - id: shion
+    name: 士遠
+    affiliation: 山田浅ェ門
+    cv: 小林親弘
+    editor:
+      anime:
+        score: 83
+        note: 盲目の剣士。蓬莱では牡丹との戦いに加わった。
+        evidence:
+          - "第1期 第13話: 牡丹との戦いに加わった"
+      manga:
+        score: 85
+        note: ヌルガイとともに朱槿を追い詰め、生き残った。
+        evidence:
+          - "単行本9巻: ヌルガイとともに朱槿と戦い、串刺しにした"
+  - id: gantetsusai
+    name: 民谷巌鉄斎
+    affiliation: 死罪人（剣豪）
+    cv: 稲田徹
+    editor:
+      anime:
+        score: 80
+        note: 剣の腕を頼みに島を進み、画眉丸・付知と組んで道士と戦った。
+        evidence:
+          - "第1期 第10話: 画眉丸・付知と共闘し、氣を操る道士と戦った"
+      manga:
+        score: 80
+        note: 追加上陸組の殊現に斬られ、付知の治療で命をつないだ。
+        evidence:
+          - "単行本10巻: 殊現に斬られ、付知に治療された"
+  - id: yuzuriha
+    name: 杠
+    affiliation: 死罪人（くノ一）
+    cv: 高橋李依
+    editor:
+      anime:
+        score: 75
+        note: 正面からの力押しより搦め手が得意。蓬莱では画眉丸と組んで蘭を倒した。
+        evidence:
+          - "第2期: 導引宮で画眉丸とともに蘭を倒した"
+      manga:
+        score: 75
+        note: 原作でも評価は変わらない。
+  - id: toma
+    name: 桐馬
+    affiliation: 山田浅ェ門（弔兵衛の弟）
+    cv: 小野賢章
+    editor:
+      anime:
+        score: 76
+        note: 蓬莱で付知と組み、鬼尸解した菊花と桃花に勝った。
+        evidence:
+          - "第2期: 房中宮で付知とともに菊花と桃花に勝った"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: fuchi
+    name: 付知
+    affiliation: 山田浅ェ門
+    cv: 市川蒼
+    editor:
+      anime:
+        score: 74
+        note: 解剖の知識で戦う。蓬莱では桐馬と組んで菊花と桃花に勝った。
+        evidence:
+          - "第1期 第10話: 画眉丸・巌鉄斎と共闘し、道士と戦った"
+          - "第2期: 房中宮で桐馬とともに菊花と桃花に勝った"
+      manga:
+        score: 74
+        note: 殊現に斬られ、巌鉄斎を治療した後に息絶えた。
+        evidence:
+          - "単行本10巻: 殊現に斬られ、巌鉄斎を治療した後に死亡した"
+  - id: rokurota
+    name: 陸郎太
+    affiliation: 死罪人（備前の大巨人）
+    editor:
+      anime:
+        score: 72
+        note: 怪力で浅ェ門の衛善を一瞬で殺した。画眉丸と佐切の二人がかりで倒された。
+        evidence:
+          - "第1期: 山田浅ェ門衛善を瞬殺した"
+          - "第1期 第6話: 画眉丸と佐切に倒された"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: tenza
+    name: 典坐
+    affiliation: 山田浅ェ門
+    cv: 小林裕介
+    editor:
+      anime:
+        score: 66
+        note: ヌルガイを守って戦い、天仙の朱槿に殺された。
+        evidence:
+          - "第1期: ヌルガイと島からの脱出を試みる中で、朱槿に殺された"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: nurugai
+    name: ヌルガイ
+    affiliation: 死罪人（山の民）
+    cv: 小市眞琴
+    editor:
+      anime:
+        score: 58
+        note: 典坐に守られて生き延びた。戦いの経験はまだ浅い。
+        evidence:
+          - "第1期: 担当の典坐を朱槿に殺された"
+      manga:
+        score: 62
+        note: 士遠と組んで朱槿を追い詰めた。
+        evidence:
+          - "単行本9巻: 士遠とともに朱槿を串刺しにした"
+  - id: senta
+    name: 仙汰
+    affiliation: 山田浅ェ門
+    cv: 山下大輝
+    editor:
+      anime:
+        score: 52
+        note: 戦闘より知識で貢献する。牡丹の弱点を見破ったが、致命傷を負って死んだ。
+        evidence:
+          - "第1期 第12話: 杠を狙う牡丹の前に立ちはだかった"
+          - "第1期: 牡丹の弱点を見破り、致命傷を負って杠の腕の中で死んだ"
+      manga:
+        score: 52
+        note: 原作でも評価は変わらない。
+  - id: zhujin
+    name: 朱槿
+    affiliation: 天仙
+    editor:
+      anime:
+        score: 88
+        note: 島を支配する天仙の一人。浅ェ門の典坐を殺した。
+        evidence:
+          - "第1期: 典坐を殺害した"
+      manga:
+        score: 87
+        note: 士遠とヌルガイに串刺しにされ、最後は盤古と一体化した。
+        evidence:
+          - "単行本9巻: 士遠とヌルガイに串刺しにされた"
+  - id: mudan
+    name: 牡丹
+    affiliation: 天仙
+    editor:
+      anime:
+        score: 86
+        note: 蓬莱で画眉丸たちを相手にした天仙。佐切や士遠らの総がかりで倒された。
+        evidence:
+          - "第1期 第12話: 蓬莱で画眉丸たちと対峙した"
+          - "第1期 第13話: 佐切らとの戦いの末に倒された"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: lan
+    name: 蘭
+    affiliation: 天仙
+    editor:
+      anime:
+        score: 84
+        note: 導引宮で画眉丸と杠の二人を相手にし、倒された。
+        evidence:
+          - "第2期: 導引宮で画眉丸と杠に倒された"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: rien
+    name: 蓮
+    affiliation: 天仙
+    appears: manga
+    editor:
+      manga:
+        score: 97
+        note: 天仙を束ねる存在。人間側の総力戦を受け、最後は画眉丸と佐切に敗れた。
+        evidence:
+          - "単行本13巻: 本土へ向かう船の上で人間側の総力戦を受けた"
+          - "単行本13巻: 画眉丸と佐切に倒された"
+  - id: shugen
+    name: 殊現
+    affiliation: 山田浅ェ門（追加上陸組）
+    cv: 鈴木崚汰
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 上陸直後に付知と巌鉄斎を斬った。最終決戦では蓮・画眉丸との三つ巴に加わった。
+        evidence:
+          - "単行本10巻: 付知と巌鉄斎を斬った"
+          - "単行本13巻: 蓮・画眉丸と三つ巴で戦った"
+  - id: toka
+    name: 十禾
+    affiliation: 山田浅ェ門
+    cv: 遊佐浩二
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 終盤の戦いで巨大化した怪物を倒した。
+        evidence:
+          - "単行本12巻: 巨大化した怪物を倒した"
+  - id: shija
+    name: シジャ
+    affiliation: 石隠れ衆（追加上陸組）
+    cv: 村瀬歩
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 画眉丸と同じ石隠れ衆の忍。画眉丸に倒され、死に際に結の無事を伝えた。
+        evidence:
+          - "単行本12巻: 画眉丸に倒された"
