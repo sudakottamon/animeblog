@@ -150,7 +150,7 @@ candidates:
           - "北斗杯 韓国戦: 洪秀英に3目半差で敗れた"
   - id: isumi
     name: 伊角慎一郎
-    affiliation: 院生→プロ
+    affiliation: 院生
     cv: 鈴村健一
     editor:
       anime:
@@ -164,7 +164,7 @@ candidates:
         note: 原作でも評価は変わらない。
   - id: ochi
     name: 越智康介
-    affiliation: 院生→プロ
+    affiliation: 院生
     cv: 松岡洋子
     editor:
       anime:
@@ -178,7 +178,7 @@ candidates:
         note: 原作でも評価は変わらない。
   - id: waya
     name: 和谷義高
-    affiliation: 院生→プロ
+    affiliation: 院生
     cv: 高木礼子
     editor:
       anime:

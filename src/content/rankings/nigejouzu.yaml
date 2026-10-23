@@ -103,7 +103,7 @@ candidates:
           - "単行本23〜24巻: 高一族が時行に敗れ、大半が滅んだ"
   - id: shokan
     name: 瘴奸
-    affiliation: 野盗 のち小笠原家
+    affiliation: 野盗
     editor:
       anime:
         score: 82
