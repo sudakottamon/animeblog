@@ -8,6 +8,8 @@ const basisId = z.enum(BASES);
 const editorJudgment = z.object({
   score: z.number().int().min(1).max(100),
   note: z.string(),
+  // 判定の根拠になった場面。「どこで（話数・巻・章）: 何が起きたか」を1件1文で。その勢の範囲の場面だけ。
+  evidence: z.array(z.string()).max(5).default([]),
 });
 
 const rankings = defineCollection({

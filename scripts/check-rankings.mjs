@@ -38,6 +38,16 @@ for (const f of files) {
       if (j && typeof j.note === 'string') {
         if (j.note.length > 90) warn(`${c.name}(${b}): 判定理由が長い（${j.note.length}字）`);
         for (const w of BANNED) if (j.note.includes(w)) warn(`${c.name}(${b}): 避ける言い回し「${w}」`);
+        const ev = Array.isArray(j.evidence) ? j.evidence : [];
+        const inherits = i > from && /据え置|評価を変える材料はない|評価は変わらない/.test(j.note);
+        if (!ev.length && !inherits) warn(`${c.name}(${b}): 根拠（evidence）がない`);
+        if (ev.length > 5) warn(`${c.name}(${b}): 根拠が多すぎる（${ev.length}件）`);
+        for (const e of ev) {
+          if (typeof e !== 'string') { warn(`${c.name}(${b}): 根拠が文字列でない`); continue; }
+          if (!/[:：]/.test(e)) warn(`${c.name}(${b}): 根拠に「どこで:」がない「${e.slice(0, 20)}…」`);
+          if (e.length > 90) warn(`${c.name}(${b}): 根拠が長い（${e.length}字）`);
+          for (const w of BANNED) if (e.includes(w)) warn(`${c.name}(${b}): 根拠に避ける言い回し「${w}」`);
+        }
       }
     });
   }
@@ -46,7 +56,7 @@ for (const f of files) {
   order.forEach((b, i) => {
     const later = cands.filter((c) => order.indexOf(c.appears ?? 'anime') > i);
     for (const c of cands) {
-      const note = c.editor?.[b]?.note ?? '';
+      const note = [c.editor?.[b]?.note ?? '', ...(c.editor?.[b]?.evidence ?? [])].join(' ');
       for (const l of later) {
         const short = l.name.replace(/[・（(].*$/, '');
         if (short.length >= 2 && note.includes(short)) warn(`${c.name}(${b}): 後の勢で登場する「${l.name}」に触れている（ネタバレの恐れ）`);

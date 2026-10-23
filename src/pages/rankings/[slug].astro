@@ -17,19 +17,22 @@ const fmt = (x: Date) => `${x.getFullYear()}/${x.getMonth() + 1}/${x.getDate()}`
 
 // 「据え置く」「評価を変える材料はない」だけの判定理由は、前の勢の理由を引き継いで見せる
 const PLACEHOLDER = /据え置|評価を変える材料はない|変える材料はない/;
-function noteFor(c: Ranking['data']['candidates'][number], i: number): string | undefined {
-  const own = c.editor[d.bases[i].id]?.note;
-  if (!own || !PLACEHOLDER.test(own) || own.length > 40) return own;
+function judgmentFor(c: Ranking['data']['candidates'][number], i: number): { note?: string; evidence: string[] } {
+  const own = c.editor[d.bases[i].id];
+  if (!own) return { evidence: [] };
+  if (!PLACEHOLDER.test(own.note) || own.note.length > 40) return { note: own.note, evidence: own.evidence };
   for (let k = i - 1; k >= 0; k--) {
-    const prev = c.editor[d.bases[k].id]?.note;
-    if (prev && !PLACEHOLDER.test(prev)) return `${prev}（${d.bases[i].label}の範囲でも評価は変わらない）`;
+    const prev = c.editor[d.bases[k].id];
+    if (prev && !PLACEHOLDER.test(prev.note)) {
+      return { note: `${prev.note}（${d.bases[i].label}の範囲でも評価は変わらない）`, evidence: own.evidence.length ? own.evidence : prev.evidence };
+    }
   }
-  return own;
+  return { note: own.note, evidence: own.evidence };
 }
 
 const panels = d.bases.map((b, i) => {
   const list = candidatesFor(r, b.id)
-    .map((c) => ({ c, j: c.editor[b.id], note: noteFor(c, i), tier: editorTier(c.editor[b.id]?.score ?? 0) }))
+    .map((c) => ({ c, j: c.editor[b.id], ...judgmentFor(c, i), tier: editorTier(c.editor[b.id]?.score ?? 0) }))
     .sort((x, y) => (y.j?.score ?? 0) - (x.j?.score ?? 0));
   return { b, i, list };
 });
@@ -162,7 +165,7 @@ const jsonLd = {
         <!-- キャラ別の内訳 -->
         <h2 class="sec-title">キャラ別の評価</h2>
         <ol class="cands">
-          {list.map(({ c, j, note, tier }, idx) => (
+          {list.map(({ c, j, note, evidence, tier }, idx) => (
             <li class="cand" data-c={c.id} data-editor={j?.score ?? 0} data-pos={idx + 1}>
               <div class="cand-top">
                 <div class="rank"><b data-rank>{idx + 1}</b><span>位</span></div>
@@ -186,7 +189,16 @@ const jsonLd = {
                 </div>
               </div>
               <div class="dist" data-dist hidden></div>
-              {j && <p class="judge"><b>運営の判定理由</b>{note}</p>}
+              {j && (
+                <div class="judge">
+                  <p><b>運営の判定理由</b>{note}</p>
+                  {evidence.length > 0 && (
+                    <ul class="evidence">
+                      {evidence.map((e) => <li>{e}</li>)}
+                    </ul>
+                  )}
+                </div>
+              )}
             </li>
           ))}
         </ol>
