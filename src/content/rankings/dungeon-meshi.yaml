@@ -1,0 +1,199 @@
+work: ダンジョン飯
+title: ダンジョン飯 最強キャラランキング
+description: ダンジョン飯の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期（全24話、原作8巻の途中）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全14巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: winged-lion
+    name: 翼獅子
+    affiliation: 黄金郷の守り神とされる存在
+    appears: manga
+    editor:
+      manga:
+        score: 97
+        note: 人の欲望を喰らう悪魔。千年分の欲望を溜めたシスルを抜け殻にした。最後はライオスに食欲を食べられて力を失った。
+        evidence:
+          - "原作終盤: シスルの千年分の欲望を喰らい、抜け殻にした"
+          - "原作終盤: 迷宮の主となったライオスに食欲を食べられ、力を失った"
+  - id: thistle
+    name: シスル（狂乱の魔術師）
+    affiliation: 迷宮の主
+    cv: 小林ゆう
+    editor:
+      anime:
+        score: 88
+        note: 迷宮の主。黄金郷の住民に不死の呪いをかけ、蘇生したファリンを支配下に置いた。
+        evidence:
+          - "第1期: 黄金郷の住民は狂乱の魔術師の呪いで不死になっている"
+          - "第1期 第12話: 蘇生したファリンがレッドドラゴンと狂乱の魔術師の支配下に置かれた"
+      manga:
+        score: 93
+        note: ドラゴンを複数呼び出し、ライオス以外の一行を倒した。最後は翼獅子に欲望を喰われて抜け殻になった。
+        evidence:
+          - "原作終盤: 隠れ家での戦いでドラゴンを呼び出し、ライオス以外の4人を倒した"
+          - "原作終盤: ドラゴンの習性を読んだライオスに捕らえられた"
+  - id: marcille
+    name: マルシル
+    affiliation: ライオス一行の魔術師
+    cv: 千本木彩花
+    editor:
+      anime:
+        score: 78
+        note: 一行の魔術師。禁じられた古代魔術でファリンを蘇生させた。
+        evidence:
+          - "第1期 第12話: レッドドラゴン討伐後、禁忌の古代魔術でファリンを蘇生させた"
+      manga:
+        score: 92
+        note: 翼獅子の封印を解いて迷宮の主になり、迷宮を作り変えてカナリア隊を追い詰めた。ミスルンを魔法で殺した。
+        evidence:
+          - "原作終盤: 迷宮の主となり、呼び出した大蜘蛛で多くの者を麻痺させた"
+          - "原作終盤: 翼獅子が他の者を阻む間に、ミスルンを魔法で殺した"
+  - id: laios
+    name: ライオス
+    affiliation: ライオス一行のリーダー
+    cv: 熊谷健太郎
+    editor:
+      anime:
+        score: 74
+        note: 魔物の知識を武器に戦う剣士。一行でレッドドラゴンを倒した。
+        evidence:
+          - "第1期 第12話: 一行でレッドドラゴンを討伐した"
+      manga:
+        score: 89
+        note: シスルの隠れ家で一人生き残り、シスルを捕らえた。迷宮の主となって翼獅子の食欲を食べ、力を失わせた。
+        evidence:
+          - "原作終盤: シスルが呼んだドラゴンの習性を読んでかわし、シスルを捕らえた"
+          - "原作終盤: 迷宮の主となり、翼獅子の食欲を食べた"
+  - id: falin
+    name: ファリン
+    affiliation: ライオスの妹
+    cv: 早見沙織
+    editor:
+      anime:
+        score: 82
+        note: 蘇生の際にレッドドラゴンの死骸と融合し、下半身が竜の姿になった。
+        evidence:
+          - "第1期 第13話: レッドドラゴンの死骸と融合したキメラの姿になり、姿を消した"
+      manga:
+        score: 88
+        note: キメラの姿で合流したシュローとカブルーの一行を襲い、大半を殺した。最深部でライオスたちに倒された。
+        evidence:
+          - "原作: 合流したシュローとカブルーの一行を襲い、大半を殺した"
+          - "原作終盤: 最深部でライオスたちにキメラの姿を倒された"
+  - id: mithrun
+    name: ミスルン
+    affiliation: カナリア隊 隊長
+    cv: 内山昂輝
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 触れた相手を転移させる魔法と高い身体能力を持つ。迷宮の主となったマルシルに殺された。
+        evidence:
+          - "原作: シスルを殺そうとしてカブルーに止められた"
+          - "原作終盤: 封印を巡る戦いでカブルーに気絶させられた"
+  - id: lycion
+    name: リシオン
+    affiliation: カナリア隊
+    cv: 岸尾だいすけ
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 獣の姿に変身してライオスたちを圧倒した。マルシルとの戦いでユニコーンに重傷を負わされた。
+        evidence:
+          - "原作: 獣の姿に変身し、ライオスたちを圧倒した"
+          - "原作終盤: マルシルとの戦いでユニコーンに重傷を負わされた"
+  - id: shuro
+    name: シュロー
+    affiliation: 元ライオス一行 東方の剣士
+    cv: 川田紳司
+    appears: manga
+    editor:
+      manga:
+        score: 74
+        note: 東方出身の剣士。禁忌の蘇生を知ってライオスと素手で殴り合った。
+        evidence:
+          - "原作: 蘇生の件を知り、ライオスと素手で殴り合った"
+  - id: kabru
+    name: カブルー
+    affiliation: カブルー一行のリーダー
+    cv: 加藤渉
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 対人戦を得意とする剣士。カナリア隊長のミスルンを止め、気絶させた。
+        evidence:
+          - "原作: シスルを殺そうとしたミスルンを止めた"
+          - "原作終盤: 封印を巡る戦いでミスルンを気絶させた"
+  - id: rin
+    name: リンシャ（リン）
+    affiliation: カブルー一行の魔術師
+    cv: 高橋李依
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: 雷の魔法を使う魔術師。キメラとなったファリンを一撃で倒れさせた。
+        evidence:
+          - "原作: 雷の魔法一発でファリンを倒れさせた"
+  - id: izutsumi
+    name: イヅツミ
+    affiliation: ライオス一行
+    editor:
+      anime:
+        score: 70
+        note: クナイと素手で戦う近接型。身のこなしは一行で一番。
+        evidence:
+          - "第1期: 一行に加わり、クナイと素手で前に出て戦った"
+      manga:
+        score: 72
+        note: 母の姿をとった夢魔を自力で倒した。
+        evidence:
+          - "原作: 母の姿をとった夢魔を倒した"
+  - id: inutade
+    name: イヌタデ
+    affiliation: シュローの従者
+    appears: manga
+    editor:
+      manga:
+        score: 66
+        note: 鬼の従者。ファリンの襲撃で尾の一撃を受けても生き残った。
+        evidence:
+          - "原作: ファリンの襲撃で尾の一撃を受け、シュローの従者で一人生き残った"
+  - id: senshi
+    name: センシ
+    affiliation: ライオス一行 ドワーフの戦士
+    cv: 中博史
+    editor:
+      anime:
+        score: 68
+        note: 斧を使うドワーフの戦士。レッドドラゴン戦でライオスと前衛に立った。
+        evidence:
+          - "第1期 第12話: レッドドラゴン戦で前衛に立ち、斧を砕かれた"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: chilchuck
+    name: チルチャック
+    affiliation: ライオス一行 鍵師
+    cv: 泊明日菜
+    editor:
+      anime:
+        score: 58
+        note: 罠と鍵の専門家で、正面から戦う役ではない。レッドドラゴン戦では投げた短刀で目を刺した。
+        evidence:
+          - "第1期 第12話: レッドドラゴンの左目に短刀を投げて刺した"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。

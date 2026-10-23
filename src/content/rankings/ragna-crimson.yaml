@@ -1,0 +1,207 @@
+work: ラグナクリムゾン
+title: ラグナクリムゾン 最強キャラランキング
+description: ラグナクリムゾンの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期（全24話、戦争編）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本最新刊（2026年5月時点で17巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: gildea
+    name: ギルゼア
+    affiliation: 殺尽竜 爪牙の王
+    cv: 釘宮理恵
+    appears: manga
+    editor:
+      manga:
+        score: 95
+        note: 宙斬を確かめに来たウォルテカムイを容易く退けた。レオニカとネビュリムを弟子に取った。
+        evidence:
+          - "原作: 宙斬を巡ってウォルテカムイと戦い、容易く退けた"
+  - id: ragna
+    name: ラグナ
+    affiliation: 狩竜人
+    cv: 小林千晃
+    editor:
+      anime:
+        score: 93
+        note: 銀気闘法でタラテクトラの自爆を止め、一度は完敗したウォルテカムイに再戦で勝った。
+        evidence:
+          - "アニメ プロローグ: グリュムウェルテを凍らせて破壊した"
+          - "アニメ 戦争編: 再戦でウォルテカムイを倒した"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: walter-kamui
+    name: ウォルテカムイ
+    affiliation: 翼の血族 雷爪
+    cv: 諏訪部順一
+    editor:
+      anime:
+        score: 92
+        note: 雷神闘法の使い手。ラグナに完勝し、スターリアの首を落とした。再戦でラグナに敗れた。
+        evidence:
+          - "アニメ 戦争編: ラグナとの初戦に完勝した"
+          - "アニメ 戦争編: 再戦でラグナに敗れ、消滅した"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: future-ragna
+    name: 未来ラグナ
+    affiliation: 未来から来たラグナ
+    cv: 神奈延年
+    editor:
+      anime:
+        score: 88
+        note: 銀気闘法を極めた未来のラグナ。その力を現在のラグナに託した。
+        evidence:
+          - "アニメ プロローグ: 銀気闘法を極めた力を現在のラグナに託した"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: ultimatia
+    name: アルテマティア
+    affiliation: 翼の血族 竜王
+    cv: 上田麗奈
+    editor:
+      anime:
+        score: 87
+        note: 時操魔法を使う竜王で、翼の血族を率いて人類と戦った。
+        evidence:
+          - "アニメ: 時操魔法を使う竜王として翼の血族を率いた"
+          - "アニメ 戦争編: 人間だった頃の記憶を思い出した"
+      manga:
+        score: 87
+        note: 決戦の最中に背後から撃たれて致命傷を負い、命を落とした。正面から敗れたわけではない。
+        evidence:
+          - "原作 戦争編: 背後からヘゼラの銃撃を受けて致命傷を負った"
+  - id: orto-zora
+    name: オルト・ゾラ
+    affiliation: 翼の血族
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 84
+        note: 薬物生成で狂化を保って戦う竜。銀装兵団が限界を超えて立ち向かった。
+        evidence:
+          - "アニメ 戦争編: 狂化して銀装兵団と戦った"
+      manga:
+        score: 84
+        note: 兵団の総力で倒され、アイザックに止めを刺された。
+        evidence:
+          - "原作 戦争編: 銀装兵団の総力で倒され、アイザックに止めを刺された"
+  - id: tarate-ctra
+    name: タラテクトラ
+    affiliation: 翼の血族 爆塊竜
+    cv: 竹内良太
+    editor:
+      anime:
+        score: 84
+        note: 轟震砲で一度はラグナを倒した。致命傷を負って自爆しようとしたが、ラグナに止められた。
+        evidence:
+          - "アニメ: 轟震砲でラグナを一度倒した"
+          - "アニメ: 自爆をラグナの銀気闘法で食い止められ、消滅した"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: isaac
+    name: アイザック・スターン
+    affiliation: 銀装兵団 顧問
+    cv: 前野智昭
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 竜の上位個体を二体続けて仕留めた。
+        evidence:
+          - "原作 戦争編: ボルギウスの首を刎ねた"
+          - "原作 戦争編: 兵団が追い詰めたオルト・ゾラに止めを刺した"
+  - id: bolgius
+    name: ボルギウス
+    affiliation: 翼の血族 森海竜
+    cv: 堀内賢雄
+    editor:
+      anime:
+        score: 82
+        note: ネビュリムから空間魔法を得て周囲を制圧し、ゴーレムとキメラを倒した。
+        evidence:
+          - "アニメ 戦争編: ネビュリムの力で周囲を制圧し、ゴーレムとキメラを倒した"
+      manga:
+        score: 82
+        note: 王都での戦いでアイザックに首を刎ねられた。
+        evidence:
+          - "原作 戦争編: アイザックに首を刎ねられた"
+  - id: crimson
+    name: クリムゾン
+    affiliation: 元翼の王
+    cv: 村瀬歩
+    editor:
+      anime:
+        score: 76
+        note: 空間魔法と時操魔法を使う元翼の王。自ら前に出るより、ラグナを使って竜と戦う作戦を立てる役が多い。
+        evidence:
+          - "アニメ 戦争編: 共闘を求めたラグナを断り、自分の作戦に従えと指示した"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: starlia
+    name: スターリア・レーゼ
+    affiliation: 銀装兵団
+    cv: 日高里菜
+    editor:
+      anime:
+        score: 76
+        note: 念動力と結界術を使う。ウォルテカムイに首を落とされたが生き延びた。
+        evidence:
+          - "アニメ 戦争編: ウォルテカムイに討たれたが、生き延びていた"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: garm
+    name: ガルム・ウルバン
+    affiliation: 銀装兵団 主席剣士長
+    cv: 斎藤志郎
+    editor:
+      anime:
+        score: 72
+        note: 剣狼と呼ばれる銀装兵団の剣士長。
+        evidence:
+          - "アニメ 戦争編: 銀装兵団の一員としてオルト・ゾラと互角以上に戦った"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: leonica
+    name: レオニカ
+    affiliation: 狩竜人
+    cv: 水瀬いのり
+    editor:
+      anime:
+        score: 64
+        note: 狩竜人の若き天才。元の時間軸ではグリュムウェルテに殺されていた。
+        evidence:
+          - "アニメ プロローグ: 元の時間軸ではグリュムウェルテに殺された"
+      manga:
+        score: 74
+        note: 成者となったシャンティオラスを倒し、ギルゼアの弟子になった。
+        evidence:
+          - "原作: 成者となったシャンティオラスを倒した"
+  - id: nebulim
+    name: ネビュリム
+    affiliation: 翼の血族
+    cv: 山下大輝
+    editor:
+      anime:
+        score: 62
+        note: 結界魔法の使い手。早い段階でラグナに敗れた。
+        evidence:
+          - "アニメ: ラグナに敗れた"
+          - "アニメ 戦争編: ボルギウスに空間魔法の力を与えた"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。

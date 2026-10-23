@@ -164,12 +164,12 @@
 - [x] `shikkakumon` 失格紋の最強賢者
 
 ## バッチ 21
-- [ ] `kenja-no-mago` 賢者の孫
-- [ ] `dungeon-meshi` ダンジョン飯
-- [ ] `ragna-crimson` ラグナクリムゾン
-- [ ] `katainaka-ossan` 片田舎のおっさん、剣聖になる
-- [ ] `made-in-abyss` メイドインアビス
-- [ ] `zero-no-tsukaima` ゼロの使い魔
+- [x] `kenja-no-mago` 賢者の孫
+- [x] `dungeon-meshi` ダンジョン飯
+- [x] `ragna-crimson` ラグナクリムゾン
+- [x] `katainaka-ossan` 片田舎のおっさん、剣聖になる
+- [x] `made-in-abyss` メイドインアビス
+- [x] `zero-no-tsukaima` ゼロの使い魔
 
 ## バッチ 22
 - [ ] `highschool-dxd` ハイスクールD×D

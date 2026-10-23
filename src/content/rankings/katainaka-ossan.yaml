@@ -1,0 +1,168 @@
+work: 片田舎のおっさん、剣聖になる
+title: 片田舎のおっさん、剣聖になる 最強キャラランキング
+description: 片田舎のおっさん、剣聖になるの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（2026年夏放送、全12話）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作小説の既刊最新巻（2026年8月発売の11巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: beryl
+    name: ベリル・ガーデナント
+    affiliation: レベリオ騎士団 特別指南役
+    cv: 平田広明
+    editor:
+      anime:
+        score: 92
+        note: 騎士団の副団長を模擬戦で下し、元弟子たちを相手にしても上を行った。
+        evidence:
+          - "第1期 第1話: 副団長ヘンブリッツの挑戦を受け、模擬戦で勝った"
+          - "第1期 第12話: 刺客を差し向けていた元弟子ロゼと師弟対決をした"
+      novel:
+        score: 95
+        note: 闘技大会を勝ち抜き、決勝で相手の膝を砕いて優勝した。シュプールの剣を折って斬り伏せた。
+        evidence:
+          - "原作（闘技大会）: 決勝でユキシロ・オリゼの膝を砕いて勝った"
+          - "原作: シュプールの剣を折って斬り、倒した"
+  - id: lucy
+    name: ルーシー・ダイアモンド
+    affiliation: 魔法師団 団長
+    cv: 斎藤千和
+    appears: novel
+    editor:
+      novel:
+        score: 86
+        note: 王国の魔法師団を率いる魔術師。ベリルとの手合わせでは魔術を凌がれたが、勝敗ははっきりしていない。
+        evidence:
+          - "原作: ベリルとの手合わせで魔術を凌がれた"
+  - id: alucia
+    name: アリューシア・シトラス
+    affiliation: レベリオ騎士団 団長
+    cv: 東山奈央
+    editor:
+      anime:
+        score: 84
+        note: ベリルの元弟子で騎士団長。
+        evidence:
+          - "第1期 第11話: ベリルらと共に刺客から王族を守り抜いた"
+      novel:
+        score: 86
+        note: 剣を交えたクリウを退けた。
+        evidence:
+          - "原作: クリウ・ライバークと戦って勝った"
+  - id: surena
+    name: スレナ・リサンデラ
+    affiliation: ブラックランク冒険者
+    cv: 上田瞳
+    editor:
+      anime:
+        score: 84
+        note: ベリルの元弟子で最高ランクの冒険者。ベリルと共に特別討伐指定個体を倒した。
+        evidence:
+          - "第1期 第3話: ベリルと立ち合った"
+          - "第1期: ベリルと共にゼノ・グレイブルを討伐した"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: yukishiro
+    name: ユキシロ・オリゼ
+    affiliation: 闘技大会の出場者
+    appears: novel
+    editor:
+      novel:
+        score: 82
+        note: 闘技大会の決勝まで勝ち上がった。決勝でベリルに膝を砕かれて敗れた。
+        evidence:
+          - "原作（闘技大会）: 決勝でベリルに膝を砕かれて敗れた"
+  - id: rose
+    name: ロゼ・マーブルハート
+    affiliation: 隣国の教会騎士団 副団長
+    cv: 茅野愛衣
+    editor:
+      anime:
+        score: 82
+        note: ベリルの元弟子。刺客の大群を差し向けた黒幕として、ベリルと剣を交えた。
+        evidence:
+          - "第1期 第12話: 刺客を仕組んだ黒幕としてベリルと師弟対決をした"
+      novel:
+        score: 82
+        note: ベリルの一撃を受けて倒れた。のちに動きを封じられたモーリス教皇に止めを刺した。
+        evidence:
+          - "原作: 体を貫かれて動けなくなったモーリス教皇に止めを刺した"
+  - id: fissel
+    name: フィッセル・ハーベラー
+    affiliation: 魔法師団 魔法剣士
+    cv: 矢野妃菜喜
+    editor:
+      anime:
+        score: 76
+        note: ベリルの元弟子で、剣と魔術を併せて使う魔法剣士。
+        evidence:
+          - "第1期 第2話: ベリルと再会し、魔術の腕前で驚かせた"
+      novel:
+        score: 76
+        note: 闘技大会では準決勝で敗れた。
+        evidence:
+          - "原作（闘技大会）: 準決勝で敗退した"
+  - id: hembritz
+    name: ヘンブリッツ・ドラウト
+    affiliation: レベリオ騎士団 副団長
+    cv: 石川界人
+    editor:
+      anime:
+        score: 74
+        note: 騎士団の副団長。ベリルに模擬戦を挑んで敗れた。
+        evidence:
+          - "第1期 第1話: ベリルに模擬戦を挑み、敗れた"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: kriu
+    name: クリウ・ライバーク
+    affiliation: アリューシアと戦った剣士
+    cv: 峯田大夢
+    appears: novel
+    editor:
+      novel:
+        score: 72
+        note: アリューシアと剣を交えて敗れた。
+        evidence:
+          - "原作: アリューシアに敗れた"
+  - id: shpur
+    name: シュプール
+    affiliation: ベリルと戦った剣士
+    cv: 逢坂良太
+    appears: novel
+    editor:
+      novel:
+        score: 72
+        note: ベリルと斬り合ったが、剣を折られて斬られた。
+        evidence:
+          - "原作: ベリルに剣を折られて斬られ、絶命した"
+  - id: hanoi
+    name: ハノイ・クレッサ
+    affiliation: ベリルらを襲撃した刺客
+    cv: 近藤隆
+    appears: novel
+    editor:
+      novel:
+        score: 66
+        note: ベリルらを襲ったが仕留められず、退いた。
+        evidence:
+          - "原作: ベリルらを襲撃したが失敗し、撤退した"
+  - id: dreg
+    name: ドレッグ・ハマー
+    affiliation: 闘技大会の出場者
+    appears: novel
+    editor:
+      novel:
+        score: 56
+        note: 闘技大会の1回戦でベリルと当たり、一撃で敗れた。
+        evidence:
+          - "原作（闘技大会）: 1回戦でベリルに顎を打ち抜かれて敗れた"

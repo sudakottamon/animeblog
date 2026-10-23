@@ -1,0 +1,226 @@
+work: ゼロの使い魔
+title: ゼロの使い魔 最強キャラランキング
+description: ゼロの使い魔の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第4期『ゼロの使い魔F』（2012年）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作完結（本編全22巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: louise
+    name: ルイズ
+    affiliation: トリステイン魔法学院 虚無の担い手
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 92
+        note: 虚無の担い手。エンシェントドラゴンを「エクスプロージョン」で倒した。
+        evidence:
+          - "第4期『F』: エンシェントドラゴンを「エクスプロージョン」で倒した"
+          - "第4期『F』: タバサと共にジョゼフに深手を負わせた"
+      novel:
+        score: 93
+        note: 才人を追い詰めた元素の兄弟のジャックを、虚無で生け捕りにした。
+        evidence:
+          - "第17巻: 攻撃が通じなかったジャックを虚無で生け捕りにした"
+          - "原作: 虚無でビダーシャルの「反射」を破った"
+  - id: joseph
+    name: ジョゼフ
+    affiliation: ガリア王 虚無の担い手
+    cv: 小杉十郎太
+    editor:
+      anime:
+        score: 90
+        note: 才人との戦いを優位に進めた。ルイズとタバサの魔法で深手を負い、火石の爆発で死んだ。
+        evidence:
+          - "第4期『F』: 才人と戦い、優位に立った"
+          - "第4期『F』: ルイズとタバサの魔法で深手を負い、火石の爆発で死んだ"
+      novel:
+        score: 91
+        note: 「爆発」で宮殿を崩し、東薔薇騎士団を壊滅させた。
+        evidence:
+          - "第14巻: 「爆発」で宮殿を崩壊させ、東薔薇騎士団を壊滅させた"
+  - id: saito
+    name: 平賀才人
+    affiliation: ルイズの使い魔 ガンダールヴ
+    cv: 日野聡
+    editor:
+      anime:
+        score: 87
+        note: ガンダールヴの力でギーシュを下し、ワルドの左腕を斬り落とした。ジョゼフには押された。
+        evidence:
+          - "第1期: 決闘でギーシュを降参させた"
+          - "第1期: ワルドに圧倒されたが、左腕を斬り落とした"
+      novel:
+        score: 92
+        note: 元素の兄弟のドゥドゥーを倒し、ジュリオとの決着も付けた。
+        evidence:
+          - "第16巻: ドゥドゥーを日本刀で貫いて倒した"
+          - "最終巻: ジュリオに拳銃で勝った"
+  - id: bidashal
+    name: ビダーシャル
+    affiliation: エルフ
+    cv: 野島健児
+    appears: novel
+    editor:
+      novel:
+        score: 88
+        note: 先住の魔法でタバサを捕らえた。虚無で「反射」を破られて退いた。
+        evidence:
+          - "第10巻: タバサを破って捕らえた"
+          - "原作: ルイズの虚無で「反射」を破られ、撤退した"
+  - id: wardes
+    name: ワルド
+    affiliation: グリフォン隊 隊長 レコン・キスタ
+    cv: 志村知幸
+    editor:
+      anime:
+        score: 82
+        note: 才人を圧倒し、ウェールズを殺した。左腕は才人に斬り落とされた。
+        evidence:
+          - "第1期: 才人を圧倒し、結婚式でウェールズを殺した"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: jack
+    name: ジャック
+    affiliation: 元素の兄弟
+    cv: 山本格
+    appears: novel
+    editor:
+      novel:
+        score: 82
+        note: 才人を追い詰めたが、ルイズの虚無で生け捕りにされた。
+        evidence:
+          - "第17巻: 才人を追い詰めたが、ルイズの虚無で生け捕りにされた"
+  - id: tabitha
+    name: タバサ
+    affiliation: トリステイン魔法学院 ガリア王家
+    cv: 猪口有佳
+    editor:
+      anime:
+        score: 80
+        note: 風の魔法の使い手。ルイズと共にジョゼフに深手を負わせた。
+        evidence:
+          - "第4期『F』: ルイズと共にジョゼフに深手を負わせた"
+      novel:
+        score: 80
+        note: 才人と戦った後にルイズ側に付いた。ビダーシャルには敗れて捕らわれた。
+        evidence:
+          - "第9巻: 才人と戦い、その後ルイズ側に付いた"
+          - "第10巻: ビダーシャルに敗れ、捕らわれた"
+  - id: julio
+    name: ジュリオ
+    affiliation: ロマリア 神官
+    cv: 平川大輔
+    appears: novel
+    editor:
+      novel:
+        score: 80
+        note: 素手の勝負で才人と引き分けた。最後は拳銃を使った才人に敗れた。
+        evidence:
+          - "第18巻: 才人と素手で殴り合い、引き分けた"
+          - "最終巻: 才人の拳銃に敗れた"
+  - id: colbert
+    name: コルベール
+    affiliation: トリステイン魔法学院 教師
+    cv: 鈴木琢磨
+    editor:
+      anime:
+        score: 76
+        note: 学院の教師で火の魔法の使い手。学院を襲ったメンヌヴィルと戦った。
+        evidence:
+          - "第2期『双月の騎士』: 学院を襲ったメンヌヴィルと戦った"
+      novel:
+        score: 84
+        note: アニエスをかばって重傷を負いながら、メンヌヴィルを「爆炎」で倒した。
+        evidence:
+          - "第6巻: アニエスをかばって重傷を負い、メンヌヴィルを「爆炎」で倒した"
+  - id: dudou
+    name: ドゥドゥー
+    affiliation: 元素の兄弟
+    cv: 井口祐一
+    appears: novel
+    editor:
+      novel:
+        score: 76
+        note: デルフリンガーを破壊したが、才人に敗れた。
+        evidence:
+          - "第16巻: デルフリンガーを破壊したが、才人に敗れた"
+  - id: menneville
+    name: メンヌヴィル
+    affiliation: 傭兵
+    editor:
+      anime:
+        score: 74
+        note: 学院を襲った傭兵。最後はアニエスに刺されて倒れた。
+        evidence:
+          - "第2期『双月の騎士』: 学院を襲撃し、アニエスに刺殺された"
+      novel:
+        score: 76
+        note: タバサとキュルケを返り討ちにした。コルベールの「爆炎」で倒された。
+        evidence:
+          - "第6巻: タバサとキュルケを返り討ちにした"
+          - "第6巻: コルベールの「爆炎」で倒された"
+  - id: agnes
+    name: アニエス
+    affiliation: 銃士隊 隊長
+    cv: 根谷美智子
+    editor:
+      anime:
+        score: 72
+        note: 銃士隊の隊長。剣と銃で戦い、メンヌヴィルを刺して倒した。
+        evidence:
+          - "第2期『双月の騎士』: メンヌヴィルを刺して倒した"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: sheffield
+    name: シェフィールド
+    affiliation: ジョゼフの使い魔 ミョズニトニルン
+    cv: 勝生真沙子
+    editor:
+      anime:
+        score: 70
+        note: 魔道具を操るジョゼフの使い魔。ジョゼフと共に火石の爆発で死んだ。
+        evidence:
+          - "第4期『F』: ジョゼフと共に火石の爆発で死んだ"
+      novel:
+        score: 70
+        note: 才人に敗れた。
+        evidence:
+          - "第14巻: 才人に敗れた"
+  - id: fouquet
+    name: 土くれのフーケ
+    affiliation: 盗賊
+    cv: 木村亜希子
+    editor:
+      anime:
+        score: 66
+        note: 巨大なゴーレムを操る盗賊。ガンダールヴの力を使った才人に捕らえられた。
+        evidence:
+          - "第1期: 才人に捕らえられ、投獄された"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: guiche
+    name: ギーシュ
+    affiliation: トリステイン魔法学院
+    cv: 櫻井孝宏
+    editor:
+      anime:
+        score: 50
+        note: ゴーレムを操る土のメイジ。才人との決闘に敗れて降参した。
+        evidence:
+          - "第1期: 才人との決闘に敗れ、降参した"
+      novel:
+        score: 55
+        note: アルビオン戦役で一番槍の武功を挙げた。
+        evidence:
+          - "原作（アルビオン戦役）: サウスゴータで一番槍の武功を挙げた"

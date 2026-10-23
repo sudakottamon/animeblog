@@ -1,0 +1,230 @@
+work: 賢者の孫
+title: 賢者の孫 最強キャラランキング
+description: 賢者の孫の最強キャラをアニメ勢・漫画勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（2019年、全12話、スイード王国の魔人戦）まで
+  - id: manga
+    label: 漫画勢
+    range: 単行本最新29巻（2026年10月発売）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 本編完結（全17巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: shin
+    name: シン＝ウォルフォード
+    affiliation: アルティメット・マジシャンズ
+    cv: 小林裕介
+    editor:
+      anime:
+        score: 95
+        note: 無詠唱で桁外れの魔法を使う。魔人化したカートを倒し、黒幕のシュトロームとも渡り合った。
+        evidence:
+          - "第2話: 入学試験で無詠唱の魔法と大爆発を見せ、首席で入学した"
+          - "アニメ序盤: 魔人化したカートを倒した"
+      manga:
+        score: 96
+        note: シュトロームとの頂上決戦で、地形が変わるほどの魔法の撃ち合いを演じた。
+        evidence:
+          - "単行本26巻: シュトロームと周囲の地形が変わるほどの死闘を演じた"
+      novel:
+        score: 97
+        note: 旧帝国の城での決戦でシュトロームを魔法で消滅させた。
+        evidence:
+          - "原作（魔人王戦役）: 旧帝国の城での決戦でシュトロームを倒した"
+  - id: schtrom
+    name: オリバー・シュトローム
+    affiliation: 魔人の首魁
+    cv: 森川智之
+    editor:
+      anime:
+        score: 92
+        note: 魔人化の黒幕。平民まで魔人に変えてブルースフィア帝国を滅ぼした。
+        evidence:
+          - "アニメ序盤: シンと戦い、爆発の後も生き延びていた"
+          - "第10話: 平民まで魔人化させ、ブルースフィア帝国を滅ぼした"
+      manga:
+        score: 93
+        note: シンとの頂上決戦で互いに規格外の魔法をぶつけ合った。
+        evidence:
+          - "単行本26巻: シンと周囲の地形が変わるほどの死闘を演じた"
+      novel:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: august
+    name: アウグスト＝フォン＝アールスハイド
+    affiliation: アールスハイド王国 王太子
+    cv: 小松昌平
+    editor:
+      anime:
+        score: 80
+        note: 究極魔法研究会の発案者。シンの指導で魔法の腕を上げた。
+        evidence:
+          - "第11話: アルティメット・マジシャンズとしてスイード王国の魔人と戦った"
+      manga:
+        score: 85
+        note: 雷の魔法一撃で災害級の魔物を複数倒し、「雷神」と呼ばれた。
+        evidence:
+          - "漫画（魔人領攻略作戦）: 雷の魔法一撃で災害級の魔物を複数倒した"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: merlin
+    name: マーリン＝ウォルフォード
+    affiliation: 賢者
+    cv: 屋良有作
+    editor:
+      anime:
+        score: 76
+        note: シンを育てた賢者。前線で戦う場面は少ない。
+        evidence:
+          - "第1話: 赤子のシンを拾って育て、魔法を教えた"
+      manga:
+        score: 76
+        note: 漫画でも評価は変わらない。
+      novel:
+        score: 80
+        note: かつてメリダと共に、魔人化した友人カイルを倒した。
+        evidence:
+          - "原作: メリダと共に魔人化したカイルを倒した"
+  - id: maria
+    name: マリア＝フォン＝メッシーナ
+    affiliation: アルティメット・マジシャンズ
+    cv: 若井友希
+    editor:
+      anime:
+        score: 74
+        note: 究極魔法研究会の一員。シンの指導を受けた攻撃魔法の使い手。
+        evidence:
+          - "第11話: アルティメット・マジシャンズとしてスイード王国の魔人と戦った"
+      manga:
+        score: 80
+        note: 魔人領攻略作戦で魔物を次々に倒し、「戦乙女」と呼ばれた。
+        evidence:
+          - "漫画（魔人領攻略作戦）: 魔物を次々に倒し、「戦乙女」の名を得た"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: tony
+    name: トニー＝フレイド
+    affiliation: アルティメット・マジシャンズ
+    cv: 小林千晃
+    editor:
+      anime:
+        score: 70
+        note: 究極魔法研究会の一員。剣も使う。
+        evidence:
+          - "第11話: アルティメット・マジシャンズとしてスイード王国の魔人と戦った"
+      manga:
+        score: 76
+        note: 剣とジェットブーツで戦い、「魔剣士」の名を得た。
+        evidence:
+          - "漫画（魔人領攻略作戦）: 剣とジェットブーツで戦い、「魔剣士」と呼ばれた"
+      novel:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: julius
+    name: ユリウス＝フォン＝リッテンハイム
+    affiliation: アルティメット・マジシャンズ
+    cv: 河本啓佑
+    editor:
+      anime:
+        score: 70
+        note: 究極魔法研究会の一員。
+        evidence:
+          - "第11話: アルティメット・マジシャンズとしてスイード王国の魔人と戦った"
+      manga:
+        score: 70
+        note: 漫画でも評価は変わらない。
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: lynn
+    name: リン＝ヒューズ
+    affiliation: アルティメット・マジシャンズ
+    cv: 山口愛
+    editor:
+      anime:
+        score: 68
+        note: 究極魔法研究会の一員。強力な魔人にはアリスと二人がかりでも苦戦した。
+        evidence:
+          - "第12話: アリスと強力な魔人に挑み、苦戦した"
+      manga:
+        score: 68
+        note: 漫画でも評価は変わらない。
+      novel:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: alice
+    name: アリス＝コーナー
+    affiliation: アルティメット・マジシャンズ
+    cv: 久保田未夢
+    editor:
+      anime:
+        score: 66
+        note: 究極魔法研究会の一員。強力な魔人にはリンと二人がかりでも苦戦した。
+        evidence:
+          - "第12話: リンと強力な魔人に挑み、苦戦した"
+      manga:
+        score: 66
+        note: 漫画でも評価は変わらない。
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: hiiro
+    name: ヒイロ
+    affiliation: 魔人
+    appears: novel
+    editor:
+      novel:
+        score: 68
+        note: 魔人となってシンと戦い、倒された。
+        evidence:
+          - "原作: 魔人化してシンに倒された"
+  - id: hao
+    name: ハオ
+    affiliation: 咎人
+    appears: novel
+    editor:
+      novel:
+        score: 64
+        note: 魔石を取り込んで咎人（魔人）となったが、シンに倒された。
+        evidence:
+          - "原作: 魔石を取り込んで咎人となり、シンに倒された"
+  - id: sicily
+    name: シシリー＝フォン＝クロード
+    affiliation: アルティメット・マジシャンズ
+    cv: 本泉莉奈
+    editor:
+      anime:
+        score: 60
+        note: 治癒魔法が専門で、攻撃に回る場面は少ない。
+        evidence:
+          - "第12話: スイード王国で負傷者の治癒にあたった"
+      manga:
+        score: 60
+        note: 漫画でも評価は変わらない。
+      novel:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: kurt
+    name: カート＝フォン＝リッツバーグ
+    affiliation: 高等魔法学院の生徒
+    cv: 増岡大介
+    editor:
+      anime:
+        score: 55
+        note: 魔人化して暴れたが、シンに倒された。
+        evidence:
+          - "アニメ序盤: 魔人化して暴れ、シンに倒された"
+      manga:
+        score: 55
+        note: 漫画でも評価は変わらない。
+      novel:
+        score: 55
+        note: 原作でも評価は変わらない。
