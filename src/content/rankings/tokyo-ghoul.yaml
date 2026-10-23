@@ -1,0 +1,178 @@
+work: 東京喰種トーキョーグール
+title: 東京喰種トーキョーグール 最強キャラランキング
+description: 東京喰種トーキョーグール（:reを含む）の最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ（第1期・√A・:re 第1期・:re 第2期、全48話）・原作（無印全14巻、:re 全16巻）とも完結まで。√Aはアニメ独自の展開を含むため、判定は原作の描写を基準にする
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kaneki
+    name: 金木研
+    affiliation: 半喰種・佐々木琲世
+    cv: 花江夏樹
+    editor:
+      anime:
+        score: 97
+        note: アオギリの樹ではヤモリを、梟討伐戦では篠原を退けた。:re ではコクリアで有馬貴将を下した。
+        evidence:
+          - "アオギリの樹編: 拷問を受けた末に反撃し、ヤモリを瀕死に追い込んだ"
+          - "梟討伐戦: 篠原幸紀を圧倒し、クインケ・アラタを捕食した"
+          - ":re 8巻: コクリアで有馬貴将と戦い、勝った"
+  - id: arima
+    name: 有馬貴将
+    affiliation: CCG 特等捜査官
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 95
+        note: CCGの死神と呼ばれる特等の中でも別格の捜査官。過去に隻眼の梟を単独で退け、梟討伐戦では金木を下した。
+        evidence:
+          - "回想: 隻眼の梟を単独で撃退し、二階級特進した"
+          - "梟討伐戦: 最後に金木研と戦い、退けた"
+          - ":re 8巻: コクリアで金木に敗れた後、自ら命を絶った"
+  - id: eto
+    name: エト
+    affiliation: アオギリの樹 幹部（隻眼の梟）
+    cv: 坂本真綾
+    editor:
+      anime:
+        score: 88
+        note: 隻眼の梟の正体でSレート。:re では琲世に退けられ、旧多に致命傷を負わされた。
+        evidence:
+          - ":re 6巻: 月山家駆逐作戦に割って入ったが、佐々木琲世に敗れて逃げた"
+          - ":re 8巻: 旧多二福に一瞬で戦闘不能にされ、致命傷を負った"
+  - id: yoshimura
+    name: 芳村功善
+    affiliation: あんていく 店長（梟）
+    cv: 菅生隆之
+    editor:
+      anime:
+        score: 87
+        note: SSSレートに並ぶとされる赫者。梟討伐戦でCCGの大部隊を一人で引き受けた。
+        evidence:
+          - "梟討伐戦: 赫者の姿を現し、特等捜査官を含むCCGの部隊と交戦した"
+  - id: furuta
+    name: 旧多二福
+    affiliation: CCG・和修家の一員
+    cv: 岸尾だいすけ
+    editor:
+      anime:
+        score: 86
+        note: 弱っていたエトを一瞬で戦闘不能にした。和修本家を滅ぼしてCCGの実権を握った。
+        evidence:
+          - ":re 8巻: エトを一瞬で戦闘不能にし、致命傷を負わせた"
+          - ":re: 和修本家の一族を殺害した"
+  - id: tatara
+    name: タタラ
+    affiliation: アオギリの樹 幹部
+    cv: 遊佐浩二
+    editor:
+      anime:
+        score: 84
+        note: SS〜レートの赫者。流島で特等の法寺の部隊を相手に優位に戦った。
+        evidence:
+          - "流島編: 赫者の姿で法寺項介・真戸暁の部隊と戦い、法寺を追い詰めた"
+  - id: juuzou
+    name: 鈴屋什造
+    affiliation: CCG 捜査官
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 82
+        note: 高い身体能力と動体視力を持つ捜査官。梟討伐戦では篠原と組んで金木と戦った。
+        evidence:
+          - "梟討伐戦: 篠原幸紀と組んで金木研と戦った"
+  - id: takizawa
+    name: 滝澤政道
+    affiliation: 元CCG 捜査官・喰種
+    editor:
+      anime:
+        score: 78
+        note: 喰種となって捜査官の前に立ちはだかった。流島ではタタラの赫者に食い下がった。
+        evidence:
+          - ":re 3巻: 喰種として姿を現し、捜査官たちと戦った"
+          - "流島編: 法寺とタタラの戦いに割って入り、タタラの赫子を引きちぎった"
+  - id: tsukiyama
+    name: 月山習
+    affiliation: 喰種（美食家）
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 76
+        note: Sレートの喰種。教会での戦いで金木たちに倒された。
+        evidence:
+          - "美食家編: 教会で金木たちと戦い、倒された"
+  - id: amon
+    name: 亜門鋼太朗
+    affiliation: CCG 捜査官
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 75
+        note: アカデミーを首席で出た捜査官。金木との交戦でクインケを壊された。
+        evidence:
+          - "無印（第1部）: 金木研と交戦し、クインケを壊された"
+  - id: touka
+    name: 霧嶋董香
+    affiliation: あんていく
+    cv: 雨宮天
+    editor:
+      anime:
+        score: 74
+        note: 羽赫の喰種。上等捜査官の真戸呉緒を追い詰めて致命傷を負わせた。
+        evidence:
+          - "無印（第1部）: 真戸呉緒を追い詰め、致命傷を負わせた"
+  - id: ayato
+    name: 霧嶋絢都
+    affiliation: アオギリの樹 幹部
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 72
+        note: 近接戦が得意な羽赫の喰種。11区で金木と戦い、終始押された。
+        evidence:
+          - "アオギリの樹編: 金木研と戦い、終始圧倒された"
+  - id: shinohara
+    name: 篠原幸紀
+    affiliation: CCG 特等捜査官
+    cv: 仲野裕
+    editor:
+      anime:
+        score: 72
+        note: 歴戦の特等捜査官。梟討伐戦で金木に押し切られ、アラタを捕食された。
+        evidence:
+          - "梟討伐戦: 金木研に圧倒され、クインケ・アラタを捕食された"
+  - id: kuroiwa
+    name: 黒磐巌
+    affiliation: CCG 特等捜査官
+    cv: 大友龍三郎
+    editor:
+      anime:
+        score: 70
+        note: ベテランの特等捜査官。隻眼の梟と二度交戦し、致命傷を負わせた。
+        evidence:
+          - "回想: 隻眼の梟と二度交戦し、致命傷を負わせた"
+  - id: yamori
+    name: ヤモリ
+    affiliation: アオギリの樹 幹部
+    cv: 西凜太朗
+    editor:
+      anime:
+        score: 70
+        note: Sレートの半赫者。捕らえた金木を拷問したが、反撃を受けて瀕死になった。
+        evidence:
+          - "アオギリの樹編: 金木研を拷問したが、反撃されて瀕死に追い込まれた"
+  - id: rize
+    name: 神代利世
+    affiliation: 喰種（大喰い）
+    cv: 花澤香菜
+    editor:
+      anime:
+        score: 65
+        note: 強力な鱗赫を持つS〜レートの喰種。物語の始まりで金木を襲った。
+        evidence:
+          - "無印1巻: 金木研を襲い、捕食しようとした"

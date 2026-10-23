@@ -68,12 +68,12 @@
 - [x] `gegege` ゲゲゲの鬼太郎（2018年版（第6期）アニメ基準）
 
 ## バッチ 09
-- [ ] `tokyo-ghoul` 東京喰種トーキョーグール（:reを含む）
-- [ ] `bungo-stray-dogs` 文豪ストレイドッグス
-- [ ] `kuroshitsuji` 黒執事
-- [ ] `hellsing` HELLSING（OVA版基準）
-- [ ] `trigun` トライガン
-- [ ] `black-lagoon` BLACK LAGOON
+- [x] `tokyo-ghoul` 東京喰種トーキョーグール（:reを含む）
+- [x] `bungo-stray-dogs` 文豪ストレイドッグス
+- [x] `kuroshitsuji` 黒執事
+- [x] `hellsing` HELLSING（OVA版基準）
+- [x] `trigun` トライガン
+- [x] `black-lagoon` BLACK LAGOON
 
 ## バッチ 10
 - [ ] `durarara` デュラララ!!

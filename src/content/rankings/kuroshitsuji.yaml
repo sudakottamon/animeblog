@@ -1,0 +1,200 @@
+work: 黒執事
+title: 黒執事 最強キャラランキング
+description: 黒執事の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『黒執事 -緑の魔女編-』（2025年）まで（Book of Circus・Book of Murder・劇場版『Book of the Atlantic』を含む）。第1期後半と第2期『黒執事II』のアニメオリジナル展開は含めない
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の単行本最新刊（37巻）まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: undertaker
+    name: 葬儀屋
+    affiliation: 元死神
+    cv: 諏訪部順一
+    editor:
+      anime:
+        score: 95
+        note: 死神の鎌を持つ伝説の死神。豪華客船でセバスチャンを斬り、死者を動かす計画を進めた。
+        evidence:
+          - "劇場版『Book of the Atlantic』: 死神の鎌でセバスチャンを斬り、走馬灯劇場を引き出した"
+      manga:
+        score: 95
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: sebastian
+    name: セバスチャン・ミカエリス
+    affiliation: ファントムハイヴ家 執事（悪魔）
+    cv: 小野大輔
+    editor:
+      anime:
+        score: 93
+        note: 人間の攻撃では死なない悪魔。死神のグレルを退け、サーカス団を壊滅させたが、葬儀屋には斬られた。
+        evidence:
+          - "切り裂きジャック編: 死神グレル・サトクリフと戦い、退けた"
+          - "Book of Circus: ケルヴィンをかばったジョーカーの腕を斬り落とした"
+          - "劇場版『Book of the Atlantic』: 葬儀屋の死神の鎌に斬られた"
+      manga:
+        score: 93
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: grell
+    name: グレル・サトクリフ
+    affiliation: 死神派遣協会
+    cv: 福山潤
+    editor:
+      anime:
+        score: 84
+        note: チェーンソー型の死神の鎌を使う死神。切り裂きジャック事件でセバスチャンと戦い、退けられた。
+        evidence:
+          - "切り裂きジャック編: マダム・レッドを手にかけ、セバスチャンと戦って敗れた"
+      manga:
+        score: 84
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: agni
+    name: アグニ
+    affiliation: ソーマの執事
+    cv: 安元洋貴
+    editor:
+      anime:
+        score: 83
+        note: 神の右手を持つと言われる執事。フェンシングの剣でセバスチャンと互角に戦った。
+        evidence:
+          - "カリー編: フェンシングの剣を使い、セバスチャンと互角に戦った"
+      manga:
+        score: 82
+        note: 正体不明の襲撃者からソーマを守って命を落とした。点数はセバスチャンと互角に戦った描写を基にしている。
+        evidence:
+          - "原作（緑の魔女編より後）: 正体不明の襲撃者からソーマを守り、命を落とした"
+  - id: william
+    name: ウィリアム・T・スピアーズ
+    affiliation: 死神派遣協会 管理課
+    cv: 杉山紀彰
+    editor:
+      anime:
+        score: 82
+        note: 剪定ばさみ型の死神の鎌を使う死神の管理職。戦う場面は少ない。
+        evidence:
+          - "切り裂きジャック編: 規則違反を犯したグレルを連れ戻しに現れた"
+      manga:
+        score: 82
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: elizabeth
+    name: エリザベス・ミッドフォード
+    affiliation: シエルの婚約者
+    cv: 田村ゆかり
+    editor:
+      anime:
+        score: 80
+        note: シエルのために隠していた剣の腕を持つ。豪華客船で動く死体を相手に戦った。
+        evidence:
+          - "劇場版『Book of the Atlantic』: ビザール・ドールに襲われた際、隠していた剣の腕を明かした"
+      manga:
+        score: 80
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: tanaka
+    name: タナカ
+    affiliation: ファントムハイヴ家 家令
+    editor:
+      anime:
+        score: 78
+        note: 剣で銃弾を斬り払う腕を持つが、激しい動きを長く続けられない。
+        evidence:
+          - "緑の魔女編: 剣で銃弾を斬り払いながら敵に迫った"
+      manga:
+        score: 78
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: wolfram
+    name: ヴォルフラム・ゲルツェン
+    affiliation: ジークリンデの従者
+    cv: 小林親弘
+    editor:
+      anime:
+        score: 75
+        note: ドイツ軍出身の従者。ジークリンデを守るために同じ軍の兵士たちを手にかけた。
+        evidence:
+          - "緑の魔女編: ジークリンデを守るため、味方の兵士たちを倒した"
+      manga:
+        score: 75
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: finny
+    name: フィニアン
+    affiliation: ファントムハイヴ家 庭師
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 73
+        note: 人並み外れた怪力を持つ庭師。邸を襲ったサーカスの団員を倒した。
+        evidence:
+          - "Book of Circus: 邸に侵入したジャンボを倒した"
+      manga:
+        score: 73
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: bard
+    name: バルドロイ
+    affiliation: ファントムハイヴ家 料理人
+    cv: 東地宏樹
+    editor:
+      anime:
+        score: 72
+        note: 周りの物を使って戦う元軍人。邸を襲ったサーカスの団員2人を倒した。
+        evidence:
+          - "Book of Circus: 邸に侵入したビーストとダガーを倒した"
+      manga:
+        score: 72
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: meirin
+    name: メイリン
+    affiliation: ファントムハイヴ家 メイド
+    cv: 加藤英美里
+    editor:
+      anime:
+        score: 72
+        note: 狙撃銃を拳銃のように扱う狙撃手。邸を襲ったサーカスの団員2人を倒した。
+        evidence:
+          - "Book of Circus: 邸に侵入したピーターとウェンディを倒した"
+      manga:
+        score: 72
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: lau
+    name: 劉
+    affiliation: 崑崙貿易会社 英国支店長
+    cv: 遊佐浩二
+    editor:
+      anime:
+        score: 66
+        note: 自分で戦う場面は少なく、護衛の藍猫に任せることが多い。
+        evidence:
+          - "劇場版『Book of the Atlantic』: アバーラインを盾にしてシエルを守った"
+      manga:
+        score: 66
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: joker
+    name: ジョーカー
+    affiliation: ノアの方舟サーカス 団長
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 62
+        note: 義手に仕込んだ刃で戦う。ケルヴィンをかばってセバスチャンに腕を落とされ、命を落とした。
+        evidence:
+          - "Book of Circus: ケルヴィンをかばったところをセバスチャンに腕を斬り落とされ、出血で死亡した"
+      manga:
+        score: 62
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: ciel
+    name: シエル・ファントムハイヴ
+    affiliation: ファントムハイヴ家 当主
+    cv: 坂本真綾
+    editor:
+      anime:
+        score: 50
+        note: 体は弱いが銃の扱いに慣れている。戦闘はほぼセバスチャンに命じて行う。
+        evidence:
+          - "Book of Circus: ケルヴィン男爵を自分の手で撃った"
+      manga:
+        score: 50
+        note: 原作の最新刊まででも評価は変わらない。

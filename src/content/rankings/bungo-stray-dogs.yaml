@@ -1,0 +1,247 @@
+work: 文豪ストレイドッグス
+title: 文豪ストレイドッグス 最強キャラランキング
+description: 文豪ストレイドッグスの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第5期（天人五衰の事件の結末）まで＋劇場版『DEAD APPLE』
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の単行本28巻まで（2026年10月時点で確認できた最新刊）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: fukuchi
+    name: 福地桜痴
+    affiliation: 猟犬 隊長・天人五衰
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 95
+        note: 鏡獅子で武器の威力を100倍にし、神刀・雨御前で過去を斬る。天人五衰の事件の終盤で命を落とした。
+        evidence:
+          - "天人五衰編: 神刀・雨御前で過去を斬り、芥川龍之介を倒した"
+          - "回想: 8年前にブラム・ストーカーの首を斬った"
+      manga:
+        score: 95
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: chuuya
+    name: 中原中也
+    affiliation: ポートマフィア 五大幹部
+    cv: 谷山紀章
+    editor:
+      anime:
+        score: 92
+        note: 重力操作の異能を持ち、理性を失う汚濁で出力を上げる。太宰と組んだ双黒で組合の異能者を退けた。
+        evidence:
+          - "三社戦争編: 太宰と組み、汚濁を使ってラヴクラフトとスタインベックを退けた"
+          - "劇場版『DEAD APPLE』: 太宰とともに澁澤龍彦と戦った"
+      manga:
+        score: 92
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: fyodor
+    name: フョードル・ドストエフスキー
+    affiliation: 死の家の鼠・天人五衰
+    cv: 石田彰
+    editor:
+      anime:
+        score: 90
+        note: 異能「罪と罰」の詳細は明かされていない。策略で探偵社とポートマフィアを何度も追い詰めた。
+        evidence:
+          - "第3期: 組合の資産を奪い、探偵社とポートマフィアを争わせた"
+          - "共喰い編: 森鷗外にウイルス型の異能を仕込ませた"
+          - "天人五衰編: ムルソーで太宰治らを罠にかけた"
+      manga:
+        score: 92
+        note: アニメの後の原作で再び姿を現し、大規模な異能現象を起こした。
+        evidence:
+          - "原作（アニメ第5期より後）: ブラムに成り代わって現れ、「三極の特異点」を発動させた"
+  - id: dazai
+    name: 太宰治
+    affiliation: 武装探偵社
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 88
+        note: 触れた相手の異能を無効化する人間失格を持つ。戦闘より策で勝つ場面が多い。
+        evidence:
+          - "三社戦争編: 中原中也と組み、ラヴクラフトとスタインベックを退けた"
+          - "天人五衰編: ムルソーでフョードルと心理戦を続けた"
+      manga:
+        score: 88
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: fukuzawa
+    name: 福沢諭吉
+    affiliation: 武装探偵社 社長
+    cv: 小山力也
+    editor:
+      anime:
+        score: 87
+        note: 元は政府最強とされた剣士。福地との決闘で一太刀を浴びせた。
+        evidence:
+          - "共喰い編: 森鷗外と決闘したが、夏目漱石らの介入で決着しなかった"
+          - "天人五衰編: 福地桜痴との決闘で隙を突いて一太刀を浴びせ、《大指令》を奪った"
+      manga:
+        score: 87
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: bram
+    name: ブラム・ストーカー
+    affiliation: 天人五衰
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 86
+        note: 不死性を持つ吸血種の始祖。噛んだ相手を眷属にする。
+        evidence:
+          - "天人五衰編: 芥川龍之介を噛んで眷属にした"
+          - "回想: 8年前に福地桜痴に首を斬られた"
+      manga:
+        score: 86
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: mori
+    name: 森鷗外
+    affiliation: ポートマフィア 首領
+    cv: 宮本充
+    editor:
+      anime:
+        score: 84
+        note: ポートマフィアの首領で、少女の姿の異能を操る。福沢との決闘は決着がつかなかった。
+        evidence:
+          - "共喰い編: 福沢諭吉と決闘したが、夏目漱石らの介入で決着しなかった"
+      manga:
+        score: 84
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: natsume
+    name: 夏目漱石
+    affiliation: 三刻構想の発案者
+    cv: 大塚芳忠
+    editor:
+      anime:
+        score: 83
+        note: 福沢と鷗外の師にあたる人物。戦う場面はほとんど描かれていない。
+        evidence:
+          - "共喰い編: 決闘中の福沢と鷗外を叱咤して止めた"
+      manga:
+        score: 83
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: atsushi
+    name: 中島敦
+    affiliation: 武装探偵社
+    cv: 上村祐翔
+    editor:
+      anime:
+        score: 82
+        note: 白虎に変身する異能を持つ主人公。芥川との共闘で組合の団長を下した。
+        evidence:
+          - "三社戦争編: 芥川龍之介と組んでフィッツジェラルドに勝った"
+      manga:
+        score: 82
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: suehiro
+    name: 末広鐵腸
+    affiliation: 猟犬
+    cv: 阿座上洋平
+    editor:
+      anime:
+        score: 82
+        note: 純粋な戦闘では猟犬最強とされる剣士。国木田の手榴弾を受けても生き延びた。
+        evidence:
+          - "天人五衰編: 国木田独歩に盾にされて手榴弾の爆発を受けたが、生き延びた"
+      manga:
+        score: 82
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: akutagawa
+    name: 芥川龍之介
+    affiliation: ポートマフィア 遊撃隊
+    cv: 小野賢章
+    editor:
+      anime:
+        score: 81
+        note: 黒獣の異能を使う。三社戦争で組合の異能者を単独で倒したが、福地には斬られた。
+        evidence:
+          - "三社戦争編: ホーソーンとミッチェルを単独で倒した"
+          - "三社戦争編: 中島敦と組んでフィッツジェラルドに勝った"
+          - "天人五衰編: 福地桜痴に斬られて命を落とし、吸血種となった"
+      manga:
+        score: 81
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: lovecraft
+    name: ラヴクラフト
+    affiliation: 組合
+    cv: 武内駿輔
+    editor:
+      anime:
+        score: 80
+        note: 人外の力を持つ組合の構成員。双黒との戦いで肉片になったが復活した。
+        evidence:
+          - "三社戦争編: 太宰と中也の双黒と戦い、肉片になった後に復活した"
+      manga:
+        score: 80
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: gogol
+    name: ニコライ・ゴーゴリ
+    affiliation: 天人五衰
+    cv: 子安武人
+    editor:
+      anime:
+        score: 76
+        note: 外套の異能で離れた空間をつなぐ。脱獄レースの最中に吸血種に刺された。
+        evidence:
+          - "天人五衰編: 外套の異能を使って脱獄レースに加わったが、吸血種に刺された"
+      manga:
+        score: 76
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: teruko
+    name: 大倉燁子
+    affiliation: 猟犬 副長
+    cv: 小市眞琴
+    editor:
+      anime:
+        score: 74
+        note: 猟犬の副長。天空カジノでシグマとの戦いに勝った。
+        evidence:
+          - "天人五衰編: 天空カジノでシグマと戦い、勝った"
+      manga:
+        score: 74
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: fitzgerald
+    name: フランシス・F
+    affiliation: 組合 団長
+    cv: 櫻井孝宏
+    editor:
+      anime:
+        score: 74
+        note: 組合の団長。敦と芥川の連携に敗れて海に落ちた。
+        evidence:
+          - "三社戦争編: 中島敦と芥川龍之介に敗れ、海に落ちた"
+      manga:
+        score: 74
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: shibusawa
+    name: 澁澤龍彦
+    affiliation: 異能力者の収集家
+    cv: 中井和哉
+    editor:
+      anime:
+        score: 70
+        note: 霧で異能力者から異能を引きはがして操る。太宰・中也と交戦した。
+        evidence:
+          - "劇場版『DEAD APPLE』: 霧の異能で異能力者の異能を奪い、太宰・中也と交戦した"
+      manga:
+        score: 70
+        note: 原作の最新刊まででも評価は変わらない。
+  - id: kunikida
+    name: 国木田独歩
+    affiliation: 武装探偵社
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 58
+        note: 手帳に書いた物を具現化する。猟犬との戦いで両手を失い捕らえられた。
+        evidence:
+          - "天人五衰編: 末広鐵腸を盾にして爆発をしのいだが、両手を失って捕らえられた"
+      manga:
+        score: 58
+        note: 原作の最新刊まででも評価は変わらない。

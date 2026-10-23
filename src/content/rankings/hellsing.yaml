@@ -1,0 +1,165 @@
+work: HELLSING
+title: HELLSING 最強キャラランキング
+description: HELLSINGの最強キャラをOVA版を基準にティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ（OVA）・漫画勢
+    range: OVA『HELLSING OVA』全10巻・原作（単行本全10巻）とも完結まで。設定の異なるTVアニメ版（2001年、全13話）は含めない
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: alucard
+    name: アーカード
+    affiliation: ヘルシング機関
+    cv: 中田譲治
+    editor:
+      anime:
+        score: 99
+        note: 首を落とされても再生する吸血鬼。ロンドン決戦で拘束を解き、アンデルセンとウォルターを下した。
+        evidence:
+          - "ロンドン決戦: 茨の化物となったアンデルセンの心臓を握り潰した"
+          - "ロンドン決戦: 若返ったウォルターとの戦いに勝った"
+          - "ロンドン決戦: シュレディンガー准尉を取り込んで姿を消し、30年後に戻った"
+  - id: anderson
+    name: アレクサンド・アンデルセン
+    affiliation: ヴァチカン 第13課 イスカリオテ
+    cv: 若本規夫
+    editor:
+      anime:
+        score: 90
+        note: 再生能力を持つ神父。アーカードの首を落としたこともある。最後は聖遺物で茨の化物となり、敗れた。
+        evidence:
+          - "アーカードとの初戦: 銃剣でアーカードの首を落とした"
+          - "ロンドン決戦: エレナの聖釘で茨の化物となったが、アーカードに心臓を握り潰された"
+  - id: walter
+    name: ウォルター・C・ドルネーズ
+    affiliation: ヘルシング家 執事（後にミレニアム）
+    cv: 清川元夢
+    editor:
+      anime:
+        score: 89
+        note: 鋼線で戦う元ゴミ処理係。若返ってアーカードに挑んだが、決定打を失って敗れた。
+        evidence:
+          - "ロンドン決戦: 若返った姿でアーカードと戦ったが、事実上敗れた"
+  - id: captain
+    name: 大尉
+    affiliation: ミレニアム ヴェアヴォルフ
+    editor:
+      anime:
+        score: 88
+        note: 一言も発しない人狼。セラスとベルナドットの連携に敗れた。
+        evidence:
+          - "ロンドン決戦: セラスに銀の差し歯を心臓へ撃ち込まれて死亡した"
+  - id: seras
+    name: セラス・ヴィクトリア
+    affiliation: ヘルシング機関
+    cv: 折笠富美子
+    editor:
+      anime:
+        score: 86
+        note: ベルナドットの血で吸血鬼として目覚めた。ゾーリンと大尉を倒した。
+        evidence:
+          - "ロンドン決戦: 覚醒した力でゾーリン・ブリッツを倒した"
+          - "ロンドン決戦: ベルナドットと連携して大尉を倒した"
+  - id: rip
+    name: リップヴァーン・ウィンクル
+    affiliation: ミレニアム
+    cv: 坂本真綾
+    editor:
+      anime:
+        score: 75
+        note: 魔弾を自在に操る狙撃手。空母イーグルでアーカードに敗れた。
+        evidence:
+          - "空母イーグル: 乗り込んできたアーカードに自分のマスケット銃で心臓を貫かれた"
+  - id: zorin
+    name: ゾーリン・ブリッツ
+    affiliation: ミレニアム
+    cv: 沢海陽子
+    editor:
+      anime:
+        score: 74
+        note: 幻覚を見せる能力と大鎌で戦う。ヘルシング本部を襲撃したが、セラスに倒された。
+        evidence:
+          - "ロンドン決戦: 覚醒したセラスに倒された"
+  - id: tubalcain
+    name: トバルカイン・アルハンブラ
+    affiliation: ミレニアム
+    cv: 大塚芳忠
+    editor:
+      anime:
+        score: 72
+        note: トランプを武器にする吸血鬼。アーカードに敗れ、血を吸われた。
+        evidence:
+          - "ブラジル編: アーカードに敗れ、血を吸われた"
+  - id: heinkel
+    name: ハインケル・ウーフー
+    affiliation: ヴァチカン 第13課 イスカリオテ
+    cv: 斎賀みつき
+    editor:
+      anime:
+        score: 70
+        note: 二丁拳銃を使う第13課の神父。ロンドン決戦でアンデルセンと行動をともにした。
+        evidence:
+          - "ロンドン決戦: 第13課の一員としてアンデルセンとともに戦場に入った"
+  - id: yumie
+    name: 高木由美江
+    affiliation: ヴァチカン 第13課 イスカリオテ
+    cv: 甲斐田裕子
+    editor:
+      anime:
+        score: 70
+        note: 日本刀を使う第13課のシスター。ロンドン決戦でアンデルセンと行動をともにした。
+        evidence:
+          - "ロンドン決戦: 第13課の一員としてアンデルセンとともに戦場に入った"
+  - id: luke
+    name: ルーク・バレンタイン
+    affiliation: バレンタイン兄弟
+    cv: 子安武人
+    editor:
+      anime:
+        score: 66
+        note: 高速で動く吸血鬼。ヘルシング本部でアーカードに挑んだが、黒犬獣に喰い殺された。
+        evidence:
+          - "ヘルシング本部襲撃: アーカードに敗れ、黒犬獣に喰い殺された"
+  - id: integra
+    name: インテグラ・ヘルシング
+    affiliation: ヘルシング機関 局長
+    cv: 榊原良子
+    editor:
+      anime:
+        score: 62
+        note: 人間の当主。ロンドン決戦で少佐との一騎討ちに勝った。
+        evidence:
+          - "ロンドン決戦: 少佐との一騎討ちで眉間を撃ち抜いた"
+  - id: bernadotte
+    name: ピップ・ベルナドット
+    affiliation: ワイルドギース 隊長
+    cv: 平田広明
+    editor:
+      anime:
+        score: 56
+        note: 傭兵部隊を率いる人間。自らの血をセラスに与え、目覚めさせた。
+        evidence:
+          - "ロンドン決戦: 自分の血をセラスに与え、吸血鬼として覚醒させた"
+  - id: jan
+    name: ヤン・バレンタイン
+    affiliation: バレンタイン兄弟
+    cv: 高木渉
+    editor:
+      anime:
+        score: 52
+        note: グールの軍勢を率いてヘルシング本部を襲撃した吸血鬼。
+        evidence:
+          - "ヘルシング本部襲撃: グールの部隊を率いて本部の隊員を襲った"
+  - id: major
+    name: 少佐
+    affiliation: ミレニアム 指揮官
+    cv: 飛田展男
+    editor:
+      anime:
+        score: 48
+        note: 戦争を引き起こした指揮官で、自ら戦う力は低い。インテグラとの一騎討ちに敗れた。
+        evidence:
+          - "ロンドン決戦: インテグラとの一騎討ちで眉間を撃ち抜かれた"

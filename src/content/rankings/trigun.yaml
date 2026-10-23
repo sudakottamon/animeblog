@@ -1,0 +1,213 @@
+work: トライガン
+title: トライガン 最強キャラランキング
+description: トライガンの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『TRIGUN STAMPEDE』（全12話）・『TRIGUN STARGAZE』（全12話）の完結まで。設定の異なる1998年版TVアニメと劇場版は含めない
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（『トライガン』全3巻・『トライガン・マキシマム』全14巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: knives
+    name: ミリオンズ・ナイヴズ
+    affiliation: ヴァッシュの双子の兄弟（自立種プラント）
+    editor:
+      anime:
+        score: 98
+        note: 移民船団を墜落させた張本人。復活後に二度目の大墜落を起こそうとしたが、プラントたちに背かれた。
+        evidence:
+          - "STAMPEDE: ガンホーガンズのE・G・ハミルトンを手にかけた"
+          - "STARGAZE: 出過ぎた真似をしたレガートの首をはねた"
+          - "STARGAZE: 二度目の大墜落を狙ったが、プラントたちに背かれてヴァッシュとともに落下した"
+      manga:
+        score: 98
+        note: 最終決戦でプラントとの融合を断たれ、ヴァッシュに敗れた。
+        evidence:
+          - "原作の最終決戦: 人類の意思に応じたプラントに融合を断たれ、敗れた"
+  - id: vash
+    name: ヴァッシュ・ザ・スタンピード
+    affiliation: 賞金首（自立種プラント）
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 96
+        note: プラントの力でコアを宇宙へ撃ち出し、ジュライの街を壊滅させた。人を殺さずに戦うことにこだわる。
+        evidence:
+          - "STAMPEDE: コアを宇宙へ撃ち出し、その衝撃でジュライの街を壊滅させた"
+          - "STARGAZE: ナイヴズの信奉者レオノフを倒した"
+      manga:
+        score: 96
+        note: 最終決戦でナイヴズとの戦いに決着をつけた。
+        evidence:
+          - "原作の最終決戦: プラントとの融合を断たれたナイヴズを下した"
+  - id: legato
+    name: レガート・ブルーサマーズ
+    affiliation: ガンホーガンズ 統率者
+    cv: 内山昂輝
+    editor:
+      anime:
+        score: 88
+        note: 念動力で相手の体を操る。ウルフウッドを押さえつけたが、ナイヴズに首をはねられた。
+        evidence:
+          - "STAMPEDE: 砂上船を妨害し、ヴァッシュたちを追い詰めた"
+          - "STARGAZE: 第3船を襲い、念動力でウルフウッドを押さえつけた"
+      manga:
+        score: 87
+        note: 原作ではヴァッシュとの戦いに敗れ、自ら望んでヴァッシュに撃たれた。
+        evidence:
+          - "原作: コインケースに糸を断たれてヴァッシュに敗れた"
+          - "原作: リヴィオを人質に取ってヴァッシュに自分を撃たせ、死亡した"
+  - id: wolfwood
+    name: ニコラス・D・ウルフウッド
+    affiliation: 牧師・ナイヴズ側の刺客
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 85
+        note: 十字架型の重火器パニッシャーを使う。ラズロとの戦いで死にかけ、リヴィオに救われた。
+        evidence:
+          - "STAMPEDE: 孤児院時代の仲間リヴィオと戦った"
+          - "STARGAZE: 第3船の面々とともにミッドバレイを捕らえた"
+          - "STARGAZE: ラズロに追われて瀕死になった"
+      manga:
+        score: 85
+        note: 原作ではリヴィオとラズロとの死闘を制したが、その傷と再生薬の過剰投与で命を落とした。
+        evidence:
+          - "原作: 師のチャペルを撃って下半身不随にした"
+          - "原作: リヴィオとラズロを下した後、傷と再生薬の過剰投与で死亡した"
+  - id: livio
+    name: リヴィオ・ザ・ダブルファング
+    affiliation: ガンホーガンズ（もう一つの人格ラズロ）
+    cv: 室元気
+    editor:
+      anime:
+        score: 84
+        note: 別人格ラズロがウルフウッドを瀕死に追い込んだ。最後はリヴィオの人格が戻り、ウルフウッドを救った。
+        evidence:
+          - "STARGAZE: ラズロの人格でウルフウッドとヴァッシュを追い詰めた"
+          - "STARGAZE: リヴィオの人格が戻ってラズロを退け、輸血でウルフウッドを救った"
+      manga:
+        score: 84
+        note: 原作ではエレンディラに二度敗れた末に倒し、ウルフウッドとの戦いには敗れた。
+        evidence:
+          - "原作: エレンディラに二度敗れた後、彼女自身の釘で貫いて倒した"
+          - "原作: ウルフウッドとの戦いに敗れ、生き延びた"
+  - id: elendira
+    name: エレンディラ・ザ・クリムゾンネイル
+    affiliation: ガンホーガンズ
+    cv: 村瀬歩
+    editor:
+      anime:
+        score: 78
+        note: 人間とプラントの混成体。メリルたちを襲ったが、最後は戦いを続けられなくなった。
+        evidence:
+          - "STAMPEDE: メリルとロベルトを襲った"
+          - "STARGAZE: メリルを襲ったが心が折れ、メリルに慰められた"
+      manga:
+        score: 82
+        note: 原作ではリヴィオを二度退けたが、最後は自分の釘で貫かれて倒れた。
+        evidence:
+          - "原作: リヴィオを釘で串刺しにし、ラズロと合わせた再戦でも上回った"
+          - "原作: 最後はリヴィオに自分の釘で貫かれて死亡した"
+  - id: chapel
+    name: マスター・チャペル
+    affiliation: ミカエルの眼
+    cv: 中博史
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: ウルフウッドの師にあたる殺し屋。ウルフウッドに撃たれて体が不自由になり、最後はラズロに倒された。
+        evidence:
+          - "原作: ウルフウッドに撃たれ、下半身不随になった"
+          - "原作: 再びウルフウッドを狙ったが、ラズロのパニッシャーの掃射を受けて死亡した"
+  - id: grey
+    name: グレイ・ザ・ナインライヴズ
+    affiliation: ガンホーガンズ
+    cv: 藤沼建人
+    editor:
+      anime:
+        score: 74
+        note: ガンホーガンズの一員。ウルフウッドとリヴィオの2人を相手に戦った。
+        evidence:
+          - "STARGAZE: ウルフウッドとリヴィオを相手に戦った"
+      manga:
+        score: 72
+        note: 原作では9人の小人が動かす機械の鎧で戦い、鎧を壊されて敗れた。
+        evidence:
+          - "原作: 機械の鎧を壊され、生き残った2人が捕らえられた"
+  - id: midvalley
+    name: ミッドバレイ・ザ・ホーンフリーク
+    affiliation: ガンホーガンズ
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 74
+        note: サックスの音で攻撃する。ルイーダに音を打ち消されて捕らえられた。
+        evidence:
+          - "STARGAZE: ルイーダの音の打ち消しで攻撃を封じられ、ウルフウッドたちに捕らえられた"
+      manga:
+        score: 74
+        note: 原作ではガンホーガンズを裏切ろうとして、レガートに始末された。
+        evidence:
+          - "原作: 裏切りを企てたが、ホッパードの体を操ったレガートに殺された"
+  - id: hoppered
+    name: ホッパード・ザ・ガントレット
+    affiliation: 隠者
+    editor:
+      anime:
+        score: 72
+        note: 心を閉ざしたヴァッシュを世話していた男。ヴァッシュに撃たせる形で戦い、命を落とした。
+        evidence:
+          - "STARGAZE: ヴァッシュに引き金を引かせるよう仕向けて戦い、命を落とした"
+      manga:
+        score: 72
+        note: 原作では最後の戦いでガンホーガンズに背き、レガートに殺された。
+        evidence:
+          - "原作: ヴァッシュの記憶を見てガンホーガンズに背いたが、レガートに殺された"
+  - id: leonof
+    name: レオノフ
+    affiliation: ナイヴズの信奉者
+    editor:
+      anime:
+        score: 70
+        note: ナイヴズに従う人形使い。ヴァッシュに倒された後、第3船の仲間になった。
+        evidence:
+          - "STARGAZE: ヴァッシュに倒され、本名のエミリオで呼ばれた"
+      manga:
+        score: 70
+        note: 原作では浮遊船の残骸でヴァッシュと戦い、転落して死亡した。
+        evidence:
+          - "原作: 浮遊船の残骸でヴァッシュと戦い、操り糸にぶら下がったまま転落死した"
+  - id: luida
+    name: ルイーダ
+    affiliation: 第3船
+    cv: 折笠富美子
+    editor:
+      anime:
+        score: 64
+        note: 第3船の技術者。音の干渉を使ってミッドバレイの攻撃を打ち消した。
+        evidence:
+          - "STARGAZE: 音のフィードバックでミッドバレイの攻撃を打ち消した"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: hamilton
+    name: E・G・ハミルトン
+    affiliation: ガンホーガンズ
+    editor:
+      anime:
+        score: 58
+        note: 爆弾を使うガンホーガンズの一員。ナイヴズに始末された。
+        evidence:
+          - "STAMPEDE: ナイヴズに殺された"
+      manga:
+        score: 58
+        note: 原作ではE・G・マインの名で登場し、戦いに敗れた。
+        evidence:
+          - "原作: E・G・マインとして登場し、戦いに敗れた"
