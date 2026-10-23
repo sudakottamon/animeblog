@@ -6,7 +6,7 @@ updated: 2026-10-23
 bases:
   - id: anime
     label: アニメ勢
-    range: TVアニメ第1期・第2期・『actII』と『actII -Second Season-』の放送済み分まで（2026年10月時点）
+    range: TVアニメ第1期（全75話）・第2期（全51話）・『actII』（全52話）・『actII -Second Season-』第1クール（全13話）と第2クールの放送済み分まで（2026年10月時点）
   - id: manga
     label: 漫画・原作勢
     range: 原作完結（第1部 全47巻・『actII』全34巻）まで
@@ -43,7 +43,7 @@ candidates:
         score: 89
         note: 2年夏の西東京大会決勝で稲実に勝ち、甲子園出場を決めた。
         evidence:
-          - "2年夏 西東京大会決勝: 稲実に2-1で勝った"
+          - "2年夏 西東京大会決勝: 適時打を放ち、稲実に2-1で勝った"
   - id: yuki
     name: 結城哲也
     affiliation: 青道高校 主将
@@ -87,7 +87,7 @@ candidates:
         note: 2年夏に背番号1を背負い、青道の甲子園出場に貢献した。
         evidence:
           - "actII 2年夏 西東京大会: エースナンバーを背負った"
-          - "2年夏 西東京大会決勝: 稲実に2-1で勝った"
+          - "2年夏 西東京大会決勝: 7回から登板して無失点に抑え、稲実に2-1で勝った"
   - id: furuya
     name: 降谷暁
     affiliation: 青道高校 投手
@@ -108,9 +108,9 @@ candidates:
     editor:
       manga:
         score: 89
-        note: 選抜の準々決勝で青道を完封した。
+        note: 選抜の準々決勝で青道を1安打完封した。
         evidence:
-          - "選抜 準々決勝: 巨摩大藤巻のエースとして青道に2-0で勝った"
+          - "選抜 準々決勝: 巨摩大藤巻のエースとして青道を1安打に抑え、2-0で勝った"
   - id: sanada
     name: 真田俊平
     affiliation: 薬師高校 エース
