@@ -132,12 +132,12 @@
 - [x] `fate` Fate/stay night・Fate/Zero（サーヴァントとマスターを対象）
 
 ## バッチ 17
-- [ ] `toaru` とある魔術の禁書目録（超電磁砲・一方通行を含むシリーズ横断）
-- [ ] `mahouka` 魔法科高校の劣等生
-- [ ] `shakugan-no-shana` 灼眼のシャナ
-- [ ] `monogatari` 物語シリーズ
-- [ ] `sword-art-online` ソードアート・オンライン
-- [ ] `re-zero` Re:ゼロから始める異世界生活
+- [x] `toaru` とある魔術の禁書目録（超電磁砲・一方通行を含むシリーズ横断）
+- [x] `mahouka` 魔法科高校の劣等生
+- [x] `shakugan-no-shana` 灼眼のシャナ
+- [x] `monogatari` 物語シリーズ
+- [x] `sword-art-online` ソードアート・オンライン
+- [x] `re-zero` Re:ゼロから始める異世界生活
 
 ## バッチ 18
 - [ ] `konosuba` この素晴らしい世界に祝福を！

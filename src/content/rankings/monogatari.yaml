@@ -1,0 +1,188 @@
+work: 〈物語〉シリーズ
+title: 〈物語〉シリーズ 最強キャラランキング
+description: 〈物語〉シリーズの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『〈物語〉シリーズ オフ&モンスターシーズン』（2024年、死物語まで）と劇場版『傷物語』まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 小説の既刊最新作まで（ファミリーシーズンを含む、2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: shinobu
+    name: 忍野忍
+    affiliation: 元・キスショット・アセロラオリオン・ハートアンダーブレード
+    cv: 坂本真綾
+    editor:
+      anime:
+        score: 95
+        note: 怪異の王と呼ばれた吸血鬼。完全体に戻った姿で暦と戦い、普段の幼い姿でも斧乃木余接を退けた。
+        evidence:
+          - "傷物語〈III 冷血篇〉: 完全体に戻った後、暦と戦った"
+          - "偽物語: 斧乃木余接と戦い、勝った"
+      novel:
+        score: 95
+        note: 原作でも評価は変わらない。
+  - id: kagenui
+    name: 影縫余弦
+    affiliation: 不死身の怪異専門の陰陽師
+    cv: 白石涼子
+    editor:
+      anime:
+        score: 86
+        note: 不死身の怪異を専門に退治する陰陽師。月火を退治しに現れ、阻もうとした暦と戦った。
+        evidence:
+          - "偽物語 つきひフェニックス: 月火を退治しに現れ、暦と戦った"
+      novel:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: shishirui
+    name: 死屍累生死郎
+    affiliation: キスショットの最初の眷属 / 初代怪異殺し
+    editor:
+      anime:
+        score: 82
+        note: キスショットの最初の眷属。蘇って現れ、眷属の座を懸けて暦とエピソードを相手に決闘した。
+        evidence:
+          - "終物語 しのぶメイル: 眷属の座を懸けて暦・エピソードと決闘した"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: yotsugi
+    name: 斧乃木余接
+    affiliation: 影縫余弦の式神 / 憑喪神
+    cv: 早見沙織
+    editor:
+      anime:
+        score: 82
+        note: 「例外のほうが多い規則」で建物ごと吹き飛ばす。忍には敗れたが、手折正弦を倒した。
+        evidence:
+          - "偽物語 つきひフェニックス: 例外のほうが多い規則で阿良々木家の門と玄関を吹き飛ばした"
+          - "偽物語: 忍と戦い、敗れた"
+          - "憑物語: 手折正弦を倒した"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: nadeko
+    name: 千石撫子
+    affiliation: 暦の妹の友人 / 一時は蛇神
+    cv: 花澤香菜
+    editor:
+      anime:
+        score: 80
+        note: 北白蛇神社の神となり、暦と忍に襲いかかった。人のままでは戦う力はない。
+        evidence:
+          - "囮物語: 蛇神となり、暦と忍に襲いかかった"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: koyomi
+    name: 阿良々木暦
+    affiliation: 直江津高校 / 元吸血鬼
+    cv: 神谷浩史
+    editor:
+      anime:
+        score: 78
+        note: 吸血鬼だった春休みに三人のヴァンパイアハンターを倒した。その後は吸血鬼の名残の回復力で戦う。
+        evidence:
+          - "傷物語〈II 熱血篇〉: ドラマツルギー・エピソード・ギロチンカッターを順に倒した"
+          - "傷物語〈III 冷血篇〉: 完全体のキスショットと戦った"
+      novel:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: black-hanekawa
+    name: ブラック羽川
+    affiliation: 羽川翼に憑いた障り猫
+    cv: 堀江由衣
+    editor:
+      anime:
+        score: 76
+        note: 触れた相手の体力を吸い取る障り猫。夜の町で人を襲い、止めに来た暦も追い詰めた。
+        evidence:
+          - "猫物語（黒）: 暦と戦い、体力を吸い取って追い詰めた"
+      novel:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: dramaturgy
+    name: ドラマツルギー
+    affiliation: 吸血鬼ハンター
+    cv: 江原正士
+    editor:
+      anime:
+        score: 74
+        note: 吸血鬼でありながら吸血鬼を狩る大男。キスショットの手足を奪ったハンターの一人で、暦との勝負に敗れた。
+        evidence:
+          - "傷物語〈II 熱血篇〉: 暦と戦い、敗れた"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: episode
+    name: エピソード
+    affiliation: 吸血鬼ハンター
+    cv: 入野自由
+    editor:
+      anime:
+        score: 70
+        note: 巨大な十字架を投げる半吸血鬼。暦との戦いに敗れ、後には暦と組んで死屍累生死郎と決闘した。
+        evidence:
+          - "傷物語〈II 熱血篇〉: 暦と戦い、敗れた"
+          - "終物語 しのぶメイル: 暦とともに死屍累生死郎と決闘した"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: kanbaru
+    name: 神原駿河
+    affiliation: 直江津高校 バスケットボール部
+    cv: 沢城みゆき
+    editor:
+      anime:
+        score: 66
+        note: 猿の手に願ったレイニー・デヴィルの姿で暦を襲い、重傷を負わせた。
+        evidence:
+          - "化物語 するがモンキー: レイニー・デヴィルとして暦を襲い、重傷を負わせた"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: guillotinecutter
+    name: ギロチンカッター
+    affiliation: 吸血鬼ハンター / 聖職者
+    cv: 大塚芳忠
+    editor:
+      anime:
+        score: 62
+        note: 人間の聖職者。羽川を人質に取って暦を誘い出したが、敗れた。
+        evidence:
+          - "傷物語〈II 熱血篇〉: 羽川を人質に取ったが、暦に敗れた"
+      novel:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: teori
+    name: 手折正弦
+    affiliation: 人形使いの怪異専門家
+    cv: 子安武人
+    editor:
+      anime:
+        score: 60
+        note: 人形を操る専門家。斧乃木余接に倒された。
+        evidence:
+          - "憑物語: 斧乃木余接に倒された"
+      novel:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: karen
+    name: 阿良々木火憐
+    affiliation: ファイヤーシスターズ / 空手の使い手
+    cv: 喜多村英梨
+    editor:
+      anime:
+        score: 50
+        note: 空手を使う暦の妹。詐欺師の貝木泥舟に挑んだが、怪異の毒を受けて寝込んだ。
+        evidence:
+          - "偽物語 かれんビー: 貝木泥舟に挑み、囲い火蜂の毒を受けた"
+      novel:
+        score: 50
+        note: 原作でも評価は変わらない。

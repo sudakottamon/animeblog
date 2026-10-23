@@ -1,0 +1,229 @@
+work: とある魔術の禁書目録
+title: とある魔術の禁書目録 最強キャラランキング
+description: とある魔術の禁書目録（超電磁砲・一方通行を含むシリーズ全体）の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『禁書目録III』『超電磁砲T』『一方通行』まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 旧約・新約と『創約』の既刊16巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: aiwass
+    name: エイワス
+    affiliation: アレイスターに呼び出された存在
+    cv: 宮本充
+    editor:
+      anime:
+        score: 95
+        note: 一方通行の反射を力で押し切り、黒い翼にも耐えた。登場場面は短いが、一方通行を一方的に退けた。
+        evidence:
+          - "禁書目録III 終盤: 一方通行の反射を押し切り、黒い翼も受け止めて退けた"
+      novel:
+        score: 95
+        note: 原作でも評価は変わらない。
+  - id: accelerator
+    name: 一方通行
+    affiliation: 学園都市 第一位
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 94
+        note: ベクトル操作で攻撃を反射する第一位。上条には敗れたが、木原数多や第二位の垣根帝督を倒した。
+        evidence:
+          - "禁書目録 第1期 第14話「最強VS最弱」: 上条当麻に殴り倒された"
+          - "禁書目録II 第19話〜: 木原数多に追い詰められたが、黒い翼を出して倒した"
+          - "禁書目録III 学園都市暗部の抗争: 垣根帝督と戦い、勝った"
+      novel:
+        score: 94
+        note: 原作でも評価は変わらない。
+  - id: fiamma
+    name: 右方のフィアンマ
+    affiliation: ローマ正教「神の右席」
+    cv: 森川智之
+    editor:
+      anime:
+        score: 93
+        note: 「聖なる右」を持つ神の右席の筆頭。第三次世界大戦を動かし、ベツレヘムの星で上条に敗れた。
+        evidence:
+          - "禁書目録III 第21話〜「ベツレヘムの星」: 上条と戦い、敗れた"
+      novel:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: acqua
+    name: 後方のアックア
+    affiliation: ローマ正教「神の右席」 / 聖人
+    cv: 東地宏樹
+    editor:
+      anime:
+        score: 90
+        note: 聖人と神の右席の力を併せ持つ。上条を一度倒したが、聖人崩しを受けて敗れた。
+        evidence:
+          - "禁書目録III 第8話「聖人崩し」: 天草式の聖人崩しを受け、上条に敗れた"
+      novel:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: kamijou
+    name: 上条当麻
+    affiliation: とある高校の1年生
+    cv: 阿部敦
+    editor:
+      anime:
+        score: 88
+        note: 異能を打ち消す右手で第一位と神の右席を倒した。右手以外は普通の高校生で、能力者としての力はない。
+        evidence:
+          - "禁書目録 第1期 第14話「最強VS最弱」: 一方通行を殴り倒した"
+          - "禁書目録III 第8話「聖人崩し」: 後方のアックアを倒した"
+          - "禁書目録III 終盤: 右方のフィアンマを倒した"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: kakine
+    name: 垣根帝督
+    affiliation: 学園都市 第二位
+    cv: 松風雅也
+    editor:
+      anime:
+        score: 88
+        note: 未元物質で第四位の麦野を軽くあしらい、一方通行の反射も破った。一方通行には最後に敗れた。
+        evidence:
+          - "禁書目録III 学園都市暗部の抗争: 麦野沈利を退けた"
+          - "禁書目録III 学園都市暗部の抗争: 一方通行の反射を破ったが、敗れた"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: kanzaki
+    name: 神裂火織
+    affiliation: イギリス清教 必要悪の教会 / 聖人
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 86
+        note: 世界に二十人もいない聖人の一人。初登場時に上条を一方的に打ち倒した。
+        evidence:
+          - "禁書目録 第1期 序盤: 上条を一方的に打ち倒した"
+          - "禁書目録III 第8話「聖人崩し」: 天草式とともに後方のアックアと戦った"
+      novel:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: mikoto
+    name: 御坂美琴
+    affiliation: 学園都市 第三位 / 常盤台中学
+    cv: 佐藤利奈
+    editor:
+      anime:
+        score: 82
+        note: 電撃と超電磁砲を使う第三位。駆動鎧や研究施設を一人で相手にしたが、上条には一度も勝てていない。
+        evidence:
+          - "超電磁砲 第1期 終盤: テレスティーナの駆動鎧を超電磁砲で倒した"
+          - "超電磁砲S: 妹達の実験を止めるため研究施設を次々に壊した"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: mugino
+    name: 麦野沈利
+    affiliation: 学園都市 第四位 / アイテム
+    cv: 小清水亜美
+    editor:
+      anime:
+        score: 78
+        note: 原子崩しで何でも撃ち抜く第四位。垣根帝督に敗れ、浜面にも倒された。
+        evidence:
+          - "禁書目録III 学園都市暗部の抗争: 垣根帝督に敗れた"
+          - "禁書目録III 学園都市暗部の抗争: 浜面仕上に倒された"
+      novel:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: vento
+    name: 前方のヴェント
+    affiliation: ローマ正教「神の右席」
+    cv: 平松晶子
+    editor:
+      anime:
+        score: 76
+        note: 天罰術式で学園都市の人々を次々に倒した。上条に敗れた。
+        evidence:
+          - "禁書目録II 第22話「天罰術式」〜: 学園都市を襲い、上条に敗れた"
+      novel:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: index
+    name: インデックス
+    affiliation: イギリス清教 必要悪の教会
+    cv: 井口裕香
+    editor:
+      anime:
+        score: 72
+        note: 自分では戦わないが、自動書記の状態では上条を追い詰めた。普段は魔術の知識で支える。
+        evidence:
+          - "禁書目録 第1期 序盤: 自動書記で上条を追い詰めた"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: kihara-amata
+    name: 木原数多
+    affiliation: 学園都市の研究者 / 猟犬部隊
+    cv: 藤原啓治
+    editor:
+      anime:
+        score: 70
+        note: 反射の癖を知り尽くした格闘で一方通行を追い詰めた。黒い翼を出した一方通行に敗れた。
+        evidence:
+          - "禁書目録II 第19話「木原数多」: 一方通行を追い詰めた"
+          - "禁書目録II 0930事件: 黒い翼を出した一方通行に敗れた"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: stiyl
+    name: ステイル＝マグヌス
+    affiliation: イギリス清教 必要悪の教会
+    cv: 谷山紀章
+    editor:
+      anime:
+        score: 66
+        note: 炎の魔術師。魔女狩りの王で上条と戦い、敗れた。
+        evidence:
+          - "禁書目録 第1期 序盤: 魔女狩りの王で上条と戦い、敗れた"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: kuroko
+    name: 白井黒子
+    affiliation: 常盤台中学 / 風紀委員
+    cv: 新井里美
+    editor:
+      anime:
+        score: 62
+        note: 空間移動を使う風紀委員。能力者の犯罪者を取り押さえる場面が多い。
+        evidence:
+          - "超電磁砲 第1期: 風紀委員として空間移動で能力者を取り押さえた"
+      novel:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: hamazura
+    name: 浜面仕上
+    affiliation: アイテム
+    cv: 日野聡
+    editor:
+      anime:
+        score: 58
+        note: 能力を持たない不良。機転で第四位の麦野を倒した。
+        evidence:
+          - "禁書目録III 学園都市暗部の抗争: 麦野沈利を倒した"
+      novel:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: othinus
+    name: オティヌス
+    affiliation: グレムリン / 魔神
+    appears: novel
+    editor:
+      novel:
+        score: 98
+        note: 魔神として世界そのものを何度も作り変え、上条を追い詰めた。
+        evidence:
+          - "新約9巻: 魔神の力で世界を作り変え続け、上条を追い詰めた"

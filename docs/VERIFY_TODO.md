@@ -65,3 +65,4 @@
 | hajime-no-ippo | 伊達対リカルド再戦がNew Challengerに入るか、最新巻数 | 未確認 |
 | wind-breaker / crows | 勝敗の根拠がまとめサイト（ciatr・マンガペディア等）中心、巻数不明 | 要補強 |
 | fate | ジル・ド・レェのcv、ランスロットの倉庫街の場面（記憶ベース） | 未確認 |
+| toaru / mahouka / shakugan / monogatari / sao / re-zero（バッチ17） | 根拠の一部が検索で未確認と自己申告。SAO・物語は原作勢がアニメ勢と同内容。リゼロ4期が第六章を描き切ったか未確認 | 公開前確認推奨・要補強 |

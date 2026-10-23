@@ -1,0 +1,218 @@
+work: 魔法科高校の劣等生
+title: 魔法科高校の劣等生 最強キャラランキング
+description: 魔法科高校の劣等生の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第3期（古都内乱編）と劇場版「四葉継承編」まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 本編完結（全32巻）と続編「続・魔法科高校の劣等生 メイジアン・カンパニー」まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: tatsuya
+    name: 司波達也
+    affiliation: 第一高校 二科生 / 四葉家
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 98
+        note: 戦略級魔法で敵艦隊を消し、来訪者編ではスターズ総隊長に勝った。分解と再成で攻守とも崩れない。
+        evidence:
+          - "第1期 横浜騒乱編: マテリアル・バーストで大亜連合の艦隊を消し去った"
+          - "来訪者編: アンジー・シリウスとして挑んできたリーナと戦い、勝った"
+      novel:
+        score: 98
+        note: 新ソ連の戦略級魔法師ベゾブラゾフの暗殺を二度防ぎ、古式魔法師の藤林長正も倒した。
+        evidence:
+          - "原作: ベゾブラゾフによる二度の暗殺を退け、二度目はCADを切り離して防いだ"
+          - "原作: 藤林長正をアストラル・ディスパージョンで倒した"
+  - id: lina
+    name: アンジェリーナ・クドウ・シールズ
+    affiliation: USNA軍 スターズ総隊長
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 88
+        note: スターズ総隊長アンジー・シリウスとして来日した戦略級魔法師。達也と戦って敗れた。
+        evidence:
+          - "来訪者編: アンジー・シリウスとして達也と戦い、敗れた"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: miyuki
+    name: 司波深雪
+    affiliation: 第一高校 一科生 / 四葉家次期当主
+    cv: 早見沙織
+    editor:
+      anime:
+        score: 88
+        note: 広い範囲を一度に凍らせる冷却魔法の使い手。横浜騒乱では侵入した敵の指揮官を凍らせて捕らえた。
+        evidence:
+          - "第1期 横浜騒乱編: 奇門遁甲で潜り込んだ陳祥山を見破り、凍らせた"
+          - "第1期 九校戦編: ミラージ・バット本戦で優勝した"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: katsuto
+    name: 十文字克人
+    affiliation: 第一高校 部活連会頭 / 十文字家
+    cv: 諏訪部順一
+    editor:
+      anime:
+        score: 84
+        note: 多重障壁ファランクスの使い手。九校戦のモノリス・コード本戦で一高を勝たせた。
+        evidence:
+          - "第1期 九校戦編: モノリス・コード本戦で一高を優勝に導いた"
+          - "第1期 横浜騒乱編: 侵攻部隊と戦う義勇兵を率いた"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: masaki
+    name: 一条将輝
+    affiliation: 第三高校 / 一条家
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 82
+        note: 「爆裂」で横浜の侵攻部隊を倒した。九校戦では達也のチームに敗れた。
+        evidence:
+          - "第1期 九校戦編: 新人戦モノリス・コード決勝で達也のチームに敗れた"
+          - "第1期 横浜騒乱編: 爆裂で侵攻部隊の兵士を倒した"
+      novel:
+        score: 82
+        note: 巳焼島では海爆でスターズの上陸を妨げた。
+        evidence:
+          - "原作 巳焼島の戦い: 海爆でレグルスたちの上陸を妨げた"
+  - id: minoru
+    name: 九島光宣
+    affiliation: 九島家
+    cv: 戸谷菊之介
+    editor:
+      anime:
+        score: 74
+        note: 体が弱く寝込みがちな九島家の少年。古都内乱編で達也と組んで周公瑾を追った。
+        evidence:
+          - "第3期 古都内乱編: 達也と協力して周公瑾を追った"
+      novel:
+        score: 90
+        note: 祖父の九島烈を殺し、人体発火でスターズのスピカを焼いた。桜井水波を連れ去った。
+        evidence:
+          - "原作: 九島烈を殺した"
+          - "原作: 人体発火でスピカを焼き殺した"
+          - "原作: 桜井水波を連れ去った"
+  - id: mayumi
+    name: 七草真由美
+    affiliation: 第一高校 生徒会長 / 七草家
+    cv: 花澤香菜
+    editor:
+      anime:
+        score: 76
+        note: 遠隔精密射撃「魔弾の射手」の使い手。横浜騒乱では仲間と呂剛虎を倒した。
+        evidence:
+          - "第1期 横浜騒乱編: エリカ・レオ・摩利とともにドライ・ミーティアで呂剛虎を仕留めた"
+      novel:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: lu-ganghu
+    name: 呂剛虎
+    affiliation: 大亜連合軍 特殊工作員
+    cv: 藤原貴弘
+    editor:
+      anime:
+        score: 74
+        note: 「人喰い虎」と呼ばれる白兵戦の魔法師。摩利たちに続けて敗れ、横浜騒乱で仕留められた。
+        evidence:
+          - "第1期 横浜騒乱編: 病院で摩利と千葉修次に手傷を負わされた"
+          - "第1期 横浜騒乱編: エリカ・レオ・摩利・真由美に倒された"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: erika
+    name: 千葉エリカ
+    affiliation: 第一高校 / 千葉家
+    cv: 内山夕実
+    editor:
+      anime:
+        score: 74
+        note: 千葉家の剣術を使う。横浜騒乱では仲間と組んで呂剛虎を倒した。
+        evidence:
+          - "第1期 横浜騒乱編: 摩利・レオ・真由美と組んで呂剛虎を倒した"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: mari
+    name: 渡辺摩利
+    affiliation: 第一高校 風紀委員長
+    cv: 井上麻里奈
+    editor:
+      anime:
+        score: 72
+        note: 千葉修次の助けを借りて呂剛虎に手傷を負わせた。横浜騒乱でも呂剛虎を倒す側に加わった。
+        evidence:
+          - "第1期 横浜騒乱編: 病院で千葉修次と組んで呂剛虎に手傷を負わせた"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: leo
+    name: 西城レオンハルト
+    affiliation: 第一高校 二科生
+    cv: 寺島拓篤
+    editor:
+      anime:
+        score: 70
+        note: 硬化魔法と頑丈な体で前に出る。横浜騒乱では呂剛虎を倒す側に加わった。
+        evidence:
+          - "第1期 横浜騒乱編: エリカ・摩利・真由美と組んで呂剛虎を倒した"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: retsu
+    name: 九島烈
+    affiliation: 九島家 元当主
+    editor:
+      anime:
+        score: 68
+        note: 「トリックスター」と呼ばれる老魔法師。幻術を見せた場面はあるが、本格的な戦闘は描かれていない。
+        evidence:
+          - "第1期 九校戦編: 懇親会で会場全体に幻術をかけ、気づいた者を試した"
+      novel:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: zhou
+    name: 周公瑾
+    affiliation: 大陸系の古式魔法師
+    cv: 遊佐浩二
+    editor:
+      anime:
+        score: 66
+        note: 奇門遁甲で追っ手をかわす古式魔法師。正面からの戦闘は少なく、古都内乱編で達也たちに追い詰められた。
+        evidence:
+          - "第3期 古都内乱編: 京都で達也たちの追跡をかわし続けたが、最後は追い詰められた"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: bezobrazov
+    name: イーゴリ・アンドレイビッチ・ベゾブラゾフ
+    affiliation: 新ソビエト連邦 戦略級魔法師
+    appears: novel
+    editor:
+      novel:
+        score: 86
+        note: 戦略級魔法トゥマーン・ボンバの使い手。達也の暗殺を二度試み、どちらも防がれた。
+        evidence:
+          - "原作: トゥマーン・ボンバでウィリアム・シリウスを殺した"
+          - "原作: 達也を二度狙ったが、どちらも退けられた"
+  - id: shibata
+    name: 新発田勝成
+    affiliation: 四葉家 分家
+    appears: novel
+    editor:
+      novel:
+        score: 78
+        note: 密度操作の魔法で巳焼島の防衛に加わり、スターズの隊員二人を倒した。
+        evidence:
+          - "原作 巳焼島の戦い: 密度操作と岩の攻撃でオルランドとアルニラムを倒した"
