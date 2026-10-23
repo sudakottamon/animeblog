@@ -33,7 +33,7 @@ candidates:
         evidence:
           - "Season 1 第5話: 日本ダービーでエルコンドルパサーと同着で勝った"
           - "Season 1 第10話: 天皇賞（秋）でセイウンスカイらに勝った"
-          - "Season 1 第13話: ジャパンカップでブロワイエを破った"
+          - "Season 1 第12話: ジャパンカップでブロワイエを抑えて勝った"
   - id: tokai-teio
     name: トウカイテイオー
     affiliation: チームスピカ
@@ -117,25 +117,24 @@ candidates:
   - id: broye
     name: ブロワイエ
     affiliation: フランスのウマ娘
-    cv: 池澤春菜
     editor:
       anime:
         score: 85
         note: 凱旋門賞でエルコンドルパサーを破った欧州の強豪。来日したジャパンカップではスペシャルウィークに敗れた。
         evidence:
           - "Season 1 第9話: 凱旋門賞でエルコンドルパサーに勝った"
-          - "Season 1 第13話: ジャパンカップでスペシャルウィークに敗れた"
+          - "Season 1 第12話: ジャパンカップでスペシャルウィークに敗れた"
   - id: grass-wonder
     name: グラスワンダー
     affiliation: チームリギル
     cv: 前田玲奈
     editor:
       anime:
-        score: 85
-        note: 宝塚記念でスペシャルウィークを破った。毎日王冠ではサイレンススズカに敗れた。
+        score: 82
+        note: チームリギルの実力者。毎日王冠でサイレンススズカに敗れ、宝塚記念では不調のスペシャルウィークと対戦した。
         evidence:
           - "Season 1 第6話: 毎日王冠でサイレンススズカに敗れた"
-          - "Season 1 第9話: 宝塚記念でスペシャルウィークに勝った"
+          - "Season 1 第8話: 宝塚記念で、不調だったスペシャルウィークと対戦した"
   - id: seiun-sky
     name: セイウンスカイ
     affiliation: トレセン学園
@@ -166,10 +165,10 @@ candidates:
     editor:
       anime:
         score: 80
-        note: 宝塚記念でキタサンブラックに勝った。天皇賞（秋）と有馬記念ではキタサンブラックに敗れた。
+        note: 宝塚記念でキタサンブラックに勝った。天皇賞（秋）ではキタサンブラックに僅差で敗れた。
         evidence:
           - "Season 3 第10話: 宝塚記念でキタサンブラックらに勝った"
-          - "Season 3 第11話: 天皇賞（秋）でキタサンブラックに敗れた"
+          - "Season 3 第11話: 天皇賞（秋）でキタサンブラックに僅差で敗れた"
   - id: cheval-grand
     name: シュヴァルグラン
     affiliation: トレセン学園

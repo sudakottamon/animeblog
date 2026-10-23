@@ -87,7 +87,7 @@ candidates:
         score: 90
         note: 春高で準々決勝を勝ち上がった。卒業後はMSBYブラックジャッカルでプレーした。
         evidence:
-          - "春高準々決勝: 狢坂に接戦で勝った"
+          - "春高準々決勝: 狢坂に勝った"
           - "原作最終盤: MSBYブラックジャッカルでプレーした"
   - id: aran
     name: 尾白アラン
@@ -152,9 +152,9 @@ candidates:
     editor:
       anime:
         score: 84
-        note: 音駒の主将でミドルブロッカー。春高3回戦で烏野にフルセットで敗れた。
+        note: 音駒の主将でミドルブロッカー。春高3回戦で烏野に0-2で敗れた。
         evidence:
-          - "劇場版『ゴミ捨て場の決戦』: 烏野にフルセットで敗れた"
+          - "劇場版『ゴミ捨て場の決戦』: 春高3回戦で烏野に2セット続けて取られ、敗れた"
       manga:
         score: 84
         note: 原作でも評価は変わらない。
@@ -277,7 +277,6 @@ candidates:
   - id: sakusa
     name: 佐久早聖臣
     affiliation: 井闥山学院
-    cv: 鳥海浩輔
     appears: manga
     editor:
       manga:
@@ -285,7 +284,7 @@ candidates:
         note: 全国トップ3のエースの一人。春高の東京予選を制したが、本戦の準々決勝で敗れた。
         evidence:
           - "春高東京予選決勝: 梟谷に勝った"
-          - "春高準々決勝: 犬伏東に逆転負けした"
+          - "春高準々決勝: 犬伏東に敗れた"
   - id: kiryu
     name: 桐生八
     affiliation: 狢坂 主将
@@ -293,13 +292,12 @@ candidates:
     editor:
       manga:
         score: 87
-        note: 全国三大エースの一人に数えられるパワースパイカー。春高準々決勝で梟谷に接戦で敗れた。
+        note: 全国三大エースの一人に数えられるパワースパイカー。春高準々決勝で梟谷に敗れた。
         evidence:
-          - "春高準々決勝: 梟谷に接戦で敗れた"
+          - "春高準々決勝: 梟谷に敗れた"
   - id: hirugami
     name: 昼神幸郎
     affiliation: 鴎台
-    cv: 宮崎遊
     appears: manga
     editor:
       manga:
