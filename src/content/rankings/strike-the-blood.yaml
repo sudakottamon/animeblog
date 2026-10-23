@@ -1,0 +1,170 @@
+work: ストライク・ザ・ブラッド
+title: ストライク・ザ・ブラッド 最強キャラランキング
+description: ストライク・ザ・ブラッドの最強キャラをティア表で決めます。アニメ・原作とも完結までの描写で判定します。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・原作勢
+    range: TVアニメとOVA『FINAL』（原作本編 全22巻の完結まで）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kojou
+    name: 暁古城
+    affiliation: 第四真祖 / 彩海学園
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 96
+        note: 十二体の眷獣を従える第四真祖。旧き世代のヴァトラーにも、最終決戦のシャフリヤル・レンにも勝った。
+        evidence:
+          - "原作第1巻: 雪菜の血を吸って眷獣を目覚めさせ、オイスタッハを退けた"
+          - "原作第15巻: ヴァトラーとの戦いに勝った"
+          - "原作第22巻: シャフリヤル・レンに心臓を貫かれて一度消滅したが、復活して勝った"
+  - id: first-progenitor
+    name: キイ・ジュランバラーダ
+    affiliation: 第一真祖 / 戦王領域
+    cv: 子安武人
+    editor:
+      anime:
+        score: 92
+        note: 72体の眷獣を従える戦王領域の真祖。作中で敗れた描写はない。
+        evidence:
+          - "原作: 眷獣の幻月狼で死都ラレン城を破壊した"
+  - id: avrora
+    name: アヴローラ・フロレスティーナ
+    affiliation: 先代の第四真祖
+    cv: 石原夏織
+    editor:
+      anime:
+        score: 90
+        note: 先代の第四真祖。完全体となった古城と並び、吸血王を倒した。
+        evidence:
+          - "原作第20巻: 完全体となった古城と共に吸血王を倒した"
+  - id: vattler
+    name: ディミトリエ・ヴァトラー
+    affiliation: 戦王領域 アルデアル公
+    cv: 小野友樹
+    editor:
+      anime:
+        score: 89
+        note: 蛇の眷獣9体を操る旧き世代の吸血鬼。脱獄囚を次々に倒したが、古城との戦いに敗れた。
+        evidence:
+          - "原作: 監獄結界の脱獄囚を次々に倒した"
+          - "原作第15巻: 古城との戦いに敗れた"
+  - id: shahriyar
+    name: シャフリヤル・レン
+    affiliation: MAR 総帥
+    cv: 前野智昭
+    editor:
+      anime:
+        score: 88
+        note: 眷獣弾頭で世界を狙ったMARの総帥。古城を一度消滅させたが、最後は敗れた。
+        evidence:
+          - "原作第22巻: 古城の心臓を貫いて一度消滅させた"
+          - "原作第22巻: 復活した古城に敗れ、聖域条約機構に引き渡された"
+  - id: jada
+    name: ジャーダ・ククルカン
+    affiliation: 第三真祖 / 混沌界域
+    cv: 川澄綾子
+    editor:
+      anime:
+        score: 87
+        note: 27体の眷獣を操る混沌界域の真祖。古城との直接の決着は付いていない。
+        evidence:
+          - "原作第10巻: アンジェリカを退けた"
+  - id: natsuki
+    name: 南宮那月
+    affiliation: 彩海学園 教師 / 監獄結界の番人
+    cv: 金元寿子
+    editor:
+      anime:
+        score: 84
+        note: 空間制御魔術を使う監獄結界の番人。一度は阿夜に時間と記憶を奪われたが、封じ直した。
+        evidence:
+          - "原作第5巻: 仙都木阿夜に時間と記憶を奪われ、幼い姿になった"
+          - "原作: 脱獄した仙都木阿夜を封じ直した"
+  - id: yukina
+    name: 姫柊雪菜
+    affiliation: 獅子王機関 剣巫
+    cv: 種田梨沙
+    editor:
+      anime:
+        score: 82
+        note: 魔力を無効化する雪霞狼と八雷神法を使う剣巫。強敵の切り札を封じる役回りが多い。
+        evidence:
+          - "原作第5巻: 雪霞狼で仙都木阿夜を無力化した"
+          - "原作: 冥餓狼の弱点を見抜いて絃神冥駕に勝った"
+  - id: aya
+    name: 仙都木阿夜
+    affiliation: LCO 書記の魔女
+    cv: 高橋美佳子
+    editor:
+      anime:
+        score: 80
+        note: LCOを率いる書記の魔女。那月の時間と記憶を奪って脱獄したが、雪菜に無力化された。
+        evidence:
+          - "原作第5巻: 那月の時間と記憶を奪い、監獄結界から脱獄した"
+          - "原作第5巻: 雪菜の雪霞狼で無力化され、再び収監された"
+  - id: meiga
+    name: 絃神冥駕
+    affiliation: 絃神千羅の孫
+    cv: 花江夏樹
+    editor:
+      anime:
+        score: 80
+        note: 冥餓狼の使い手。雪菜に弱点を見抜かれて敗れた。
+        evidence:
+          - "原作: 雪菜に冥餓狼の弱点を見抜かれ、敗れた"
+  - id: sayaka
+    name: 煌坂紗矢華
+    affiliation: 獅子王機関 舞威媛
+    cv: 葉山いくみ
+    editor:
+      anime:
+        score: 78
+        note: 煌華麟の空間断裂と呪術の矢を使う舞威媛。対人戦で何度も勝っている。
+        evidence:
+          - "原作: メイヤー姉妹やシュトラを退けた"
+          - "原作第9巻: 結瞳を救出した"
+  - id: la-folia
+    name: ラ・フォリア・リハヴァイン
+    affiliation: アルディギア王国 王女
+    cv: 大西沙織
+    editor:
+      anime:
+        score: 76
+        note: 疑似聖剣と呪式銃を使う王女。前線にも立つ。
+        evidence:
+          - "原作: 疑似聖剣と呪式銃でロウとベアトリスを退けた"
+  - id: astarte
+    name: アスタルテ
+    affiliation: 人工生命体
+    cv: 井口裕香
+    editor:
+      anime:
+        score: 68
+        note: 眷獣・薔薇の指先を宿した人工生命体。
+        evidence:
+          - "原作第1巻: オイスタッハの下で古城たちと戦った"
+          - "原作: ロギを倒した"
+  - id: oisstach
+    name: ルードルフ・オイスタッハ
+    affiliation: ロタリンギアの殲教師
+    cv: 三宅健太
+    editor:
+      anime:
+        score: 66
+        note: 聖遺物の奪還を狙った殲教師。古城と雪菜に阻まれた。
+        evidence:
+          - "原作第1巻: 古城と雪菜に阻まれ、ロタリンギアへ送還された"
+  - id: gardos
+    name: クリストフ・ガルドシュ
+    affiliation: 黒死皇派 幹部
+    editor:
+      anime:
+        score: 64
+        note: ナラクヴェーラ事件の首謀者。雪菜に片腕を斬られ、古城に倒された。
+        evidence:
+          - "原作第2巻: 雪菜に片腕を斬られ、古城に倒された"

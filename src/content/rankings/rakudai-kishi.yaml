@@ -1,0 +1,155 @@
+work: 落第騎士の英雄譚
+title: 落第騎士の英雄譚 最強キャラランキング
+description: 落第騎士の英雄譚の最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（2015年、全12話）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 原作完結（全19巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: ikki
+    name: 黒鉄一輝
+    affiliation: 破軍学園 / 落第騎士
+    cv: 逢坂良太
+    editor:
+      anime:
+        score: 90
+        note: 魔力は最低ランクだが、剣技と一刀修羅で格上を倒し続けた。選抜戦では生徒会長の刀華にも勝った。
+        evidence:
+          - "序盤: ステラとの模擬戦に勝った"
+          - "選抜戦: 姿を消す桐原静矢を破った"
+          - "選抜戦: 東堂刀華との試合に勝った"
+      novel:
+        score: 96
+        note: 七星剣武祭の決勝でステラと戦い、魔人に覚醒した。エーデルワイスとの戦いを経て比翼の剣技も身につけた。
+        evidence:
+          - "原作 七星剣武祭: 決勝でステラと戦い、魔人に覚醒した"
+          - "原作: エーデルワイスとの戦いで比翼の剣技を身につけた"
+  - id: stella
+    name: ステラ・ヴァーミリオン
+    affiliation: 破軍学園 / ヴァーミリオン皇国 第二皇女
+    cv: 石上静香
+    editor:
+      anime:
+        score: 85
+        note: Aランクの魔力を持つ皇女。一輝との模擬戦に敗れたが、選抜戦を勝ち進んで代表になった。
+        evidence:
+          - "序盤: 一輝との模擬戦に敗れた"
+          - "選抜戦: 勝ち進み、七星剣武祭の代表に選ばれた"
+      novel:
+        score: 93
+        note: 七星剣武祭で決勝まで勝ち上がり、一輝と戦った。
+        evidence:
+          - "原作 七星剣武祭: 決勝まで勝ち上がり、一輝と戦った"
+  - id: touka
+    name: 東堂刀華
+    affiliation: 破軍学園 生徒会長
+    cv: 金元寿子
+    editor:
+      anime:
+        score: 83
+        note: 雷切の異名を持つ生徒会長。選抜戦で珠雫を破ったが、一輝に敗れた。
+        evidence:
+          - "第10話: 選抜戦で珠雫に勝った"
+          - "選抜戦: 一輝との試合に敗れた"
+      novel:
+        score: 85
+        note: 大炎編では播磨天童に一度心を折られたが、諸星と共に倒した。
+        evidence:
+          - "原作 大炎編: 諸星と共に播磨天童と戦い、最後の一撃を入れた"
+  - id: shizuku
+    name: 黒鉄珠雫
+    affiliation: 破軍学園 / 一輝の妹
+    cv: 東山奈央
+    editor:
+      anime:
+        score: 76
+        note: 水を操る一輝の妹。選抜戦で刀華に敗れた。
+        evidence:
+          - "第10話: 選抜戦で刀華と戦い、敗れた"
+      novel:
+        score: 80
+        note: 原作では殺された一輝を自身の力で蘇らせた。
+        evidence:
+          - "原作第15巻: オル＝ゴールに殺された一輝を自身の力で蘇らせた"
+  - id: ayase
+    name: 綾辻絢瀬
+    affiliation: 破軍学園
+    cv: 小林ゆう
+    editor:
+      anime:
+        score: 64
+        note: 綾辻一刀流を継ぐ剣士。選抜戦で一輝に敗れた。
+        evidence:
+          - "選抜戦: 一輝との試合に敗れた"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: kirihara
+    name: 桐原静矢
+    affiliation: 破軍学園
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 56
+        note: 姿を消す伐刀絶技で一方的に射る戦い方をする。選抜戦で一輝に敗れた。
+        evidence:
+          - "選抜戦: 姿を消して矢を射る戦法で戦ったが、一輝に敗れた"
+      novel:
+        score: 56
+        note: 原作でも評価は変わらない。
+  - id: edelweiss
+    name: エーデルワイス
+    affiliation: 比翼
+    appears: novel
+    editor:
+      novel:
+        score: 98
+        note: 比翼の異名を持つ剣士。一輝を正面から倒した唯一の相手。
+        evidence:
+          - "原作: 一輝を正面から倒し、一輝はこの戦いで比翼の剣技を身につけた"
+  - id: nene
+    name: 西京寧音
+    affiliation: 夜叉姫
+    appears: novel
+    editor:
+      novel:
+        score: 92
+        note: 国家間戦争の代表戦に出て、ナジームを宇宙の裏側へ追放して勝った。
+        evidence:
+          - "原作 国家間戦争: ナジームを宇宙の裏側へ追放して勝った"
+  - id: orr-gol
+    name: オル＝ゴール
+    appears: novel
+    editor:
+      novel:
+        score: 87
+        note: 国家間戦争で一輝を一度殺した。
+        evidence:
+          - "原作第15巻: 一輝を殺した"
+  - id: tendo
+    name: 播磨天童
+    appears: novel
+    editor:
+      novel:
+        score: 86
+        note: 大炎編の敵。刀華の心を折るほどの強さを見せたが、諸星と刀華に倒された。
+        evidence:
+          - "原作第17巻: 大勢の命が人質に取られた戦いで、刀華の心を折った"
+          - "原作 大炎編: 諸星の無双一烈で魂を砕かれ、刀華に斬られた"
+  - id: moroboshi
+    name: 諸星雄大
+    affiliation: 武曲学園
+    appears: novel
+    editor:
+      novel:
+        score: 85
+        note: 武曲学園の騎士。大炎編で無双一烈を放ち、播磨天童の魂を砕いた。
+        evidence:
+          - "原作 大炎編: 無双一烈で播磨天童の魂を砕いた"

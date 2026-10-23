@@ -1,0 +1,247 @@
+work: ハイスクールD×D
+title: ハイスクールD×D 最強キャラランキング
+description: ハイスクールD×Dの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第4期『ハイスクールD×D HERO』（原作第9〜10巻の内容）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 本編完結（全25巻）と続編『真ハイスクールD×D』の既刊分まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: issei
+    name: 兵藤一誠
+    affiliation: グレモリー眷属 兵士 / 赤龍帝
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 90
+        note: 赤龍帝の籠手を宿す転生悪魔。ライザー、シャルバを倒し、HEROではサイラオーグとの殴り合いに勝った。
+        evidence:
+          - "第1期: 禁手の鎧を10秒間まとい、ライザーとの決闘に勝った"
+          - "BorN: 覇龍を暴走させてシャルバを倒した"
+          - "HERO: レーティングゲームの最後にサイラオーグとの殴り合いに勝った"
+      novel:
+        score: 96
+        note: 肉体を失った後に新たな体を得て、さらに龍神化に至った。
+        evidence:
+          - "原作: サマエルの毒で肉体を失い、グレートレッドとオーフィスの力で新たな体を得た"
+          - "原作 第21巻: 龍神化の力を使い、その反動で戦えなくなった"
+  - id: vali
+    name: ヴァーリ・ルシファー
+    affiliation: 白龍皇 / ヴァーリチーム
+    cv: 逢坂良太
+    editor:
+      anime:
+        score: 90
+        note: 白龍皇の光翼を宿す。駒王学園の戦いではコカビエルを一方的に倒し、三大勢力の会談では一誠と戦った。
+        evidence:
+          - "NEW: 白龍皇の禁手でコカビエルを一方的に倒し、連れ去った"
+          - "NEW: 三大勢力の会談で裏切り、一誠と戦った"
+          - "BorN: グレモリー眷属と組んでロキと戦った"
+      novel:
+        score: 95
+        note: 原作では白龍皇としてさらに覚醒を果たした。
+        evidence:
+          - "原作 第21巻: 白龍皇として新たな覚醒を果たした"
+  - id: cao-cao
+    name: 曹操
+    affiliation: 禍の団 英雄派 首領
+    editor:
+      anime:
+        score: 88
+        note: 神滅具の黄昏の聖槍を持つ英雄派の首領。京都でグレモリー眷属と渡り合った。
+        evidence:
+          - "HERO 京都編: 黄昏の聖槍を手にグレモリー眷属と戦った"
+      novel:
+        score: 90
+        note: 原作では聖槍の禁手を見せた。
+        evidence:
+          - "原作: 禁手『極夜なる天輪聖王の輝廻槍』を発動した"
+  - id: sairaorg
+    name: サイラオーグ・バアル
+    affiliation: バアル家 次期当主
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 87
+        note: 魔力をほとんど持たず、鍛えた肉体だけで若手悪魔の頂点に立った。一誠との殴り合いに敗れた。
+        evidence:
+          - "HERO: レーティングゲームの最後に一誠と殴り合い、敗れた"
+      novel:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: loki
+    name: ロキ
+    affiliation: 北欧の悪神
+    cv: 近藤孝行
+    editor:
+      anime:
+        score: 85
+        note: フェンリルを従える北欧の神。グレモリー眷属とヴァーリたちが組んで、ようやく退けた。
+        evidence:
+          - "BorN: グレモリー眷属とヴァーリたちの連合と戦い、敗れた"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: azazel
+    name: アザゼル
+    affiliation: 堕天使の総督
+    cv: 小山力也
+    editor:
+      anime:
+        score: 84
+        note: 堕天使の総督。会談を襲ったカテレアを人工神器で倒したが、左腕を失った。
+        evidence:
+          - "NEW: 人工神器の禁手でカテレア・レヴィアタンを倒し、引き換えに左腕を失った"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: kiba
+    name: 木場祐斗
+    affiliation: グレモリー眷属 騎士
+    cv: 野島健児
+    editor:
+      anime:
+        score: 80
+        note: 聖魔剣を作る騎士。聖剣計画の因縁に決着をつける戦いで禁手に至った。
+        evidence:
+          - "NEW: 禁手に至り、融合したエクスカリバーを持つフリードを倒した"
+      novel:
+        score: 84
+        note: 原作では英雄派の魔剣使いジークフリートを倒した。
+        evidence:
+          - "原作: ジークフリートを倒し、その魔剣を手にした"
+  - id: kokabiel
+    name: コカビエル
+    affiliation: 堕天使の幹部
+    cv: 安元洋貴
+    editor:
+      anime:
+        score: 79
+        note: 戦争の再開を狙った堕天使の幹部。グレモリー眷属を押し込んだが、白龍皇に一方的に倒された。
+        evidence:
+          - "NEW: 駒王学園でグレモリー眷属を相手に優位に戦った"
+          - "NEW: 現れた白龍皇に一方的に倒された"
+      novel:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: rias
+    name: リアス・グレモリー
+    affiliation: グレモリー家次期当主 / 王
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 77
+        note: 滅びの魔力を使う上級悪魔で、グレモリー眷属の王。ライザーとのレーティングゲームでは投了して敗れた。
+        evidence:
+          - "第1期: ライザーとのレーティングゲームで投了し、敗れた"
+          - "NEW: 駒王学園でコカビエルと戦った"
+      novel:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: xenovia
+    name: ゼノヴィア
+    affiliation: グレモリー眷属 騎士
+    cv: 種田梨沙
+    editor:
+      anime:
+        score: 75
+        note: 聖剣デュランダルの使い手。破壊力は眷属の中でも上位。
+        evidence:
+          - "NEW: 聖剣デュランダルを抜き、駒王学園の戦いに加わった"
+      novel:
+        score: 75
+        note: 原作でも評価は変わらない。
+  - id: akeno
+    name: 姫島朱乃
+    affiliation: グレモリー眷属 女王
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 74
+        note: 雷の魔力を使うグレモリー眷属の女王。ライザー眷属の女王との対決では回復を使われて敗れた。
+        evidence:
+          - "第1期: ライザーの女王ユーベルーナと戦い、フェニックスの涙を使われて敗れた"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: shalba
+    name: シャルバ・ベルゼブブ
+    affiliation: 禍の団 旧魔王派
+    editor:
+      anime:
+        score: 72
+        note: 旧魔王派の首領格。アーシアを次元の狭間に飛ばしたが、覇龍で暴走した一誠に倒された。
+        evidence:
+          - "BorN: アーシアを次元の狭間に飛ばし、覇龍で暴走した一誠に倒された"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: raiser
+    name: ライザー・フェニックス
+    affiliation: フェニックス家の三男
+    cv: 子安武人
+    editor:
+      anime:
+        score: 70
+        note: 不死身の再生力を持つ上級悪魔。レーティングゲームではリアスに勝ったが、一誠との決闘に敗れた。
+        evidence:
+          - "第1期: リアスとのレーティングゲームに勝った"
+          - "第1期: 禁手の一誠に聖水と十字架で弱らされ、敗れた"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: koneko
+    name: 塔城小猫
+    affiliation: グレモリー眷属 戦車
+    cv: 竹達彩奈
+    editor:
+      anime:
+        score: 66
+        note: 怪力と頑丈さを持つ戦車。眷属の中では前衛として戦うことが多い。
+        evidence:
+          - "第1期: レーティングゲームで怪力を生かしてライザーの眷属と戦った"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: freed
+    name: フリード・セルゼン
+    affiliation: はぐれ悪魔祓い
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 58
+        note: はぐれ悪魔祓い。融合したエクスカリバーを振るったが、禁手に至った木場に敗れた。
+        evidence:
+          - "NEW: 融合したエクスカリバーで戦い、禁手に至った木場に敗れた"
+      novel:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: raynare
+    name: レイナーレ
+    affiliation: 堕天使
+    cv: 生天目仁美
+    editor:
+      anime:
+        score: 48
+        note: アーシアの神器を奪った堕天使。一誠に殴り飛ばされ、リアスに消された。
+        evidence:
+          - "第1期: アーシアの神器を奪ったが、一誠に殴り飛ばされ、リアスに消された"
+      novel:
+        score: 48
+        note: 原作でも評価は変わらない。
+  - id: siegfried
+    name: ジークフリート
+    affiliation: 禍の団 英雄派
+    appears: novel
+    editor:
+      novel:
+        score: 80
+        note: 複数の魔剣を操る英雄派の剣士。木場との戦いに敗れた。
+        evidence:
+          - "原作: 木場と戦って敗れ、所持していた魔剣を奪われた"

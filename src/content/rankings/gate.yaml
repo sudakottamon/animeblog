@@ -1,0 +1,158 @@
+work: ゲート 自衛隊 彼の地にて、斯く戦えり
+title: ゲート 自衛隊 彼の地にて、斯く戦えり 最強キャラランキング
+description: ゲート 自衛隊 彼の地にて、斯く戦えりの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全24話（2015〜2016年、原作第3巻『動乱編』まで）
+  - id: novel
+    label: 原作（小説）勢
+    range: 本編完結（単行本全5巻）と外伝まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: rory
+    name: ロゥリィ・マーキュリー
+    affiliation: 神エムロイの使徒
+    cv: 種田梨沙
+    editor:
+      anime:
+        score: 92
+        note: 不死の亜神で、身の丈を超えるハルバートを振るう。炎龍を一撃で怯ませ、イタリカでは盗賊の群れを斬り伏せた。基準は武器や魔法を含めた1対1の強さ。
+        evidence:
+          - "イタリカ防衛戦: 栗林と即興で連携し、盗賊の群れを斬り伏せた"
+          - "炎龍編: ハルバートの一撃で炎龍に脳震盪を起こさせた"
+      novel:
+        score: 93
+        note: 原作では同じ亜神のメイベルとの一騎討ちに勝った。
+        evidence:
+          - "外伝弐 黒神の大祭典編: 亜神メイベルとの一騎討ちに勝ち、血剣ディーヴァを奪った"
+  - id: lelei
+    name: レレイ・ラ・レレーナ
+    affiliation: 魔導師 / 自衛隊の協力者
+    cv: 東山奈央
+    editor:
+      anime:
+        score: 84
+        note: 爆轟魔法で剣や槍を撃ち出す魔導師。炎龍討伐でとどめの流れを作った。
+        evidence:
+          - "炎龍編: 爆轟魔法で無数の剣や槍を炎龍に突き刺した"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: giselle
+    name: ジゼル
+    affiliation: 冥府の神ハーディの使徒
+    cv: 佐倉綾音
+    editor:
+      anime:
+        score: 82
+        note: ハーディに仕える亜神。新生龍を従えてロゥリィに挑んだが、新生龍を自衛隊に倒されて逃げた。
+        evidence:
+          - "炎龍編: 新生龍2頭を従えてロゥリィに挑んだが、自衛隊に新生龍を倒されて逃げた"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: tuka
+    name: テュカ・ルナ・マルソー
+    affiliation: エルフ / 自衛隊の協力者
+    cv: 金元寿子
+    editor:
+      anime:
+        score: 80
+        note: 精霊魔法を使うエルフ。炎龍の体内に電撃を流し込んだ。
+        evidence:
+          - "炎龍編: 精霊魔法の電撃を炎龍の体内に流し込んだ"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: itami
+    name: 伊丹耀司
+    affiliation: 陸上自衛隊 第3偵察隊 隊長
+    cv: 諏訪部順一
+    editor:
+      anime:
+        score: 80
+        note: 第3偵察隊を率いる自衛官。炎龍を一度退け、二度目の戦いではC4爆薬で倒した。
+        evidence:
+          - "炎龍の初遭遇: 第3偵察隊を率いて炎龍の左腕を落とし、撃退した"
+          - "炎龍編: LAMで攻撃し、仕掛けたC4爆薬で炎龍を倒した"
+      novel:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: kuribayashi
+    name: 栗林志乃
+    affiliation: 陸上自衛隊 第3偵察隊
+    cv: 内田真礼
+    editor:
+      anime:
+        score: 72
+        note: 格闘を得意とする女性自衛官。イタリカではロゥリィと並んで白兵戦を戦った。
+        evidence:
+          - "イタリカ防衛戦: ロゥリィと即興で連携し、白兵戦で盗賊と戦った"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: yao
+    name: ヤオ・ハー・デュッシ
+    affiliation: ダークエルフ
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 60
+        note: 炎龍討伐を自衛隊に頼みに来たダークエルフ。討伐に加わったが、本人が前に出て戦う場面は少ない。
+        evidence:
+          - "炎龍編: 伊丹たちの炎龍討伐に加わった"
+      novel:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: pina
+    name: ピニャ・コ・ラーダ
+    affiliation: 帝国皇女 / 薔薇騎士団 団長
+    cv: 戸松遥
+    editor:
+      anime:
+        score: 55
+        note: 薔薇騎士団を率いる帝国の皇女。戦いでは指揮をとる立場で、個人の武勇は目立たない。
+        evidence:
+          - "イタリカ防衛戦: 盗賊の襲撃からイタリカを守る指揮を執った"
+      novel:
+        score: 55
+        note: 原作でも評価は変わらない。
+  - id: zorzal
+    name: ゾルザル・エル・カエサル
+    affiliation: 帝国皇太子
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 45
+        note: 帝国の皇太子。権力を握ろうと動くが、本人の戦いぶりは目立たない。
+        evidence:
+          - "動乱編: 帝都で講和派を押さえ込み、実権を握ろうとした"
+      novel:
+        score: 45
+        note: 原作では最終決戦に敗れ、テューレに討たれた。
+        evidence:
+          - "原作: 最終決戦に敗れ、テューレと刺し違えて死んだ"
+  - id: meibel
+    name: メイベル
+    affiliation: 亜神
+    appears: novel
+    editor:
+      novel:
+        score: 84
+        note: ロゥリィに一騎討ちを挑んだ亜神。敗れて血剣を奪われた。
+        evidence:
+          - "外伝弐 黒神の大祭典編: ロゥリィに一騎討ちを挑み、敗れた"
+  - id: tyuule
+    name: テューレ
+    affiliation: 元ヴォーリアバニーの女王
+    appears: novel
+    editor:
+      novel:
+        score: 40
+        note: 最終決戦に敗れたゾルザルと刺し違えて死んだ。
+        evidence:
+          - "原作: 最終決戦に敗れたゾルザルと刺し違えた"

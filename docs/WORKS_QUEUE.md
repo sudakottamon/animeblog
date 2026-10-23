@@ -172,12 +172,12 @@
 - [x] `zero-no-tsukaima` ゼロの使い魔
 
 ## バッチ 22
-- [ ] `highschool-dxd` ハイスクールD×D
-- [ ] `strike-the-blood` ストライク・ザ・ブラッド
-- [ ] `rakudai-kishi` 落第騎士の英雄譚
-- [ ] `date-a-live` デート・ア・ライブ
-- [ ] `mato-seihei` 魔都精兵のスレイブ
-- [ ] `gate` ゲート 自衛隊 彼の地にて、斯く戦えり
+- [x] `highschool-dxd` ハイスクールD×D
+- [x] `strike-the-blood` ストライク・ザ・ブラッド
+- [x] `rakudai-kishi` 落第騎士の英雄譚
+- [x] `date-a-live` デート・ア・ライブ
+- [x] `mato-seihei` 魔都精兵のスレイブ
+- [x] `gate` ゲート 自衛隊 彼の地にて、斯く戦えり
 
 ## バッチ 23
 - [ ] `bofuri` 痛いのは嫌なので防御力に極振りしたいと思います。

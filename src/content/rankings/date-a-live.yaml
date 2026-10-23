@@ -1,0 +1,231 @@
+work: デート・ア・ライブ
+title: デート・ア・ライブ 最強キャラランキング
+description: デート・ア・ライブの最強キャラをアニメ勢・原作（小説）勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第5期『デート・ア・ライブV』（2024年）まで
+  - id: novel
+    label: 原作（小説）勢
+    range: 本編完結（全22巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: mio
+    name: 崇宮澪
+    affiliation: 始原の精霊
+    cv: 遠藤綾
+    editor:
+      anime:
+        score: 98
+        note: すべての精霊の源とされる始原の精霊。〈万象聖堂〉で十香たちを追い詰め、精霊を次々に倒した。
+        evidence:
+          - "第5期 第6〜7話: 〈万象聖堂〉で十香たちを追い詰め、多くの精霊を倒した"
+          - "第5期 第8話: 士道に精霊はすべて死んだと告げた"
+      novel:
+        score: 98
+        note: 原作でも評価は変わらない。
+  - id: kurumi
+    name: 時崎狂三
+    affiliation: 精霊〈ナイトメア〉
+    cv: 真田アサミ
+    editor:
+      anime:
+        score: 90
+        note: 〈刻々帝〉の弾で時間を操る精霊。第5期では時間を遡って士道を救い続けていたことが明かされた。
+        evidence:
+          - "第1期: 〈時喰みの城〉で来禅高校を包み、生徒たちの時間を吸った"
+          - "第5期 第1話: 204回時間を遡って士道を救っていたことが明かされた"
+          - "第5期 第11話: 死んだと思われていたが、DEMに追い詰められた士道たちを救った"
+      novel:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: ellen
+    name: エレン・メイザース
+    affiliation: DEMインダストリー
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 88
+        note: DEMの世界最強の魔術師。十香を打ち負かしてDEMへ連れ去った。
+        evidence:
+          - "第2期: 十香を打ち負かし、DEMへ連れ去った"
+          - "第4期: 二亜をめぐる戦いに介入し、重傷を負わせた"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: tohka
+    name: 夜刀神十香
+    affiliation: 精霊〈プリンセス〉
+    cv: 井上麻里奈
+    editor:
+      anime:
+        score: 88
+        note: 〈鏖殺公〉の使い手。反転すると魔王〈暴虐公〉を振るう。
+        evidence:
+          - "第2期: DEMに捕らわれて反転し、魔王〈暴虐公〉を振るった"
+          - "第4期: 反転して六喰の髪を切り、六喰の暴走を招いた"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: origami
+    name: 鳶一折紙
+    affiliation: 精霊〈エンジェル〉 / 元AST
+    cv: 富樫美鈴
+    editor:
+      anime:
+        score: 88
+        note: ASTの魔術師から精霊になった。反転すると魔王〈救世魔王〉を使う。
+        evidence:
+          - "第3期: 反転して〈救世魔王〉で〈フラクシナス〉を破壊した"
+      novel:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: kotori
+    name: 五河琴里
+    affiliation: 〈ラタトスク〉司令 / 精霊〈イフリート〉
+    cv: 竹達彩奈
+    editor:
+      anime:
+        score: 85
+        note: 〈灼爛殲鬼〉の砲形態【メギド】を持つ。霊力を使うほど破壊衝動が強まる。
+        evidence:
+          - "第1期: 精霊の力を解放し、〈灼爛殲鬼〉で狂三を追い詰めた"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: mukuro
+    name: 星宮六喰
+    affiliation: 精霊〈ゾディアック〉
+    cv: 影山灯
+    editor:
+      anime:
+        score: 85
+        note: 〈封解主〉であらゆるものを閉じ、開く。宇宙から地球を攻撃した。
+        evidence:
+          - "第4期: 〈封解主〉でDEMの艦の機能を閉ざした"
+          - "第4期: 暴走して宇宙から地球を攻撃し、士道に重傷を負わせた"
+      novel:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: westcott
+    name: アイザック・ウェストコット
+    affiliation: DEMインダストリー 業務執行取締役
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 84
+        note: DEMの業務執行取締役。二亜の霊結晶を奪い、最終盤で術式を発動させた。
+        evidence:
+          - "第4期: 二亜の霊結晶を奪った"
+          - "第5期 第12話: 士道が澪と向き合っている間に術式を発動させた"
+      novel:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: mana
+    name: 崇宮真那
+    affiliation: DEMインダストリー 出向社員
+    cv: 味里
+    editor:
+      anime:
+        score: 82
+        note: 顕現装置の扱いは世界でも5本の指に入る魔術師。狂三の分身を何度も倒した。
+        evidence:
+          - "第1期: 狂三の分身を何度も倒した"
+      novel:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: artemisia
+    name: アルテミシア・ベル・アシュクロフト
+    affiliation: 魔術師
+    cv: 松井恵理子
+    editor:
+      anime:
+        score: 78
+        note: 世界最高峰の魔術師の一人。エレンと共に二亜をめぐる戦いに介入した。
+        evidence:
+          - "第4期: エレンと共に二亜をめぐる戦いに介入した"
+      novel:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: yamai
+    name: 八舞耶倶矢・八舞夕弦
+    affiliation: 精霊〈ベルセルク〉
+    cv: 内田真礼、ブリドカットセーラ恵美
+    editor:
+      anime:
+        score: 74
+        note: 一人の精霊が二人に分かれた姉妹。〈颶風騎士〉で風を操り、二人がそろうと巨大な弓矢を作る。
+        evidence:
+          - "第2期: 〈颶風騎士〉の暴風を起こしながら二人で勝負を続けた"
+      novel:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: natsumi
+    name: 七罪
+    affiliation: 精霊〈ウィッチ〉
+    cv: 真野あゆみ
+    editor:
+      anime:
+        score: 72
+        note: 〈贋造魔女〉で物を変え、他の天使を劣化させて写し取る。
+        evidence:
+          - "第3期: 人工衛星の落下に対し、〈鏖殺公〉を写し取って三本同時に振るわせた"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: shido
+    name: 五河士道
+    affiliation: 来禅高校 / 〈ラタトスク〉
+    cv: 島﨑信長
+    editor:
+      anime:
+        score: 72
+        note: 封印した精霊の力を借りて戦う。致命傷も炎で再生する。
+        evidence:
+          - "第4期: 〈贋造魔女〉で写し取った〈封解主〉を使い、六喰の心を開いた"
+          - "第5期 第3話: 疑似精霊ニベルコルの大群と戦った"
+      novel:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: miku
+    name: 誘宵美九
+    affiliation: 精霊〈ディーヴァ〉
+    cv: 茅原実里
+    editor:
+      anime:
+        score: 70
+        note: 〈破軍歌姫〉の歌で聞いた者を操る。本人が前に出て戦うことは少ない。
+        evidence:
+          - "第2期: 〈破軍歌姫〉の歌で天宮市の住民やASTを操った"
+      novel:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: nia
+    name: 本条二亜
+    affiliation: 精霊〈シスター〉
+    cv: 生天目仁美
+    editor:
+      anime:
+        score: 66
+        note: 全知の〈囁告篇帙〉を持つが、戦いではDEMに敗れて霊結晶を奪われた。
+        evidence:
+          - "第4期: エレンらの介入で重傷を負い、霊結晶をウェストコットに奪われた"
+      novel:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: yoshino
+    name: 四糸乃
+    affiliation: 精霊〈ハーミット〉
+    cv: 野水伊織
+    editor:
+      anime:
+        score: 64
+        note: 〈氷結傀儡〉で冷気と雨を操る。ASTを傷つけないよう反撃せず逃げ回っていた。
+        evidence:
+          - "第1期: ASTの攻撃に反撃せず、冷気と雨で逃げ回った"
+      novel:
+        score: 64
+        note: 原作でも評価は変わらない。

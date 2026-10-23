@@ -1,0 +1,250 @@
+work: 魔都精兵のスレイブ
+title: 魔都精兵のスレイブ 最強キャラランキング
+description: 魔都精兵のスレイブの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期『魔都精兵のスレイブ2』（横浜決戦）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 少年ジャンプ+の連載分まで（2026年10月時点、単行本は第21巻まで既刊）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: fuuki
+    name: 東風舞希
+    affiliation: 魔防隊 九番組組長 / 東家当主
+    cv: ゆかな
+    editor:
+      anime:
+        score: 90
+        note: 九番組組長で東家の当主。天進の形態で挑んだ優希を一撃で倒した。
+        evidence:
+          - "第2期 第6話: 天進で挑んだ優希を一撃で倒した"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: kyouka
+    name: 羽前京香
+    affiliation: 魔防隊 七番組組長
+    cv: 鬼頭明里
+    editor:
+      anime:
+        score: 88
+        note: 優希をスレイブにして戦う七番組組長。一本角を倒し、横浜では空折との戦いを決める新技を放った。
+        evidence:
+          - "第1期 第12話: 強化して暴走した一本角を乱れ山桜で倒した"
+          - "第2期 第11〜12話: 優希との新技で空折を攻め、横浜決戦に勝った"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: sorawori
+    name: 空折
+    affiliation: 八雷神
+    cv: 小清水亜美
+    editor:
+      anime:
+        score: 88
+        note: 八雷神の一柱。美羅を取り込んで力を吸い、横浜で魔防隊の組長たちを相手に戦った末に肉体を失った。
+        evidence:
+          - "第2期 第10話: 美羅を取り込んで力を吸い、分身の軍勢を作った"
+          - "第2期 第12話: 魔防隊に敗れて肉体を失った"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: tenka
+    name: 出雲天花
+    affiliation: 魔防隊 六番組組長
+    cv: 内田真礼
+    editor:
+      anime:
+        score: 85
+        note: 空間を操る六番組組長。交流戦を襲った雷煉を醜鬼の群れごと退けた。
+        evidence:
+          - "第1期 第7話: 空間の断裂に醜鬼の大群ごと雷煉を飲み込み、撃退した"
+      manga:
+        score: 84
+        note: 原作では朱々と共に紫黒を退けた一方、青羽には敗れて重傷を負った。
+        evidence:
+          - "原作: 七番組の寮を襲った紫黒を朱々と共に撃退した"
+          - "原作: 青羽と戦って敗れ、重傷を負った"
+  - id: mira
+    name: 上運天美羅
+    affiliation: 魔防隊 二番組組長
+    cv: ファイルーズあい
+    editor:
+      anime:
+        score: 84
+        note: 緋色の軍隊を操る二番組組長。空折を一度は逃走させたが、その後取り込まれた。
+        evidence:
+          - "第2期 第9話: 緋色の軍隊を発動し、空折を逃走させた"
+          - "第2期 第10話: 空折に取り込まれ、力を吸われた"
+      manga:
+        score: 86
+        note: 原作ではアクラとの戦いに勝った。
+        evidence:
+          - "原作: アクラと戦って勝った"
+  - id: rairen
+    name: 雷煉
+    affiliation: 八雷神
+    cv: くじら
+    editor:
+      anime:
+        score: 80
+        note: 八雷神の一柱。醜鬼の大群を率いて交流戦を襲ったが、天花に退けられた。
+        evidence:
+          - "第1期 第6話: 醜鬼の大群を率いて魔都交流戦を襲った"
+          - "第1期 第7話: 天花に醜鬼の群れごと空間の断裂へ飲み込まれ、退いた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: aoba
+    name: 和倉青羽
+    affiliation: 優希の姉 / 人型醜鬼
+    cv: 楠木ともり
+    editor:
+      anime:
+        score: 80
+        note: 人型醜鬼として生きていた優希の姉。一本角と戦ったが、優希を思ってためらい倒れた。
+        evidence:
+          - "第1期 第11話: 一本角と戦ったが、攻撃をためらって反撃を受け、倒れた"
+      manga:
+        score: 87
+        note: 原作では六番組組長の天花を破った。
+        evidence:
+          - "原作: 出雲天花と戦って勝ち、重傷を負わせた"
+  - id: ittoukaku
+    name: 一本角
+    affiliation: 人型醜鬼
+    cv: 左座翔丸
+    editor:
+      anime:
+        score: 78
+        note: 人型醜鬼。日万凛と朱々を負傷させたが、強化して暴走した末に京香と優希に倒された。
+        evidence:
+          - "第1期 第3話: 日万凛と朱々を負傷させた"
+          - "第1期 第12話: 強化して暴走したが、京香と優希に倒された"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: yuuki
+    name: 和倉優希
+    affiliation: 魔防隊 七番組 管理人
+    cv: 広瀬裕也
+    editor:
+      anime:
+        score: 76
+        note: スレイブとして組員の力で変身して戦う。貸し出される相手ごとに形態が変わる。
+        evidence:
+          - "第1期 第6話: 京香・日万凛との合体形態で醜鬼の大群を一掃した"
+          - "第2期 第6話: 天進で風舞希に挑んだが、一撃で倒された"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: himari
+    name: 東日万凛
+    affiliation: 魔防隊 七番組
+    cv: 宮本侑芽
+    editor:
+      anime:
+        score: 76
+        note: 東家の娘。交流戦で八千穂に勝ち、東の晩餐では誉を倒した。
+        evidence:
+          - "第1期 第5話: 魔都交流戦で八千穂たちと戦い、勝った"
+          - "第2期 第6話: 優希と組んで誉を倒した"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: yachiho
+    name: 東八千穂
+    affiliation: 魔防隊 六番組 副組長
+    cv: 稗田寧々
+    editor:
+      anime:
+        score: 74
+        note: 時を操る六番組副組長。交流戦では日万凛に敗れたが、隠れ里では日万凛と組んで波音たちを退けた。
+        evidence:
+          - "第1期 第5話: 魔都交流戦で日万凛に敗れた"
+          - "第1期 第11話: 日万凛と組んで波音とアクラを撃退した"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: sahara
+    name: 若狭サハラ
+    affiliation: 魔防隊 六番組
+    cv: 上田麗奈
+    editor:
+      anime:
+        score: 74
+        note: 六番組の組員。交流戦の2回戦で朱々に勝った。
+        evidence:
+          - "第1期 第6話: 魔都交流戦で朱々に勝った"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: shushu
+    name: 駿河朱々
+    affiliation: 魔防隊 七番組
+    cv: 日野まり
+    editor:
+      anime:
+        score: 72
+        note: 体の大きさを変えて戦う七番組の組員。交流戦ではサハラに敗れたが、隠れ里では熊童子を倒した。
+        evidence:
+          - "第1期 第6話: 魔都交流戦で若狭サハラに敗れた"
+          - "第1期 第11話: 熊童子を体内から倒し、ココも退けた"
+      manga:
+        score: 74
+        note: 原作では天花と共に紫黒を退けた。
+        evidence:
+          - "原作: 七番組の寮を襲った紫黒を天花と共に撃退した"
+  - id: coco
+    name: 銭函ココ
+    affiliation: 人型醜鬼側
+    cv: 千本木彩花
+    editor:
+      anime:
+        score: 66
+        note: 熊童子と組んで朱々たちと戦ったが、退けられた。
+        evidence:
+          - "第1期 第11話: 熊童子と組んで戦ったが、朱々に退けられた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: hanon
+    name: 湯野波音
+    affiliation: 人型醜鬼側
+    cv: 日高里菜
+    editor:
+      anime:
+        score: 66
+        note: アクラと組んで日万凛と八千穂に挑んだが、撃退された。
+        evidence:
+          - "第1期 第11話: アクラと組んで戦ったが、日万凛と八千穂に撃退された"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: ren
+    name: 山城恋
+    affiliation: 魔防隊 総組長
+    cv: 花澤香菜
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: 魔防隊の総組長。駆けつけた戦いで阿南三姉妹を全滅させた。
+        evidence:
+          - "原作: 阿南三姉妹のもとに駆けつけ、三人を倒した"
+  - id: shikoku
+    name: 紫黒
+    affiliation: 八雷神
+    cv: 杜野まこ
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 八雷神の一柱。七番組の寮を襲ったが、朱々と天花に退けられた。
+        evidence:
+          - "原作: 七番組の寮を襲ったが、朱々と天花に撃退された"
