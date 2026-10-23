@@ -1,0 +1,317 @@
+work: FAIRY TAIL
+title: FAIRY TAIL 最強キャラランキング
+description: FAIRY TAIL（フェアリーテイル）の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。続編『100年クエスト』も対象です。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『FAIRY TAIL』全328話（原作本編の完結まで）＋『FAIRY TAIL 100年クエスト』全25話まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作本編（全63巻）＋続編『FAIRY TAIL 100 YEARS QUEST』単行本24巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: acnologia
+    name: アクノロギア
+    affiliation: 竜の王
+    cv: 鳥海浩輔
+    editor:
+      anime:
+        score: 98
+        note: イグニールを殺し、ゴッドセレナも一瞬で倒した。最後は全滅竜魔導士の魔力を集めたナツに倒された。
+        evidence:
+          - "冥府の門編: 腕を噛みちぎられながらもイグニールを殺した"
+          - "アルバレス帝国編: ゴッドセレナを苦もなく殺した"
+          - "アルバレス帝国編: 妖精の球で動きを封じられ、ナツに倒された"
+      manga:
+        score: 98
+        note: 原作でも評価は変わらない。
+  - id: natsu
+    name: ナツ・ドラグニル
+    affiliation: 妖精の尻尾
+    cv: 柿原徹也
+    editor:
+      anime:
+        score: 96
+        note: ゼレフの魔法を焼き払って動けなくし、最後は全滅竜魔導士の魔力を受けてアクノロギアを倒した。100年クエストでは神竜を2体倒した。
+        evidence:
+          - "アルバレス帝国編: ゼレフの魔法を焼き尽くし、動けない状態にした"
+          - "アルバレス帝国編: ウェンディが集めた滅竜魔法でアクノロギアを倒した"
+          - "100年クエスト 第19話: 仲間とともに木神竜アルドロンを倒した"
+      manga:
+        score: 98
+        note: 100 YEARS QUESTでは神竜ドグラマグとヴィエルネスも倒した。
+        evidence:
+          - "100 YEARS QUEST: 神竜ドグラマグを倒した"
+          - "100 YEARS QUEST: アテナの助けを受けてヴィエルネスを倒した"
+  - id: ignia
+    name: イグニア
+    affiliation: 五神竜（炎神竜）
+    appears: manga
+    editor:
+      manga:
+        score: 95
+        note: 五神竜で最後まで残った炎神竜。人間を滅ぼす計画を明かし、ドグラマグを味方につけた。
+        evidence:
+          - "100 YEARS QUEST: 最後に残った神竜として、人間を滅ぼす計画を明かした"
+  - id: zeref
+    name: ゼレフ・ドラグニル
+    affiliation: アルバレス帝国 皇帝
+    cv: 石田彰
+    editor:
+      anime:
+        score: 95
+        note: 冥府の門のマルド・ギールを殺し、時間を巻き戻してナツに致命傷を負わせた。最後はメイビスとともに呪いで死んだ。
+        evidence:
+          - "冥府の門編: 現れてすぐにマルド・ギールを殺した"
+          - "アルバレス帝国編: 時間を巻き戻してナツに致命傷を負わせた"
+          - "アルバレス帝国編: メイビスとともに呪いで命を落とした"
+      manga:
+        score: 95
+        note: 原作でも評価は変わらない。
+  - id: august
+    name: オーガスト
+    affiliation: スプリガン12
+    cv: 安原義人
+    editor:
+      anime:
+        score: 92
+        note: ギルダーツを圧倒した。カナが加わってから傷を負い、最後は自ら魔法を止めて死んだ。
+        evidence:
+          - "アルバレス帝国編: カナが加わるまでギルダーツを圧倒した"
+          - "アルバレス帝国編: 発動した魔法を自ら止めて息絶えた"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: irene
+    name: アイリーン・ベルセリオン
+    affiliation: スプリガン12
+    cv: 本田貴子
+    editor:
+      anime:
+        score: 91
+        note: ウェンディとの体の入れ替えを仕掛け、隕石の魔法も使った。エルザに隕石を止められた後、自ら命を絶った。
+        evidence:
+          - "アルバレス帝国編: 体の入れ替えに失敗した後、ウェンディの体を傷つけた"
+          - "アルバレス帝国編: エルザに隕石を防がれ、娘の剣で自らを貫いた"
+      manga:
+        score: 91
+        note: 原作でも評価は変わらない。
+  - id: gildarts
+    name: ギルダーツ・クライヴ
+    affiliation: 妖精の尻尾 S級魔導士
+    editor:
+      anime:
+        score: 89
+        note: オーガストに押されたが、カナと組んでから義手の魔法でオーガストに傷を負わせた。
+        evidence:
+          - "アルバレス帝国編: カナとともに戦い、義手の魔法でオーガストに傷を負わせた"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: dogramag
+    name: ドグラマグ
+    affiliation: 第六の神竜
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: エレフセリアに倒されたと思われていた神竜。妖精の尻尾とディアボロスが手を組んで戦い、最後はナツに倒された。
+        evidence:
+          - "100 YEARS QUEST: 妖精の尻尾とディアボロスの共闘を受け、ナツに倒された"
+  - id: erza
+    name: エルザ・スカーレット
+    affiliation: 妖精の尻尾 S級魔導士
+    cv: 大原さやか
+    editor:
+      anime:
+        score: 87
+        note: 冥府の門の京香を倒し、アイリーンの隕石を防いだ。100年クエストではスザクに剣ごと斬り伏せられた。
+        evidence:
+          - "冥府の門編: 第六感に目覚め、京香を倒した"
+          - "アルバレス帝国編: アイリーンの隕石を受け止めて防いだ"
+          - "100年クエスト 第23話: スザクに仲間ともども倒された"
+      manga:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: selene
+    name: セレーネ
+    affiliation: 五神竜（月神竜）
+    cv: 水樹奈々
+    editor:
+      anime:
+        score: 87
+        note: 白魔導士の裏で糸を引いていた月神竜。ナツたちをエレンティアに転移させ、配下の月下美神で苦しめた。
+        evidence:
+          - "100年クエスト 第21話: ナツたちをエレンティアへ飛ばし、仲間を散り散りにした"
+          - "100年クエスト 第23話: スザクに倒されたナツたちの前に現れた"
+      manga:
+        score: 87
+        note: ディアボロスのマスターを踏み潰して殺し、ギルドを乗っ取った。妖精の尻尾とのバトルロイヤルの後に敵対をやめた。
+        evidence:
+          - "100 YEARS QUEST: ディアボロスのマスター・ゲオルグを踏み潰してギルドを乗っ取った"
+  - id: gray
+    name: グレイ・フルバスター
+    affiliation: 妖精の尻尾
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 86
+        note: 滅悪魔法を受け継ぎ、ナツとともにマルド・ギールを追い詰めた。アルバレス帝国編ではインベルに勝った。
+        evidence:
+          - "冥府の門編: 滅悪の氷の矢でマルド・ギールを撃ち落とした"
+          - "アルバレス帝国編: ジュビアが助かった後、インベルを倒した"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: laxus
+    name: ラクサス・ドレアー
+    affiliation: 妖精の尻尾 雷神衆
+    editor:
+      anime:
+        score: 86
+        note: 大魔闘演武でジュラに勝った。冥府の門のテンペスターを二度倒し、スプリガン12のワールも倒した。
+        evidence:
+          - "大魔闘演武編: 聖十のジュラに勝った"
+          - "冥府の門編: テンペスターを再戦でも倒し、抗体のもとになる血を手に入れた"
+          - "アルバレス帝国編: ワールを欺き、赤い雷で本体を倒した"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: aldoron
+    name: アルドロン
+    affiliation: 五神竜（木神竜）
+    cv: 内田直哉
+    editor:
+      anime:
+        score: 85
+        note: 眠りから目覚めた木神竜。妖精の尻尾が各地で戦い、最後はナツたちに倒された。
+        evidence:
+          - "100年クエスト 第15話: 復活し、ナツたちが立ち向かった"
+          - "100年クエスト 第19話: ナツたちに倒された"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: mard-geer
+    name: マルド・ギール
+    affiliation: 冥府の門 九鬼門
+    cv: 森川智之
+    editor:
+      anime:
+        score: 85
+        note: メメント・モリでナツとグレイを消しかけた。グレイに撃ち落とされた後、ゼレフに殺された。
+        evidence:
+          - "冥府の門編: メメント・モリでナツとグレイを消し去ろうとした"
+          - "冥府の門編: グレイに撃ち落とされ、ゼレフに殺された"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: suzaku
+    name: スザク
+    affiliation: ディアボロス
+    cv: 鈴木崚汰
+    editor:
+      anime:
+        score: 84
+        note: 剣聖竜クルヌギを喰らって剣聖の滅竜魔法を得た。エルザを剣ごと斬り伏せ、ナツたちを一人で倒した。
+        evidence:
+          - "100年クエスト 第23話: ナツたちに襲いかかり、手も足も出させずに倒した"
+          - "100年クエスト 第24話: セレーネと一騎打ちをした"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: jellal
+    name: ジェラール・フェルナンデス
+    affiliation: 魔女の罪（クリムソルシエール）
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 83
+        note: アルバレス帝国編でスプリガン12のナインハルトに勝った。アクノロギアには攻撃が通らなかった。
+        evidence:
+          - "アルバレス帝国編: ナインハルトを倒した"
+          - "アルバレス帝国編: アクノロギアへの攻撃が通じず、押しつぶされかけた"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: makarov
+    name: マカロフ・ドレアー
+    affiliation: 妖精の尻尾 マスター
+    editor:
+      anime:
+        score: 82
+        note: アルバレス帝国の軍勢の大半を妖精の法律で倒した。
+        evidence:
+          - "アルバレス帝国編: 妖精の法律でアルバレス軍の大半を倒した"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: mercphobia
+    name: メルクフォビア
+    affiliation: 五神竜（水神竜）
+    cv: 梅原裕一郎
+    editor:
+      anime:
+        score: 80
+        note: 100年クエストで最初に戦った神竜。ナツたちに倒された。
+        evidence:
+          - "100年クエスト 第7話: ナツたちに討伐された"
+      manga:
+        score: 80
+        note: ナツに敗れた後、力を失って人間になった。
+        evidence:
+          - "100 YEARS QUEST: ナツに敗れ、無力な人間になった"
+  - id: gajeel
+    name: ガジル・レッドフォックス
+    affiliation: 妖精の尻尾
+    editor:
+      anime:
+        score: 79
+        note: 体を鋼鉄化して冥府の門のトラフザーに勝った。100年クエストでは操られてナツに倒された。
+        evidence:
+          - "冥府の門編: 体を鋼鉄に変えてトラフザーを倒した"
+          - "100年クエスト 第11話: 操られた状態でナツに倒された"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: god-serena
+    name: ゴッドセレナ
+    affiliation: 聖十大魔道 序列1位
+    cv: 興津和幸
+    editor:
+      anime:
+        score: 78
+        note: イシュガル最強の魔導士とされたが、アクノロギアに苦もなく殺された。
+        evidence:
+          - "アルバレス帝国編: アクノロギアにあっさり殺された"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: mirajane
+    name: ミラジェーン・ストラウス
+    affiliation: 妖精の尻尾 S級魔導士
+    editor:
+      anime:
+        score: 77
+        note: 冥府の門のセイラと戦い、相手の力を取り込んで倒した。
+        evidence:
+          - "冥府の門編: セイラの力の一部を取り込み、セイラを倒した"
+      manga:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: wendy
+    name: ウェンディ・マーベル
+    affiliation: 妖精の尻尾
+    cv: 佐藤聡美
+    editor:
+      anime:
+        score: 70
+        note: 付加術でアイリーンに傷を負わせた。最終決戦では全滅竜魔導士の魔力をナツに集めた。
+        evidence:
+          - "アルバレス帝国編: 付加術をかけた剣でアイリーンに傷を負わせた"
+          - "アルバレス帝国編: 全滅竜魔導士の魔力をナツに付加した"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。

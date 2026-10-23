@@ -1,0 +1,206 @@
+work: SHAMAN KING
+title: SHAMAN KING 最強キャラランキング
+description: SHAMAN KING（シャーマンキング）の最強キャラをティア表で決めます。2021年版アニメと原作の結末までが対象です。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ（2021年版・全52話）・原作（KC完結版 全35巻）とも完結まで。続編『SHAMAN KING FLOWERS』などは含めない
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: hao
+    name: ハオ
+    affiliation: 星組の首領／麻倉葉王
+    cv: 高山みなみ
+    editor:
+      anime:
+        score: 99
+        note: X-LAWSの各チームと大艦隊を一人で退け、最後はグレート・スピリッツと一つになってシャーマンキングになった。
+        evidence:
+          - "第25話: X-IIIが命がけで放った一撃を受けても届かなかった"
+          - "第46話: 正体不明の大艦隊とX-LAWSの切り札をまとめて一掃した"
+          - "第52話: シャーマンキングとなり、新たな神になった"
+  - id: yoh
+    name: 麻倉葉
+    affiliation: ふんばり温泉チーム
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 91
+        note: 予選でホロホロ、ファウストVIII世と戦い、本戦出場を決めた。地獄での修行を経て、仲間とともに十祭司を次々に倒した。
+        evidence:
+          - "第7話: ホロホロに勝った後、ファウストVIII世と対戦した"
+          - "第42話: サティの手で地獄に落とされ、そこで試練に挑んだ"
+          - "第51話: 仲間とともに9人目の祭司シルバを倒した"
+  - id: anna
+    name: 恐山アンナ
+    affiliation: 葉の許嫁／イタコ
+    cv: 林原めぐみ
+    editor:
+      anime:
+        score: 85
+        note: 前鬼・後鬼を従えるイタコ。誰も傷を負わせられなかったハオに、切り札で傷をつけた。
+        evidence:
+          - "第44話: 切り札を使ってハオに傷を負わせた"
+  - id: mikihisa
+    name: 麻倉幹久
+    affiliation: 麻倉家／葉の父
+    editor:
+      anime:
+        score: 84
+        note: 仮面の修験者として蓮たちの前に現れ、実力差を見せつけた。
+        evidence:
+          - "第27話: 蓮に大きな実力差を思い知らせた"
+  - id: ren
+    name: 道蓮
+    affiliation: チームTHE蓮
+    cv: 朴璐美
+    editor:
+      anime:
+        score: 86
+        note: 予選最終戦で葉と戦い、ともに本戦に進んだ。ペヨーテに斬られて一度は死んだが、蘇生後に力を上げ、チーム・明王を破った。
+        evidence:
+          - "第9話: シャーマンファイト予選最終戦で葉と戦い、本戦出場資格を得た"
+          - "第34話: ジャンヌに蘇生され、死を超えて力を上げた"
+          - "第41話: チームTHE蓮としてチーム・明王に勝った"
+  - id: jeanne
+    name: アイアンメイデン・ジャンヌ
+    affiliation: X-LAWS 首領
+    cv: 堀江由衣
+    editor:
+      anime:
+        score: 85
+        note: ペヨーテに斬られて死んだ蓮を蘇生させた。ハオの奇襲を受けて倒れた。
+        evidence:
+          - "第34話: 瀕死の末に命を落とした蓮を蘇生させた"
+          - "第43話: ハオの奇襲で倒れ、マルコとたまおに守られた"
+  - id: kalim
+    name: カリム
+    affiliation: パッチ族 十祭司
+    cv: 花輪英司
+    editor:
+      anime:
+        score: 81
+        note: 十祭司の一人。葉たちが一度では倒しきれず、休息をとってから再挑戦した。
+        evidence:
+          - "第49話: 消耗した葉たちに休息を勧め、戦いを中断した"
+          - "第50話: 葉たちの再挑戦を受けて死闘を再開した"
+  - id: faust
+    name: ファウストVIII世
+    affiliation: ふんばり温泉チーム
+    cv: 子安武人
+    editor:
+      anime:
+        score: 80
+        note: 予選で葉と戦った死霊術師。本戦では新たなオーバーソウルでICEMENを圧倒した。
+        evidence:
+          - "第7話: シャーマンファイト予選で葉と対戦した"
+          - "第23話: 新たなオーバーソウルでICEMENを圧倒した"
+  - id: luchist
+    name: ラキスト
+    affiliation: 星組
+    cv: 松田健一郎
+    editor:
+      anime:
+        score: 79
+        note: ハオの側近。葉とX-LAWSの交渉の場に乱入し、マルコと戦った。
+        evidence:
+          - "第39話: 葉とX-LAWSの交渉に乱入し、マルコと混戦になった"
+  - id: silva
+    name: シルバ
+    affiliation: パッチ族 十祭司
+    cv: 緑川光
+    editor:
+      anime:
+        score: 77
+        note: 葉の参加テストを担当した十祭司。プラントで葉たちに倒された。
+        evidence:
+          - "第5話: 葉にシャーマンファイトの参加テストを課した"
+          - "第51話: 9人目の祭司として葉たちに倒された"
+  - id: horohoro
+    name: ホロホロ
+    affiliation: チームTHE蓮
+    cv: うえだゆうじ
+    editor:
+      anime:
+        score: 76
+        note: 予選で葉に敗れた。本戦ではチーム・明王戦で活躍し、チームTHE蓮を勝たせた。
+        evidence:
+          - "第7話: 予選で葉に敗れたことが示された"
+          - "第35話: ハオの手下ブロッケンに追い詰められた"
+          - "第41話: チーム・明王戦で活躍し、チームの勝利につなげた"
+  - id: lyserg
+    name: リゼルグ・ダイゼル
+    affiliation: X-LAWS
+    cv: 沢海陽子
+    editor:
+      anime:
+        score: 74
+        note: 両親の仇であるハオを追い、葉たちと別れてX-LAWSに加わった。
+        evidence:
+          - "第21話: X-LAWSのX-Iとしてナイルズとの試合に現れた"
+  - id: en
+    name: 道円
+    affiliation: 道家 当主／蓮の父
+    cv: 手塚秀彰
+    editor:
+      anime:
+        score: 74
+        note: キョンシー部隊で息子の蓮を破って監禁した。救出に来た葉たちと戦った。
+        evidence:
+          - "第11話: キョンシー部隊で蓮を破り、監禁した"
+          - "第12話: 蓮を救出した葉と戦った"
+  - id: peyote
+    name: ペヨーテ・ディアス
+    affiliation: 星組（土組）
+    cv: 真殿光昭
+    editor:
+      anime:
+        score: 72
+        note: トーナメント初戦でチョコラブを追い詰め、蓮を瀕死にした。
+        evidence:
+          - "第20話: チーム・ザ・？との試合でチョコラブを追い詰めた"
+          - "第28話: 蓮を斬り、瀕死の重傷を負わせた"
+  - id: chocolove
+    name: チョコラブ・マクダネル
+    affiliation: チームTHE蓮
+    cv: くまいもとこ
+    editor:
+      anime:
+        score: 71
+        note: トーナメント初戦でペヨーテに追い詰められた。終盤までチームTHE蓮で戦い続けた。
+        evidence:
+          - "第20話: 土組との試合でペヨーテに追い詰められた"
+  - id: marco
+    name: マルコ
+    affiliation: X-LAWS
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 70
+        note: ラキストと戦い、倒れたジャンヌをたまおとともにハオから守った。
+        evidence:
+          - "第39話: 乱入したラキストと戦った"
+          - "第43話: たまおとともに倒れたジャンヌを守って戦い続けた"
+  - id: ryu
+    name: 梅宮竜之介
+    affiliation: ふんばり温泉チーム／木刀の竜
+    cv: 田中正彦
+    editor:
+      anime:
+        score: 66
+        note: 葉明との修行で新たな力を得てボリスと戦った。ICEMEN戦では葉をかばって氷漬けになった。
+        evidence:
+          - "第17話: 葉明との修行で得た力を解放し、ボリスと戦った"
+          - "第23話: ICEMEN戦で葉をかばって氷漬けにされた"
+  - id: brocken
+    name: ブロッケン・マイヤー
+    affiliation: 星組
+    editor:
+      anime:
+        score: 62
+        note: ハオの手下。ホロホロを窮地に追い込んだが、乱入した人物に阻まれた。
+        evidence:
+          - "第35話: ホロホロを追い詰めたが、思わぬ人物がホロホロを救った"

@@ -30,3 +30,5 @@
 | karakuri-circus | アニメが原作の結末まで描いたか（1勢扱い） | 要確認 |
 | nurarihyon | 晴明の復活がアニメ（千年魔京）で描かれたか | 要確認 |
 | nube | 2026年4月以降の続編放送の有無（range） | 要確認 |
+| mokushiroku-no-yonkishi | メリオダス91・アーサー90は本作で戦う描写がほぼなく立場で採点。アニメ勢の根拠が薄い | 要検討 |
+| boruto / reborn / magi | 新作アニメ（TWO BLUE VORTEX等）の放送有無 | 未確認 |

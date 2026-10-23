@@ -1,0 +1,267 @@
+work: BORUTO-ボルト-
+title: BORUTO-ボルト- 最強キャラランキング
+description: BORUTO-ボルト-の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。第2部『TWO BLUE VORTEX』も対象です。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『BORUTO-ボルト- NARUTO NEXT GENERATIONS』全293話（コードの襲撃とボルトの蘇生まで）。『NARUTO』の描写は含めない
+  - id: manga
+    label: 漫画・原作勢
+    range: 第1部（全20巻）＋第2部『TWO BLUE VORTEX』単行本9巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: isshiki
+    name: 大筒木イッシキ
+    affiliation: 殻 首領（ジゲン）
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 97
+        note: ジゲンの姿でナルトとサスケを同時に退け、ナルトを封印した。重粒子モードのナルトに追い込まれ、最後はカワキの影分身の策で消滅した。
+        evidence:
+          - "第204話: ナルトとサスケを圧倒し、ナルトを封印した"
+          - "第217〜218話: 重粒子モードのナルトと戦い、体が崩れて消滅した"
+      manga:
+        score: 97
+        note: 原作でも評価は変わらない。
+  - id: naruto
+    name: うずまきナルト
+    affiliation: 七代目火影
+    cv: 竹内順子
+    editor:
+      anime:
+        score: 93
+        note: デルタを倒した。ジゲンには封印されたが、九喇嘛と引き換えの重粒子モードでイッシキを追い詰めた。
+        evidence:
+          - "第199話: 超大玉螺旋丸の過負荷でデルタを倒した"
+          - "第204話: ジゲンに追い詰められて封印された"
+          - "第217〜218話: 重粒子モードでイッシキと戦い、その後に九喇嘛を失った"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: daemon
+    name: デイモン
+    affiliation: 殻
+    cv: 花守ゆみり
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 受けた攻撃を相手に返す力を持つ。コードと敵対した際は体術で圧倒した。
+        evidence:
+          - "第1部 終盤: コードと敵対し、体術で圧倒した"
+  - id: eida
+    name: エイダ
+    affiliation: 殻
+    cv: 花澤香菜
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 全能の力で人々の記憶を書き換え、ボルトとカワキの立場を入れ替えた。戦わずに状況を変える力で評価した。
+        evidence:
+          - "第1部 終盤: 全能で記憶を書き換え、ボルトとカワキを入れ替えた"
+  - id: momoshiki
+    name: 大筒木モモシキ
+    affiliation: 大筒木一族
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 91
+        note: 中忍試験編でボルトの螺旋丸に敗れた。その後はボルトの体を通して現れ、ボロを倒し、サスケの輪廻眼を潰した。
+        evidence:
+          - "第208話: ボルトの体を通してボロの腕を壊し、巨大な螺旋丸で倒した"
+          - "第218話: ボルトの体を乗っ取り、サスケの輪廻眼を突き潰した"
+          - "第291話: 螺旋丸でコードを吹き飛ばした"
+      manga:
+        score: 91
+        note: 原作でも評価は変わらない。
+  - id: kawaki
+    name: カワキ
+    affiliation: うずまき家
+    cv: 内田雄馬
+    editor:
+      anime:
+        score: 88
+        note: 楔の力でボルトを殺し、コードにも勝って退かせた。修行の手合わせでもボルトに勝った。
+        evidence:
+          - "第196話: 修行の手合わせでボルトに勝った"
+          - "第292話: モモシキに乗っ取られたボルトを殺した"
+          - "第293話: 楔の力でコードを打ち負かし、撤退させた"
+      manga:
+        score: 92
+        note: ナルトとヒナタを異空間に閉じ込めた。第2部では神樹の祭を倒し、十羅を退かせた。
+        evidence:
+          - "第1部 終盤: ナルトとヒナタを異空間に送り込んだ"
+          - "TWO BLUE VORTEX: 祭を倒し、十羅を撤退させた"
+  - id: jura
+    name: 十羅（ジュラ）
+    affiliation: 神樹
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 空中戦で猪鹿蝶を圧倒し、ヒマワリとも戦った。ボルトと戦った後、カワキが加わると退いた。
+        evidence:
+          - "TWO BLUE VORTEX: 猪鹿蝶を空中戦で圧倒した"
+          - "TWO BLUE VORTEX: ボルトと戦い、カワキの参戦で撤退した"
+  - id: boruto
+    name: うずまきボルト
+    affiliation: 第七班
+    cv: 三瓶由布子
+    editor:
+      anime:
+        score: 87
+        note: 中忍試験編でモモシキを螺旋丸で倒した。殻との戦いでは第七班でディーパを破り、コード戦でモモシキの力に目覚めた。
+        evidence:
+          - "中忍試験編: サスケの援護を受け、螺旋丸でモモシキを倒した"
+          - "第175話: 三人の力を込めた螺旋丸でディーパを倒した"
+          - "第291話: コードと戦い、モモシキの力に目覚めた"
+      manga:
+        score: 94
+        note: 第2部では神樹の左を倒し、コードも追い詰めた。
+        evidence:
+          - "TWO BLUE VORTEX: 左（ヒダリ）を倒した"
+          - "TWO BLUE VORTEX: コードを追い詰めたが、カワキの乱入で逃がした"
+  - id: code
+    name: コード
+    affiliation: 殻 内陣
+    cv: 寺島惇太
+    editor:
+      anime:
+        score: 87
+        note: カワキを一度は抑え込んだ。楔の力を取り戻したカワキに打ち負かされ、子どもを盾にして攻撃を跳ね返して逃げた。
+        evidence:
+          - "第290話: カワキを抑え込んだが、ボルトに押し返された"
+          - "第293話: カワキに打ちのめされ、攻撃を跳ね返して撤退した"
+      manga:
+        score: 89
+        note: サスケを樹に閉じ込めた。第2部ではボルトに追い詰められた。
+        evidence:
+          - "第1部 終盤: ボルトを逃がそうとしたサスケを樹に閉じ込めた"
+          - "TWO BLUE VORTEX: ボルトに追い詰められた"
+  - id: sasuke
+    name: うちはサスケ
+    affiliation: 木ノ葉隠れの里
+    cv: 杉山紀彰
+    editor:
+      anime:
+        score: 88
+        note: ナルトとともにジゲンと戦ったが重傷を負った。その後、モモシキに輪廻眼を潰された。
+        evidence:
+          - "第204話: ジゲンに追い込まれ、重傷を負って木ノ葉へ逃れた"
+          - "第218話: ボルトを乗っ取ったモモシキに輪廻眼を潰された"
+      manga:
+        score: 87
+        note: コードの襲撃でボルトを逃がすために犠牲になった。
+        evidence:
+          - "第1部 終盤: ボルトを逃がすためにコードの前に残り、樹に閉じ込められた"
+  - id: hidari
+    name: 左（ヒダリ）
+    affiliation: 神樹
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 人の姿をとる神樹の一体。ボルトに倒された。
+        evidence:
+          - "TWO BLUE VORTEX: ボルトに倒された"
+  - id: kashin-koji
+    name: 果心居士
+    affiliation: 殻 内陣（元）
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 84
+        note: 青を殺し、第七班を一人で追い詰めた。最後はナルトとサスケに弱らされたジゲンを焼き尽くした。
+        evidence:
+          - "第187話: 青を殺し、第七班を圧倒した"
+          - "第213話: ナルトとサスケが弱らせたジゲンを自然の炎で焼いた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: ryu
+    name: 粒（リュウ）
+    affiliation: 神樹
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: ヨドを殺したが、万華鏡写輪眼に目覚めたサラダに倒された。
+        evidence:
+          - "TWO BLUE VORTEX: ヨドを殺した後、サラダに倒された"
+  - id: kinshiki
+    name: 大筒木キンシキ
+    affiliation: 大筒木一族
+    cv: 安元洋貴
+    editor:
+      anime:
+        score: 80
+        note: モモシキの従者。サスケと斬り結んだが、最後はモモシキを救うために丹に変えられた。
+        evidence:
+          - "中忍試験編: サスケと斬り結んだ"
+          - "中忍試験編: モモシキのために丹になって死んだ"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: delta
+    name: デルタ
+    affiliation: 殻 内陣
+    editor:
+      anime:
+        score: 76
+        note: ナルトの腹を貫いたが、超大玉螺旋丸の過負荷で倒された。
+        evidence:
+          - "第198話: ナルトの腹を貫いた"
+          - "第199話: ナルトに倒された"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: boro
+    name: ボロ
+    affiliation: 殻 内陣
+    editor:
+      anime:
+        score: 72
+        note: 何度も再生して第七班とカワキを押し返し、ボルトにも勝った。最後はボルトの体を借りたモモシキに倒された。
+        evidence:
+          - "第207話: 再生を繰り返し、ボルトを倒した"
+          - "第208話: 現れたモモシキに腕を壊され、倒された"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: mitsuki
+    name: ミツキ
+    affiliation: 第七班
+    cv: 木島隆一
+    editor:
+      anime:
+        score: 70
+        note: 仙人モードでディーパを押し返して仲間を逃がした。ボロ戦ではボロの動きを止めた。
+        evidence:
+          - "第166話: 仙人モードでディーパを退け、仲間を逃がした"
+          - "第207話: ボロの動きを封じた"
+      manga:
+        score: 72
+        note: 第2部ではボルトと交戦した。
+        evidence:
+          - "TWO BLUE VORTEX: ボルトと交戦した"
+  - id: sarada
+    name: うちはサラダ
+    affiliation: 第七班
+    cv: 菊池こころ
+    editor:
+      anime:
+        score: 65
+        note: ディーパ戦で写輪眼の二つ巴に目覚め、ボロ戦では千鳥で核を壊した。
+        evidence:
+          - "第175話: 二つ巴に目覚め、ディーパの注意を引いた"
+          - "第207話: 千鳥でボロの核を壊した"
+      manga:
+        score: 82
+        note: 第2部で万華鏡写輪眼に目覚め、神樹の粒を倒した。
+        evidence:
+          - "TWO BLUE VORTEX: ヨドが殺された後に万華鏡写輪眼を開眼し、粒を倒した"

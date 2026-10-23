@@ -12,12 +12,12 @@
 - [x] `saint-seiya` 聖闘士星矢
 
 ## バッチ 02
-- [ ] `boruto` BORUTO-ボルト-（NARUTOとは別作品として扱う。TWO BLUE VORTEXの扱いを確認）
-- [ ] `mokushiroku-no-yonkishi` 七つの大罪 黙示録の四騎士
-- [ ] `fairy-tail` FAIRY TAIL（100年クエストの扱いを確認）
-- [ ] `magi` マギ
-- [ ] `shaman-king` SHAMAN KING（2021年版アニメ基準）
-- [ ] `reborn` 家庭教師ヒットマンREBORN!
+- [x] `boruto` BORUTO-ボルト-（NARUTOとは別作品として扱う。TWO BLUE VORTEXの扱いを確認）
+- [x] `mokushiroku-no-yonkishi` 七つの大罪 黙示録の四騎士
+- [x] `fairy-tail` FAIRY TAIL（100年クエストの扱いを確認）
+- [x] `magi` マギ
+- [x] `shaman-king` SHAMAN KING（2021年版アニメ基準）
+- [x] `reborn` 家庭教師ヒットマンREBORN!
 
 ## バッチ 03
 - [x] `d-gray-man` D.Gray-man
