@@ -1,0 +1,148 @@
+work: BEASTARS
+title: BEASTARS 最強キャラランキング
+description: BEASTARSの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ・原作とも完結まで（アニメはFINAL SEASON Part2〈2026年3月配信〉、原作は全22巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: legoshi
+    name: レゴシ
+    affiliation: ハイイロオオカミ チェリートン学園→退学
+    cv: 小林親弘
+    editor:
+      anime:
+        score: 94
+        note: リズとの決闘に勝ち、ドック組を退け、最後はメロンを追い詰めた。作中の主な戦いをすべて勝ち抜いている。
+        evidence:
+          - "食殺事件篇: 大晦日の決闘でリズに勝った"
+          - "単行本21巻: ドック組を退けた"
+          - "単行本22巻: メロンとの殴り合いで追い詰めた"
+  - id: melon
+    name: メロン
+    affiliation: ガゼルとヒョウの混血 シシ組のボス
+    cv: 沖野晃司
+    editor:
+      anime:
+        score: 87
+        note: 銃でレゴシに重傷を負わせ、裏市で勢力を広げた。最後の殴り合いではレゴシに追い詰められた。
+        evidence:
+          - "単行本15巻: 仮面の店でレゴシを銃で撃ち重傷を負わせた"
+          - "単行本22巻: レゴシとの殴り合いで追い詰められた"
+  - id: riz
+    name: リズ
+    affiliation: ヒグマ 演劇部
+    cv: 白熊寛嗣
+    editor:
+      anime:
+        score: 86
+        note: テム殺しの犯人。最初の対決ではレゴシを圧倒したが、大晦日の決闘で敗れた。
+        evidence:
+          - "食殺事件篇: 最初の対決でレゴシを圧倒した"
+          - "食殺事件篇: 大晦日の決闘でレゴシに敗れ、負けを認めた"
+  - id: gohin
+    name: ゴウヒン
+    affiliation: ジャイアントパンダ 裏市の精神科医
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 78
+        note: リズに敗れたレゴシを鍛え直した。本人が戦う場面は多くない。
+        evidence:
+          - "食殺事件篇: リズに敗れたレゴシを鍛えた"
+  - id: ibuki
+    name: イブキ
+    affiliation: マサイライオン シシ組
+    cv: 楠大典
+    editor:
+      anime:
+        score: 72
+        note: シシ組の幹部。ルイを襲おうとしたところを、自身の命令でフリーに撃たれた。
+        evidence:
+          - "ルイがシシ組を去る場面: ルイを襲おうとしてフリーに撃たれた"
+  - id: bill
+    name: ビル
+    affiliation: ベンガルトラ 演劇部
+    cv: 虎島貴明
+    editor:
+      anime:
+        score: 71
+        note: 演劇部の役者。公演中にレゴシと本気の喧嘩になったが、決着前にルイが収めた。
+        evidence:
+          - "演劇部の公演2日目: 舞台上でレゴシと喧嘩になり、ルイが収めた"
+  - id: shishi-boss
+    name: シシ組のボス
+    affiliation: ライオン シシ組
+    cv: 土師孝也
+    editor:
+      anime:
+        score: 68
+        note: ハルをさらったシシ組の頭目。レゴシに顔を殴られ、ルイに撃たれた。
+        evidence:
+          - "隕石祭篇: ハルを食べようとしてレゴシに顔を殴られた"
+          - "隕石祭篇: レゴシを撃とうとしてルイに撃たれた"
+  - id: free
+    name: フリー
+    affiliation: インドライオン シシ組
+    cv: 木村昴
+    editor:
+      anime:
+        score: 64
+        note: シシ組の構成員。イブキの命令で銃を使った。
+        evidence:
+          - "ルイがシシ組を去る場面: イブキの命令でイブキを撃った"
+  - id: louis
+    name: ルイ
+    affiliation: アカシカ 演劇部→シシ組のボス
+    cv: 小野友樹
+    editor:
+      anime:
+        score: 62
+        note: 草食獣で、戦いは主に銃と度胸による。シシ組のボスを撃ち、のちにシシ組を率いた。
+        evidence:
+          - "隕石祭篇: シシ組のボスを銃で撃った"
+  - id: yahya
+    name: ヤフヤ
+    affiliation: ウマ 現ビースター
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 60
+        note: 現ビースター。作中で本人が戦う描写は少なく、立場の高さは点数に入れていない。
+        evidence:
+          - "単行本14巻: レゴシと敵対的に対面した"
+          - "単行本15巻: メロン逮捕のためレゴシと取引した"
+  - id: juno
+    name: ジュノ
+    affiliation: ハイイロオオカミ 演劇部
+    cv: 種﨑敦美
+    editor:
+      anime:
+        score: 45
+        note: 演劇部の役者。戦う描写はほとんどない。
+        evidence:
+          - "演劇部篇: 演劇部に入部し役者になった"
+  - id: jack
+    name: ジャック
+    affiliation: ラブラドールレトリバー
+    cv: 榎木淳弥
+    editor:
+      anime:
+        score: 42
+        note: レゴシの幼なじみ。戦う描写はほとんどない。
+        evidence:
+          - "単行本18巻: 指名手配されたレゴシを701号室にかくまった"
+  - id: haru
+    name: ハル
+    affiliation: ドワーフウサギ 園芸部
+    cv: 千本木彩花
+    editor:
+      anime:
+        score: 35
+        note: 小型の草食獣で、戦う描写はない。
+        evidence:
+          - "隕石祭篇: シシ組にさらわれた"

@@ -1,0 +1,225 @@
+work: 黒子のバスケ
+title: 黒子のバスケ 最強キャラランキング
+description: 黒子のバスケの最強キャラ（選手としての実力）をティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ・原作とも完結まで（TVアニメ全3期・全75話でウインターカップ決勝まで、劇場版『LAST GAME』で続編『EXTRA GAME』まで）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: akashi
+    name: 赤司征十郎
+    affiliation: 洛山 主将
+    cv: 神谷浩史
+    editor:
+      anime:
+        score: 97
+        note: 基準は選手としての実力。キセキの世代の主将で、洛山を率いて決勝まで勝ち上がった。決勝で誠凛に1点差で敗れた。
+        evidence:
+          - "ウインターカップ準決勝: 秀徳に勝った"
+          - "ウインターカップ決勝: 誠凛に1点差で敗れた"
+  - id: kagami
+    name: 火神大我
+    affiliation: 誠凛 1年
+    cv: 小野友樹
+    editor:
+      anime:
+        score: 95
+        note: 誠凛のエース。ウインターカップでキセキの世代のいる高校を次々に破って優勝した。
+        evidence:
+          - "ウインターカップ 桐皇戦: 最後にダンクを決めて勝った"
+          - "ウインターカップ決勝: 洛山に1点差で勝ち優勝した"
+          - "劇場版『LAST GAME』: VORPAL SWORDSの一員としてジャバウォックに勝った"
+  - id: aomine
+    name: 青峰大輝
+    affiliation: 桐皇学園 1年
+    cv: 諏訪部順一
+    editor:
+      anime:
+        score: 95
+        note: キセキの世代のエース。インターハイ予選で誠凛に大差で勝ったが、ウインターカップで敗れた。
+        evidence:
+          - "インターハイ予選: 誠凛に2桁差で勝った"
+          - "ウインターカップ 桐皇戦: 誠凛に敗れた"
+  - id: nash
+    name: ナッシュ・ゴールド・Jr.
+    affiliation: ジャバウォック 主将
+    cv: 緑川光
+    editor:
+      anime:
+        score: 93
+        note: アメリカのストリートチーム・ジャバウォックの主将。日本選抜のVORPAL SWORDSに敗れた。
+        evidence:
+          - "劇場版『LAST GAME』: ジャバウォックとしてStrkyに大差で勝った"
+          - "劇場版『LAST GAME』: VORPAL SWORDSに敗れた"
+  - id: murasakibara
+    name: 紫原敦
+    affiliation: 陽泉 1年
+    cv: 鈴村健一
+    editor:
+      anime:
+        score: 92
+        note: キセキの世代のセンター。ウインターカップ準々決勝で誠凛に敗れた。
+        evidence:
+          - "ウインターカップ準々決勝: 誠凛に敗れた"
+  - id: kise
+    name: 黄瀬涼太
+    affiliation: 海常 1年
+    cv: 木村良平
+    editor:
+      anime:
+        score: 91
+        note: 他の選手の技を写し取る。灰崎に勝ったが、準決勝で誠凛に1点差で敗れた。
+        evidence:
+          - "ウインターカップ 福田総合戦: 灰崎に勝った"
+          - "ウインターカップ準決勝: 誠凛に1点差で敗れた"
+  - id: midorima
+    name: 緑間真太郎
+    affiliation: 秀徳 1年
+    cv: 小野大輔
+    editor:
+      anime:
+        score: 91
+        note: コート全域から3Pを決めるシューター。誠凛には1敗1分けで、ウインターカップ準決勝で洛山に敗れた。
+        evidence:
+          - "インターハイ予選: 誠凛に敗れた"
+          - "ウインターカップ予選: 誠凛と引き分けた"
+          - "ウインターカップ準決勝: 洛山に敗れた"
+  - id: silver
+    name: ジェイソン・シルバー
+    affiliation: ジャバウォック
+    cv: 稲田徹
+    editor:
+      anime:
+        score: 87
+        note: ジャバウォックの大型選手。VORPAL SWORDSに敗れた。
+        evidence:
+          - "劇場版『LAST GAME』: ジャバウォックとしてStrkyに大差で勝った"
+          - "劇場版『LAST GAME』: VORPAL SWORDSに敗れた"
+  - id: haizaki
+    name: 灰崎祥吾
+    affiliation: 福田総合 1年
+    cv: 森田成一
+    editor:
+      anime:
+        score: 83
+        note: 元帝光のスタメン。他人の技を奪う。ウインターカップで黄瀬に敗れた。
+        evidence:
+          - "ウインターカップ 福田総合戦: 黄瀬に敗れた"
+  - id: himuro
+    name: 氷室辰也
+    affiliation: 陽泉 2年
+    cv: 谷山紀章
+    editor:
+      anime:
+        score: 82
+        note: 火神の兄貴分。陽泉のエースとして誠凛と戦い敗れた。
+        evidence:
+          - "ウインターカップ準々決勝: 誠凛に敗れた"
+  - id: kiyoshi
+    name: 木吉鉄平
+    affiliation: 誠凛 2年
+    cv: 浜田賢二
+    editor:
+      anime:
+        score: 81
+        note: 無冠の五将の一人で誠凛のセンター。膝の故障を抱えながらウインターカップ優勝に加わった。
+        evidence:
+          - "ウインターカップ 霧崎第一戦: 花宮のラフプレーを受けながら勝った"
+          - "ウインターカップ決勝: 洛山に勝った"
+  - id: mibuchi
+    name: 実渕玲央
+    affiliation: 洛山 2年
+    cv: 羽多野渉
+    editor:
+      anime:
+        score: 80
+        note: 無冠の五将の一人で洛山のシューター。決勝で誠凛に敗れた。
+        evidence:
+          - "ウインターカップ決勝: 誠凛に1点差で敗れた"
+  - id: nijimura
+    name: 虹村修造
+    affiliation: 帝光中学 元主将
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 79
+        note: 回想で登場する帝光の元主将。キセキの世代の先輩で、赤司に主将を譲った。
+        evidence:
+          - "帝光中学編（回想）: 帝光の主将を務め、赤司に主将を譲った"
+  - id: hayama
+    name: 葉山小太郎
+    affiliation: 洛山 2年
+    cv: 増田俊樹
+    editor:
+      anime:
+        score: 79
+        note: 無冠の五将の一人でドリブルを武器にする。決勝で誠凛に敗れた。
+        evidence:
+          - "ウインターカップ決勝: 誠凛に1点差で敗れた"
+  - id: kuroko
+    name: 黒子テツヤ
+    affiliation: 誠凛 1年
+    cv: 小野賢章
+    editor:
+      anime:
+        score: 76
+        note: 影の薄さを生かしたパスが武器。個人の得点力は低いが、消える技で強豪と渡り合った。
+        evidence:
+          - "ウインターカップ準々決勝: 陽泉戦で幻影のシュートを使った"
+          - "ウインターカップ決勝: 洛山に勝ち優勝した"
+  - id: takao
+    name: 高尾和成
+    affiliation: 秀徳 1年
+    cv: 鈴木達央
+    editor:
+      anime:
+        score: 75
+        note: 視野の広いポイントガード。秀徳は誠凛と引き分け、洛山に敗れた。
+        evidence:
+          - "ウインターカップ予選: 誠凛と引き分けた"
+          - "ウインターカップ準決勝: 洛山に敗れた"
+  - id: hyuga
+    name: 日向順平
+    affiliation: 誠凛 主将
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 74
+        note: 誠凛の主将でシューター。ウインターカップで優勝した。
+        evidence:
+          - "ウインターカップ決勝: 洛山に勝ち優勝した"
+  - id: mayuzumi
+    name: 黛千尋
+    affiliation: 洛山 3年
+    cv: 逢坂良太
+    editor:
+      anime:
+        score: 73
+        note: 洛山の幻のシックスマン。決勝で誠凛に敗れた。
+        evidence:
+          - "ウインターカップ決勝: 誠凛に1点差で敗れた"
+  - id: hanamiya
+    name: 花宮真
+    affiliation: 霧崎第一 主将
+    cv: 福山潤
+    editor:
+      anime:
+        score: 69
+        note: 無冠の五将の一人。ラフプレーを使うが、誠凛に敗れた。
+        evidence:
+          - "ウインターカップ 霧崎第一戦: 誠凛に敗れた"
+  - id: imayoshi
+    name: 今吉翔一
+    affiliation: 桐皇学園 主将
+    cv: 中井和哉
+    editor:
+      anime:
+        score: 68
+        note: 桐皇の主将でポイントガード。誠凛とは1勝1敗。
+        evidence:
+          - "インターハイ予選: 誠凛に勝った"
+          - "ウインターカップ 桐皇戦: 誠凛に敗れた"

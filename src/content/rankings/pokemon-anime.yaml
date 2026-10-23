@@ -1,0 +1,185 @@
+work: ポケットモンスター（アニメ）
+title: ポケットモンスター（アニメ） 最強キャラランキング
+description: アニメ『ポケットモンスター』サトシ編の最強キャラ（トレーナーとしての強さ）をティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメのサトシ編（無印〜『新無印』『めざせポケモンマスター』、1997〜2023年）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: satoshi
+    name: サトシ
+    affiliation: マサラタウンのトレーナー
+    cv: 松本梨香
+    editor:
+      anime:
+        score: 97
+        note: 基準はトレーナーとしての強さ。アローラリーグで優勝し、ワールドチャンピオンシップスでダンデに勝って頂点に立った。
+        evidence:
+          - "サン&ムーン アローラリーグ・マナーロ大会: 決勝でグラジオに勝ち優勝した"
+          - "新無印 第118話: マスターズトーナメント1回戦でダイゴに勝った"
+          - "新無印 第132話: 決勝でダンデに勝ち、ワールドチャンピオンシップスで優勝した"
+  - id: dande
+    name: ダンデ
+    affiliation: ガラル地方チャンピオン
+    editor:
+      anime:
+        score: 95
+        note: マスターズトーナメントでアランとカルネに勝って決勝に進んだが、サトシに敗れた。
+        evidence:
+          - "新無印 第115話: マスターズトーナメント1回戦でアランに勝った"
+          - "新無印 マスターズトーナメント準決勝: カルネに勝った"
+          - "新無印 第132話: 決勝でサトシに敗れた"
+  - id: shirona
+    name: シロナ
+    affiliation: シンオウ地方チャンピオン
+    editor:
+      anime:
+        score: 92
+        note: マスターズトーナメントでアイリスに勝った。準決勝でサトシに敗れた。
+        evidence:
+          - "新無印 第117話: マスターズトーナメント1回戦でアイリスに勝った"
+          - "新無印 マスターズトーナメント準決勝: サトシに敗れた"
+  - id: karune
+    name: カルネ
+    affiliation: カロス地方チャンピオン
+    editor:
+      anime:
+        score: 89
+        note: マスターズトーナメント1回戦でワタルに勝ち、準決勝でダンデに敗れた。
+        evidence:
+          - "新無印 第116話: マスターズトーナメント1回戦でワタルに勝った"
+          - "新無印 マスターズトーナメント準決勝: ダンデに敗れた"
+  - id: alan
+    name: アラン
+    affiliation: カロスリーグ優勝者
+    cv: 小野賢章
+    editor:
+      anime:
+        score: 88
+        note: カロスリーグ決勝でサトシに勝って優勝した。マスターズトーナメントではダンデに敗れた。
+        evidence:
+          - "XY&Z カロスリーグ・ミアレ大会: 決勝でサトシに勝った"
+          - "新無印 第115話: マスターズトーナメント1回戦でダンデに敗れた"
+  - id: takuto
+    name: タクト
+    affiliation: シンオウリーグ出場者
+    editor:
+      anime:
+        score: 87
+        note: ダークライを使い、シンオウリーグ準決勝でサトシに勝った。
+        evidence:
+          - "ダイヤモンド&パール シンオウリーグ・スズラン大会: 準決勝でサトシに勝った"
+  - id: daigo
+    name: ダイゴ
+    affiliation: ホウエン地方チャンピオン
+    editor:
+      anime:
+        score: 86
+        note: マスターズエイトの一人。1回戦でサトシに敗れた。
+        evidence:
+          - "新無印 第118話: マスターズトーナメント1回戦でサトシに敗れた"
+  - id: wataru
+    name: ワタル
+    affiliation: カントー・ジョウト地方チャンピオン
+    editor:
+      anime:
+        score: 85
+        note: マスターズエイトの一人。1回戦でカルネに敗れた。
+        evidence:
+          - "新無印 第116話: マスターズトーナメント1回戦でカルネに敗れた"
+  - id: kibana
+    name: キバナ
+    affiliation: ガラル地方ジムリーダー
+    editor:
+      anime:
+        score: 83
+        note: マスターズエイト入りをかけてサトシと戦い、敗れた。
+        evidence:
+          - "新無印 第109話: サトシとの入れ替え戦に敗れた"
+  - id: iris
+    name: アイリス
+    affiliation: イッシュ地方チャンピオン
+    cv: 悠木碧
+    editor:
+      anime:
+        score: 82
+        note: マスターズエイトの一人。1回戦でシロナに敗れた。
+        evidence:
+          - "新無印 第117話: マスターズトーナメント1回戦でシロナに敗れた"
+  - id: shinji
+    name: シンジ
+    affiliation: シンオウ地方のトレーナー
+    editor:
+      anime:
+        score: 79
+        note: サトシのライバル。シンオウリーグ準々決勝でサトシに敗れた。
+        evidence:
+          - "ダイヤモンド&パール シンオウリーグ・スズラン大会: 準々決勝でサトシに敗れた"
+  - id: shota
+    name: ショータ
+    affiliation: カロス地方のトレーナー
+    editor:
+      anime:
+        score: 77
+        note: カロスリーグで準決勝まで勝ち進み、サトシに敗れた。
+        evidence:
+          - "XY&Z カロスリーグ・ミアレ大会: 準決勝でサトシに敗れた"
+  - id: gladio
+    name: グラジオ
+    affiliation: アローラ地方のトレーナー
+    editor:
+      anime:
+        score: 76
+        note: アローラリーグで決勝まで勝ち進み、サトシに敗れた。
+        evidence:
+          - "サン&ムーン アローラリーグ・マナーロ大会: 決勝でサトシに敗れた"
+  - id: shigeru
+    name: シゲル
+    affiliation: マサラタウンのトレーナー
+    cv: 小林優子
+    editor:
+      anime:
+        score: 73
+        note: サトシの幼なじみのライバル。ジョウトリーグ1回戦でサトシに敗れた。
+        evidence:
+          - "無印 ジョウトリーグ・シロガネ大会: 1回戦でサトシに敗れた"
+  - id: tetsuya
+    name: テツヤ
+    affiliation: ホウエンリーグ出場者
+    editor:
+      anime:
+        score: 72
+        note: ホウエンリーグでサトシに勝った。
+        evidence:
+          - "アドバンスジェネレーション ホウエンリーグ・サイユウ大会: サトシに勝った"
+  - id: hazuki
+    name: ハヅキ
+    affiliation: ジョウトリーグ出場者
+    editor:
+      anime:
+        score: 70
+        note: ジョウトリーグ2回戦でサトシに勝った。
+        evidence:
+          - "無印 ジョウトリーグ・シロガネ大会: 2回戦でサトシに勝った"
+  - id: hiroshi
+    name: ヒロシ
+    affiliation: カントーリーグ出場者
+    editor:
+      anime:
+        score: 64
+        note: カントーリーグの決勝トーナメントでサトシに勝った。
+        evidence:
+          - "無印 カントーリーグ・セキエイ大会: 決勝トーナメントでサトシに勝った"
+  - id: yuji
+    name: ユウジ
+    affiliation: オレンジリーグ
+    editor:
+      anime:
+        score: 62
+        note: オレンジリーグのウィナーズカップでサトシに敗れた。
+        evidence:
+          - "無印 オレンジリーグ・ウィナーズカップ: 決勝でサトシに敗れた"

@@ -1,0 +1,309 @@
+work: ハイキュー!!
+title: ハイキュー!! 最強キャラランキング
+description: ハイキュー!!の最強キャラ（選手としての実力）をアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1〜4期（全85話）＋劇場版『ゴミ捨て場の決戦』（春高 音駒戦）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全45巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: ushijima
+    name: 牛島若利
+    affiliation: 白鳥沢学園 主将
+    cv: 竹内良太
+    editor:
+      anime:
+        score: 95
+        note: 基準は選手としての実力。白鳥沢のエース。春高県予選決勝で烏野にフルセットで敗れたが、試合を通して得点源だった。
+        evidence:
+          - "第3期: 春高宮城県予選決勝で烏野にフルセットで敗れた"
+      manga:
+        score: 96
+        note: 卒業後はプロに進み、東京オリンピックで日本代表のエースを務めた。
+        evidence:
+          - "原作最終盤: 東京オリンピックで日本代表のエースを務めた"
+  - id: kageyama
+    name: 影山飛雄
+    affiliation: 烏野高校 1年
+    cv: 石川界人
+    editor:
+      anime:
+        score: 90
+        note: 烏野のセッター。日向との速攻で白鳥沢を破り、全日本ユース強化合宿に呼ばれた。
+        evidence:
+          - "第3期: 春高宮城県予選決勝で白鳥沢に勝った"
+          - "第4期: 全日本ユース強化合宿に招集された"
+      manga:
+        score: 94
+        note: 高校卒業後にプロへ進み、リオ五輪に出場した。
+        evidence:
+          - "原作最終盤: リオ五輪に日本代表として出場した"
+  - id: oikawa
+    name: 及川徹
+    affiliation: 青葉城西 主将
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 91
+        note: 青葉城西のセッター。インターハイ予選で烏野に勝ったが、春高予選では敗れた。
+        evidence:
+          - "第1期: インターハイ宮城県予選で烏野に勝った"
+          - "第2期: 春高宮城県予選準決勝で烏野にフルセットで敗れた"
+      manga:
+        score: 92
+        note: 卒業後はアルゼンチンに渡り、代表としてオリンピックに出場した。
+        evidence:
+          - "最終話: アルゼンチン代表としてオリンピックに出場した"
+  - id: atsumu
+    name: 宮侑
+    affiliation: 稲荷崎 2年
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 91
+        note: 稲荷崎のセッター。春高2回戦で烏野にフルセットで敗れた。
+        evidence:
+          - "第4期 稲荷崎戦: 烏野にフルセットで敗れた"
+      manga:
+        score: 91
+        note: 原作でも評価は変わらない。
+  - id: bokuto
+    name: 木兎光太郎
+    affiliation: 梟谷学園 主将
+    cv: 木村良平
+    editor:
+      anime:
+        score: 89
+        note: 梟谷のエース。合同合宿の練習試合で烏野を相手に勝ち越した。
+        evidence:
+          - "第2期 合同合宿: 梟谷のエースとして烏野との練習試合に勝ち越した"
+      manga:
+        score: 90
+        note: 春高で準々決勝を勝ち上がった。卒業後はMSBYブラックジャッカルでプレーした。
+        evidence:
+          - "春高準々決勝: 狢坂に接戦で勝った"
+          - "原作最終盤: MSBYブラックジャッカルでプレーした"
+  - id: aran
+    name: 尾白アラン
+    affiliation: 稲荷崎 3年
+    cv: 笠間淳
+    editor:
+      anime:
+        score: 86
+        note: 稲荷崎のエース。春高2回戦で烏野に敗れた。
+        evidence:
+          - "第4期 稲荷崎戦: エースとして得点したが烏野に敗れた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: hinata
+    name: 日向翔陽
+    affiliation: 烏野高校 1年
+    cv: 村瀬歩
+    editor:
+      anime:
+        score: 85
+        note: 小柄なミドルブロッカー。影山との速攻で白鳥沢、稲荷崎、音駒を破った。
+        evidence:
+          - "第3期: 春高宮城県予選決勝で白鳥沢に勝った"
+          - "劇場版『ゴミ捨て場の決戦』: 音駒に勝った"
+      manga:
+        score: 92
+        note: 春高は準々決勝で敗れたが、卒業後に力を伸ばし、MSBYブラックジャッカルでプロになった。
+        evidence:
+          - "春高準々決勝: 鴎台に敗れた"
+          - "原作最終盤: MSBYブラックジャッカルの選手としてV.LEAGUEでプレーした"
+  - id: osamu
+    name: 宮治
+    affiliation: 稲荷崎 2年
+    cv: 株元英彰
+    editor:
+      anime:
+        score: 85
+        note: 侑の双子の兄弟。春高2回戦で烏野に敗れた。
+        evidence:
+          - "第4期 稲荷崎戦: 侑と組んだ攻撃を見せたが烏野に敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: tendo
+    name: 天童覚
+    affiliation: 白鳥沢学園 3年
+    cv: 木村昴
+    editor:
+      anime:
+        score: 85
+        note: 白鳥沢のミドルブロッカー。読みのブロックで烏野の攻撃を止めたが、敗れた。
+        evidence:
+          - "第3期: 春高宮城県予選決勝でブロックを重ねたが烏野に敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: kuroo
+    name: 黒尾鉄朗
+    affiliation: 音駒 主将
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 84
+        note: 音駒の主将でミドルブロッカー。春高3回戦で烏野にフルセットで敗れた。
+        evidence:
+          - "劇場版『ゴミ捨て場の決戦』: 烏野にフルセットで敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: iwaizumi
+    name: 岩泉一
+    affiliation: 青葉城西 3年
+    cv: 吉野裕行
+    editor:
+      anime:
+        score: 83
+        note: 青葉城西のエース。及川とともにインターハイ予選で烏野に勝った。
+        evidence:
+          - "第1期: インターハイ宮城県予選で烏野に勝った"
+          - "第2期: 春高宮城県予選準決勝で烏野に敗れた"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: asahi
+    name: 東峰旭
+    affiliation: 烏野高校 3年
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 82
+        note: 烏野のエース。県予選と春高で得点源となった。
+        evidence:
+          - "第3期: 春高宮城県予選決勝で白鳥沢に勝った"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: suna
+    name: 角名倫太郎
+    affiliation: 稲荷崎 2年
+    cv: 島﨑信長
+    editor:
+      anime:
+        score: 80
+        note: 稲荷崎のミドルブロッカー。春高2回戦で烏野に敗れた。
+        evidence:
+          - "第4期 稲荷崎戦: 烏野に敗れた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: nishinoya
+    name: 西谷夕
+    affiliation: 烏野高校 2年
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 80
+        note: 烏野のリベロ。強豪校のスパイクを拾い続けた。
+        evidence:
+          - "第4期 稲荷崎戦: リベロとして守備を支え、烏野が勝った"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: tsukishima
+    name: 月島蛍
+    affiliation: 烏野高校 1年
+    cv: 内山昂輝
+    editor:
+      anime:
+        score: 79
+        note: 烏野のミドルブロッカー。白鳥沢戦で牛島のスパイクをブロックした。
+        evidence:
+          - "第3期: 春高宮城県予選決勝で牛島のスパイクをブロックで止めた"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: yaku
+    name: 夜久衛輔
+    affiliation: 音駒 3年
+    cv: 立花慎之介
+    editor:
+      anime:
+        score: 76
+        note: 音駒のリベロ。春高3回戦で烏野に敗れた。
+        evidence:
+          - "劇場版『ゴミ捨て場の決戦』: 烏野に敗れた"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: kenma
+    name: 孤爪研磨
+    affiliation: 音駒 2年
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 72
+        note: 音駒のセッター。体力は高くないが、作戦で日向を封じにかかった。
+        evidence:
+          - "劇場版『ゴミ捨て場の決戦』: 日向を封じる作戦を立てたが烏野に敗れた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: kita
+    name: 北信介
+    affiliation: 稲荷崎 主将
+    cv: 野島健児
+    editor:
+      anime:
+        score: 66
+        note: 稲荷崎の主将。控えからの出場で、プレーで目立つ場面は少ない。
+        evidence:
+          - "第4期 稲荷崎戦: 控えから出場した"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: hoshiumi
+    name: 星海光来
+    affiliation: 鴎台 エース
+    cv: 花江夏樹
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 小柄なエース。春高準々決勝で烏野に勝った。
+        evidence:
+          - "春高準々決勝: 烏野に勝った"
+  - id: sakusa
+    name: 佐久早聖臣
+    affiliation: 井闥山学院
+    cv: 鳥海浩輔
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 全国トップ3のエースの一人。春高の東京予選を制したが、本戦の準々決勝で敗れた。
+        evidence:
+          - "春高東京予選決勝: 梟谷に勝った"
+          - "春高準々決勝: 犬伏東に逆転負けした"
+  - id: kiryu
+    name: 桐生八
+    affiliation: 狢坂 主将
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 全国三大エースの一人に数えられるパワースパイカー。春高準々決勝で梟谷に接戦で敗れた。
+        evidence:
+          - "春高準々決勝: 梟谷に接戦で敗れた"
+  - id: hirugami
+    name: 昼神幸郎
+    affiliation: 鴎台
+    cv: 宮崎遊
+    appears: manga
+    editor:
+      manga:
+        score: 83
+        note: 鴎台のミドルブロッカー。春高準々決勝で烏野に勝った。
+        evidence:
+          - "春高準々決勝: 烏野に勝った"

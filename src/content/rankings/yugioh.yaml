@@ -1,0 +1,204 @@
+work: 遊☆戯☆王デュエルモンスターズ
+title: 遊☆戯☆王デュエルモンスターズ 最強キャラランキング
+description: 遊☆戯☆王デュエルモンスターズの最強キャラ（デュエリストとしての強さ）をティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ『遊☆戯☆王デュエルモンスターズ』全224話（闘いの儀まで。原作の最終章も描き切っている）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: atem
+    name: 闇遊戯（アテム）
+    affiliation: 千年パズルに宿る王の魂
+    cv: 風間俊介
+    editor:
+      anime:
+        score: 97
+        note: 基準はデュエリストとしての強さ。王国とバトルシティを勝ち抜き、ドーマの首領も退けた。闘いの儀で遊戯に敗れた。
+        evidence:
+          - "王国編: ペガサスに勝った"
+          - "バトルシティ編: 準決勝で海馬、決勝で闇マリクに勝ち優勝した"
+          - "闘いの儀（第220〜224話）: 武藤遊戯に敗れた"
+  - id: yugi
+    name: 武藤遊戯
+    affiliation: 童実野高校
+    cv: 風間俊介
+    editor:
+      anime:
+        score: 94
+        note: 闇遊戯と体を共有する本来の遊戯。最終決戦の闘いの儀でアテムに勝った。
+        evidence:
+          - "闘いの儀（第220〜224話）: アテムに勝った"
+          - "乃亜編: 大田に勝った"
+  - id: kaiba
+    name: 海馬瀬人
+    affiliation: 海馬コーポレーション社長
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 93
+        note: 青眼の白龍を使う。バトルシティでイシズに勝ったが、準決勝で闇遊戯に敗れた。
+        evidence:
+          - "バトルシティ編: イシズに勝った"
+          - "バトルシティ編: 準決勝で闇遊戯に敗れた"
+          - "王国編: ペガサスに敗れ、魂を封じられた"
+  - id: dartz
+    name: ダーツ
+    affiliation: ドーマの首領
+    editor:
+      anime:
+        score: 90
+        note: オレイカルコスの力で多くのデュエリストの魂を集めた首領。最終決戦で3人を相手に敗れた。
+        evidence:
+          - "ドーマ編: 最終決戦で遊戯・海馬・城之内と戦い、敗れた"
+  - id: marik
+    name: マリク・イシュタール（闇マリク）
+    affiliation: グールズの総帥
+    cv: 岩永哲哉
+    editor:
+      anime:
+        score: 89
+        note: ラーの翼神竜を使い、バトルシティ決勝で舞と闇バクラを退けた。決勝で闇遊戯に敗れた。
+        evidence:
+          - "バトルシティ編: 孔雀舞と闇バクラに勝った"
+          - "バトルシティ編: 準決勝で城之内に勝った"
+          - "バトルシティ編: 決勝で闇遊戯に敗れた"
+  - id: pegasus
+    name: ペガサス・J・クロフォード
+    affiliation: インダストリアル・イリュージョン社 会長
+    editor:
+      anime:
+        score: 88
+        note: 千年眼で相手の手札を読む。王国で海馬に勝ったが、遊戯に敗れた。
+        evidence:
+          - "王国編: 海馬に勝った"
+          - "王国編: 決勝で遊戯に敗れた"
+          - "回想: アメリカでキースに勝った"
+  - id: bakura
+    name: 獏良了（闇バクラ）
+    affiliation: 千年リングに宿る魂
+    cv: 松本梨香
+    editor:
+      anime:
+        score: 85
+        note: 闇のゲームを仕掛ける千年リングの魂。バトルシティでは闇マリクに敗れた。
+        evidence:
+          - "バトルシティ編: 骨塚に勝った"
+          - "バトルシティ編: 決勝で闇マリクに敗れた"
+          - "王の記憶編: 遊戯たちに敗れた"
+  - id: rafael
+    name: ラフェール
+    affiliation: ドーマの三銃士
+    editor:
+      anime:
+        score: 84
+        note: ガーディアンを使うドーマの剣士。オレイカルコスの結界を使った闇遊戯に勝ったが、再戦で敗れた。
+        evidence:
+          - "ドーマ編: 闇遊戯に勝った"
+          - "ドーマ編（第174〜176話）: 闇遊戯との再戦に敗れた"
+  - id: jonouchi
+    name: 城之内克也
+    affiliation: 童実野高校
+    cv: 高橋広樹
+    editor:
+      anime:
+        score: 83
+        note: 王国とバトルシティで上位まで勝ち進んだ。バトルシティ準決勝で闇マリクに敗れた。
+        evidence:
+          - "王国編: 竜崎とキースに勝った"
+          - "バトルシティ編: 羽蛾とリシドに勝った"
+          - "バトルシティ編: 準決勝で闇マリクに敗れた"
+  - id: noah
+    name: 海馬乃亜
+    affiliation: 電脳世界の支配者
+    editor:
+      anime:
+        score: 81
+        note: 電脳世界で遊戯たちを追い詰めたが、最後の決闘に敗れた。
+        evidence:
+          - "乃亜編: 遊戯たちとの決闘に敗れた"
+  - id: ishizu
+    name: イシズ・イシュタール
+    affiliation: 墓守の一族
+    cv: 島本須美
+    editor:
+      anime:
+        score: 78
+        note: 千年タウクで未来を読む。バトルシティ決勝で海馬に敗れた。
+        evidence:
+          - "バトルシティ編: 決勝で海馬に敗れた"
+  - id: rishid
+    name: リシド
+    affiliation: 墓守の一族
+    cv: KONTA
+    editor:
+      anime:
+        score: 75
+        note: マリクの代わりに決勝に出た。城之内に敗れた。
+        evidence:
+          - "バトルシティ編: 決勝で城之内に敗れた"
+  - id: zigfried
+    name: ジーク・ロイド
+    affiliation: シュレイダー社
+    editor:
+      anime:
+        score: 73
+        note: KCグランプリに乗り込んだ。羽蛾に勝った。
+        evidence:
+          - "KCグランプリ編: 羽蛾に勝った"
+  - id: mai
+    name: 孔雀舞
+    affiliation: デュエリスト
+    editor:
+      anime:
+        score: 72
+        note: ハーピィ・レディを使う。王国では城之内、バトルシティでは闇マリクに敗れた。
+        evidence:
+          - "王国編: 竜崎に勝った"
+          - "王国編: 城之内に敗れた"
+          - "バトルシティ編: 決勝で闇マリクに敗れた"
+  - id: keith
+    name: バンデット・キース
+    affiliation: アメリカのプロデュエリスト
+    editor:
+      anime:
+        score: 66
+        note: アメリカで名を上げたデュエリスト。ペガサスと城之内に敗れた。
+        evidence:
+          - "王国編: 城之内に敗れた"
+          - "回想: ペガサスに敗れた"
+  - id: otogi
+    name: 御伽龍児
+    affiliation: ダンジョンダイスモンスターズの開発者
+    cv: 内藤玲
+    editor:
+      anime:
+        score: 63
+        note: 自作のダンジョンダイスモンスターズで城之内に勝ったが、闇遊戯に敗れた。
+        evidence:
+          - "DDM編: 城之内に勝った"
+          - "DDM編: 闇遊戯に敗れた"
+  - id: ryuzaki
+    name: ダイナソー竜崎
+    affiliation: デュエリスト
+    editor:
+      anime:
+        score: 58
+        note: 恐竜族を使う。王国とバトルシティで敗退した。
+        evidence:
+          - "王国編: 孔雀舞と城之内に敗れた"
+          - "バトルシティ編: 絽場に敗れた"
+  - id: haga
+    name: インセクター羽蛾
+    affiliation: デュエリスト
+    cv: 高乃麗
+    editor:
+      anime:
+        score: 56
+        note: 昆虫族を使う。王国では遊戯、バトルシティでは城之内に敗れた。
+        evidence:
+          - "王国編: 遊戯に敗れた"
+          - "バトルシティ編: 城之内に敗れた"

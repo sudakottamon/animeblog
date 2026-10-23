@@ -1,0 +1,244 @@
+work: SLAM DUNK
+title: SLAM DUNK 最強キャラランキング
+description: SLAM DUNKの最強キャラ（選手としての実力）をアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全101話（神奈川県予選まで）＋劇場版『THE FIRST SLAM DUNK』（インターハイ山王工業戦）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全31巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: sawakita
+    name: 沢北栄治
+    affiliation: 山王工業 2年
+    editor:
+      anime:
+        score: 96
+        note: 基準は選手としての実力。高校最強の山王工業のエースとして、流川との1対1で上回った。
+        evidence:
+          - "劇場版『THE FIRST SLAM DUNK』: 山王戦で流川との1対1を制して得点を重ねた"
+          - "劇場版『THE FIRST SLAM DUNK』: 山王は湘北に1点差で敗れた"
+      manga:
+        score: 96
+        note: 原作でも評価は変わらない。
+  - id: maki
+    name: 牧紳一
+    affiliation: 海南大附属 主将
+    editor:
+      anime:
+        score: 92
+        note: 神奈川の王者・海南の主将。県予選の決勝リーグで湘北に勝った。
+        evidence:
+          - "県予選決勝リーグ 海南戦: 湘北に競り勝った"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: sendoh
+    name: 仙道彰
+    affiliation: 陵南 2年
+    editor:
+      anime:
+        score: 92
+        note: 陵南のエース。練習試合では湘北に勝ったが、県予選の最終戦では湘北に敗れた。
+        evidence:
+          - "練習試合 陵南戦: 陵南が湘北に勝った"
+          - "県予選決勝リーグ 陵南戦: 湘北に敗れ、インターハイ出場を逃した"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: kawata
+    name: 河田雅史
+    affiliation: 山王工業 3年
+    editor:
+      anime:
+        score: 90
+        note: 山王のセンター。山王戦で赤木を相手に優位に立った。
+        evidence:
+          - "劇場版『THE FIRST SLAM DUNK』: 山王戦で赤木とのマッチアップで優位に立った"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: rukawa
+    name: 流川楓
+    affiliation: 湘北 1年
+    editor:
+      anime:
+        score: 90
+        note: 湘北のスーパールーキー。山王戦では沢北に押されながらも食い下がった。
+        evidence:
+          - "県予選決勝リーグ 陵南戦: 仙道と得点を取り合い湘北が勝った"
+          - "劇場版『THE FIRST SLAM DUNK』: 山王戦で沢北と競り合い、湘北が勝った"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: fukatsu
+    name: 深津一成
+    affiliation: 山王工業 主将
+    editor:
+      anime:
+        score: 89
+        note: 山王の主将でポイントガード。山王は湘北に1点差で敗れた。
+        evidence:
+          - "劇場版『THE FIRST SLAM DUNK』: 山王の司令塔として湘北を相手に試合を組み立てた"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: akagi
+    name: 赤木剛憲
+    affiliation: 湘北 主将
+    editor:
+      anime:
+        score: 87
+        note: 湘北の主将でセンター。県予選を勝ち抜き、山王戦では河田に苦しみながら勝った。
+        evidence:
+          - "県予選決勝リーグ 陵南戦: 魚住とのセンター対決を経て湘北が勝った"
+          - "劇場版『THE FIRST SLAM DUNK』: 山王に1点差で勝った"
+      manga:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: sakuragi
+    name: 桜木花道
+    affiliation: 湘北 1年
+    editor:
+      anime:
+        score: 85
+        note: 初心者から短期間で伸びたリバウンダー。山王戦で最後のシュートを決めた。
+        evidence:
+          - "劇場版『THE FIRST SLAM DUNK』: 山王戦の最後にジャンプシュートを決め、湘北が勝った"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: fujima
+    name: 藤真健司
+    affiliation: 翔陽 選手兼監督
+    editor:
+      anime:
+        score: 84
+        note: 翔陽の選手兼監督。県予選で湘北に敗れた。
+        evidence:
+          - "県予選 翔陽戦: 湘北に敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: mitsui
+    name: 三井寿
+    affiliation: 湘北 3年
+    editor:
+      anime:
+        score: 84
+        note: 中学MVPのシューター。山王戦でも3Pで追い上げに貢献した。
+        evidence:
+          - "県予選 翔陽戦: 3Pを重ねて湘北が勝った"
+          - "劇場版『THE FIRST SLAM DUNK』: 山王戦で3Pを決めて追い上げた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: uozumi
+    name: 魚住純
+    affiliation: 陵南 主将
+    editor:
+      anime:
+        score: 80
+        note: 陵南の主将でセンター。県予選の最終戦で湘北に敗れた。
+        evidence:
+          - "県予選決勝リーグ 陵南戦: 湘北に敗れた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: miyagi
+    name: 宮城リョータ
+    affiliation: 湘北 2年
+    editor:
+      anime:
+        score: 80
+        note: スピードのあるポイントガード。山王戦で深津のプレスを突破した。
+        evidence:
+          - "劇場版『THE FIRST SLAM DUNK』: 山王のプレスをドリブルで突破した"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: jin
+    name: 神宗一郎
+    affiliation: 海南大附属 2年
+    editor:
+      anime:
+        score: 79
+        note: 海南のシューター。県予選で湘北に勝った。
+        evidence:
+          - "県予選決勝リーグ 海南戦: 3Pで得点を重ね、海南が湘北に勝った"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: kiyota
+    name: 清田信長
+    affiliation: 海南大附属 1年
+    editor:
+      anime:
+        score: 75
+        note: 海南の1年生スタメン。県予選で湘北に勝った。
+        evidence:
+          - "県予選決勝リーグ 海南戦: 海南のスタメンとして湘北に勝った"
+      manga:
+        score: 75
+        note: 原作でも評価は変わらない。
+  - id: hanagata
+    name: 花形透
+    affiliation: 翔陽 3年
+    editor:
+      anime:
+        score: 75
+        note: 翔陽のセンター。県予選で湘北に敗れた。
+        evidence:
+          - "県予選 翔陽戦: 湘北に敗れた"
+      manga:
+        score: 75
+        note: 原作でも評価は変わらない。
+  - id: fukuda
+    name: 福田吉兆
+    affiliation: 陵南 2年
+    editor:
+      anime:
+        score: 74
+        note: 得点力のある陵南のフォワード。県予選の最終戦で湘北に敗れた。
+        evidence:
+          - "県予選決勝リーグ 陵南戦: 湘北に敗れた"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: mikio
+    name: 河田美紀男
+    affiliation: 山王工業 1年
+    editor:
+      anime:
+        score: 62
+        note: 河田雅史の弟で体の大きさが武器。技術はまだ荒い。
+        evidence:
+          - "劇場版『THE FIRST SLAM DUNK』: 山王戦の途中から出場し、桜木と競り合った"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: minami
+    name: 南烈
+    affiliation: 豊玉 主将
+    appears: manga
+    editor:
+      manga:
+        score: 79
+        note: 豊玉のエースで得点力が高い。インターハイ1回戦で湘北に敗れた。
+        evidence:
+          - "インターハイ1回戦 豊玉戦: 湘北に敗れた"
+  - id: kishimoto
+    name: 岸本実理
+    affiliation: 豊玉 3年
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 豊玉のフォワード。インターハイ1回戦で湘北に敗れた。
+        evidence:
+          - "インターハイ1回戦 豊玉戦: 湘北に敗れた"
