@@ -1,0 +1,257 @@
+work: 史上最強の弟子ケンイチ
+title: 史上最強の弟子ケンイチ 最強キャラランキング
+description: 史上最強の弟子ケンイチの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全50話（ラグナレク編、原作16巻相当）まで。OVA（YOMI編）は含めない。梁山泊の達人はTVアニメで実戦の決着がほとんど描かれないため、原作勢から候補にする
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全61巻）まで。2026年に始まった続編『ケンイチ2〜達人編〜』は含めない
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: hayato
+    name: 風林寺隼人
+    affiliation: 梁山泊 長老
+    appears: manga
+    editor:
+      manga:
+        score: 97
+        note: 梁山泊の長老。世戯煌臥之助と互角に戦い、久遠の落日ではミサイルを破壊した。
+        evidence:
+          - "原作: 島で世戯煌臥之助と互角の激戦を演じた"
+          - "久遠の落日: 発射されたミサイルを破壊した"
+  - id: saiga
+    name: 風林寺砕牙
+    affiliation: 闇 一影九拳の一影
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: 闇の頂点に立つ一影。久遠の落日で穿彗と激戦の末に勝った。
+        evidence:
+          - "久遠の落日: 穿彗との激戦に勝った"
+  - id: hongo
+    name: 本郷晶
+    affiliation: 闇 一影九拳
+    cv: 横島亘
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 空手家。ティダードでジュナザードを破り、ミハイも瞬殺したが、穿彗には敗れた。
+        evidence:
+          - "ティダード編: シルクァッド・ジュナザードとの決闘に勝った"
+          - "久遠の落日: ミハイ・シュティルベイを瞬殺した"
+          - "久遠の落日: 穿彗に敗れた"
+  - id: jenazad
+    name: シルクァッド・ジュナザード
+    affiliation: 闇 一影九拳
+    cv: 辻親八
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 過去に隼人と引き分けたシラットの達人。本郷晶との決闘で生涯唯一の敗北を喫した。
+        evidence:
+          - "回想: 風林寺隼人と引き分けた"
+          - "ティダード編: 本郷晶との決闘に敗れた"
+  - id: kensei
+    name: 馬剣星
+    affiliation: 梁山泊（中国拳法）
+    cv: 二又一成
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 中国拳法の達人。兄の槍月に僅差で勝ち、ディエゴや美雲も破った。
+        evidence:
+          - "原作: 兄の馬槍月と対決し、僅差で勝った"
+          - "DオブD: 船上のタッグマッチでディエゴ・カーロを破った"
+          - "久遠の落日: 櫛灘美雲を破った"
+  - id: akisame
+    name: 岬越寺秋雨
+    affiliation: 梁山泊（柔術）
+    cv: 小杉十郎太
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 柔術の達人。アレクサンドル・ガイダルと引き分けた後、再戦で絞め落とした。
+        evidence:
+          - "原作: 工事現場でアレクサンドル・ガイダルと引き分けた"
+          - "原作: 基地での再戦でガイダルを絞め落とした"
+  - id: sakaki
+    name: 逆鬼至緒
+    affiliation: 梁山泊（空手）
+    cv: 石塚運昇
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: ケンカ百段の空手家。クリストファーや槍使いを倒した。本郷晶には過去に一度敗れている。
+        evidence:
+          - "原作: クリストファー・エクレールに勝った"
+          - "沖縄編: 世戯煌臥之助の配下の槍使いを正拳突きで倒した"
+  - id: apachai
+    name: アパチャイ・ホパチャイ
+    affiliation: 梁山泊（ムエタイ）
+    cv: 石丸博也
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: ムエタイの達人。沖縄でアーガードと死闘を演じて一度は心肺停止したが、蘇生した。
+        evidence:
+          - "沖縄編: アーガード・ジャム・サイとの死闘で最後の一撃を受けて敗れた"
+  - id: ogata
+    name: 緒方一神斎
+    affiliation: 闇 一影九拳
+    cv: 大塚明夫
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 静動轟一を使う武人。久遠の落日で離反したセロとアーガードを相手に圧倒した。
+        evidence:
+          - "久遠の落日: セロ・ラフマンとアーガード・ジャム・サイを静動轟一で圧倒した"
+  - id: agard
+    name: アーガード・ジャム・サイ
+    affiliation: 闇 一影九拳（ムエタイ）
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: ムエタイの王者。アパチャイとの死闘に最後の一撃で勝ったが、自身も深手を負った。
+        evidence:
+          - "沖縄編: アパチャイ・ホパチャイとの死闘に勝った"
+  - id: shigure
+    name: 香坂しぐれ
+    affiliation: 梁山泊（武器術）
+    cv: 能登麻美子
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: あらゆる武器を使う達人。久遠の落日でミハイを破った。
+        evidence:
+          - "久遠の落日: ミハイ・シュティルベイを心刃合練斬で破った"
+  - id: mikumo
+    name: 櫛灘美雲
+    affiliation: 闇 一影九拳
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 一影九拳の一人。久遠の落日で馬剣星に敗れた。
+        evidence:
+          - "久遠の落日: 馬剣星に敗れ、海に落ちた"
+  - id: sougetsu
+    name: 馬槍月
+    affiliation: 闇 一影九拳
+    cv: 玄田哲章
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 剣星の兄。弟との対決に僅差で敗れた。
+        evidence:
+          - "原作: 弟の馬剣星との対決に敗れた"
+  - id: kenichi
+    name: 白浜兼一
+    affiliation: 梁山泊の弟子
+    cv: 関智一
+    editor:
+      anime:
+        score: 82
+        note: 基準は弟子同士の比較。ラグナレクの拳豪を次々に倒し、最後は第一拳豪オーディーンを止めた。
+        evidence:
+          - "第30話: ジークフリートに勝った"
+          - "ラグナレク編: 大将戦で第一拳豪オーディーン（朝宮龍斗）に勝った"
+      manga:
+        score: 84
+        note: DオブDの決勝で叶翔に勝ち、YOMIとの最終決戦では鍛冶摩里巳も破った。
+        evidence:
+          - "DオブD決勝: 叶翔に勝った"
+          - "最終決戦: 鍛冶摩里巳を流水無拍子で破った"
+  - id: sho
+    name: 叶翔
+    affiliation: YOMI
+    cv: 浪川大輔
+    appears: manga
+    editor:
+      manga:
+        score: 81
+        note: YOMIの実力者。DオブDの決勝で兼一に敗れた。
+        evidence:
+          - "DオブD決勝: 白浜兼一に敗れた"
+  - id: ryuto
+    name: 朝宮龍斗
+    affiliation: ラグナレク 第一拳豪オーディーン
+    cv: 成田剣
+    editor:
+      anime:
+        score: 80
+        note: 兼一の幼なじみ。一度は兼一を圧倒したが、大将戦では静動轟一の反動もあって敗れた。
+        evidence:
+          - "第41話: 白浜兼一を圧倒した"
+          - "ラグナレク編: 大将戦で兼一に敗れた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: natsu
+    name: 谷本夏
+    affiliation: ラグナレク ハーミット
+    cv: 堀川りょう
+    editor:
+      anime:
+        score: 76
+        note: ラグナレクの拳豪。兼一とは決着がつかず、最終決戦ではバーサーカーに勝った。
+        evidence:
+          - "第33話: 白浜兼一と戦い、決着はつかなかった"
+          - "第48話: バーサーカーに勝った"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: siegfried
+    name: 九弦院響
+    affiliation: ラグナレク ジークフリート
+    cv: 真殿光昭
+    editor:
+      anime:
+        score: 72
+        note: 何度殴っても倒れない拳豪。兼一に敗れた。
+        evidence:
+          - "第30話: 白浜兼一に敗れた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: berserker
+    name: 吉川将吾
+    affiliation: ラグナレク バーサーカー
+    cv: 中田譲治
+    editor:
+      anime:
+        score: 68
+        note: 新白連合の壊滅に動いた拳豪。最終決戦でハーミットに敗れた。
+        evidence:
+          - "第48話: 谷本夏（ハーミット）に敗れた"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: takeda
+    name: 武田一基
+    affiliation: ボクサー
+    cv: 矢尾一樹
+    editor:
+      anime:
+        score: 62
+        note: 序盤に兼一と戦ったボクサー。兼一に敗れた。
+        evidence:
+          - "TVアニメ前半: 白浜兼一に敗れた"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。

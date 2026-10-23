@@ -1,0 +1,162 @@
+work: 喧嘩稼業
+title: 喧嘩稼業 最強キャラランキング
+description: 喧嘩稼業（前作の喧嘩商売を含む）の最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: manga
+    label: 漫画勢
+    range: 『喧嘩商売』（全24巻）と『喧嘩稼業』単行本既刊（13巻）まで（2026年10月時点で休載中）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: tajima
+    name: 田島彬
+    affiliation: 陰陽トーナメント主催者
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: トーナメントの主催者で、本戦には出ていない。ボクシングでウォーレン・ウォーカーに勝ち、入江無一を再起不能にした。
+        evidence:
+          - "作中: ボクシングでウォーレン・ウォーカーに勝った"
+          - "作中: 富田流の入江無一を襲い、再起不能にした"
+  - id: kudo
+    name: 工藤優作
+    affiliation: 陰陽トーナメント出場者
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 十兵衛を一度倒した男。トーナメント1回戦では屍を打ち込まれながら梶原に勝った。
+        evidence:
+          - "喧嘩商売: ビルの屋上で佐藤十兵衛に勝った"
+          - "陰陽トーナメント1回戦: 梶原修人の足首を外し、ベアハッグで勝った"
+  - id: kanaryuzan
+    name: 金隆山康隆
+    affiliation: 大相撲 横綱
+    appears: manga
+    editor:
+      manga:
+        score: 91
+        note: 生涯無敗の横綱。1回戦で川口夢斗の右足を折って勝ったが、試合後に脳出血で死去した。
+        evidence:
+          - "陰陽トーナメント1回戦: 川口夢斗の右足を折り、鯖折りの最中にタオルが投げ込まれて勝った"
+  - id: bungaku
+    name: 入江文学
+    affiliation: 富田流
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 十兵衛の師匠。真剣勝負で梶原修人の手首を切り落とし、1回戦では櫻井裕章に勝った。
+        evidence:
+          - "作中: 真剣勝負で梶原修人の左手首を切り落として勝った"
+          - "陰陽トーナメント1回戦: 睾丸潰しから金剛で櫻井裕章に勝った"
+  - id: muichi
+    name: 入江無一
+    affiliation: 富田流 先代
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 文学の父。主に回想での登場。梶原隼人と上杉均を金剛で倒したが、田島彬の襲撃で再起不能になった。
+        evidence:
+          - "回想: 梶原隼人に金剛で勝った"
+          - "回想: 上杉均に勝った"
+          - "回想: 田島彬の襲撃で重傷を負った"
+  - id: juubei
+    name: 佐藤十兵衛
+    affiliation: 富田流 入江文学の弟子
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 頭脳と富田流で戦う主人公。工藤に一度敗れたが、石橋や高野を下し、1回戦で佐川徳夫に勝った。
+        evidence:
+          - "喧嘩商売: ビルの屋上で工藤優作に敗れた"
+          - "喧嘩商売: 野試合で石橋強を高山で倒した"
+          - "陰陽トーナメント1回戦: 佐川徳夫を金剛で失神させた"
+  - id: sakurai
+    name: 櫻井裕章
+    affiliation: 陰陽トーナメント出場者
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 1回戦で入江文学と戦い、睾丸潰しから金剛を受けて敗れた。
+        evidence:
+          - "陰陽トーナメント1回戦: 入江文学に敗れた"
+  - id: satomi
+    name: 里見賢治
+    affiliation: 空手家
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 玉拳を使う空手家。空手の山本空に勝った。
+        evidence:
+          - "作中: 玉拳で山本空に勝った"
+  - id: kawaguchi
+    name: 川口夢斗
+    affiliation: 陰陽トーナメント出場者
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 1回戦で横綱の金隆山と戦い、右足を折られてタオル投入で敗れた。
+        evidence:
+          - "陰陽トーナメント1回戦: 金隆山康隆に敗れた"
+  - id: uesugi
+    name: 上杉均
+    affiliation: 陰陽トーナメント出場者
+    appears: manga
+    editor:
+      manga:
+        score: 79
+        note: 過去に入江無一と戦い、金剛で敗れた。
+        evidence:
+          - "回想: 入江無一に敗れた"
+  - id: kajiwara
+    name: 梶原修人
+    affiliation: 梶原柳剛流
+    appears: manga
+    editor:
+      manga:
+        score: 77
+        note: 剣術の使い手。真剣勝負で入江文学に手首を落とされ、1回戦では工藤に敗れた。
+        evidence:
+          - "作中: 真剣勝負で入江文学に敗れた"
+          - "陰陽トーナメント1回戦: 工藤優作に敗れた"
+  - id: tokuo
+    name: 佐川徳夫
+    affiliation: 陰陽トーナメント出場者
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 1回戦で十兵衛と戦い、金剛で失神させられた。
+        evidence:
+          - "陰陽トーナメント1回戦: 佐藤十兵衛に敗れた"
+  - id: ishibashi
+    name: 石橋強
+    affiliation: 喧嘩商売の登場人物
+    appears: manga
+    editor:
+      manga:
+        score: 62
+        note: 高野照久に勝ったが、十兵衛との野試合に敗れた。
+        evidence:
+          - "喧嘩商売: 野試合で高野照久に勝った"
+          - "喧嘩商売: 野試合で佐藤十兵衛に敗れた"
+  - id: takano
+    name: 高野照久
+    affiliation: 喧嘩商売の登場人物
+    appears: manga
+    editor:
+      manga:
+        score: 58
+        note: 蹴り技を使う。デビル塚山にKO勝ちしたが、石橋と十兵衛に敗れた。
+        evidence:
+          - "喧嘩商売: デビル塚山にKO勝ちした"
+          - "喧嘩商売: 佐藤十兵衛に蹴り技をコピーされて敗れた"

@@ -1,0 +1,311 @@
+work: ケンガンアシュラ
+title: ケンガンアシュラ 最強キャラランキング
+description: ケンガンアシュラ（ケンガンオメガを含む）の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: Netflixアニメ『ケンガンアシュラ』Season1・Season2（全52話）で拳願絶命トーナメントの決着まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 『ケンガンアシュラ』（全27巻）と、連載中の続編『ケンガンオメガ』の単行本既刊（34巻、2026年9月時点）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kuroki
+    name: 黒木玄斎
+    affiliation: 怪腕流
+    cv: 玄田哲章
+    editor:
+      anime:
+        score: 98
+        note: 拳願絶命トーナメントの優勝者。理人、桐生、御雷、アギトを破り、決勝で王馬に勝った。
+        evidence:
+          - "拳願絶命トーナメント: 桐生刹那と御雷零に勝った"
+          - "拳願絶命トーナメント 準決勝: 加納アギトに勝った"
+          - "拳願絶命トーナメント 決勝: 十鬼蛇王馬に勝って優勝した"
+      manga:
+        score: 98
+        note: オメガでは観戦に来ていた隼を手刀の一撃で昏倒させた。評価は変わらない。
+        evidence:
+          - "ケンガンオメガ 対抗戦: 隼を手刀の一撃で昏倒させた"
+  - id: ohma
+    name: 十鬼蛇王馬
+    affiliation: 山下一夫の闘技者（二虎流）
+    cv: 鈴木達央
+    editor:
+      anime:
+        score: 93
+        note: 二虎流の使い手。雷庵、コスモ、若槻を破って決勝に進んだが、黒木に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 呉雷庵と今井コスモに勝った"
+          - "拳願絶命トーナメント 準決勝: 若槻武士に勝った"
+          - "拳願絶命トーナメント 決勝: 黒木玄斎に敗れた"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: agito
+    name: 加納アギト
+    affiliation: 拳願会 滅堂の牙
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 92
+        note: 拳願会の頂点に立つ闘技者。大久保、ガオラン、初見を破ったが、準決勝で黒木に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 大久保直也、ガオラン、初見泉に勝った"
+          - "拳願絶命トーナメント 準決勝: 黒木玄斎に敗れた"
+      manga:
+        score: 92
+        note: オメガの対抗戦でも呂天に勝った。評価は変わらない。
+        evidence:
+          - "ケンガンオメガ 対抗戦第6試合: 呂天に勝った"
+  - id: wakatsuki
+    name: 若槻武士
+    affiliation: 猛虎（怪力の持ち主）
+    cv: 加瀬康之
+    editor:
+      anime:
+        score: 88
+        note: 怪力の持ち主。ユリウスとムテバを破ったが、準決勝で王馬に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: ユリウス・ラインホルトとムテバ・ギゼンガに勝った"
+          - "拳願絶命トーナメント 準決勝: 十鬼蛇王馬に敗れた"
+      manga:
+        score: 88
+        note: オメガの対抗戦では飛王芳と引き分けた。評価は変わらない。
+        evidence:
+          - "ケンガンオメガ 対抗戦第12試合: 飛王芳と引き分けた"
+  - id: fei
+    name: 飛王芳
+    affiliation: 煉獄
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 煉獄の闘技者。対抗戦で若槻武士と引き分けた。
+        evidence:
+          - "ケンガンオメガ 対抗戦第12試合: 若槻武士と引き分けた"
+  - id: raian
+    name: 呉雷庵
+    affiliation: 呉一族
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 87
+        note: 暗殺一族・呉の天才。茂吉に勝ったが、2回戦で王馬に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 茂吉・ロビンソンに勝った"
+          - "拳願絶命トーナメント: 十鬼蛇王馬に敗れた"
+      manga:
+        score: 87
+        note: オメガの対抗戦ではアラン・呉に勝った（相手の反則による）。評価は変わらない。
+        evidence:
+          - "ケンガンオメガ 対抗戦第7試合: アラン・呉に勝った"
+  - id: mikazuchi
+    name: 御雷零
+    affiliation: 御雷流
+    cv: 小野大輔
+    editor:
+      anime:
+        score: 85
+        note: 速さを武器にする御雷流の使い手。サーパインに勝ったが、黒木に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 鎧塚サーパインに勝った"
+          - "拳願絶命トーナメント: 黒木玄斎に敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: kiryu
+    name: 桐生刹那
+    affiliation: 羅刹掌
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 84
+        note: 王馬に執着する闘技者。二階堂を破ったが、黒木に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 二階堂蓮に勝った"
+          - "拳願絶命トーナメント: 黒木玄斎に敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: hatsumi
+    name: 初見泉
+    affiliation: 初見流合気道
+    cv: 蓮池龍三
+    editor:
+      anime:
+        score: 84
+        note: 合気道の達人。坂東らを破ったが、加納アギトに敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 坂東洋平に勝った"
+          - "拳願絶命トーナメント: 加納アギトに敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: mutaba
+    name: ムテバ・ギゼンガ
+    affiliation: 傭兵
+    cv: 楠大典
+    editor:
+      anime:
+        score: 83
+        note: 傭兵出身の闘技者。目黒と関林を破ったが、若槻に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 目黒正樹と関林ジュンに勝った"
+          - "拳願絶命トーナメント: 若槻武士に敗れた"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: cosmo
+    name: 今井コスモ
+    affiliation: 絞め技の使い手
+    cv: 榎木淳弥
+    editor:
+      anime:
+        score: 82
+        note: 絞め技を得意とする若手。阿古谷に勝ったが、王馬に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 阿古谷清秋に勝った"
+          - "拳願絶命トーナメント: 十鬼蛇王馬に敗れた"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: ryuki
+    name: 臥王龍鬼
+    affiliation: 臥王流
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 阿古谷との仕合には敗れた。対抗戦ではナイダンに致命傷を負わせて反則負けになった。
+        evidence:
+          - "ケンガンオメガ: 阿古谷清秋との仕合に敗れた"
+          - "ケンガンオメガ 対抗戦第5試合: ナイダン・ムンフバトを倒したが反則負けになった"
+  - id: carlos
+    name: カーロス・メデル
+    affiliation: 煉獄
+    appears: manga
+    editor:
+      manga:
+        score: 81
+        note: 煉獄の闘技者。対抗戦の第1試合でガオランに勝った。
+        evidence:
+          - "ケンガンオメガ 対抗戦第1試合: ガオランに勝った"
+  - id: akoya
+    name: 阿古谷清秋
+    affiliation: 処刑人
+    cv: 小山力也
+    editor:
+      anime:
+        score: 80
+        note: 警官でもある処刑人。1回戦に勝ったが、2回戦でコスモに敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 今井コスモに敗れた"
+      manga:
+        score: 80
+        note: オメガでは臥王龍鬼に勝った。対抗戦ではニコラ・レ・バンナとの試合が没収になった。
+        evidence:
+          - "ケンガンオメガ: 臥王龍鬼との仕合に勝った"
+          - "ケンガンオメガ 対抗戦第9試合: ニコラ・レ・バンナとの殺し合いで没収試合になった"
+  - id: gaolang
+    name: ガオラン・ウォンサワット
+    affiliation: ムエタイ王者
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 80
+        note: ボクシングを使うムエタイ王者。金田に勝ったが、加納アギトに敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 金田末吉に勝った"
+          - "拳願絶命トーナメント: 加納アギトに敗れた"
+      manga:
+        score: 79
+        note: オメガの対抗戦ではカーロス・メデルに敗れた。
+        evidence:
+          - "ケンガンオメガ 対抗戦第1試合: カーロス・メデルに敗れた"
+  - id: julius
+    name: ユリウス・ラインホルト
+    affiliation: 筋力至上主義の闘技者
+    cv: 白熊寛嗣
+    editor:
+      anime:
+        score: 78
+        note: 巨大な筋肉を持つ闘技者。1回戦は不戦勝で、2回戦で若槻に敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 若槻武士に敗れた"
+      manga:
+        score: 79
+        note: オメガの対抗戦ではトア・ムドーに勝った。
+        evidence:
+          - "ケンガンオメガ 対抗戦第3試合: トア・ムドーに勝った"
+  - id: hayabusa
+    name: 隼
+    affiliation: 煉獄
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 対抗戦で理人に勝ったが、観戦に来ていた黒木に手刀一撃で昏倒させられた。
+        evidence:
+          - "ケンガンオメガ 対抗戦第2試合: 理人に勝った"
+          - "ケンガンオメガ 対抗戦: 黒木玄斎の手刀一撃で昏倒した"
+  - id: okubo
+    name: 大久保直也
+    affiliation: 総合格闘家
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 74
+        note: 総合格闘技の王者。1回戦で加納アギトに敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 加納アギトに敗れた"
+      manga:
+        score: 76
+        note: オメガの対抗戦では赫に勝った。
+        evidence:
+          - "ケンガンオメガ 対抗戦第11試合: 赫に勝った"
+  - id: rihito
+    name: 理人
+    affiliation: 若手闘技者
+    cv: 金子隼人
+    editor:
+      anime:
+        score: 72
+        note: 怪力を持つ若手。デビュー戦で王馬に敗れ、トーナメントでは1回戦で黒木に敗れた。
+        evidence:
+          - "理人のデビュー戦: 十鬼蛇王馬に敗れた"
+          - "拳願絶命トーナメント: 黒木玄斎に敗れた"
+      manga:
+        score: 73
+        note: オメガの対抗戦では隼に敗れたが、戦鬼杯の決勝で成島光我に勝った。
+        evidence:
+          - "ケンガンオメガ 戦鬼杯決勝: 成島光我に勝った"
+          - "ケンガンオメガ 対抗戦第2試合: 隼に敗れた"
+  - id: sekibayashi
+    name: 関林ジュン
+    affiliation: プロレスラー
+    cv: 稲田徹
+    editor:
+      anime:
+        score: 72
+        note: 受けの強さで戦うプロレスラー。鬼王山に勝ったが、ムテバに敗れた。
+        evidence:
+          - "拳願絶命トーナメント: 鬼王山に勝った"
+          - "拳願絶命トーナメント: ムテバ・ギゼンガに敗れた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: koga
+    name: 成島光我
+    affiliation: オメガの主人公
+    appears: manga
+    editor:
+      manga:
+        score: 68
+        note: オメガの主人公。蟲の夏忌を倒したが、戦鬼杯の決勝では理人に敗れた。
+        evidence:
+          - "ケンガンオメガ: 対抗戦の前に夏忌を倒した"
+          - "ケンガンオメガ 戦鬼杯決勝: 理人に敗れた"

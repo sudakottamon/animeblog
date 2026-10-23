@@ -116,12 +116,12 @@
 - [x] `lupin` ルパン三世
 
 ## バッチ 15
-- [ ] `baki` 刃牙シリーズ（グラップラー刃牙〜刃牙道・バキ道）
-- [ ] `kengan-ashura` ケンガンアシュラ（ケンガンオメガを含める）
-- [ ] `hajime-no-ippo` はじめの一歩
-- [ ] `kenichi` 史上最強の弟子ケンイチ
-- [ ] `kenka-kagyou` 喧嘩稼業（アニメ化されていない（喧嘩商売を含む））
-- [ ] `holyland` ホーリーランド
+- [x] `baki` 刃牙シリーズ（グラップラー刃牙〜刃牙道・バキ道）
+- [x] `kengan-ashura` ケンガンアシュラ（ケンガンオメガを含める）
+- [x] `hajime-no-ippo` はじめの一歩
+- [x] `kenichi` 史上最強の弟子ケンイチ
+- [x] `kenka-kagyou` 喧嘩稼業（アニメ化されていない（喧嘩商売を含む））
+- [x] `holyland` ホーリーランド
 
 ## バッチ 16
 - [ ] `wind-breaker` WIND BREAKER

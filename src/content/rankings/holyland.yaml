@@ -1,0 +1,183 @@
+work: ホーリーランド
+title: ホーリーランド 最強キャラランキング
+description: ホーリーランドの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: manga
+    label: 漫画勢
+    range: 原作完結（単行本全18巻）まで。テレビドラマ版（2005年）は含めない
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: yuu
+    name: 神代ユウ
+    affiliation: ヤンキー狩り（主人公）
+    appears: manga
+    editor:
+      manga:
+        score: 95
+        note: 街の喧嘩屋を次々に倒した主人公。ヨシトに一度敗れたが再戦で勝ち、最後はマサキとのタイマンにも勝った。
+        evidence:
+          - "ヨシトとの再戦: 小原ヨシトに勝った"
+          - "ショウゴとの再戦: 緑川ショウゴに勝った"
+          - "最終盤: 伊沢マサキとの最後のタイマンに勝った"
+  - id: yoshito
+    name: 小原ヨシト
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 作中でユウに勝った数少ない相手。再戦では敗れた。
+        evidence:
+          - "ヨシトとの初戦: 神代ユウに勝った"
+          - "ヨシトとの再戦: 神代ユウに敗れた"
+  - id: masaki
+    name: 伊沢マサキ
+    affiliation: ユウの友人
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: タックルを武器に土屋や鉄、ナイフ使いの吉井を下した。タカには敗れ、最後のタイマンではユウに敗れた。
+        evidence:
+          - "土屋戦: タックルで土屋に勝った"
+          - "吉井戦: ナイフを完封して吉井に勝った"
+          - "タカ戦: タカに敗れた"
+  - id: shougo
+    name: 緑川ショウゴ
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: ユウとの再戦に敗れたが、竜を意識不明の重体にした。
+        evidence:
+          - "竜戦: 竜を倒し、意識不明の重体にした"
+          - "ユウとの再戦: 神代ユウに敗れた"
+  - id: taka
+    name: タカ
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: マサキに勝ったが、ユウには敗れた。
+        evidence:
+          - "マサキ戦: 伊沢マサキに勝った"
+          - "ユウ戦: 神代ユウに敗れた"
+  - id: king
+    name: ドラッグキング
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: ユウとのタイマンに敗れた。
+        evidence:
+          - "キング戦: 神代ユウとのタイマンに敗れた"
+  - id: ryu
+    name: 竜
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 加藤に勝ったが、ユウとショウゴに敗れた。
+        evidence:
+          - "竜戦: 加藤に勝った"
+          - "竜戦: 神代ユウと緑川ショウゴに敗れた"
+  - id: kato
+    name: 加藤
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 77
+        note: ユウと竜に敗れた。
+        evidence:
+          - "加藤戦: 神代ユウに敗れた"
+          - "竜戦: 竜に敗れた"
+  - id: tsuchiya
+    name: 土屋
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: マサキのタックルに敗れ、ユウにも敗れた。
+        evidence:
+          - "土屋戦: 伊沢マサキと神代ユウに敗れた"
+  - id: tetsu
+    name: 鉄
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: ケンジに勝ったが、マサキに敗れた。
+        evidence:
+          - "鉄戦: ケンジに勝った"
+          - "鉄戦: 伊沢マサキに敗れた"
+  - id: iwato
+    name: 岩戸
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 74
+        note: ユウに敗れた。
+        evidence:
+          - "岩戸戦: 神代ユウに敗れた"
+  - id: yoshii
+    name: 吉井
+    affiliation: ナイフ使い
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: ナイフを使う不良。マサキとのタイマンでナイフを完封されて敗れた。
+        evidence:
+          - "吉井戦: 伊沢マサキに敗れた"
+  - id: yamazaki
+    name: 山崎
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: ユウに敗れた。
+        evidence:
+          - "山崎戦: 神代ユウに敗れた"
+  - id: yagi
+    name: 八木
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 68
+        note: 中村に勝ったが、ユウに敗れた。
+        evidence:
+          - "八木戦: 中村に勝った"
+          - "八木戦: 神代ユウに敗れた"
+  - id: osada
+    name: 長田
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 64
+        note: ユウに2度敗れた。
+        evidence:
+          - "長田戦: 神代ユウに2度敗れた"
+  - id: kenji
+    name: ケンジ
+    affiliation: ストリートファイター
+    appears: manga
+    editor:
+      manga:
+        score: 60
+        note: 鉄に敗れた。
+        evidence:
+          - "鉄戦: 鉄に敗れた"
