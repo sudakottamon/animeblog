@@ -1,0 +1,177 @@
+work: 今日から俺は!!
+title: 今日から俺は!! 最強キャラランキング
+description: 今日から俺は!!の最強キャラを原作の描写でティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全38巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: mitsuhashi
+    name: 三橋貴志
+    affiliation: 軟葉高校
+    cv: 松本保典
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: 卑怯な手も使いながら、相良猛、柳鋭次、北山、白鳥らを倒した。片桐智司とは引き分けている。
+        evidence:
+          - "単行本9〜10巻: 相良猛に勝った"
+          - "開久との抗争: 片桐智司と引き分けた（警察が割って入った）"
+          - "最終盤: 北山にガソリンを使った策で勝った"
+  - id: katagiri
+    name: 片桐智司
+    affiliation: 開久高校 番長
+    cv: 大塚明夫
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 開久の頭。三橋貴志と引き分け、紅羽の今井勝俊にも勝った。
+        evidence:
+          - "開久との抗争: 三橋貴志と引き分けた"
+          - "原作: 今井勝俊に勝った"
+  - id: ito
+    name: 伊藤真司
+    affiliation: 軟葉高校
+    cv: 堀秀行
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 藤田洋、大嶽重弘、黒崎鉄矢に一度敗れたが、いずれも再戦で勝った。最終章では手負いのまま相良猛との一騎打ちに勝った。
+        evidence:
+          - "単行本37〜38巻: 相良猛との一騎打ちに勝った"
+          - "北根壊との抗争: 一度敗れた大嶽重弘に再戦で勝った"
+  - id: nakano
+    name: 中野
+    affiliation: 紅羽高校（光圀工業から転校）
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 京都で三橋貴志を背後からの不意打ちで倒した。極道の須藤や開久の末永一派にも勝っている。
+        evidence:
+          - "京都での喧嘩: 背後からの不意打ちで三橋貴志に勝った"
+          - "原作: 極道の須藤に勝った"
+  - id: sagara
+    name: 相良猛
+    affiliation: 開久高校 ナンバー2
+    cv: 辻谷耕史
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 鉄パイプを使う開久のナンバー2。今井勝俊に勝ったが、三橋貴志と伊藤真司にそれぞれ敗れた。
+        evidence:
+          - "単行本9〜10巻: 今井勝俊に勝った"
+          - "単行本9〜10巻: 三橋貴志に敗れた"
+          - "単行本37〜38巻: 伊藤真司に敗れた"
+  - id: kitayama
+    name: 北山
+    affiliation: 犯罪組織に追われる売人
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 今井勝俊を倒した終盤の敵。伊藤真司と谷川安夫に敗れ、三橋貴志にも策にはめられて敗れた。
+        evidence:
+          - "最終盤: 今井勝俊に勝った"
+          - "最終盤: 三橋貴志に敗れた"
+  - id: imai
+    name: 今井勝俊
+    affiliation: 紅羽高校 番長
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 巨漢の小山太郎を投げ飛ばして勝った。片桐智司、相良猛、北山には敗れている。
+        evidence:
+          - "原作: 小山太郎を投げ飛ばして勝った"
+          - "単行本9〜10巻: 相良猛に敗れた"
+  - id: otake
+    name: 大嶽重弘
+    affiliation: 北根壊高校
+    appears: manga
+    editor:
+      manga:
+        score: 74
+        note: 柳鋭次の相棒で通称ゴメス。伊藤真司に一度勝ったが、再戦で敗れた。
+        evidence:
+          - "北根壊との抗争: 伊藤真司に一度勝ち、再戦で敗れた"
+  - id: fujita
+    name: 藤田洋
+    affiliation: 紅羽高校
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: ボクシングを使う紅羽のナンバー2。伊藤真司に一度勝ったが、再戦で敗れた。
+        evidence:
+          - "原作: 伊藤真司に一度勝ち、再戦で敗れた"
+  - id: koyama
+    name: 小山太郎
+    affiliation: 忠実高校→紅羽高校
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 身長197cmの巨漢。今井勝俊に敗れたが、開久の集団を相手に最後まで粘った。
+        evidence:
+          - "単行本17巻: 開久の集団を相手に最後まで立ち続けた"
+  - id: yanagi
+    name: 柳鋭次
+    affiliation: 北根壊高校 番長
+    appears: manga
+    editor:
+      manga:
+        score: 68
+        note: ナイフと「身代わり小僧」の手口を使う。三橋貴志とのタイマンに敗れた。
+        evidence:
+          - "北根壊との抗争: 三橋貴志とのタイマンに敗れた"
+  - id: kurosaki
+    name: 黒崎鉄矢
+    affiliation: 黒崎道場
+    appears: manga
+    editor:
+      manga:
+        score: 66
+        note: 空手の使い手。目つぶしで伊藤真司に一度勝ったが、再戦で敗れた。三橋貴志にも敗れた。
+        evidence:
+          - "原作: 伊藤真司に一度勝ち、再戦で敗れた"
+          - "原作: 三橋貴志に畳を使った反則で敗れた"
+  - id: shiratori
+    name: 白鳥
+    affiliation: 裏番
+    appears: manga
+    editor:
+      manga:
+        score: 64
+        note: 多くの手下を抱える裏番。三橋貴志とのタイマンに敗れた。
+        evidence:
+          - "原作: 三橋貴志とのタイマンに敗れた"
+  - id: sudo
+    name: 須藤
+    affiliation: 極道組幹部
+    appears: manga
+    editor:
+      manga:
+        score: 62
+        note: ナイフと拳銃を持つ極道の幹部。中野と三橋貴志に敗れた。
+        evidence:
+          - "原作: 中野に敗れた"
+          - "原作: 三橋貴志に敗れた"
+  - id: tanigawa
+    name: 谷川安夫
+    affiliation: 紅羽高校
+    appears: manga
+    editor:
+      manga:
+        score: 45
+        note: 今井勝俊の子分。喧嘩は弱いが、松村には勝っている。
+        evidence:
+          - "原作: 松村に勝った"

@@ -1,0 +1,145 @@
+work: あしたのジョー
+title: あしたのジョー 最強キャラランキング
+description: あしたのジョーの最強キャラを、アニメと原作の完結までの描写でティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ『あしたのジョー』『あしたのジョー2』・原作（全20巻）とも完結まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: jose
+    name: ホセ・メンドーサ
+    affiliation: バンタム級 世界王者
+    cv: 宮村義人
+    editor:
+      anime:
+        score: 98
+        note: 基準はボクサーとしての実力。カーロス・リベラをパンチドランカーにし、矢吹丈との世界戦も判定で制した。
+        evidence:
+          - "ホセ対カーロス: カーロス・リベラに勝ち、パンチドランカーにした"
+          - "サム・イアウケア戦: 1回KOで勝った"
+          - "ホセ戦: 矢吹丈に判定で勝った"
+  - id: joe
+    name: 矢吹丈
+    affiliation: 丹下ジム
+    cv: あおい輝彦
+    editor:
+      anime:
+        score: 95
+        note: 力石徹には敗れたが、金竜飛とハリマオに勝って世界戦にたどり着いた。ホセ・メンドーサとは最終回まで打ち合い、判定で敗れた。
+        evidence:
+          - "ウルフ金串戦: トリプルクロスで勝った"
+          - "金竜飛戦: 金竜飛に勝った"
+          - "ホセ戦: ホセ・メンドーサに判定で敗れた"
+  - id: rikiishi
+    name: 力石徹
+    affiliation: 白木ジム
+    cv: 仲村秀生
+    editor:
+      anime:
+        score: 93
+        note: 13連続KO勝ちを重ねたうえで、矢吹丈との試合に勝った。試合直後に亡くなった。
+        evidence:
+          - "力石戦: 矢吹丈に勝った"
+  - id: carlos
+    name: カーロス・リベラ
+    affiliation: ベネズエラのボクサー
+    editor:
+      anime:
+        score: 88
+        note: 南郷浩二、原島龍、タイガー尾崎を次々に倒した。ホセ・メンドーサに敗れ、パンチドランカーになった。
+        evidence:
+          - "カーロス来日: タイガー尾崎を1回16秒でKOした"
+          - "カーロス来日: 矢吹丈とのエキシビションはノーコンテストに終わった"
+          - "ホセ対カーロス: ホセ・メンドーサに敗れた"
+  - id: kim
+    name: 金竜飛
+    affiliation: 韓国のボクサー
+    cv: 若本規夫
+    editor:
+      anime:
+        score: 87
+        note: 世界戦の前に矢吹丈と戦った強豪。矢吹丈に敗れた。
+        evidence:
+          - "金竜飛戦: 矢吹丈に敗れた"
+  - id: harimao
+    name: ハリマオ
+    affiliation: ボクサー
+    cv: 田口昂
+    editor:
+      anime:
+        score: 84
+        note: 日本デビュー戦で滝川修平をダウンさせて勝った。矢吹丈との試合では取り乱して反則負けになった。
+        evidence:
+          - "ハリマオ戦: 矢吹丈に反則負けした"
+  - id: wolf
+    name: ウルフ金串
+    affiliation: ボクサー
+    editor:
+      anime:
+        score: 76
+        note: プロで矢吹丈と戦い、トリプルクロスで敗れた。後にゴロマキ権藤に顎を砕かれた。
+        evidence:
+          - "ウルフ金串戦: 矢吹丈に敗れた"
+          - "原作: ゴロマキ権藤に顎を砕かれた"
+  - id: gondo
+    name: ゴロマキ権藤
+    affiliation: 喧嘩屋
+    editor:
+      anime:
+        score: 70
+        note: リングの外でウルフ金串の顎を砕いた。矢吹丈にはダウンを奪われた。
+        evidence:
+          - "原作: ウルフ金串の顎を砕いた"
+          - "原作: 矢吹丈にダウンを奪われた"
+  - id: nango
+    name: 南郷浩二
+    affiliation: ボクサー
+    editor:
+      anime:
+        score: 66
+        note: 不調だった矢吹丈に反則勝ちした。カーロス・リベラにはKOで敗れた。
+        evidence:
+          - "南郷戦: 矢吹丈の反則で勝った"
+          - "カーロス来日: カーロス・リベラにKOで敗れた"
+  - id: harashima
+    name: 原島龍
+    affiliation: ボクサー
+    editor:
+      anime:
+        score: 65
+        note: 不調だった矢吹丈に反則勝ちした。カーロス・リベラには棄権で敗れた。
+        evidence:
+          - "原島戦: 矢吹丈の反則で勝った"
+          - "カーロス来日: カーロス・リベラに棄権で敗れた"
+  - id: tiger
+    name: タイガー尾崎
+    affiliation: ボクサー
+    editor:
+      anime:
+        score: 64
+        note: 力石の死後に調子を崩していた矢吹丈に勝った。カーロス・リベラには1回16秒で倒された。
+        evidence:
+          - "タイガー尾崎戦: 矢吹丈にKOで勝った"
+          - "カーロス来日: カーロス・リベラに1回KOで敗れた"
+  - id: nishi
+    name: マンモス西（西寛一）
+    affiliation: 丹下ジム
+    editor:
+      anime:
+        score: 55
+        note: 少年院で矢吹丈に敗れ、後に同じジムでプロになった。
+        evidence:
+          - "少年院: 矢吹丈との喧嘩に敗れた"
+  - id: aoyama
+    name: 青山まもる
+    affiliation: 少年院
+    editor:
+      anime:
+        score: 50
+        note: 少年院のボクシング大会で矢吹丈を苦しめた。
+        evidence:
+          - "少年院のボクシング大会: 矢吹丈を相手に粘った"

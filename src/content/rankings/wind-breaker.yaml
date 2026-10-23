@@ -1,0 +1,253 @@
+work: WIND BREAKER
+title: WIND BREAKER 最強キャラランキング
+description: WIND BREAKERの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメSeason 2（第25話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本最新27巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: umemiya
+    name: 梅宮一
+    affiliation: 防風鈴 総代
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 95
+        note: 獅子頭連との大将戦で頭取の兎耳山丁子に勝った。防風鈴の頂点として描かれる。
+        evidence:
+          - "獅子頭連編: 大将戦で兎耳山丁子を頭突きで沈めた"
+      manga:
+        score: 96
+        note: 国崩大火編で焚石矢との最終決戦に勝った。一時は押し込まれたが、立て直して決着をつけた。
+        evidence:
+          - "国崩大火編: 焚石矢との最終決戦に勝った"
+  - id: takiishi
+    name: 焚石矢
+    affiliation: 元防風鈴
+    cv: 神谷浩史
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 梅宮との最終決戦で一時は梅宮を上回った。最後は立て直した梅宮に敗れた。
+        evidence:
+          - "国崩大火編: 梅宮一との最終決戦で一時は優勢に立ったが、敗れた"
+  - id: endo
+    name: 棪堂哉真斗
+    affiliation: 元防風鈴
+    cv: 小野大輔
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 四天王の椿野佑らを一蹴した。桜遥との死闘に敗れた。
+        evidence:
+          - "国崩大火編: 椿野佑ら四天王級の相手を退けた"
+          - "国崩大火編: 桜遥との死闘に敗れた"
+  - id: sakura
+    name: 桜遥
+    affiliation: 防風鈴 1年 級長
+    cv: 内田雄馬
+    editor:
+      anime:
+        score: 85
+        note: 獅子頭連の副頭取・十亀条に勝った。KEELとの抗争でも構成員を相手に前線で戦った。
+        evidence:
+          - "獅子頭連編: 団体戦で十亀条に勝った"
+          - "KEEL編: 長門を取り戻すためKEELの構成員と戦った"
+      manga:
+        score: 92
+        note: 杉下と組んで柱尾修士を倒し、棪堂哉真斗との死闘に勝った。
+        evidence:
+          - "国崩大火編: 杉下京太郎と組んで柱尾修士に勝った"
+          - "国崩大火編: 棪堂哉真斗との死闘に勝った"
+  - id: hiiragi
+    name: 柊登馬
+    affiliation: 防風鈴 四天王
+    cv: 鈴木崚汰
+    editor:
+      anime:
+        score: 86
+        note: 獅子頭連との団体戦で佐狐浩太に勝った。
+        evidence:
+          - "獅子頭連編: 団体戦で佐狐浩太に勝った"
+      manga:
+        score: 87
+        note: 国崩大火編で、梶蓮を倒した盤杖奏音に勝った。
+        evidence:
+          - "国崩大火編: 盤杖奏音に勝った"
+  - id: tomiyama
+    name: 兎耳山丁子
+    affiliation: 獅子頭連 頭取
+    cv: 戸谷菊之介
+    editor:
+      anime:
+        score: 82
+        note: 獅子頭連の頭取。大将戦で梅宮一に敗れた。
+        evidence:
+          - "獅子頭連編: 大将戦で梅宮一に頭突きで敗れた"
+      manga:
+        score: 86
+        note: 国崩大火編で四天王の桃瀬匠を倒した杓子千宙に勝った。
+        evidence:
+          - "国崩大火編: 杓子千宙に勝った"
+  - id: tsubakino
+    name: 椿野佑
+    affiliation: 防風鈴 四天王
+    cv: 大塚剛央
+    editor:
+      anime:
+        score: 85
+        note: GRAVELの硯秀平と戦い、手傷を負いながら勝った。
+        evidence:
+          - "GRAVEL編: 硯秀平に勝った"
+      manga:
+        score: 84
+        note: 国崩大火編で梳地弦治に勝ったが、棪堂哉真斗には一蹴された。
+        evidence:
+          - "国崩大火編: 梳地弦治に勝った"
+          - "国崩大火編: 棪堂哉真斗に敗れた"
+  - id: banjo
+    name: 盤杖奏音
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 獣のようになった梶蓮に勝った。柊登馬には敗れた。
+        evidence:
+          - "国崩大火編: 梶蓮に勝った"
+          - "国崩大火編: 柊登馬に敗れた"
+  - id: suo
+    name: 蘇枋隼飛
+    affiliation: 防風鈴 1年
+    cv: 島﨑信長
+    editor:
+      anime:
+        score: 84
+        note: 獅子頭連との団体戦で完勝した。本気で戦う場面はまだ少ない。
+        evidence:
+          - "獅子頭連編: 団体戦の一戦に完勝した"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: kaji
+    name: 梶蓮
+    affiliation: 防風鈴 2年 級長
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 84
+        note: 窮地の桜たちの代わりに、KEELの頭・名取慎吾と戦って勝った。
+        evidence:
+          - "KEEL編: 名取慎吾に勝った"
+      manga:
+        score: 82
+        note: 国崩大火編で盤杖奏音に敗れた。獣のような状態になっても押し切れなかった。
+        evidence:
+          - "国崩大火編: 盤杖奏音に敗れた"
+  - id: sugishita
+    name: 杉下京太郎
+    affiliation: 防風鈴 1年
+    cv: 内山昂輝
+    editor:
+      anime:
+        score: 80
+        note: 獅子頭連との団体戦の初戦で有馬雪成に完勝した。
+        evidence:
+          - "獅子頭連編: 団体戦の第1戦で有馬雪成に完勝した"
+      manga:
+        score: 82
+        note: 国崩大火編で桜遥と組んで柱尾修士に勝った。
+        evidence:
+          - "国崩大火編: 桜遥と組んで柱尾修士に勝った"
+  - id: shakushi
+    name: 杓子千宙
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 四天王の桃瀬匠に勝ったが、兎耳山丁子に敗れた。
+        evidence:
+          - "国崩大火編: 桃瀬匠に勝った"
+          - "国崩大火編: 兎耳山丁子に敗れた"
+  - id: togame
+    name: 十亀条
+    affiliation: 獅子頭連 副頭取
+    cv: 梅原裕一郎
+    editor:
+      anime:
+        score: 78
+        note: 獅子頭連の副頭取。団体戦で桜遥に敗れた。
+        evidence:
+          - "獅子頭連編: 団体戦で桜遥に敗れた"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: hashirao
+    name: 柱尾修士
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: 桜遥と杉下京太郎の2人を相手にして敗れた。
+        evidence:
+          - "国崩大火編: 桜遥と杉下京太郎に敗れた"
+  - id: suzuri
+    name: 硯秀平
+    affiliation: GRAVEL リーダー
+    cv: 花江夏樹
+    editor:
+      anime:
+        score: 74
+        note: 四天王の椿野佑に大きな手傷を負わせたが、敗れた。
+        evidence:
+          - "GRAVEL編: 椿野佑に敗れた"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: sako
+    name: 佐狐浩太
+    affiliation: 獅子頭連
+    cv: 小林千晃
+    editor:
+      anime:
+        score: 72
+        note: 団体戦で柊登馬と渡り合ったが、最後は倒された。
+        evidence:
+          - "獅子頭連編: 団体戦で柊登馬に敗れた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: natori
+    name: 名取慎吾
+    affiliation: KEEL 頭
+    cv: 榎木淳弥
+    editor:
+      anime:
+        score: 70
+        note: KEELの頭。梶蓮に敗れた。
+        evidence:
+          - "KEEL編: 梶蓮に敗れた"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: arima
+    name: 有馬雪成
+    affiliation: 獅子頭連
+    cv: 水中雅章
+    editor:
+      anime:
+        score: 58
+        note: 団体戦の初戦で杉下京太郎に完敗した。
+        evidence:
+          - "獅子頭連編: 団体戦の第1戦で杉下京太郎に敗れた"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。

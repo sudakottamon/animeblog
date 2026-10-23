@@ -1,0 +1,232 @@
+work: Fate/stay night・Fate/Zero
+title: Fate/stay night・Fate/Zero 最強キャラランキング
+description: Fate/stay nightとFate/Zeroのサーヴァントとマスターから最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・原作勢
+    range: TVアニメ『Fate/Zero』（全25話）、『Fate/stay night』（2006年版）、『[Unlimited Blade Works]』、劇場版『[Heaven's Feel]』三部作まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: gilgamesh
+    name: ギルガメッシュ
+    affiliation: 第四次・第五次 アーチャー
+    cv: 関智一
+    editor:
+      anime:
+        score: 97
+        note: 第四次でイスカンダルを破り、第五次でもバーサーカーとキャスターを倒した。Fateルートではセイバーに、UBWルートでは士郎に敗れた。
+        evidence:
+          - "『Fate/Zero』: 最終盤にライダー（イスカンダル）を破った"
+          - "UBWルート: バーサーカー（ヘラクレス）を倒した"
+          - "UBWルート: 衛宮士郎に敗れた"
+  - id: saber
+    name: セイバー（アルトリア）
+    affiliation: 第四次・第五次 セイバー
+    cv: 川澄綾子
+    editor:
+      anime:
+        score: 93
+        note: 第四次でキャスターとバーサーカーを倒し、Fateルートではギルガメッシュにも勝った。HFルートでは黒化し、バーサーカーを倒した。
+        evidence:
+          - "『Fate/Zero』: キャスターを海魔ごとエクスカリバーで消し飛ばした"
+          - "Fateルート: ギルガメッシュに勝った"
+          - "HFルート: 黒化した状態でバーサーカーを倒した"
+  - id: sakura
+    name: 間桐桜
+    affiliation: 第五次 ライダーのマスター
+    cv: 下屋則子
+    editor:
+      anime:
+        score: 91
+        note: HFルートで黒い影を操り、ギルガメッシュや真アサシンを取り込んだ。対峙した凛にも勝った。
+        evidence:
+          - "HFルート: 影でギルガメッシュを飲み込んだ"
+          - "HFルート: 真アサシンを取り込んだ"
+          - "HFルート: 遠坂凛との対決に勝った"
+  - id: heracles
+    name: バーサーカー（ヘラクレス）
+    affiliation: 第五次 バーサーカー
+    cv: 西前忠久
+    editor:
+      anime:
+        score: 90
+        note: 何度殺されても蘇る宝具で、アーチャーに何度も殺されながら押し切った。ギルガメッシュ、士郎とセイバー、黒化したセイバーには敗れている。
+        evidence:
+          - "Fateルート: アーチャーに何度も殺されながら押し切った"
+          - "Fateルート: 士郎とセイバーに敗れた"
+          - "UBWルート: ギルガメッシュに敗れた"
+  - id: iskandar
+    name: ライダー（イスカンダル）
+    affiliation: 第四次 ライダー
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 90
+        note: 王の軍勢で百の貌のハサンをまとめて殲滅した。最後はギルガメッシュに敗れた。
+        evidence:
+          - "『Fate/Zero』: 王の軍勢でアサシンを殲滅した"
+          - "『Fate/Zero』: 最終盤にギルガメッシュに敗れた"
+  - id: archer
+    name: アーチャー（エミヤ）
+    affiliation: 第五次 アーチャー
+    cv: 諏訪部順一
+    editor:
+      anime:
+        score: 88
+        note: Fateルートでバーサーカーを一人で足止めし、何度も殺した。UBWルートでは士郎との一騎打ちに敗れた。
+        evidence:
+          - "Fateルート: バーサーカーを何度も殺したが、敗れた"
+          - "UBWルート: 衛宮士郎との一騎打ちに敗れた"
+  - id: lancelot
+    name: バーサーカー（ランスロット）
+    affiliation: 第四次 バーサーカー
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 87
+        note: 倉庫街でギルガメッシュの宝具を掴み取って渡り合った。セイバーとの戦いに敗れた。
+        evidence:
+          - "『Fate/Zero』: 倉庫街でギルガメッシュの宝具を奪って応戦した"
+          - "『Fate/Zero』: セイバーとの戦いに敗れた"
+  - id: shirou
+    name: 衛宮士郎
+    affiliation: 第五次 セイバーのマスター
+    cv: 杉山紀彰
+    editor:
+      anime:
+        score: 85
+        note: UBWルートでアーチャーとギルガメッシュに勝った。HFルートではライダーと組んで黒化したセイバーを倒した。
+        evidence:
+          - "UBWルート: アーチャーとの一騎打ちに勝った"
+          - "UBWルート: ギルガメッシュに勝った"
+          - "HFルート: ライダーと組んで黒化したセイバーを倒した"
+  - id: cu-chulainn
+    name: ランサー（クー・フーリン）
+    affiliation: 第五次 ランサー
+    cv: 神奈延年
+    editor:
+      anime:
+        score: 85
+        note: Fateルートでギルガメッシュと長く戦い続けて足止めした。UBWルートでは言峰綺礼と相討ちになった。
+        evidence:
+          - "Fateルート: ギルガメッシュを長時間足止めした"
+          - "UBWルート: 言峰綺礼と相討ちになった"
+  - id: diarmuid
+    name: ランサー（ディルムッド）
+    affiliation: 第四次 ランサー
+    cv: 緑川光
+    editor:
+      anime:
+        score: 84
+        note: セイバーと互角に打ち合い、治らない傷を負わせた。決着の前に令呪で自害させられた。
+        evidence:
+          - "『Fate/Zero』: 倉庫街でセイバーに治らない傷を負わせた"
+          - "『Fate/Zero』: セイバーとの決闘中に令呪で自害させられた"
+  - id: kojiro
+    name: アサシン（佐々木小次郎）
+    affiliation: 第五次 アサシン
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 80
+        note: 柳洞寺の山門を守る剣士。UBWルートでセイバーに敗れた。HFルートでは体を破られて消えた。
+        evidence:
+          - "UBWルート: セイバーに敗れた"
+          - "HFルート: 真アサシンに体を破られた"
+  - id: kiritsugu
+    name: 衛宮切嗣
+    affiliation: 第四次 セイバーのマスター
+    cv: 小山力也
+    editor:
+      anime:
+        score: 80
+        note: 起源弾でケイネスの魔術回路を破壊し、言峰綺礼との直接対決にも勝った。
+        evidence:
+          - "『Fate/Zero』: 起源弾でケイネスの魔術回路を破壊した"
+          - "『Fate/Zero』: 言峰綺礼との直接対決に勝った"
+  - id: medusa
+    name: ライダー（メドゥーサ）
+    affiliation: 第五次 ライダー
+    cv: 浅川悠
+    editor:
+      anime:
+        score: 80
+        note: Fateルートではセイバーに敗れた。HFルートでは士郎と組んで黒化したセイバーを倒した。
+        evidence:
+          - "Fateルート: セイバーに敗れた"
+          - "HFルート: 士郎と組んで黒化したセイバーを倒した"
+  - id: kirei
+    name: 言峰綺礼
+    affiliation: 第四次 アサシンのマスター / 第五次 監督役
+    cv: 中田譲治
+    editor:
+      anime:
+        score: 77
+        note: 代行者として鍛えた体術を持つ。第四次で切嗣に敗れ、Fateルートでは士郎に敗れた。
+        evidence:
+          - "『Fate/Zero』: 衛宮切嗣との直接対決に敗れた"
+          - "UBWルート: ランサーと相討ちになった"
+          - "Fateルート: 衛宮士郎に敗れた"
+  - id: medea
+    name: キャスター（メディア）
+    affiliation: 第五次 キャスター
+    cv: 田中敦子
+    editor:
+      anime:
+        score: 74
+        note: 魔術で柳洞寺を拠点に陣を張った。Fateルートでギルガメッシュに敗れた。
+        evidence:
+          - "Fateルート: ギルガメッシュに敗れた"
+  - id: kuzuki
+    name: 葛木宗一郎
+    affiliation: 第五次 キャスターのマスター
+    editor:
+      anime:
+        score: 74
+        note: 魔術で強化された拳で、初めて戦ったセイバーを追い詰めた。
+        evidence:
+          - "UBWルート: 初戦でセイバーを戦えない状態に追い込んだ"
+  - id: true-assassin
+    name: 真アサシン（ハサン）
+    affiliation: 第五次 アサシン
+    cv: 稲田徹
+    editor:
+      anime:
+        score: 70
+        note: 佐々木小次郎の体を破って現れた。最後は間桐桜に取り込まれた。
+        evidence:
+          - "HFルート: 佐々木小次郎の体を破って現れた"
+          - "HFルート: 間桐桜に取り込まれた"
+  - id: rin
+    name: 遠坂凛
+    affiliation: 第五次 アーチャーのマスター
+    cv: 植田佳奈
+    editor:
+      anime:
+        score: 62
+        note: 宝石魔術を使う魔術師。HFルートで間桐桜と対決し、敗れた。
+        evidence:
+          - "HFルート: 間桐桜との対決に敗れた"
+  - id: gilles
+    name: キャスター（ジル・ド・レェ）
+    affiliation: 第四次 キャスター
+    cv: 鶴岡聡
+    editor:
+      anime:
+        score: 60
+        note: 巨大な海魔を呼び出したが、最後はセイバーのエクスカリバーで消し飛ばされた。
+        evidence:
+          - "『Fate/Zero』: 海魔ごとセイバーに倒された"
+  - id: kayneth
+    name: ケイネス・エルメロイ・アーチボルト
+    affiliation: 第四次 ランサーのマスター
+    cv: 山崎たくみ
+    editor:
+      anime:
+        score: 56
+        note: 月霊髄液で切嗣と戦ったが、起源弾で魔術回路を破壊された。
+        evidence:
+          - "『Fate/Zero』: 衛宮切嗣の起源弾で魔術回路を破壊された"

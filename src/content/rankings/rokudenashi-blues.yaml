@@ -1,0 +1,179 @@
+work: ろくでなしBLUES
+title: ろくでなしBLUES 最強キャラランキング
+description: ろくでなしBLUESの最強キャラを原作の描写でティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全42巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: taison
+    name: 前田太尊
+    affiliation: 帝拳高校 / 東京四天王
+    appears: manga
+    editor:
+      manga:
+        score: 95
+        note: 東京四天王の鬼塚と葛西、極東の川島清志郎に勝った。葛西には初戦で敗れたが、再戦で勝っている。
+        evidence:
+          - "吉祥寺と渋谷の抗争: 鬼塚に勝った"
+          - "井の頭公園: 葛西との再戦に勝った"
+          - "極東との抗争: 川島清志郎に勝った"
+  - id: kasai
+    name: 葛西
+    affiliation: 池袋正道館高校 / 東京四天王
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 四天王の鬼塚と薬師寺をどちらも一方的に倒し、前田太尊にも初戦で勝った。再戦では太尊に敗れた。
+        evidence:
+          - "原作: 鬼塚の肋骨と腕を折って勝った"
+          - "原作: 薬師寺に一方的に勝った"
+          - "井の頭公園: 前田太尊との再戦に敗れた"
+  - id: kawashima
+    name: 川島清志郎
+    affiliation: 極東高校
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 復学してすぐ辰吉保栄を倒し、四天王の鬼塚にも一方的に勝った。最後は前田太尊に敗れた。
+        evidence:
+          - "極東との抗争: 辰吉保栄に勝った"
+          - "極東との抗争: 鬼塚に一方的に勝った"
+          - "極東との抗争: 前田太尊に敗れた"
+  - id: yakushiji
+    name: 薬師寺
+    affiliation: 浅草笹崎高校 / 東京四天王
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 浅草の頭で東京四天王の一人。葛西には一方的に敗れたが、極東の梅津には再戦で勝った。
+        evidence:
+          - "原作: 葛西に敗れた"
+          - "極東との抗争: 梅津との再戦に勝った"
+  - id: onizuka
+    name: 鬼塚
+    affiliation: 渋谷楽翠学園 / 東京四天王
+    appears: manga
+    editor:
+      manga:
+        score: 83
+        note: 東京四天王の一人。前田太尊、葛西、川島清志郎に敗れた。畑山には一度敗れたが、再戦で勝った。
+        evidence:
+          - "吉祥寺と渋谷の抗争: 前田太尊に敗れた"
+          - "原作: 葛西に腕と肋骨を折られても降参しなかった"
+  - id: tokashiki
+    name: 渡嘉敷
+    affiliation: 横浜帝拳高校 ボクシング部
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: ボクシングの試合で前田太尊に勝った。後の対抗戦では太尊のライトクロスに敗れた。
+        evidence:
+          - "ボクシング: 前田太尊に勝った"
+          - "対抗戦: 前田太尊のライトクロスに敗れた"
+  - id: tatsuyoshi
+    name: 辰吉保栄
+    affiliation: 極東高校
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 前田太尊のアッパーを受けても立ち上がった。島袋大には一方的に勝ったが、川島清志郎に敗れた。
+        evidence:
+          - "原作: 島袋大に一方的に勝った"
+          - "極東との抗争: 川島清志郎に敗れた"
+  - id: hatanaka
+    name: 畑中優太郎
+    affiliation: 帝拳高校 ボクシング部主将
+    appears: manga
+    editor:
+      manga:
+        score: 79
+        note: 帝拳ボクシング部の主将。スパーリングで前田太尊に勝った。
+        evidence:
+          - "ボクシング部: 前田太尊とのスパーリングに勝った"
+  - id: shimabukuro
+    name: 島袋大
+    affiliation: 米倉商業高校
+    appears: manga
+    editor:
+      manga:
+        score: 77
+        note: 前田太尊とはいつも決着がつかない。辰吉保栄、鬼塚、葛西には隙を突かれて敗れた。
+        evidence:
+          - "原作: 前田太尊との喧嘩は決着がつかなかった"
+          - "原作: 辰吉保栄に一方的に敗れた"
+  - id: kamiyama
+    name: 上山
+    affiliation: 渋谷楽翠学園 ナンバー2
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: 勝嗣、米示、ジョーの3人をまとめて倒した。川島清志郎には敗れた。
+        evidence:
+          - "原作: 山下勝嗣、沢村米示、ジョーの3人に勝った"
+          - "極東との抗争: 川島清志郎に敗れた"
+  - id: mihara
+    name: 三原剛史
+    affiliation: 三迫工業高校
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 大橋と勝嗣を簡単に倒したが、前田太尊に墓石へのフロントスープレックスで沈められた。
+        evidence:
+          - "原作: 大橋と山下勝嗣を倒した"
+          - "原作: 前田太尊にKOされた"
+  - id: tsuruta
+    name: 鶴田
+    affiliation: 浅草笹崎高校 ナンバー2
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 喫茶店で勝嗣、米示、松村を倒し、報復に来た勝嗣たちも返り討ちにした。
+        evidence:
+          - "喫茶店: 山下勝嗣、沢村米示、松村を倒した"
+          - "原作: 報復に来た勝嗣、米示、小兵二を返り討ちにした"
+  - id: katsuji
+    name: 山下勝嗣
+    affiliation: 帝拳高校
+    appears: manga
+    editor:
+      manga:
+        score: 60
+        note: 太尊の仲間。福田にタイマンで勝ったが、上山、三原、鶴田には敗れた。
+        evidence:
+          - "原作: 福田にタイマンで勝った"
+          - "原作: 三原剛史に敗れた"
+  - id: yoneji
+    name: 沢村米示
+    affiliation: 帝拳高校
+    appears: manga
+    editor:
+      manga:
+        score: 58
+        note: 太尊の仲間。飯泉ナオトに逆転勝ちしたが、上山と鶴田には敗れた。
+        evidence:
+          - "原作: 飯泉ナオトに逆転で勝った"
+          - "喫茶店: 鶴田に敗れた"
+  - id: kohei
+    name: 中田小兵二
+    affiliation: 帝拳高校
+    appears: manga
+    editor:
+      manga:
+        score: 50
+        note: 猫パンチで横浜帝拳のルイスに勝った。鶴田には返り討ちにされた。
+        evidence:
+          - "原作: 猫パンチでルイスに勝った"
+          - "原作: 鶴田に敗れた"

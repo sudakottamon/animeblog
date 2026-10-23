@@ -1,0 +1,186 @@
+work: クローズ
+title: クローズ 最強キャラランキング
+description: クローズと続編WORSTの最強キャラを原作の描写でティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: manga
+    label: 漫画・原作勢
+    range: 『クローズ』全26巻と続編『WORST』全33巻の完結まで（外伝は含まない）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: rindaman
+    name: 林田恵（リンダマン）
+    affiliation: 鈴蘭男子高校
+    appears: manga
+    editor:
+      manga:
+        score: 96
+        note: 鈴蘭の生徒。坊屋春道と2度戦い、負けなかった。
+        evidence:
+          - "『クローズ』: 坊屋春道と2度戦い、1勝1分だった"
+  - id: harumichi
+    name: 坊屋春道
+    affiliation: 鈴蘭男子高校
+    appears: manga
+    editor:
+      manga:
+        score: 95
+        note: 阪東一派、九能龍信、美藤竜也、九頭神竜男を倒した。林田恵には勝てなかった。
+        evidence:
+          - "『クローズ』: 鳳仙学園の美藤竜也に勝った"
+          - "『クローズ』: 萬侍帝國の九頭神竜男に勝った"
+          - "『クローズ』: 林田恵と2度戦い、1敗1分だった"
+  - id: kuriko
+    name: 花木九里虎
+    affiliation: 鈴蘭男子高校
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: 転校直後に鈴蘭最強とされたゼットンを倒し、月島花にもタイマンで勝った。大善努はハイキック一発で沈めた。
+        evidence:
+          - "『WORST』: 転校直後にゼットンに勝った"
+          - "『WORST』: 月島花にタイマンで勝った"
+          - "『WORST』: 大善努をハイキック一発で倒した"
+  - id: hana
+    name: 月島花
+    affiliation: 鈴蘭男子高校 花組
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 第29期の一年戦争を制した。花木九里虎とビスコにはタイマンで敗れている。
+        evidence:
+          - "『WORST』一年戦争: 決勝で天地寿に勝った"
+          - "『WORST』: 花木九里虎にタイマンで敗れた"
+  - id: bisco
+    name: 蛭子幸一（ビスコ）
+    affiliation: 萬侍帝國七人会
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 七代目武装戦線の頭・村田将五に勝ち、卒業前には月島花にもタイマンで勝った。
+        evidence:
+          - "『WORST』: 村田将五に勝った"
+          - "『WORST』: 月島花にタイマンで勝った"
+  - id: tatsuo
+    name: 九頭神竜男
+    affiliation: 萬侍帝國 九頭神会
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 腕の立つ相手を次々と退けたが、坊屋春道に敗れた。
+        evidence:
+          - "『クローズ』: 坊屋春道に敗れた"
+  - id: bito
+    name: 美藤竜也
+    affiliation: 鳳仙学園
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 鈴蘭に乗り込んで桐島ヒロミと阪東秀人を倒し、九能龍信にも一方的に勝った。坊屋春道には敗れた。
+        evidence:
+          - "『クローズ』: 桐島ヒロミと阪東秀人を倒した"
+          - "『クローズ』: 九能龍信に一方的に勝った"
+          - "『クローズ』: 坊屋春道に敗れた"
+  - id: zetton
+    name: 花澤三郎（ゼットン）
+    affiliation: 鈴蘭男子高校
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 一年戦争で加東秀吉に勝ち、鈴蘭最強と呼ばれた。転校してきた花木九里虎には敗れた。
+        evidence:
+          - "『クローズ』一年戦争: 加東秀吉に勝った"
+          - "『WORST』: 花木九里虎に敗れた"
+  - id: tenchi
+    name: 天地寿
+    affiliation: 天地軍団
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 一年戦争の決勝まで勝ち上がったが、月島花に敗れた。
+        evidence:
+          - "『WORST』一年戦争: 決勝で月島花に敗れた"
+  - id: murata-shogo
+    name: 村田将五
+    affiliation: 七代目武装戦線 頭
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 七代目武装戦線の頭。萬侍帝國との対抗戦でビスコに敗れた。
+        evidence:
+          - "『WORST』: ビスコに敗れた"
+  - id: kunou
+    name: 九能龍信
+    affiliation: 四代目武装戦線 頭
+    appears: manga
+    editor:
+      manga:
+        score: 79
+        note: ボクサー出身の四代目武装戦線の頭。坊屋春道と美藤竜也に敗れた。
+        evidence:
+          - "『クローズ』: 坊屋春道に敗れた"
+          - "『クローズ』: 美藤竜也に一方的に敗れた"
+  - id: kawachi
+    name: 河内鉄生
+    affiliation: 六代目武装戦線 頭
+    appears: manga
+    editor:
+      manga:
+        score: 78
+        note: 清広義巳に勝って六代目武装戦線の頭になった。花木九里虎には敗れた。
+        evidence:
+          - "『WORST』: 清広義巳に勝った"
+          - "『WORST』: 花木九里虎に敗れた"
+  - id: daizen
+    name: 大善努
+    affiliation: 鈴蘭男子高校
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 第30期の一年戦争を制した。花木九里虎にはハイキック一発で倒された。
+        evidence:
+          - "『WORST』: 第30期の一年戦争を制した"
+          - "『WORST』: 花木九里虎にハイキック一発で敗れた"
+  - id: takeda
+    name: 武田好誠
+    affiliation: 五代目武装戦線 頭
+    appears: manga
+    editor:
+      manga:
+        score: 74
+        note: 五代目武装戦線の頭。甲斐泰典との勝負に勝った。
+        evidence:
+          - "『クローズ』: 甲斐泰典に勝った"
+  - id: bando
+    name: 阪東秀人
+    affiliation: 鈴蘭男子高校 阪東一派
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 鈴蘭最大の阪東一派を率いたが、坊屋春道に一蹴された。美藤竜也にも敗れた。
+        evidence:
+          - "『クローズ』: 坊屋春道に一蹴された"
+          - "『クローズ』: 美藤竜也に敗れた"
+  - id: hiromi
+    name: 桐島ヒロミ
+    affiliation: 鈴蘭男子高校
+    appears: manga
+    editor:
+      manga:
+        score: 58
+        note: 転校してきた坊屋春道に最初に倒された相手。鳳仙の美藤竜也にも敗れた。
+        evidence:
+          - "『クローズ』: 坊屋春道に敗れた"
+          - "『クローズ』: 美藤竜也に敗れた"

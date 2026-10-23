@@ -124,12 +124,12 @@
 - [x] `holyland` ホーリーランド
 
 ## バッチ 16
-- [ ] `wind-breaker` WIND BREAKER
-- [ ] `crows` クローズ（WORSTを含める。アニメ化されていない）
-- [ ] `kyou-kara-ore` 今日から俺は!!
-- [ ] `rokudenashi-blues` ろくでなしBLUES
-- [ ] `ashita-no-joe` あしたのジョー
-- [ ] `fate` Fate/stay night・Fate/Zero（サーヴァントとマスターを対象）
+- [x] `wind-breaker` WIND BREAKER
+- [x] `crows` クローズ（WORSTを含める。アニメ化されていない）
+- [x] `kyou-kara-ore` 今日から俺は!!
+- [x] `rokudenashi-blues` ろくでなしBLUES
+- [x] `ashita-no-joe` あしたのジョー
+- [x] `fate` Fate/stay night・Fate/Zero（サーヴァントとマスターを対象）
 
 ## バッチ 17
 - [ ] `toaru` とある魔術の禁書目録（超電磁砲・一方通行を含むシリーズ横断）
