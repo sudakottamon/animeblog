@@ -8,20 +8,19 @@ const fmt = (x: Date) => `${x.getFullYear()}/${x.getMonth() + 1}/${x.getDate()}`
 <ul class="rk-list" data-rk-list>
   {rankings.map((r) => {
     const first = r.data.bases[0];
-    const top3 = candidatesFor(r, first.id)
-      .sort((a, b) => (b.editor[first.id]?.score ?? 0) - (a.editor[first.id]?.score ?? 0))
-      .slice(0, 3);
+    const cands = candidatesFor(r, first.id);
+    const top3 = [...cands].sort((a, b) => (b.editor[first.id]?.score ?? 0) - (a.editor[first.id]?.score ?? 0)).slice(0, 3);
     return (
       <li class="rk-item" data-r={r.id}>
         <a href={`/rankings/${r.id}/`}>
-          <h3>{r.data.title}</h3>
+          <h3>{r.data.work} 最強キャラ ティア表</h3>
           <p class="meta">
-            {r.data.bases.map((b) => b.label).join('・')}別 ／ 参加者 <span data-p>-</span>人 ／ 採点 <span data-v>-</span>件 ／ 更新 {fmt(r.data.updated)}
+            {r.data.bases.map((b) => b.label).join('・')}別 ／ 候補 {r.data.candidates.length}人 ／ 投稿 <span data-p>-</span>件 ／ 更新 {fmt(r.data.updated)}
           </p>
           <ol class="rk-top3">
             {top3.map((c, i) => <li><b>{i + 1}位</b>{c.name}</li>)}
           </ol>
-          <span class="rk-cta">採点・コメントする ›</span>
+          <span class="rk-cta">ティア表を作って投稿する ›</span>
         </a>
       </li>
     );
@@ -31,11 +30,9 @@ const fmt = (x: Date) => `${x.getFullYear()}/${x.getMonth() + 1}/${x.getDate()}`
 <script>
   fetch('/api/summary/')
     .then((r) => (r.ok ? r.json() : Promise.reject()))
-    .then((d: { rankings: Record<string, { participants: number; votes: number }> }) => {
+    .then((d: { rankings: Record<string, { posts: number }> }) => {
       document.querySelectorAll<HTMLElement>('[data-rk-list] [data-r]').forEach((li) => {
-        const s = d.rankings[li.dataset.r!];
-        li.querySelector('[data-p]')!.textContent = String(s?.participants ?? 0);
-        li.querySelector('[data-v]')!.textContent = String(s?.votes ?? 0);
+        li.querySelector('[data-p]')!.textContent = String(d.rankings[li.dataset.r!]?.posts ?? 0);
       });
     })
     .catch(() => {});

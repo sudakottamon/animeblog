@@ -14,16 +14,16 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft))
 ---
 <Base
   title="アニメ最強ランキング"
-  description="アニメ・漫画の最強キャラを、アニメ勢・漫画勢・原作勢に分けてみんなで採点するランキング。運営の判定とみんなの採点、2つの順位を見比べられます。"
+  description="アニメ・漫画の最強キャラを、みんなでティア表にして決めるサイト。アニメ勢・漫画勢・原作勢に分けて集計するので、ネタバレを踏まずに参加できます。"
   showPr={false}
 >
-  <h1 style="font-size:20px;margin:14px 0 4px">アニメの最強キャラを、みんなで採点</h1>
-  <p style="font-size:13px;color:var(--ink-2);margin:0">アニメ勢・漫画勢・原作勢に分けて採点するので、まだ見ていない展開のネタバレが混ざりません。ログイン不要です。</p>
+  <h1 style="font-size:20px;margin:14px 0 4px">アニメの最強キャラを、みんなのティア表で決める</h1>
+  <p style="font-size:13px;color:var(--ink-2);margin:0">候補キャラを全員 S〜D に並べて投稿すると、みんなのティア表に反映されます。アニメ勢・漫画勢・原作勢に分けて集計するので、まだ見ていない展開のネタバレが混ざりません。ログイン不要です。</p>
 
-  <h2 class="sec-title">作品別ランキング</h2>
+  <h2 class="sec-title">作品別ティア表</h2>
   <RankingList />
 
-  <h2 class="sec-title">新着コメント</h2>
+  <h2 class="sec-title">新着のティア表</h2>
   <div class="box" style="padding:8px 14px">
     <ul class="feed" data-feed><li class="who">読み込み中…</li></ul>
   </div>
@@ -42,15 +42,17 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft))
     fetch('/api/summary/')
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then((d) => {
-        if (!d.recent.length) { feed.innerHTML = '<li class="who">まだコメントはありません。</li>'; return; }
+        if (!d.recent.length) { feed.innerHTML = '<li class="who">まだ投稿はありません。</li>'; return; }
         feed.innerHTML = d.recent
-          .map((c) => {
-            const who = `${esc(c.name)} ／ ${esc(titles[c.ranking] ?? '')}（${esc(basisLabels[c.ranking]?.[c.basis] ?? '')}）の${esc(names[c.ranking]?.[c.candidate] ?? '')}に${c.score ?? '-'}点`;
-            const body = c.spoiler ? '（ネタバレを含むコメント）' : esc(c.body);
-            return `<li><a href="/rankings/${c.ranking}/#${c.basis}" style="color:inherit"><div class="who">${who}</div><div class="what">${body}</div></a></li>`;
+          .map((p) => {
+            const nm = (id) => esc(names[p.ranking]?.[id] ?? id);
+            const who = `${esc(p.name)} ／ ${esc(titles[p.ranking] ?? '')}（${esc(basisLabels[p.ranking]?.[p.basis] ?? '')}）`;
+            const s = p.spoiler ? '（ネタバレを含む投稿）' : `S: ${(p.tiers.S ?? []).map(nm).join('、') || '—'}`;
+            const body = p.spoiler || !p.body ? '' : `<div class="what">${esc(p.body)}</div>`;
+            return `<li><a href="/rankings/${p.ranking}/#${p.basis}" style="color:inherit"><div class="who">${who}</div><div class="what"><b>${s}</b></div>${body}</a></li>`;
           })
           .join('');
       })
-      .catch(() => { feed.innerHTML = '<li class="who">新着コメントを読み込めませんでした。</li>'; });
+      .catch(() => { feed.innerHTML = '<li class="who">新着の投稿を読み込めませんでした。</li>'; });
   </script>
 </Base>

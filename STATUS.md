@@ -6,10 +6,11 @@
 - ドメイン: anime.chottotools.com（ちょこっとツールズのサブドメイン。本体 chottotools.com は別プロジェクトで、デザインは合わせない）
 - 作り: ranking.net 型の参加型ランキング（参考: ranking.net/rankings/strongest-anime-characters）。稼ぐページは mybest 型（/vod/）
 - 勢で分ける: アニメ勢／漫画勢／原作勢。漫画原作の作品は「漫画・原作勢」1タブ。タブごとに候補・運営判定・採点・コメントが別
-- 順位は2軸を切替表示: 「運営の判定順」と「みんなの採点順」（参加者10人未満は運営順を初期表示）。架空の票は入れない
+- **ティア表方式（2026-10-23 ユーザー決定）**: 候補を全員 S〜D に並べきらないと投稿できない。1人1ランキング1勢1件・上書き可。表示は「みんなのティア表」（S=5〜D=1の平均、4.5/3.5/2.5/1.5で段分け）と「運営のティア表」（editor score 90/80/70/60で段分け）の切替。投稿5件未満は運営を初期表示。架空の投稿は入れない
+- 投稿一覧（ミニティア表＋コメント、👍👎、通報5件で自動非表示）、投稿後にXシェアリンク
 - データ: src/content/rankings/*.yaml（bases / candidates[].appears / editor[basis]{score,note}）
-- API: /api/ranking/ (GET集計) /api/score/ (POST採点+任意コメント) /api/cc/ (GETコメント・PUT👍👎・DELETE管理) /api/report/ (POST通報、5件で自動非表示) /api/summary/ (トップ用)
-- DB: migrations/0002_scores.sql（scores / cand_comments / comment_votes / reports）。本番適用済み 2026-10-23
+- API: /api/tier/ (GET集計+自分の投稿 / POST投稿・全員配置を検証) /api/posts/ (GET一覧・PUT👍👎・DELETE管理) /api/report/ (POST通報) /api/summary/ (トップ用)
+- DB: migrations/0003_tierlists.sql（tier_posts / tier_placements / tier_post_votes / tier_post_reports）本番適用済み。0002の点数制テーブルは未使用（残置）
 - 旧 /saikyo/* は public/_redirects で /rankings/* に301
 - 本番公開済み 2026-10-23: https://anime.chottotools.com/ （`npm run build` → `npx wrangler deploy`）。workers.dev は無効化（旧URLは使わない）
 - ユーザーのPowerShellはnpx.ps1がブロックされる → 案内するときは `npx.cmd wrangler ...` と書く
