@@ -1,0 +1,188 @@
+work: うしおととら
+title: うしおととら 最強キャラランキング
+description: うしおととらの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ・原作とも完結まで（TVアニメ全39話／単行本 本編全33巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: hakumen
+    name: 白面の者
+    affiliation: 大妖怪
+    cv: 林原めぐみ
+    editor:
+      anime:
+        score: 98
+        note: 尾ごとに異なる力を持ち、獣の槍以外の攻撃をほとんど受けつけない。潮ととらの二人がかりでようやく倒れた。
+        evidence:
+          - "終盤: 潮たちを一度破り、獣の槍が砕けた"
+          - "最終決戦: 単身で挑んだとらを退けた"
+          - "最終決戦: 獣の槍で頭部を貫かれ、とらの雷で砕かれた"
+  - id: tora
+    name: とら
+    affiliation: 字伏（長飛丸）
+    cv: 小山力也
+    editor:
+      anime:
+        score: 95
+        note: 雷と炎を操る大妖怪。単独では白面に敗れたが、潮と組んで白面を倒した。秋葉流との一騎討ちにも勝った。
+        evidence:
+          - "終盤: 秋葉流との一騎討ちに勝った"
+          - "最終決戦: 潮と共に白面の者を倒した"
+  - id: ushio
+    name: 蒼月潮
+    affiliation: 獣の槍の伝承者
+    cv: 畠中祐
+    editor:
+      anime:
+        score: 94
+        note: 獣の槍で身体能力と治癒力を引き上げて戦う。最終決戦で白面の者の頭部を貫いた。
+        evidence:
+          - "第六話「あやかしの海」: とらと共にあやかしを内側から切り裂いた"
+          - "最終決戦: 獣の槍で白面の者の頭部を貫いた"
+  - id: guren
+    name: 紅煉
+    affiliation: 字伏（白面の者の側）
+    editor:
+      anime:
+        score: 86
+        note: 霊刀と炎、雷、黒炎を使う字伏。鏢を圧倒したが、鏢が仕掛けた爆破で内側から吹き飛ばされた。
+        evidence:
+          - "終盤: 鏢を圧倒したが、爆破の罠にかかって倒れた"
+  - id: nagare
+    name: 秋葉流
+    affiliation: 光覇明宗 獣の槍伝承候補
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 84
+        note: 結界術と不動金剛力を使う法力僧。とらとの一騎討ちに敗れて命を落とした。
+        evidence:
+          - "第拾伍話「追撃の交差〜伝承者」: 伝承者候補として潮たちの前に現れた"
+          - "終盤: とらとの一騎討ちに敗れた"
+  - id: hyou
+    name: 鏢
+    affiliation: 符咒師
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 83
+        note: 呪符と十五雷正法を使う。格上の紅煉を、捨て身の爆破で仕留めた。
+        evidence:
+          - "第伍話「符咒師 鏢」: 符咒師として潮たちの前に現れた"
+          - "終盤: 捨て身の爆破で仇の紅煉を倒した"
+  - id: towako
+    name: 斗和子
+    affiliation: 白面の者の分身
+    cv: 林原めぐみ
+    editor:
+      anime:
+        score: 80
+        note: 尾による攻撃と攻撃の反射を使い、策謀で潮たちを追い込んだ。最後はキリオの鎌で刺されて消えた。
+        evidence:
+          - "原作: キリオにエレザールの鎌で刺され、炎に包まれて消えた"
+  - id: sumako
+    name: 蒼月須磨子
+    affiliation: 潮の母（お役目）
+    cv: 坂本真綾
+    editor:
+      anime:
+        score: 78
+        note: 海底で長年にわたり白面の者を結界で封じ続けた。
+        evidence:
+          - "最終決戦: 海底で白面の者を封じる戦いを続けた"
+  - id: kuragi
+    name: くらぎ
+    affiliation: 白面の者の側の妖
+    editor:
+      anime:
+        score: 76
+        note: 体外からの妖力を跳ね返す。光覇明宗を襲い、法力も獣の槍の攻撃も反射した。
+        evidence:
+          - "原作: 光覇明宗を襲撃し、法力と獣の槍の攻撃を反射した"
+          - "終盤: 復活したが潮に倒された"
+  - id: kuin
+    name: 九印
+    affiliation: キリオの護衛
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 74
+        note: 溶解液と黄金の霧を使う。潮ととらに敗れた。
+        evidence:
+          - "原作: 潮ととらに敗れた"
+  - id: shigure
+    name: 蒼月紫暮
+    affiliation: 光覇明宗 法力僧（潮の父）
+    cv: 藤原啓治
+    editor:
+      anime:
+        score: 72
+        note: 千宝輪と巍四裏を使う法力僧。化け猫を巍四裏で倒した。
+        evidence:
+          - "原作: 化け猫の一体を巍四裏で倒した"
+  - id: kirio
+    name: キリオ
+    affiliation: エレザールの鎌の使い手
+    cv: 潘めぐみ
+    editor:
+      anime:
+        score: 70
+        note: エレザールの鎌と法力を使う。真由子の結界と組んで白髭を倒し、斗和子にとどめを刺した。
+        evidence:
+          - "原作: エレザールの鎌で斗和子を刺した"
+          - "原作: 真由子の結界と連携して白髭を倒した"
+  - id: hinowa
+    name: 関守日輪
+    affiliation: 光覇明宗 獣の槍伝承候補
+    cv: 水樹奈々
+    editor:
+      anime:
+        score: 70
+        note: 伝承候補の一人で、櫛を使って戦う。メイ・ホーに一時操られたが、自らの攻撃で撃破した。
+        evidence:
+          - "原作: メイ・ホーを撃破した"
+  - id: ayakashi
+    name: あやかし
+    affiliation: 海の大妖怪
+    cv: 高口公介
+    editor:
+      anime:
+        score: 68
+        note: 硬い体表を持ち、飲み込んだ船を消化する巨大な妖怪。潮ととらに内側から切り裂かれた。
+        evidence:
+          - "第六話「あやかしの海」: 潮ととらに内側から切り裂かれた"
+  - id: satoru
+    name: 杜綱悟
+    affiliation: 光覇明宗 獣の槍伝承候補
+    cv: 大坂良太
+    editor:
+      anime:
+        score: 65
+        note: 陰陽道と式神を使う。婢妖に操られて潮を襲ったが、使役した疫鬼は潮に倒された。
+        evidence:
+          - "原作: 婢妖に操られて潮を襲った"
+  - id: raishin
+    name: 雷信
+    affiliation: 鎌鼬
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 64
+        note: 鎌鼬一族で一番の速さを持つ。西の鎌鼬・梟を速さで破った。
+        evidence:
+          - "原作: 西の鎌鼬・梟を速さで破った"
+  - id: fusuma
+    name: 衾
+    affiliation: 空の妖怪
+    cv: 高木渉
+    editor:
+      anime:
+        score: 62
+        note: 上空から飛行機を襲う。潮ととらに切り離され、戦闘機のミサイルで焼かれた。
+        evidence:
+          - "第八話「ヤツは空にいる」: 潮ととらに切り離され、ミサイルで焼かれた"

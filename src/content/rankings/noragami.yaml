@@ -1,0 +1,192 @@
+work: ノラガミ
+title: ノラガミ 最強キャラランキング
+description: ノラガミの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期『ノラガミ ARAGOTO』（全13話、恵比寿編）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全27巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: izanami
+    name: 伊邪那美
+    affiliation: 黄泉の女王
+    editor:
+      anime:
+        score: 91
+        note: "黄泉で夜トと恵比寿を捕らえ、救出に来た毘沙門まで髪で捕らえた。ひよりが現世から呼ぶ声がなければ誰も抜け出せなかった。"
+        evidence:
+          - "第2期 第10話: 黄泉で夜トを捕らえた"
+          - "第2期 第11話: 夜トを救いに来た毘沙門も捕らえた"
+      manga:
+        score: 91
+        note: "原作でも評価は変わらない。"
+  - id: bishamon
+    name: 毘沙門
+    affiliation: 七福神／武神
+    cv: 沢城みゆき
+    editor:
+      anime:
+        score: 90
+        note: "武神として多くの神器を従える。夜トと雪音を相手に戦い、夜トをかばった雪音を斬った。"
+        evidence:
+          - "第2期 第4話: 夜トと雪音を相手に戦い、雪音を斬った"
+          - "第2期 第11話: 夜トを救いに黄泉へ下り、伊邪那美と戦った"
+      manga:
+        score: 90
+        note: "天から大逆の罪を問われ、建御雷の率いる討伐軍に追われた。"
+        evidence:
+          - "毘沙門の乱: 天の討伐軍に追われ、夜トに守られて建御雷と対峙した"
+  - id: yato
+    name: 夜ト
+    affiliation: 野良神
+    cv: 神谷浩史
+    editor:
+      anime:
+        score: 88
+        note: "雪音を神器にして妖や神を斬る。禍津神の蠃蚌を倒し、毘沙門の神器だった陸巴の手を斬り落とした。"
+        evidence:
+          - "第1期 第12話: 嵐の妖と一体化した蠃蚌を倒した"
+          - "第2期 第6話: 陸巴の手を斬り落とした"
+      manga:
+        score: 92
+        note: "天の軍勢から毘沙門を守って建御雷と戦った。最終決戦では雪音とともに父様を倒した。"
+        evidence:
+          - "毘沙門の乱: 毘沙門を守るため建御雷と戦った"
+          - "第108話: 雪音とともに父様を倒した"
+  - id: yukine
+    name: 雪音
+    affiliation: 夜トの神器
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 74
+        note: "毘沙門の刃から夜トをかばって斬られ、祝の器になった。野良となった陸巴をひよりとともに倒した。"
+        evidence:
+          - "第2期 第5話: 祝の器となった"
+          - "第2期 第11話: ひよりとともに野良となった陸巴を倒した"
+      manga:
+        score: 80
+        note: "野良の力が通じない祝の器として夜トを支え、最終決戦で父様を倒した。"
+        evidence:
+          - "第108話: 夜トとともに父様を倒した"
+  - id: nora
+    name: 野良
+    affiliation: 多くの名を持つ神器
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 76
+        note: "ひよりの記憶を宝玉に封じ、夜トを蠃蚌と戦わせた。"
+        evidence:
+          - "第1期 第11話: ひよりの記憶を宝玉に封じて夜トに迫った"
+      manga:
+        score: 76
+        note: "原作でも評価は変わらない。"
+  - id: ebisu
+    name: 恵比寿
+    affiliation: 七福神
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 72
+        note: "妖を操る筆を求めて黄泉へ下った。天の輪に囚われて命を落とし、子どもの姿で生まれ変わった。"
+        evidence:
+          - "第2期 第9話: 黄泉で筆を求める途中で夜トと出会った"
+          - "第2期 第13話: 天の輪に囚われて死に、生まれ変わった"
+      manga:
+        score: 72
+        note: "原作でも評価は変わらない。"
+  - id: kazuma
+    name: 兆麻
+    affiliation: 毘沙門の神器
+    cv: 福山潤
+    editor:
+      anime:
+        score: 70
+        note: "毘沙門の道標を務める祝の器。夜トへの一撃を身代わりに受けた。"
+        evidence:
+          - "第2期 第3話: 雪音をかばって追放された"
+          - "第2期 第5話: 夜トに向けられた一撃を身代わりに受けた"
+      manga:
+        score: 70
+        note: "原作でも評価は変わらない。"
+  - id: kofuku
+    name: 小福
+    affiliation: 貧乏神
+    cv: 豊崎愛生
+    editor:
+      anime:
+        score: 68
+        note: "災いを呼ぶ貧乏神。毘沙門に襲われた夜トたちを救った。"
+        evidence:
+          - "第1期: 毘沙門に襲われた夜トと雪音を救った"
+      manga:
+        score: 68
+        note: "原作でも評価は変わらない。"
+  - id: kugaha
+    name: 陸巴
+    affiliation: 毘沙門の神器
+    cv: 星野貴紀
+    editor:
+      anime:
+        score: 66
+        note: "毘沙門の神器たちを陥れて毘沙門を病ませた。最後は野良となり、ひよりと雪音に敗れた。"
+        evidence:
+          - "第2期 第2話: 鈴巴を死に追いやった"
+          - "第2期 第11話: 野良となった後、ひよりと雪音に敗れた"
+      manga:
+        score: 66
+        note: "原作でも評価は変わらない。"
+  - id: daikoku
+    name: 大黒
+    affiliation: 小福の神器
+    cv: 小野大輔
+    editor:
+      anime:
+        score: 62
+        note: "小福の神器。兆麻たちとともに雪音の禊に加わった。"
+        evidence:
+          - "第1期 第9話: 雪音の禊に加わった"
+      manga:
+        score: 62
+        note: "原作でも評価は変わらない。"
+  - id: hiyori
+    name: 壱岐ひより
+    affiliation: 半妖の中学生
+    cv: 内田真礼
+    editor:
+      anime:
+        score: 58
+        note: "半妖の身で戦いに加わり、雪音とともに陸巴を倒した。黄泉にいる夜トの真の名を呼んで連れ戻した。"
+        evidence:
+          - "第2期 第11話: 雪音とともに陸巴を倒した"
+          - "第2期 第12話: 夜トの真の名を呼び、黄泉から連れ戻した"
+      manga:
+        score: 58
+        note: "原作でも評価は変わらない。"
+  - id: takemikazuchi
+    name: 建御雷
+    affiliation: 天の武神
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: "天の軍勢を率いる雷神で、正体は金色の龍。毘沙門の討伐に出て、毘沙門をかばう夜トと戦った。"
+        evidence:
+          - "毘沙門の乱: 毘沙門をかばった夜トと戦った"
+  - id: totosama
+    name: 父様
+    affiliation: 夜トの父／術師
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: "人の身で他人の体を乗り継ぎ、野良や陸巴を操って裏から動いた。最後は夜トと雪音に倒された。"
+        evidence:
+          - "第108話: 夜トと雪音に倒された"

@@ -9,7 +9,7 @@ bases:
     range: TVアニメ『Z』『超』（力の大会編）と劇場版『ブロリー』『スーパーヒーロー』まで（『DAIMA』は含まない）
   - id: manga
     label: 漫画・原作勢
-    range: 漫画『ドラゴンボール超』休載前の最新話（第103話・単行本24巻）まで
+    range: 漫画『ドラゴンボール超』単行本24巻（休載前の最新話）まで
 services: [cmoa, ebookjapan, dmmbooks]
 related: []
 candidates:
@@ -18,135 +18,270 @@ candidates:
     affiliation: 第7宇宙 天使
     cv: 森田成一
     editor:
-      anime: { score: 99, note: ビルスの付き人で武術の師。ビルス自身がウイスの方が強いと認めている。 }
-      manga: { score: 99, note: 原作でも本気の戦いは描かれず、評価は据え置く。 }
+      anime:
+        score: 99
+        note: ビルスの付き人で武術の師。ビルス自身がウイスの方が強いと認めている。
+        evidence:
+          - "復活の「F」編: 地球が破壊された直後に時間を3分巻き戻した"
+          - "破壊神ビルス編: ビルスの付き人として、ビルスに武術を教える立場だと語られた"
+      manga:
+        score: 99
+        note: 原作でも本気の戦いは描かれず、評価は据え置く。
   - id: frieza
     name: フリーザ
     affiliation: フリーザ軍 総帥
     cv: 中尾隆聖
     editor:
-      anime: { score: 88, note: ゴールデンフリーザに変身する。力の大会では悟空と組んでジレンを場外へ落とした。 }
-      manga: { score: 97, note: グラノラ編の最後に黒いフリーザとなり、悟空とベジータを一撃ずつで倒した。 }
+      anime:
+        score: 88
+        note: ゴールデンフリーザに変身する。力の大会では悟空と組んでジレンと戦い、共に場外へ落ちた。
+        evidence:
+          - "復活の「F」編: ゴールデンフリーザに変身した"
+          - "宇宙サバイバル編: 力の大会の最後に悟空と組んでジレンと戦い、ジレンと共に場外へ落ちた"
+      manga:
+        score: 97
+        note: グラノラ編の最後に黒いフリーザとなり、悟空とベジータを一撃ずつで倒した。
+        evidence:
+          - "生残者グラノラ編: 黒いフリーザとなり、悟空とベジータを一撃ずつで倒した"
   - id: beerus
     name: ビルス
     affiliation: 第7宇宙 破壊神
     cv: 山寺宏一
     editor:
-      anime: { score: 96, note: 破壊神ビルス編で超サイヤ人ゴッドの悟空に勝った。 }
-      manga: { score: 95, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 96
+        note: 破壊神ビルス編で超サイヤ人ゴッドの悟空に勝った。
+        evidence:
+          - "破壊神ビルス編: 超サイヤ人ゴッドの悟空と戦い、勝った"
+      manga:
+        score: 96
+        note: 原作で評価を変える材料はない。
   - id: gogeta
     name: ゴジータ
     affiliation: 悟空とベジータのフュージョン
     editor:
-      anime: { score: 96, note: 劇場版『ブロリー』で超サイヤ人ブルーとなり、ブロリーを圧倒した。 }
-      manga: { score: 94, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 96
+        note: 劇場版『ブロリー』で超サイヤ人ブルーとなり、ブロリーを圧倒した。
+        evidence:
+          - "劇場版『ドラゴンボール超 ブロリー』: 超サイヤ人ブルーとなり、ブロリーを圧倒した"
+      manga:
+        score: 96
+        note: 原作で評価を変える材料はない。
   - id: goku
     name: 孫悟空
     affiliation: サイヤ人
     cv: 野沢雅子
     editor:
-      anime: { score: 94, note: 力の大会で身勝手の極意を完成させ、ジレンを追い詰めた。 }
-      manga: { score: 93, note: モロ戦で身勝手の極意を自分のものにした。ただしグラノラ編の最後に黒いフリーザに一撃で倒された。 }
+      anime:
+        score: 94
+        note: 力の大会で身勝手の極意を完成させ、ジレンを追い詰めた。
+        evidence:
+          - "宇宙サバイバル編: 力の大会で身勝手の極意を完成させ、ジレンを追い詰めた"
+      manga:
+        score: 93
+        note: モロ戦で身勝手の極意を自分のものにした。ただしグラノラ編の最後に黒いフリーザに一撃で倒された。
+        evidence:
+          - "銀河パトロール囚人編: 身勝手の極意を自分のものにしてモロを倒した"
+          - "生残者グラノラ編: 黒いフリーザに一撃で倒された"
   - id: jiren
     name: ジレン
     affiliation: 第11宇宙 プライド・トルーパーズ
     editor:
-      anime: { score: 93, note: 力の大会で第11宇宙の最後の一人として残り、身勝手の極意の悟空と激しく戦った。 }
-      manga: { score: 86, note: 力の大会の後は出番がなく、評価を上げる材料がない。 }
+      anime:
+        score: 93
+        note: 力の大会で第11宇宙の最後の一人として残り、身勝手の極意の悟空と激しく戦った。
+        evidence:
+          - "宇宙サバイバル編: 力の大会で第11宇宙の最後の一人として残った"
+          - "宇宙サバイバル編: 身勝手の極意の悟空と打ち合った"
+      manga:
+        score: 86
+        note: 力の大会の後は出番がない。後の編で力を伸ばした悟空たちより一段下に置く。
+        evidence:
+          - "宇宙サバイバル編: 力の大会で身勝手の極意の悟空と戦った"
   - id: gas
     name: ガス
     affiliation: ヒータ一味
     appears: manga
     editor:
-      manga: { score: 93, note: ドラゴンボールの願いで宇宙最強の力を得て、悟空とベジータを追い詰めた。 }
+      manga:
+        score: 93
+        note: ドラゴンボールの願いで宇宙最強の力を得て、悟空とベジータを追い詰めた。
+        evidence:
+          - "生残者グラノラ編: 願いで得た力で悟空とベジータを追い詰めた"
   - id: vegito
     name: ベジット
     affiliation: 悟空とベジータのポタラ合体
     editor:
-      anime: { score: 92, note: 未来トランクス編で合体ザマスを押し込んだが、時間切れで合体が解けた。 }
-      manga: { score: 89, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 92
+        note: 未来トランクス編で合体ザマスを押し込んだが、時間切れで合体が解けた。
+        evidence:
+          - "“未来”トランクス編: 合体ザマスを押し込んだが、時間切れで合体が解けた"
+      manga:
+        score: 92
+        note: 原作で評価を変える材料はない。
   - id: vegeta
     name: ベジータ
     affiliation: サイヤ人の王子
     cv: 堀川りょう
     editor:
-      anime: { score: 89, note: 力の大会で破壊神候補のトッポに勝った。 }
-      manga: { score: 92, note: グラノラ編で我儘の極意に到達し、グラノラと正面から渡り合った。 }
+      anime:
+        score: 89
+        note: 力の大会で破壊神候補のトッポに勝った。
+        evidence:
+          - "宇宙サバイバル編: 力の大会で破壊神候補のトッポを倒した"
+      manga:
+        score: 92
+        note: グラノラ編で我儘の極意に到達し、グラノラと正面から渡り合った。
+        evidence:
+          - "生残者グラノラ編: 我儘の極意に到達し、グラノラと正面から渡り合った"
   - id: broly
     name: ブロリー
     affiliation: サイヤ人
     cv: 島田敏
     editor:
-      anime: { score: 89, note: 劇場版『ブロリー』で悟空とベジータを追い詰め、ゴジータと戦った。 }
-      manga: { score: 88, note: 原作で新しい戦闘描写は少なく、評価は据え置く。 }
+      anime:
+        score: 89
+        note: 劇場版『ブロリー』で悟空とベジータを追い詰め、ゴジータと戦った。
+        evidence:
+          - "劇場版『ドラゴンボール超 ブロリー』: 悟空とベジータを追い詰め、ゴジータと戦った"
+      manga:
+        score: 89
+        note: 原作で新しい戦闘描写は少なく、評価は据え置く。
   - id: moro
     name: モロ
     affiliation: 銀河パトロールの囚人
     appears: manga
     editor:
-      manga: { score: 88, note: 他者の能力とエネルギーを吸い取って強くなった。身勝手の極意を自分のものにした悟空に敗れた。 }
+      manga:
+        score: 88
+        note: 他者の能力とエネルギーを吸い取って強くなった。身勝手の極意を自分のものにした悟空に敗れた。
+        evidence:
+          - "銀河パトロール囚人編: 他者のエネルギーを吸い取って悟空とベジータを苦しめた"
+          - "銀河パトロール囚人編: 身勝手の極意を自分のものにした悟空に敗れた"
   - id: gohan
     name: 孫悟飯
     affiliation: サイヤ人と地球人のハーフ
     cv: 野沢雅子
     editor:
-      anime: { score: 88, note: 劇場版『スーパーヒーロー』で新たな姿に覚醒し、セルマックスを倒した。 }
-      manga: { score: 87, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 88
+        note: 劇場版『スーパーヒーロー』で新たな姿に覚醒し、セルマックスを倒した。
+        evidence:
+          - "劇場版『ドラゴンボール超 スーパーヒーロー』: 新たな姿に覚醒し、セルマックスを倒した"
+      manga:
+        score: 88
+        note: 原作で評価を変える材料はない。
   - id: granolah
     name: グラノラ
     affiliation: セレアル人の生き残り
     appears: manga
     editor:
-      manga: { score: 89, note: ドラゴンボールの願いで宇宙最強の力を得て、悟空とベジータを相手にした。 }
+      manga:
+        score: 89
+        note: ドラゴンボールの願いで宇宙最強の力を得て、悟空とベジータを相手にした。
+        evidence:
+          - "生残者グラノラ編: 願いで宇宙一の力を得て、悟空とベジータを相手に戦った"
   - id: zamasu
     name: ザマス
     affiliation: 第10宇宙 界王神見習い
     cv: 三木眞一郎
     editor:
-      anime: { score: 87, note: 不死身の体と神の力を合わせ持つ合体ザマスになった。最後は全王に消された。 }
-      manga: { score: 86, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 87
+        note: 不死身の体と神の力を合わせ持つ合体ザマスになった。最後は全王に消された。
+        evidence:
+          - "“未来”トランクス編: 合体ザマスとなって未来の世界を覆ったが、全王に消された"
+      manga:
+        score: 87
+        note: 原作で評価を変える材料はない。
   - id: toppo
     name: トッポ
     affiliation: 第11宇宙 破壊神候補
     editor:
-      anime: { score: 79, note: 力の大会で破壊を使った。ベジータに敗れた。 }
-      manga: { score: 78, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 79
+        note: 力の大会で破壊を使った。ベジータに敗れた。
+        evidence:
+          - "宇宙サバイバル編: 力の大会で破壊の力を使ったが、ベジータに敗れた"
+      manga:
+        score: 79
+        note: 原作で評価を変える材料はない。
   - id: kefla
     name: ケフラ
     affiliation: 第6宇宙 ポタラ合体戦士
     editor:
-      anime: { score: 78, note: ケールとカリフラのポタラ合体。身勝手の極意の悟空に敗れた。 }
-      manga: { score: 77, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 78
+        note: ケールとカリフラのポタラ合体。身勝手の極意の悟空に敗れた。
+        evidence:
+          - "宇宙サバイバル編: 力の大会で身勝手の極意の悟空に敗れた"
+      manga:
+        score: 78
+        note: 原作で評価を変える材料はない。
   - id: hit
     name: ヒット
     affiliation: 第6宇宙 殺し屋
     editor:
-      anime: { score: 77, note: 時飛ばしで悟空と渡り合った。力の大会ではジレンに敗れた。 }
-      manga: { score: 76, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 77
+        note: 時飛ばしで悟空と渡り合った。力の大会ではジレンに敗れた。
+        evidence:
+          - "破壊神シャンパ編: 時飛ばしで悟空と渡り合った"
+          - "宇宙サバイバル編: 力の大会でジレンに敗れた"
+      manga:
+        score: 77
+        note: 原作で評価を変える材料はない。
   - id: piccolo
     name: ピッコロ
     affiliation: ナメック星人
     cv: 古川登志夫
     editor:
-      anime: { score: 75, note: 劇場版『スーパーヒーロー』でオレンジピッコロに変身し、セルマックスに立ち向かった。 }
-      manga: { score: 75, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 75
+        note: 劇場版『スーパーヒーロー』でオレンジピッコロに変身し、セルマックスに立ち向かった。
+        evidence:
+          - "劇場版『ドラゴンボール超 スーパーヒーロー』: オレンジピッコロに変身し、セルマックスに立ち向かった"
+      manga:
+        score: 75
+        note: 原作で評価を変える材料はない。
   - id: buu
     name: 魔人ブウ（純粋）
     affiliation: 魔人
     editor:
-      anime: { score: 73, note: 純粋ブウとして地球を吹き飛ばした。悟空の元気玉に敗れた。 }
-      manga: { score: 72, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 73
+        note: 純粋ブウとして地球を吹き飛ばした。悟空の元気玉に敗れた。
+        evidence:
+          - "Z 魔人ブウ編: 純粋ブウとして地球を吹き飛ばした"
+          - "Z 魔人ブウ編: 悟空の元気玉に敗れた"
+      manga:
+        score: 73
+        note: 原作で評価を変える材料はない。
   - id: cell
     name: セル
     affiliation: 人造人間
     cv: 若本規夫
     editor:
-      anime: { score: 69, note: 完全体でセルゲームを開いた。超サイヤ人2の悟飯に敗れた。 }
-      manga: { score: 68, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 69
+        note: 完全体でセルゲームを開いた。超サイヤ人2の悟飯に敗れた。
+        evidence:
+          - "Z 人造人間・セル編: 完全体でセルゲームを開いたが、超サイヤ人2の悟飯に敗れた"
+      manga:
+        score: 69
+        note: 原作で評価を変える材料はない。
   - id: krillin
     name: クリリン
     affiliation: 地球人
     cv: 田中真弓
     editor:
-      anime: { score: 56, note: 力の大会に第7宇宙の代表として出場した。地球人の中では上位の実力。 }
-      manga: { score: 55, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 56
+        note: 力の大会に第7宇宙の代表として出場した。地球人の中では上位の実力。
+        evidence:
+          - "宇宙サバイバル編: 力の大会に第7宇宙の代表として出場した"
+      manga:
+        score: 56
+        note: 原作で評価を変える材料はない。

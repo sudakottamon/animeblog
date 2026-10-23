@@ -6,7 +6,7 @@ updated: 2026-10-23
 bases:
   - id: anime
     label: アニメ勢
-    range: TVシリーズ「柱稽古編」まで
+    range: TVシリーズ「柱稽古編」＋劇場版『無限城編』第一章 猗窩座再来まで
   - id: manga
     label: 漫画・原作勢
     range: 原作完結（単行本全23巻）まで
@@ -16,132 +16,279 @@ candidates:
   - id: yoriichi
     name: 継国縁壱
     affiliation: 始まりの呼吸の剣士
+    appears: manga
     editor:
-      anime: { score: 100, note: 回想の中だけの人物だが、無惨を追い詰めた唯一の剣士。物差しとして別格に置く。 }
-      manga: { score: 100, note: 原作を最後まで読んでも、縁壱を超える描写を持つ者はいない。 }
+      manga:
+        score: 100
+        note: 回想の中だけの人物だが、無惨を追い詰めた唯一の剣士。原作を最後まで読んでも、縁壱を超える描写を持つ者はいない。
+        evidence:
+          - "無限城編（炭吉の記憶）: 無惨と一人で対峙し、体を細かく斬って逃走させた"
+          - "無限城編（黒死牟の回想）: 老いた身で黒死牟を一太刀で追い詰めた"
   - id: muzan
     name: 鬼舞辻無惨
     affiliation: 鬼の始祖
     cv: 関俊彦
     editor:
-      anime: { score: 97, note: 直接の戦闘はまだ少ないが、上弦すら逆らえない支配そのものが強さの証拠。 }
-      manga: { score: 99, note: 最終決戦で柱全員と主人公勢を相手に夜明けまで暴れ続けた。 }
+      anime:
+        score: 97
+        note: 直接の戦闘はまだ少ないが、上弦すら逆らえない支配と、柱の総攻撃でも倒れない再生力を見せた。
+        evidence:
+          - "竈門炭治郎 立志編 第26話: 下弦の鬼たちを一人を残して処刑した"
+          - "劇場版『無限城編』第一章: 産屋敷邸の爆発と悲鳴嶼の攻撃を受けても再生し、柱たちを無限城へ落とした"
+      manga:
+        score: 99
+        note: 最終決戦で柱全員と主人公勢を相手に夜明けまで暴れ続けた。
+        evidence:
+          - "無限城編: 柱と炭治郎たちを相手に、夜明けまで戦い続けた"
   - id: kokushibo
     name: 黒死牟
     affiliation: 上弦の壱
     cv: 置鮎龍太郎
     editor:
-      anime: { score: 92, note: アニメでは戦闘がまだない。上弦の壱という序列だけで評価している。 }
-      manga: { score: 96, note: 柱2人と玄弥を相手にした死闘。月の呼吸の描写量は全戦闘でも随一。 }
+      anime:
+        score: 92
+        note: アニメでは戦闘がまだない。上弦の壱という序列だけで評価している。
+        evidence:
+          - "刀鍛冶の里編 第1話: 上弦の鬼の集まりに上弦の壱として姿を見せた"
+      manga:
+        score: 96
+        note: 柱3人と玄弥を相手にした死闘。月の呼吸の描写量は全戦闘でも随一。
+        evidence:
+          - "無限城編: 時透・不死川・悲鳴嶼・玄弥の4人を相手に戦った"
+          - "無限城編: 時透と玄弥を倒し、最後は悲鳴嶼と不死川に首を斬られた"
   - id: doma
     name: 童磨
     affiliation: 上弦の弐
     cv: 宮野真守
     editor:
-      anime: { score: 89, note: 戦う場面はまだほとんどない。序列から猗窩座より上に置く。 }
-      manga: { score: 92, note: 氷の血鬼術は範囲が広く、しのぶたちとの戦いでも終始余裕があった。 }
+      anime:
+        score: 91
+        note: しのぶの毒を次々に分解し、終始余裕を見せたまま取り込んだ。
+        evidence:
+          - "劇場版『無限城編』第一章: しのぶに何度も毒を打ち込まれたが分解した"
+          - "劇場版『無限城編』第一章: しのぶを倒し、体に取り込んだ"
+      manga:
+        score: 92
+        note: 氷の血鬼術は範囲が広く、カナヲと伊之助の二人を相手にしても余裕があった。
+        evidence:
+          - "無限城編: しのぶの体に溜められた毒で弱ったところを、カナヲと伊之助に首を斬られた"
   - id: akaza
     name: 猗窩座
     affiliation: 上弦の参
     cv: 石田彰
     editor:
-      anime: { score: 91, note: 炎柱・煉獄に勝ち、夜明けを見て撤退する判断もできる。 }
-      manga: { score: 90, note: 武の完成度は鬼の中でも最上位。義勇と炭治郎の二人がかりでやっと届いた。 }
+      anime:
+        score: 90
+        note: 炎柱・煉獄に勝った。無限城では義勇と炭治郎の二人がかりでやっと首を斬られた。
+        evidence:
+          - "無限列車編: 煉獄に勝ち、夜明け前に撤退した"
+          - "劇場版『無限城編』第一章: 痣の義勇と透き通る世界の炭治郎を相手にし、炭治郎に首を斬られた"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
   - id: himejima
     name: 悲鳴嶼行冥
     affiliation: 岩柱
     cv: 杉田智和
     editor:
-      anime: { score: 90, note: 作中で「鬼殺隊最強」と明言され、柱稽古の描写もそれを裏づける。 }
-      manga: { score: 94, note: 黒死牟戦・無惨戦の両方で主力。明言どおりの強さだった。 }
+      anime:
+        score: 90
+        note: 作中で「鬼殺隊最強」と明言され、無惨にも真っ先に一撃を入れた。
+        evidence:
+          - "柱稽古編 第6話: 「鬼殺隊最強」の岩柱として、炭治郎たちに岩を動かす稽古を課した"
+          - "劇場版『無限城編』第一章: 産屋敷邸に駆けつけ、鉄球で無惨の頭を砕いた"
+      manga:
+        score: 94
+        note: 黒死牟戦・無惨戦の両方で主力。明言どおりの強さだった。
+        evidence:
+          - "無限城編: 不死川と共に黒死牟の首を斬った"
+          - "無限城編: 無惨戦で最後まで前線に立ち続けた"
   - id: hantengu
     name: 半天狗
     affiliation: 上弦の肆
     cv: 古川登志夫
     editor:
-      anime: { score: 85, note: 分裂した体がそれぞれ上弦級。本体を見つけられなければ勝てない。 }
-      manga: { score: 84, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 85
+        note: 分裂した体がそれぞれ上弦級。本体を見つけられなければ勝てない。
+        evidence:
+          - "刀鍛冶の里編: 分裂体の憎珀天で甘露寺と渡り合った"
+          - "刀鍛冶の里編: 小さな本体を逃がし続けたが、炭治郎に首を斬られた"
+      manga:
+        score: 85
+        note: 原作で評価を変える材料はない。
   - id: rengoku
     name: 煉獄杏寿郎
     affiliation: 炎柱
     cv: 日野聡
     editor:
-      anime: { score: 84, note: 猗窩座には敗れたが、列車の乗客を一人も死なせなかった。 }
-      manga: { score: 84, note: 退場後に評価が動くことはない。 }
+      anime:
+        score: 84
+        note: 猗窩座には敗れたが、列車の乗客を一人も死なせなかった。
+        evidence:
+          - "無限列車編: 下弦の壱と戦う炭治郎たちを支え、乗客を一人も死なせなかった"
+          - "無限列車編: 猗窩座と一騎打ちをして敗れた"
+      manga:
+        score: 84
+        note: 退場後に評価は変わらない。
   - id: muichiro
     name: 時透無一郎
     affiliation: 霞柱
     cv: 河西健吾
     editor:
-      anime: { score: 83, note: 刀鍛冶の里で上弦の伍を一人で倒した。 }
-      manga: { score: 85, note: 黒死牟戦で痣と赫刀に至り、勝ち筋を作った。 }
+      anime:
+        score: 83
+        note: 刀鍛冶の里で上弦の伍を一人で倒した。
+        evidence:
+          - "刀鍛冶の里編: 痣を出し、玉壺の首を一人で斬った"
+      manga:
+        score: 85
+        note: 黒死牟戦で痣と赫刀に至り、勝ち筋を作った。
+        evidence:
+          - "無限城編: 黒死牟戦で赫刀を出し、命と引き換えに勝ち筋を作った"
   - id: uzui
     name: 宇髄天元
     affiliation: 音柱（元）
     cv: 小西克幸
     editor:
-      anime: { score: 83, note: 毒を受けながら上弦の陸と戦い抜いた。譜面の読みが光る。 }
-      manga: { score: 83, note: 引退後は戦いに加わらない。 }
+      anime:
+        score: 83
+        note: 毒を受けながら上弦の陸と戦い抜いた。譜面の読みが光る。
+        evidence:
+          - "遊郭編: 妓夫太郎の毒を受けながら戦い、譜面で攻撃を読み切った"
+      manga:
+        score: 83
+        note: 引退後は戦いに加わらず、評価は変わらない。
   - id: tomioka
     name: 冨岡義勇
     affiliation: 水柱
     cv: 櫻井孝宏
     editor:
-      anime: { score: 82, note: 那田蜘蛛山で累を一撃。描写はまだ少ない。 }
-      manga: { score: 87, note: 猗窩座戦で痣を出し、真価を見せた。 }
+      anime:
+        score: 87
+        note: 那田蜘蛛山で累を一撃で倒した。無限城の猗窩座戦で痣を出し、真価を見せた。
+        evidence:
+          - "竈門炭治郎 立志編: 那田蜘蛛山で累を一太刀で倒した"
+          - "劇場版『無限城編』第一章: 猗窩座戦で痣を出し、炭治郎と二人で戦い抜いた"
+      manga:
+        score: 87
+        note: 原作でも評価は変わらない。
   - id: sanemi
     name: 不死川実弥
     affiliation: 風柱
     cv: 関智一
     editor:
-      anime: { score: 80, note: 稀血という体質で鬼を酔わせる。戦闘描写はこれから。 }
-      manga: { score: 88, note: 黒死牟戦で主力を務めた。 }
+      anime:
+        score: 80
+        note: 柱稽古で隊士を相手にする場面はあるが、上弦との戦闘描写はまだない。
+        evidence:
+          - "柱稽古編: 自身の稽古で隊士たちに打ち込み稽古をつけた"
+          - "劇場版『無限城編』第一章: 無限城で一人で鬼を倒しながら進んでいた"
+      manga:
+        score: 88
+        note: 黒死牟戦で主力を務めた。稀血で鬼を酔わせる体質も戦いに生きた。
+        evidence:
+          - "無限城編: 黒死牟と斬り合い、悲鳴嶼と共に首を斬った"
+          - "無限城編: 稀血で黒死牟の動きを鈍らせた"
   - id: mitsuri
     name: 甘露寺蜜璃
     affiliation: 恋柱
     cv: 花澤香菜
     editor:
-      anime: { score: 80, note: 筋肉の密度が常人の8倍。半天狗の憎珀天と渡り合った。 }
-      manga: { score: 81, note: 無惨戦では足止めにとどまった。 }
+      anime:
+        score: 80
+        note: 刀鍛冶の里で半天狗の憎珀天を一人で引きつけ、痣を出して渡り合った。
+        evidence:
+          - "刀鍛冶の里編: 痣を出し、憎珀天の攻撃を一人で引き受けた"
+      manga:
+        score: 81
+        note: 無惨戦では足止めにとどまった。
+        evidence:
+          - "無限城編: 伊黒と共に無惨を足止めしたが、深手を負った"
   - id: gyokko
     name: 玉壺
     affiliation: 上弦の伍
     cv: 鳥海浩輔
     editor:
-      anime: { score: 80, note: 血鬼術の搦め手は上弦らしいが、無一郎との相性が悪すぎた。 }
-      manga: { score: 79, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 80
+        note: 血鬼術の搦め手は上弦らしいが、無一郎との相性が悪すぎた。
+        evidence:
+          - "刀鍛冶の里編: 水獄鉢で無一郎を閉じ込めたが、痣を出した無一郎に首を斬られた"
+      manga:
+        score: 80
+        note: 原作で評価を変える材料はない。
   - id: gyutaro
     name: 妓夫太郎
     affiliation: 上弦の陸
     cv: 逢坂良太
     editor:
-      anime: { score: 79, note: 宇髄と炭治郎たちの総がかりでやっと倒れた。毒鎌の厄介さは上弦級。 }
-      manga: { score: 78, note: 原作で評価を変える材料はない。 }
+      anime:
+        score: 79
+        note: 宇髄と炭治郎たちの総がかりでやっと倒れた。毒鎌の厄介さは上弦級。
+        evidence:
+          - "遊郭編: 宇髄・炭治郎・善逸・伊之助の4人を相手に戦い、首を斬られた"
+      manga:
+        score: 79
+        note: 原作で評価を変える材料はない。
   - id: obanai
     name: 伊黒小芭内
     affiliation: 蛇柱
     cv: 鈴村健一
     editor:
-      anime: { score: 78, note: アニメでは本格的な戦闘がまだない。 }
-      manga: { score: 85, note: 無惨戦で最後まで前線に立ち続けた。 }
+      anime:
+        score: 78
+        note: アニメでは本格的な戦闘がまだない。
+        evidence:
+          - "柱稽古編: 隊士を縛りつけた障害物の間を縫って打ち込む稽古をつけた"
+      manga:
+        score: 85
+        note: 無惨戦で最後まで前線に立ち続けた。
+        evidence:
+          - "無限城編: 赫刀を出し、無惨戦で最後まで前線に立ち続けた"
   - id: tanjiro
     name: 竈門炭治郎
     affiliation: 鬼殺隊
     cv: 花江夏樹
     editor:
-      anime: { score: 78, note: ヒノカミ神楽と痣で上弦と戦えるところまで来た。 }
-      manga: { score: 90, note: 透き通る世界と赫刀を身につけ、縁壱の技に最も近づいた。 }
+      anime:
+        score: 85
+        note: ヒノカミ神楽と痣で上弦と戦えるようになり、無限城で透き通る世界に至った。
+        evidence:
+          - "遊郭編: 痣を出し、宇髄たちと共に妓夫太郎を倒した"
+          - "劇場版『無限城編』第一章: 透き通る世界に入り、猗窩座の首を斬った"
+      manga:
+        score: 90
+        note: 赫刀を身につけ、縁壱の技に最も近づいた。
+        evidence:
+          - "無限城編: ヒノカミ神楽の十三の型をつなげ、夜明けまで無惨を引き止めた"
   - id: nezuko
     name: 竈門禰豆子
     affiliation: 鬼
     cv: 鬼頭明里
     editor:
-      anime: { score: 74, note: 太陽を克服した。戦闘力より、その特異さが最大の価値。 }
-      manga: { score: 75, note: 終盤は戦いの中心から外れる。 }
+      anime:
+        score: 74
+        note: 太陽を克服した。戦闘力より、その特異さが最大の価値。
+        evidence:
+          - "遊郭編: 鬼の力を強めた姿で堕姫と戦った"
+          - "刀鍛冶の里編: 朝日を浴びても消えず、太陽を克服した"
+      manga:
+        score: 74
+        note: 終盤は戦いの中心から外れ、評価は変わらない。
   - id: shinobu
     name: 胡蝶しのぶ
     affiliation: 蟲柱
     cv: 早見沙織
     editor:
-      anime: { score: 72, note: 鬼の首を斬れない代わりに、毒の調合で戦う。 }
-      manga: { score: 74, note: 童磨戦で、自分の命と引き換えに勝ち筋を残した。 }
+      anime:
+        score: 72
+        note: 鬼の首を斬れない代わりに、毒の調合で戦う。童磨には毒を分解されて敗れた。
+        evidence:
+          - "竈門炭治郎 立志編: 那田蜘蛛山で、累の姉の鬼を毒で倒した"
+          - "劇場版『無限城編』第一章: 童磨に毒を打ち込み続けたが分解され、取り込まれた"
+      manga:
+        score: 74
+        note: 童磨戦で、自分の命と引き換えに勝ち筋を残した。
+        evidence:
+          - "無限城編: 体に溜めた藤の花の毒で童磨を弱らせ、カナヲと伊之助の勝利につなげた"

@@ -1,0 +1,179 @@
+work: 犬夜叉
+title: 犬夜叉 最強キャラランキング
+description: 犬夜叉の最強キャラをティア表で決めます。アニメは完結編で原作の最後まで描いているので、勢は1つです。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ・原作とも完結まで（TVアニメ第1作全167話＋『犬夜叉 完結編』全26話、単行本全56巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: sesshomaru
+    name: 殺生丸
+    affiliation: 犬夜叉の異母兄
+    cv: 成田剣
+    editor:
+      anime:
+        score: 94
+        note: 自分の刀・爆砕牙を得て、曲霊や奈落の本体に深手を与えた。最終決戦で奈落を追い詰めた一人。
+        evidence:
+          - "完結編 第13話: 完成した冥道残月破で死神鬼を倒した"
+          - "完結編 第17話: 爆砕牙を初めて振るい、曲霊の依り代を砕いた"
+          - "完結編 第24話: 爆砕牙で奈落の外側の体を斬った"
+  - id: naraku
+    name: 奈落
+    affiliation: 半妖
+    editor:
+      anime:
+        score: 93
+        note: 分身や他の妖怪を取り込み続け、最後は四魂の玉を完成させた。犬夜叉たち全員がかりでようやく倒れた。
+        evidence:
+          - "完結編 第6話: 魍魎丸と赤子を取り込んだ"
+          - "完結編 第20話: 最後のかけらを奪って四魂の玉を完成させた"
+          - "完結編 第25話: かごめの矢、冥道残月破、爆砕牙を受けて体を砕かれた"
+  - id: inuyasha
+    name: 犬夜叉
+    affiliation: 半妖
+    cv: 山口勝平
+    editor:
+      anime:
+        score: 92
+        note: 鉄砕牙の技を増やし続け、父の宿敵の竜骨精も倒した。最終決戦では冥道残月破で奈落の体を砕いた。
+        evidence:
+          - "第1作 第53〜54話: 竜骨精を爆流破で倒した"
+          - "完結編 第24話: 夢幻の白夜を倒した"
+          - "完結編 第25話: 冥道残月破で奈落の体を砕いた"
+  - id: magatsuhi
+    name: 曲霊
+    affiliation: 四魂の玉の邪気
+    editor:
+      anime:
+        score: 88
+        note: 殺生丸と正面から戦い、依り代を砕かれるまで渡り合った。犬夜叉に取り憑いて兄弟を争わせた。
+        evidence:
+          - "完結編 第17話: 殺生丸と戦い、爆砕牙で依り代を砕かれて退いた"
+          - "完結編 第22話: 犬夜叉に取り憑いたが、殺生丸の天生牙で斬られた"
+  - id: kikyo
+    name: 桔梗
+    affiliation: 巫女
+    cv: 日髙のり子
+    editor:
+      anime:
+        score: 84
+        note: 奈落が最も警戒した巫女。浄化の矢で奈落に挑み続けたが、浄化しきれずに命を落とした。
+        evidence:
+          - "完結編 第7話: 蜘蛛の糸の罠の中で奈落と戦った"
+          - "完結編 第8話: 浄化の矢が奈落に届ききらず、命を落とした"
+  - id: moryomaru
+    name: 魍魎丸
+    affiliation: 奈落の分身
+    editor:
+      anime:
+        score: 83
+        note: 冥王獣の甲羅をまとい、殺生丸と打ち合った。他の妖怪を取り込んで力を増やし続けた。
+        evidence:
+          - "完結編 第2話: 冥王獣の甲羅をまとって殺生丸と戦い、退けられた"
+          - "完結編 第5話: 金禍と銀禍を取り込んだ"
+  - id: ryukotsusei
+    name: 竜骨精
+    affiliation: 犬夜叉の父の宿敵
+    editor:
+      anime:
+        score: 82
+        note: 犬夜叉の父と戦って封じられた大妖怪。犬夜叉が爆流破を身につけるまで倒せなかった。
+        evidence:
+          - "第1作 第53〜54話: 封印から解かれて犬夜叉と戦い、爆流破で倒された"
+  - id: kagome
+    name: 日暮かごめ
+    affiliation: 現代の中学生・巫女
+    cv: ゆきのさつき
+    editor:
+      anime:
+        score: 80
+        note: 破魔の矢で奈落の幻を破り、最後は四魂の玉ごと奈落を射抜いた。単独で戦える場面は少ない。
+        evidence:
+          - "完結編 第23話: 矢で奈落の幻を破った"
+          - "完結編 第25話: 矢で四魂の玉を射抜き、奈落に致命傷を与えた"
+  - id: miroku
+    name: 弥勒
+    affiliation: 法師
+    cv: 辻谷耕史
+    editor:
+      anime:
+        score: 77
+        note: 風穴は何でも吸い込むが、奈落の毒虫や瘴気で封じられる。使うほど自分の体も蝕まれる。
+        evidence:
+          - "完結編 第1話: 風穴で白童子を吸い込んで倒した"
+          - "完結編 第6話: 風穴で奈落の心臓を狙ったが失敗し、毒に冒された"
+  - id: hakudoshi
+    name: 白童子
+    affiliation: 奈落の分身
+    editor:
+      anime:
+        score: 76
+        note: 強い結界で犬夜叉たちの攻撃をしのいだ。結界を解かれたところを風穴に吸い込まれた。
+        evidence:
+          - "完結編 第1話: 奈落に結界を解かれ、弥勒の風穴で倒された"
+  - id: bankotsu
+    name: 蛮骨
+    affiliation: 七人隊 首領
+    editor:
+      anime:
+        score: 75
+        note: 人間の傭兵ながら四魂のかけらと蛮竜で犬夜叉と互角に斬り合った。最後は犬夜叉に敗れた。
+        evidence:
+          - "第1作 第122話: 白霊山で蛮竜を振るい、犬夜叉と一騎打ちを演じた"
+  - id: koga
+    name: 鋼牙
+    affiliation: 妖狼族の若頭
+    cv: 松野太紀
+    editor:
+      anime:
+        score: 72
+        note: 足の四魂のかけらによる速さが武器。犬夜叉と組んで奈落の分身を倒した。
+        evidence:
+          - "第1作 第46話: 犬夜叉と組んで獣郎丸・影郎丸を倒した"
+  - id: byakuya
+    name: 夢幻の白夜
+    affiliation: 奈落の分身
+    editor:
+      anime:
+        score: 70
+        note: 幻術が主で、直接の戦闘力は高くない。冥道残月破を写し取った刀で一度は技を受け止めた。
+        evidence:
+          - "完結編 第23話: 冥道残月破を受け止めた"
+          - "完結編 第24話: 犬夜叉に倒された"
+  - id: sango
+    name: 珊瑚
+    affiliation: 妖怪退治屋
+    cv: 桑島法子
+    editor:
+      anime:
+        score: 69
+        note: 飛来骨で大型の妖怪も仕留める退治屋。奈落に傷を負わせた場面もある。
+        evidence:
+          - "完結編 第12話: 毒を仕込んだ飛来骨で骨を集める妖怪を倒した"
+          - "完結編 第14話: 飛来骨で奈落を傷つけた"
+  - id: kagura
+    name: 神楽
+    affiliation: 奈落の分身
+    cv: 大神いずみ
+    editor:
+      anime:
+        score: 68
+        note: 風を操る技で犬夜叉たちを何度も足止めした。奈落に心臓を握られ、最後は瘴気で致命傷を負った。
+        evidence:
+          - "第1作 第40話: 初登場し、風で犬夜叉たちを襲った"
+          - "完結編 第2話: 奈落に瘴気を注がれ、致命傷を負った"
+  - id: kohaku
+    name: 琥珀
+    affiliation: 妖怪退治屋
+    cv: 矢島晶子
+    editor:
+      anime:
+        score: 55
+        note: 退治屋として腕は確かだが、四魂のかけらで命をつないでいる少年。奈落に一太刀を入れた。
+        evidence:
+          - "完結編 第20話: 奈落の肩を刺した"

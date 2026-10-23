@@ -1,0 +1,220 @@
+work: 聖闘士星矢
+title: 聖闘士星矢 最強キャラランキング
+description: 聖闘士星矢の最強キャラをアニメ・漫画勢のティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ（全114話）とOVA『冥王ハーデス』十二宮編・冥界編・エリシオン編で原作完結（単行本全28巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: hades
+    name: ハーデス
+    affiliation: 冥王
+    editor:
+      anime:
+        score: 99
+        note: 瞬の体を依り代にして現れた冥界の神。エリシオンでの最終決戦で、星矢の犠牲の末に肉体が消滅した。
+        evidence:
+          - "冥界編: 瞬の体を依り代にしていた"
+          - "エリシオン編: アテナと星矢たちとの最終決戦で肉体が完全に消滅した"
+  - id: poseidon
+    name: ポセイドン
+    affiliation: 海皇
+    editor:
+      anime:
+        score: 95
+        note: ジュリアン・ソロの体に宿った海の神。地上を洪水で沈めようとしたが、魂をアテナの壺に封印された。
+        evidence:
+          - "ポセイドン編: アテナの壺に魂を封印された"
+  - id: shaka
+    name: 乙女座のシャカ
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 93
+        note: 十二宮編で星矢たちを圧倒した。ハーデス編ではサガ・シュラ・カミュのアテナエクスクラメーションを受けて命を落とした。
+        evidence:
+          - "十二宮編: 一輝の自爆でともに異次元へ飛ばされたが、戻ってきた"
+          - "冥王ハーデス十二宮編: サガ・シュラ・カミュの三人がかりの技を受けて命を落とした"
+  - id: saga
+    name: 双子座のサガ
+    affiliation: 黄金聖闘士／偽の教皇
+    editor:
+      anime:
+        score: 92
+        note: 13年間教皇になりすましていた。一輝を倒し、アイオリアを幻朧魔皇拳で操ったが、星矢に敗れて自害した。
+        evidence:
+          - "十二宮編: 教皇としてアイオリアを幻朧魔皇拳で操った"
+          - "十二宮編: 一輝を倒したが、星矢に敗れて自害した"
+  - id: hypnos
+    name: ヒュプノス
+    affiliation: 眠りを司る神
+    editor:
+      anime:
+        score: 90
+        note: タナトスと並ぶハーデス配下の双子神。神聖衣をまとった星矢たちに敗れた。
+        evidence:
+          - "エリシオン編: 神聖衣をまとった青銅聖闘士たちに敗れた"
+  - id: seiya
+    name: 天馬星座の星矢
+    affiliation: 青銅聖闘士
+    editor:
+      anime:
+        score: 90
+        note: 十二宮で黄金聖闘士たちを越えてサガを破った。エリシオンでは神聖衣をまとい、双子神と戦った。
+        evidence:
+          - "十二宮編: 教皇の間でサガを破った"
+          - "エリシオン編: 神聖衣をまとった仲間たちとともに双子神を撃破した"
+  - id: thanatos
+    name: タナトス
+    affiliation: 死を司る神
+    editor:
+      anime:
+        score: 89
+        note: ヒュプノスと並ぶハーデス配下の双子神。神聖衣をまとった星矢たちに敗れた。
+        evidence:
+          - "エリシオン編: 神聖衣をまとった青銅聖闘士たちに敗れた"
+  - id: kanon
+    name: 双子座のカノン
+    affiliation: 海龍／黄金聖闘士
+    editor:
+      anime:
+        score: 88
+        note: ポセイドン編の黒幕。ハーデス編では双子座の聖衣をまとい、ラダマンティスと相討ちになった。
+        evidence:
+          - "ポセイドン編: 海龍として海闘士を動かした黒幕だった"
+          - "冥界編: ラダマンティスを道連れに自爆した"
+  - id: dohko
+    name: 天秤座の童虎
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 88
+        note: 前聖戦の生き残り。ハーデス編で冥闘士となったシオンと戦い、若い肉体を取り戻した姿を見せた。
+        evidence:
+          - "冥王ハーデス十二宮編: 冥闘士として現れたシオンと戦った"
+  - id: ikki
+    name: 鳳凰星座の一輝
+    affiliation: 青銅聖闘士
+    editor:
+      anime:
+        score: 87
+        note: 何度倒れても蘇る青銅聖闘士。十二宮でシャカを自爆で道連れにしかけ、サガには倒された。
+        evidence:
+          - "十二宮編: シャカとの戦いで自爆し、ともに異次元へ飛んだ"
+          - "十二宮編: サガに倒された"
+  - id: mu
+    name: 牡羊座のムウ
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 86
+        note: ハーデス編で白羊宮を守り、冥闘士を次々に倒した。冥闘士として蘇ったデスマスクとアフロディーテも倒した。
+        evidence:
+          - "冥王ハーデス十二宮編: 白羊宮で冥闘士を次々に倒した"
+          - "冥王ハーデス十二宮編: スターライトエクスティンクションでデスマスクとアフロディーテを倒した"
+  - id: aiolia
+    name: 獅子座のアイオリア
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 85
+        note: サガに操られて星矢を追い詰めた。ハーデス編では獅子宮で冥闘士を退けた。
+        evidence:
+          - "十二宮編: 幻朧魔皇拳で操られ、星矢を追い詰めた"
+          - "冥王ハーデス十二宮編: 獅子宮で冥闘士たちを倒した"
+  - id: shiryu
+    name: 龍星座の紫龍
+    affiliation: 青銅聖闘士
+    editor:
+      anime:
+        score: 84
+        note: 十二宮でデスマスクとシュラの二人の黄金聖闘士を倒した。
+        evidence:
+          - "十二宮編: 巨蟹宮でデスマスクを倒した"
+          - "十二宮編: 磨羯宮でシュラを倒した"
+  - id: milo
+    name: 蠍座のミロ
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 83
+        note: 十二宮で氷河を倒したが、その覚悟を認めて先へ通した。
+        evidence:
+          - "十二宮編: 天蠍宮で氷河を倒した後、先へ通した"
+  - id: rhadamanthys
+    name: ラダマンティス
+    affiliation: 冥闘士 三巨頭
+    editor:
+      anime:
+        score: 83
+        note: 冥界三巨頭の一人。カノンの自爆に巻き込まれて相討ちになった。
+        evidence:
+          - "冥界編: カノンの自爆に巻き込まれて倒れた"
+  - id: hyoga
+    name: 白鳥星座の氷河
+    affiliation: 青銅聖闘士
+    editor:
+      anime:
+        score: 82
+        note: 十二宮でミロに一度敗れたが、宝瓶宮で師のカミュを倒した。
+        evidence:
+          - "十二宮編: 宝瓶宮でオーロラエクスキューションを放ち、カミュを倒した"
+  - id: camus
+    name: 水瓶座のカミュ
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 82
+        note: 氷河の師。宝瓶宮で氷河と戦い、敗れた。
+        evidence:
+          - "十二宮編: 宝瓶宮で氷河に敗れた"
+  - id: shura
+    name: 山羊座のシュラ
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 82
+        note: 聖剣エクスカリバーの使い手。かつてアイオロスに致命傷を負わせた。磨羯宮で紫龍に敗れた。
+        evidence:
+          - "十二宮編: 磨羯宮で紫龍に敗れた"
+  - id: shun
+    name: アンドロメダ星座の瞬
+    affiliation: 青銅聖闘士
+    editor:
+      anime:
+        score: 80
+        note: 双魚宮でアフロディーテと戦い、ネビュラストームで倒した。
+        evidence:
+          - "十二宮編: 双魚宮でアフロディーテを倒した"
+  - id: aldebaran
+    name: 牡牛座のアルデバラン
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 74
+        note: 金牛宮で星矢に聖衣の角を折られ、約束どおり通過を認めた。
+        evidence:
+          - "十二宮編: 星矢に聖衣の角を折られ、通過を認めた"
+  - id: aphrodite
+    name: 魚座のアフロディーテ
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 72
+        note: 双魚宮で瞬と戦い、相討ちに近い形で倒れた。
+        evidence:
+          - "十二宮編: 双魚宮で瞬に敗れた"
+  - id: deathmask
+    name: 蟹座のデスマスク
+    affiliation: 黄金聖闘士
+    editor:
+      anime:
+        score: 68
+        note: 巨蟹宮で紫龍に敗れた。ハーデス編で蘇った後も、ムウに倒された。
+        evidence:
+          - "十二宮編: 巨蟹宮で紫龍に敗れた"
+          - "冥王ハーデス十二宮編: ムウに倒された"

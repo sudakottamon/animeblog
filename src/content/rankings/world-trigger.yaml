@@ -1,0 +1,230 @@
+work: ワールドトリガー
+title: ワールドトリガー 最強キャラランキング
+description: ワールドトリガーの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第3期（B級ランク戦 ROUND8の決着）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本の既刊分まで（2026年10月時点。遠征選抜試験の途中）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: tenba
+    name: 天羽月彦
+    affiliation: ボーダー S級隊員
+    cv: 代永翼
+    editor:
+      anime:
+        score: 96
+        note: 黒トリガーを持つS級隊員。大規模侵攻では一人で担当地区のトリオン兵を片付けた。
+        evidence:
+          - "大規模侵攻編: 単独でトリオン兵の群れを一掃した"
+      manga:
+        score: 96
+        note: 原作でも評価は変わらない。
+  - id: jin
+    name: 迅悠一
+    affiliation: 玉狛支部
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 95
+        note: 未来視のサイドエフェクトを持つ。黒トリガー風刃でボーダー本部の精鋭部隊をまとめて退けた。
+        evidence:
+          - "黒トリガー争奪戦編: 風刃で太刀川・風間たち本部の部隊を退けた"
+      manga:
+        score: 95
+        note: 原作でも評価は変わらない。
+  - id: viza
+    name: ヴィザ
+    affiliation: アフトクラトル
+    cv: 中博史
+    editor:
+      anime:
+        score: 94
+        note: 国宝の黒トリガー星の杖を使う老剣士。大規模侵攻で玉狛の隊員たちを相手にし、最後は遊真に敗れた。
+        evidence:
+          - "大規模侵攻編: 星の杖で玉狛の隊員たちと戦った"
+          - "大規模侵攻編: 遊真に敗れた"
+      manga:
+        score: 94
+        note: 原作でも評価は変わらない。
+  - id: shinoda
+    name: 忍田真史
+    affiliation: ボーダー本部長
+    cv: 草尾毅
+    editor:
+      anime:
+        score: 92
+        note: ボーダー本部長で太刀川の師。大規模侵攻では合同部隊を率いてエネドラを倒した。
+        evidence:
+          - "大規模侵攻編: 合同部隊を率いてエネドラを倒した"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: tachikawa
+    name: 太刀川慶
+    affiliation: 太刀川隊 隊長
+    cv: 浪川大輔
+    editor:
+      anime:
+        score: 91
+        note: 攻撃手1位。黒トリガーの迅には敗れたが、大規模侵攻では新型トリオン兵を次々に斬った。
+        evidence:
+          - "黒トリガー争奪戦編: 風刃を持つ迅に敗れた"
+          - "大規模侵攻編: 新型トリオン兵ラービットを次々に斬った"
+      manga:
+        score: 91
+        note: 原作でも評価は変わらない。
+  - id: hyrein
+    name: ハイレイン
+    affiliation: アフトクラトル 隊長
+    cv: 佐々木望
+    editor:
+      anime:
+        score: 90
+        note: 黒トリガー卵の冠で隊員を次々にキューブに変えた。遊真と三輪の攻撃を受け、撤退した。
+        evidence:
+          - "大規模侵攻編: 卵の冠でボーダー隊員をキューブに変えた"
+          - "大規模侵攻編: 遊真と三輪の攻撃を受けて撤退した"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: yuma
+    name: 空閑遊真
+    affiliation: 玉狛第2
+    cv: 村中知
+    editor:
+      anime:
+        score: 87
+        note: 近界育ちの攻撃手。大規模侵攻では黒トリガー使いのヴィザを倒した。
+        evidence:
+          - "大規模侵攻編: ヴィザを倒した"
+          - "大規模侵攻編: 三輪とともにハイレインを退かせた"
+      manga:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: hyuse
+    name: ヒュース
+    affiliation: 玉狛第2
+    cv: 島﨑信長
+    editor:
+      anime:
+        score: 85
+        note: アフトクラトルの兵だったが、大規模侵攻後に置き去りにされ玉狛に加わった。ランク戦では東に倒された。
+        evidence:
+          - "大規模侵攻編: 本国に置き去りにされ、ボーダーに捕らえられた"
+          - "B級ランク戦（ROUND7）: 東に倒された"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: enedra
+    name: エネドラ
+    affiliation: アフトクラトル
+    cv: 古川登志夫
+    editor:
+      anime:
+        score: 84
+        note: 黒トリガー泥の王の使い手。風間隊を退けたが、弱点を見抜かれて合同部隊に倒された。
+        evidence:
+          - "大規模侵攻編: 風間を倒した"
+          - "大規模侵攻編: 諏訪隊に弱点を暴かれ、忍田らに倒された"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: izumi
+    name: 出水公平
+    affiliation: 太刀川隊
+    cv: 石川界人
+    editor:
+      anime:
+        score: 84
+        note: 太刀川隊の射手。大規模侵攻ではA級の隊員と組んでランバネインを倒した。
+        evidence:
+          - "大規模侵攻編: 米屋たちと組んでランバネインを倒した"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: kazama
+    name: 風間蒼也
+    affiliation: 風間隊 隊長
+    cv: 緑川光
+    editor:
+      anime:
+        score: 82
+        note: 攻撃手の上位。迅との戦いに加わり、大規模侵攻ではエネドラに敗れた。
+        evidence:
+          - "黒トリガー争奪戦編: 太刀川たちと組んで迅と戦った"
+          - "大規模侵攻編: エネドラに敗れた"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: lambaneine
+    name: ランバネイン
+    affiliation: アフトクラトル
+    cv: 柳田淳一
+    editor:
+      anime:
+        score: 81
+        note: 雷の羽で空から砲撃するアフトクラトルの兵。四方を固めた合同部隊に倒された。
+        evidence:
+          - "大規模侵攻編: 合同部隊に囲まれ、米屋の槍で倒された"
+      manga:
+        score: 81
+        note: 原作でも評価は変わらない。
+  - id: murakami
+    name: 村上鋼
+    affiliation: 鈴鳴第一
+    cv: 野島裕史
+    editor:
+      anime:
+        score: 80
+        note: 見た動きを覚えるサイドエフェクトを持つ攻撃手。太刀川・風間・小南・影浦以外の攻撃手には勝ち越している。
+        evidence:
+          - "B級ランク戦: 遊真と斬り合った"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: azuma
+    name: 東春秋
+    affiliation: 東隊 隊長
+    cv: 浜田賢二
+    editor:
+      anime:
+        score: 78
+        note: ボーダー最初の狙撃手。ランク戦では指揮と狙撃でヒュースを倒した。
+        evidence:
+          - "B級ランク戦（ROUND7）: ヒュースを倒した"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: chika
+    name: 雨取千佳
+    affiliation: 玉狛第2
+    cv: 田村奈央
+    editor:
+      anime:
+        score: 68
+        note: トリオン量はボーダーでも飛び抜けている。人を撃てないことが長く弱点だった。
+        evidence:
+          - "B級ランク戦: アイビスの砲撃で建物ごと吹き飛ばした"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: osamu
+    name: 三雲修
+    affiliation: 玉狛第2 隊長
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 52
+        note: トリオン量が少なく、個人の戦闘力は低い。作戦と仕掛けで格上と戦う。
+        evidence:
+          - "大規模侵攻編: 重傷を負いながら、アフトクラトルの追撃をしのいだ"
+      manga:
+        score: 52
+        note: 原作でも評価は変わらない。

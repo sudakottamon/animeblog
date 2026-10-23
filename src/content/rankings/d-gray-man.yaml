@@ -1,0 +1,199 @@
+work: D.Gray-man
+title: D.Gray-man 最強キャラランキング
+description: D.Gray-manの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1作（全103話）＋『D.Gray-man HALLOW』（全13話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 単行本既刊29巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: earl
+    name: 千年伯爵
+    affiliation: ノアの一族
+    editor:
+      anime:
+        score: 97
+        note: アクマを生み出す元凶。江戸の町を一撃で消し飛ばし、クロスに追い詰められたティキも救い出した。
+        evidence:
+          - "江戸編: 江戸の町を消し飛ばした"
+          - "方舟編: クロスからティキを救い出した"
+      manga:
+        score: 97
+        note: 原作でも評価は変わらない。
+  - id: cross
+    name: クロス・マリアン
+    affiliation: 黒の教団 元帥
+    editor:
+      anime:
+        score: 93
+        note: アレンの師。方舟ではノアの力が暴走したティキを圧倒した。
+        evidence:
+          - "方舟編: 暴走したティキを圧倒した"
+          - "本部襲撃: 元帥たちとともにレベル4と戦った"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: allen
+    name: アレン・ウォーカー
+    affiliation: 黒の教団 エクソシスト
+    editor:
+      anime:
+        score: 91
+        note: 神ノ道化に進化したイノセンスでティキの中のノアを破壊し、ロードにも勝った。レベル4も倒した。
+        evidence:
+          - "方舟編: 退魔の剣でティキの中のノアを破壊した"
+          - "方舟編: ロードを倒した"
+          - "本部襲撃: リナリーや元帥たちとともにレベル4を倒した"
+      manga:
+        score: 92
+        note: 教団を離れたあとも、アポクリフォスや千年伯爵と向き合い続けている。
+        evidence:
+          - "単行本26巻: 体の主導権を取り戻し、神田と手を組んだ"
+  - id: apocryphos
+    name: アポクリフォス
+    affiliation: 自我を持つイノセンス
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: イノセンスの守り手。神田を一方的に倒し、ティムキャンピーの命も奪った。
+        evidence:
+          - "単行本24巻: 神田を倒し、ティムキャンピーを刺した"
+          - "単行本26巻: ティムキャンピーを殺した"
+          - "単行本29巻: アレンにイノセンスを打ち込んだ"
+  - id: tyki
+    name: ティキ・ミック
+    affiliation: ノアの一族
+    editor:
+      anime:
+        score: 88
+        note: 物体を選んで通り抜ける能力を持つ。アレンのイノセンスを破壊したが、方舟ではアレンにノアを破壊された。
+        evidence:
+          - "クロス元帥捜索編: アレンのイノセンスを破壊した"
+          - "方舟編: アレンの退魔の剣でノアを破壊された"
+          - "方舟編: ノアの力が暴走したが、クロスに圧倒された"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: road
+    name: ロード・キャメロット
+    affiliation: ノアの一族
+    editor:
+      anime:
+        score: 86
+        note: 夢の世界を操るノア。ラビを夢の中で打ち負かしたが、アレンに敗れた。
+        evidence:
+          - "方舟編: 夢の世界でラビを倒した"
+          - "方舟編: アレンに倒された"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: kanda
+    name: 神田ユウ
+    affiliation: 黒の教団 エクソシスト
+    editor:
+      anime:
+        score: 86
+        note: 方舟でスキン・ボリックを倒し、アルマ=カルマ編ではアレンとともにレベル4を倒した。
+        evidence:
+          - "方舟編: スキン・ボリックを倒した"
+          - "アルマ=カルマ編: アレンとともにレベル4を倒した"
+      manga:
+        score: 85
+        note: 原作ではアポクリフォスに倒されている。
+        evidence:
+          - "単行本24巻: アポクリフォスに倒された"
+  - id: level4
+    name: レベル4
+    affiliation: アクマ
+    editor:
+      anime:
+        score: 85
+        note: 本部に現れた最上位のアクマ。アレンと元帥たちを一度は倒した。最後はアレン、リナリー、元帥たちに倒された。
+        evidence:
+          - "本部襲撃: アレンと元帥たちを一度は倒した"
+          - "本部襲撃: アレン・リナリー・元帥たちに倒された"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: alma
+    name: アルマ=カルマ
+    affiliation: 第二エクソシスト
+    editor:
+      anime:
+        score: 80
+        note: 第二エクソシスト計画の生き残り。アクマとなって北米支部を壊滅させた。
+        evidence:
+          - "アルマ=カルマ編: アクマとなって北米支部を壊滅させた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: skin
+    name: スキン・ボリック
+    affiliation: ノアの一族
+    editor:
+      anime:
+        score: 77
+        note: 雷を操るノア。方舟で神田と戦い、倒された。
+        evidence:
+          - "方舟編: 神田に倒された"
+      manga:
+        score: 77
+        note: 原作でも評価は変わらない。
+  - id: jasdevi
+    name: ジャスデビ
+    affiliation: ノアの一族
+    editor:
+      anime:
+        score: 76
+        note: 二人一組のノア。クロウリーを鉄の処女に閉じ込めるまで追い詰めたが、最後は逆転された。
+        evidence:
+          - "方舟編: クロウリーを鉄の処女に閉じ込めた"
+          - "方舟編: クロウリーの血の人形に倒された"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: lenalee
+    name: リナリー・リー
+    affiliation: 黒の教団 エクソシスト
+    editor:
+      anime:
+        score: 76
+        note: 結晶化したイノセンスで戦う。レベル4との戦いにも加わった。
+        evidence:
+          - "クロス元帥捜索編: 海上でアクマを倒した"
+          - "本部襲撃: アレンや元帥たちとともにレベル4を倒した"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: krory
+    name: アレイスター・クロウリー三世
+    affiliation: 黒の教団 エクソシスト
+    editor:
+      anime:
+        score: 74
+        note: 血を吸うイノセンスで戦う。エリアーデを倒し、方舟ではジャスデビに逆転勝ちした。
+        evidence:
+          - "クロス元帥捜索編: エリアーデを倒した"
+          - "方舟編: 血の人形でジャスデビを倒した"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: lavi
+    name: ラビ
+    affiliation: 黒の教団 エクソシスト
+    editor:
+      anime:
+        score: 70
+        note: 鎚のイノセンスで戦うブックマンの後継者。方舟ではロードの夢の世界に囚われた。
+        evidence:
+          - "方舟編: ロードの夢の世界で敗れた"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。

@@ -9,7 +9,16 @@ const editorJudgment = z.object({
   score: z.number().int().min(1).max(100),
   note: z.string(),
   // 判定の根拠になった場面。「どこで（話数・巻・章）: 何が起きたか」を1件1文で。その勢の範囲の場面だけ。
-  evidence: z.array(z.string()).max(5).default([]),
+  // YAML で引用符なしの「第9話: …」は { 第9話: … } と読まれるので、その形も文字列に戻して受け取る
+  evidence: z
+    .array(
+      z.union([
+        z.string(),
+        z.record(z.string(), z.string()).transform((o) => Object.entries(o).map(([k, v]) => `${k}: ${v}`).join(' ')),
+      ])
+    )
+    .max(5)
+    .default([]),
 });
 
 const rankings = defineCollection({

@@ -1,0 +1,207 @@
+work: 結界師
+title: 結界師 最強キャラランキング
+description: 結界師の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全52話（黒芒楼との決着まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全35巻）まで
+services: [ cmoa, ebookjapan, dmmbooks ]
+related: []
+candidates:
+  - id: sumiko
+    name: 墨村守美子
+    affiliation: 良守の母
+    appears: manga
+    editor:
+      manga:
+        score: 97
+        note: 原作終盤に戻ってきた良守の母。土地神級の龍を扱う術者で、最後は自ら真界を閉じて封印を完成させた。
+        evidence:
+          - "単行本29巻: 長く家を空けていたが烏森に戻ってきた"
+          - "原作最終章: 宙心丸を封じた真界を閉じ、自分は外に出られなくなった"
+  - id: yoshimori
+    name: 墨村良守
+    affiliation: 墨村家 正統継承者
+    cv: 吉野裕行
+    editor:
+      anime:
+        score: 90
+        note: 烏森を襲った牙銀を倒し、黒芒楼では限の仇の火黒にも勝った。勝った直後に自分の結界の中で意識を失っている。
+        evidence:
+          - "第37話: 牙銀を倒して火黒を追った"
+          - "第52話: 火黒を倒したが、結界の中で意識を失った"
+      manga:
+        score: 95
+        note: 火黒に勝ったあとも力を伸ばし続け、最後は覇久魔で宙心丸を真界に封じた。
+        evidence:
+          - "単行本13巻: 閃の助けを得て火黒に勝った"
+          - "原作最終章: 覇久魔で宙心丸を真界に封じた"
+  - id: shichiro
+    name: 扇七郎
+    affiliation: 扇家の末弟
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: 風を操る扇家の末弟。兄たちを自分の手で殺し、裏会の最高幹部も手にかけられる力を見せた。
+        evidence:
+          - "単行本25巻: 兄たちを殺害した"
+          - "単行本28巻: 町を人質にした魔女たちを始末した"
+  - id: masamori
+    name: 墨村正守
+    affiliation: 夜行 頭領
+    cv: 宮内敦士
+    editor:
+      anime:
+        score: 84
+        note: 夜行の頭領。アニメでは本気で戦う場面が少ないが、烏森を襲った左金を術で退けた。
+        evidence:
+          - "第45話: 亜十羅を人質にした左金を術で倒した"
+          - "第52話: 時音と協力して良守の結界を解いた"
+      manga:
+        score: 89
+        note: 絶界で牙銀を一瞬で倒し、扇一郎とも戦って深手を負わせた。
+        evidence:
+          - "黒芒楼編: 烏森を襲った牙銀を絶界で倒した"
+          - "単行本20巻: 扇一郎と戦い、深手を負わせた"
+  - id: mudo
+    name: 無道
+    affiliation: 土地神の力を奪った術者
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 土地神の力を取り込み、良守と正守の二人を相手にした。
+        evidence:
+          - "単行本17巻: 土地神の力を取り込んで良守・正守と戦った"
+  - id: kaguro
+    name: 火黒
+    affiliation: 黒芒楼
+    cv: 平田広明
+    editor:
+      anime:
+        score: 89
+        note: 黒芒楼で突出した戦闘力を持つ。限を背後から貫き、藍緋も斬った。最後は良守に倒された。
+        evidence:
+          - "第37話: 牙銀と戦っていた限を刃で貫いた"
+          - "第49話: 時音を逃がした藍緋を斬った"
+          - "第52話: 良守に倒された"
+      manga:
+        score: 84
+        note: 原作でも黒芒楼の中では最も強い。ただし原作では、これより上の術者が次々に出てくる。
+        evidence:
+          - "単行本11巻: 限を倒した"
+          - "単行本13巻: 良守に敗れた"
+  - id: ichiro
+    name: 扇一郎
+    affiliation: 裏会 十二人会
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 広い範囲に風と衝撃波を起こす術者。正守と戦って深手を負い、逃げた。
+        evidence:
+          - "単行本20巻: 正守と戦い、深手を負って逃げた"
+  - id: tokine
+    name: 雪村時音
+    affiliation: 雪村家 正統継承者
+    cv: 斉藤梨絵
+    editor:
+      anime:
+        score: 72
+        note: 結界の精度は良守より上。黒芒楼では一人で異界に潜入し、正守と組んで良守の結界を解いた。
+        evidence:
+          - "第45話: 黒芒楼のある異界に潜入した"
+          - "第52話: 正守と協力して良守の結界を解いた"
+      manga:
+        score: 78
+        note: 原作では土地神を結界で滅ぼすまでに腕を上げた。
+        evidence:
+          - "単行本21巻: 暴れた緋田郷の主を倒した"
+  - id: gen
+    name: 志々尾限
+    affiliation: 夜行
+    editor:
+      anime:
+        score: 79
+        note: 妖混じりの力で牙銀と互角に戦った。とどめを刺す直前に火黒に貫かれた。
+        evidence:
+          - "第29話: 火黒に痛めつけられ、禁じられた完全変化を使おうとした"
+          - "第37話: 牙銀と互角に渡り合ったが、火黒の刃に貫かれた"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: gagin
+    name: 牙銀
+    affiliation: 黒芒楼
+    cv: 三宅健太
+    editor:
+      anime:
+        score: 76
+        note: 黒芒楼の大軍とともに烏森を襲い、良守たちを押し込んだ。限と互角に戦ったが、最後は良守に倒された。
+        evidence:
+          - "第36話: 烏森を襲い、良守・時音・限を劣勢に追い込んだ"
+          - "第37話: 良守に倒された"
+      manga:
+        score: 70
+        note: 原作では正守の絶界に一瞬で倒されている。
+        evidence:
+          - "黒芒楼編: 正守の絶界で倒された"
+  - id: aohi
+    name: 藍緋
+    affiliation: 黒芒楼
+    cv: 小島幸子
+    editor:
+      anime:
+        score: 64
+        note: 大昔から生きる妖。時音を逃がしたあと、火黒の刃を受けて倒れた。
+        evidence:
+          - "第49話: 時音を逃がし、火黒の刃を受けて倒れた"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: byaku
+    name: 白
+    affiliation: 黒芒楼
+    cv: 津田健次郎
+    editor:
+      anime:
+        score: 66
+        note: 黒芒楼の実務を取り仕切る妖。自分で前に出て戦う場面は少ない。
+        evidence:
+          - "第44話: 黒芒楼を保つため、紫遠に結界師の捕獲を命じた"
+      manga:
+        score: 63
+        note: 蟲で相手を操る。原作では姫に打ちのめされ、松戸と加賀見との戦いにも敗れた。
+        evidence:
+          - "黒芒楼編: 松戸・加賀見と戦って敗れた"
+  - id: sen
+    name: 影宮閃
+    affiliation: 夜行
+    editor:
+      anime:
+        score: 58
+        note: 夜行の妖混じり。黒芒楼で捕まっていたが、良守に助け出されて行動をともにした。
+        evidence:
+          - "第48話: 良守に牢から助け出された"
+          - "第51話: 火黒の力と、良守の絶界の出力不足を見抜いた"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: madarao
+    name: 斑尾
+    affiliation: 墨村家の守護妖
+    editor:
+      anime:
+        score: 60
+        note: 開祖の間時守に仕えてきた妖犬。良守の力を借りて鋼夜に勝った。
+        evidence:
+          - "第12話: 良守の力を借りて鋼夜に勝った"
+      manga:
+        score: 60
+        note: 原作でも評価は変わらない。

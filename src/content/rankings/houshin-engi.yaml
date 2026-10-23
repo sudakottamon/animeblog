@@ -1,0 +1,240 @@
+work: 封神演義
+title: 封神演義 最強キャラランキング
+description: 封神演義（藤崎竜）の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『覇穹 封神演義』全23話（仙界大戦まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全23巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: bunchu
+    name: 聞仲
+    affiliation: 殷の太師（金鰲島出身）
+    cv: 前野智昭
+    editor:
+      anime:
+        score: 96
+        note: 禁鞭で崑崙の十二仙をまとめて退け、重力1000倍をかけた元始天尊も破った。最後は太公望との一騎討ちに敗れた。
+        evidence:
+          - "仙界大戦: 十二仙を相手に瞬く間に勝った"
+          - "仙界大戦: 重力1000倍の元始天尊を破った"
+          - "仙界大戦終盤: 太公望との一騎討ちに敗れた"
+      manga:
+        score: 96
+        note: 原作でも評価は変わらない。
+  - id: tsutenkyoshu
+    name: 通天教主
+    affiliation: 金鰲島 教主
+    cv: 堀秀行
+    editor:
+      anime:
+        score: 89
+        note: 金鰲島の教主。楊戩を圧倒したが、自らを抑えきれず暴走した。
+        evidence:
+          - "仙界大戦: 楊戩と戦って圧倒したが、暴走した"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: taikobo
+    name: 太公望
+    affiliation: 崑崙山 道士（封神計画の実行者）
+    cv: 小野賢章
+    editor:
+      anime:
+        score: 88
+        note: 打神鞭と策で戦う。趙公明に一度敗れたが雪辱し、最後は聞仲との一騎討ちに勝った。
+        evidence:
+          - "趙公明攻略: 復活した四不象と打神鞭で趙公明を倒した"
+          - "仙界大戦終盤: 聞仲との一騎討ちに勝った"
+      manga:
+        score: 97
+        note: 正体の伏羲として太極図を使い、女媧を圧倒した。女媧の自爆に巻き込まれたが生き延びた。
+        evidence:
+          - "歴史の道標: 太極図を使い、女媧を圧倒した"
+          - "歴史の道標: 女媧の自爆に巻き込まれたが生存していた"
+  - id: chokomei
+    name: 趙公明
+    affiliation: 金鰲島の仙人
+    cv: 興津和幸
+    editor:
+      anime:
+        score: 87
+        note: 太公望に一度勝ち、単身で崑崙山に乗り込んだ。最後は復活した四不象と太公望に敗れて封神された。
+        evidence:
+          - "趙公明攻略: 太公望に一度勝った"
+          - "趙公明攻略: 単身で崑崙山に乗り込み、元始天尊に撃退された"
+      manga:
+        score: 87
+        note: 原作でも評価は変わらない。
+  - id: genshitenson
+    name: 元始天尊
+    affiliation: 崑崙山 教主
+    cv: 津田英三
+    editor:
+      anime:
+        score: 85
+        note: 乗り込んできた趙公明を撃退した。ただし聞仲には重力1000倍をかけても及ばなかった。
+        evidence:
+          - "趙公明攻略: 崑崙山に乗り込んだ趙公明を撃退した"
+          - "仙界大戦: 重力1000倍をかけたが聞仲に敗れた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: yozen
+    name: 楊戩
+    affiliation: 崑崙山 道士
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 85
+        note: 三尖刀と変化の術で戦う。十天君の張天君を倒したが、王天君の紅水陣と通天教主には苦しんだ。
+        evidence:
+          - "十絶陣の戦い: 張天君を倒した"
+          - "仙界大戦: 王天君の紅水陣で窮地に陥り、玉鼎真人に救われた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: fugen
+    name: 普賢真人
+    affiliation: 崑崙十二仙
+    cv: 島﨑信長
+    editor:
+      anime:
+        score: 82
+        note: 太極符印の核融合で十天君の袁天君を巻き込んだ。聞仲を相手には自爆を選んだ。
+        evidence:
+          - "十絶陣の戦い: 太極符印の核融合で袁天君を倒した"
+          - "仙界大戦: 聞仲との戦いで太極符印により自爆した"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: nataku
+    name: 哪吒
+    affiliation: 崑崙山（太乙真人の宝貝人間）
+    cv: 古川慎
+    editor:
+      anime:
+        score: 82
+        note: 乾坤圏など多数の宝貝を使う。十天君の趙天君を倒し、金光聖母にも乾坤圏を当てた。
+        evidence:
+          - "十絶陣の戦い: 趙天君を倒した"
+          - "十絶陣の戦い: 金光聖母を乾坤圏で撃った"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: gyokutei
+    name: 玉鼎真人
+    affiliation: 崑崙十二仙（楊戩の師）
+    cv: 諏訪部順一
+    editor:
+      anime:
+        score: 80
+        note: 斬仙剣で十天君の孫天君を一閃した。王天君の紅水陣から楊戩を救い、自らは命を落とした。
+        evidence:
+          - "十絶陣の戦い: 孫天君を斬った"
+          - "仙界大戦: 紅水陣から楊戩を救い、命を落とした"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: kohiko
+    name: 黄飛虎
+    affiliation: 武成王
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 80
+        note: 仙道ではない人間ながら聞仲と戦い、命を賭けて聞仲の心を取り戻させた。
+        evidence:
+          - "仙界大戦: 聞仲と戦い、封神された"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: otenkun
+    name: 王天君
+    affiliation: 十天君
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 78
+        note: 紅水陣で楊戩を追い詰め、救いに来た玉鼎真人を死なせた。
+        evidence:
+          - "仙界大戦: 紅水陣で楊戩を追い詰めた"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: raishinshi
+    name: 雷震子
+    affiliation: 周（姫昌の子）
+    cv: 小林裕介
+    editor:
+      anime:
+        score: 66
+        note: 天騒翼で飛んで戦う。九竜島の四聖の高友乾が持つ混元珠を割った。
+        evidence:
+          - "九竜島の四聖: 高友乾の混元珠を割った"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: dakki
+    name: 妲己
+    affiliation: 殷の皇后（妖怪仙人）
+    cv: 日笠陽子
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 傾世元禳など複数の宝貝を持つ。最後は地球と融合した。
+        evidence:
+          - "歴史の道標: 地球と融合した"
+  - id: joka
+    name: 女媧
+    affiliation: 始まりの人
+    cv: 坂本真綾
+    appears: manga
+    editor:
+      manga:
+        score: 98
+        note: 山河社稷図と四宝剣を使う。太公望の正体である伏羲に圧倒された末、自爆して完全に消滅した。
+        evidence:
+          - "歴史の道標: 伏羲に圧倒された"
+          - "歴史の道標: 自爆して伏羲を巻き込み、完全に消滅した"
+  - id: nentodojin
+    name: 燃燈道人
+    affiliation: 崑崙山
+    cv: 寺島拓篤
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 蓬莱島で袁洪、朱子真、常旲を三対一で相手取り、術で消し去った。
+        evidence:
+          - "原作終盤: 蓬莱島で袁洪、朱子真、常旲を相手に三対一で勝った"
+  - id: ryukitsu
+    name: 竜吉公主
+    affiliation: 崑崙山
+    cv: 早見沙織
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: 霧露乾坤網を使う。劉環を圧倒して勝った。
+        evidence:
+          - "原作: 劉環を圧倒して勝った"
+  - id: kotenka
+    name: 黄天化
+    affiliation: 崑崙山 道士（黄飛虎の子）
+    cv: KENN
+    appears: manga
+    editor:
+      manga:
+        score: 74
+        note: 莫邪の宝剣で余化を倒した。紂王と一騎討ちし、退こうとした直後に背後から刺されて封神された。
+        evidence:
+          - "原作: 余化を倒した"
+          - "殷周易姓革命: 紂王と一騎討ちした後、背後から刺された"

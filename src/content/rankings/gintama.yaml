@@ -1,0 +1,204 @@
+work: 銀魂
+title: 銀魂 最強キャラランキング
+description: 銀魂の最強キャラをアニメ・漫画勢のティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: TVアニメ（全367話）と劇場版『銀魂 THE FINAL』で原作完結（単行本全77巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: utsuro
+    name: 虚
+    affiliation: 天照院奈落の首領
+    cv: 山寺宏一
+    editor:
+      anime:
+        score: 98
+        note: 死なない体を持ち、星海坊主を一騎打ちで戦えなくした。銀ノ魂篇で一度敗れ、最後は銀時との一騎打ちで消滅した。
+        evidence:
+          - "烙陽決戦篇: 星海坊主との一騎打ちで右腕を斬り落とした"
+          - "銀ノ魂篇: ターミナルで銀時たちの一斉攻撃を受けて敗れた"
+          - "劇場版『銀魂 THE FINAL』: 高杉の体を乗っ取って戦い、銀時に倒された"
+  - id: gintoki
+    name: 坂田銀時
+    affiliation: 万事屋銀ちゃん
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 93
+        note: 夜王鳳仙を倒し、最後は虚との一騎打ちを制した。
+        evidence:
+          - "紅桜篇: 紅桜に支配された岡田似蔵を倒した"
+          - "吉原炎上篇: 夜王鳳仙を倒した"
+          - "劇場版『銀魂 THE FINAL』: 虚との一騎打ちに勝った"
+  - id: umibozu
+    name: 星海坊主
+    affiliation: えいりあんはんたー
+    cv: 速水奨
+    editor:
+      anime:
+        score: 90
+        note: 神楽と神威の父。虚と一騎打ちをしたが、右腕を斬られて戦えなくなった。
+        evidence:
+          - "烙陽決戦篇: 虚との一騎打ちに敗れ、右腕を失った"
+  - id: kamui
+    name: 神威
+    affiliation: 春雨 第七師団団長
+    cv: 日野聡
+    editor:
+      anime:
+        score: 89
+        note: 夜兎族の第七師団団長。沖田とは決着がつかず、烙陽では妹の神楽に隙を突かれて敗れた。
+        evidence:
+          - "将軍暗殺篇: 沖田と戦い、決着は持ち越された"
+          - "烙陽決戦篇: 神楽に敗れた"
+  - id: housen
+    name: 鳳仙
+    affiliation: 夜王／春雨 元第七師団団長
+    cv: 銀河万丈
+    editor:
+      anime:
+        score: 88
+        note: 吉原を支配した夜兎。銀時や百華を相手に優位に立ったが、日の光を浴びて弱り、敗れた。
+        evidence:
+          - "吉原炎上篇: 部下の阿伏兎の左腕を斬り落とした"
+          - "吉原炎上篇: 銀時との戦いで日の光を浴び、倒された"
+  - id: takasugi
+    name: 高杉晋助
+    affiliation: 鬼兵隊 総督
+    cv: 子安武人
+    editor:
+      anime:
+        score: 87
+        note: 烙陽で朧との一騎打ちに勝ち、銀ノ魂篇では桂・坂本とともに圓翔を倒した。
+        evidence:
+          - "将軍暗殺篇: 朧に背後から貫かれて重傷を負った"
+          - "烙陽決戦篇: 朧との一騎打ちに勝った"
+          - "銀ノ魂篇: 桂・坂本とともに圓翔を倒した"
+  - id: kagura
+    name: 神楽
+    affiliation: 万事屋銀ちゃん
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 84
+        note: 夜兎族の血を引く。吉原で阿伏兎を倒し、烙陽では兄の神威に勝った。
+        evidence:
+          - "吉原炎上篇: 阿伏兎を倒した"
+          - "烙陽決戦篇: 神威に勝った"
+  - id: oboro
+    name: 朧
+    affiliation: 天照院奈落
+    cv: 井上和彦
+    editor:
+      anime:
+        score: 83
+        note: 将軍暗殺篇で高杉に深手を負わせた。烙陽で高杉との一騎打ちに敗れた。
+        evidence:
+          - "将軍暗殺篇: 高杉を背後から錫杖で貫いた"
+          - "烙陽決戦篇: 高杉との一騎打ちに敗れた"
+  - id: katsura
+    name: 桂小太郎
+    affiliation: 攘夷志士
+    cv: 石田彰
+    editor:
+      anime:
+        score: 83
+        note: 春雨の師団長を倒し、銀ノ魂篇では高杉・坂本とともに圓翔に勝った。
+        evidence:
+          - "烙陽決戦篇: 春雨第四師団団長の猩覚を倒した"
+          - "銀ノ魂篇: 高杉・坂本とともに圓翔を倒した"
+  - id: enshou
+    name: 圓翔
+    affiliation: アルタナ解放軍 総帥
+    editor:
+      anime:
+        score: 80
+        note: エリザベスと陸奥に重傷を負わせたが、桂・坂本・高杉の連携に敗れた。
+        evidence:
+          - "銀ノ魂篇: 桂・坂本・高杉の連携攻撃に敗れた"
+  - id: okita
+    name: 沖田総悟
+    affiliation: 真選組 一番隊隊長
+    cv: 鈴村健一
+    editor:
+      anime:
+        score: 80
+        note: 将軍暗殺篇で神威と斬り合い、決着を持ち越した。
+        evidence:
+          - "将軍暗殺篇: 神威と戦い、決着は持ち越された"
+  - id: hijikata
+    name: 土方十四郎
+    affiliation: 真選組 副長
+    cv: 中井和哉
+    editor:
+      anime:
+        score: 79
+        note: 真選組動乱篇で伊東鴨太郎との一騎打ちに勝った。
+        evidence:
+          - "真選組動乱篇: 伊東鴨太郎との一騎打ちに勝った"
+  - id: nobume
+    name: 今井信女
+    affiliation: 見廻組 副長
+    cv: 平野綾
+    editor:
+      anime:
+        score: 78
+        note: 黒縄島で神楽・沖田とともに虚と戦った。
+        evidence:
+          - "さらば真選組篇: 黒縄島で神楽・沖田とともに虚と戦った"
+  - id: sakamoto
+    name: 坂本辰馬
+    affiliation: 快援隊 艦長
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 77
+        note: 春雨の師団長を倒し、銀ノ魂篇では圓翔との戦いに加わった。
+        evidence:
+          - "烙陽決戦篇: 春雨第三師団団長の范堺を倒した"
+          - "銀ノ魂篇: 桂・高杉とともに圓翔を倒した"
+  - id: abuto
+    name: 阿伏兎
+    affiliation: 春雨 第七師団
+    cv: 大塚芳忠
+    editor:
+      anime:
+        score: 75
+        note: 神威の副官を務める夜兎。吉原で神楽に敗れた。
+        evidence:
+          - "吉原炎上篇: 鳳仙に左腕を斬り落とされた"
+          - "吉原炎上篇: 神楽に敗れた"
+  - id: bansai
+    name: 河上万斉
+    affiliation: 鬼兵隊
+    cv: 山崎たくみ
+    editor:
+      anime:
+        score: 74
+        note: 三味線の弦を使う人斬り。真選組動乱篇で銀時に敗れた。
+        evidence:
+          - "真選組動乱篇: 銀時にヘリコプターごと地面に叩きつけられて敗れた"
+  - id: tsukuyo
+    name: 月詠
+    affiliation: 吉原自警団 百華の頭
+    cv: 甲斐田裕子
+    editor:
+      anime:
+        score: 70
+        note: クナイを使う百華の頭。吉原で銀時とともに鳳仙に立ち向かった。
+        evidence:
+          - "吉原炎上篇: 銀時とともに鳳仙と戦った"
+  - id: nizo
+    name: 岡田似蔵
+    affiliation: 鬼兵隊
+    cv: 青山穣
+    editor:
+      anime:
+        score: 68
+        note: 妖刀・紅桜を使う居合の使い手。紅桜に体を支配されて暴走し、銀時に倒された。
+        evidence:
+          - "紅桜篇: 紅桜に支配されて暴走し、銀時に敗れた"

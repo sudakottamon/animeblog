@@ -9,10 +9,10 @@ bases:
     range: TVアニメ第3期第1クール（第36話「究極の生命体」）まで
   - id: manga
     label: 漫画勢（村田版）
-    range: 村田版の連載最新話（アマイマスク編）まで（2026年10月時点）
+    range: 村田版の連載最新話まで（単行本は37巻まで刊行、2026年10月時点）
   - id: original
     label: 原作勢（ONE版）
-    range: ONE版Web連載の最新157撃目（2026年3月更新）まで
+    range: ONE版Web連載の最新話まで（2026年4月時点で159撃目）
 services: [cmoa, ebookjapan, dmmbooks]
 related: []
 candidates:
@@ -21,163 +21,375 @@ candidates:
     affiliation: B級ヒーロー
     cv: 古川慎
     editor:
-      anime: { score: 100, note: ボロスとムカデ長老をマジ殴りで倒した。深海王も一撃だった。 }
-      manga: { score: 100, note: 怪人王オロチを一撃で倒した。宇宙的恐怖モードのガロウも最後は一撃で沈めた。 }
-      original: { score: 100, note: ONE版でも怪人化したガロウに勝った。 }
+      anime:
+        score: 100
+        note: ボロスとムカデ長老をマジ殴りで倒した。深海王も一撃だった。
+        evidence:
+          - "第9話「不屈の正義」: 深海王を一撃で倒した"
+          - "第12話「最強のヒーロー」: ボロスの全力の攻撃をマジ殴りで打ち破った"
+          - "第24話「弟子の尻拭い」: ムカデ長老をマジ殴りで消し飛ばした"
+      manga:
+        score: 100
+        note: 怪人王オロチを一撃で倒した。神の力を得たガロウにも勝った。
+        evidence:
+          - "村田版24巻: 育ちすぎたポチと怪人王オロチを倒した"
+      original:
+        score: 100
+        note: ONE版でも評価は変わらない。
   - id: garou
     name: ガロウ
     affiliation: ヒーロー狩り
     cv: 緑川光
     editor:
-      anime: { score: 84, note: ヒーローを狩り続け、タンクトップマスターや金属バットと戦った。アニメ2期の終盤ではバングに圧倒された。 }
-      manga: { score: 96, note: 怪人化してS級ヒーローを次々に退け、神の力を借りた宇宙的恐怖モードに至った。最後はサイタマの一撃で敗れた。 }
-      original: { score: 92, note: ONE版では宇宙的恐怖モードには至らず、怪人化した状態でサイタマに敗れた。 }
+      anime:
+        score: 84
+        note: ヒーローを狩り続け、タンクトップマスターや金属バットと戦った。アニメ2期の終盤ではバングに圧倒された。
+        evidence:
+          - "第15話「狩りの始まり」: S級のタンクトップマスターを倒した"
+          - "第21話「最強の悩み」: 番犬マンに獣のような戦い方で退けられた"
+          - "第23話「それぞれの矜持」: 手負いのまま八人のヒーローに囲まれ、全員を倒した"
+      manga:
+        score: 96
+        note: 怪人化してS級ヒーローを次々に退け、神の力を借りた宇宙的恐怖モードに至った。最後はサイタマに敗れた。
+        evidence:
+          - "村田版25巻: ぷりぷりプリズナー、超合金クロビカリと続けて戦った"
+          - "怪人協会編: 神の力を得た宇宙的恐怖モードでサイタマと戦い、敗れた"
+      original:
+        score: 92
+        note: ONE版では宇宙的恐怖モードには至らず、怪人化した状態でサイタマに敗れた。
+        evidence:
+          - "ONE版 怪人協会編: 覚醒して黄金精子を倒した"
+          - "ONE版 怪人協会編: 怪人化した状態でサイタマと戦い、敗れた"
   - id: blast
     name: ブラスト
     affiliation: S級1位
     appears: manga
     editor:
-      manga: { score: 94, note: 時空を操る能力者で、20年にわたって神と戦ってきたと明かされた。 }
-      original: { score: 94, note: ONE版で評価を変える材料はない。 }
+      manga:
+        score: 94
+        note: S級1位。素性の多くは明かされていないが、タツマキすら及ばないとされる実力者。
+        evidence:
+          - "怪人協会編: 本気のサイタマの拳が迫った際、地球が砕けることを危惧した"
+      original:
+        score: 94
+        note: ONE版で評価を変える材料はない。
   - id: boros
     name: ボロス
     affiliation: 暗黒盗賊団ダークマター 頭目
     cv: 森川智之
     editor:
-      anime: { score: 93, note: 崩星咆哮砲まで撃ったが、サイタマのマジ殴りに敗れた。 }
-      manga: { score: 93, note: 漫画で評価を変える材料はない。 }
-      original: { score: 93, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 93
+        note: 崩星咆哮砲まで撃ったが、サイタマのマジ殴りに敗れた。
+        evidence:
+          - "第12話「最強のヒーロー」: サイタマを月まで蹴り飛ばし、最後は全力の砲撃をマジ殴りに破られた"
+      manga:
+        score: 93
+        note: 漫画で評価を変える材料はない。
+      original:
+        score: 93
+        note: ONE版で評価を変える材料はない。
   - id: tatsumaki
     name: 戦慄のタツマキ
     affiliation: S級2位
     cv: 悠木碧
     editor:
-      anime: { score: 92, note: ボロスの配下ゲリュガンシュプを倒した。アニメ3期ではギョロギョロとの超能力戦に入った。 }
-      manga: { score: 93, note: ギョロギョロを退け、サイタマに倒されたオロチを串刺しにして消滅させた。 }
-      original: { score: 93, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 92
+        note: S級2位の超能力者。アニメ2期では各地の怪人を一人で抑え込んだ。アニメ3期ではギョロギョロのもとにたどり着いた。
+        evidence:
+          - "第18話「怪人の蜂起」: ドSと、ドSに操られた手下たちを倒した"
+          - "第19話「S級のヒーロー」: 巨大なタコの怪人を一瞬で仕留めた"
+          - "第36話「究極の生命体」: ギョロギョロのもとにたどり着き、超能力戦に入った"
+      manga:
+        score: 93
+        note: サイコスとオロチの融合体を超能力で打ち破った。
+        evidence:
+          - "怪人協会編: サイコスがオロチと融合した怪人を相手に超能力を全開にして勝った"
+      original:
+        score: 93
+        note: ONE版で評価を変える材料はない。
   - id: orochi
     name: 怪人王オロチ
     affiliation: 怪人協会
     cv: 斧アツシ
     editor:
-      anime: { score: 88, note: 怪人協会の頂点に立つ怪人王。アニメ3期の最終話でサイタマの前に現れた。 }
-      manga: { score: 89, note: サイタマに一撃で倒され、その後タツマキに消滅させられた。 }
-      original: { score: 89, note: ONE版には登場しない。村田版の描写で評価している。 }
+      anime:
+        score: 88
+        note: 怪人協会の頂点に立つ怪人王。アニメ3期第1クールの最終話でサイタマの前に現れた。
+        evidence:
+          - "第29話「怪人の王」: 地底に落ちてきたガロウを、ギョロギョロとともに待ち構えた"
+          - "第36話「究極の生命体」: サイタマの前に姿を現した"
+      manga:
+        score: 89
+        note: サイタマにガイア砲を打ち消され、一撃で倒された。
+        evidence:
+          - "村田版24巻: サイタマに一撃で倒された"
+      original:
+        score: 89
+        note: ONE版には登場しないため、評価は変わらない。
   - id: bang
     name: シルバーファング（バング）
     affiliation: S級3位
     cv: 山路和弘
     editor:
-      anime: { score: 86, note: 流水岩砕拳の達人。アニメ2期の終盤で元弟子のガロウを圧倒した。 }
-      manga: { score: 87, note: 怪人協会編でボンブと共にガロウと戦い、その後ヒーローを引退した。 }
-      original: { score: 87, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 86
+        note: 流水岩砕拳の達人。アニメ2期の終盤で元弟子のガロウを圧倒した。
+        evidence:
+          - "第23話「それぞれの矜持」: ガロウを奪いに来た怪人協会の刺客を瞬時に片付けた"
+          - "第24話「弟子の尻拭い」: 手負いのガロウを圧倒し、兄ボンブとムカデ長老にも挑んだ"
+      manga:
+        score: 87
+        note: 怪人協会編でボンブと共にガロウと戦い、その後ヒーローを引退した。
+        evidence:
+          - "怪人協会編: 元弟子のガロウを止められなかった責任を感じ、ヒーローを引退した"
+      original:
+        score: 87
+        note: ONE版で評価を変える材料はない。
   - id: elder-centipede
     name: ムカデ長老
     affiliation: 怪人協会
     cv: 坂東尚樹
     editor:
-      anime: { score: 85, note: ジェノスとバング兄弟の攻撃を外殻の再生で耐えたが、サイタマのマジ殴りで砕けた。 }
-      manga: { score: 84, note: 漫画で評価を変える材料はない。 }
-      original: { score: 84, note: ONE版には登場しない。村田版の描写で評価している。 }
+      anime:
+        score: 85
+        note: ジェノスとバング兄弟の攻撃を外殻の再生で耐えたが、サイタマのマジ殴りで砕けた。
+        evidence:
+          - "第24話「弟子の尻拭い」: バングとボンブの攻撃を再生で耐えたが、サイタマに消し飛ばされた"
+      manga:
+        score: 85
+        note: 漫画で評価を変える材料はない。
+      original:
+        score: 85
+        note: ONE版には登場しないため、評価は変わらない。
   - id: atomic-samurai
     name: アトミック侍
     affiliation: S級4位
     cv: 津田健次郎
     editor:
-      anime: { score: 82, note: メルザルガルドとの戦いで奥義を見せた。アニメ3期では黒い精子と対峙した。 }
-      manga: { score: 85, note: 黒い精子を追い詰め、黄金精子の右腕を斬り落とした。 }
-      original: { score: 85, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 82
+        note: メルザルガルドとの戦いで奥義を見せた。アニメ3期では黒い精子と対峙した。
+        evidence:
+          - "第11話「全宇宙の覇者」: メルザルガルドに奥義で応じた"
+          - "第35話「竜の幹部」: タレオを見つけたところで黒い精子と戦い始めた"
+      manga:
+        score: 85
+        note: アトミック集中斬で、黒い精子の分裂体を分裂できなくなるまで切り刻んだ。
+        evidence:
+          - "怪人協会編: アトミック集中斬で黒い精子の分裂体を切り刻み、撃破した"
+      original:
+        score: 85
+        note: ONE版で評価を変える材料はない。
   - id: watchdog-man
     name: 番犬マン
     affiliation: S級ヒーロー
     cv: うえだゆうじ
     editor:
-      anime: { score: 80, note: Q市を一人で守るS級ヒーロー。アニメでは力の底を見せていない。 }
-      manga: { score: 84, note: 覚醒前のガロウを一蹴した。 }
-      original: { score: 84, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 84
+        note: Q市を一人で守るS級ヒーロー。獣のような戦い方で覚醒前のガロウを一蹴した。
+        evidence:
+          - "第21話「最強の悩み」: 獣のような戦い方でガロウを退けた"
+      manga:
+        score: 84
+        note: 漫画でも評価は変わらない。
+      original:
+        score: 84
+        note: ONE版で評価を変える材料はない。
   - id: amai-mask
     name: イケメン仮面アマイマスク
     affiliation: A級1位
+    cv: 宮野真守
     editor:
-      anime: { score: 74, note: A級1位のヒーロー。アニメ3期では救出作戦をめぐってS級ヒーローと対立した。 }
-      manga: { score: 84, note: 民衆の前で怪人と戦ううちに、怪人としての姿が露見した。 }
-      original: { score: 84, note: ONE版でも正体が怪人であることが明かされる。 }
+      anime:
+        score: 74
+        note: A級1位のヒーロー。アニメ3期では救出作戦をめぐってS級ヒーローと対立した。
+        evidence:
+          - "第30話「不揃いのヒーローたち」: 作戦会議に現れ、S級ヒーローと激しく対立した"
+      manga:
+        score: 84
+        note: 人間ではない正体が明かされ、怪人としての力も見せた。
+        evidence:
+          - "村田版22巻: 人間ではないことが明かされた"
+      original:
+        score: 84
+        note: ONE版で評価を変える材料はない。
   - id: flashy-flash
     name: 閃光のフラッシュ
     affiliation: S級ヒーロー
     cv: 鳥海浩輔
     editor:
-      anime: { score: 80, note: 忍者の里出身の剣士。アニメ3期では同期のウインドとフレイムを迎え撃った。 }
-      manga: { score: 81, note: 閃光斬でウインドとフレイムを倒した。 }
-      original: { score: 81, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 80
+        note: 忍者の里出身の剣士。アニメ3期では同期のウインドとフレイムを迎え撃った。
+        evidence:
+          - "第32話「忍の巻」: 怪人になった忍者の里の同期、ウインドとフレイムと戦った"
+      manga:
+        score: 81
+        note: 閃光斬でウインドとフレイムを倒した。
+        evidence:
+          - "村田版21巻: 怪人協会のアジトでウインドとフレイムと戦った"
+          - "怪人協会編: 閃光斬でウインドとフレイムを倒した"
+      original:
+        score: 81
+        note: ONE版で評価を変える材料はない。
   - id: metal-bat
     name: 金属バット
     affiliation: S級ヒーロー
     cv: 羽多野渉
     editor:
-      anime: { score: 76, note: ガロウと打ち合い、勝負は妹の制止で止まった。 }
-      manga: { score: 82, note: ラフレシドンやムカデ後輩を倒したが、ガロウには苦戦した。 }
-      original: { score: 82, note: ONE版ではネオヒーローズの闇を探り、身体改造した警備担当と戦った。 }
+      anime:
+        score: 76
+        note: ガロウと打ち合い、勝負は妹の制止で止まった。
+        evidence:
+          - "第17話「武術の大会」: ガロウと打ち合ったが、妹ゼンコの制止で手を止めた"
+      manga:
+        score: 76
+        note: 漫画でも評価は変わらない。
+      original:
+        score: 76
+        note: ONE版でも評価は変わらない。
   - id: genos
     name: ジェノス
     affiliation: S級ヒーロー
     cv: 石川界人
     editor:
-      anime: { score: 75, note: 深海王には子どもをかばった隙を突かれて敗れた。ムカデ長老戦でも決定打を欠いた。 }
-      manga: { score: 80, note: 強化を重ねて怪人協会編に臨んだが、宇宙的恐怖モードのガロウに破壊された。 }
-      original: { score: 78, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 75
+        note: 深海王には子どもをかばった隙を突かれて敗れた。ムカデ長老戦でも決定打を欠いた。
+        evidence:
+          - "第9話「不屈の正義」: 深海王に腕を引きちぎられた"
+          - "第24話「弟子の尻拭い」: ムカデ長老の再生に押し切られた"
+      manga:
+        score: 80
+        note: 強化を重ねて怪人協会編に臨み、機神G5を破壊した。宇宙的恐怖モードのガロウには破壊された。
+        evidence:
+          - "村田版25巻: 機神G5を破壊した"
+      original:
+        score: 80
+        note: ONE版でも評価は変わらない。
   - id: homeless-emperor
     name: ホームレス帝
     affiliation: 怪人協会
     editor:
-      anime: { score: 78, note: 光弾を操る怪人協会の幹部。アニメ3期ではゾンビマンと交戦した。 }
-      manga: { score: 80, note: 神から与えられた光弾の力で戦ったが、最後は神に力を没収されて力尽きた。 }
-      original: { score: 78, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 78
+        note: 光弾を操る怪人協会の幹部。アニメ3期ではゾンビマンと交戦した。
+        evidence:
+          - "第35話「竜の幹部」: ゾンビマンと戦った"
+      manga:
+        score: 80
+        note: 神から与えられた光弾の力で戦ったが、最後は神に力を没収されて力尽きた。
+        evidence:
+          - "怪人協会編: ゾンビマンに神のことを語ろうとして神通力を没収され、力尽きた"
+      original:
+        score: 80
+        note: ONE版でも評価は変わらない。
   - id: deep-sea-king
     name: 深海王
     affiliation: 海人族
     cv: 小山力也
     editor:
-      anime: { score: 72, note: 雨の中でジェノスやぷりぷりプリズナーを退けたが、サイタマに一撃で倒された。 }
-      manga: { score: 70, note: 漫画で評価を変える材料はない。 }
-      original: { score: 70, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 72
+        note: 雨の中でジェノスやぷりぷりプリズナーを退けたが、サイタマに一撃で倒された。
+        evidence:
+          - "第8話「深海の王」: 上陸してヒーローたちを次々に退けた"
+          - "第9話「不屈の正義」: ジェノスの腕を引きちぎったが、サイタマに一撃で倒された"
+      manga:
+        score: 72
+        note: 漫画で評価を変える材料はない。
+      original:
+        score: 72
+        note: ONE版で評価を変える材料はない。
   - id: zombieman
     name: ゾンビマン
     affiliation: S級ヒーロー
     cv: 櫻井孝宏
     editor:
-      anime: { score: 70, note: 致命傷を負っても再生する不死身の体。アニメ3期ではバンパイアとの消耗戦に挑んだ。 }
-      manga: { score: 74, note: ホームレス帝との戦いで何度倒されても再生して食い下がった。 }
-      original: { score: 74, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 70
+        note: 致命傷を負っても再生する不死身の体。アニメ3期ではバンパイアとの消耗戦に挑んだ。
+        evidence:
+          - "第34話「不死身の泥仕合」: 血を吸って傷を癒やすバンパイアと消耗戦を演じた"
+          - "第35話「竜の幹部」: ホームレス帝と戦った"
+      manga:
+        score: 74
+        note: ホームレス帝との戦いで何度倒されても再生して食い下がった。
+        evidence:
+          - "怪人協会編: ホームレス帝と戦い続け、神に力を奪われたホームレス帝の最期を見届けた"
+      original:
+        score: 74
+        note: ONE版で評価を変える材料はない。
   - id: child-emperor
     name: 童帝
     affiliation: S級ヒーロー
     cv: 高山みなみ
     editor:
-      anime: { score: 70, note: 発明品で戦う天才児。アニメ3期では竜となったフェニックス男と戦い、人質のワガンマを救い出した。 }
-      manga: { score: 72, note: 転生フェニックス男をくすぐり攻撃で弱らせて倒した。 }
-      original: { score: 72, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 70
+        note: 発明品で戦う天才児。アニメ3期では竜となったフェニックス男と戦い、人質のワガンマを救い出した。
+        evidence:
+          - "第33話「童の勇」: 転生したフェニックス男に最終兵器で挑んだ"
+          - "第35話「竜の幹部」: ワガンマの救出に成功した"
+      manga:
+        score: 72
+        note: 転生フェニックス男を倒し、ワガンマを連れて脱出した。
+        evidence:
+          - "村田版22巻: フェニックス男を倒し、ワガンマを連れて脱出した"
+      original:
+        score: 72
+        note: ONE版で評価を変える材料はない。
   - id: puri-puri-prisoner
     name: ぷりぷりプリズナー
     affiliation: S級ヒーロー
     cv: 小野坂昌也
     editor:
-      anime: { score: 66, note: 深海王に挑み、エンジェル☆スタイルでも敗れた。 }
-      manga: { score: 66, note: 怪人協会のアジト戦でバキューマを倒した。 }
-      original: { score: 66, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 66
+        note: 深海王に挑み、エンジェル☆スタイルでも敗れた。
+        evidence:
+          - "第8話「深海の王」: 深海王を止めようと挑んだ"
+          - "第35話「竜の幹部」: 怪人協会のアジトでニャーンと戦った"
+      manga:
+        score: 66
+        note: 怪人協会のアジト戦でバキューマを倒した。
+        evidence:
+          - "怪人協会編: 仲間を吸収して強化されたバキューマを一瞬で粉砕した"
+      original:
+        score: 66
+        note: ONE版で評価を変える材料はない。
   - id: fubuki
     name: 地獄のフブキ
     affiliation: B級1位
     cv: 早見沙織
     editor:
-      anime: { score: 60, note: B級1位。サイタマに挑んだが、まったく相手にならなかった。 }
-      manga: { score: 62, note: 漫画で評価を変える材料はない。 }
-      original: { score: 62, note: ONE版で評価を変える材料はない。 }
+      anime:
+        score: 60
+        note: B級1位。サイタマに挑んだが、まったく相手にならなかった。
+        evidence:
+          - "第14話「人間の怪人」: サイタマに勧誘を断られ、手下のフブキ組も倒された"
+      manga:
+        score: 60
+        note: 漫画で評価を変える材料はない。
+      original:
+        score: 60
+        note: ONE版で評価を変える材料はない。
   - id: king
     name: キング
     affiliation: S級7位
     cv: 安元洋貴
     editor:
-      anime: { score: 25, note: 戦闘力はほぼない。噂と偶然の積み重ねで地上最強の男と呼ばれている。 }
-      manga: { score: 25, note: 漫画でも正体は変わらない。 }
-      original: { score: 25, note: ONE版でも正体は変わらない。 }
+      anime:
+        score: 25
+        note: 戦闘力はほぼない。噂と偶然の積み重ねで地上最強の男と呼ばれている。
+        evidence:
+          - "第2期: 地上最強の噂は勘違いの積み重ねで、実際には戦えないとサイタマに明かした"
+      manga:
+        score: 25
+        note: 漫画でも評価は変わらない。
+      original:
+        score: 25
+        note: ONE版でも評価は変わらない。

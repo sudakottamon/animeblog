@@ -38,8 +38,15 @@ for (const f of files) {
       if (j && typeof j.note === 'string') {
         if (j.note.length > 90) warn(`${c.name}(${b}): 判定理由が長い（${j.note.length}字）`);
         for (const w of BANNED) if (j.note.includes(w)) warn(`${c.name}(${b}): 避ける言い回し「${w}」`);
-        const ev = Array.isArray(j.evidence) ? j.evidence : [];
+        // 引用符なしの「第9話: …」は YAML でオブジェクトになるので、ビルドと同じく文字列に戻して見る
+        const ev = (Array.isArray(j.evidence) ? j.evidence : []).map((e) =>
+          e && typeof e === 'object' ? Object.entries(e).map(([k, v]) => `${k}: ${v}`).join(' ') : e
+        );
         const inherits = i > from && /据え置|評価を変える材料はない|評価は変わらない/.test(j.note);
+        if (inherits) {
+          const prev = c.editor?.[order[i - 1]];
+          if (prev && prev.score !== j.score) warn(`${c.name}(${b}): 「評価は変わらない」なのに点数が前の勢と違う（${prev.score}→${j.score}）`);
+        }
         if (!ev.length && !inherits) warn(`${c.name}(${b}): 根拠（evidence）がない`);
         if (ev.length > 5) warn(`${c.name}(${b}): 根拠が多すぎる（${ev.length}件）`);
         for (const e of ev) {
@@ -56,7 +63,7 @@ for (const f of files) {
   order.forEach((b, i) => {
     const later = cands.filter((c) => order.indexOf(c.appears ?? 'anime') > i);
     for (const c of cands) {
-      const note = [c.editor?.[b]?.note ?? '', ...(c.editor?.[b]?.evidence ?? [])].join(' ');
+      const note = [c.editor?.[b]?.note ?? '', ...(c.editor?.[b]?.evidence ?? []).map((e) => (typeof e === 'string' ? e : JSON.stringify(e)))].join(' ');
       for (const l of later) {
         const short = l.name.replace(/[・（(].*$/, '');
         if (short.length >= 2 && note.includes(short)) warn(`${c.name}(${b}): 後の勢で登場する「${l.name}」に触れている（ネタバレの恐れ）`);

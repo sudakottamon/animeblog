@@ -1,0 +1,266 @@
+work: キン肉マン
+title: キン肉マン 最強キャラランキング
+description: キン肉マンの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1作（1983年版）・『キン肉星王位争奪編』・『完璧超人始祖編』Season 2（第22話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の単行本最新94巻（2026年10月時点）まで
+services: [ cmoa, ebookjapan, dmmbooks ]
+related: []
+candidates:
+  - id: kinnikuman
+    name: キン肉マン
+    affiliation: 正義超人／キン肉星大王
+    editor:
+      anime:
+        score: 93
+        note: "悪魔将軍とスーパー・フェニックスをともに破り、キン肉星の大王になった。完璧超人始祖編でもピークア・ブーに勝った。"
+        evidence:
+          - "TVアニメ第1作 黄金のマスク編: 悪魔将軍を破った"
+          - "TVアニメ『キン肉星王位争奪編』: 決勝でスーパー・フェニックスを破った"
+          - "完璧超人始祖編 Season 1: ピークア・ブーを風林火山で破った"
+      manga:
+        score: 95
+        note: "甲子園球場の決戦でネメシスをマッスル・スパークで破った。"
+        evidence:
+          - "単行本57〜58巻: 甲子園球場でネメシスをマッスル・スパークで破った"
+  - id: akuma-shogun
+    name: 悪魔将軍
+    affiliation: 悪魔超人の首領
+    editor:
+      anime:
+        score: 90
+        note: "悪魔六騎士を率いて正義超人を追い詰めたが、黄金のマスク編の最後にキン肉マンに敗れた。"
+        evidence:
+          - "TVアニメ第1作 黄金のマスク編: キン肉マンとの決戦に敗れた"
+      manga:
+        score: 98
+        note: "完璧超人始祖のミラージュマンとアビスマンを倒し、エアーズロックでストロング・ザ・武道にも勝った。"
+        evidence:
+          - "単行本46巻: ミラージュマンとアビスマンを地獄の断頭台で倒した"
+          - "単行本59巻: エアーズロックでストロング・ザ・武道を神威の断頭台で破った"
+  - id: strong-the-budo
+    name: ストロング・ザ・武道
+    affiliation: 完璧超人
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 92
+        note: "完璧超人を束ねる立場にある。悪魔超人のザ・魔雲天を兜砕きで倒した。"
+        evidence:
+          - "完璧超人始祖編 Season 1 第10話: ザ・魔雲天を兜砕きで破った"
+      manga:
+        score: 95
+        note: "正体は完璧超人の始祖ザ・マン。エアーズロックで悪魔将軍に敗れ、キン肉マンの制止で命を助けられた。"
+        evidence:
+          - "単行本59巻: エアーズロックで悪魔将軍の神威の断頭台に敗れた"
+  - id: nemesis
+    name: ネメシス
+    affiliation: 完璧・無量大数軍
+    cv: 草尾毅
+    editor:
+      anime:
+        score: 89
+        note: "完璧・無量大数軍の中心にいる超人。ロビンマスクをバトルシップ・シンクで破った。"
+        evidence:
+          - "完璧超人始祖編 Season 2: ロビンマスクをバトルシップ・シンクで破った"
+      manga:
+        score: 92
+        note: "ラーメンマンをマッスル・スパークで破ったが、甲子園球場でキン肉マンに敗れた。"
+        evidence:
+          - "単行本53巻: ラーメンマンをマッスル・スパークで破った"
+          - "単行本57〜58巻: 甲子園球場でキン肉マンに敗れた"
+  - id: phoenix
+    name: キン肉マンスーパー・フェニックス
+    affiliation: 知性チーム
+    editor:
+      anime:
+        score: 85
+        note: "キン肉星王位争奪戦で決勝まで勝ち上がり、キン肉マンに敗れた。"
+        evidence:
+          - "TVアニメ『キン肉星王位争奪編』: 決勝でキン肉マンに敗れた"
+      manga:
+        score: 85
+        note: "原作で評価を変える材料はない。"
+  - id: buffaloman
+    name: バッファローマン
+    affiliation: 悪魔超人
+    editor:
+      anime:
+        score: 85
+        note: "1000万パワーの悪魔超人。完璧超人始祖編ではスプリングマンと組み、グリムリパー・ターボメン組に勝った。"
+        evidence:
+          - "完璧超人始祖編 Season 2: ロングホーントレインでターボメンを倒した"
+      manga:
+        score: 88
+        note: "完璧超人始祖のガンマンをハリケーン・ギガブラスターで破った。"
+        evidence:
+          - "単行本52巻: ガンマンをハリケーン・ギガブラスターで破った"
+  - id: neptuneman
+    name: ネプチューンマン
+    affiliation: 完璧超人
+    editor:
+      anime:
+        score: 84
+        note: "夢の超人タッグ編でビッグ・ザ・武道とヘル・ミッショネルズを組み、決勝でマッスル・ブラザーズに敗れた。"
+        evidence:
+          - "TVアニメ第1作 夢の超人タッグ編: 決勝でマッスル・ブラザーズに敗れた"
+      manga:
+        score: 84
+        note: "原作でも評価は変わらない。"
+  - id: ashuraman
+    name: アシュラマン
+    affiliation: 悪魔超人
+    editor:
+      anime:
+        score: 80
+        note: "悪魔六騎士の一人。夢の超人タッグ編ではサンシャインとはぐれ悪魔超人コンビを組んだ。"
+        evidence:
+          - "TVアニメ第1作 夢の超人タッグ編: サンシャインと組んで出場した"
+      manga:
+        score: 86
+        note: "完璧超人始祖との戦いでは敗れたが、神の資格者サラマンダーを撃破した。"
+        evidence:
+          - "単行本50巻: ジャスティスマンのジャッジメント・ペナルティに敗れた"
+          - "単行本94巻: 神の資格者サラマンダーを撃破した"
+  - id: robin
+    name: ロビンマスク
+    affiliation: 正義超人
+    editor:
+      anime:
+        score: 82
+        note: "完璧超人始祖編ではネメシスに挑み、バトルシップ・シンクで敗れた。"
+        evidence:
+          - "完璧超人始祖編 Season 2: ネメシスのバトルシップ・シンクに敗れた"
+      manga:
+        score: 82
+        note: "原作でも評価は変わらない。"
+  - id: ramenman
+    name: ラーメンマン
+    affiliation: 正義超人
+    editor:
+      anime:
+        score: 82
+        note: "完璧超人始祖編でマーベラスを変形九龍城落地で破った。"
+        evidence:
+          - "完璧超人始祖編 Season 2 第14話: マーベラスを変形九龍城落地で破った"
+      manga:
+        score: 82
+        note: "ネメシスに挑み、マッスル・スパークで敗れた。"
+        evidence:
+          - "単行本53巻: ネメシスのマッスル・スパークに敗れた"
+  - id: warsman
+    name: ウォーズマン
+    affiliation: 正義超人
+    editor:
+      anime:
+        score: 80
+        note: "完璧超人始祖編でポーラマンをパロスペシャルで破った。"
+        evidence:
+          - "完璧超人始祖編 Season 2: ポーラマンをパロスペシャルで破った"
+      manga:
+        score: 80
+        note: "原作でも評価は変わらない。"
+  - id: terryman
+    name: テリーマン
+    affiliation: 正義超人
+    editor:
+      anime:
+        score: 76
+        note: "完璧超人始祖編でマックス・ラジアルを破った。"
+        evidence:
+          - "完璧超人始祖編 Season 1 第3話: マックス・ラジアルをカーフブランディングからのブレーンバスターで破った"
+      manga:
+        score: 80
+        note: "完璧超人始祖ジャスティスマンとの試合で倒れずに立ち続け、相手の棄権で勝ちを得た。"
+        evidence:
+          - "単行本54巻: ジャスティスマンが棄権し、テリーマンの勝ちになった"
+  - id: sunshine
+    name: サンシャイン
+    affiliation: 悪魔超人
+    editor:
+      anime:
+        score: 74
+        note: "悪魔六騎士の一人。夢の超人タッグ編ではアシュラマンと組んで出場した。"
+        evidence:
+          - "TVアニメ第1作 夢の超人タッグ編: アシュラマンと組んで出場した"
+      manga:
+        score: 80
+        note: "完璧超人始祖のシングマンをサンド・セメタリープレスで破った。"
+        evidence:
+          - "単行本48〜49巻: ニューヨークでシングマンを破った"
+  - id: brocken-jr
+    name: ブロッケンJr.
+    affiliation: 正義超人
+    editor:
+      anime:
+        score: 70
+        note: "完璧超人始祖編でクラッシュマンをベルリンの赤い雨で破った。"
+        evidence:
+          - "完璧超人始祖編 Season 2 第13話: クラッシュマンをベルリンの赤い雨で破った"
+      manga:
+        score: 70
+        note: "完璧超人始祖のサイコマンに挑んだが敗れた。"
+        evidence:
+          - "単行本54巻: サイコマンに敗れた"
+  - id: polarman
+    name: ポーラマン
+    affiliation: 完璧・無量大数軍
+    cv: 松山鷹志
+    editor:
+      anime:
+        score: 62
+        note: "完璧・無量大数軍の一人。ウォーズマンのパロスペシャルに敗れた。"
+        evidence:
+          - "完璧超人始祖編 Season 2: ウォーズマンに敗れた"
+      manga:
+        score: 62
+        note: "原作でも評価は変わらない。"
+  - id: justiceman
+    name: ジャスティスマン
+    affiliation: 完璧超人始祖
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: "アシュラマンをジャッジメント・ペナルティで破った。テリーマン戦では相手の闘志を認めて自ら棄権した。"
+        evidence:
+          - "単行本50巻: アシュラマンをジャッジメント・ペナルティで破った"
+          - "単行本54巻: テリーマンとの試合を棄権した"
+  - id: psychoman
+    name: サイコマン
+    affiliation: 完璧超人始祖
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: "サグラダファミリアでプラネットマンを破り、その後ブロッケンJr.にも勝った。"
+        evidence:
+          - "単行本47〜48巻: サグラダファミリアでプラネットマンをファントムキャノンで破った"
+          - "単行本54巻: ブロッケンJr.を破った"
+  - id: mirageman
+    name: ミラージュマン
+    affiliation: 完璧超人始祖
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: "完璧超人始祖の一人として悪魔将軍と戦い、地獄の断頭台で敗れた。"
+        evidence:
+          - "単行本46巻: 悪魔将軍の地獄の断頭台に敗れた"
+  - id: gunman
+    name: ガンマン
+    affiliation: 完璧超人始祖
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: "ピサの斜塔でスニゲーターを破ったが、バッファローマンに敗れた。"
+        evidence:
+          - "単行本47巻: ピサの斜塔でスニゲーターをエルクホルン・テンペストで破った"
+          - "単行本52巻: バッファローマンに敗れた"

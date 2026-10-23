@@ -1,0 +1,177 @@
+work: ドラゴンクエスト ダイの大冒険
+title: ドラゴンクエスト ダイの大冒険 最強キャラランキング
+description: ドラゴンクエスト ダイの大冒険の最強キャラをアニメ・漫画勢のティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: 2020年版TVアニメ（全100話）・原作（単行本全37巻）とも完結まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: vearn
+    name: 大魔王バーン
+    affiliation: 魔王軍 総帥
+    editor:
+      anime:
+        score: 98
+        note: 大魔宮でダイたちを一度は退けた。真の姿を取り戻した後もダイに敗れ、石になった。
+        evidence:
+          - "大魔宮（バーンパレス）での最終決戦: ダイに一度敗れた後、本来の肉体を取り戻して再び戦った"
+          - "大魔宮（バーンパレス）での最終決戦: ダイに敗れて石になった"
+  - id: dai
+    name: ダイ
+    affiliation: 勇者
+    cv: 種﨑敦美
+    editor:
+      anime:
+        score: 96
+        note: 竜の騎士の力を受け継ぎ、ハドラーとの一騎打ちと大魔王バーンとの最終決戦に勝った。
+        evidence:
+          - "大魔宮（バーンパレス）での最終決戦: ハドラーとの最後の一騎打ちに勝った"
+          - "大魔宮（バーンパレス）での最終決戦: 本来の姿のバーンを倒した"
+  - id: baran
+    name: バラン
+    affiliation: 魔王軍 超竜軍団長／竜騎将
+    cv: 速水奨
+    editor:
+      anime:
+        score: 92
+        note: テランでダイたちを追い詰め、ダイの記憶まで奪った竜の騎士。最後はハドラーとの戦いの中で、黒の核晶の爆発からダイをかばって命を落とした。
+        evidence:
+          - "テラン王国: ダイの記憶を奪い、ポップたちを退けた"
+          - "ハドラーとの戦い: 黒の核晶の爆発からダイをかばって死亡した"
+  - id: mystvearn
+    name: ミストバーン
+    affiliation: 魔王軍 魔影軍団長
+    editor:
+      anime:
+        score: 90
+        note: 大魔王バーンの側近。フレイザードを始末し、大魔宮でダイたちの前に立ちはだかった。最後はヒュンケルの体を乗っ取ろうとして消滅した。
+        evidence:
+          - "バルジ島: ダイに敗れたフレイザードを始末した"
+          - "大魔宮（バーンパレス）: ヒュンケルの体を乗っ取ろうとして消滅した"
+  - id: hadlar
+    name: ハドラー
+    affiliation: 魔王軍 魔軍司令
+    cv: 関智一
+    editor:
+      anime:
+        score: 88
+        note: 序盤はアバンのメガンテを受けても生き残った。超魔生物となって力を増し、最後はダイとの一騎打ちに敗れて灰になった。
+        evidence:
+          - "デルムリン島: アバンのメガンテを受けて生き延びた"
+          - "大魔宮（バーンパレス）での最終決戦: ダイとの一騎打ちに敗れ、灰になった"
+  - id: hyunckel
+    name: ヒュンケル
+    affiliation: アバンの使徒（元・不死騎団長）
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 86
+        note: 魔王軍の不死騎団長としてダイに敗れた後、仲間になった。竜騎衆のラーハルトに勝ち、大魔宮ではミストバーンの乗っ取りを退けた。
+        evidence:
+          - "パプニカ王国: 不死騎団長としてダイと戦い、敗れた"
+          - "テラン王国: 竜騎衆のラーハルトを倒した"
+  - id: avan
+    name: アバン
+    affiliation: 先代の勇者／ダイたちの師
+    cv: 櫻井孝宏
+    editor:
+      anime:
+        score: 84
+        note: かつてハドラーを倒した先代の勇者。序盤にハドラーへメガンテを使ったが、お守りの力で生き延びていた。
+        evidence:
+          - "デルムリン島: ダイたちを守るためハドラーにメガンテを使った"
+  - id: popp
+    name: ポップ
+    affiliation: アバンの使徒／魔法使い
+    cv: 豊永利行
+    editor:
+      anime:
+        score: 84
+        note: 師のマトリフから極大消滅呪文メドローアを受け継いだ。ハドラー親衛騎団のシグマを倒した。
+        evidence:
+          - "テラン王国: バランにメガンテを使ったが、傷を負わせられなかった"
+          - "ハドラー親衛騎団との戦い: シグマを倒した"
+  - id: larhalt
+    name: ラーハルト
+    affiliation: 竜騎衆
+    editor:
+      anime:
+        score: 80
+        note: バラン配下の竜騎衆の陸戦騎。ヒュンケルとの一騎打ちに敗れた。
+        evidence:
+          - "テラン王国: ヒュンケルとの一騎打ちに敗れた"
+  - id: crocodine
+    name: クロコダイン
+    affiliation: 魔王軍 百獣軍団長
+    cv: 前野智昭
+    editor:
+      anime:
+        score: 76
+        note: ロモスでダイとポップの連携に敗れた後、仲間になった。ザボエラを倒した。
+        evidence:
+          - "ロモス王国: ダイとポップの連携に敗れた"
+          - "ザボエラとの決着: ザボエラを倒した"
+  - id: maam
+    name: マァム
+    affiliation: アバンの使徒／武闘家
+    cv: 小松未可子
+    editor:
+      anime:
+        score: 74
+        note: 僧侶戦士から武闘家に転じた。ハドラー親衛騎団のアルビナスを倒した。
+        evidence:
+          - "ハドラー親衛騎団との戦い: アルビナスを倒した"
+  - id: matoriv
+    name: マトリフ
+    affiliation: 先代勇者の仲間／大魔道士
+    cv: 山路和弘
+    editor:
+      anime:
+        score: 73
+        note: アバンの仲間だった魔法使い。メドローアをポップに教えた。
+        evidence:
+          - "ポップの修行: 極大消滅呪文メドローアをポップに伝えた"
+  - id: albinass
+    name: アルビナス
+    affiliation: ハドラー親衛騎団
+    cv: 田村ゆかり
+    editor:
+      anime:
+        score: 71
+        note: ハドラー親衛騎団のクイーン。マァムとの戦いに敗れた。
+        evidence:
+          - "ハドラー親衛騎団との戦い: マァムに敗れた"
+  - id: sigma
+    name: シグマ
+    affiliation: ハドラー親衛騎団
+    cv: 小林親弘
+    editor:
+      anime:
+        score: 70
+        note: ハドラー親衛騎団のナイト。ポップとの戦いに敗れた。
+        evidence:
+          - "ハドラー親衛騎団との戦い: ポップに敗れた"
+  - id: flazzard
+    name: フレイザード
+    affiliation: 魔王軍 氷炎魔団長
+    cv: 奈良徹
+    editor:
+      anime:
+        score: 66
+        note: 炎と氷の体を持つ軍団長。バルジ島でダイに敗れ、ミストバーンに始末された。
+        evidence:
+          - "バルジ島: ダイに敗れた後、ミストバーンに始末された"
+  - id: zaboera
+    name: ザボエラ
+    affiliation: 魔王軍 妖魔司教
+    cv: 岩田光央
+    editor:
+      anime:
+        score: 48
+        note: 策略と呪文で立ち回る妖魔司教。自分で前に出て戦う場面は少なく、最後はクロコダインに倒された。
+        evidence:
+          - "ザボエラとの決着: クロコダインに倒された"

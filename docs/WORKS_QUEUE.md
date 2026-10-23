@@ -4,12 +4,12 @@
 ルールは docs/RANKING_GUIDE.md。完了したらチェックを付ける。
 
 ## バッチ 01
-- [ ] `jojo` ジョジョの奇妙な冒険（第1部〜第6部はアニメ化済み。第7部以降の扱いを確認）
-- [ ] `dragon-quest-dai` ドラゴンクエスト ダイの大冒険（2020年版アニメ基準）
-- [ ] `rurouni-kenshin` るろうに剣心 -明治剣客浪漫譚-（2023年版アニメの放送範囲を確認）
-- [ ] `gintama` 銀魂
-- [ ] `hokuto-no-ken` 北斗の拳
-- [ ] `saint-seiya` 聖闘士星矢
+- [x] `jojo` ジョジョの奇妙な冒険（第1部〜第6部はアニメ化済み。第7部以降の扱いを確認）
+- [x] `dragon-quest-dai` ドラゴンクエスト ダイの大冒険（2020年版アニメ基準）
+- [x] `rurouni-kenshin` るろうに剣心 -明治剣客浪漫譚-（2023年版アニメの放送範囲を確認）
+- [x] `gintama` 銀魂
+- [x] `hokuto-no-ken` 北斗の拳
+- [x] `saint-seiya` 聖闘士星矢
 
 ## バッチ 02
 - [ ] `boruto` BORUTO-ボルト-（NARUTOとは別作品として扱う。TWO BLUE VORTEXの扱いを確認）
@@ -20,28 +20,28 @@
 - [ ] `reborn` 家庭教師ヒットマンREBORN!
 
 ## バッチ 03
-- [ ] `d-gray-man` D.Gray-man
-- [ ] `toriko` トリコ
-- [ ] `world-trigger` ワールドトリガー
-- [ ] `inuyasha` 犬夜叉
-- [ ] `kekkaishi` 結界師
-- [ ] `zatch-bell` 金色のガッシュ!!
+- [x] `d-gray-man` D.Gray-man
+- [x] `toriko` トリコ
+- [x] `world-trigger` ワールドトリガー
+- [x] `inuyasha` 犬夜叉
+- [x] `kekkaishi` 結界師
+- [x] `zatch-bell` 金色のガッシュ!!
 
 ## バッチ 04
-- [ ] `beelzebub` べるぜバブ
-- [ ] `ushio-to-tora` うしおととら
-- [ ] `karakuri-circus` からくりサーカス
-- [ ] `houshin-engi` 封神演義
-- [ ] `nurarihyon` ぬらりひょんの孫
-- [ ] `nube` 地獄先生ぬ〜べ〜（2025年版アニメ基準）
+- [x] `beelzebub` べるぜバブ
+- [x] `ushio-to-tora` うしおととら
+- [x] `karakuri-circus` からくりサーカス
+- [x] `houshin-engi` 封神演義
+- [x] `nurarihyon` ぬらりひょんの孫
+- [x] `nube` 地獄先生ぬ〜べ〜（2025年版アニメ基準）
 
 ## バッチ 05
-- [ ] `kinnikuman` キン肉マン（完璧超人始祖編のアニメ化範囲を確認）
-- [ ] `rave` RAVE
-- [ ] `edens-zero` EDENS ZERO
-- [ ] `soul-eater` ソウルイーター
-- [ ] `blue-exorcist` 青の祓魔師
-- [ ] `noragami` ノラガミ
+- [x] `kinnikuman` キン肉マン（完璧超人始祖編のアニメ化範囲を確認）
+- [x] `rave` RAVE
+- [x] `edens-zero` EDENS ZERO
+- [x] `soul-eater` ソウルイーター
+- [x] `blue-exorcist` 青の祓魔師
+- [x] `noragami` ノラガミ
 
 ## バッチ 06
 - [ ] `hells-paradise` 地獄楽

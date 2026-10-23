@@ -1,0 +1,266 @@
+work: べるぜバブ
+title: べるぜバブ 最強キャラランキング
+description: べるぜバブの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全60話（ベヘモット34柱師団の柱将との戦いまで。第51〜57話・第60話はアニメオリジナル）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全28巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: saotome
+    name: 早乙女禅十郎
+    affiliation: 石矢魔高校 教師
+    cv: 藤真秀
+    editor:
+      anime:
+        score: 92
+        note: 男鹿と東条をまとめて気絶させた。柱将3人が引き上げたのも早乙女の魔力が理由。
+        evidence:
+          - "第37話: 男鹿と東条を倒し、ヒルダとも渡り合った"
+          - "第41話: 魔力でグラフェル、ナーガ、ヘカドスを撤退させた"
+      manga:
+        score: 88
+        note: 原作でも柱将を退けた実績は残る。ソロモン商会の幹部2人にも勝った。
+        evidence:
+          - "原作終盤: ソロモン商会のミッチーとアキのりを倒した"
+  - id: oga
+    name: 男鹿辰巳
+    affiliation: 石矢魔高校 1年
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 91
+        note: 神崎と姫川を倒し、終盤はベル坊と合体して柱将3人を倒した。
+        evidence:
+          - "第3話: 神崎を窓の外へ殴り飛ばして倒した"
+          - "第5話: ベル坊の力を使って姫川を倒した"
+          - "第48話: ベル坊と合体し、ナーガを含む柱将3人を倒した"
+      manga:
+        score: 97
+        note: ジャバウォック、サタンと契約した藤、ルシファーと契約した鷹宮を順に倒した。
+        evidence:
+          - "34柱師団との抗争: 2代目団長ジャバウォックに勝った"
+          - "殺六縁起との抗争: ベル坊との魔王大爆殺「終」で藤を倒した"
+          - "原作終盤: 鷹宮忍との一騎討ちに勝ち、ヨハンも叩きのめした"
+  - id: tojo
+    name: 東条英虎
+    affiliation: 石矢魔高校 3年（東邦神姫）
+    cv: 関智一
+    editor:
+      anime:
+        score: 87
+        note: 東邦神姫の一人。男鹿を川へ殴り落とし、再戦でも正面から殴り合った。
+        evidence:
+          - "第18話: 男鹿を殴って川へ落とした"
+          - "第21話: 男鹿と正面から殴り合った"
+      manga:
+        score: 86
+        note: 2代目団長ジャバウォックには敗れたが、柱師団の夜刀と応龍は退けた。
+        evidence:
+          - "34柱師団との抗争: ジャバウォックに敗れた"
+          - "原作: 夜刀と応龍を撃退した"
+  - id: naga
+    name: ナーガ
+    affiliation: ベヘモット34柱師団 柱将
+    cv: 白石涼子
+    editor:
+      anime:
+        score: 86
+        note: グラフェルと組んで出馬を倒した。最後はベル坊と合体した男鹿に敗れた。
+        evidence:
+          - "第41話: グラフェルと組んで出馬を倒した"
+          - "第48話: 合体した男鹿に敗れた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: hecadoth
+    name: ヘカドス
+    affiliation: ベヘモット34柱師団 柱将
+    cv: 伊藤健太郎
+    editor:
+      anime:
+        score: 85
+        note: 聖石矢魔を襲撃して邦枝をさらい、ヒルダを刺した。男鹿のゼブルブラストも防いだ。
+        evidence:
+          - "第40話: 邦枝をさらい、ヒルダを槍で刺した"
+          - "第41話: 男鹿のゼブルブラストを防いだ"
+      manga:
+        score: 83
+        note: 鷹宮に敗れた。古市と融合した時には猪熊、月島、毒島を倒した。
+        evidence:
+          - "原作終盤: 鷹宮忍に敗れた"
+          - "原作終盤: 古市と融合し、猪熊・月島・毒島を倒した"
+  - id: graphel
+    name: グラフェル
+    affiliation: ベヘモット34柱師団 柱将
+    cv: 高橋英則
+    editor:
+      anime:
+        score: 84
+        note: ナーガと組んで悪魔の力を持つ出馬を倒し、東条とも戦った。
+        evidence:
+          - "第41話: ナーガと組んで出馬を倒し、東条と交戦した"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: hilda
+    name: ヒルダ
+    affiliation: ベル坊の侍女悪魔
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 80
+        note: 早乙女と渡り合い、柱将ヘカドスとも戦った。ただしヘカドスには刺されて倒れた。
+        evidence:
+          - "第37話: 早乙女と戦った"
+          - "第40話: 男鹿と共にヘカドスと戦い、刺された"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: izuma
+    name: 出馬要
+    affiliation: 聖石矢魔学園 六騎聖
+    cv: 福田賢二
+    editor:
+      anime:
+        score: 79
+        note: 悪魔の力を持つ半魔として東条と戦った。ただし柱将2人を相手に敗れた。
+        evidence:
+          - "第40話: 東条と戦い、悪魔の力を見せた"
+          - "第41話: グラフェルとナーガに敗れた"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: kunieda
+    name: 邦枝葵
+    affiliation: 石矢魔高校 2年（東邦神姫）
+    cv: 豊崎愛生
+    editor:
+      anime:
+        score: 78
+        note: 木刀で男鹿に斬りかかり、聖石矢魔の榊の刀を斬り落とした。柱将ヘカドスにはさらわれた。
+        evidence:
+          - "第8話: 木刀で男鹿に斬りかかった"
+          - "第29話: 榊の刀の先を斬り落とした"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: miki
+    name: 三木久也
+    affiliation: 聖石矢魔学園 六騎聖
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 76
+        note: 男鹿を一時押し込み、男鹿は三木の攻撃を受けて傷を負った。決着はついていない。
+        evidence:
+          - "第31話: 男鹿を押し込んだが、勝負は中断された"
+          - "第36話: 男鹿と組んで霧矢の手下を倒した"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: jinno
+    name: 陣野かおる
+    affiliation: 石矢魔高校 3年
+    cv: 利根健太朗
+    editor:
+      anime:
+        score: 73
+        note: 相沢と組んで神崎、姫川、城山をまとめて倒した。
+        evidence:
+          - "第21話: 相沢と共に神崎、姫川、城山を倒した"
+      manga:
+        score: 73
+        note: 原作でも評価は変わらない。
+  - id: aizawa
+    name: 相沢庄次
+    affiliation: 石矢魔高校 3年
+    cv: 高瀬右光
+    editor:
+      anime:
+        score: 72
+        note: 不意打ちで男鹿を蹴り飛ばした。陣野と組んで神崎たちも倒した。
+        evidence:
+          - "第18話: 男鹿を押し込む場面を見せた"
+          - "第21話: 陣野と共に神崎、姫川、城山を倒した"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: himekawa
+    name: 姫川竜也
+    affiliation: 石矢魔高校 2年（東邦神姫）
+    cv: 荻野晴朗
+    editor:
+      anime:
+        score: 63
+        note: スタンガンで男鹿を狙ったが耐えられ、ベル坊の力を使った男鹿に敗れた。
+        evidence:
+          - "第5話: 男鹿に敗れた"
+      manga:
+        score: 63
+        note: 原作でも評価は変わらない。
+  - id: kanzaki
+    name: 神崎一
+    affiliation: 石矢魔高校 3年（東邦神姫）
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 60
+        note: 東邦神姫の一人だが、男鹿に一撃で窓の外へ飛ばされた。
+        evidence:
+          - "第3話: 男鹿に殴り飛ばされて敗れた"
+      manga:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: jabberwock
+    name: ジャバウォック
+    affiliation: ベヘモット34柱師団 2代目団長
+    cv: 山路和弘
+    appears: manga
+    editor:
+      manga:
+        score: 91
+        note: ベヘモットの息子で柱師団の2代目団長。東条を倒したが、男鹿に敗れた。
+        evidence:
+          - "34柱師団との抗争: 東条を倒した"
+          - "34柱師団との抗争: 男鹿に敗れた"
+  - id: takamiya
+    name: 鷹宮忍
+    affiliation: 殺六縁起 三怪（ルシファーの契約者）
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 柱将4人を瞬く間に倒し、ヘカドスと融合した古市も圧倒した。最後は男鹿との一騎討ちに敗れた。
+        evidence:
+          - "原作終盤: 柱将4人をまとめて倒した"
+          - "原作終盤: ヘカドスと融合した古市を圧倒した"
+          - "原作終盤: 男鹿との一騎討ちに敗れた"
+  - id: fuji
+    name: 藤
+    affiliation: 殺六縁起 三怪（サタンの契約者）
+    appears: manga
+    editor:
+      manga:
+        score: 92
+        note: サタンと契約し、柱師団が体を張って男鹿を守るほどの魔力を見せた。最後は男鹿とベル坊に敗れた。
+        evidence:
+          - "殺六縁起との抗争: サタンの魔力を前に、柱師団が体を張って男鹿を守った"
+          - "殺六縁起との抗争: 魔王大爆殺「終」に敗れた"
+  - id: johan
+    name: ヨハン
+    affiliation: ソロモン商会 幹部
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 鷹宮を圧倒したが、ロサンゼルスで男鹿とベル坊に叩きのめされた。
+        evidence:
+          - "原作終盤: 鷹宮忍を圧倒した"
+          - "原作終盤: ロサンゼルスで男鹿とベル坊に敗れた"

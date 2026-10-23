@@ -1,0 +1,245 @@
+work: るろうに剣心 -明治剣客浪漫譚-
+title: るろうに剣心 最強キャラランキング
+description: るろうに剣心の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: 2023年版TVアニメ第1期（全24話）・第2期『京都動乱』（全23話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作本編完結（単行本全28巻）まで。連載中の北海道編は含めない
+services: [ cmoa, ebookjapan, dmmbooks ]
+related: []
+candidates:
+  - id: hiko
+    name: 比古清十郎
+    affiliation: 飛天御剣流 十三代目
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 94
+        note: 剣心の師。京都動乱では奥義・天翔龍閃を伝える立ち合いで、剣心を上回る力量を見せた。
+        evidence:
+          - "第2期『京都動乱』: 剣心に奥義を授けるための立ち合いで天翔龍閃を受けた"
+      manga:
+        score: 94
+        note: 葵屋に現れ、十本刀の不二を一人で倒した。
+        evidence:
+          - "葵屋の戦い: 九頭龍閃で不二を倒した"
+  - id: kenshin
+    name: 緋村剣心
+    affiliation: 元・人斬り抜刀斎
+    cv: 斉藤壮馬
+    editor:
+      anime:
+        score: 92
+        note: 刃衛、蒼紫、張らを退け、京都で比古から奥義を受け継いだ。宗次郎との初戦では逆刃刀を折られた。
+        evidence:
+          - "第1期: 鵜堂刃衛を倒した"
+          - "第1期: 観柳邸で四乃森蒼紫に勝った"
+          - "第2期『京都動乱』: 新月村で瀬田宗次郎と立ち合い、逆刃刀を折られた"
+      manga:
+        score: 93
+        note: 志々雄のアジトで蒼紫と宗次郎に勝ち、志々雄が燃え尽きるまで戦い抜いた。人誅編では雪代縁との最終決戦に勝った。
+        evidence:
+          - "志々雄のアジト: 蒼紫、宗次郎との再戦に勝った"
+          - "人誅編: 雪代縁との最終決戦に勝った"
+  - id: shishio
+    name: 志々雄真実
+    affiliation: 志々雄一派の首領
+    cv: 古川慎
+    editor:
+      anime:
+        score: 90
+        note: 剣心の後を継いだ人斬りで、全身を焼かれて生き延びた。京都動乱の範囲では自ら刀を振るう場面はほぼない。
+        evidence:
+          - "第2期『京都動乱』: 新月村で剣心と対面し、相手を宗次郎に任せた"
+          - "第2期 第47話: 剣心・斎藤・左之助に決闘状を送った"
+      manga:
+        score: 96
+        note: アジトで剣心・斎藤・左之助・蒼紫を相手に戦い続けた。敗れたのではなく、戦える時間の限界を超えて体が燃え尽きた。
+        evidence:
+          - "志々雄のアジト: 剣心たち4人を相手に連戦した"
+          - "志々雄のアジト: 戦いの最中に体温の限界を超え、燃え尽きた"
+  - id: saito
+    name: 斎藤一
+    affiliation: 警視庁 密偵（元・新選組三番隊組長）
+    cv: 日野聡
+    editor:
+      anime:
+        score: 87
+        note: 牙突で左之助を退け、剣心とも互角に斬り合った。剣心との勝負は途中で止められた。
+        evidence:
+          - "第1期: 左之助を牙突で倒した"
+          - "第1期: 剣心との斬り合いが止められ、決着はつかなかった"
+      manga:
+        score: 88
+        note: 志々雄のアジトで十本刀の魚沼宇水を倒した。
+        evidence:
+          - "志々雄のアジト: 牙突零式で魚沼宇水を倒した"
+  - id: sojiro
+    name: 瀬田宗次郎
+    affiliation: 十本刀
+    cv: 山下大輝
+    editor:
+      anime:
+        score: 86
+        note: 新月村で剣心と立ち合い、逆刃刀を折った。勝負はその場で止まった。
+        evidence:
+          - "第2期『京都動乱』: 新月村で剣心の逆刃刀を折った"
+      manga:
+        score: 87
+        note: 志々雄のアジトで剣心と再戦し、敗れた。
+        evidence:
+          - "志々雄のアジト: 剣心との再戦に敗れた"
+  - id: aoshi
+    name: 四乃森蒼紫
+    affiliation: 隠密御庭番衆 御頭
+    cv: 内田雄馬
+    editor:
+      anime:
+        score: 84
+        note: 第1期で剣心に敗れた。京都動乱では先代御頭の翁を倒した。
+        evidence:
+          - "第1期: 観柳邸で剣心に敗れた"
+          - "第2期 第37話: 翁と戦い、倒した"
+      manga:
+        score: 85
+        note: 志々雄のアジトで剣心と再戦して敗れた後、志々雄にも挑んだ。
+        evidence:
+          - "志々雄のアジト: 剣心との再戦に敗れた"
+  - id: sanosuke
+    name: 相楽左之助
+    affiliation: 喧嘩屋
+    cv: 八代拓
+    editor:
+      anime:
+        score: 75
+        note: 剣心と斎藤には敗れたが、御庭番衆の式尉に勝った。京都で破壊の極意・二重の極みを身につけた。
+        evidence:
+          - "第1期: 剣心に敗れた"
+          - "第1期: 式尉を倒した"
+      manga:
+        score: 80
+        note: 二重の極みで十本刀の安慈に勝った。
+        evidence:
+          - "志々雄のアジト: 悠久山安慈を二重の極みで破った"
+  - id: jine
+    name: 鵜堂刃衛
+    affiliation: 人斬り
+    editor:
+      anime:
+        score: 74
+        note: 心の一方で相手を金縛りにする人斬り。剣心に敗れた。
+        evidence:
+          - "第1期: 剣心に敗れ、自ら命を絶った"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: okina
+    name: 翁（柏崎念至）
+    affiliation: 隠密御庭番衆 京都探索方
+    cv: 千葉繁
+    editor:
+      anime:
+        score: 72
+        note: 先代御頭として蒼紫と戦ったが、敗れた。
+        evidence:
+          - "第2期 第37話: 蒼紫に敗れた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: cho
+    name: 沢下条張
+    affiliation: 十本刀
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 68
+        note: 剣を集める十本刀の一人。剣心に敗れた。
+        evidence:
+          - "第2期『京都動乱』: 剣心に敗れた"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: hannya
+    name: 般若
+    affiliation: 隠密御庭番衆
+    editor:
+      anime:
+        score: 66
+        note: 拳法で剣心に挑んだ御庭番衆の一人。剣心に敗れた。
+        evidence:
+          - "第1期: 剣心に敗れた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: shikijo
+    name: 式尉
+    affiliation: 隠密御庭番衆
+    editor:
+      anime:
+        score: 62
+        note: 怪力の御庭番衆。左之助に敗れた。
+        evidence:
+          - "第1期: 左之助に敗れた"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: raijuta
+    name: 石動雷十太
+    affiliation: 真古流
+    editor:
+      anime:
+        score: 58
+        note: 飯綱の技で離れた相手を斬る剣客。剣心に敗れた。
+        evidence:
+          - "第1期: 剣心に敗れた"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: enishi
+    name: 雪代縁
+    affiliation: 人誅編の首謀者
+    appears: manga
+    editor:
+      manga:
+        score: 90
+        note: 倭刀術を使い、剣心への復讐として人誅を仕掛けた。島での最終決戦で剣心に敗れた。
+        evidence:
+          - "人誅編: 剣心を精神的に追い込み、一時は戦えなくした"
+          - "人誅編: 島での最終決戦で剣心に敗れた"
+  - id: usui
+    name: 魚沼宇水
+    affiliation: 十本刀
+    cv: 諏訪部順一
+    appears: manga
+    editor:
+      manga:
+        score: 81
+        note: 盲目の剣客。志々雄のアジトで斎藤に挑み、牙突零式に倒された。
+        evidence:
+          - "志々雄のアジト: 斎藤に敗れた"
+  - id: anji
+    name: 悠久山安慈
+    affiliation: 十本刀
+    cv: 羽多野渉
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 二重の極みを左之助に教えた破戒僧。アジトでの決戦で左之助に敗れた。
+        evidence:
+          - "志々雄のアジト: 左之助に敗れた"
+  - id: fuji
+    name: 不二
+    affiliation: 十本刀
+    appears: manga
+    editor:
+      manga:
+        score: 77
+        note: 巨体の十本刀。葵屋を襲ったが、比古清十郎に一撃で倒された。
+        evidence:
+          - "葵屋の戦い: 比古清十郎に倒された"

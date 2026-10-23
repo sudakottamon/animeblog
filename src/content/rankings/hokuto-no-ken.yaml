@@ -1,0 +1,213 @@
+work: 北斗の拳
+title: 北斗の拳 最強キャラランキング
+description: 北斗の拳の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢（旧作）
+    range: TVアニメ『北斗の拳』（全109話）・『北斗の拳2』（全43話）まで。放送途中の2026年版新作アニメは含めない
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全27巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kenshiro
+    name: ケンシロウ
+    affiliation: 北斗神拳伝承者
+    editor:
+      anime:
+        score: 98
+        note: シン、サウザー、ラオウ、カイオウと、各編の最後の敵をすべて倒した。
+        evidence:
+          - "サザンクロス: シンを倒した"
+          - "ラオウとの最終決戦: 無想転生でラオウに勝った"
+          - "修羅の国: カイオウを倒した"
+      manga:
+        score: 98
+        note: 原作でも評価は変わらない。
+  - id: raoh
+    name: ラオウ
+    affiliation: 拳王
+    editor:
+      anime:
+        score: 96
+        note: 拳王として世紀末を制圧しかけた。トキとの兄弟対決に勝ったが、ケンシロウとの最終決戦に敗れた。
+        evidence:
+          - "ラオウとトキの兄弟対決: トキを破った"
+          - "拳王軍との戦い: レイに秘孔を突き、残り3日の命にした"
+          - "ラオウとの最終決戦: ケンシロウに敗れ、天に拳を突き上げて果てた"
+      manga:
+        score: 96
+        note: 原作でも評価は変わらない。
+  - id: kaioh
+    name: カイオウ
+    affiliation: 修羅の国 第一の羅将
+    editor:
+      anime:
+        score: 94
+        note: 北斗琉拳の使い手でラオウの兄。修羅の国を支配したが、ケンシロウとの決戦に敗れた。
+        evidence:
+          - "修羅の国: ケンシロウとの決戦に敗れ、ヒョウを抱いて最期を迎えた"
+      manga:
+        score: 94
+        note: 原作でも評価は変わらない。
+  - id: toki
+    name: トキ
+    affiliation: 北斗四兄弟の次兄
+    editor:
+      anime:
+        score: 90
+        note: 柔の拳を極めた北斗神拳の使い手。病を抱えたまま、剛の拳でラオウに挑み、敗れた。
+        evidence:
+          - "ラオウとトキの兄弟対決: 剛の拳で挑んだが、ラオウに敗れた"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: hyou
+    name: ヒョウ
+    affiliation: 修羅の国 第二の羅将
+    editor:
+      anime:
+        score: 89
+        note: 北斗琉拳の使い手で、ケンシロウの実兄。ケンシロウと戦った後、記憶を取り戻した。
+        evidence:
+          - "修羅の国: ケンシロウの実の兄だと明かされた"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: souther
+    name: サウザー
+    affiliation: 聖帝／南斗鳳凰拳
+    editor:
+      anime:
+        score: 88
+        note: 秘孔の位置が逆になっている体で、一度はケンシロウを退けた。再戦で敗れた。
+        evidence:
+          - "聖帝十字陵: 秘孔が効かない体でケンシロウを退けた"
+          - "聖帝十字陵: ケンシロウとの再戦に敗れた"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: falco
+    name: ファルコ
+    affiliation: 元斗皇拳／帝都の将軍
+    editor:
+      anime:
+        score: 86
+        note: 元斗皇拳の使い手。かつて村を守るため、ラオウの前で自らの片足を断った。帝都の将軍としてケンシロウと戦った。
+        evidence:
+          - "ラオウの時代: 村を見逃させるため、自ら片足を断った"
+          - "帝都: 帝都の将軍としてケンシロウと戦った"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: han
+    name: ハン
+    affiliation: 修羅の国 第三の羅将
+    editor:
+      anime:
+        score: 84
+        note: 北斗琉拳の使い手。修羅の国でケンシロウに敗れた。
+        evidence:
+          - "修羅の国: ケンシロウとの戦いに敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: rei
+    name: レイ
+    affiliation: 南斗水鳥拳
+    editor:
+      anime:
+        score: 83
+        note: 南斗水鳥拳の使い手。ラオウに秘孔を突かれて命の期限を負いながら、ユダとの決戦に勝った。
+        evidence:
+          - "拳王軍との戦い: ラオウに敗れ、残り3日の命となった"
+          - "ユダとの決戦: ユダを倒した"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: shu
+    name: シュウ
+    affiliation: 南斗白鷺拳
+    editor:
+      anime:
+        score: 80
+        note: 盲目の南斗白鷺拳の使い手。聖帝十字陵の聖碑を運ばされた末に、サウザーに命を奪われた。
+        evidence:
+          - "聖帝十字陵: 聖碑を運ばされた末にサウザーに命を奪われた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: juza
+    name: ジュウザ
+    affiliation: 南斗五車星
+    editor:
+      anime:
+        score: 80
+        note: 我流の拳でラオウに挑んだ南斗五車星の一人。敗れて命を落とした。
+        evidence:
+          - "拳王軍との戦い: ラオウに挑み、敗れて命を落とした"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: juda
+    name: ユダ
+    affiliation: 南斗紅鶴拳
+    editor:
+      anime:
+        score: 79
+        note: 南斗六聖拳の一人。レイとの決戦に敗れた。
+        evidence:
+          - "ユダとの決戦: レイに敗れた"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: shin
+    name: シン
+    affiliation: 南斗孤鷲拳／KING
+    editor:
+      anime:
+        score: 76
+        note: 一度はケンシロウを破り、胸に七つの傷を刻んだ。サザンクロスでの再戦に敗れた。
+        evidence:
+          - "物語の発端: ケンシロウを破って胸に七つの傷を刻み、ユリアを奪った"
+          - "サザンクロス: ケンシロウに敗れ、城から身を投げた"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: jagi
+    name: ジャギ
+    affiliation: 北斗四兄弟の三男
+    editor:
+      anime:
+        score: 60
+        note: 北斗神拳の伝承者になれなかった兄弟の一人。ケンシロウの名を騙って悪事を重ね、ケンシロウに倒された。
+        evidence:
+          - "ジャギとの戦い: ケンシロウに倒された"
+      manga:
+        score: 60
+        note: 原作でも評価は変わらない。
+  - id: amiba
+    name: アミバ
+    affiliation: トキの偽者
+    editor:
+      anime:
+        score: 50
+        note: トキを名乗って人体実験を繰り返していた偽者。ケンシロウに倒された。
+        evidence:
+          - "偽トキとの戦い: ケンシロウに倒された"
+      manga:
+        score: 50
+        note: 原作でも評価は変わらない。
+  - id: bolge
+    name: ボルゲ
+    affiliation: 原作最後の敵
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 原作の最後の敵。戦いの中で記憶を取り戻したケンシロウに敗れた。
+        evidence:
+          - "ボルゲ編: 記憶を失っていたケンシロウと戦い、敗れた"

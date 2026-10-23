@@ -1,0 +1,204 @@
+work: 青の祓魔師
+title: 青の祓魔師 最強キャラランキング
+description: 青の祓魔師の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第4期『終夜篇』まで（第1期後半のアニメオリジナル展開と劇場版は含めない）
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の単行本既刊34巻（2026年5月時点）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: satan
+    name: サタン
+    affiliation: 虚無界の神
+    editor:
+      anime:
+        score: 99
+        note: "燐の養父の藤本獅郎に憑依し、獅郎は抗うために自ら命を絶った。"
+        evidence:
+          - "第1期 序盤: 藤本獅郎に憑依し、獅郎は自ら命を絶った"
+      manga:
+        score: 99
+        note: "原作でも評価は変わらない。"
+  - id: mephisto
+    name: メフィスト・フェレス
+    affiliation: 正十字騎士團日本支部長
+    cv: 神谷浩史
+    editor:
+      anime:
+        score: 94
+        note: "正十字学園の理事長。林間合宿で暴れたアマイモンを、お菓子の鳩時計に閉じ込めて収めた。"
+        evidence:
+          - "第1期 林間合宿: アマイモンをお菓子の鳩時計に閉じ込めた"
+      manga:
+        score: 94
+        note: "原作でも評価は変わらない。"
+  - id: shiro
+    name: 藤本獅郎
+    affiliation: 元聖騎士／燐と雪男の養父
+    editor:
+      anime:
+        score: 90
+        note: "聖騎士を務めた祓魔師。サタンに憑依されても屈せず、自ら命を絶って燐を守った。"
+        evidence:
+          - "第1期 序盤: サタンの憑依に抗い、自ら命を絶った"
+      manga:
+        score: 90
+        note: "原作でも評価は変わらない。"
+  - id: amaimon
+    name: アマイモン
+    affiliation: 地の王
+    cv: 柿原徹也
+    editor:
+      anime:
+        score: 88
+        note: "林間合宿で燐を襲い、皆の前で青い炎を引き出した。最後はメフィストに鳩時計に閉じ込められた。"
+        evidence:
+          - "第1期 林間合宿: 燐と戦い、燐の正体が露見するきっかけを作った"
+      manga:
+        score: 86
+        note: "虚無界で燐を一蹴したが、無理がたたって自壊し、後にしえみに調伏された。"
+        evidence:
+          - "原作 虚無界: 燐を一蹴した"
+  - id: rin
+    name: 奥村燐
+    affiliation: 正十字学園 祓魔塾
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 88
+        note: "サタンの青い炎を継ぐ。京都で勝呂とともに不浄王を討ち、青森では八郎太郎の体を焼いて倒した。"
+        evidence:
+          - "京都不浄王篇: 勝呂とともに不浄王を討伐した"
+          - "雪ノ果篇: 全力の攻撃で八郎太郎の体を焼いた"
+      manga:
+        score: 88
+        note: "原作でも評価は変わらない。"
+  - id: fujouou
+    name: 不浄王
+    affiliation: 上級悪魔
+    editor:
+      anime:
+        score: 85
+        note: "京都で胞子を広げて街を覆った上級悪魔。燐と勝呂に討伐された。"
+        evidence:
+          - "京都不浄王篇: 燐と勝呂に討伐された"
+      manga:
+        score: 85
+        note: "原作でも評価は変わらない。"
+  - id: shura
+    name: 霧隠シュラ
+    affiliation: 上一級祓魔師
+    cv: 佐藤利奈
+    editor:
+      anime:
+        score: 84
+        note: "アマイモンに襲われて暴走しかけた燐を救った。燐に剣の稽古をつけた。"
+        evidence:
+          - "第1期: アマイモンに襲われた燐を救った"
+      manga:
+        score: 84
+        note: "原作でも評価は変わらない。"
+  - id: yukio
+    name: 奥村雪男
+    affiliation: 祓魔師／燐の弟
+    cv: 福山潤
+    editor:
+      anime:
+        score: 82
+        note: "史上最年少で祓魔師になった銃の使い手。京都で藤堂と戦って善戦したが、撤退を許した。"
+        evidence:
+          - "京都不浄王篇: 藤堂との戦いで善戦したが、撤退を許した"
+      manga:
+        score: 82
+        note: "原作でも評価は変わらない。"
+  - id: todo
+    name: 藤堂三郎太
+    affiliation: 元祓魔師
+    cv: 山路和弘
+    editor:
+      anime:
+        score: 82
+        note: "騎士團を裏切った元祓魔師。京都で雪男と戦い、善戦されながらも逃げ切った。"
+        evidence:
+          - "京都不浄王篇: 雪男との戦いから撤退した"
+      manga:
+        score: 82
+        note: "原作でも評価は変わらない。"
+  - id: hachirotaro
+    name: 八郎太郎
+    editor:
+      anime:
+        score: 78
+        note: "青森で燐と戦い、全力の攻撃で体を焼かれて敗れた。その後イルミナティに捕らえられた。"
+        evidence:
+          - "雪ノ果篇: 燐の全力の攻撃で体を焼かれて敗れた"
+      manga:
+        score: 78
+        note: "原作でも評価は変わらない。"
+  - id: izumo
+    name: 神木出雲
+    affiliation: 正十字学園 祓魔塾
+    cv: 喜多村英梨
+    editor:
+      anime:
+        score: 72
+        note: "島根で外道院ミハエルを鎮魂の祓いで破った。"
+        evidence:
+          - "島根啓明結社篇: 鎮魂の祓いで外道院ミハエルを破った"
+      manga:
+        score: 72
+        note: "原作でも評価は変わらない。"
+  - id: suguro
+    name: 勝呂竜士
+    affiliation: 正十字学園 祓魔塾
+    cv: 中井和哉
+    editor:
+      anime:
+        score: 70
+        note: "烏枢沙摩の力を借り、燐とともに不浄王を討った。"
+        evidence:
+          - "京都不浄王篇: 烏枢沙摩の力を借りて燐とともに不浄王を討伐した"
+      manga:
+        score: 70
+        note: "原作でも評価は変わらない。"
+  - id: gedoin
+    name: 外道院ミハエル
+    affiliation: イルミナティ
+    cv: 檜山修之
+    editor:
+      anime:
+        score: 66
+        note: "島根でイルミナティの研究を率いたが、出雲の鎮魂の祓いを受けて敗れた。"
+        evidence:
+          - "島根啓明結社篇: 出雲の鎮魂の祓いに敗れた"
+      manga:
+        score: 66
+        note: "原作でも評価は変わらない。"
+  - id: arthur
+    name: アーサー・オーギュスト・エンジェル
+    affiliation: 聖騎士
+    cv: 小野大輔
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: "現役の聖騎士。巨大な上級悪魔の不浄姫を、エンジェルスラッシュの一撃で倒した。"
+        evidence:
+          - "原作: エンジェルスラッシュで不浄姫を一撃で倒した"
+  - id: shiemi
+    name: 杜山しえみ
+    affiliation: 正十字学園 祓魔塾
+    cv: 花澤香菜
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: "自壊しかけたアマイモンを調伏した。"
+        evidence:
+          - "原作: アマイモンを調伏した"

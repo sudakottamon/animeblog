@@ -1,0 +1,220 @@
+work: 地獄先生ぬ〜べ〜
+title: 地獄先生ぬ〜べ〜 最強キャラランキング
+description: 地獄先生ぬ〜べ〜の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（2025年版）第26話「鬼の手の秘密（後編）」まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（ジャンプ・コミックス全31巻）まで。『NEO』などの続編は含まない
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: haki
+    name: 覇鬼
+    affiliation: 地獄の鬼（鬼の手）
+    cv: 安元洋貴
+    editor:
+      anime:
+        score: 94
+        note: ぬ〜べ〜の左手に封じられた鬼で、鬼の手の力の源。
+        evidence:
+          - "第25〜26話「鬼の手の秘密」: ぬ〜べ〜の左手に封じられた経緯が描かれた"
+      manga:
+        score: 96
+        note: 地中の鬼の邪気を吸って復活し、弱った無限界時空を倒した。後にぬ〜べ〜に味方し、岩天狗を一撃で砕いた。
+        evidence:
+          - "原作: 復活し、弱っていた無限界時空を倒した"
+          - "原作: 山の神の刺客・岩天狗を一撃で砕いた"
+  - id: nube
+    name: 鵺野鳴介（ぬ〜べ〜）
+    affiliation: 童守小学校 5年3組 担任
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 91
+        note: 鬼の手で、はたもんば、霊霧魚、しょうけらなどを倒した。経文が効かない七人ミサキには叩きのめされた。
+        evidence:
+          - "第5話「はたもんばの呪い」: 鬼の手の一撃ではたもんばを封じた"
+          - "第12話「霊獣・霊霧魚」: 玉藻の助太刀を受け、鬼の手で霊霧魚を消した"
+          - "第22話「七人ミサキ」: 七人ミサキに叩きのめされ、鬼の手を封じられた"
+      manga:
+        score: 95
+        note: 覇鬼の弟で、玉藻とゆきめが歯の立たなかった絶鬼を倒した。
+        evidence:
+          - "絶鬼編: 絶鬼を倒した"
+  - id: tamamo
+    name: 玉藻京介
+    affiliation: 妖狐
+    cv: 森川智之
+    editor:
+      anime:
+        score: 87
+        note: 首刺又と火輪尾の術を使う妖狐。ぬ〜べ〜と二度対決し、霊霧魚戦では助太刀に回った。
+        evidence:
+          - "第2話「妖狐・跳梁跋扈」: ぬ〜べ〜と対決した"
+          - "第11話「鬼の手 VS. 火輪尾の術」: 火輪尾の術でぬ〜べ〜と戦った"
+          - "第12話「霊獣・霊霧魚」: ぬ〜べ〜に助太刀して形勢を変えた"
+      manga:
+        score: 90
+        note: 九尾の狐の試練をぬ〜べ〜を庇いながら突破し、九尾の尾を一本得た。ただし絶鬼には歯が立たなかった。
+        evidence:
+          - "原作: 九尾の狐の試練を突破し、尾を一本得た"
+          - "絶鬼編: 絶鬼に攻撃が通じなかった"
+  - id: minako
+    name: 美奈子先生
+    affiliation: ぬ〜べ〜の恩師
+    cv: 嶋村侑
+    editor:
+      anime:
+        score: 82
+        note: 回想の人物。強力な悪霊に取り憑かれた少年時代のぬ〜べ〜を救い、命を落とした。
+        evidence:
+          - "第25〜26話「鬼の手の秘密」: 悪霊に取り憑かれたぬ〜べ〜を救った"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: shichinin-misaki
+    name: 七人ミサキ
+    affiliation: 怨霊
+    editor:
+      anime:
+        score: 80
+        note: 七人で一体の怨霊で、経文が効かない。ぬ〜べ〜を叩きのめして鬼の手を封じたが、落雷を受けて消えた。
+        evidence:
+          - "第22話「七人ミサキ」: ぬ〜べ〜を叩きのめし、鬼の手を封じた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: hatamonba
+    name: はたもんば
+    affiliation: 妖怪
+    editor:
+      anime:
+        score: 70
+        note: 教室のドアや机を刃物に変え、鬼の手にも傷をつけた。克也の囮で動きを止められ、封じられた。
+        evidence:
+          - "第5話「はたもんばの呪い」: 鬼の手を傷つけたが、囮にかかって封じられた"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: remugyo
+    name: 霊霧魚
+    affiliation: 霊獣
+    editor:
+      anime:
+        score: 68
+        note: 霧の中で再生し、卵は猛毒。玉藻の助太刀で形勢が逆転し、鬼の手で卵ごと消された。
+        evidence:
+          - "第12話「霊獣・霊霧魚」: 鬼の手で卵ごと消された"
+      manga:
+        score: 68
+        note: 原作でも評価は変わらない。
+  - id: merry
+    name: メリーさん
+    affiliation: 怪異
+    cv: 斎藤千和
+    editor:
+      anime:
+        score: 66
+        note: 念動力、幻覚、発火を使って法子を狙った。身代わりを申し出たぬ〜べ〜に心を開き、経文を受け入れた。
+        evidence:
+          - "第24話「メリーさん」: ぬ〜べ〜の経文を受け入れて消えた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: aka-manto
+    name: A（赤マント）
+    affiliation: 怪人
+    editor:
+      anime:
+        score: 64
+        note: ぬ〜べ〜と戦い、ストーブの火でマントを燃やされて転落した。
+        evidence:
+          - "第17話「「A」がきた!」: ぬ〜べ〜と戦い、マントを燃やされて転落した"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: shokera
+    name: しょうけら
+    affiliation: 疫病神
+    cv: 猪山翔志
+    editor:
+      anime:
+        score: 55
+        note: 家に災いをもたらす妖怪。律子先生を襲ったが、ぬ〜べ〜に倒された。
+        evidence:
+          - "第21話「妖怪しょうけらが窓から覗く」: ぬ〜べ〜に倒された"
+      manga:
+        score: 55
+        note: 原作でも評価は変わらない。
+  - id: makuragaeshi
+    name: まくらがえし
+    affiliation: 次元妖怪
+    cv: Machico
+    editor:
+      anime:
+        score: 52
+        note: 寝ている者の魂を別の世界へ飛ばす。郷子を飛ばしたが、ぬ〜べ〜に捕まった。
+        evidence:
+          - "第14話「次元妖怪・まくらがえし」: ぬ〜べ〜に捕まり、郷子を元の世界に戻された"
+      manga:
+        score: 52
+        note: 原作でも評価は変わらない。
+  - id: zekki
+    name: 絶鬼
+    affiliation: 地獄の鬼（覇鬼の弟）
+    appears: manga
+    editor:
+      manga:
+        score: 93
+        note: 覇鬼の弟。玉藻とゆきめでは歯が立たなかったが、最後はぬ〜べ〜に敗れた。
+        evidence:
+          - "絶鬼編: 玉藻とゆきめを寄せつけなかった"
+          - "絶鬼編: ぬ〜べ〜に敗れた"
+  - id: mugenkai
+    name: 無限界時空
+    affiliation: 霊能力者
+    appears: manga
+    editor:
+      manga:
+        score: 78
+        note: 霊能力は極めて高く、ぬ〜べ〜と合わせ技も使った。弱っていたところを復活した覇鬼に倒された。
+        evidence:
+          - "原作: エンコとの戦いでぬ〜べ〜と合わせ技を使った"
+          - "原作: 覇鬼に倒された"
+  - id: yukime
+    name: ゆきめ
+    affiliation: 雪女
+    cv: 加隈亜衣
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 冷気を操り、空も飛ぶ。山の神の刺客つららをぬ〜べ〜に代わって退けた。
+        evidence:
+          - "原作: 山の神の刺客つららを退けた"
+          - "原作: 一本ダタラに最後の一撃を入れて怯ませた"
+  - id: minki
+    name: 眠鬼
+    affiliation: 地獄の鬼（覇鬼の妹）
+    appears: manga
+    editor:
+      manga:
+        score: 70
+        note: 鬼のパンツで妖力を強める。ヤン・カイルンとの戦いでは鬼の手の形になって戦った。
+        evidence:
+          - "原作: ヤン・カイルンとの戦いで鬼の手として戦った"
+  - id: izuna
+    name: 葉月いずな
+    affiliation: イタコ（管狐使い）
+    appears: manga
+    editor:
+      manga:
+        score: 64
+        note: 管狐を操る霊能力者。伝説の管狐ゲドと共に、管乱坊のたくらみを退けた。
+        evidence:
+          - "原作: ゲドと共に管乱坊と戦い、勝った"
