@@ -1,0 +1,335 @@
+work: アカメが斬る!
+title: アカメが斬る! 最強キャラランキング
+description: アカメが斬る!の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。アニメは終盤が原作と別の展開です。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（全24話。第19話以降はアニメオリジナルの展開）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（本編単行本全15巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: esdeath
+    name: エスデス
+    affiliation: 帝国軍 将軍／イェーガーズ隊長
+    cv: 明坂聡美
+    editor:
+      anime:
+        score: 97
+        note: イェーガーズを率いて各地を制圧し、スサノオも退けた。最後はアカメに敗れた。
+        evidence:
+          - "第10話: イェーガーズとともに賊の砦を壊滅させた"
+          - "第21話: 足止めに残ったスサノオと戦った"
+          - "第24話: アカメに傷を負わされ、氷の中で息絶えた"
+      manga:
+        score: 97
+        note: スサノオを破って核を砕いた。最終決戦でアカメに敗れ、自ら凍って砕けた。
+        evidence:
+          - "原作: スサノオを破り、核を破壊した"
+          - "原作 最終決戦: アカメに敗れ、自らを凍らせて砕け散った"
+  - id: akame
+    name: アカメ
+    affiliation: ナイトレイド
+    cv: 雨宮天
+    editor:
+      anime:
+        score: 93
+        note: 村雨でザンクやクロメを斬り、最後はエスデスにも勝った。
+        evidence:
+          - "第4話: 村雨でザンクを斬った"
+          - "第22話: 決闘でクロメを斬った"
+          - "第24話: エスデスとの最終戦に勝った"
+      manga:
+        score: 93
+        note: ワイルドハントのイゾウを倒し、最終決戦でエスデスに勝った。
+        evidence:
+          - "原作: イゾウとの戦いに勝ち、とどめを刺した"
+          - "原作 最終決戦: エスデスに勝って生還した"
+  - id: tatsumi
+    name: タツミ
+    affiliation: ナイトレイド
+    cv: 斉藤壮馬
+    editor:
+      anime:
+        score: 90
+        note: インクルシオを受け継いで三獣士のニャウを倒した。最後は皇帝のシコウテイザーを破壊したが、民を守って命を落とした。
+        evidence:
+          - "第8話: インクルシオでニャウを倒した"
+          - "第23話: インクルシオでシコウテイザーを破壊した"
+      manga:
+        score: 91
+        note: シコウテイザーを貫いて破壊した。インクルシオの力で竜の姿となった。
+        evidence:
+          - "原作: シコウテイザーを貫いて破壊した"
+  - id: budo
+    name: ブドー
+    affiliation: 帝国 近衛軍大将軍
+    cv: 郷田ほづみ
+    editor:
+      anime:
+        score: 89
+        note: タツミを捕らえた帝国最強格の武人。マインの砲撃で倒された。
+        evidence:
+          - "第20話: タツミを捕らえた"
+          - "第21話: マインに倒された"
+      manga:
+        score: 89
+        note: 原作でもマインのパンプキンの一撃で倒された。評価は変わらない。
+        evidence:
+          - "原作: マインのパンプキンの一撃を受けて敗れた"
+  - id: bulat
+    name: ブラート
+    affiliation: ナイトレイド
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 84
+        note: インクルシオで三獣士のダイダラを倒し、リヴァにも致命傷を与えた。リヴァの毒を受けて命を落とした。
+        evidence:
+          - "第7話: インクルシオでダイダラを倒した"
+          - "第8話: リヴァに致命傷を与えたが、毒を受けていた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: emperor
+    name: 皇帝（シコウテイザー）
+    affiliation: 帝国の皇帝
+    cv: 大地葉
+    editor:
+      anime:
+        score: 86
+        note: 至高の帝具シコウテイザーで帝都に出た。タツミに破壊された。
+        evidence:
+          - "第23話: シコウテイザーをタツミに破壊された"
+      manga:
+        score: 86
+        note: シコウテイザーをタツミに破られた後、捕らえられて処刑された。
+        evidence:
+          - "原作: シコウテイザーをタツミに破られ、捕らえられた"
+  - id: susanoo
+    name: スサノオ
+    affiliation: ナイトレイド（人型帝具）
+    cv: 浅沼晋太郎
+    editor:
+      anime:
+        score: 83
+        note: タツミ救出の際にエスデスの足止めに残った。
+        evidence:
+          - "第16話: デスタグールを倒した"
+          - "第21話: エスデスを足止めした"
+      manga:
+        score: 82
+        note: エスデスに敗れて核を壊され、一時復活してタツミたちを逃がした。
+        evidence:
+          - "原作: エスデスに敗れて核を破壊された"
+  - id: mine
+    name: マイン
+    affiliation: ナイトレイド
+    cv: 田村ゆかり
+    editor:
+      anime:
+        score: 82
+        note: パンプキンでセリューを撃ち破り、ブドーも倒したが力尽きた。
+        evidence:
+          - "第19話: セリューとコロを撃ち破った"
+          - "第21話: ブドーを倒したが致命傷を負った"
+      manga:
+        score: 83
+        note: ブドーを倒したが精神力を使い果たした。セリューにも勝った。
+        evidence:
+          - "原作: パンプキンの一撃でブドーを倒した"
+          - "原作: セリューとの戦いに勝った"
+  - id: kurome
+    name: クロメ
+    affiliation: イェーガーズ
+    cv: 大橋彩香
+    editor:
+      anime:
+        score: 80
+        note: 八房でレオーネの腕を奪い、チェルシーに刺されても生き延びた。アカメとの決闘で斬られた。
+        evidence:
+          - "第16話: レオーネの腕を奪った"
+          - "第17話: チェルシーに刺されたが生き延びた"
+          - "第22話: アカメとの決闘で斬られた"
+      manga:
+        score: 81
+        note: 化けて近づいたチェルシーを返り討ちにした。アカメとの決闘はウェイブが八房を壊して止めた。
+        evidence:
+          - "原作: チェルシーを返り討ちにした"
+          - "原作: アカメとの決闘はウェイブが八房を破壊して中断した"
+  - id: leone
+    name: レオーネ
+    affiliation: ナイトレイド
+    cv: 浅川悠
+    editor:
+      anime:
+        score: 80
+        note: ナイトレイドの一員。最後は逃げるオネストを追い詰めて殺した。
+        evidence:
+          - "第11話: トローマを倒した"
+          - "第24話: 逃げたオネストを殺した"
+      manga:
+        score: 80
+        note: ドロテアを倒し、オネストも仕留めた。
+        evidence:
+          - "原作: ドロテアの首の骨を折った"
+          - "原作: オネストに重傷を負わせた"
+  - id: wave
+    name: ウェイブ
+    affiliation: イェーガーズ
+    cv: 細谷佳正
+    editor:
+      anime:
+        score: 78
+        note: イェーガーズの一員。終盤は民を守るため皇帝と戦った。
+        evidence:
+          - "第23話: 民を守るためシコウテイザーに向かった"
+      manga:
+        score: 79
+        note: 八房を壊してクロメとアカメの決闘を止め、クロメを救った。
+        evidence:
+          - "原作: 八房を破壊してクロメを救った"
+  - id: syura
+    name: シュラ
+    affiliation: ワイルドハント
+    cv: 木村良平
+    editor:
+      anime:
+        score: 73
+        note: ワイルドハントを率いる。ラバックの糸で心臓を砕かれて死んだ。
+        evidence:
+          - "第20話: ラバックに心臓を砕かれた"
+      manga:
+        score: 74
+        note: ワイルドハントの隊長。ラバックの糸で首を折られた。
+        evidence:
+          - "原作: ラバックの糸で首を折られた"
+  - id: najenda
+    name: ナジェンダ
+    affiliation: ナイトレイド ボス
+    cv: 水野理紗
+    editor:
+      anime:
+        score: 74
+        note: 元帝国将軍でナイトレイドの指揮官。スサノオを従えて戦う。
+        evidence:
+          - "第16話: ロクゴウを倒した"
+      manga:
+        score: 74
+        note: 原作でも評価は変わらない。
+  - id: lubbock
+    name: ラバック
+    affiliation: ナイトレイド
+    cv: 松岡禎丞
+    editor:
+      anime:
+        score: 72
+        note: 糸でシュラを倒したが、直後に刺されて死んだ。
+        evidence:
+          - "第18話: ステンの心臓を締め潰した"
+          - "第20話: シュラの心臓を砕いたが、直後に刺された"
+      manga:
+        score: 73
+        note: 原作でも糸でシュラの首を折って倒した。
+        evidence:
+          - "原作: シュラの首を糸で折った"
+  - id: bols
+    name: ボルス
+    affiliation: イェーガーズ
+    cv: 竹本英史
+    editor:
+      anime:
+        score: 70
+        note: 帝具ルビカンテを使う。追い詰められて帝具を自爆させた。
+        evidence:
+          - "第16話: ルビカンテを自爆させた"
+      manga:
+        score: 70
+        note: ルビカンテを自爆させて切り抜けたが、逃げる途中でチェルシーに刺された。
+        evidence:
+          - "原作: 逃走中にチェルシーに刺されて死んだ"
+  - id: seryu
+    name: セリュー
+    affiliation: 帝都警備隊／イェーガーズ
+    cv: 花澤香菜
+    editor:
+      anime:
+        score: 70
+        note: コロとともにシェーレを倒した。マインに敗れ、最後は自爆した。
+        evidence:
+          - "第6話: 隠し銃でシェーレを撃ち、コロに食わせた"
+          - "第19話: マインに敗れ、コロとともに自爆した"
+      manga:
+        score: 70
+        note: 原作でも評価は変わらない。
+  - id: ran
+    name: ラン
+    affiliation: イェーガーズ
+    cv: 間島淳司
+    editor:
+      anime:
+        score: 67
+        note: イェーガーズの一員。帝都での決戦ではレオーネと戦った。
+        evidence:
+          - "第23話: レオーネと戦った"
+      manga:
+        score: 67
+        note: チャンプを討って復讐を果たしたが、自身も致命傷を負った。
+        evidence:
+          - "原作: チャンプを火あぶりにしたが、致命傷を負った"
+  - id: sheele
+    name: シェーレ
+    affiliation: ナイトレイド
+    cv: 能登麻美子
+    editor:
+      anime:
+        score: 66
+        note: ナイトレイドの一員。セリューの隠し銃に撃たれ、コロに食われた。
+        evidence:
+          - "第6話: セリューに撃たれ、コロに食われた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: zanku
+    name: ザンク
+    affiliation: 首斬りザンク
+    cv: 鶴岡聡
+    editor:
+      anime:
+        score: 64
+        note: 幻覚を見せる帝具でタツミを追い詰めたが、アカメに斬られた。
+        evidence:
+          - "第4話: 幻覚でタツミを追い詰めたが、アカメに斬られた"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: chelsea
+    name: チェルシー
+    affiliation: ナイトレイド
+    cv: 名塚佳織
+    editor:
+      anime:
+        score: 62
+        note: 変身の帝具で暗殺を重ねたが、クロメを仕留めきれずに殺された。
+        evidence:
+          - "第16話: ヘンターを殺した"
+          - "第17話: ボルスに化けてクロメを刺したが、仕留めきれず首を斬られた"
+      manga:
+        score: 62
+        note: クロメを狙ったが返り討ちにされた。
+        evidence:
+          - "原作: クロメに返り討ちにされた"
+  - id: izou
+    name: イゾウ
+    affiliation: ワイルドハント
+    appears: manga
+    editor:
+      manga:
+        score: 76
+        note: ワイルドハントの一員。アカメに敗れた。
+        evidence:
+          - "原作: アカメとの戦いに敗れ、とどめを刺された"

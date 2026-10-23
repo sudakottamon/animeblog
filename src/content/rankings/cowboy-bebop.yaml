@@ -1,0 +1,147 @@
+work: カウボーイビバップ
+title: カウボーイビバップ 最強キャラランキング
+description: カウボーイビバップの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全26話＋劇場版『カウボーイビバップ 天国の扉』まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: spike
+    name: スパイク・スピーゲル
+    affiliation: ビバップ号の賞金稼ぎ
+    cv: 山寺宏一
+    editor:
+      anime:
+        score: 95
+        note: 截拳道の使い手。瀕死の重傷を負わされたマッドピエロを倒し、最終話でビシャスを倒した。
+        evidence:
+          - "第20話: マッドピエロと撃ち合い、倒した"
+          - "第22話: 屋上での決闘でアンディに勝った"
+          - "第26話: ビシャスの胸を撃ち抜いて倒した"
+  - id: vicious
+    name: ビシャス
+    affiliation: 犯罪組織「レッド・ドラゴン」
+    cv: 若本規夫
+    editor:
+      anime:
+        score: 92
+        note: スパイクの因縁の相手。処刑寸前から抜け出して組織を握ったが、最終話でスパイクに倒された。
+        evidence:
+          - "第5話: 大聖堂でスパイクと戦い、スパイクは窓の外へ投げ出された"
+          - "第25話: 処刑を免れて脱出し、組織の唯一の支配者を名乗った"
+          - "第26話: スパイクに胸を撃たれて死亡した"
+  - id: mad-pierrot
+    name: マッドピエロ（東風）
+    affiliation: 殺し屋
+    cv: 銀河万丈
+    editor:
+      anime:
+        score: 91
+        note: スパイクを瀕死の重傷に追い込んだ殺し屋。スパイクに撃ち返されて倒れ、パレードに踏み潰された。
+        evidence:
+          - "第20話: スパイクに瀕死の重傷を負わせた"
+          - "第20話: スパイクに撃ち返されて倒れ、パレードに踏み潰された"
+  - id: vincent
+    name: ヴィンセント・ボラージュ
+    affiliation: 劇場版の敵
+    cv: 磯部勉
+    editor:
+      anime:
+        score: 90
+        note: 劇場版の敵。塔の上でスパイクと戦い、最後はエレクトラに撃たれた。
+        evidence:
+          - "劇場版『天国の扉』: 塔の上でスパイクと戦った"
+          - "劇場版『天国の扉』: エレクトラに撃たれて死亡した"
+  - id: jet
+    name: ジェット・ブラック
+    affiliation: ビバップ号の賞金稼ぎ（元ISSP刑事）
+    cv: 石塚運昇
+    editor:
+      anime:
+        score: 82
+        note: 元ISSPの刑事で、左腕は義手。かつての相棒ファドとの撃ち合いに勝った。
+        evidence:
+          - "第16話: 自分を撃ってきたかつての相棒ファドを撃ち倒した"
+  - id: andy
+    name: アンディ・フォン・デ・オニヤテ
+    affiliation: 賞金稼ぎ
+    cv: 江原正士
+    editor:
+      anime:
+        score: 76
+        note: カウボーイ姿の賞金稼ぎ。スパイクとの決闘に敗れ、サムライに生き方を変えた。
+        evidence:
+          - "第22話: 屋上の決闘でスパイクに敗れ、帽子を譲った"
+  - id: gren
+    name: グレン
+    affiliation: 元兵士
+    cv: 堀内賢雄
+    editor:
+      anime:
+        score: 74
+        note: 元兵士。ビシャスに裏切られて投獄された後、ビシャスを狙って撃った。
+        evidence:
+          - "第13話: ビシャスを狙った銃弾で、かばったリンを倒した"
+  - id: electra
+    name: エレクトラ
+    affiliation: 劇場版の登場人物
+    editor:
+      anime:
+        score: 72
+        note: 劇場版の登場人物。スパイクとの戦いの後、ヴィンセントを撃った。
+        evidence:
+          - "劇場版『天国の扉』: ヴィンセントを撃った"
+  - id: faye
+    name: フェイ・ヴァレンタイン
+    affiliation: ビバップ号の賞金稼ぎ
+    cv: 林原めぐみ
+    editor:
+      anime:
+        score: 70
+        note: グロック30を使いこなし、武装したレッドテイルを操る。荒事を何度も生き延びてきた。
+        evidence:
+          - "第12話: ビシャスと写るグレンの写真を見て、グレンに銃を向けた"
+  - id: shin
+    name: シン
+    affiliation: 犯罪組織「レッド・ドラゴン」
+    cv: 檜山修之
+    editor:
+      anime:
+        score: 66
+        note: リンの双子の弟。スパイクを殺せという命令に背き、最上階へ向かうスパイクを援護した。
+        evidence:
+          - "第26話: スパイクを援護したが、流れ弾を受けて死亡した"
+  - id: lin
+    name: リン
+    affiliation: 犯罪組織「レッド・ドラゴン」
+    cv: 緑川光
+    editor:
+      anime:
+        score: 65
+        note: ビシャスの側近。ビシャスをかばって撃たれた。
+        evidence:
+          - "第13話: ビシャスをかばい、グレンの銃弾で死亡した"
+  - id: julia
+    name: ジュリア
+    affiliation: スパイクとビシャスの因縁の女性
+    cv: 高島雅羅
+    editor:
+      anime:
+        score: 62
+        note: 戦う場面は少ない。銃撃戦の中で撃たれ、スパイクの腕の中で死んだ。
+        evidence:
+          - "第26話: アニーの店での銃撃戦で撃たれ、スパイクの腕の中で死亡した"
+  - id: asimov
+    name: アシモフ・ソーレンサン
+    affiliation: 第1話の賞金首
+    cv: 西凛太朗
+    editor:
+      anime:
+        score: 58
+        note: 第1話の賞金首。恋人カテリーナと逃げたが、逃げ切れずに死亡した。
+        evidence:
+          - "第1話: スパイクと警察に追われ、恋人と共に逃げ切れずに死亡した"

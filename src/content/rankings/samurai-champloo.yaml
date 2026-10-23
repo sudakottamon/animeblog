@@ -1,0 +1,183 @@
+work: サムライチャンプルー
+title: サムライチャンプルー 最強キャラランキング
+description: サムライチャンプルーの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全26話まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: jin
+    name: ジン
+    affiliation: 流浪の侍
+    cv: 佐藤銀平
+    editor:
+      anime:
+        score: 93
+        note: 雪丸、ムクロを斬り、最終話ではムゲンを一蹴した刈屋景時を倒した。沙羅には押し切られた。
+        evidence:
+          - "第14話: ムクロを斬った"
+          - "第21話: 沙羅に押し切られ、橋の綱を切って共に川へ落ちた"
+          - "第26話: 刈屋景時を斬った"
+  - id: mugen
+    name: ムゲン
+    affiliation: 流れ者の剣士
+    cv: 中井和哉
+    editor:
+      anime:
+        score: 92
+        note: 昇竜、伝鬼坊、馬之助を倒した。ただし刈屋景時には一方的に敗れた。
+        evidence:
+          - "第10話: 満月の夜の再戦で昇竜を斬った"
+          - "第24話: 刈屋景時にたやすく敗れた"
+          - "第26話: 重傷を負いながら馬之助を倒した"
+  - id: kagetoki
+    name: 刈屋景時
+    affiliation: 第24〜26話の敵
+    cv: 菅生隆之
+    editor:
+      anime:
+        score: 91
+        note: ムゲンをたやすく退け、ジンも一度は倒した。最後はジンに斬られた。
+        evidence:
+          - "第24話: ムゲンをたやすく破った"
+          - "第25話: ジンを倒したかに見えた"
+          - "第26話: 霞清蔵を斬ったが、ジンに斬られた"
+  - id: sara
+    name: 沙羅
+    affiliation: 瞽女
+    cv: 玉川紗己子
+    editor:
+      anime:
+        score: 89
+        note: 盲目の瞽女。ジンを押し切ったが、ムゲンとの戦いではわざと負けて死んだ。
+        evidence:
+          - "第21話: 古い橋の上でジンを押し切った"
+          - "第21話: ムゲンとの戦いで自ら負けを選び、死亡した"
+  - id: okuru
+    name: オクル
+    affiliation: 森に住む男
+    cv: 大塚明夫
+    editor:
+      anime:
+        score: 87
+        note: ムゲンを追い詰めた。再戦の決着前に松前藩の火矢を受けた。
+        evidence:
+          - "第16話: ムゲンを襲い、ムゲンはかろうじて逃げた"
+          - "第17話: ムゲンとの戦いの途中、松前藩の火矢を浴びた"
+  - id: enshiro
+    name: 真里谷円四郎
+    affiliation: ジンの師
+    cv: 井上真樹夫
+    editor:
+      anime:
+        score: 84
+        note: ジンの剣の師。回想だけの人物で、ジンに斬られていたことが明かされた。
+        evidence:
+          - "第25話: ジンが師の円四郎を斬っていたことが明かされた"
+  - id: yukimaru
+    name: 雪丸
+    affiliation: ジンを狙う剣士
+    cv: 佐々木望
+    editor:
+      anime:
+        score: 78
+        note: ジンを崖から飛び降りさせるまで追い込んだが、再戦で斬られた。
+        evidence:
+          - "第16話: ジンを襲い、崖から飛び降りさせた"
+          - "第17話: ジンに斬られた"
+  - id: shoryu
+    name: 昇竜
+    affiliation: 第10話の敵
+    cv: 速水奨
+    editor:
+      anime:
+        score: 76
+        note: ムゲンと二度戦い、満月の夜の再戦で斬られた。
+        evidence:
+          - "第10話: 満月の夜の再戦でムゲンに斬られた"
+  - id: umanosuke
+    name: 馬之助
+    affiliation: ムゲンを狙う刺客
+    cv: 子安武人
+    editor:
+      anime:
+        score: 74
+        note: 伝鬼坊との戦いで傷ついたムゲンを襲ったが、最終話で倒された。
+        evidence:
+          - "第25話: 重傷のムゲンを襲った"
+          - "第26話: ムゲンに倒された"
+  - id: denkibou
+    name: 伝鬼坊
+    affiliation: ムゲンを狙う刺客
+    cv: 難波圭一
+    editor:
+      anime:
+        score: 72
+        note: ムゲンに倒されたが、ムゲンに重傷を負わせた。
+        evidence:
+          - "第25話: ムゲンに倒されたが、重傷を負わせた"
+  - id: mukuro
+    name: ムクロ
+    affiliation: 第13・14話の敵
+    cv: 梁田清之
+    editor:
+      anime:
+        score: 68
+        note: 役人の乗る船を爆破したが、ジンに斬られた。
+        evidence:
+          - "第13話: ムゲンが役人と戦う船を爆破した"
+          - "第14話: ジンに斬られた"
+  - id: oniwakamaru
+    name: 鬼若丸
+    affiliation: 第2話の敵
+    cv: 佐々木誠二
+    editor:
+      anime:
+        score: 62
+        note: 佐々木竜二郎を殺したが、ムゲンに倒された。
+        evidence:
+          - "第2話: 佐々木竜二郎を殺した後、ムゲンに倒された"
+  - id: ishimatsu
+    name: 石松
+    affiliation: 第3・4話の剣客
+    cv: 大友龍三郎
+    editor:
+      anime:
+        score: 60
+        note: ムゲンと戦い、死亡した。
+        evidence:
+          - "第4話: ムゲンとの戦いで死亡した"
+  - id: shiren
+    name: シレン
+    affiliation: 第13・14話の敵
+    cv: 成田剣
+    editor:
+      anime:
+        score: 58
+        note: ムゲンと戦い、斬られた。
+        evidence:
+          - "第14話: ムゲンに斬られた"
+  - id: ogura
+    name: 小倉
+    affiliation: 第8話の剣客
+    cv: 風間勇刀
+    editor:
+      anime:
+        score: 55
+        note: ジンとの決闘に敗れ、命は助けられた。
+        evidence:
+          - "第8話: ジンに決闘で敗れ、見逃された"
+  - id: fuu
+    name: フウ
+    affiliation: 向日葵の匂いのする侍を探す少女
+    cv: 川澄綾子
+    editor:
+      anime:
+        score: 15
+        note: 戦う力はない。ムゲンとジンを用心棒にして、向日葵の匂いのする侍を探す旅に出た。
+        evidence:
+          - "第1話: ムゲンとジンを用心棒にした"

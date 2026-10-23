@@ -1,0 +1,228 @@
+work: 血界戦線
+title: 血界戦線 最強キャラランキング
+description: 血界戦線の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期（全12話）＋『血界戦線 & BEYOND』（全12話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 『血界戦線』全10巻・『Back 2 Back』全10巻・『Beat 3 Peat』既刊4巻（2026年7月時点）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: juzzghezzangen
+    name: 裸獣汁外衛賤厳
+    affiliation: 斗流血法の創始者
+    cv: 柴田秀勝
+    editor:
+      anime:
+        score: 96
+        note: ザップとツェッドの師で「血闘神」と呼ばれる。長老級の血界の眷属エルルエルと一人で戦い、体を上下に分断した。
+        evidence:
+          - "第1期「Zの一番長い日」: エルルエルと戦い、上下に両断した"
+      manga:
+        score: 96
+        note: 原作でも評価は変わらない。
+  - id: klaus
+    name: クラウス・V・ラインヘルツ
+    affiliation: ライブラ リーダー
+    cv: 小山力也
+    editor:
+      anime:
+        score: 95
+        note: 血界の眷属を密封できる唯一の流派ブレングリード流血闘術の使い手。長老級を含む眷属を次々に密封した。
+        evidence:
+          - "第1期「BLOOD LINE FEVER」: 長老級ヴァルクェルを奇襲で密封した"
+          - "第1期「Zの一番長い日」: ザップとツェッドが傷を負わせたエルルエルを密封した"
+          - "& BEYOND「妖眼幻視行」: Dr.ガミモヅを拳の一撃で爆散させた"
+      manga:
+        score: 95
+        note: 原作でも評価は変わらない。
+  - id: femt
+    name: 堕落王フェムト
+    affiliation: 13王
+    cv: 石田彰
+    editor:
+      anime:
+        score: 92
+        note: 魔導を極めた千年の怪人で、片手間で大惨事を起こす。ライブラと直接決着をつけたことはない。
+        evidence:
+          - "第1期「魔封街結社」: 半神ヨグ＝グフォトを召喚する事件を起こした"
+      manga:
+        score: 92
+        note: 原作でも評価は変わらない。
+  - id: elruel
+    name: エルルエル
+    affiliation: 血界の眷属（長老級）
+    editor:
+      anime:
+        score: 90
+        note: 空軍基地を滅ぼした長老級の眷属。下半身だけでライブラと渡り合ったが、最後はクラウスに密封された。
+        evidence:
+          - "第1期「Zの一番長い日」: 下半身だけでライブラと渡り合った"
+          - "第1期「Zの一番長い日」: 上半身をザップとツェッドに傷つけられ、クラウスに密封された"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+  - id: king-of-despair
+    name: 絶望王
+    affiliation: 13王（アニメオリジナル）
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 90
+        note: 数多の肉体を渡り歩く実体のない存在。レオの義眼を使って第二次大崩落を起こそうとしたが、クラウスとレオと交戦した後に手を引いた。
+        evidence:
+          - "第1期 第11話: レオの義眼を使って大惨事を起こそうとした"
+          - "第1期 第12話: クラウスとレオと交戦した後、手を引いた"
+      manga:
+        score: 90
+        note: アニメオリジナルの人物で原作には登場しない。評価は変わらない。
+  - id: valquel
+    name: ヴァルクェル
+    affiliation: 血界の眷属（長老級）
+    cv: 能登麻美子
+    editor:
+      anime:
+        score: 88
+        note: 長老級の眷属。クラウスの奇襲を受けて密封された。
+        evidence:
+          - "第1期「BLOOD LINE FEVER」: クラウスの奇襲で密封された"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: steven
+    name: スティーブン・A・スターフェイズ
+    affiliation: ライブラ 副官
+    cv: 宮本充
+    editor:
+      anime:
+        score: 86
+        note: 靴底から血を放って凍らせるエスメラルダ式血凍道の使い手。頻繁に前線に出る。
+        evidence:
+          - "& BEYOND 第6話: ドクター・プラナリオを速攻で片づけた"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: zapp
+    name: ザップ・レンフロ
+    affiliation: ライブラ
+    cv: 中井和哉
+    editor:
+      anime:
+        score: 85
+        note: 火の斗流血法カグツチの使い手で、スティーブンも天才と評する。ツェッドとの連携でエルルエルに傷を負わせた。
+        evidence:
+          - "第1期「Zの一番長い日」: ツェッドとの連携でエルルエルの上半身を傷つけた"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: aligula
+    name: 偏執王アリギュラ
+    affiliation: 13王
+    cv: こおろぎさとみ
+    editor:
+      anime:
+        score: 83
+        note: 思いついたことを現実にする力を持つ13王の一人。モンスタートラックで刑務所パンドラムを襲ったが、返り討ちにあった。
+        evidence:
+          - "第1期 第5話: パンドラムを襲撃したが返り討ちにあい、HLの外まで吹き飛ばされた"
+      manga:
+        score: 83
+        note: 原作でも評価は変わらない。
+  - id: kk
+    name: K・K
+    affiliation: ライブラ
+    cv: 折笠愛
+    editor:
+      anime:
+        score: 82
+        note: 血で銃弾に電撃をまとわせる954血弾格闘技の使い手。二挺拳銃と狙撃銃を使い分ける。
+        evidence:
+          - "& BEYOND 第10話: 遠隔の火力支援を受け、眷属を護衛につけた犯罪組織の討伐に向かった"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: black
+    name: ブラック
+    affiliation: ホワイトの兄（アニメオリジナル）
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 82
+        note: 念じるだけで異界の巨体を破裂させる強力なPSIを持つ。絶望王に付け込まれて大崩落に加担しかけたが、レオの説得で思いとどまった。
+        evidence:
+          - "第1期 終盤: 第二次大崩落に加担しかけたが、レオの説得で思いとどまった"
+      manga:
+        score: 82
+        note: アニメオリジナルの人物で原作には登場しない。評価は変わらない。
+  - id: hammer
+    name: ドグ・ハマー（デルドロ・ブローディ）
+    affiliation: 刑務所パンドラムの囚人
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 80
+        note: 血液に宿るデルドロとともに血殖装甲で戦う。パンドラムを襲ったアリギュラを撃退した。
+        evidence:
+          - "第1期 第5話: ライブラに協力してアリギュラを退けた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: zed
+    name: ツェッド・オブライエン
+    affiliation: ライブラ
+    cv: 緑川光
+    editor:
+      anime:
+        score: 80
+        note: 風の斗流血法シナトベの使い手。ザップと組んで長老級に傷を負わせたが、泥酔した状態ではサイボーグに敗れた。
+        evidence:
+          - "第1期「Zの一番長い日」: ザップとの連携でエルルエルの上半身を傷つけた"
+          - "& BEYOND「鰓呼吸ブルース」: 泥酔した状態でサイボーグに倒された"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: chain
+    name: チェイン・皇
+    affiliation: ライブラ／人狼局
+    cv: 小林ゆう
+    editor:
+      anime:
+        score: 66
+        note: 存在を希釈して姿を消す人狼で、諜報が専門。拳銃戦は得意ではない。
+        evidence:
+          - "& BEYOND「人狼大作戦」: 人狼ベルベットを罠で捕らえた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: gamimozu
+    name: Dr.ガミモヅ
+    affiliation: 異界存在
+    cv: 関俊彦
+    editor:
+      anime:
+        score: 62
+        note: 神々の義眼を研究し、義眼で自分を感知できなくする。レオに義眼を壊され、クラウスに倒された。
+        evidence:
+          - "& BEYOND「妖眼幻視行」: レオの頭突きで義眼を壊され、クラウスの拳で爆散した"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: leonardo
+    name: レオナルド・ウォッチ
+    affiliation: ライブラ
+    cv: 阪口大助
+    editor:
+      anime:
+        score: 50
+        note: 戦闘力はないが、神々の義眼で敵の正体や諱名を見抜く。クラウスの密封にはレオの諱名識別が要る。
+        evidence:
+          - "& BEYOND「妖眼幻視行」: Dr.ガミモヅの義眼を頭突きで壊した"
+          - "第1期 第12話: クラウスとともに絶望王と対峙した"
+      manga:
+        score: 50
+        note: 原作でも評価は変わらない。

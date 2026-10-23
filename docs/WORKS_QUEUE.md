@@ -76,12 +76,12 @@
 - [x] `black-lagoon` BLACK LAGOON
 
 ## バッチ 10
-- [ ] `durarara` デュラララ!!
-- [ ] `kekkai-sensen` 血界戦線
-- [ ] `akame-ga-kill` アカメが斬る!
-- [ ] `parasyte` 寄生獣
-- [ ] `devilman` デビルマン
-- [ ] `ajin` 亜人
+- [x] `durarara` デュラララ!!
+- [x] `kekkai-sensen` 血界戦線
+- [x] `akame-ga-kill` アカメが斬る!
+- [x] `parasyte` 寄生獣
+- [x] `devilman` デビルマン
+- [x] `ajin` 亜人
 
 ## バッチ 11
 - [x] `berserk` ベルセルク
@@ -92,12 +92,12 @@
 - [x] `vagabond` バガボンド（アニメ化されていない）
 
 ## バッチ 12
-- [ ] `gantz` GANTZ
-- [ ] `inuyashiki` いぬやしき
-- [ ] `drifters` ドリフターズ
-- [ ] `jormungand` ヨルムンガンド
-- [ ] `cowboy-bebop` カウボーイビバップ（アニメオリジナル）
-- [ ] `samurai-champloo` サムライチャンプルー（アニメオリジナル）
+- [x] `gantz` GANTZ
+- [x] `inuyashiki` いぬやしき
+- [x] `drifters` ドリフターズ
+- [x] `jormungand` ヨルムンガンド
+- [x] `cowboy-bebop` カウボーイビバップ（アニメオリジナル）
+- [x] `samurai-champloo` サムライチャンプルー（アニメオリジナル）
 
 ## バッチ 13
 - [ ] `mugen-no-juunin` 無限の住人

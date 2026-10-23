@@ -1,0 +1,177 @@
+work: デュラララ!!
+title: デュラララ!! 最強キャラランキング
+description: デュラララ!!の最強キャラをティア表で決めます。アニメは原作小説の本編完結まで描いているので、タブは1つです。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・原作勢
+    range: TVアニメ第1期（全24話）・『×2』承・転・結（全36話）＝原作小説の本編全13巻まで（続編『SH』は含まない）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: shizuo
+    name: 平和島静雄
+    affiliation: 取り立て屋
+    cv: 小野大輔
+    editor:
+      anime:
+        score: 96
+        note: 自販機や街灯を引き抜いて投げる怪力で、池袋最強とされる。六条千景を力で圧倒し、最後の喧嘩では臨也を瀕死に追い込んだ。
+        evidence:
+          - "第2期（×2）: 六条千景と戦い、怪力で圧倒した"
+          - "第2期（×2）: 怪物の姿の聖辺ルリとエゴールをまとめて吹き飛ばした"
+          - "×2 結: 臨也との最後の喧嘩で臨也を半殺しにした"
+  - id: celty
+    name: セルティ・ストゥルルソン
+    affiliation: 首なしライダー
+    cv: 沢城みゆき
+    editor:
+      anime:
+        score: 92
+        note: 影から大鎌などを作り出して戦い、バイクで壁も走る。腕力は人間を超えるが、静雄には及ばない。
+        evidence:
+          - "第1期: 影で作った大鎌を武器に戦った"
+  - id: simon
+    name: サイモン・ブレジネフ
+    affiliation: 露西亜寿司
+    cv: 黒田崇矢
+    editor:
+      anime:
+        score: 86
+        note: 2メートルを超える巨漢で、静雄と渡り合える数少ない人物。喧嘩を嫌い、もっぱら止める側に回る。
+        evidence:
+          - "第1期: サンシャイン60の前で続く静雄と臨也の喧嘩を止めに入った"
+  - id: anri
+    name: 園原杏里
+    affiliation: 来良学園／罪歌の持ち主
+    cv: 花澤香菜
+    editor:
+      anime:
+        score: 82
+        note: 妖刀・罪歌を使いこなす。罪歌の子を増やしていた贄川春奈を倒し、その子たちの支配を奪った。
+        evidence:
+          - "第1期: 罪歌で贄川春奈を倒し、罪歌の子たちの支配権を得た"
+  - id: kujiragi
+    name: 鯨木かさね
+    affiliation: 罪歌の持ち主
+    cv: 桑島法子
+    editor:
+      anime:
+        score: 80
+        note: 人外の血を引き、罪歌を使って人を操る。人を操る手腕は臨也より上とされる。
+        evidence:
+          - "×2 結: 罪歌で新羅を罪歌の子にした"
+  - id: vorona
+    name: ヴァローナ
+    affiliation: ロシア出身の殺し屋
+    cv: M・A・O
+    editor:
+      anime:
+        score: 79
+        note: 強い相手との戦いを好む戦闘狂。静雄と臨也の最後の喧嘩では、最後の瞬間に臨也を刺した。
+        evidence:
+          - "×2 結: 静雄と臨也の喧嘩の最後に臨也を刺した"
+  - id: ruri
+    name: 聖辺ルリ
+    affiliation: アイドル
+    cv: 藤田咲
+    editor:
+      anime:
+        score: 78
+        note: 人外の血を引き、怪物の姿で超人的な腕力と回復力を見せる。澱切を追う中でエゴールと戦ったが、静雄に吹き飛ばされた。
+        evidence:
+          - "第2期（×2）: 怪物の姿でエゴールと戦った"
+          - "第2期（×2）: 静雄の怒りを買い、エゴールとまとめて吹き飛ばされた"
+  - id: izaya
+    name: 折原臨也
+    affiliation: 情報屋
+    cv: 神谷浩史
+    editor:
+      anime:
+        score: 76
+        note: パルクールと折りたたみナイフを使い、静雄に傷を負わせられる数少ない人物。最後の喧嘩では静雄に敗れて重傷を負った。
+        evidence:
+          - "第1期: 学生時代から静雄と殺し合いを繰り返してきた"
+          - "×2 結: 静雄との最後の喧嘩で重傷を負い、池袋を去った"
+  - id: akabayashi
+    name: 赤林海月
+    affiliation: 粟楠会
+    cv: 山口勝平
+    editor:
+      anime:
+        score: 74
+        note: 棒術を使う粟楠会きっての武闘派。罪歌に斬られても支配を拒んだ。
+        evidence:
+          - "第2期（×2） 回想: 罪歌に右目を斬られたが支配を拒み、右目を自分でえぐり出した"
+  - id: kadota
+    name: 門田京平
+    affiliation: ダラーズ
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 70
+        note: 喧嘩慣れした実力者。タフさが売りの六条千景にタイマンで勝った。
+        evidence:
+          - "第2期（×2）: 六条千景とのタイマンに勝った"
+  - id: chikage
+    name: 六条千景
+    affiliation: To羅丸 総長
+    cv: 小野友樹
+    editor:
+      anime:
+        score: 68
+        note: 兜割を使い、タフさと根性で静雄の攻撃にも耐える。門田と静雄には敗れた。
+        evidence:
+          - "第2期（×2）: 門田とのタイマンに敗れた"
+          - "第2期（×2）: 静雄に力で圧倒された"
+  - id: masaomi
+    name: 紀田正臣
+    affiliation: 黄巾賊 元将軍
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 66
+        note: 黄巾賊を率いていた頃は多くのギャングを相手にした。六条千景とも互角にやり合った。
+        evidence:
+          - "第2期（×2）: 六条千景と互角にやり合った"
+  - id: haruna
+    name: 贄川春奈
+    affiliation: 罪歌の子を操る少女
+    cv: 中原麻衣
+    editor:
+      anime:
+        score: 62
+        note: 罪歌の力で多くの人を斬って罪歌の子にしたが、杏里に敗れた。
+        evidence:
+          - "第1期: 杏里に敗れ、罪歌の子たちの支配を失った"
+  - id: slon
+    name: スローン
+    affiliation: ロシア出身の殺し屋
+    cv: 三上哲
+    editor:
+      anime:
+        score: 60
+        note: ヴァローナと組む2メートル近い大男。臨也をさらおうとしたが止められた。
+        evidence:
+          - "第2期（×2）: 臨也をさらおうとしたが、木根と写楽美影に止められた"
+  - id: walker
+    name: 遊馬崎ウォーカー
+    affiliation: 門田一派
+    cv: 梶裕貴
+    editor:
+      anime:
+        score: 50
+        note: ためらわずに人に火をつける。格闘で目立つ場面はない。
+        evidence:
+          - "第2期（×2）: 泉井の顔を燃やした過去が明かされた"
+  - id: mikado
+    name: 竜ヶ峰帝人
+    affiliation: ダラーズの創始者
+    cv: 豊永利行
+    editor:
+      anime:
+        score: 30
+        note: 戦う力はほとんどない。必要とあればためらわずに手を出す。
+        evidence:
+          - "第2期（×2）: 黒沼青葉の手をボールペンで刺した"

@@ -1,0 +1,201 @@
+work: 亜人
+title: 亜人 最強キャラランキング
+description: 亜人の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。アニメは終盤が原作と別の展開です。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ（全26話。終盤は原作と異なる展開）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全17巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: sato
+    name: 佐藤
+    affiliation: 亜人のテロリスト
+    cv: 大塚芳忠
+    editor:
+      anime:
+        score: 97
+        note: 突入部隊を至近距離で全滅させ、黒服の部隊もIBMで退けた。最後は圭の複数のIBMに首を落とされ、米軍に捕らえられた。
+        evidence:
+          - "第6話: 研究所で圭に殺されても復活し、IBM同士の戦いで引き分けた"
+          - "第12話: 対亜人の突入部隊を至近距離で全滅させた"
+          - "第26話: 圭のIBMに首を落とされ、米軍の麻酔弾で捕らえられた"
+      manga:
+        score: 97
+        note: 素手の戦いで平沢を倒した。最終決戦で真鍋に撃たれた後、圭に確保された。
+        evidence:
+          - "原作 フォージ安全: 素手の戦いで平沢を倒した"
+          - "原作 最終決戦: 真鍋の狙撃を受けた後、圭に確保された"
+  - id: kei
+    name: 永井圭
+    affiliation: 亜人の高校生
+    cv: 宮野真守
+    editor:
+      anime:
+        score: 90
+        note: 研究所で佐藤を一度殺して逃げ延びた。最後は複数のIBMを出して佐藤の首を落とした。
+        evidence:
+          - "第6話: 佐藤を一度殺し、IBMで渡り合って逃げた"
+          - "第26話: 複数のIBMで佐藤の首を落とした"
+      manga:
+        score: 91
+        note: IBMは通常の約3倍の濃さで、一度に複数出せる。最終決戦で出したIBMの洪水が佐藤を引き裂き、佐藤を確保した。
+        evidence:
+          - "原作 最終決戦: IBMの洪水で佐藤を引き裂いた"
+  - id: tanaka
+    name: 田中功次
+    affiliation: 佐藤の仲間の亜人
+    cv: 平川大輔
+    editor:
+      anime:
+        score: 78
+        note: 佐藤の右腕として動く。IBM同士の戦いでは下村に押し負けた。
+        evidence:
+          - "第4話: IBM同士の戦いで下村のIBMに敗れた"
+          - "第12話: 警察の狙撃手を殺した"
+      manga:
+        score: 80
+        note: 2体のIBMを操る亜人を簡単に倒した。佐藤を撃つことはできなかった。
+        evidence:
+          - "原作 入間基地: IBMを2体操る亜人を楽に倒した"
+  - id: shimomura
+    name: 下村泉
+    affiliation: 戸崎の部下の亜人
+    cv: 小松未可子
+    editor:
+      anime:
+        score: 76
+        note: IBMで田中や圭のIBMを止めた。最後は麻酔銃で田中を撃った。
+        evidence:
+          - "第4話: IBMで田中のIBMを退けた"
+          - "第13話: IBMで圭のIBMを止めた"
+          - "第26話: 田中に麻酔弾を撃ち込んだ"
+      manga:
+        score: 77
+        note: フォージ安全で田中とIBMをぶつけ合った。入間基地では敵の亜人を屋上から突き落とした。
+        evidence:
+          - "原作 フォージ安全: 田中のIBMとぶつかり合った"
+          - "原作 入間基地: 亜人を屋上から突き落とした"
+  - id: hirasawa
+    name: 平沢
+    affiliation: 戸崎に雇われた黒服
+    cv: 宮崎敦吉
+    editor:
+      anime:
+        score: 74
+        note: 戸崎に雇われた黒服の部隊のリーダー。武蔵重工で圭を助けようとして佐藤のIBMに殺された。
+        evidence:
+          - "武蔵重工の戦い: 圭を助けようとして佐藤のIBMに殺された"
+      manga:
+        score: 76
+        note: 圭と中野をかばい、佐藤と素手で戦った末に死んだ。
+        evidence:
+          - "原作 フォージ安全: 佐藤との素手の戦いの末に死んだ"
+  - id: takahashi
+    name: 高橋
+    affiliation: 佐藤の仲間の亜人
+    cv: 野川雅史
+    editor:
+      anime:
+        score: 70
+        note: 銃の扱いに長けた佐藤の仲間。終盤は戸崎の側につき、仲間を逃がすために残った。
+        evidence:
+          - "最終局面の地下壕: 仲間を逃がすために一人残った"
+      manga:
+        score: 70
+        note: 狙撃の名手で、1日2回しか出せないIBMを持つ。基地祭で佐藤になりすましたが撃たれて捕らえられた。
+        evidence:
+          - "原作 基地祭: 佐藤になりすましたが、対亜に撃たれて捕らえられた"
+  - id: manabe
+    name: 真鍋
+    affiliation: 戸崎に雇われた黒服
+    cv: 乃村健次
+    editor:
+      anime:
+        score: 66
+        note: 平沢の部隊の一員。武蔵重工で佐藤のIBMに殺された。
+        evidence:
+          - "武蔵重工の戦い: 佐藤のIBMに殺された"
+      manga:
+        score: 72
+        note: 佐藤のIBMにプールへ引き込まれたが生き延びた。最終決戦では遠くから佐藤の耳と胸を撃ち抜いた。
+        evidence:
+          - "原作 フォージ安全: IBMに噛まれてプールに引き込まれたが生き延びた"
+          - "原作 最終決戦: 遠くから佐藤の耳と胸を撃った"
+  - id: ko
+    name: 中野攻
+    affiliation: 圭とともに戦う亜人
+    cv: 福山潤
+    editor:
+      anime:
+        score: 64
+        note: 身体を張って戦う亜人。戸崎の麻酔ダーツには圭とともに止められた。
+        evidence:
+          - "第13話: 戸崎の麻酔ダーツで圭とともに止められた"
+      manga:
+        score: 64
+        note: IBMを出せず、反射神経と度胸で戦う。入間基地ではIBMから市民をかばった。
+        evidence:
+          - "原作 入間基地: IBMから市民をかばった"
+  - id: suzumura
+    name: 鈴村
+    affiliation: 戸崎に雇われた黒服
+    cv: 中村章吾
+    editor:
+      anime:
+        score: 63
+        note: 武蔵重工の戦いを生き延びた黒服。最後は手榴弾で佐藤もろとも自爆した。
+        evidence:
+          - "最終局面の地下壕: 手榴弾で佐藤もろとも自爆し、戸崎と下村を逃がした"
+      manga:
+        score: 63
+        note: 防弾ベストで佐藤の銃撃に耐えたが、IBMに殺された。
+        evidence:
+          - "原作 フォージ安全: 防弾ベストで佐藤の銃撃に耐えたが、IBMに殺された"
+  - id: kuroki
+    name: 黒木
+    affiliation: 戸崎に雇われた黒服
+    cv: 矢野正明
+    editor:
+      anime:
+        score: 60
+        note: 平沢の部隊の一員。武蔵重工で佐藤のIBMに殺された。
+        evidence:
+          - "武蔵重工の戦い: 佐藤のIBMに殺された"
+      manga:
+        score: 60
+        note: フォージ安全で佐藤に首を撃たれ、黒服の中で最初に死んだ。
+        evidence:
+          - "原作 フォージ安全: 佐藤に首を撃たれて死んだ"
+  - id: tosaki
+    name: 戸崎優
+    affiliation: 厚生労働省 亜人管理委員会
+    cv: 櫻井孝宏
+    editor:
+      anime:
+        score: 42
+        note: 戦う力のない人間。麻酔ダーツと部下を使って亜人を捕らえる。
+        evidence:
+          - "第5話: 圭を捕らえた"
+          - "第13話: 麻酔ダーツで圭と中野を止めた"
+      manga:
+        score: 42
+        note: 原作でも評価は変わらない。
+  - id: okuyama
+    name: 奥山
+    affiliation: 佐藤の仲間の亜人
+    cv: 吉野裕行
+    editor:
+      anime:
+        score: 35
+        note: 戦闘はほとんどしない。電子機器や爆弾付きドローンで佐藤の作戦を支えた。
+        evidence:
+          - "第21話: 佐藤の一味がEMPで政府の電子機器を止めた"
+      manga:
+        score: 35
+        note: 原作でも評価は変わらない。

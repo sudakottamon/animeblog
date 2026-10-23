@@ -1,0 +1,189 @@
+work: デビルマン
+title: デビルマン 最強キャラランキング
+description: デビルマンの最強キャラをアニメ勢（DEVILMAN crybaby）と漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: Netflixアニメ『DEVILMAN crybaby』（全10話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作漫画 完結（単行本全5巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: satan
+    name: 飛鳥了（サタン）
+    affiliation: 明の親友／デーモンの王
+    cv: 村瀬歩
+    editor:
+      anime:
+        score: 99
+        note: デーモンの軍勢を率いて人類を滅ぼし、最終決戦で明を殺した。
+        evidence:
+          - "第10話: 最終決戦で明を殺した"
+      manga:
+        score: 99
+        note: 最終決戦アーマゲドンでデーモン軍団を率い、明に致命傷を負わせた。
+        evidence:
+          - "原作 アーマゲドン: 明に致命傷を負わせた"
+  - id: zennon
+    name: ゼノン
+    affiliation: 大魔王
+    cv: アヴちゃん
+    editor:
+      anime:
+        score: 93
+        note: デビルマンとなった明を襲撃して打ち負かした。とどめはサタンの意志で見送られた。
+        evidence:
+          - "作中終盤: 明を襲撃して打ち負かしたが、サタンの意志で見逃した"
+      manga:
+        score: 92
+        note: 人類に宣戦布告し、デーモンの総攻撃を仕掛けた。
+        evidence:
+          - "原作: 人類に宣戦布告し、デーモンの総攻撃を仕掛けた"
+  - id: akira
+    name: 不動明（デビルマン）
+    affiliation: アモンと合体した高校生
+    cv: 内山昂輝
+    editor:
+      anime:
+        score: 92
+        note: アモンに乗っ取られずにデビルマンとなり、ジンメンやゲルマーを倒した。ゼノンには敗れ、最後はサタンに殺された。
+        evidence:
+          - "第1話: サバトでアモンの意識を抑え込み、デーモンを次々に倒した"
+          - "第4話: 父に取り憑いたジンメンを倒した"
+          - "第5話: アモンを目覚めさせようとするシレーヌに人間の心を保ったまま対抗した"
+      manga:
+        score: 92
+        note: シレーヌとの死闘を生き延び、ジンメンを倒した。デビルマン軍団を率いてデーモン軍団と戦った。最終決戦でサタンに致命傷を負わされた。
+        evidence:
+          - "原作: ジンメンの甲羅に残った魂ごと砕いて倒した"
+          - "原作 アーマゲドン: デビルマン軍団を率いたが、サタンに致命傷を負わされた"
+  - id: sirene
+    name: シレーヌ
+    affiliation: デーモン
+    cv: 田中敦子
+    editor:
+      anime:
+        score: 86
+        note: かつてのアモンの恋人。ゼノンの指示でカイムと組み、アモンを目覚めさせようと明を狙った。
+        evidence:
+          - "第3話: カイムとともに姿を消したアモンを探した"
+          - "第5話: アモンを目覚めさせるために明と戦った"
+      manga:
+        score: 86
+        note: 明を捕らえかけ、地上で死闘を繰り広げた。カイムの力を借りて明を角で貫いたが、とどめを刺す前に息絶えた。
+        evidence:
+          - "原作: カイムの助けを受けて明を角で貫いたが、とどめを刺す前に事切れた"
+  - id: psycho-jenny
+    name: サイコジェニー
+    affiliation: デーモン
+    cv: 高戸靖広
+    editor:
+      anime:
+        score: 80
+        note: テレパシーの力を持つ悪魔。了の封じられた記憶を解いた。
+        evidence:
+          - "作中終盤: テレパシーで了の封印された記憶を解いた"
+      manga:
+        score: 85
+        note: 強い催眠能力で明をたやすく打ち倒した。サタンの記憶を封じていたのもこの悪魔。
+        evidence:
+          - "原作: 催眠能力で明をたやすく打ち倒した"
+  - id: kaim
+    name: カイム
+    affiliation: デーモン
+    cv: 小山力也
+    editor:
+      anime:
+        score: 79
+        note: シレーヌを慕う四足獣の悪魔。シレーヌとともにアモンを探した。
+        evidence:
+          - "第3話: シレーヌとともに姿を消したアモンを探した"
+      manga:
+        score: 80
+        note: 傷ついたシレーヌの救援に現れ、自分の身を捧げて明を角で貫かせた。
+        evidence:
+          - "原作: シレーヌの勝利のために自らの身を捧げた"
+  - id: miiko
+    name: ミーコ
+    affiliation: 陸上部員／デビルマン
+    cv: 小清水亜美
+    editor:
+      anime:
+        score: 72
+        note: 人間の心を残したデビルマン。明に仲間として迎えられた。
+        evidence:
+          - "第7話: 人間の心を残すデビルマンとして明の仲間に加わった"
+      manga:
+        score: 72
+        note: デビルマンになった後、毒液で元仲間の不良少女たちを殺した。
+        evidence:
+          - "原作: デビルマンになった後、毒液でかつての仲間を殺した"
+  - id: jinmen
+    name: ジンメン
+    affiliation: デーモン
+    cv: 広瀬彰勇
+    editor:
+      anime:
+        score: 72
+        note: 明の父に取り憑いて母を含む乗客を食べた。明に倒された。
+        evidence:
+          - "第4話: 明の父に取り憑き、バスの乗客を食べた"
+          - "第4話: 明に倒された"
+      manga:
+        score: 74
+        note: 食べた人間の顔と意識を甲羅に残し、それを盾に明を揺さぶった。最後は甲羅ごと砕かれた。
+        evidence:
+          - "原作: 甲羅の人間の顔を人質に明を揺さぶった"
+  - id: gelmer
+    name: ゲルマー
+    affiliation: デーモン
+    cv: 駒谷昌男
+    editor:
+      anime:
+        score: 62
+        note: デビルマンの拳で脇腹を貫かれ、真っ二つに裂かれた。
+        evidence:
+          - "作中: デビルマンの拳で脇腹を貫かれ、二つに引き裂かれた"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: agwel
+    name: アグウェル
+    affiliation: デーモン
+    cv: 白熊寛嗣
+    editor:
+      anime:
+        score: 58
+        note: 了の狙撃で頭を撃ち抜かれた。
+        evidence:
+          - "作中: 了の狙撃で頭部を破壊された"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: koda
+    name: 幸田燃寛
+    affiliation: デビルマン
+    cv: 平野潤也
+    editor:
+      anime:
+        score: 55
+        note: 人間の心を残したデビルマン。明にかくまわれた。
+        evidence:
+          - "第7話: 人間の心を持つデビルマンとして明にかくまわれた"
+      manga:
+        score: 55
+        note: 評価は変わらない。
+  - id: zann
+    name: 魔将軍ザン
+    affiliation: デーモン
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: ジンメンを部下に持つ魔将軍。糸や蜘蛛を操って明たちに挑み、決着がつかないまま姿を消した。
+        evidence:
+          - "原作: 糸や蜘蛛を操って明たちに挑み、膠着すると姿を消した"

@@ -1,0 +1,187 @@
+work: ヨルムンガンド
+title: ヨルムンガンド 最強キャラランキング
+description: ヨルムンガンドの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ・原作とも完結まで（TVアニメ第1期・第2期『PERFECT ORDER』全24話／単行本全11巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: valmet
+    name: バルメ
+    affiliation: ココの私兵（元フィンランド軍少佐）
+    cv: 大原さやか
+    editor:
+      anime:
+        score: 92
+        note: 比べ方は生身の兵士としての戦闘力。ナイフ戦に優れ、隻眼で陳国明を刃の勝負で倒した。
+        evidence:
+          - "陳国明との戦い: 刃の勝負で陳を倒した"
+          - "カレン・ロウとの戦い: カレンに重傷を負わせ、自身も重傷を負った"
+  - id: lehm
+    name: レーム
+    affiliation: ココの私兵（元デルタフォース）
+    cv: 石塚運昇
+    editor:
+      anime:
+        score: 91
+        note: 狙撃と冷徹な戦闘術に長けた元デルタフォース。ココに銃口を向けたチナツを撃った。
+        evidence:
+          - "チナツの最期: ココに銃を向けたチナツを射殺した"
+  - id: chiquita
+    name: チェキータ
+    affiliation: キャスパーの護衛
+    editor:
+      anime:
+        score: 89
+        note: ナイフ戦に優れたキャスパーの護衛。ジャカルタでSR班の元自衛官たちを全滅させた。
+        evidence:
+          - "ジャカルタ: SR班の元自衛官たちを全滅させた"
+  - id: jonah
+    name: ヨナ
+    affiliation: ココの私兵（元少年兵）
+    cv: 田村睦心
+    editor:
+      anime:
+        score: 86
+        note: 元少年兵で、山岳戦や夜戦に強い。単身で基地の部隊を全滅させた。
+        evidence:
+          - "基地の襲撃: 単身で部隊を全滅させた"
+          - "李少尉との戦い: 奇襲で倒した"
+  - id: hex
+    name: ヘックス
+    affiliation: CIA 準軍事工作担当官
+    cv: 久川綾
+    editor:
+      anime:
+        score: 85
+        note: CIAの準軍事工作担当官。一騎討ちでアールを倒したが、ココの部隊への襲撃で右目を撃たれて敗れた。
+        evidence:
+          - "東欧: エコーを殺害した"
+          - "チェコ市街: アールとの一騎討ちで、アールの頭部を撃った"
+          - "ココ分隊への襲撃: 右目を撃たれて敗れた"
+  - id: chen
+    name: 陳国明
+    affiliation: 大星海公司（元人民解放軍少将）
+    cv: 土師孝也
+    editor:
+      anime:
+        score: 82
+        note: 銃剣付き拳銃の二丁使い。バルメと刃の勝負をして死亡した。
+        evidence:
+          - "バルメとの戦い: 刃の勝負に敗れて死亡した"
+  - id: karen
+    name: カレン・ロウ
+    affiliation: 人民解放軍 中尉
+    cv: 加藤沙織
+    editor:
+      anime:
+        score: 80
+        note: 双銃剣と体術を使う。待ち伏せを仕掛けたが部隊は壊滅し、バルメとの戦いで重傷を負った。
+        evidence:
+          - "待ち伏せ: 待ち伏せを仕掛けたが、率いた部隊は壊滅した"
+          - "バルメとの戦い: 重傷を負った"
+  - id: shishou
+    name: 師匠
+    affiliation: 殺し屋グループ「オーケストラ」首領
+    cv: 小山剛志
+    editor:
+      anime:
+        score: 79
+        note: 殺し屋グループ「オーケストラ」の首領。ドバイの銃撃戦で、長距離狙撃に倒れた。
+        evidence:
+          - "ドバイ: 銃撃戦の末、ルツらの長距離狙撃で死亡した"
+  - id: lutz
+    name: ルツ
+    affiliation: ココの私兵（元警察の狙撃手）
+    cv: 羽多野渉
+    editor:
+      anime:
+        score: 77
+        note: 長距離射撃の腕が立つ狙撃手。ドバイで師匠の狙撃に加わった。
+        evidence:
+          - "ドバイ: 長距離狙撃で師匠を倒した"
+  - id: wiley
+    name: ワイリ
+    affiliation: ココの私兵（爆発物の専門家）
+    cv: 乃村健次
+    editor:
+      anime:
+        score: 76
+        note: 工兵出身の爆発物の専門家。仕掛けられた爆弾を組み替えて、設置した側を爆殺する。
+        evidence:
+          - "エクスカリバー社との戦い: 自動車爆弾を無力化した"
+  - id: tojo
+    name: トージョ
+    affiliation: ココの私兵（元自衛官）
+    cv: 箭内仁
+    editor:
+      anime:
+        score: 75
+        note: 情報処理を担当しながら戦闘もこなす元自衛官。
+        evidence:
+          - "東欧の山岳戦: 山岳兵の制圧で活躍した"
+          - "SR班との戦い: 戦闘に加わって活躍した"
+  - id: mildo
+    name: ミルド
+    affiliation: CCAT社
+    cv: 恒松あゆみ
+    editor:
+      anime:
+        score: 74
+        note: 近接戦とナイフを得意とする。バルメと交戦した。
+        evidence:
+          - "CCAT社との戦い: バルメと交戦した"
+  - id: r
+    name: アール
+    affiliation: ココの私兵（CIAのエージェント）
+    cv: 小西克幸
+    editor:
+      anime:
+        score: 73
+        note: 部隊に潜り込んでいたCIAのエージェント。ヘックスとの一騎討ちで頭部を撃たれて死亡した。
+        evidence:
+          - "チェコ市街: ヘックスとの一騎討ちで頭部に被弾して死亡した"
+  - id: mao
+    name: マオ
+    affiliation: ココの私兵（元砲兵）
+    cv: 四宮豪
+    editor:
+      anime:
+        score: 70
+        note: 元砲兵。輸送機からの砲撃で対空基地を壊滅させた。
+        evidence:
+          - "対空基地: 輸送機からフレシェット弾を撃ち、基地を壊滅させた"
+  - id: chinatsu
+    name: チナツ
+    affiliation: 殺し屋グループ「オーケストラ」
+    cv: 神田朱未
+    editor:
+      anime:
+        score: 70
+        note: グレネードランチャーを使う殺し屋。師匠の仇を討とうとしたが、レームに撃たれた。
+        evidence:
+          - "チナツの最期: ココに銃を向け、レームに撃たれて死亡した"
+  - id: kasper
+    name: キャスパー
+    affiliation: HCLI社アジア部門（ココの兄）
+    cv: 松風雅也
+    editor:
+      anime:
+        score: 63
+        note: ココの兄で武器商人。SR班による暗殺を返り討ちにした。
+        evidence:
+          - "SR班の襲撃: 暗殺を返り討ちにした"
+  - id: koko
+    name: ココ・ヘクマティアル
+    affiliation: HCLI社 武器運搬部門
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 62
+        note: 拳銃の名手だが、戦いの多くは私兵に任せる。世界の空を封じるヨルムンガンド計画を発動させた。
+        evidence:
+          - "最終盤: ヨナの帰還と共にヨルムンガンド計画を発動させた"

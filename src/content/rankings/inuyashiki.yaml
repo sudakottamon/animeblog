@@ -1,0 +1,147 @@
+work: いぬやしき
+title: いぬやしき 最強キャラランキング
+description: いぬやしきの最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ・漫画勢
+    range: アニメ・原作とも完結まで（TVアニメ全11話／単行本全10巻）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: inuyashiki
+    name: 犬屋敷壱郎
+    affiliation: 機械の身体になった会社員
+    cv: 小日向文世
+    editor:
+      anime:
+        score: 96
+        note: 機械の身体を持つ二人の対決で、獅子神に二度勝った。最後は自爆して巨大隕石を破壊した。
+        evidence:
+          - "都内上空の戦い: 獅子神のエネルギー切れの隙を突いて勝った"
+          - "新宿: 激闘の末に獅子神を破った"
+          - "鮫島の組: 組員200人以上の眼球と頸椎を破壊した"
+  - id: shishigami
+    name: 獅子神皓
+    affiliation: 機械の身体になった高校生
+    cv: 村上虹郎
+    editor:
+      anime:
+        score: 94
+        note: 遠隔での殺害や旅客機の墜落まで起こした。犬屋敷との戦いには二度とも敗れた。
+        evidence:
+          - "警察署の襲撃: 駆けつけた特殊部隊を自動迎撃で壊滅させた"
+          - "都内上空の戦い: エネルギー切れの隙を突かれ、犬屋敷に敗れた"
+          - "新宿: 集団殺戮の後、犬屋敷との激闘に敗れた"
+  - id: samejima
+    name: 鮫島
+    affiliation: 暴力団幹部
+    cv: 黒田崇矢
+    editor:
+      anime:
+        score: 60
+        note: 女性の拉致や暴行を重ねてきた暴力団の幹部。犬屋敷には組ごと制圧され、何もできなかった。
+        evidence:
+          - "鮫島の一件: 悟の首を絞めて心肺停止にした"
+          - "鮫島の組: 犬屋敷に眼球と頸椎を破壊された"
+  - id: fumino
+    name: 井上ふみの
+    affiliation: 弁当屋の店員
+    cv: 金元寿子
+    editor:
+      anime:
+        score: 50
+        note: 拉致されて薬物を打たれながら、日本刀で鮫島の手を斬って逃げた。
+        evidence:
+          - "鮫島の一件: 日本刀で鮫島の手を斬って逃げた"
+          - "鮫島の一件: 再び拉致され、犬屋敷に救出された"
+  - id: shishigami-father
+    name: 獅子神の父
+    affiliation: 獅子神の実父
+    cv: 白熊寛嗣
+    editor:
+      anime:
+        score: 30
+        note: 戦う力はない。マスコミの取材中に現れた息子に命乞いをして助かった。
+        evidence:
+          - "取材の場: 現れた獅子神に撃たないよう懇願し、一命をとりとめた"
+  - id: satoru
+    name: 悟
+    affiliation: ふみのの恋人
+    cv: 阪口大助
+    editor:
+      anime:
+        score: 28
+        note: 戦う力はない。鮫島に首を絞められて心肺停止に陥った。
+        evidence:
+          - "鮫島の一件: 心肺停止に陥ったが、犬屋敷に蘇生された"
+  - id: ando
+    name: 安堂直行
+    affiliation: 獅子神の幼馴染
+    cv: 本郷奏多
+    editor:
+      anime:
+        score: 26
+        note: 戦う力はない。獅子神の能力の情報をもとに、犬屋敷の特訓を支えた。
+        evidence:
+          - "犬屋敷の特訓: 獅子神の能力の情報をもとに練習を手伝った"
+  - id: shion
+    name: 渡辺しおん
+    affiliation: 獅子神のクラスメイト
+    cv: 諸星すみれ
+    editor:
+      anime:
+        score: 24
+        note: 戦う力はない。獅子神をかくまい、殺した人数分の人助けを約束させた。
+        evidence:
+          - "獅子神をかくまう: 殺した人数分の人助けをするよう約束させた"
+  - id: mari
+    name: 犬屋敷麻理
+    affiliation: 犬屋敷の娘
+    cv: 上坂すみれ
+    editor:
+      anime:
+        score: 22
+        note: 戦う力はない。父を尾行して、機械の身体の秘密を知った。
+        evidence:
+          - "父の秘密: 安堂と一緒にいる父を尾行して秘密を知った"
+  - id: takeshi
+    name: 犬屋敷剛史
+    affiliation: 犬屋敷の息子
+    cv: 朝井彩加
+    editor:
+      anime:
+        score: 20
+        note: 戦う力はない。事故現場で人々を治す父を見て和解した。
+        evidence:
+          - "事故現場: 人々を治療する父の姿を見て和解した"
+  - id: marie
+    name: 犬屋敷万理江
+    affiliation: 犬屋敷の妻
+    cv: 西宏子
+    editor:
+      anime:
+        score: 20
+        note: 戦う力はない。機械の身体だと打ち明けた夫を家族として受け入れた。
+        evidence:
+          - "夫の告白: 機械の身体だと打ち明けた夫を受け入れた"
+  - id: yuko
+    name: 獅子神優子
+    affiliation: 獅子神の母
+    cv: 加藤有生子
+    editor:
+      anime:
+        score: 15
+        note: 戦う力はない。末期の膵臓ガンを息子の能力で治された。
+        evidence:
+          - "獅子神の家: 末期の膵臓ガンを息子に治された"
+  - id: hanako
+    name: はな子
+    affiliation: 犬屋敷の飼い犬
+    editor:
+      anime:
+        score: 10
+        note: 犬屋敷の飼い犬。宇宙人が二人を機械にする場面を見ていた唯一の存在。
+        evidence:
+          - "物語の始まり: 宇宙人が二人を機械にする過程を目撃した"

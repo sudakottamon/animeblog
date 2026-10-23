@@ -1,0 +1,221 @@
+work: ドリフターズ
+title: ドリフターズ 最強キャラランキング
+description: ドリフターズの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ全12話＋OVA（第13〜15話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作の連載中の最新話まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kokuou
+    name: 黒王
+    affiliation: 黒王軍の首領
+    cv: 楠大典
+    editor:
+      anime:
+        score: 93
+        note: 廃棄物と異形の軍勢を率いる首領。竜を従わせ、人類を滅ぼす計画を宣言した。
+        evidence:
+          - "第10話: 青銅竜を脅して従わせた"
+          - "OVA第13話: 人類を滅ぼす計画を宣言した"
+      manga:
+        score: 93
+        note: 原作でも評価は変わらない。
+  - id: toyohisa
+    name: 島津豊久
+    affiliation: 漂流者
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 92
+        note: 関ヶ原から漂流した薩摩の武将。ジャンヌ・ダルクを倒したが、土方との一騎討ちで重傷を負った。
+        evidence:
+          - "第1話: 関ヶ原で井伊直政に致命傷を負わせた"
+          - "第7話: オルミーヌの助けを得てジャンヌ・ダルクを倒した"
+          - "第12話: 土方との一騎討ちで重傷を負った"
+      manga:
+        score: 92
+        note: サルサデカダンの戦いで殿軍を務め、捨て奸で主力を撤退させた。
+        evidence:
+          - "サルサデカダンの戦い: 殿軍として捨て奸を行い、主力を逃がした"
+  - id: hijikata
+    name: 土方歳三
+    affiliation: 廃棄物
+    cv: 安元洋貴
+    editor:
+      anime:
+        score: 89
+        note: 黒王の命で都を襲い、新選組の亡霊を呼び出して豊久と一騎討ちをした。
+        evidence:
+          - "第11話: 黒王軍の先鋒が崩れた後に戦場へ入った"
+          - "第12話: 街を焼き、新選組の亡霊を率いて豊久に重傷を負わせた"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: gilles
+    name: ジル・ド・レ
+    affiliation: 廃棄物
+    cv: 乃村健次
+    editor:
+      anime:
+        score: 81
+        note: ジャンヌ・ダルクと共に漂流者の野営地を襲い、那須与一を殺しかけた。ガトリング砲で体を砕かれて死んだ。
+        evidence:
+          - "第7話: 与一を殺しかけたが、ブッチとサンダンスのガトリング砲で体を砕かれた"
+      manga:
+        score: 81
+        note: 原作でも評価は変わらない。
+  - id: jeanne
+    name: ジャンヌ・ダルク
+    affiliation: 廃棄物
+    cv: 皆川純子
+    editor:
+      anime:
+        score: 80
+        note: ジル・ド・レと共に漂流者の野営地を襲ったが、豊久に敗れて見逃された。
+        evidence:
+          - "第7話: 野営地を襲ったが、豊久に敗れ、竜騎兵に救出された"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: kanno
+    name: 菅野直
+    affiliation: 漂流者
+    cv: 鈴木達央
+    editor:
+      anime:
+        score: 78
+        note: 戦闘機ごと漂流した戦闘機乗り。黒王軍の竜と空中で戦い、獣人たちを率いた。
+        evidence:
+          - "第3話: 戦闘機で黒王軍の竜と交戦した"
+          - "OVA第13話: 菅野の率いる獣人が北の第二軍を蹂躙した"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: yoichi
+    name: 那須与一
+    affiliation: 漂流者
+    cv: 斎賀みつき
+    editor:
+      anime:
+        score: 76
+        note: 弓の名手。夜襲では逃げる兵を射倒したが、ジル・ド・レには殺されかけた。
+        evidence:
+          - "第5話: 夜襲で逃げるオルテ兵を射倒した"
+          - "第7話: ジル・ド・レに殺されかけた"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: butch
+    name: ブッチ・キャシディ
+    affiliation: 漂流者
+    cv: 小野大輔
+    editor:
+      anime:
+        score: 72
+        note: サンダンス・キッドと組む西部のガンマン。ガトリング砲でジル・ド・レを倒した。
+        evidence:
+          - "第3話: 晴明やハンニバルらの脱出を助けた"
+          - "第7話: サンダンスと共にガトリング砲でジル・ド・レの体を砕いた"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: sundance
+    name: サンダンス・キッド
+    affiliation: 漂流者
+    cv: 高木渉
+    editor:
+      anime:
+        score: 71
+        note: ブッチ・キャシディと組む西部のガンマン。ガトリング砲でジル・ド・レを倒した。
+        evidence:
+          - "第7話: ブッチと共にガトリング砲でジル・ド・レの体を砕いた"
+      manga:
+        score: 71
+        note: 原作でも評価は変わらない。
+  - id: nobunaga
+    name: 織田信長
+    affiliation: 漂流者
+    cv: 内田直哉
+    editor:
+      anime:
+        score: 68
+        note: 個人の武よりも策で戦う。豊久たちと組んでオルテの砦を落とした。
+        evidence:
+          - "第2話: 豊久・与一と共にエルフの村を焼いたオルテ兵を倒した"
+          - "第6話: オルテの砦を落とした"
+      manga:
+        score: 70
+        note: ヴェルリナでハンニバルと策を立て、黒王軍の兵を殲滅した。
+        evidence:
+          - "ヴェルリナの戦い: ハンニバルと共に策を立て、黒王軍の兵を殲滅した"
+  - id: rasputin
+    name: ラスプーチン
+    affiliation: 廃棄物
+    cv: 田中正彦
+    editor:
+      anime:
+        score: 66
+        note: 人を操る術を持つ黒王軍の参謀格。オルテの貴族を操ったが、企みは失敗した。
+        evidence:
+          - "第11話: オルテの貴族2人を操ったが、企みは失敗に終わった"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: scipio
+    name: スキピオ
+    affiliation: 漂流者
+    cv: 家中宏
+    editor:
+      anime:
+        score: 58
+        note: ローマの将軍。指揮を任されず、戦う場面はほとんどない。
+        evidence:
+          - "第3話: 指揮を任されず、ブッチとサンダンスの助けで脱出した"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: hannibal
+    name: ハンニバル
+    affiliation: 漂流者
+    cv: 青山穣
+    editor:
+      anime:
+        score: 55
+        note: カルタゴの将軍。指揮を任されず、戦う場面はほとんどない。
+        evidence:
+          - "第3話: 指揮を任されず、ブッチとサンダンスの助けで脱出した"
+      manga:
+        score: 60
+        note: ヴェルリナで信長と策を立て、黒王軍の兵を殲滅した。
+        evidence:
+          - "ヴェルリナの戦い: 信長と共に策を立て、黒王軍の兵を殲滅した"
+  - id: anastasia
+    name: アナスタシア
+    affiliation: 廃棄物
+    cv: 北西純子
+    appears: manga
+    editor:
+      manga:
+        score: 82
+        note: 氷を操る廃棄物。サルサデカダンの戦いでは氷の城を築いて漂流者軍を攻めた。
+        evidence:
+          - "サルサデカダンの戦い: 氷の城を築いて攻撃した"
+  - id: mitsuhide
+    name: 明智光秀
+    affiliation: 廃棄物
+    cv: 速水奨
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: 黒王軍についた策士。サルサデカダンの戦いで漂流者軍を追い詰めたが、信長は討てなかった。
+        evidence:
+          - "第45幕: 黒王軍側として正式に登場した"
+          - "サルサデカダンの戦い: 策で漂流者軍を追い詰めたが、信長を討てなかった"

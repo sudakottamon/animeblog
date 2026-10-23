@@ -1,0 +1,235 @@
+work: GANTZ
+title: GANTZ 最強キャラランキング
+description: GANTZの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期・第2期（田中星人篇・仏像篇とアニメオリジナルの玄野星人篇）＋劇場アニメ『GANTZ:O』（大阪編）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全37巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: nurarihyon
+    name: ぬらりひょん
+    affiliation: 大阪編の星人
+    cv: 津嘉山正種
+    editor:
+      anime:
+        score: 95
+        note: 意識の外からの攻撃でなければ倒せない星人。大阪チームの島木と岡八郎を殺した。
+        evidence:
+          - "『GANTZ:O』: 大阪チームの島木と岡八郎を殺した"
+          - "『GANTZ:O』: 西の背後からの攻撃で隙を作られ、加藤のZガンの連射で倒れた"
+      manga:
+        score: 95
+        note: 原作でも評価は変わらない。
+        evidence:
+          - "大阪編: 氷川の奇襲と意識の外からの攻撃で頭を割られた後、加藤のZガンで倒れた"
+  - id: senju
+    name: 千手観音
+    affiliation: 仏像篇のボス
+    editor:
+      anime:
+        score: 90
+        note: 仏像篇のボス。灯篭レーザーで狙撃手の東郷十三を貫いた。
+        evidence:
+          - "TV第2期 仏像篇: Xショットガンで狙撃を続けた東郷を、灯篭レーザーで貫いた"
+      manga:
+        score: 90
+        note: 原作でも評価は変わらない。
+        evidence:
+          - "仏像篇: 灯篭レーザーで桜丘と東郷を倒した"
+          - "仏像篇: 加藤と相討ちになった"
+  - id: kato
+    name: 加藤勝
+    affiliation: 東京チーム
+    editor:
+      anime:
+        score: 88
+        note: 『GANTZ:O』の主人公。囮になって両足を切断されながら、ぬらりひょんにとどめを刺した。
+        evidence:
+          - "『GANTZ:O』: Zガンを連射してぬらりひょんを倒した"
+          - "『GANTZ:O』: 100点の報酬で山咲杏を生き返らせた"
+      manga:
+        score: 89
+        note: 仏像篇で千手観音と相討ちになり、大阪編ではぬらりひょんにとどめを刺して100点を取った。
+        evidence:
+          - "仏像篇: 千手観音と相討ちになった"
+          - "大阪編: Zガンを連射してぬらりひょんを倒した"
+  - id: kurono
+    name: 玄野計
+    affiliation: 東京チーム
+    editor:
+      anime:
+        score: 84
+        note: TVアニメの主人公。アニメオリジナルの玄野星人篇で、室戸一に攻撃を当てて「上」へ転送させた。
+        evidence:
+          - "玄野星人篇（アニメオリジナル）: 攻撃を当てて室戸一を「上」へ転送させた"
+      manga:
+        score: 96
+        note: 和泉と組んでボスオニ星人を倒し、カタストロフィでは巨人族の戦士イヴァ・グーンドを倒した。
+        evidence:
+          - "オニ星人編: 和泉と共闘してボスオニ星人を倒した"
+          - "ラストミッション: 91点を取った"
+          - "カタストロフィ: 捨て身の攻撃でイヴァ・グーンドを倒した"
+  - id: oka
+    name: 岡八郎
+    affiliation: 大阪チーム
+    cv: ケンドーコバヤシ
+    editor:
+      anime:
+        score: 76
+        note: 大阪チームの一員。ぬらりひょんに挑んだが敵わず殺された。
+        evidence:
+          - "『GANTZ:O』: 島木と共にぬらりひょんに殺された"
+      manga:
+        score: 89
+        note: ハードスーツと巨大ロボを持ち、100点を7回取った。ぬらりひょん戦では離脱した後に追われて殺された。
+        evidence:
+          - "大阪編: 100点を7回取っていたことが明かされた"
+          - "大阪編: 牛鬼を倒した"
+          - "大阪編: ぬらりひょんとの戦いから離脱した後、追跡されて殺された"
+  - id: togo
+    name: 東郷十三
+    affiliation: 東京チーム
+    cv: 白熊寛嗣
+    editor:
+      anime:
+        score: 75
+        note: 狙撃の名手。Xショットガンで千手観音を撃ち続けたが、レーザーに貫かれた。
+        evidence:
+          - "TV第2期 仏像篇: 屋根の上から千手観音を狙撃したが、灯篭レーザーに貫かれた"
+      manga:
+        score: 75
+        note: 原作でも評価は変わらない。
+  - id: muroya
+    name: 室谷信雄
+    affiliation: 大阪チーム
+    cv: レイザーラモンRG
+    editor:
+      anime:
+        score: 72
+        note: 大阪チームの一員。天狗との戦いで殺された。
+        evidence:
+          - "『GANTZ:O』: 天狗に殺された"
+      manga:
+        score: 80
+        note: 100点を4回取った大阪チームの実力者。凶暴化した天狗を追い詰めたが、捕らわれて殺された。
+        evidence:
+          - "大阪編: 凶暴化した天狗を追い詰めた"
+          - "大阪編: 天狗に捕らわれ、全身の骨を砕かれて死亡した"
+  - id: shimaki
+    name: 島木
+    affiliation: 大阪チーム
+    cv: レイザーラモンHG
+    editor:
+      anime:
+        score: 71
+        note: 大阪チームの一員。ぬらりひょんに挑んだが敵わず殺された。
+        evidence:
+          - "『GANTZ:O』: 岡八郎と共にぬらりひょんに殺された"
+      manga:
+        score: 78
+        note: 100点を3回取り、犬神を単独で倒した。ぬらりひょんには取り込まれて押し潰された。
+        evidence:
+          - "大阪編: 犬神を単独で倒した"
+          - "大阪編: ぬらりひょんに取り込まれて押し潰された"
+  - id: nishi
+    name: 西丈一郎
+    affiliation: 東京チーム
+    editor:
+      anime:
+        score: 70
+        note: ぬらりひょん戦で背後から攻撃して隙を作り、加藤のとどめにつないだ。
+        evidence:
+          - "『GANTZ:O』: ぬらりひょんの背後から攻撃して隙を作った"
+      manga:
+        score: 80
+        note: ラストミッションで102点を取った。カタストロフィではハードスーツと巨大ロボで出撃したが、玄野に圧倒された。
+        evidence:
+          - "ラストミッション: 102点を取った"
+          - "カタストロフィ: ハードスーツと巨大ロボで出撃した"
+  - id: anzu
+    name: 山咲杏
+    affiliation: 大阪チーム
+    editor:
+      anime:
+        score: 62
+        note: 大阪チームの一員。ぬらりひょん戦で加藤をかばって死亡した。
+        evidence:
+          - "『GANTZ:O』: 両足を切断された加藤をかばって死亡した"
+      manga:
+        score: 62
+        note: 原作でも評価は変わらない。
+  - id: iva-gund
+    name: イヴァ・グーンド
+    affiliation: カタストロフィの巨人族
+    appears: manga
+    editor:
+      manga:
+        score: 94
+        note: 戦闘機でF-15をまとめて捕らえ、格闘ショーでアメリカチームを全滅させた。玄野の捨て身の攻撃で戦死した。
+        evidence:
+          - "カタストロフィ: 格闘ショーでアメリカチームを全滅させた"
+          - "カタストロフィ: 玄野の捨て身の攻撃を頭部に受けて戦死した"
+  - id: hikawa
+    name: 氷川
+    affiliation: 吸血鬼
+    appears: manga
+    editor:
+      manga:
+        score: 91
+        note: 吸血鬼の剣士。玄野と和泉を斬り、大阪編ではぬらりひょんを背後から強襲した。ラストミッションも生き延びた。
+        evidence:
+          - "吸血鬼の襲撃: 玄野と和泉を斬った"
+          - "大阪編: ぬらりひょんの背後から奇襲し、討伐につなげた"
+  - id: izumi
+    name: 和泉紫音
+    affiliation: 東京チーム
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 新宿大虐殺で387人を殺傷し、オニ星人編では玄野と共闘してボスを倒した。吸血鬼の襲撃で氷川に斬られた。
+        evidence:
+          - "新宿大虐殺: 一人で387人を殺傷した"
+          - "オニ星人編: 玄野と共闘してボスオニ星人を倒した"
+  - id: reika
+    name: レイカ
+    affiliation: 東京チーム
+    cv: 早見沙織
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: オニ星人編で単独で多くの星人を倒し、ラストミッションでは101点を取った。
+        evidence:
+          - "オニ星人編: 単独で多くのオニ星人を倒した"
+          - "ラストミッション: 101点を取った"
+  - id: sakata
+    name: 坂田研三
+    affiliation: 東京チーム
+    appears: manga
+    editor:
+      manga:
+        score: 78
+        note: スーツなしで超能力を使う。オニ星人編で100点を取ったが、新宿大虐殺では和泉に敗れた。
+        evidence:
+          - "オニ星人編: 100点を取った"
+          - "新宿大虐殺: 和泉に敗れて死亡した"
+  - id: sakuraoka
+    name: 桜丘聖
+    affiliation: 東京チーム
+    cv: 園崎未恵
+    appears: manga
+    editor:
+      manga:
+        score: 75
+        note: 単身で千手観音に挑み、左手首を折って酸を浴びせた。灯篭レーザーに貫かれて死亡した。
+        evidence:
+          - "仏像篇: 千手観音の左手首を折り、水瓶を蹴り上げて酸を浴びせた"
+          - "仏像篇: 灯篭レーザーに貫かれて死亡した"
