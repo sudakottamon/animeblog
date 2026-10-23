@@ -1,6 +1,5 @@
 ---
 import '../styles/global.css';
-import Sidebar from '../components/Sidebar.astro';
 
 interface Props {
   title: string;
@@ -8,16 +7,16 @@ interface Props {
   showPr?: boolean;
   ogType?: 'website' | 'article';
   jsonLd?: Record<string, unknown>;
-  noSidebar?: boolean;
 }
-const { title, description, showPr = true, ogType = 'website', jsonLd, noSidebar = false } = Astro.props;
-const siteName = '強さ議会';
+const { title, description, showPr = true, ogType = 'website', jsonLd } = Astro.props;
+const siteName = 'アニメ最強ランキング';
+const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
 ---
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} | {siteName}</title>
+    <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={Astro.url} />
     <link rel="sitemap" href="/sitemap-index.xml" />
@@ -28,39 +27,36 @@ const siteName = '強さ議会';
     <meta property="og:site_name" content={siteName} />
     <meta property="og:locale" content="ja_JP" />
     <meta name="twitter:card" content="summary" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet" />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body>
     <header class="site-header">
-      <div class="inner">
-        <a class="site-title" href="/">強さ<span>議会</span></a>
-        <nav class="site-nav">
-          <a href="/#cat-saikyo">最強議決</a>
-          <a href="/rules/">議事規則</a>
-          <a href="/vod/">VOD比較</a>
-          <a href="/about/">運営者</a>
+      <div class="wrap">
+        <a class="logo" href="/"><span>アニメ<b>最強</b>ランキング</span><small>by ちょこっとツールズ</small></a>
+        <nav class="gnav" aria-label="サイト内">
+          <a href="/rankings/">ランキング一覧</a>
+          <a href="/rules/">採点ルール</a>
+          <a href="/yomimono/">読みもの</a>
         </nav>
       </div>
     </header>
-    {showPr && <div class="pr-note">本ページはプロモーション（アフィリエイト広告）が含まれています</div>}
-    <div class={noSidebar ? 'layout layout-single' : 'layout'}>
-      <main class="main-col">
-        <slot />
-      </main>
-      {!noSidebar && <Sidebar />}
-    </div>
+    <main class="wrap">
+      {showPr && <p class="pr-note">本ページはプロモーション（アフィリエイト広告）を含みます</p>}
+      <slot />
+    </main>
     <footer class="site-footer">
-      <div>
-        <a href="/rules/">議事規則</a>
-        <a href="/about/">運営者情報</a>
-        <a href="/privacy/">プライバシーポリシー</a>
-        <a href="/vod/">VOD比較</a>
+      <div class="wrap">
+        <nav aria-label="フッター">
+          <a href="/rankings/">ランキング一覧</a>
+          <a href="/rules/">採点ルール</a>
+          <a href="/yomimono/">読みもの</a>
+          <a href="/vod/">VOD比較</a>
+          <a href="/about/">運営者情報</a>
+          <a href="/privacy/">プライバシーポリシー</a>
+        </nav>
+        <p>運営の判定は作中の描写をもとにした運営者の見解です。みんなの採点は、閲覧者の採点を集計したものです。</p>
+        <p>© アニメ最強ランキング ・ <a href="https://chottotools.com/">ちょこっとツールズ</a></p>
       </div>
-      <p>強さの査定は作中描写に基づく当サイトの見解です。配信状況・料金は記事作成時点の情報です。</p>
-      <p>© 2026 強さ議会</p>
     </footer>
   </body>
 </html>

@@ -1,54 +1,56 @@
 ---
 import Base from '../layouts/Base.astro';
-import Thumb from '../components/Thumb.astro';
+import RankingList from '../components/RankingList.astro';
 import { getCollection } from 'astro:content';
 
+const rankings = await getCollection('rankings');
+const titles = Object.fromEntries(rankings.map((r) => [r.id, r.data.work]));
+const names = Object.fromEntries(rankings.map((r) => [r.id, Object.fromEntries(r.data.candidates.map((c) => [c.id, c.name]))]));
+const basisLabels = Object.fromEntries(rankings.map((r) => [r.id, Object.fromEntries(r.data.bases.map((b) => [b.id, b.label]))]));
+
 const articles = (await getCollection('articles', ({ data }) => !data.draft))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-
-const groups = [
-  { key: 'saikyo', label: '作品別・最強議決' },
-  { key: 'watch', label: '作品別：どこで見れる？' },
-  { key: 'ranking', label: 'おすすめランキング' },
-  { key: 'guide', label: 'ガイド・コラム' },
-] as const;
-
-const fmt = (d: Date) => `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`;
+  .sort((a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf())
+  .slice(0, 6);
 ---
 <Base
-  title="アニメ最強キャラランキング【作中描写で議決】"
-  description="作品ごとの最強キャラランキングを、作中描写だけを証拠に議決するサイト。アニメ基準と原作基準の両方で査定し、判決理由まで全部書きます。"
+  title="アニメ最強ランキング"
+  description="アニメ・漫画の最強キャラを、アニメ勢・漫画勢・原作勢に分けてみんなで採点するランキング。運営の判定とみんなの採点、2つの順位を見比べられます。"
+  showPr={false}
 >
-  <div class="hero">
-    <span class="hero-kicker">アニメ最強議論の議場</span>
-    <h1>結局、誰が最強？<br />みんなで議決しよう。</h1>
-    <p class="lede">作中描写を証拠に書記局が判決を出し、みんなが投票とコメントで控訴する。それがこのサイトの遊び方です。物差しは<a href="/rules/">議事規則</a>で全文公開中。</p>
-    <div class="hero-actions">
-      <a class="btn-primary" href="#cat-saikyo">議決を見る</a>
-      <a class="btn-ghost" href="/rules/">物差しを確認する</a>
-    </div>
+  <h1 style="font-size:20px;margin:14px 0 4px">アニメの最強キャラを、みんなで採点</h1>
+  <p style="font-size:13px;color:var(--ink-2);margin:0">アニメ勢・漫画勢・原作勢に分けて採点するので、まだ見ていない展開のネタバレが混ざりません。ログイン不要です。</p>
+
+  <h2 class="sec-title">作品別ランキング</h2>
+  <RankingList />
+
+  <h2 class="sec-title">新着コメント</h2>
+  <div class="box" style="padding:8px 14px">
+    <ul class="feed" data-feed><li class="who">読み込み中…</li></ul>
   </div>
 
-  {groups.map((g) => {
-    const list = articles.filter((a) => a.data.category === g.key);
-    return list.length > 0 && (
-      <section id={`cat-${g.key}`}>
-        <h2>{g.label}</h2>
-        <ul class="post-list">
-          {list.map((a) => (
-            <li>
-              <a class="post-card" href={`/${a.id}/`}>
-                <Thumb category={a.data.category} />
-                <div class="post-body">
-                  <span class="post-title">{a.data.title}</span>
-                  <span class="post-desc">{a.data.description}</span>
-                  <span class="post-date">{fmt(a.data.updatedDate ?? a.data.pubDate)}</span>
-                </div>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    );
-  })}
+  <h2 class="sec-title">読みもの</h2>
+  <div class="box" style="padding:4px 14px">
+    <ul class="links">
+      {articles.map((a) => <li><a href={`/${a.id}/`}>{a.data.title}</a></li>)}
+    </ul>
+  </div>
+  <p style="text-align:right;font-size:13px"><a href="/yomimono/">読みもの一覧 ›</a></p>
+
+  <script define:vars={{ titles, names, basisLabels }}>
+    const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+    const feed = document.querySelector('[data-feed]');
+    fetch('/api/summary/')
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((d) => {
+        if (!d.recent.length) { feed.innerHTML = '<li class="who">まだコメントはありません。</li>'; return; }
+        feed.innerHTML = d.recent
+          .map((c) => {
+            const who = `${esc(c.name)} ／ ${esc(titles[c.ranking] ?? '')}（${esc(basisLabels[c.ranking]?.[c.basis] ?? '')}）の${esc(names[c.ranking]?.[c.candidate] ?? '')}に${c.score ?? '-'}点`;
+            const body = c.spoiler ? '（ネタバレを含むコメント）' : esc(c.body);
+            return `<li><a href="/rankings/${c.ranking}/#${c.basis}" style="color:inherit"><div class="who">${who}</div><div class="what">${body}</div></a></li>`;
+          })
+          .join('');
+      })
+      .catch(() => { feed.innerHTML = '<li class="who">新着コメントを読み込めませんでした。</li>'; });
+  </script>
 </Base>

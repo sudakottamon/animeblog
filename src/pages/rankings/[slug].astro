@@ -1,0 +1,474 @@
+---
+import Base from '../../layouts/Base.astro';
+import AffiliateButton from '../../components/AffiliateButton.astro';
+import { getCollection } from 'astro:content';
+import { candidatesFor, type Ranking } from '../../lib/rankings';
+
+export async function getStaticPaths() {
+  const all = await getCollection('rankings');
+  return all.map((r) => ({ params: { slug: r.id }, props: { r, all } }));
+}
+
+const { r, all } = Astro.props as { r: Ranking; all: Ranking[] };
+const d = r.data;
+const labelOf = (id: string) => d.bases.find((b) => b.id === id)?.label ?? id;
+const fmt = (x: Date) => `${x.getFullYear()}/${x.getMonth() + 1}/${x.getDate()}`;
+
+const panels = d.bases.map((b, i) => {
+  const list = candidatesFor(r, b.id)
+    .map((c) => ({ c, j: c.editor[b.id] }))
+    .sort((x, y) => (y.j?.score ?? 0) - (x.j?.score ?? 0));
+  return { b, i, list };
+});
+
+const related = d.related.map((id) => all.find((x) => x.id === id)).filter(Boolean) as Ranking[];
+
+const tiers = [
+  { t: 1, v: 90, label: '最強クラス', range: '100〜81点' },
+  { t: 2, v: 70, label: 'かなり強い', range: '80〜61点' },
+  { t: 3, v: 50, label: '普通に強い', range: '60〜41点' },
+  { t: 4, v: 25, label: 'まだまだ', range: '40〜1点' },
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: d.title,
+  itemListOrder: 'https://schema.org/ItemListOrderDescending',
+  itemListElement: panels[0].list.map(({ c }, idx) => ({ '@type': 'ListItem', position: idx + 1, name: c.name })),
+};
+---
+<Base title={`${d.title}【${d.bases.map((b) => b.label).join('・')}別】`} description={d.description} jsonLd={jsonLd}>
+  <nav class="crumbs" aria-label="パンくず">
+    <span><a href="/">トップ</a></span><span><a href="/rankings/">ランキング一覧</a></span><span>{d.work}</span>
+  </nav>
+
+  <div class="box rk-head" data-ranking={r.id}>
+    <h1><span class="pre">【{d.bases.map((b) => b.label).join('・')}別】</span>{d.title}</h1>
+    <dl class="stats">
+      <div><dt>ランクイン</dt><dd data-stat="count">{panels[0].list.length}<small>人</small></dd></div>
+      <div><dt>参加者</dt><dd data-stat="participants">-<small>人</small></dd></div>
+      <div><dt>採点数</dt><dd data-stat="votes">-<small>件</small></dd></div>
+      <div><dt>最終更新</dt><dd style="font-size:13px;padding-top:4px">{fmt(d.updated)}</dd></div>
+    </dl>
+    <p class="rk-desc">{d.description}</p>
+    <ul class="rk-notes">
+      <li>見ている範囲ごとにタブを分けています。タブごとに候補・運営の判定・採点・コメントが別々です。</li>
+      <li>採点はログイン不要、1キャラにつき1人1回（あとから変更できます）。</li>
+      <li>運営の判定の基準は<a href="/rules/">採点ルール</a>にまとめています。</li>
+    </ul>
+  </div>
+
+  <div class="basis-tabs" role="tablist" aria-label="どこまで見ているか">
+    {d.bases.map((b, i) => (
+      <button class="basis-tab" role="tab" data-basis={b.id} aria-selected={i === 0 ? 'true' : 'false'}>
+        {b.label}<small>{b.range}</small>
+      </button>
+    ))}
+  </div>
+
+  {panels.map(({ b, i, list }) => (
+    <section class="basis-panel" data-basis={b.id} hidden={i !== 0}>
+      {i > 0 && (
+        <div class="box spoiler-gate" data-gate>
+          <p>このタブは<strong>{b.range}</strong>の内容を前提にしています。<br />候補・判定理由・コメントにネタバレを含みます。</p>
+          <button class="btn btn-main" type="button" data-open>{b.label}のランキングを表示する</button>
+        </div>
+      )}
+      <div data-body hidden={i > 0}>
+        <div class="sort-tabs" role="tablist" aria-label="並び順">
+          <button class="sort-tab" role="tab" data-sort="editor" aria-selected="true">運営の判定順</button>
+          <button class="sort-tab" role="tab" data-sort="crowd" aria-selected="false">みんなの採点順</button>
+        </div>
+        <p class="sort-help" data-help>作中の描写をもとに運営が判定した順位です。</p>
+        <ol class="cands">
+          {list.map(({ c, j }, idx) => (
+            <li class="cand" data-c={c.id} data-editor={j?.score ?? 0} data-pos={idx + 1}>
+              <div class="cand-top">
+                <div class="rank"><b data-rank>{idx + 1}</b><span>位</span></div>
+                <div class="cand-main">
+                  <h2 class="cand-name">{c.name}</h2>
+                  <div class="cand-attrs">
+                    {c.affiliation && <span class="attr">{c.affiliation}</span>}
+                    {c.cv && <span class="attr">CV: {c.cv}</span>}
+                    {i > 0 && c.appears === b.id && <span class="attr attr-new">{labelOf(c.appears)}で登場</span>}
+                  </div>
+                  <dl class="scores">
+                    <div class="score-box" data-box="crowd">
+                      <dt>みんなの点</dt>
+                      <dd data-crowd><span class="none">まだ採点なし</span></dd>
+                    </div>
+                    <div class="score-box is-active" data-box="editor">
+                      <dt>運営の判定</dt>
+                      <dd>{j ? <>{j.score}<small>点</small></> : <span class="none">判定なし</span>}</dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+              {j && <p class="judge"><b>運営の判定理由</b>{j.note}</p>}
+
+              <div class="rate">
+                <p class="rate-q">{c.name}の強さを採点する <span class="mine" data-mine></span></p>
+                <div class="tiers">
+                  {tiers.map((t) => (
+                    <button type="button" class="tier" data-t={t.t} data-v={t.v}>{t.label}<small>{t.range}</small></button>
+                  ))}
+                </div>
+                <p class="login-free">ログイン不要・あとから採点し直せます</p>
+                <form class="rate-form" hidden>
+                  <div class="rf-score">
+                    <input type="range" min="1" max="100" value="50" name="score" aria-label="点数" />
+                    <output>50<small>点</small></output>
+                  </div>
+                  <textarea name="body" maxlength="500" placeholder="理由やひとこと（任意）。例：〇〇戦の描写を見ると……"></textarea>
+                  <div class="rf-row">
+                    <input type="text" name="name" maxlength="20" placeholder="名前（空欄なら「名無しさん」）" autocomplete="nickname" />
+                    <label><input type="checkbox" name="spoiler" /> ネタバレを含む</label>
+                  </div>
+                  <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+                  <div class="rf-actions">
+                    <button type="button" class="btn" data-cancel>やめる</button>
+                    <button type="submit" class="btn btn-main">この点数で採点する</button>
+                  </div>
+                  <p class="rf-msg" hidden></p>
+                </form>
+              </div>
+
+              <div class="cmts">
+                <div class="cmts-head">
+                  <span>コメント <b data-ccount>0</b>件</span>
+                  <span class="cmts-sort" hidden>
+                    <button type="button" data-csort="top" aria-pressed="true">高評価順</button>
+                    <button type="button" data-csort="new" aria-pressed="false">新着順</button>
+                  </span>
+                </div>
+                <ul class="cmt-list" data-clist></ul>
+                <button type="button" class="cmts-more" data-cmore hidden>コメントをもっと読む</button>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  ))}
+
+  {d.services.length > 0 && (
+    <section class="box">
+      <h2 class="sec-title" style="margin-top:0">原作で確かめる</h2>
+      <p style="font-size:13px;color:var(--ink-2);margin:0">判定の根拠になった場面は、電子書籍ならすぐに読み返せます。</p>
+      {d.services.map((s) => <AffiliateButton service={s} />)}
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <>
+      <h2 class="sec-title">ほかの作品の最強ランキング</h2>
+      <ul class="rk-list">
+        {related.map((x) => (
+          <li class="rk-item"><a href={`/rankings/${x.id}/`}><h3>{x.data.title}</h3><p class="meta">{x.data.bases.map((b) => b.label).join('・')}別</p></a></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <script>
+    type Cmt = { id: number; candidate: string; name: string; body: string; score: number | null; spoiler: number; created_at: number; good: number; bad: number; my_vote: number | null };
+    type Data = { participants: number; votes: number; stats: Record<string, { sum: number; n: number }>; mine: Record<string, number>; commentCounts: Record<string, number>; preview: Record<string, Cmt[]> };
+
+    const PRIOR_VOTES = 3, PRIOR_SCORE = 50, CROWD_DEFAULT_AT = 10;
+    const head = document.querySelector<HTMLElement>('[data-ranking]')!;
+    const R = head.dataset.ranking!;
+    const loaded = new Map<string, Data>();
+
+    const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+    const tierOf = (v: number) => (v >= 81 ? 1 : v >= 61 ? 2 : v >= 41 ? 3 : 4);
+    const tierColor = (v: number) => `var(--t${tierOf(v)})`;
+    const ago = (ts: number) => {
+      const s = (Date.now() - ts) / 1000;
+      if (s < 60) return 'たった今';
+      if (s < 3600) return `${Math.floor(s / 60)}分前`;
+      if (s < 86400) return `${Math.floor(s / 3600)}時間前`;
+      if (s < 86400 * 30) return `${Math.floor(s / 86400)}日前`;
+      const d = new Date(ts);
+      return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`;
+    };
+    const api = async (url: string, init?: RequestInit) => {
+      const r = await fetch(url, init);
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) throw Object.assign(new Error('api'), { status: r.status, body: j });
+      return j;
+    };
+    const send = (url: string, method: string, body: unknown) =>
+      api(url, { method, headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+
+    // ---------- コメント ----------
+    function cmtEl(c: Cmt, basis: string): HTMLLIElement {
+      const li = document.createElement('li');
+      li.className = 'cmt';
+      const score = c.score != null ? `<span class="cmt-score" style="background:${tierColor(c.score)}">${c.score}点</span>` : '';
+      const long = c.body.length > 140 || c.body.split('\n').length > 4;
+      li.innerHTML = `
+        <div class="cmt-meta"><b>${esc(c.name)}</b>${score}<span>${ago(c.created_at)}</span></div>
+        ${c.spoiler ? '<button type="button" class="cmt-spoiler" data-reveal>ネタバレを含むコメントです（タップで表示）</button>' : ''}
+        <p class="cmt-body${long ? ' is-clamped' : ''}"${c.spoiler ? ' hidden' : ''}>${esc(c.body)}</p>
+        ${long ? `<button type="button" class="cmt-more"${c.spoiler ? ' hidden' : ''} data-expand>続きを読む</button>` : ''}
+        <div class="cmt-acts">
+          <button type="button" class="cmt-act${c.my_vote === 1 ? ' is-on' : ''}" data-v="1">👍 <span>${c.good}</span></button>
+          <button type="button" class="cmt-act${c.my_vote === -1 ? ' is-on' : ''}" data-v="-1">👎 <span>${c.bad}</span></button>
+          <button type="button" class="cmt-report" data-report>通報</button>
+        </div>`;
+      li.querySelector('[data-reveal]')?.addEventListener('click', (ev) => {
+        (ev.currentTarget as HTMLElement).remove();
+        li.querySelector<HTMLElement>('.cmt-body')!.hidden = false;
+        const more = li.querySelector<HTMLElement>('[data-expand]');
+        if (more) more.hidden = false;
+      });
+      li.querySelector('[data-expand]')?.addEventListener('click', (ev) => {
+        li.querySelector('.cmt-body')!.classList.remove('is-clamped');
+        (ev.currentTarget as HTMLElement).remove();
+      });
+      li.querySelectorAll<HTMLButtonElement>('[data-v]').forEach((btn) =>
+        btn.addEventListener('click', async () => {
+          try {
+            const d = await send('/api/cc/', 'PUT', { id: c.id, value: Number(btn.dataset.v) });
+            const [g, b] = li.querySelectorAll<HTMLButtonElement>('[data-v]');
+            g.querySelector('span')!.textContent = String(d.good);
+            b.querySelector('span')!.textContent = String(d.bad);
+            g.classList.toggle('is-on', d.my_vote === 1);
+            b.classList.toggle('is-on', d.my_vote === -1);
+          } catch {}
+        })
+      );
+      li.querySelector('[data-report]')!.addEventListener('click', (ev) => {
+        const host = (ev.currentTarget as HTMLElement).parentElement!;
+        if (li.querySelector('.cmt-report-menu')) return;
+        const menu = document.createElement('div');
+        menu.className = 'cmt-report-menu';
+        menu.innerHTML = [['spoiler', 'ネタバレ'], ['abuse', '誹謗中傷'], ['obscene', 'わいせつ'], ['other', 'その他']]
+          .map(([k, v]) => `<button type="button" class="btn" data-reason="${k}">${v}</button>`)
+          .join('');
+        menu.querySelectorAll<HTMLButtonElement>('[data-reason]').forEach((b) =>
+          b.addEventListener('click', async () => {
+            try { await send('/api/report/', 'POST', { id: c.id, reason: b.dataset.reason }); } catch {}
+            menu.textContent = '通報を受け付けました。ありがとうございます。';
+          })
+        );
+        host.after(menu);
+      });
+      void basis;
+      return li;
+    }
+
+    function setCommentCount(card: HTMLElement, n: number) {
+      card.querySelector('[data-ccount]')!.textContent = String(n);
+      card.dataset.ccount = String(n);
+    }
+
+    function wireComments(card: HTMLElement, basis: string, data: Data) {
+      const c = card.dataset.c!;
+      const list = card.querySelector<HTMLUListElement>('[data-clist]')!;
+      const more = card.querySelector<HTMLButtonElement>('[data-cmore]')!;
+      const sortBox = card.querySelector<HTMLElement>('.cmts-sort')!;
+      const total = data.commentCounts[c] ?? 0;
+      setCommentCount(card, total);
+      list.innerHTML = '';
+      const pre = data.preview[c] ?? [];
+      if (!pre.length) list.innerHTML = '<li class="cmt-empty">まだコメントはありません。最初のひとことをどうぞ。</li>';
+      pre.forEach((x) => list.appendChild(cmtEl(x, basis)));
+      more.hidden = total <= pre.length;
+      more.textContent = `コメントをもっと読む（全${total}件）`;
+
+      let sort = 'top', offset = 0;
+      const load = async (reset: boolean) => {
+        if (reset) { offset = 0; list.innerHTML = ''; }
+        const d = await api(`/api/cc/?r=${R}&b=${basis}&c=${c}&sort=${sort}&offset=${offset}`);
+        (d.comments as Cmt[]).forEach((x) => list.appendChild(cmtEl(x, basis)));
+        offset += d.comments.length;
+        more.hidden = !d.more;
+        more.textContent = 'さらに読み込む';
+        sortBox.hidden = false;
+      };
+      more.onclick = () => load(offset === 0).catch(() => {});
+      sortBox.querySelectorAll<HTMLButtonElement>('[data-csort]').forEach((b) => {
+        b.onclick = () => {
+          sort = b.dataset.csort!;
+          sortBox.querySelectorAll('[data-csort]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+          load(true).catch(() => {});
+        };
+      });
+    }
+
+    // ---------- 採点 ----------
+    function showCrowd(card: HTMLElement, st?: { sum: number; n: number }) {
+      const dd = card.querySelector<HTMLElement>('[data-crowd]')!;
+      if (!st || !st.n) {
+        dd.innerHTML = '<span class="none">まだ採点なし</span>';
+        card.dataset.crowd = String(PRIOR_SCORE);
+        return;
+      }
+      const avg = st.sum / st.n;
+      dd.innerHTML = `${avg.toFixed(1)}<small>点（${st.n}人）</small>`;
+      card.dataset.crowd = String((st.sum + PRIOR_VOTES * PRIOR_SCORE) / (st.n + PRIOR_VOTES));
+    }
+
+    function showMine(card: HTMLElement, v?: number) {
+      const m = card.querySelector<HTMLElement>('[data-mine]')!;
+      m.textContent = v ? `あなたの採点：${v}点` : '';
+      card.querySelectorAll<HTMLElement>('.tier').forEach((t) => t.classList.toggle('is-on', !!v && Number(t.dataset.t) === tierOf(v)));
+    }
+
+    function wireRating(card: HTMLElement, basis: string, panel: HTMLElement) {
+      const form = card.querySelector<HTMLFormElement>('.rate-form')!;
+      const range = form.querySelector<HTMLInputElement>('input[type=range]')!;
+      const out = form.querySelector('output')!;
+      const msg = form.querySelector<HTMLElement>('.rf-msg')!;
+      const sync = () => { out.innerHTML = `${range.value}<small>点</small>`; out.style.color = tierColor(Number(range.value)); };
+      range.oninput = sync;
+      card.querySelectorAll<HTMLButtonElement>('.tier').forEach((t) => {
+        t.onclick = () => {
+          const mine = Number(card.dataset.mine || 0);
+          range.value = String(mine && tierOf(mine) === Number(t.dataset.t) ? mine : t.dataset.v);
+          sync();
+          form.hidden = false;
+          msg.hidden = true;
+          form.querySelector<HTMLTextAreaElement>('textarea')!.focus({ preventScroll: true });
+        };
+      });
+      form.querySelector<HTMLButtonElement>('[data-cancel]')!.onclick = () => { form.hidden = true; };
+      const saved = localStorage.getItem('rk-name');
+      if (saved) form.querySelector<HTMLInputElement>('input[name=name]')!.value = saved;
+      form.onsubmit = async (ev) => {
+        ev.preventDefault();
+        const fd = new FormData(form);
+        const submit = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+        submit.disabled = true;
+        try {
+          const name = String(fd.get('name') || '').trim();
+          try { name ? localStorage.setItem('rk-name', name) : localStorage.removeItem('rk-name'); } catch {}
+          const d = await send('/api/score/', 'POST', {
+            r: R, b: basis, c: card.dataset.c, score: Number(range.value),
+            body: fd.get('body'), name, spoiler: fd.get('spoiler') === 'on', website: fd.get('website'),
+          });
+          card.dataset.mine = String(d.mine);
+          showMine(card, d.mine);
+          showCrowd(card, d.stat);
+          const data = loaded.get(basis);
+          if (data) {
+            const isNewVoter = !Object.keys(data.mine).length;
+            if (!data.mine[card.dataset.c!]) data.votes += 1;
+            if (isNewVoter) data.participants += 1;
+            data.mine[card.dataset.c!] = d.mine;
+            data.stats[card.dataset.c!] = d.stat;
+            showTotals(data);
+          }
+          if (d.comment) {
+            const list = card.querySelector('[data-clist]')!;
+            list.querySelector('.cmt-empty')?.remove();
+            list.prepend(cmtEl(d.comment, basis));
+            setCommentCount(card, Number(card.dataset.ccount || 0) + 1);
+            form.querySelector<HTMLTextAreaElement>('textarea')!.value = '';
+            form.querySelector<HTMLInputElement>('input[name=spoiler]')!.checked = false;
+          }
+          form.hidden = true;
+          if (panel.dataset.sort === 'crowd') reorder(panel);
+        } catch (e: any) {
+          msg.hidden = false;
+          msg.textContent = e?.body?.message ?? (e?.status === 503 ? '採点の受付を準備中です。' : '送信できませんでした。時間をおいてもう一度お試しください。');
+        } finally {
+          submit.disabled = false;
+        }
+      };
+    }
+
+    // ---------- 並び替え ----------
+    function reorder(panel: HTMLElement) {
+      const ol = panel.querySelector('.cands')!;
+      const key = panel.dataset.sort === 'crowd' ? 'crowd' : 'editor';
+      const cards = [...ol.querySelectorAll<HTMLElement>('.cand')];
+      cards.sort((a, b) => Number(b.dataset[key]) - Number(a.dataset[key]) || Number(b.dataset.editor) - Number(a.dataset.editor));
+      cards.forEach((c, i) => {
+        c.dataset.pos = String(i + 1);
+        c.querySelector('[data-rank]')!.textContent = String(i + 1);
+        c.querySelector('[data-box="crowd"]')!.classList.toggle('is-active', key === 'crowd');
+        c.querySelector('[data-box="editor"]')!.classList.toggle('is-active', key === 'editor');
+        ol.appendChild(c);
+      });
+      panel.querySelector('[data-help]')!.textContent =
+        key === 'crowd'
+          ? `みんなの採点の平均点順です。採点が少ないキャラは、たまたまの1票で順位が跳ねないよう50点寄りに補正して並べています。`
+          : '作中の描写をもとに運営が判定した順位です。';
+    }
+
+    function setSort(panel: HTMLElement, sort: string) {
+      panel.dataset.sort = sort;
+      panel.querySelectorAll('.sort-tab').forEach((t) => t.setAttribute('aria-selected', String((t as HTMLElement).dataset.sort === sort)));
+      reorder(panel);
+    }
+
+    function showTotals(d: Data) {
+      head.querySelector('[data-stat="participants"]')!.innerHTML = `${d.participants}<small>人</small>`;
+      head.querySelector('[data-stat="votes"]')!.innerHTML = `${d.votes}<small>件</small>`;
+    }
+
+    async function loadBasis(basis: string) {
+      const panel = document.querySelector<HTMLElement>(`.basis-panel[data-basis="${basis}"]`)!;
+      head.querySelector('[data-stat="count"]')!.innerHTML = `${panel.querySelectorAll('.cand').length}<small>人</small>`;
+      const cards = [...panel.querySelectorAll<HTMLElement>('.cand')];
+      if (!panel.dataset.wired) {
+        panel.dataset.wired = '1';
+        panel.querySelectorAll<HTMLButtonElement>('.sort-tab').forEach((t) => (t.onclick = () => setSort(panel, t.dataset.sort!)));
+        cards.forEach((c) => wireRating(c, basis, panel));
+      }
+      if (loaded.has(basis)) { showTotals(loaded.get(basis)!); return; }
+      try {
+        const d: Data = await api(`/api/ranking/?r=${R}&b=${basis}`);
+        loaded.set(basis, d);
+        showTotals(d);
+        cards.forEach((c) => {
+          showCrowd(c, d.stats[c.dataset.c!]);
+          const mine = d.mine[c.dataset.c!];
+          if (mine) c.dataset.mine = String(mine);
+          showMine(c, mine);
+          wireComments(c, basis, d);
+        });
+        setSort(panel, d.participants >= CROWD_DEFAULT_AT ? 'crowd' : 'editor');
+      } catch {
+        cards.forEach((c) => {
+          showCrowd(c);
+          c.querySelector('[data-clist]')!.innerHTML = '<li class="cmt-empty">コメントを読み込めませんでした。</li>';
+        });
+        panel.dataset.sort = 'editor';
+      }
+    }
+
+    // ---------- 勢タブ ----------
+    const gateKey = (b: string) => `rk-gate:${R}:${b}`;
+    function openBasis(basis: string) {
+      document.querySelectorAll<HTMLElement>('.basis-tab').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.basis === basis)));
+      document.querySelectorAll<HTMLElement>('.basis-panel').forEach((p) => (p.hidden = p.dataset.basis !== basis));
+      const panel = document.querySelector<HTMLElement>(`.basis-panel[data-basis="${basis}"]`)!;
+      const gate = panel.querySelector<HTMLElement>('[data-gate]');
+      const body = panel.querySelector<HTMLElement>('[data-body]')!;
+      let passed = !gate;
+      try { passed ||= sessionStorage.getItem(gateKey(basis)) === '1'; } catch {}
+      if (passed) {
+        if (gate) gate.hidden = true;
+        body.hidden = false;
+        loadBasis(basis);
+      }
+      history.replaceState(null, '', basis === document.querySelector<HTMLElement>('.basis-tab')!.dataset.basis ? location.pathname : `#${basis}`);
+    }
+    document.querySelectorAll<HTMLElement>('.basis-panel [data-open]').forEach((b) =>
+      b.addEventListener('click', () => {
+        const basis = b.closest<HTMLElement>('.basis-panel')!.dataset.basis!;
+        try { sessionStorage.setItem(gateKey(basis), '1'); } catch {}
+        openBasis(basis);
+      })
+    );
+    document.querySelectorAll<HTMLElement>('.basis-tab').forEach((t) => t.addEventListener('click', () => openBasis(t.dataset.basis!)));
+
+    const fromHash = location.hash.slice(1);
+    const first = document.querySelector<HTMLElement>('.basis-tab')!.dataset.basis!;
+    openBasis(document.querySelector(`.basis-tab[data-basis="${fromHash}"]`) ? fromHash : first);
+  </script>
+</Base>

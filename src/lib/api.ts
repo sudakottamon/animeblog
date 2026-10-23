@@ -52,3 +52,12 @@ export async function readBody(ctx: APIContext): Promise<Record<string, unknown>
     return {};
   }
 }
+
+export function cleanId(raw: unknown): string | null {
+  if (typeof raw !== 'string') return null;
+  return /^[a-z0-9-]{1,60}$/.test(raw) ? raw : null;
+}
+
+export function displayName(raw: unknown): string {
+  return cleanText(raw, 20) || '名無しさん';
+}

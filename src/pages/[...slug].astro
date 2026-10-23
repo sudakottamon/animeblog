@@ -2,9 +2,7 @@
 import Base from '../layouts/Base.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
 import VodTable from '../components/VodTable.astro';
-import Thumb from '../components/Thumb.astro';
-import Poll from '../components/Poll.astro';
-import Comments from '../components/Comments.astro';
+import RankingList from '../components/RankingList.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -21,17 +19,10 @@ const d = article.data;
 
 const all = await getCollection('articles', ({ data }) => !data.draft);
 const related = all
-  .filter((a) => a.id !== article.id)
-  .sort((a, b) => {
-    const score = (x: typeof a) =>
-      (x.data.category === d.category ? 2 : 0) +
-      x.data.services.filter((s) => d.services.includes(s)).length * 0.1 +
-      x.data.pubDate.valueOf() / 1e15;
-    return score(b) - score(a);
-  })
-  .slice(0, 4);
-const fmt = (date: Date) =>
-  `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
+  .filter((a) => a.id !== article.id && a.data.category === d.category)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+const fmt = (date: Date) => `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -41,16 +32,17 @@ const jsonLd = {
   datePublished: d.pubDate.toISOString(),
   dateModified: (d.updatedDate ?? d.pubDate).toISOString(),
   mainEntityOfPage: Astro.url.toString(),
-  author: { '@type': 'Organization', name: 'アニメ配信ナビ編集部' },
+  author: { '@type': 'Organization', name: 'アニメ最強ランキング' },
 };
 ---
 <Base title={d.title} description={d.description} ogType="article" jsonLd={jsonLd}>
-  <article>
-    <Thumb category={d.category} title={d.title} hero={true} />
+  <nav class="crumbs" aria-label="パンくず">
+    <span><a href="/">トップ</a></span><span><a href="/yomimono/">読みもの</a></span><span>{d.title.slice(0, 24)}{d.title.length > 24 ? '…' : ''}</span>
+  </nav>
+  <article class="article">
     <h1>{d.title}</h1>
     <p class="meta">
-      {fmt(d.pubDate)} 公開
-      {d.updatedDate && `（${fmt(d.updatedDate)} 更新）`}
+      {fmt(d.pubDate)} 公開{d.updatedDate && `（${fmt(d.updatedDate)} 更新）`}
     </p>
 
     <nav class="toc" id="toc" hidden>
@@ -63,43 +55,29 @@ const jsonLd = {
     <div id="article-body">
       <Content />
 
-      {d.poll && <Poll slug={article.id} question={d.poll.question} options={d.poll.options} />}
-
       {d.services.length > 0 && (
         <>
-          <h2>{d.category === 'saikyo' ? '証拠を自分の目で確かめる（原作・アニメ）' : 'この記事に出てきた配信サービス'}</h2>
+          <h2>この記事に出てきた配信サービス</h2>
           <VodTable only={d.services} />
           {d.services.map((s) => <AffiliateButton service={s} />)}
         </>
       )}
     </div>
 
-    <div class="notice">
-      配信状況・料金は記事作成時点の情報です。配信は予告なく終了する場合があるため、
-      最新の状況は各サービスの公式サイトでご確認ください。
-    </div>
-
-    <Comments slug={article.id} />
-
-    {related.length > 0 && (
-      <>
-        <h2>あわせて読む</h2>
-        <ul class="post-list">
-          {related.map((a) => (
-            <li>
-              <a class="post-card" href={`/${a.id}/`}>
-                <Thumb category={a.data.category} />
-                <div class="post-body">
-                  <span class="post-title">{a.data.title}</span>
-                  <span class="post-desc">{a.data.description}</span>
-                </div>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </>
-    )}
+    <p class="notice">配信状況・料金は記事作成時点の情報です。配信は予告なく終了することがあるので、最新の状況は各サービスの公式サイトでご確認ください。</p>
   </article>
+
+  <h2 class="sec-title">最強キャラを採点する</h2>
+  <RankingList />
+
+  {related.length > 0 && (
+    <>
+      <h2 class="sec-title">ほかの読みもの</h2>
+      <div class="box" style="padding:4px 14px">
+        <ul class="links">{related.map((a) => <li><a href={`/${a.id}/`}>{a.data.title}</a></li>)}</ul>
+      </div>
+    </>
+  )}
 
   <script>
     const body = document.getElementById('article-body');

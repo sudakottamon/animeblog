@@ -1,0 +1,131 @@
+work: 呪術廻戦
+title: 呪術廻戦 最強キャラランキング
+description: 呪術廻戦の最強キャラをアニメ勢・漫画勢に分けて採点。運営の判定とみんなの採点、2つの順位を切り替えて見られます。
+published: 2026-09-10
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第2期（渋谷事変）＋劇場版0まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全30巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: [kimetsu]
+candidates:
+  - id: gojo
+    name: 五条悟
+    affiliation: 呪術高専 教師
+    cv: 中村悠一
+    editor:
+      anime: { score: 98, note: 渋谷で特級呪霊をまとめて処理。設定の「最強」に描写が追いついている。 }
+      manga: { score: 95, note: 宿儺戦は敗北。ただし魔虚羅の適応を挟んだ上での決着で、地力の評価は落ちない。 }
+  - id: sukuna
+    name: 両面宿儺
+    affiliation: 呪いの王
+    cv: 諏訪部順一
+    editor:
+      anime: { score: 96, note: 指15本に満たない状態で漏瑚を一方的に倒した。まだ底を見せていない。 }
+      manga: { score: 99, note: 完全体での五条戦と最終決戦。終盤の描写量で単独首位。 }
+  - id: okkotsu
+    name: 乙骨憂太
+    affiliation: 呪術高専 2年
+    cv: 緒方恵美
+    editor:
+      anime: { score: 92, note: 劇場版0のリカ完全顕現。出力だけなら五条に並ぶと作中で評される。 }
+      manga: { score: 93, note: 模倣で手札が増え、終盤の連戦を支えた。五条・宿儺に次ぐ位置。 }
+  - id: geto
+    name: 夏油傑
+    affiliation: 呪詛師（劇場版0）
+    cv: 櫻井孝宏
+    editor:
+      anime: { score: 88, note: 劇場版0で呪霊数千体を同時に使役。百鬼夜行の規模は作中屈指。 }
+      manga: { score: 86, note: 本人の戦闘描写は0の時点で止まっている。 }
+  - id: kenjaku
+    name: 羂索
+    affiliation: 呪詛師
+    cv: 櫻井孝宏
+    editor:
+      anime: { score: 85, note: 夏油の体と呪霊操術を手にしたが、本人の戦いぶりはまだ見えていない。 }
+      manga: { score: 89, note: 高専側の主力と正面から渡り合い、搦め手も豊富。 }
+  - id: toji
+    name: 伏黒甚爾
+    affiliation: 術師殺し
+    cv: 子安武人
+    editor:
+      anime: { score: 87, note: 呪力ゼロで覚醒前の五条を一度倒した。覚醒後には完敗。 }
+      manga: { score: 85, note: 原作で新しい戦闘描写は増えない。 }
+  - id: jogo
+    name: 漏瑚
+    affiliation: 特級呪霊
+    cv: 千葉繁
+    editor:
+      anime: { score: 84, note: 火力は特級の中でも上位。宿儺に力の差を見せつけられた。 }
+      manga: { score: 80, note: 原作後半の上位陣と比べると見劣りする。 }
+  - id: choso
+    name: 脹相
+    affiliation: 呪胎九相図の長兄
+    cv: 浅沼晋太郎
+    editor:
+      anime: { score: 80, note: 赤血操術の完成度は高く、虎杖を一度追い詰めた。 }
+      manga: { score: 81, note: 終盤まで主力として戦い続けた。 }
+  - id: mahito
+    name: 真人
+    affiliation: 特級呪霊
+    cv: 島﨑信長
+    editor:
+      anime: { score: 83, note: 触れれば即死の無為転変。渋谷で黒閃を経て一段強くなった。 }
+      manga: { score: 80, note: 渋谷以降は出番がなく、評価を上げる材料がない。 }
+  - id: todo
+    name: 東堂葵
+    affiliation: 京都校 3年
+    cv: 木村昴
+    editor:
+      anime: { score: 79, note: 不義遊戯の読み合いと素の身体能力。花御・真人戦で実力を示した。 }
+      manga: { score: 80, note: 終盤の再登場で見せ場を作った。 }
+  - id: itadori
+    name: 虎杖悠仁
+    affiliation: 呪術高専 1年
+    cv: 榎木淳弥
+    editor:
+      anime: { score: 77, note: 身体能力は既に上位級。術式なしでここまで来ている。 }
+      manga: { score: 92, note: 最終盤で術式に目覚め、宿儺戦の決め手になった。 }
+  - id: nanami
+    name: 七海建人
+    affiliation: 1級術師
+    cv: 津田健次郎
+    editor:
+      anime: { score: 78, note: 十劃呪法と黒閃の連続記録。1級の中でも抜けている。 }
+      manga: { score: 76, note: 渋谷で退場。 }
+  - id: megumi
+    name: 伏黒恵
+    affiliation: 呪術高専 1年
+    cv: 内田雄馬
+    editor:
+      anime: { score: 74, note: 十種影法術の伸びしろは作中で何度も強調されている。 }
+      manga: { score: 78, note: 魔虚羅の存在が戦局を大きく動かした。 }
+  - id: maki
+    name: 禪院真希
+    affiliation: 呪術高専 2年
+    cv: 小松未可子
+    editor:
+      anime: { score: 70, note: 呪具を使った近接戦の名手。まだ伸びる途中。 }
+      manga: { score: 88, note: 天与呪縛が完成し、甚爾と同じ領域に入った。 }
+  - id: hakari
+    name: 秤金次
+    affiliation: 呪術高専 3年
+    appears: manga
+    editor:
+      manga: { score: 86, note: 当たりを引いている間は事実上不死身。鹿紫雲を下した。 }
+  - id: kashimo
+    name: 鹿紫雲一
+    affiliation: 死滅回游の参加者
+    appears: manga
+    editor:
+      manga: { score: 89, note: 宿儺に一撃を通した数少ない術師。一撃の火力は最上位。 }
+  - id: higuruma
+    name: 日車寛見
+    affiliation: 死滅回游の参加者
+    appears: manga
+    editor:
+      manga: { score: 83, note: 領域「誅伏賜死」は相手を選ばず効く。術師になって日が浅いとは思えない。 }

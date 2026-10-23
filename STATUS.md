@@ -1,4 +1,22 @@
-# STATUS — 強さ議会（旧アニメ配信ナビ）
+# STATUS — アニメ最強ランキング（anime.chottotools.com）
+
+最終更新: 2026-10-23
+
+## 現行の方針（2026-10-23、ユーザー決定）
+- ドメイン: anime.chottotools.com（ちょこっとツールズのサブドメイン。本体 chottotools.com は別プロジェクトで、デザインは合わせない）
+- 作り: ranking.net 型の参加型ランキング（参考: ranking.net/rankings/strongest-anime-characters）。稼ぐページは mybest 型（/vod/）
+- 勢で分ける: アニメ勢／漫画勢／原作勢。漫画原作の作品は「漫画・原作勢」1タブ。タブごとに候補・運営判定・採点・コメントが別
+- 順位は2軸を切替表示: 「運営の判定順」と「みんなの採点順」（参加者10人未満は運営順を初期表示）。架空の票は入れない
+- データ: src/content/rankings/*.yaml（bases / candidates[].appears / editor[basis]{score,note}）
+- API: /api/ranking/ (GET集計) /api/score/ (POST採点+任意コメント) /api/cc/ (GETコメント・PUT👍👎・DELETE管理) /api/report/ (POST通報、5件で自動非表示) /api/summary/ (トップ用)
+- DB: migrations/0002_scores.sql（scores / cand_comments / comment_votes / reports）。**本番未適用**
+- 旧 /saikyo/* は public/_redirects で /rankings/* に301
+- デプロイ: Cloudflareログイン切れ（2026-10-23）→ ユーザーが `npx wrangler login` 後に: `npx wrangler d1 migrations apply DB --remote` → `npm run build` → `npx wrangler deploy`（routes で anime.chottotools.com を割当）
+- 次のランキング候補: 転スラ（小説原作＝3タブの見本）、ワンピース、ヒロアカ、フリーレン、HUNTER×HUNTER、ドラゴンボール
+
+---
+（以下は過去の記録）
+
 
 最終更新: 2026-09-10
 

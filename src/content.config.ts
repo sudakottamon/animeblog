@@ -8,13 +8,54 @@ const articles = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    category: z.enum(['saikyo', 'vod', 'watch', 'ranking', 'guide']),
+    category: z.enum(['vod', 'watch', 'ranking', 'guide']),
     services: z.array(z.string()).default([]),
-    poll: z
-      .object({ question: z.string(), options: z.array(z.string()).min(2).max(12) })
-      .optional(),
     draft: z.boolean().default(false),
   }),
 });
 
-export const collections = { articles };
+export const BASES = ['anime', 'manga', 'novel'] as const;
+const basisId = z.enum(BASES);
+
+const editorJudgment = z.object({
+  score: z.number().int().min(1).max(100),
+  note: z.string(),
+});
+
+const rankings = defineCollection({
+  loader: glob({ pattern: '*.yaml', base: './src/content/rankings' }),
+  schema: z.object({
+    work: z.string(),
+    title: z.string(),
+    description: z.string(),
+    published: z.coerce.date(),
+    updated: z.coerce.date(),
+    // 勢の並びは「情報量が少ない順」。後ろの勢ほど先の展開まで含む。
+    bases: z
+      .array(
+        z.object({
+          id: basisId,
+          label: z.string(),
+          range: z.string(),
+        })
+      )
+      .min(1),
+    candidates: z
+      .array(
+        z.object({
+          id: z.string().regex(/^[a-z0-9-]+$/),
+          name: z.string(),
+          affiliation: z.string().optional(),
+          cv: z.string().optional(),
+          // この勢から登場する（それより前の勢には出さない）
+          appears: basisId.default('anime'),
+          editor: z.record(basisId, editorJudgment).default({}),
+        })
+      )
+      .min(2),
+    services: z.array(z.string()).default([]),
+    related: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { articles, rankings };

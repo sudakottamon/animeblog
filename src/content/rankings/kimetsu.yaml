@@ -1,0 +1,147 @@
+work: 鬼滅の刃
+title: 鬼滅の刃 最強キャラランキング
+description: 鬼滅の刃の最強キャラをアニメ勢・漫画勢に分けて採点。運営の判定とみんなの採点、2つの順位を切り替えて見られます。
+published: 2026-09-10
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVシリーズ「柱稽古編」まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作完結（単行本全23巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: [jujutsu-kaisen]
+candidates:
+  - id: yoriichi
+    name: 継国縁壱
+    affiliation: 始まりの呼吸の剣士
+    editor:
+      anime: { score: 100, note: 回想の中だけの人物だが、無惨を追い詰めた唯一の剣士。物差しとして別格に置く。 }
+      manga: { score: 100, note: 原作を最後まで読んでも、縁壱を超える描写を持つ者はいない。 }
+  - id: muzan
+    name: 鬼舞辻無惨
+    affiliation: 鬼の始祖
+    cv: 関俊彦
+    editor:
+      anime: { score: 97, note: 直接の戦闘はまだ少ないが、上弦すら逆らえない支配そのものが強さの証拠。 }
+      manga: { score: 99, note: 最終決戦で柱全員と主人公勢を相手に夜明けまで暴れ続けた。 }
+  - id: kokushibo
+    name: 黒死牟
+    affiliation: 上弦の壱
+    cv: 置鮎龍太郎
+    editor:
+      anime: { score: 92, note: アニメでは戦闘がまだない。上弦の壱という序列だけで評価している。 }
+      manga: { score: 96, note: 柱2人と玄弥を相手にした死闘。月の呼吸の描写量は全戦闘でも随一。 }
+  - id: doma
+    name: 童磨
+    affiliation: 上弦の弐
+    cv: 宮野真守
+    editor:
+      anime: { score: 89, note: 戦う場面はまだほとんどない。序列から猗窩座より上に置く。 }
+      manga: { score: 92, note: 氷の血鬼術は範囲が広く、しのぶたちとの戦いでも終始余裕があった。 }
+  - id: akaza
+    name: 猗窩座
+    affiliation: 上弦の参
+    cv: 石田彰
+    editor:
+      anime: { score: 91, note: 炎柱・煉獄に勝ち、夜明けを見て撤退する判断もできる。 }
+      manga: { score: 90, note: 武の完成度は鬼の中でも最上位。義勇と炭治郎の二人がかりでやっと届いた。 }
+  - id: himejima
+    name: 悲鳴嶼行冥
+    affiliation: 岩柱
+    cv: 杉田智和
+    editor:
+      anime: { score: 90, note: 作中で「鬼殺隊最強」と明言され、柱稽古の描写もそれを裏づける。 }
+      manga: { score: 94, note: 黒死牟戦・無惨戦の両方で主力。明言どおりの強さだった。 }
+  - id: hantengu
+    name: 半天狗
+    affiliation: 上弦の肆
+    cv: 古川登志夫
+    editor:
+      anime: { score: 85, note: 分裂した体がそれぞれ上弦級。本体を見つけられなければ勝てない。 }
+      manga: { score: 84, note: 原作で評価を変える材料はない。 }
+  - id: rengoku
+    name: 煉獄杏寿郎
+    affiliation: 炎柱
+    cv: 日野聡
+    editor:
+      anime: { score: 84, note: 猗窩座には敗れたが、列車の乗客を一人も死なせなかった。 }
+      manga: { score: 84, note: 退場後に評価が動くことはない。 }
+  - id: muichiro
+    name: 時透無一郎
+    affiliation: 霞柱
+    cv: 河西健吾
+    editor:
+      anime: { score: 83, note: 刀鍛冶の里で上弦の伍を一人で倒した。 }
+      manga: { score: 85, note: 黒死牟戦で痣と赫刀に至り、勝ち筋を作った。 }
+  - id: uzui
+    name: 宇髄天元
+    affiliation: 音柱（元）
+    cv: 小西克幸
+    editor:
+      anime: { score: 83, note: 毒を受けながら上弦の陸と戦い抜いた。譜面の読みが光る。 }
+      manga: { score: 83, note: 引退後は戦いに加わらない。 }
+  - id: tomioka
+    name: 冨岡義勇
+    affiliation: 水柱
+    cv: 櫻井孝宏
+    editor:
+      anime: { score: 82, note: 那田蜘蛛山で累を一撃。描写はまだ少ない。 }
+      manga: { score: 87, note: 猗窩座戦で痣を出し、真価を見せた。 }
+  - id: sanemi
+    name: 不死川実弥
+    affiliation: 風柱
+    cv: 関智一
+    editor:
+      anime: { score: 80, note: 稀血という体質で鬼を酔わせる。戦闘描写はこれから。 }
+      manga: { score: 88, note: 黒死牟戦で主力を務めた。 }
+  - id: mitsuri
+    name: 甘露寺蜜璃
+    affiliation: 恋柱
+    cv: 花澤香菜
+    editor:
+      anime: { score: 80, note: 筋肉の密度が常人の8倍。半天狗の憎珀天と渡り合った。 }
+      manga: { score: 81, note: 無惨戦では足止めにとどまった。 }
+  - id: gyokko
+    name: 玉壺
+    affiliation: 上弦の伍
+    cv: 鳥海浩輔
+    editor:
+      anime: { score: 80, note: 血鬼術の搦め手は上弦らしいが、無一郎との相性が悪すぎた。 }
+      manga: { score: 79, note: 原作で評価を変える材料はない。 }
+  - id: gyutaro
+    name: 妓夫太郎
+    affiliation: 上弦の陸
+    cv: 逢坂良太
+    editor:
+      anime: { score: 79, note: 宇髄と炭治郎たちの総がかりでやっと倒れた。毒鎌の厄介さは上弦級。 }
+      manga: { score: 78, note: 原作で評価を変える材料はない。 }
+  - id: obanai
+    name: 伊黒小芭内
+    affiliation: 蛇柱
+    cv: 鈴村健一
+    editor:
+      anime: { score: 78, note: アニメでは本格的な戦闘がまだない。 }
+      manga: { score: 85, note: 無惨戦で最後まで前線に立ち続けた。 }
+  - id: tanjiro
+    name: 竈門炭治郎
+    affiliation: 鬼殺隊
+    cv: 花江夏樹
+    editor:
+      anime: { score: 78, note: ヒノカミ神楽と痣で上弦と戦えるところまで来た。 }
+      manga: { score: 90, note: 透き通る世界と赫刀を身につけ、縁壱の技に最も近づいた。 }
+  - id: nezuko
+    name: 竈門禰豆子
+    affiliation: 鬼
+    cv: 鬼頭明里
+    editor:
+      anime: { score: 74, note: 太陽を克服した。戦闘力より、その特異さが最大の価値。 }
+      manga: { score: 75, note: 終盤は戦いの中心から外れる。 }
+  - id: shinobu
+    name: 胡蝶しのぶ
+    affiliation: 蟲柱
+    cv: 早見沙織
+    editor:
+      anime: { score: 72, note: 鬼の首を斬れない代わりに、毒の調合で戦う。 }
+      manga: { score: 74, note: 童磨戦で、自分の命と引き換えに勝ち筋を残した。 }

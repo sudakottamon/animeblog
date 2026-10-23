@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const all = (await getCollection('articles', ({ data }) => !data.draft)).sort(
+  (a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf()
+);
+const groups = [
+  { key: 'watch', label: 'どこで見れる？（配信情報）' },
+  { key: 'ranking', label: 'おすすめ・まとめ' },
+  { key: 'guide', label: 'ガイド' },
+] as const;
+---
+<Base title="読みもの" description="アニメの配信情報、おすすめまとめ、動画配信サービスの使い方など。" showPr={false}>
+  <nav class="crumbs" aria-label="パンくず"><span><a href="/">トップ</a></span><span>読みもの</span></nav>
+  <h1 style="font-size:20px;margin:8px 0 0">読みもの</h1>
+  {groups.map((g) => (
+    <>
+      <h2 class="sec-title">{g.label}</h2>
+      <div class="box" style="padding:4px 14px">
+        <ul class="links">
+          {all.filter((a) => a.data.category === g.key).map((a) => <li><a href={`/${a.id}/`}>{a.data.title}</a></li>)}
+        </ul>
+      </div>
+    </>
+  ))}
+  <h2 class="sec-title">動画配信サービス</h2>
+  <div class="box" style="padding:4px 14px">
+    <ul class="links"><li><a href="/vod/">アニメ見放題のVOD比較</a></li></ul>
+  </div>
+</Base>
