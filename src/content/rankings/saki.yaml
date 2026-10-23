@@ -1,0 +1,271 @@
+work: 咲-Saki-
+title: 咲-Saki- 最強キャラランキング
+description: 咲-Saki-の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『咲-Saki-』（全25話）、『阿知賀編 episode of side-A』、『全国編』（全13話）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 連載中の原作の単行本既刊27巻（インターハイ団体戦決勝の大将戦の途中）まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: teru
+    name: 宮永照
+    affiliation: 白糸台高校 先鋒
+    cv: 中原麻衣
+    editor:
+      anime:
+        score: 97
+        note: 基準は麻雀の実力（対局での打ち筋と結果）。インターハイ王者で、準決勝の先鋒戦で連続和了を重ねて大きく稼いだ。
+        evidence:
+          - "阿知賀編 準決勝: 先鋒戦で連続和了を重ね、他校に大差をつけた"
+      manga:
+        score: 97
+        note: 決勝の先鋒戦でも九蓮宝燈を和了して区間1位になった。評価は変わらない。
+        evidence:
+          - "決勝 先鋒戦: 辻垣内智葉・松実玄・片岡優希を相手に九蓮宝燈を和了し、区間1位で終えた"
+  - id: saki
+    name: 宮永咲
+    affiliation: 清澄高校 大将
+    cv: 植田佳奈
+    editor:
+      anime:
+        score: 92
+        note: 県予選決勝で天江衣を逆転し、全国2回戦も大将として清澄を1位通過させた。
+        evidence:
+          - "県予選決勝 大将戦: 連続槓からの数え役満で天江衣に逆転勝ちした"
+          - "全国編 2回戦 大将戦: 姉帯豊音・石戸霞らと打ち、清澄を1位で通過させた"
+      manga:
+        score: 92
+        note: 準決勝では末原の対策で最下位まで落ちたが、2位まで戻して決勝に進んだ。
+        evidence:
+          - "準決勝 大将戦: 末原恭子に対策されて最下位まで落ちたが、2位に浮上して決勝進出を決めた"
+  - id: koromo
+    name: 天江衣
+    affiliation: 龍門渕高校 大将
+    cv: 福原香織
+    editor:
+      anime:
+        score: 89
+        note: 前年インターハイで最多獲得点を記録した。県予選決勝で場を支配したが、咲に逆転された。
+        evidence:
+          - "県予選決勝 大将戦: 海底撈月などで場を支配したが、宮永咲に逆転された"
+      manga:
+        score: 89
+        note: 原作でも評価は変わらない。
+  - id: toki
+    name: 園城寺怜
+    affiliation: 千里山女子 先鋒
+    cv: 小倉唯
+    editor:
+      anime:
+        score: 86
+        note: 一巡先を見る能力で、準決勝の先鋒戦で宮永照に食い下がった。
+        evidence:
+          - "阿知賀編 準決勝: 先鋒戦で一巡先を見る能力を使い、宮永照の連続和了に対抗した"
+      manga:
+        score: 86
+        note: 原作でも評価は変わらない。
+  - id: satoha
+    name: 辻垣内智葉
+    affiliation: 臨海女子 先鋒
+    cv: 日笠陽子
+    appears: manga
+    editor:
+      manga:
+        score: 86
+        note: 前年の個人戦3位。決勝の先鋒戦で宮永照と打ち、区間1位は照に譲った。
+        evidence:
+          - "決勝 先鋒戦: 宮永照・松実玄・片岡優希と打ち、照に区間1位を譲った"
+  - id: kogoro
+    name: 神代小蒔
+    affiliation: 永水女子 先鋒
+    cv: 早見沙織
+    editor:
+      anime:
+        score: 85
+        note: 眠ると九面を降ろす。2回戦では能力を見せたが、永水は3位で敗退した。
+        evidence:
+          - "全国編 2回戦 先鋒戦: 神を降ろす能力を見せたが、永水女子は3位で敗退した"
+      manga:
+        score: 85
+        note: 原作でも評価は変わらない。
+  - id: awai
+    name: 大星淡
+    affiliation: 白糸台高校 大将
+    cv: 斎藤千和
+    editor:
+      anime:
+        score: 84
+        note: 他家の配牌を悪くしてダブルリーチを打つ。準決勝のオーラスで和了し、白糸台を決勝に進めた。
+        evidence:
+          - "阿知賀編 準決勝 大将戦: 最終局で和了し、白糸台を2位で決勝に進めた"
+      manga:
+        score: 88
+        note: 決勝の大将戦では前半戦を大きくリードした。
+        evidence:
+          - "単行本27巻: 決勝の大将戦の前半戦で他校を押さえ込んだ"
+  - id: nelly
+    name: ネリー・ヴィルサラーゼ
+    affiliation: 臨海女子 大将
+    appears: manga
+    editor:
+      manga:
+        score: 85
+        note: 準決勝の大将戦で咲らと打ち、臨海を1位で決勝に進めた。
+        evidence:
+          - "準決勝 大将戦: 宮永咲・末原恭子らと打ち、臨海女子を1位で決勝に進めた"
+  - id: shizuno
+    name: 高鴨穏乃
+    affiliation: 阿知賀女子 大将
+    cv: 悠木碧
+    editor:
+      anime:
+        score: 82
+        note: 山の奥を支配する打ち手。準決勝の大将戦を戦い抜き、阿知賀を決勝へ導いた。
+        evidence:
+          - "阿知賀編 準決勝 大将戦: 大星淡・清水谷竜華らと打ち、阿知賀を決勝進出に導いた"
+      manga:
+        score: 82
+        note: 原作でも評価は変わらない。
+  - id: nodoka
+    name: 原村和
+    affiliation: 清澄高校 副将
+    cv: 小清水亜美
+    editor:
+      anime:
+        score: 80
+        note: 能力に頼らないデジタル打ち。中学時代にインターミドルの個人戦で優勝している。
+        evidence:
+          - "第1期: 中学時代にインターミドル個人戦で優勝していたことが語られた"
+          - "県予選決勝 副将戦: 龍門渕透華らを相手に清澄の副将を務めた"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: ryuuka
+    name: 清水谷竜華
+    affiliation: 千里山女子 大将
+    cv: 石原夏織
+    editor:
+      anime:
+        score: 80
+        note: 関西随一の平均素点を持つ大将。準決勝で敗れ、千里山は決勝に進めなかった。
+        evidence:
+          - "阿知賀編 準決勝 大将戦: 高鴨穏乃・大星淡らと打ったが、千里山は決勝に進めなかった"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: toyone
+    name: 姉帯豊音
+    affiliation: 宮守女子 大将
+    cv: 内田真礼
+    editor:
+      anime:
+        score: 80
+        note: 六曜にちなむ複数の能力を持つ。2回戦の大将戦で咲らと打ち、宮守は4位で敗退した。
+        evidence:
+          - "全国編 2回戦 大将戦: 宮永咲らと打ち、宮守女子は4位で敗退した"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: hiroe
+    name: 愛宕洋榎
+    affiliation: 姫松高校 中堅
+    cv: 松田颯水
+    editor:
+      anime:
+        score: 79
+        note: 回し打ちに長けたエース。前年インターハイと春季大会でプラス収支を残している。
+        evidence:
+          - "全国編 2回戦 中堅戦: 竹井久らと打ち、姫松の中堅を務めた"
+      manga:
+        score: 79
+        note: 原作でも評価は変わらない。
+  - id: suehara
+    name: 末原恭子
+    affiliation: 姫松高校 大将
+    editor:
+      anime:
+        score: 74
+        note: 2回戦の大将戦で咲と打ち、姫松は2位で準決勝に進んだ。
+        evidence:
+          - "全国編 2回戦 大将戦: 宮永咲・姉帯豊音・石戸霞と打った"
+      manga:
+        score: 79
+        note: 準決勝で咲への対策を当て、一時は最下位まで追い込んだ。
+        evidence:
+          - "準決勝 大将戦: 宮永咲の和了を封じ、一時は最下位まで落とした"
+  - id: mihoko
+    name: 福路美穂子
+    affiliation: 風越女子 先鋒
+    cv: 堀江由衣
+    editor:
+      anime:
+        score: 78
+        note: 右目を開いて相手の手牌を読む先鋒。県予選決勝で風越は4位に終わった。
+        evidence:
+          - "県予選決勝 先鋒戦: 右目を開いて相手の手牌を読み取った"
+      manga:
+        score: 78
+        note: 原作でも評価は変わらない。
+  - id: hisa
+    name: 竹井久
+    affiliation: 清澄高校 中堅
+    cv: 伊藤静
+    editor:
+      anime:
+        score: 76
+        note: あえて悪い待ちを選ぶ打ち手。県予選団体決勝の中堅戦で最も点を稼いだ。
+        evidence:
+          - "県予選決勝 中堅戦: 悪待ちで他家を翻弄し、区間で最多の点を稼いだ"
+      manga:
+        score: 76
+        note: 原作でも評価は変わらない。
+  - id: yumi
+    name: 加治木ゆみ
+    affiliation: 鶴賀学園 大将
+    cv: 小林ゆう
+    editor:
+      anime:
+        score: 72
+        note: 能力を持たず対応力で戦う。県予選決勝で咲・衣と打ち、鶴賀は3位に終わった。
+        evidence:
+          - "県予選決勝 大将戦: 宮永咲・天江衣らと打ち、鶴賀学園は3位に終わった"
+      manga:
+        score: 72
+        note: 原作でも評価は変わらない。
+  - id: kuro
+    name: 松実玄
+    affiliation: 阿知賀女子 先鋒
+    cv: 花澤香菜
+    editor:
+      anime:
+        score: 71
+        note: ドラを集める能力を持つ。準決勝の先鋒戦で宮永照と同卓した。
+        evidence:
+          - "阿知賀編 準決勝 先鋒戦: 宮永照・園城寺怜らと打った"
+      manga:
+        score: 71
+        note: 決勝の先鋒戦でも照に区間1位を譲った。評価は変わらない。
+        evidence:
+          - "決勝 先鋒戦: 宮永照に九蓮宝燈を和了され、区間1位を譲った"
+  - id: yuuki
+    name: 片岡優希
+    affiliation: 清澄高校 先鋒
+    cv: 釘宮理恵
+    editor:
+      anime:
+        score: 68
+        note: 東場で爆発力を見せる先鋒。全国2回戦では清澄の先鋒として出場した。
+        evidence:
+          - "全国編 2回戦 先鋒戦: 神代小蒔らと打った"
+      manga:
+        score: 66
+        note: 準決勝の先鋒戦は3位、決勝の先鋒戦は最下位で終えた。
+        evidence:
+          - "準決勝 先鋒戦: 区間3位で終えた"
+          - "決勝 先鋒戦: 宮永照に敗れ、最下位で終えた"

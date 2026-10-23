@@ -1,0 +1,168 @@
+work: アカギ 〜闇に降り立った天才〜
+title: アカギ 最強キャラランキング
+description: アカギ（天を含む）の最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ『闘牌伝説アカギ』全26話（鷲巣麻雀の途中）まで
+  - id: manga
+    label: 漫画・原作勢
+    range: 原作『アカギ』完結（全36巻）＋『天 天和通りの快男児』完結（全18巻）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: akagi
+    name: 赤木しげる
+    affiliation: 代打ち
+    cv: 萩原聖人
+    editor:
+      anime:
+        score: 98
+        note: 基準は麻雀の実力。13歳で矢木に勝ち、市川・浦部と名うての代打ちを次々に破った。
+        evidence:
+          - "矢木戦: 麻雀を覚えたばかりの13歳で代打ちの矢木圭次に勝った"
+          - "市川戦: 盲目の代打ち市川に勝った"
+          - "浦部戦: 単騎待ちに浦部を振り込ませて逆転勝ちした"
+      manga:
+        score: 98
+        note: 鷲巣麻雀に勝ち、『天』では東西戦の東の中心として戦った。『天』の赤木も同一人物として扱う。
+        evidence:
+          - "アカギ 鷲巣麻雀: 6回戦オーラス直前に鷲巣が昏睡して輸血を受け、勝利が確定した"
+          - "天 東西戦: 東の中心的存在として西の裏プロたちと戦った"
+  - id: washizu
+    name: 鷲巣巌
+    affiliation: 鷲巣麻雀の主催者
+    cv: 津嘉山正種
+    editor:
+      anime:
+        score: 90
+        note: 血液を賭ける鷲巣麻雀の主。平山を破り、アカギとも血液を賭けて打ち合った。
+        evidence:
+          - "鷲巣麻雀編: 平山幸雄に勝ち、平山は失血で命を落とした"
+          - "鷲巣麻雀編: アカギと血液を賭けた勝負を打ち続けた"
+      manga:
+        score: 90
+        note: 昏睡と輸血で敗北が確定したが、アカギは自分の負けだったとして勝ち金を受け取らなかった。
+        evidence:
+          - "アカギ 鷲巣麻雀: 6回戦オーラス直前に昏睡し、部下の独断による輸血で敗北が確定した"
+  - id: ten
+    name: 天貴史
+    affiliation: 東の代表格（天）
+    appears: manga
+    editor:
+      manga:
+        score: 88
+        note: 東西戦の最終決戦で西の頭・原田との二人麻雀に勝ち、東を勝利させた。
+        evidence:
+          - "天 東西戦: 最終決戦の二人麻雀で原田克美に勝った"
+          - "天 序盤: ひろゆきとのサシ馬勝負を天和九蓮宝燈で逆転した"
+  - id: harada
+    name: 原田克美
+    affiliation: 西の頭（天）
+    appears: manga
+    editor:
+      manga:
+        score: 87
+        note: 「現役の王」と呼ばれる関西の組長で、東西戦の仕掛け人。最終決戦で天に敗れた。
+        evidence:
+          - "天 東西戦: 最終決戦の二人麻雀で天貴史に敗れた"
+  - id: soga
+    name: 僧我三威
+    affiliation: 西の雀士（天）
+    appears: manga
+    editor:
+      manga:
+        score: 84
+        note: 赤木が現れる前の裏世界で十数年無敗だったとされる。東西戦では金光を役満で討ち取った。
+        evidence:
+          - "天 東西戦: 金光修蔵を役満に振り込ませ、早々に脱落させた"
+  - id: ichikawa
+    name: 市川
+    affiliation: 盲目の代打ち
+    cv: 田中秀幸
+    editor:
+      anime:
+        score: 84
+        note: 盲目ながら牌を読み切る老練な代打ち。アカギに敗れた。
+        evidence:
+          - "市川戦: アカギとの対局に敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: urabe
+    name: 浦部
+    affiliation: 代打ち
+    cv: 風間杜夫
+    editor:
+      anime:
+        score: 80
+        note: 平山を追い詰めてレートをつり上げたが、代わったアカギに逆転された。
+        evidence:
+          - "浦部戦: 平山幸雄に勝った"
+          - "浦部戦: アカギの単騎待ちに振り込み、逆転負けした"
+      manga:
+        score: 80
+        note: 原作でも評価は変わらない。
+  - id: hiroyuki
+    name: 井川ひろゆき
+    affiliation: 東の雀士（天）
+    appears: manga
+    editor:
+      manga:
+        score: 72
+        note: 天とのサシ馬勝負で逆転負けし、のちに東の一員として東西戦に出た。
+        evidence:
+          - "天 序盤: 天貴史とのサシ馬勝負で天和九蓮宝燈により逆転された"
+          - "天 東西戦: 東の一員として出場した"
+  - id: hirayama
+    name: 平山幸雄
+    affiliation: ニセアカギ
+    cv: 佐藤銀平
+    editor:
+      anime:
+        score: 64
+        note: アカギの偽物として雇われたが、浦部に追い詰められて敗れ、鷲巣麻雀でも命を落とした。
+        evidence:
+          - "浦部戦: 浦部に敗れ、アカギに代わられた"
+          - "鷲巣麻雀編: 鷲巣巌に敗れ、失血で死亡した"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: kanemitsu
+    name: 金光修蔵
+    affiliation: 東の雀士（天）
+    appears: manga
+    editor:
+      manga:
+        score: 62
+        note: 東西戦では僧我の役満に振り込み、早い段階で脱落した。
+        evidence:
+          - "天 東西戦: 僧我三威の役満に振り込み、早期に敗退した"
+  - id: yagi
+    name: 矢木圭次
+    affiliation: 代打ち
+    cv: 高木渉
+    editor:
+      anime:
+        score: 58
+        note: 代打ちとして呼ばれたが、麻雀を覚えたばかりの13歳のアカギに敗れた。
+        evidence:
+          - "矢木戦: 13歳のアカギに敗れた"
+      manga:
+        score: 58
+        note: 原作でも評価は変わらない。
+  - id: nangou
+    name: 南郷
+    affiliation: 借金を抱えた男
+    cv: 小山力也
+    editor:
+      anime:
+        score: 48
+        note: ヤクザとの勝負で負けが込み、居合わせたアカギに勝負を任せた。
+        evidence:
+          - "序盤: ヤクザとの命がけの勝負で負けが込み、途中でアカギに打ち手を代わった"
+      manga:
+        score: 48
+        note: 原作でも評価は変わらない。

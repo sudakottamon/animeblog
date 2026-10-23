@@ -1,0 +1,203 @@
+work: 3月のライオン
+title: 3月のライオン 最強キャラランキング
+description: 3月のライオンの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期・第2期（全44話、新人王戦・棋匠戦まで）
+  - id: manga
+    label: 漫画・原作勢
+    range: 連載中の原作の単行本既刊18巻まで（2026年10月時点）
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: souya
+    name: 宗谷冬司
+    affiliation: 名人 ほか複数タイトル保持
+    cv: 石田彰
+    editor:
+      anime:
+        score: 98
+        note: 基準は棋士としての棋力（タイトル戦や公式戦の結果）。獅子王・名人を防衛し、記念対局で零にも勝った。
+        evidence:
+          - "第1期 第17〜20話: 獅子王戦七番勝負で島田開の挑戦を退けた"
+          - "第2期 第2話: 名人戦で隈倉健吾の挑戦を受け、名人位を守った"
+          - "第2期 第15〜16話: 記念対局で桐山零に勝った"
+      manga:
+        score: 98
+        note: 第70期名人戦でも土橋の挑戦を退けた。評価は変わらない。
+        evidence:
+          - "第70期名人戦: 土橋健司の挑戦をフルセットの末に退けた"
+  - id: yanagihara
+    name: 柳原朔太郎
+    affiliation: 棋匠
+    cv: 大塚芳忠
+    editor:
+      anime:
+        score: 88
+        note: 棋匠位を長く保持するベテラン。島田の挑戦を退けて防衛した。
+        evidence:
+          - "第2期 第14〜18話: 棋匠戦で島田開の挑戦を退け、永世棋匠の資格を得た"
+      manga:
+        score: 88
+        note: 原作でも評価は変わらない。
+  - id: tsuchihashi
+    name: 土橋健司
+    affiliation: 九段（のち棋竜）
+    appears: manga
+    editor:
+      manga:
+        score: 89
+        note: 名人戦で宗谷をフルセットまで追い込み、棋竜戦では藤本をストレートで破ってタイトルを取った。
+        evidence:
+          - "第70期名人戦: 宗谷冬司に挑戦し、フルセットの末に敗れた"
+          - "棋竜戦: 藤本雷堂に3勝0敗で勝ち、棋竜位を獲得した"
+  - id: shimada
+    name: 島田開
+    affiliation: A級 八段
+    cv: 三木眞一郎
+    editor:
+      anime:
+        score: 86
+        note: 零と後藤に勝って獅子王戦の挑戦者になった。タイトル戦では宗谷と柳原に敗れた。
+        evidence:
+          - "第1期 第13〜14話: 獅子王戦トーナメントで桐山零に勝った"
+          - "第1期 第15〜16話: 獅子王戦の挑戦者決定戦で後藤正宗に勝った"
+          - "第2期 第14〜18話: 棋匠戦で柳原朔太郎に挑み、敗れた"
+      manga:
+        score: 85
+        note: 2年ぶりの零との対局で敗れた。
+        evidence:
+          - "獅子王戦: 決勝トーナメントで桐山零に敗れた"
+  - id: kumakura
+    name: 隈倉健吾
+    affiliation: A級 九段
+    cv: 竹内良太
+    editor:
+      anime:
+        score: 84
+        note: 名人戦の挑戦者として宗谷と戦ったが、名人位には届いていない。
+        evidence:
+          - "第2期 第2話: 名人戦で宗谷冬司に挑戦したが、名人位は取れなかった"
+      manga:
+        score: 85
+        note: 名人戦に4期連続で挑戦し、あと1勝まで迫った期もある。
+        evidence:
+          - "名人戦: 第66〜69期に4期連続で宗谷冬司に挑戦し、第69期はあと1勝まで迫った"
+  - id: goto
+    name: 後藤正宗
+    affiliation: A級 九段
+    cv: 東地宏樹
+    editor:
+      anime:
+        score: 84
+        note: 獅子王戦で三角に勝って勝ち上がったが、挑戦者決定戦で島田に敗れた。
+        evidence:
+          - "第1期 第13話: 獅子王戦トーナメントで三角龍雪に勝った"
+          - "第1期 第15〜16話: 獅子王戦の挑戦者決定戦で島田開に敗れた"
+      manga:
+        score: 84
+        note: 原作でも評価は変わらない。
+  - id: kiriyama
+    name: 桐山零
+    affiliation: 五段（のち六段）
+    cv: 河西健吾
+    editor:
+      anime:
+        score: 80
+        note: 新人王を取った中学生棋士。獅子王戦では島田に、記念対局では宗谷に敗れた。
+        evidence:
+          - "第1期 第12話: 獅子王戦トーナメントで辻井武史に勝った"
+          - "第1期 第13〜14話: 獅子王戦トーナメントで島田開に敗れた"
+          - "第2期 第9〜11話: 新人王戦決勝で山崎順慶に勝ち、新人王になった"
+      manga:
+        score: 87
+        note: 棋竜の藤本に勝ち、獅子王戦では二海堂と島田を破った。オープン戦では辻井に完敗した。
+        evidence:
+          - "大阪での対局: 藤本雷堂に勝った"
+          - "獅子王戦: 決勝トーナメントで二海堂晴信と島田開に勝った"
+          - "東洋新聞社オープントーナメント: 辻井武史に完敗した"
+  - id: fujimoto
+    name: 藤本雷堂
+    affiliation: 棋竜
+    cv: 大塚明夫
+    appears: manga
+    editor:
+      manga:
+        score: 80
+        note: 棋竜のタイトル保持者。零に敗れ、棋竜戦では土橋にストレートで失冠した。
+        evidence:
+          - "大阪での対局: 失着から敗勢になり、桐山零に敗れた"
+          - "棋竜戦: 土橋健司に0勝3敗で敗れ、棋竜位を失った"
+  - id: tsujii
+    name: 辻井武史
+    affiliation: A級 九段
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 76
+        note: A級棋士だが、作中の対局では獅子王戦で零に敗れた。
+        evidence:
+          - "第1期 第12話: 獅子王戦トーナメントで桐山零に敗れた"
+      manga:
+        score: 81
+        note: オープン戦で零に完勝した。
+        evidence:
+          - "東洋新聞社オープントーナメント: 桐山零に完勝した"
+  - id: nikaido
+    name: 二海堂晴信
+    affiliation: 五段 零のライバル
+    cv: 岡本信彦
+    editor:
+      anime:
+        score: 72
+        note: 新人王戦で準決勝まで進んだが、対局中に体調を崩して山崎に敗れた。
+        evidence:
+          - "第2期 第8話: 新人王戦準決勝で山崎順慶に敗れた"
+      manga:
+        score: 72
+        note: 獅子王戦で零と熱戦の末に敗れた。評価は変わらない。
+        evidence:
+          - "獅子王戦: 決勝トーナメントで桐山零に敗れた"
+  - id: yamazaki
+    name: 山崎順慶
+    affiliation: 五段
+    cv: 安元洋貴
+    editor:
+      anime:
+        score: 66
+        note: 新人王戦で二海堂に勝って決勝に進んだが、零に敗れた。
+        evidence:
+          - "第2期 第8〜10話: 新人王戦準決勝で二海堂晴信に勝った"
+          - "第2期 第9〜11話: 新人王戦決勝で桐山零に敗れた"
+      manga:
+        score: 66
+        note: 原作でも評価は変わらない。
+  - id: mitsukado
+    name: 三角龍雪
+    affiliation: 六段
+    cv: 杉田智和
+    editor:
+      anime:
+        score: 64
+        note: 獅子王戦トーナメントで後藤に敗れた。
+        evidence:
+          - "第1期 第13話: 獅子王戦トーナメントで後藤正宗に敗れた"
+      manga:
+        score: 64
+        note: 原作でも評価は変わらない。
+  - id: yasui
+    name: 安井学
+    affiliation: 六段
+    cv: 岩田光央
+    editor:
+      anime:
+        score: 56
+        note: 零との対局で中盤のミスから立て直せずに敗れた。
+        evidence:
+          - "第1期 第10話: 桐山零との対局で中盤のミスから戦意を失い、敗れた"
+      manga:
+        score: 56
+        note: 原作でも評価は変わらない。
