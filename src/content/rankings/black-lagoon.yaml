@@ -2,14 +2,14 @@ work: BLACK LAGOON
 title: BLACK LAGOON 最強キャラランキング
 description: BLACK LAGOONの最強キャラをアニメ勢・漫画・原作勢に分けてティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
 published: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-24
 bases:
   - id: anime
     label: アニメ勢
-    range: TVアニメ第1期・第2期『The Second Barrage』（全24話）＋OVA『Roberta's Blood Trail』（全5巻、El Baile de la muerte編）まで
+    range: TVアニメ第1期・第2期『The Second Barrage』（全24話）＋OVA『Roberta's Blood Trail』（全5話、El Baile de la muerte編）まで
   - id: manga
     label: 漫画・原作勢
-    range: 原作の単行本最新刊（14巻）まで（2026年10月時点）
+    range: 原作の単行本最新14巻（2026年8月発売）まで
 services: [cmoa, ebookjapan, dmmbooks]
 related: []
 candidates:
@@ -20,11 +20,11 @@ candidates:
     editor:
       anime:
         score: 94
-        note: 元ゲリラの戦闘メイド。レヴィと決着がつかず、ロアナプラで敵の部隊を次々に返り討ちにした。
+        note: 元FARCのゲリラの戦闘メイド。カルテルの手勢をほぼ一人で片づけ、レヴィとは撃ち合いでも殴り合いでも決着がつかなかった。
         evidence:
-          - "Rasta Blasta編: レヴィと一対一で戦い、バラライカの調停で矛を収めた"
-          - "El Baile de la muerte編: 廃ビルでシェンホアの柳葉刀を折って退けた"
-          - "El Baile de la muerte編: FARCの部隊を返り討ちにし、アルベルトを撲殺した"
+          - "第9話: カルテルの手勢のほとんどを倒し、手榴弾でレヴィを気絶させた"
+          - "第10話: レヴィと互角に撃ち合い、バラライカに止められた後の殴り合いで共倒れになった"
+          - "OVA第4話: シェンホア、ソーヤー、ロットンの3人を殺さずに倒した"
       manga:
         score: 94
         note: 原作の最新刊まででも評価は変わらない。
@@ -35,16 +35,27 @@ candidates:
     editor:
       anime:
         score: 91
-        note: 二挺拳銃の使い手。ロベルタとは引き分け、日本では銀次との決闘に勝った。
+        note: 二挺拳銃の使い手。ロベルタとは引き分け、日本では銃弾を斬る銀次との決闘に勝った。
         evidence:
-          - "Chase for ring-ding ships編: ルアクの海賊船団を仲間ごと殲滅した"
-          - "Rasta Blasta編: ロベルタと一対一で戦い、決着がつかなかった"
-          - "Fujiyama Gangsta Paradise編: 松崎銀次との決闘に勝った"
+          - "第3話: M79とPM-63でルアクの海賊船を次々に仕留めた"
+          - "第10話: ロベルタと互角に撃ち合い、決着がつかなかった"
+          - "第24話: 松崎銀次との決闘で銀次を撃ち、致命傷を負わせた"
       manga:
         score: 91
         note: 原作の最新刊まででも評価は変わらない。
+  - id: chang
+    name: 張維新
+    affiliation: 三合会（香港マフィア） 頭目
+    cv: 森川智之
+    editor:
+      anime:
+        score: 89
+        note: 香港マフィアの頭目で、拳銃の腕が立つ。レヴィと並んで襲撃を退けた。
         evidence:
-          - "The Wired Red Wild Card編: 変装して馮亦菲を狙った暗殺者を射殺した"
+          - "第11話: レヴィとともに襲撃を退けた"
+      manga:
+        score: 89
+        note: 原作の最新刊まででも評価は変わらない。
   - id: ginji
     name: 松崎銀次
     affiliation: 鷲峰組 若頭代行
@@ -52,9 +63,10 @@ candidates:
     editor:
       anime:
         score: 88
-        note: 日本刀を使うヤクザ。レヴィと互角に斬り合った末に敗れた。
+        note: 日本刀を使うヤクザ。銃弾を刀で斬り落とすほどの腕を持つが、レヴィとの決闘に敗れた。
         evidence:
-          - "Fujiyama Gangsta Paradise編: レヴィと互角の決闘を演じたが、敗れて死亡した"
+          - "第22話: 銃弾を刀で両断し、チャカの両腕を斬り落とした"
+          - "第24話: レヴィとの決闘で撃たれ、命を落とした"
       manga:
         score: 88
         note: 原作の最新刊まででも評価は変わらない。
@@ -65,10 +77,11 @@ candidates:
     editor:
       anime:
         score: 86
-        note: 元軍人の部下を率いるロシアン・マフィアの頭目。部下を殺した双子を罠にかけて仕留めた。
+        note: 元軍人の部下を率いるロシアン・マフィアの頭目。部下を殺した双子に報復し、日本では敵対する組の頭を自ら仕留めた。
         evidence:
-          - "Bloodsport Fairytale編: 罠に飛び込んだヘンゼルを仕留めた"
-          - "Rasta Blasta編: レヴィとロベルタの戦いを調停して止めた"
+          - "第10話: レヴィとロベルタの撃ち合いを止めた"
+          - "第15話: 部下の狙撃でヘンゼルを仕留めた"
+          - "第24話: 日本で敵対していた組織のトップを自ら殺した"
       manga:
         score: 86
         note: 原作の最新刊まででも評価は変わらない。
@@ -79,25 +92,25 @@ candidates:
     editor:
       anime:
         score: 80
-        note: 拳銃の腕が高いシスター。一対一でラッセルを破り、レヴィと組んでシェンホアを退けた。
+        note: 拳銃の腕が高いシスター。賞金稼ぎの騒動でシェンホアを撃ち、ラッセルを仕留めた。
         evidence:
-          - "Greenback Jane編: ラッセルとの一対一に勝った"
-          - "Greenback Jane編: レヴィと組んでシェンホアを破った"
+          - "第18話: レヴィの囮に引っかかったシェンホアを撃った"
+          - "第18話: 機関室でラッセルを殺した"
       manga:
-        score: 81
-        note: 原作では殺し屋を相手にしても後れを取らなかった。
-        evidence:
-          - "The Wired Red Wild Card編: 殺し屋モンテロを背後から金属バットで殴り、屋上から転落死させた"
+        score: 80
+        note: 原作の最新刊まででも評価は変わらない。
   - id: twins
     name: ヘンゼルとグレーテル
     affiliation: 双子の殺し屋
+    cv: 南央美／金田朋子
     editor:
       anime:
         score: 80
         note: ロアナプラでホテル・モスクワの構成員を手にかけた双子。バラライカの報復を受けて2人とも死亡した。
         evidence:
-          - "Bloodsport Fairytale編: ホテル・モスクワの構成員を手にかけた"
-          - "Bloodsport Fairytale編: ヘンゼルはバラライカの罠で殺され、グレーテルは逃がし屋に射殺された"
+          - "第13話: ロアナプラでホテル・モスクワの構成員を殺し始めた"
+          - "第14話: マフィアのボスのヴェロッキオを殺した"
+          - "第15話: ヘンゼルはバラライカの部下に狙撃され、グレーテルは逃亡先でホテル・モスクワの雇った殺し屋に撃たれた"
       manga:
         score: 80
         note: 原作の最新刊まででも評価は変わらない。
@@ -108,25 +121,27 @@ candidates:
     editor:
       anime:
         score: 76
-        note: 柳葉刀と飛刀を使う。レヴィとエダの2人に敗れ、ロベルタには刀を折られた。
+        note: 刃物を使う殺し屋。レヴィとともにロックを救出したが、賞金稼ぎの騒動ではエダに撃たれ、ロベルタには殺さずに倒された。
         evidence:
-          - "Greenback Jane編: ラグーン商会の事務所でレヴィとエダに敗れた"
-          - "El Baile de la muerte編: 廃ビルでロベルタと戦い、柳葉刀を折られた"
+          - "第12話: レヴィとともに武装勢力のキャンプを襲い、ロックを救出した"
+          - "第18話: レヴィの囮に引っかかり、エダに撃たれた"
+          - "OVA第4話: ロベルタに殺さずに倒された"
       manga:
         score: 76
         note: 原作の最新刊まででも評価は変わらない。
-  - id: fabiola
-    name: ファビオラ
-    affiliation: ラブレス家 メイド見習い
-    cv: 雪野五月
+  - id: dutch
+    name: ダッチ
+    affiliation: ラグーン商会 ボス
+    cv: 磯部勉
     editor:
       anime:
-        score: 72
-        note: 我流のカポエイラと散弾銃で戦う。ロアナプラの酒場を半壊させる騒ぎを起こした。
+        score: 74
+        note: ショットガンとリボルバーを使うラグーン商会のボス。操船で海賊船同士をぶつけ合わせるなど、頭も切れる。
         evidence:
-          - "El Baile de la muerte編: イエローフラッグを半壊させた"
+          - "第6話: レヴィとともにネオナチの船に乗り込み、ラッチマンを倒した"
+          - "第9話: ロベルタの乗った車のエンジンを止めた"
       manga:
-        score: 72
+        score: 74
         note: 原作の最新刊まででも評価は変わらない。
   - id: sawyer
     name: ソーヤー
@@ -135,9 +150,10 @@ candidates:
     editor:
       anime:
         score: 70
-        note: 大型チェーンソーを軽々と振り回す。人工声帯を落としてから取り乱した。
+        note: 銃弾をはじくほど大型チェーンソーを正確に扱う。人工声帯で話す。
         evidence:
-          - "Greenback Jane編: シェンホアと組んで暴れたが、人工声帯を落として取り乱した"
+          - "第18話: 爆発で人工声帯を失った"
+          - "OVA第4話: ロベルタに殺さずに倒された"
       manga:
         score: 70
         note: 原作の最新刊まででも評価は変わらない。
@@ -147,12 +163,12 @@ candidates:
     cv: 小川真司
     editor:
       anime:
-        score: 68
-        note: 特殊部隊を率いる少佐。ロベルタに部隊を襲われ、自ら投降を申し出た。
+        score: 64
+        note: ロベルタの復讐の標的になった特殊部隊の指揮官。最後は部下に戦闘をやめさせた。
         evidence:
-          - "El Baile de la muerte編: ロベルタに部隊を襲われ、部下を失った末に投降を申し出た"
+          - "OVA第5話: ガルシアとロベルタのやり取りの後、部下に戦闘をやめさせた"
       manga:
-        score: 68
+        score: 64
         note: 原作の最新刊まででも評価は変わらない。
   - id: lotton
     name: ロットン
@@ -161,9 +177,10 @@ candidates:
     editor:
       anime:
         score: 52
-        note: 名乗りを優先して隙をさらす。まともに戦う前に撃たれた。
+        note: 戦いの腕は心もとないが、危ない場面を何度も生き延びている。
         evidence:
-          - "Greenback Jane編: 名乗りの最中に撃たれて退場した"
+          - "第18話: レヴィに撃たれたが、防弾ベストで助かった"
+          - "OVA第4話: ロベルタに殺さずに倒された"
       manga:
         score: 52
         note: 原作の最新刊まででも評価は変わらない。
@@ -174,9 +191,9 @@ candidates:
     editor:
       anime:
         score: 44
-        note: 戦う力はほとんどない少年。体を張ってロベルタを止めた。
+        note: 戦う力はほとんどない少年。撃たれて傷を負いながら、復讐に走るロベルタを説得した。
         evidence:
-          - "El Baile de la muerte編: 体を張った説得でロベルタを正気に戻した"
+          - "OVA第5話: ロベルタに撃たれて傷を負いながら、復讐では罪は償えないと説得した"
       manga:
         score: 44
         note: 原作の最新刊まででも評価は変わらない。
@@ -189,7 +206,7 @@ candidates:
         score: 40
         note: 銃は使えず身体能力も人並み。作戦を立てる役に回る。
         evidence:
-          - "Black Lagoon編: 魚雷をヘリに撃ち込み、E.O.社の大尉を倒した"
+          - "第2話: ロックの作戦が当たり、魚雷で戦闘ヘリを撃墜した"
       manga:
         score: 40
         note: 原作の最新刊まででも評価は変わらない。
