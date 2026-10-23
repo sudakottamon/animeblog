@@ -1,0 +1,204 @@
+work: 機動戦士ガンダムSEED
+title: 機動戦士ガンダムSEED 最強パイロットランキング
+description: 機動戦士ガンダムSEEDシリーズ（SEED・SEED DESTINY・劇場版FREEDOM）の最強パイロットをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TV『機動戦士ガンダムSEED』『機動戦士ガンダムSEED DESTINY』と劇場版『機動戦士ガンダムSEED FREEDOM』（2024年）まで
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: kira
+    name: キラ・ヤマト
+    affiliation: アークエンジェル → コンパス
+    cv: 保志総一朗
+    editor:
+      anime:
+        score: 98
+        note: パイロットとしての操縦技量で判定。SEEDでクルーゼを破り、DESTINYではレイのレジェンドを退けた。劇場版ではラクスと組んでオルフェを倒した。
+        evidence:
+          - "SEED 最終決戦: フリーダムでクルーゼのプロヴィデンスを破った"
+          - "DESTINY 最終決戦: ストライクフリーダムでレイを倒した"
+          - "劇場版FREEDOM: ラクスと乗るマイティーストライクフリーダムでオルフェを倒した"
+  - id: athrun
+    name: アスラン・ザラ
+    affiliation: ザフト → オーブ
+    cv: 石田彰
+    editor:
+      anime:
+        score: 95
+        note: ジャスティス系の機体で戦うエース。DESTINYの最終決戦でシンのデスティニーを破り、劇場版ではシュラを倒した。
+        evidence:
+          - "SEED 第2次ヤキン・ドゥーエ攻防戦: ジャスティスでオルガを撃破した"
+          - "DESTINY 最終決戦: インフィニットジャスティスでデスティニーを破壊した"
+          - "劇場版FREEDOM: カガリの助けを得てシュラを倒した"
+  - id: shinn
+    name: シン・アスカ
+    affiliation: ザフト（ミネルバ隊）
+    cv: 鈴村健一
+    editor:
+      anime:
+        score: 92
+        note: キラの射撃の癖を突いてフリーダムを撃墜した。最終決戦ではアスランに敗れたが、劇場版ではブラックナイツを撃破した。
+        evidence:
+          - "DESTINY: 対策を練ってインパルスでフリーダムを撃墜した"
+          - "DESTINY 最終決戦: 月面でアスランと戦い、デスティニーを破壊された"
+          - "劇場版FREEDOM: デスティニーSpecIIでブラックナイツのルドラ3機を撃破した"
+  - id: rau
+    name: ラウ・ル・クルーゼ
+    affiliation: ザフト（クルーゼ隊 隊長）
+    cv: 関俊彦
+    editor:
+      anime:
+        score: 90
+        note: クルーゼ隊を率いた仮面のエース。SEED最終決戦でプロヴィデンスを駆ったが、キラのフリーダムに敗れた。
+        evidence:
+          - "SEED 最終決戦: フレイの乗る脱出艇を撃墜した"
+          - "SEED 最終決戦: キラに敗れ、ジェネシスの爆発に消えた"
+  - id: orphee
+    name: オルフェ・ラム・タオ
+    affiliation: ファウンデーション王国
+    cv: 下野紘
+    editor:
+      anime:
+        score: 88
+        note: イングリットとともに出撃し、シュラとともにキラを圧倒した。最後はキラとラクスに敗れた。
+        evidence:
+          - "劇場版FREEDOM: イングリット、シュラとともにキラを圧倒した"
+          - "劇場版FREEDOM: キラとラクスに敗れた"
+  - id: shura
+    name: シュラ・サーペンタイン
+    affiliation: ファウンデーション王国（ブラックナイツ）
+    cv: 中村悠一
+    editor:
+      anime:
+        score: 86
+        note: ブラックナイツの隊長格。オルフェとともにキラを圧倒したが、アスランに倒された。
+        evidence:
+          - "劇場版FREEDOM: オルフェとともにキラを圧倒した"
+          - "劇場版FREEDOM: インフィニットジャスティスのアスランに倒された"
+  - id: mu
+    name: ムウ・ラ・フラガ
+    affiliation: 地球連合軍 → アークエンジェル
+    cv: 子安武人
+    editor:
+      anime:
+        score: 84
+        note: 「エンデュミオンの鷹」と呼ばれたナチュラルのエース。ストライクでローエングリンを受け止め、アークエンジェルを守った。
+        evidence:
+          - "SEED 最終決戦: ローエングリンの直撃を受け止めてアークエンジェルを守った"
+          - "DESTINY: 陽電子砲を防いで味方を守った"
+  - id: rey
+    name: レイ・ザ・バレル
+    affiliation: ザフト（ミネルバ隊）
+    cv: 関俊彦
+    editor:
+      anime:
+        score: 84
+        note: レジェンドを駆る赤服。ジブリールのガーティ・ルーを沈めたが、最終決戦でキラに敗れた。
+        evidence:
+          - "DESTINY: ガーティ・ルーを撃沈し、ジブリールを討った"
+          - "DESTINY 最終決戦: キラのストライクフリーダムに敗れた"
+  - id: yzak
+    name: イザーク・ジュール
+    affiliation: ザフト（ジュール隊 隊長）
+    cv: 関智一
+    editor:
+      anime:
+        score: 80
+        note: デュエルで戦った赤服。第2次ヤキン・ドゥーエでシャニを討ち、クロトのレイダーも破壊した。
+        evidence:
+          - "SEED 第2次ヤキン・ドゥーエ攻防戦: デュエルでシャニを討った"
+          - "SEED 第2次ヤキン・ドゥーエ攻防戦: クロトのレイダーを破壊した"
+  - id: waltfeld
+    name: アンドリュー・バルトフェルド
+    affiliation: ザフト → アークエンジェル陣営
+    cv: 置鮎龍太郎
+    editor:
+      anime:
+        score: 78
+        note: 「砂漠の虎」と呼ばれた指揮官。砂漠でキラのストライクに敗れた。
+        evidence:
+          - "SEED: キラのストライクに敗れた"
+  - id: stella
+    name: ステラ・ルーシェ
+    affiliation: 地球連合軍（ファントムペイン）
+    cv: 桑島法子
+    editor:
+      anime:
+        score: 78
+        note: エクステンデッド。ガイアでハイネを討ったが、シンにガイアを落とされ、最後はデストロイで出撃してフリーダムに討たれた。
+        evidence:
+          - "DESTINY: ガイアでハイネのグフイグナイテッドを両断した"
+          - "DESTINY: 単独で襲撃したガイアをシンに撃破された"
+          - "DESTINY ベルリン: デストロイで出撃し、フリーダムに撃破された"
+  - id: dearka
+    name: ディアッカ・エルスマン
+    affiliation: ザフト → アークエンジェル → ザフト
+    cv: 笹沼晃
+    editor:
+      anime:
+        score: 75
+        note: バスターの砲撃戦を得意とする赤服。劇場版ではイザークとザフトの反乱艦隊の鎮圧に加わった。
+        evidence:
+          - "劇場版FREEDOM: イザークとともにザフトの反乱艦隊の鎮圧に加わった"
+  - id: lunamaria
+    name: ルナマリア・ホーク
+    affiliation: ザフト（ミネルバ隊）
+    cv: 坂本真綾
+    editor:
+      anime:
+        score: 74
+        note: ミネルバ隊の赤服。劇場版でライバルのアグネスを戦闘不能にした。
+        evidence:
+          - "劇場版FREEDOM: 寝返ったアグネスを戦闘不能にした"
+  - id: heine
+    name: ハイネ・ヴェステンフルス
+    affiliation: ザフト（FAITH）
+    cv: 西川貴教
+    editor:
+      anime:
+        score: 72
+        note: FAITHのパイロット。フリーダムに機体を損傷させられ、その隙にガイアに討たれた。
+        evidence:
+          - "DESTINY: グフイグナイテッドをフリーダムに損傷させられ、ガイアに両断された"
+  - id: agnes
+    name: アグネス・ギーベンラート
+    affiliation: コンパス → ファウンデーション
+    editor:
+      anime:
+        score: 72
+        note: コンパスを裏切り、ブラックナイツがキラを破るのに手を貸した。最後はルナマリアに止められた。
+        evidence:
+          - "劇場版FREEDOM: 寝返ってブラックナイツのキラ撃破に手を貸した"
+          - "劇場版FREEDOM: ルナマリアに戦闘不能にされた"
+  - id: lacus
+    name: ラクス・クライン
+    affiliation: コンパス 初代総裁
+    cv: 田中理恵
+    editor:
+      anime:
+        score: 70
+        note: 指導者で、自ら戦うのは劇場版でキラと機体に同乗した場面に限られる。
+        evidence:
+          - "劇場版FREEDOM: キラとマイティーストライクフリーダムに乗り、ファウンデーションの機体と艦を撃破した"
+  - id: nicol
+    name: ニコル・アマルフィ
+    affiliation: ザフト（クルーゼ隊）
+    editor:
+      anime:
+        score: 66
+        note: ブリッツのパイロット。アスランをかばってキラのストライクに討たれた。
+        evidence:
+          - "SEED オーブ近海: アスランをかばってキラに討たれた"
+  - id: cagalli
+    name: カガリ・ユラ・アスハ
+    affiliation: オーブ首長
+    editor:
+      anime:
+        score: 60
+        note: ストライクルージュやアカツキで出撃するが、目立った戦果は少ない。
+        evidence:
+          - "劇場版FREEDOM: アスランがシュラを倒すのを助けた"

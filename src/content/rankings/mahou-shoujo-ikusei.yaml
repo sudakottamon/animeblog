@@ -1,0 +1,180 @@
+work: 魔法少女育成計画
+title: 魔法少女育成計画 最強キャラランキング
+description: 魔法少女育成計画（まほいく）のN市の魔法少女16人から最強キャラをティア表で決めます。候補キャラを全員並べて投稿すると、みんなのティア表に反映されます。
+published: 2026-10-23
+updated: 2026-10-23
+bases:
+  - id: anime
+    label: アニメ勢
+    range: TVアニメ第1期（2016年、全12話）まで。2026年10月放送開始の『restart』と原作小説の続編は対象外
+services: [cmoa, ebookjapan, dmmbooks]
+related: []
+candidates:
+  - id: cranberry
+    name: 森の音楽家クラムベリー
+    affiliation: N市の魔法少女・試験官
+    cv: 緒方恵美
+    editor:
+      anime:
+        score: 93
+        note: 殺し合いの試験を仕組んだベテラン。ラ・ピュセルとミナエルを戦いで殺したが、最後はたまに倒された。
+        evidence:
+          - "第6話: ラ・ピュセルと戦い、殺した"
+          - "第10話: ミナエルを殺した"
+          - "第11話: たまに倒されて死亡した"
+  - id: ripple
+    name: リップル
+    affiliation: N市の魔法少女
+    cv: 沼倉愛美
+    editor:
+      anime:
+        score: 91
+        note: 投げた物を狙い通りに当てる。カラミティ・メアリとスイムスイムを倒し、片目と片腕を失いながら生き残った。
+        evidence:
+          - "第9話: カラミティ・メアリを手裏剣で倒した"
+          - "第12話: 閃光弾でスイムスイムの動きを止めて倒した"
+          - "第12話: 片目と片腕を失って生き残った"
+  - id: swimswim
+    name: スイムスイム
+    affiliation: N市の魔法少女・ルーラのチーム
+    cv: 水瀬いのり
+    editor:
+      anime:
+        score: 90
+        note: 物理攻撃をすり抜ける魔法で、トップスピード、ウィンタープリズン、ハードゴア・アリス、たまを殺した。最後はリップルに倒された。
+        evidence:
+          - "第8話: ウィンタープリズンを殺した"
+          - "第9話: トップスピードを殺した"
+          - "第12話: リップルの閃光弾を受けて倒された"
+  - id: calamity-mary
+    name: カラミティ・メアリ
+    affiliation: N市の魔法少女
+    cv: 井上喜久子
+    editor:
+      anime:
+        score: 84
+        note: 銃火器で周囲を脅かした武闘派。リップルとの戦いで手裏剣を受けて死亡した。
+        evidence:
+          - "第9話: リップルと戦い、手裏剣を受けて死亡した"
+  - id: winter-prison
+    name: ヴェス・ウィンタープリズン
+    affiliation: N市の魔法少女
+    cv: 小林ゆう
+    editor:
+      anime:
+        score: 82
+        note: 壁を作る魔法で戦う。ユナエルを殺したが、直後にスイムスイムに殺された。
+        evidence:
+          - "第8話: ユナエルを殺した"
+          - "第8話: スイムスイムに殺された"
+  - id: hardgore-alice
+    name: ハードゴア・アリス
+    affiliation: N市の魔法少女
+    cv: 日高里菜
+    editor:
+      anime:
+        score: 80
+        note: 首を落とされても再生する。マジカロイド44を返り討ちにしたが、変身前の姿を狙われて死亡した。
+        evidence:
+          - "第6話: マジカロイド44に首を落とされたが再生し、マジカロイド44を殺した"
+          - "第10話: 変身前の姿でスイムスイムに殺された"
+  - id: tama
+    name: たま
+    affiliation: N市の魔法少女・ルーラのチーム
+    cv: 西明日香
+    editor:
+      anime:
+        score: 74
+        note: 穴を開ける魔法の持ち主。クラムベリーを倒したが、直後にスイムスイムに殺された。
+        evidence:
+          - "第11話: クラムベリーを倒した"
+          - "第11話: スイムスイムに殺された"
+  - id: la-pucelle
+    name: ラ・ピュセル
+    affiliation: N市の魔法少女
+    editor:
+      anime:
+        score: 72
+        note: 大きさを変えられる剣で戦う騎士。クラムベリーとの一騎打ちに敗れて死亡した。
+        evidence:
+          - "第6話: クラムベリーとの戦いに敗れて死亡した"
+  - id: top-speed
+    name: トップスピード
+    affiliation: N市の魔法少女
+    cv: 内山夕実
+    editor:
+      anime:
+        score: 66
+        note: 箒で高速飛行する。リップルの相棒として動いたが、スイムスイムに殺された。
+        evidence:
+          - "第9話: スイムスイムに殺された"
+  - id: magicaloid44
+    name: マジカロイド44
+    affiliation: N市の魔法少女
+    cv: 新井里美
+    editor:
+      anime:
+        score: 62
+        note: ハードゴア・アリスの首を落としたが、再生した相手に返り討ちにされた。
+        evidence:
+          - "第6話: ハードゴア・アリスの首を落としたが、再生したアリスに殺された"
+  - id: minael
+    name: ミナエル
+    affiliation: N市の魔法少女・ルーラのチーム
+    cv: 松田利冴
+    editor:
+      anime:
+        score: 60
+        note: ルーラのチームで双子の天使の片割れ。クラムベリーに殺された。
+        evidence:
+          - "第10話: クラムベリーに殺された"
+  - id: yunael
+    name: ユナエル
+    affiliation: N市の魔法少女・ルーラのチーム
+    cv: 松田颯水
+    editor:
+      anime:
+        score: 58
+        note: ルーラのチームで双子の天使の片割れ。ウィンタープリズンに殺された。
+        evidence:
+          - "第8話: ウィンタープリズンに殺された"
+  - id: ruler
+    name: ルーラ
+    affiliation: N市の魔法少女・チームのリーダー
+    cv: 日笠陽子
+    editor:
+      anime:
+        score: 56
+        note: 命令に従わせる魔法でチームを率いたが、スイムスイムの裏切りで脱落した。
+        evidence:
+          - "第4話: スイムスイムの裏切りで週のランキング最下位になり、死亡した"
+  - id: snow-white
+    name: スノーホワイト
+    affiliation: N市の魔法少女
+    cv: 東山奈央
+    editor:
+      anime:
+        score: 52
+        note: 困っている人の心の声が聞こえる。第1期では戦って誰かを倒した場面はなく、周囲に守られて生き残った。
+        evidence:
+          - "第12話: 試験を生き残り、半年後にリップルと特訓していた"
+  - id: sister-nana
+    name: シスターナナ
+    affiliation: N市の魔法少女
+    cv: 早見沙織
+    editor:
+      anime:
+        score: 38
+        note: 戦闘の描写はほとんどない。ウィンタープリズンの死後、自ら命を絶った。
+        evidence:
+          - "第9話: ウィンタープリズンの死後に自殺した"
+  - id: nemurin
+    name: ねむりん
+    affiliation: N市の魔法少女
+    cv: 花守ゆみり
+    editor:
+      anime:
+        score: 30
+        note: 夢の中で活動する魔法少女。戦う場面はなく、最初の脱落者になった。
+        evidence:
+          - "第2話: 最初のランキングで脱落し、翌朝死亡しているのが見つかった"

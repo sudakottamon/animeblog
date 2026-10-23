@@ -180,12 +180,12 @@
 - [x] `gate` ゲート 自衛隊 彼の地にて、斯く戦えり
 
 ## バッチ 23
-- [ ] `bofuri` 痛いのは嫌なので防御力に極振りしたいと思います。
-- [ ] `tondemo-skill` とんでもスキルで異世界放浪メシ
-- [ ] `mahou-shoujo-ikusei` 魔法少女育成計画
-- [ ] `code-geass` コードギアス 反逆のルルーシュ（ナイトメアの操縦と戦闘力で判定）
-- [ ] `gundam-uc` 機動戦士ガンダム（宇宙世紀）（パイロットを対象。対象作品を range で明示）
-- [ ] `gundam-seed` 機動戦士ガンダムSEED（SEED DESTINY・劇場版FREEDOMを含む）
+- [x] `bofuri` 痛いのは嫌なので防御力に極振りしたいと思います。
+- [x] `tondemo-skill` とんでもスキルで異世界放浪メシ
+- [x] `mahou-shoujo-ikusei` 魔法少女育成計画
+- [x] `code-geass` コードギアス 反逆のルルーシュ（ナイトメアの操縦と戦闘力で判定）
+- [x] `gundam-uc` 機動戦士ガンダム（宇宙世紀）（パイロットを対象。対象作品を range で明示）
+- [x] `gundam-seed` 機動戦士ガンダムSEED（SEED DESTINY・劇場版FREEDOMを含む）
 
 ## バッチ 24
 - [x] `gundam-00` 機動戦士ガンダム00
